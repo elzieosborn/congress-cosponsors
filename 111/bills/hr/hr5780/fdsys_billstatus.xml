@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>5780</number>
+    <updateDate>2023-01-11T13:21:55Z</updateDate>
+    <updateDateIncludingText>2023-01-11T13:21:55Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2010-07-20</introducedDate>
+    <congress>111</congress>
+    <committees>
+      <item>
+        <systemCode>hssy00</systemCode>
+        <name>Science, Space, and Technology Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hssy20</systemCode>
+            <name>Energy Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2010-07-23T19:29:47Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2010-07-20T14:32:42Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hspw00</systemCode>
+        <name>Transportation and Infrastructure Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hspw02</systemCode>
+            <name>Water Resources and Environment Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2010-07-21T16:21:29Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2010-07-20T14:32:41Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsii00</systemCode>
+        <name>Natural Resources Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsii06</systemCode>
+            <name>Energy and Mineral Resources Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2010-07-21T14:32:12Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2010-07-20T14:32:39Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hswm00</systemCode>
+        <name>Ways and Means Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2010-07-20T14:32:40Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsif00</systemCode>
+        <name>Energy and Commerce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2010-07-20T14:31:54Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2010-07-23</actionDate>
+        <committees>
+          <item>
+            <systemCode>hssy20</systemCode>
+            <name>Energy Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Energy and Environment.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2010-07-21</actionDate>
+        <committees>
+          <item>
+            <systemCode>hspw02</systemCode>
+            <name>Water Resources and Environment Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Water Resources and Environment.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2010-07-21</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii06</systemCode>
+            <name>Energy and Mineral Resources Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Energy and Mineral Resources.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2010-07-20</actionDate>
+        <text>Referred to House Science and Technology</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hssy00</systemCode>
+            <name>Science, Space, and Technology Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2010-07-20</actionDate>
+        <text>Referred to House Transportation and Infrastructure</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hspw00</systemCode>
+            <name>Transportation and Infrastructure Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2010-07-20</actionDate>
+        <text>Referred to House Ways and Means</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hswm00</systemCode>
+            <name>Ways and Means Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2010-07-20</actionDate>
+        <text>Referred to House Natural Resources</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2010-07-20</actionDate>
+        <text>Referred to the Committee on Energy and Commerce, and in addition to the Committees on Natural Resources, Ways and Means, Transportation and Infrastructure, and Science and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100-A</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2010-07-20</actionDate>
+        <text>Referred to House Energy and Commerce</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2010-07-20</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2010-07-20</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>P000595</bioguideId>
+        <fullName>Rep. Peters, Gary C. [D-MI-9]</fullName>
+        <firstName>Gary</firstName>
+        <lastName>Peters</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <district>9</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>W000800</bioguideId>
+        <fullName>Rep. Welch, Peter [D-VT-At Large]</fullName>
+        <firstName>Peter</firstName>
+        <lastName>Welch</lastName>
+        <party>D</party>
+        <state>VT</state>
+        <district>0</district>
+        <sponsorshipDate>2010-07-20</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Energy</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Advanced technology and technological innovations</name>
+        </item>
+        <item>
+          <name>Budget deficits and national debt</name>
+        </item>
+        <item>
+          <name>Business investment and capital</name>
+        </item>
+        <item>
+          <name>Electric power generation and transmission</name>
+        </item>
+        <item>
+          <name>Energy research</name>
+        </item>
+        <item>
+          <name>Energy storage, supplies, demand</name>
+        </item>
+        <item>
+          <name>Government buildings, facilities, and property</name>
+        </item>
+        <item>
+          <name>Income tax credits</name>
+        </item>
+        <item>
+          <name>Income tax deductions</name>
+        </item>
+        <item>
+          <name>Licensing and registrations</name>
+        </item>
+        <item>
+          <name>Mining</name>
+        </item>
+        <item>
+          <name>Nevada</name>
+        </item>
+        <item>
+          <name>Oil and gas</name>
+        </item>
+        <item>
+          <name>Public utilities and utility rates</name>
+        </item>
+        <item>
+          <name>Radioactive wastes and releases</name>
+        </item>
+        <item>
+          <name>Research administration and funding</name>
+        </item>
+        <item>
+          <name>Research and development</name>
+        </item>
+        <item>
+          <name>Technology transfer and commercialization</name>
+        </item>
+        <item>
+          <name>Wyoming</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Energy</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2010-07-20</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2010-09-08T16:39:55Z</updateDate>
+        <text><![CDATA[ <p>Reduce and End our Deficits Using Commonsense Eliminations in the Energy Program Act of 2010 - Amends the Surface Mining Control and Reclamation Act of 1977 to terminate allocations of abandoned mine reclamation fees, except payments for health benefits, to states and Indian tribes that are certified to have completed coal mining reclamation.</p>   <p>Amends the Internal Revenue Code to terminate: (1) the enhanced oil recovery credit; (2) the credit for oil and gas produced from marginal wells; (3) the expensing of intangible drilling costs; (4) the deduction for tertiary injectants; (5) the exception to the passive loss limitation for working interests in oil and natural gas properties; (6) the percentage depletion deduction for oil and natural gas wells; and (7) the domestic manufacturing tax deduction for oil and natural gas companies.</p> <p>Increases to seven years the geological and geophysical amortization period for independent producers.</p> <p>Amends the Energy Policy Act of 2005 to repeal authority for: (1) the oil and gas research programs; (2) the low-volume oil and gas reservoir program; and (3) the Complex Well Technology Testing Facility at the Rocky Mountain Oilfield Testing Center.</p> <p>Instructs the Secretary of Energy to: (1) discontinue the application before the Nuclear Regulatory Commission (NRC) for a license to construct a high-level nuclear waste geologic repository at Yucca Mountain, Nevada; (2) plan for the sale of federally owned and operated electric energy generation facilities under the supervision of, or working in coordination with, the Southeastern Power Administration (SEPA); and (3) terminate SEPA following such sale. Excludes from such sale any dam, reservoir, or waterfront property.</p> <p>Directs the Tennessee Valley Authority (TVA) to sell the rights and assets of its electric power program. Excludes from the sale any hydroelectric power generation facility owned and operated by TVA (including dams and appurtenant works and structures).</p> <p>Deems the remaining net proceeds from any such sale, after offset for sale costs, to extinguish the outstanding debt repayable to the United States and attributable to the assets being sold.</p> <p>Amends the Energy Policy and Conservation Act to decrease the storage capacity of the Strategic Petroleum Reserve from 1 billion to 650 million barrels.</p> <p>Amends the Energy Policy Act of 2005 to repeal the Secretary's program authority for research, development, demonstration, and commercial application of technologies for ultra-deepwater and unconventional natural gas and other petroleum resource exploration and production.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Reduce and End our Deficits Using Commonsense Eliminations in the Energy Program Act of 2010</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Reduce and End our Deficits Using Commonsense Eliminations in the Energy Program Act of 2010</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To reduce deficits and government spending through the elimination of wasteful energy subsidies and programs.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Reduce and End our Deficits Using Commonsense Eliminations in the Energy Program Act of 2010</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2010-07-20T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-111hr5780ih/xml/BILLS-111hr5780ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2010-07-23</actionDate>
+      <text>Referred to the Subcommittee on Energy and Environment.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

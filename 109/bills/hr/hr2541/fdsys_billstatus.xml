@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>2541</number>
+    <updateDate>2019-11-15T21:18:32Z</updateDate>
+    <updateDateIncludingText>2019-11-15T21:18:32Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2005-05-23</introducedDate>
+    <congress>109</congress>
+    <committees>
+      <item>
+        <systemCode>hsif00</systemCode>
+        <name>Energy and Commerce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2005-06-17T15:35:45Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2005-05-23T16:34:10Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2005-06-17</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2005-05-23</actionDate>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2005-05-23</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2005-05-23</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>K000210</bioguideId>
+        <fullName>Rep. King, Peter T. [R-NY-3]</fullName>
+        <firstName>PETER</firstName>
+        <lastName>KING</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <middleName>T.</middleName>
+        <district>3</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>S000522</bioguideId>
+        <fullName>Rep. Smith, Christopher H. [R-NJ-4]</fullName>
+        <firstName>CHRISTOPHER</firstName>
+        <lastName>SMITH</lastName>
+        <party>R</party>
+        <state>NJ</state>
+        <middleName>H.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2005-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>N000159</bioguideId>
+        <fullName>Rep. Norwood, Charles W. [R-GA-9]</fullName>
+        <firstName>CHARLES</firstName>
+        <lastName>NORWOOD</lastName>
+        <party>R</party>
+        <state>GA</state>
+        <middleName>W.</middleName>
+        <district>9</district>
+        <sponsorshipDate>2005-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>I000057</bioguideId>
+        <fullName>Rep. Israel, Steve [D-NY-2]</fullName>
+        <firstName>STEVE</firstName>
+        <lastName>ISRAEL</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <district>2</district>
+        <sponsorshipDate>2005-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001242</bioguideId>
+        <fullName>Rep. Bishop, Timothy H. [D-NY-1]</fullName>
+        <firstName>Timothy</firstName>
+        <lastName>Bishop</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>H.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2005-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Access to health care</name>
+        </item>
+        <item>
+          <name>Citizen participation</name>
+        </item>
+        <item>
+          <name>Communication in medicine</name>
+        </item>
+        <item>
+          <name>Communication in science</name>
+        </item>
+        <item>
+          <name>Cytology</name>
+        </item>
+        <item>
+          <name>Donation of organs, tissues, etc.</name>
+        </item>
+        <item>
+          <name>Economics and Public Finance</name>
+        </item>
+        <item>
+          <name>Federal aid to research</name>
+        </item>
+        <item>
+          <name>Genetic research</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Government publicity</name>
+        </item>
+        <item>
+          <name>Human experimentation in medicine</name>
+        </item>
+        <item>
+          <name>Medical research</name>
+        </item>
+        <item>
+          <name>Nonprofit organizations</name>
+        </item>
+        <item>
+          <name>Research centers</name>
+        </item>
+        <item>
+          <name>Research grants</name>
+        </item>
+        <item>
+          <name>Science, Technology, Communications</name>
+        </item>
+        <item>
+          <name>Social Welfare</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Health</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2005-05-23</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2005-08-08T19:18:02Z</updateDate>
+        <text><![CDATA[ <p>Joe Testaverde Adult Stem Cell Research Act of 2005 - Amends the Public Health Service Act to require the Director of the National Institutes of Health (NIH) to expand, intensify, and coordinate NIH activities regarding qualifying adult stem cell research. Defines &quot;qualifying adult stem cell&quot; to mean a human stem cell obtained from a human placenta, umbilical cord blood, an organ or tissue of a living or deceased human being who has been born, or an organ or tissue of unborn human offspring who died of natural causes (such as spontaneous abortion).</p> <p>Requires the Director to award grants and contracts to plan, establish, improve, and provide basic operating support for no less than five centers of excellence regarding such research. Requires each center to conduct basic and clinical research, including investigations into the cause, diagnosis, early detection, prevention, control, and treatment of disease. Allows a center to: (1) make individuals aware of opportunities to participate as subjects in research; and (2) provide referrals for health and other services.</p> <p>Requires the Director to provide for: (1) a program under which samples of tissues and genetic materials that are of use in qualifying adult stem cell research are donated, collected, preserved, and made available for such research; and (2) means through which the public can obtain information on NIH programs and activities related to such research and through which the Director can receive comments from the public.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Joe Testaverde Adult Stem Cell Research Act of 2005</title>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Joe Testaverde Adult Stem Cell Research Act of 2005</title>
+      </item>
+      <item>
+        <titleType>Popular Titles</titleType>
+        <title>Stem Cell Research bill</title>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Joe Testaverde Adult Stem Cell Research Act of 2005</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend the Public Health Service Act to provide for the expansion, intensification, and coordination of the activities of the National Institutes of Health regarding qualifying adult stem cell research, and for other purposes.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2005-05-23T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-109hr2541ih/xml/BILLS-109hr2541ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2005-06-17</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

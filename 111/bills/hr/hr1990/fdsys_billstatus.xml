@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>1990</number>
+    <updateDate>2023-01-11T13:19:33Z</updateDate>
+    <updateDateIncludingText>2023-01-11T13:19:33Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2009-04-21</introducedDate>
+    <congress>111</congress>
+    <committees>
+      <item>
+        <systemCode>hsju00</systemCode>
+        <name>Judiciary Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsju08</systemCode>
+            <name>Crime and Federal Government Surveillance Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2009-05-26T13:09:53Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2009-04-21T18:01:43Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2009-05-26</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsju08</systemCode>
+            <name>Crime and Federal Government Surveillance Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2009-04-21</actionDate>
+        <text>Referred to the House Committee on the Judiciary.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2009-04-21</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2009-04-21</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>C001050</bioguideId>
+        <fullName>Rep. Cardoza, Dennis A. [D-CA-18]</fullName>
+        <firstName>Dennis</firstName>
+        <lastName>Cardoza</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <middleName>A.</middleName>
+        <district>18</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>M001120</bioguideId>
+        <fullName>Rep. Murtha, John P. [D-PA-12]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>MURTHA</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <middleName>P.</middleName>
+        <district>12</district>
+        <sponsorshipDate>2009-05-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001037</bioguideId>
+        <fullName>Rep. Herseth Sandlin, Stephanie [D-SD-At Large]</fullName>
+        <firstName>Stephanie</firstName>
+        <lastName>Herseth Sandlin</lastName>
+        <party>D</party>
+        <state>SD</state>
+        <district>0</district>
+        <sponsorshipDate>2009-05-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000491</bioguideId>
+        <fullName>Rep. Lucas, Frank D. [R-OK-3]</fullName>
+        <firstName>FRANK</firstName>
+        <lastName>LUCAS</lastName>
+        <party>R</party>
+        <state>OK</state>
+        <middleName>D.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2009-06-11</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001065</bioguideId>
+        <fullName>Rep. Carney, Christopher P. [D-PA-10]</fullName>
+        <firstName>Christopher</firstName>
+        <lastName>Carney</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <middleName>P.</middleName>
+        <district>10</district>
+        <sponsorshipDate>2009-06-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000554</bioguideId>
+        <fullName>Rep. LoBiondo, Frank A. [R-NJ-2]</fullName>
+        <firstName>FRANK</firstName>
+        <lastName>LOBIONDO</lastName>
+        <party>R</party>
+        <state>NJ</state>
+        <middleName>A.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2009-06-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000554</bioguideId>
+        <fullName>Rep. Giffords, Gabrielle [D-AZ-8]</fullName>
+        <firstName>Gabrielle</firstName>
+        <lastName>Giffords</lastName>
+        <party>D</party>
+        <state>AZ</state>
+        <district>8</district>
+        <sponsorshipDate>2009-06-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001254</bioguideId>
+        <fullName>Rep. Boren, Dan [D-OK-2]</fullName>
+        <firstName>Dan</firstName>
+        <lastName>Boren</lastName>
+        <party>D</party>
+        <state>OK</state>
+        <district>2</district>
+        <sponsorshipDate>2009-07-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000793</bioguideId>
+        <fullName>Rep. Wu, David [D-OR-1]</fullName>
+        <firstName>DAVID</firstName>
+        <lastName>WU</lastName>
+        <party>D</party>
+        <state>OR</state>
+        <district>1</district>
+        <sponsorshipDate>2009-07-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000453</bioguideId>
+        <fullName>Rep. Fallin, Mary [R-OK-5]</fullName>
+        <firstName>Mary</firstName>
+        <lastName>Fallin</lastName>
+        <party>R</party>
+        <state>OK</state>
+        <district>5</district>
+        <sponsorshipDate>2009-09-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001247</bioguideId>
+        <fullName>Rep. Brown-Waite, Ginny [R-FL-5]</fullName>
+        <firstName>Ginny</firstName>
+        <lastName>Brown-Waite</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>5</district>
+        <sponsorshipDate>2009-10-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001154</bioguideId>
+        <fullName>Rep. Miller, Brad [D-NC-13]</fullName>
+        <firstName>Brad</firstName>
+        <lastName>Miller</lastName>
+        <party>D</party>
+        <state>NC</state>
+        <district>13</district>
+        <sponsorshipDate>2009-10-28</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000368</bioguideId>
+        <fullName>Rep. Kirkpatrick, Ann [D-AZ-1]</fullName>
+        <firstName>Ann</firstName>
+        <lastName>Kirkpatrick</lastName>
+        <party>D</party>
+        <state>AZ</state>
+        <district>1</district>
+        <sponsorshipDate>2009-11-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001053</bioguideId>
+        <fullName>Rep. Cole, Tom [R-OK-4]</fullName>
+        <firstName>Tom</firstName>
+        <lastName>Cole</lastName>
+        <party>R</party>
+        <state>OK</state>
+        <district>4</district>
+        <sponsorshipDate>2009-12-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000008</bioguideId>
+        <fullName>Rep. Kanjorski, Paul E. [D-PA-11]</fullName>
+        <firstName>PAUL</firstName>
+        <lastName>KANJORSKI</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <middleName>E.</middleName>
+        <district>11</district>
+        <sponsorshipDate>2009-12-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000420</bioguideId>
+        <fullName>Rep. Berry, Marion [D-AR-1]</fullName>
+        <firstName>MARION</firstName>
+        <lastName>BERRY</lastName>
+        <party>D</party>
+        <state>AR</state>
+        <district>1</district>
+        <sponsorshipDate>2009-12-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000289</bioguideId>
+        <fullName>Rep. Ellsworth, Brad [D-IN-8]</fullName>
+        <firstName>Brad</firstName>
+        <lastName>Ellsworth</lastName>
+        <party>D</party>
+        <state>IN</state>
+        <district>8</district>
+        <sponsorshipDate>2009-12-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000573</bioguideId>
+        <fullName>Rep. Ross, Mike [D-AR-4]</fullName>
+        <firstName>MIKE</firstName>
+        <lastName>ROSS</lastName>
+        <party>D</party>
+        <state>AR</state>
+        <district>4</district>
+        <sponsorshipDate>2010-01-13</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000553</bioguideId>
+        <fullName>Rep. Green, Al [D-TX-9]</fullName>
+        <firstName>Al</firstName>
+        <lastName>Green</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>9</district>
+        <sponsorshipDate>2010-01-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000399</bioguideId>
+        <fullName>Rep. Doggett, Lloyd [D-TX-25]</fullName>
+        <firstName>LLOYD</firstName>
+        <lastName>DOGGETT</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>25</district>
+        <sponsorshipDate>2010-02-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001039</bioguideId>
+        <fullName>Rep. Hall, John J. [D-NY-19]</fullName>
+        <firstName>John</firstName>
+        <lastName>Hall</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>J.</middleName>
+        <district>19</district>
+        <sponsorshipDate>2010-02-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000063</bioguideId>
+        <fullName>Rep. Edwards, Chet [D-TX-17]</fullName>
+        <firstName>CHET</firstName>
+        <lastName>EDWARDS</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>17</district>
+        <sponsorshipDate>2010-02-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000556</bioguideId>
+        <fullName>Rep. Coble, Howard [R-NC-6]</fullName>
+        <firstName>HOWARD</firstName>
+        <lastName>COBLE</lastName>
+        <party>R</party>
+        <state>NC</state>
+        <district>6</district>
+        <sponsorshipDate>2010-03-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000822</bioguideId>
+        <fullName>Rep. Stearns, Cliff [R-FL-6]</fullName>
+        <firstName>CLIFF</firstName>
+        <lastName>STEARNS</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>6</district>
+        <sponsorshipDate>2010-03-24</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000523</bioguideId>
+        <fullName>Rep. Price, David E. [D-NC-4]</fullName>
+        <firstName>DAVID</firstName>
+        <lastName>PRICE</lastName>
+        <party>D</party>
+        <state>NC</state>
+        <middleName>E.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2010-04-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001081</bioguideId>
+        <fullName>Rep. Critz, Mark S. [D-PA-12]</fullName>
+        <firstName>Mark</firstName>
+        <lastName>Critz</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <middleName>S.</middleName>
+        <district>12</district>
+        <sponsorshipDate>2010-06-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000011</bioguideId>
+        <fullName>Rep. Rahall, Nick J., II [D-WV-3]</fullName>
+        <firstName>NICK</firstName>
+        <lastName>RAHALL</lastName>
+        <party>D</party>
+        <state>WV</state>
+        <middleName>J.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2010-06-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000467</bioguideId>
+        <fullName>Rep. Thompson, Glenn [R-PA-5]</fullName>
+        <firstName>Glenn</firstName>
+        <lastName>Thompson</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <district>5</district>
+        <sponsorshipDate>2010-06-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000801</bioguideId>
+        <fullName>Rep. Wilson, Charles A. [D-OH-6]</fullName>
+        <firstName>Charles</firstName>
+        <lastName>Wilson</lastName>
+        <party>D</party>
+        <state>OH</state>
+        <middleName>A.</middleName>
+        <district>6</district>
+        <sponsorshipDate>2010-06-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000627</bioguideId>
+        <fullName>Rep. Hinchey, Maurice D. [D-NY-22]</fullName>
+        <firstName>MAURICE</firstName>
+        <lastName>HINCHEY</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>D.</middleName>
+        <district>22</district>
+        <sponsorshipDate>2010-07-28</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000208</bioguideId>
+        <fullName>Rep. Bartlett, Roscoe G. [R-MD-6]</fullName>
+        <firstName>ROSCOE</firstName>
+        <lastName>BARTLETT</lastName>
+        <party>R</party>
+        <state>MD</state>
+        <middleName>G.</middleName>
+        <district>6</district>
+        <sponsorshipDate>2010-09-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000608</bioguideId>
+        <fullName>Rep. Dahlkemper, Kathleen A. [D-PA-3]</fullName>
+        <firstName>Kathleen</firstName>
+        <lastName>Dahlkemper</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <middleName>A.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2010-09-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000395</bioguideId>
+        <fullName>Rep. Rogers, Harold [R-KY-5]</fullName>
+        <firstName>HAROLD</firstName>
+        <lastName>ROGERS</lastName>
+        <party>R</party>
+        <state>KY</state>
+        <district>5</district>
+        <sponsorshipDate>2010-11-29</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Crime and Law Enforcement</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Correctional facilities and imprisonment</name>
+        </item>
+        <item>
+          <name>Government studies and investigations</name>
+        </item>
+        <item>
+          <name>Law enforcement officers</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Crime and Law Enforcement</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2009-04-21</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2009-05-11T21:12:33Z</updateDate>
+        <text><![CDATA[ <p>Oleoresin Capsicum Spray Pilot Program of 2009 - Directs the Bureau of Prisons to conduct a pilot program to determine the effectiveness of the routine issuance of Oleoresin Capsicum spray (pepper spray) to staff. Directs the Government Accountability Office (GAO) to report to Congress on an evaluation of such pilot program and on tools to improve officer safety in federal prisons.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Oleoresin Capsicum Spray Pilot Program Act of 2009</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Oleoresin Capsicum Spray Pilot Program Act of 2009</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To establish an Oleoresin Capsicum Spray Pilot Program in the Bureau of Prisons, and for other purposes.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Oleoresin Capsicum Spray Pilot Program Act of 2009</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2009-04-21T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-111hr1990ih/xml/BILLS-111hr1990ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2009-05-26</actionDate>
+      <text>Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

@@ -1,0 +1,87 @@
+{
+  "actions": [
+    {
+      "acted_at": "2003-01-16",
+      "action_code": "",
+      "how": "roll",
+      "references": [],
+      "result": "fail",
+      "roll": 3,
+      "text": "Amendment SA 8 not agreed to in Senate by Yea-Nay Vote. 45 - 51. Record Vote Number: 3.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "s"
+    },
+    {
+      "acted_at": "2003-01-16",
+      "action_code": "",
+      "references": [],
+      "text": "Amendment SA 8 proposed by Senator Byrd. (consideration:  CR S1018-1023; text:  CR S1020-1021) To provide additional funds for certain homeland security measures.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2003-01-16",
+      "action_code": "93000",
+      "references": [
+        {
+          "reference": " CR S1018-1023",
+          "type": "consideration"
+        },
+        {
+          "reference": " CR S1020-1021",
+          "type": "text"
+        }
+      ],
+      "text": "Senate amendment proposed (on the floor): Amendment SA 8 proposed by Senator Byrd.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2003-01-16",
+      "action_code": "95000",
+      "references": [],
+      "text": "Senate amendment not agreed to: Amendment SA 8 not agreed to in Senate by Yea-Nay Vote. 45 - 51. Record Vote Number: 3.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2003-01-16",
+      "action_code": "97000",
+      "references": [],
+      "text": "Roll call votes on amendments in Senate: Amendment SA 8 not agreed to in Senate by Yea-Nay Vote. 45 - 51. Record Vote Number: 3.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2003-01-16",
+      "action_code": "91000",
+      "references": [],
+      "text": "Senate amendment submitted",
+      "type": "action"
+    }
+  ],
+  "amendment_id": "samdt8-108",
+  "amendment_type": "samdt",
+  "amends_amendment": null,
+  "amends_bill": {
+    "bill_id": "hjres2-108",
+    "bill_type": "hjres",
+    "congress": 108,
+    "number": 2
+  },
+  "amends_treaty": null,
+  "chamber": "s",
+  "congress": "108",
+  "introduced_at": "2003-01-16",
+  "number": 8,
+  "proposed_at": "2003-01-16T05:00:00Z",
+  "purpose": "To provide additional funds for certain homeland security measures.",
+  "sponsor": {
+    "bioguide_id": "B001210",
+    "district": null,
+    "name": "Byrd, Robert C.",
+    "state": "WV",
+    "title": "Sen.",
+    "type": "person"
+  },
+  "status": "fail",
+  "status_at": "2003-01-16",
+  "updated_at": "2022-02-25T17:34:04Z"
+}

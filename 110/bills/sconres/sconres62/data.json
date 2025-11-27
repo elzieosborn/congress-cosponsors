@@ -1,0 +1,209 @@
+{
+  "actions": [
+    {
+      "acted_at": "2007-12-19",
+      "action_code": "10000",
+      "references": [],
+      "text": "Introduced in Senate",
+      "type": "action"
+    },
+    {
+      "acted_at": "2007-12-19",
+      "action_code": "",
+      "how": "by Unanimous Consent",
+      "references": [
+        {
+          "reference": "CR 12/18/2007 S15939",
+          "type": "consideration"
+        },
+        {
+          "reference": "CR 12/18/2007 CR S15939",
+          "type": "text as passed Senate"
+        },
+        {
+          "reference": "CR 12/18/2007 S15926",
+          "type": "text of measure as introduced"
+        }
+      ],
+      "result": "pass",
+      "status": "PASS_OVER:SENATE",
+      "text": "Submitted in the Senate, considered, and agreed to without amendment by Unanimous Consent.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "s"
+    },
+    {
+      "acted_at": "2007-12-19T10:04:52-05:00",
+      "action_code": "H14000",
+      "references": [],
+      "text": "Received in the House.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2007-12-19T10:42:20-05:00",
+      "action_code": "H15000",
+      "references": [],
+      "text": "Held at the desk.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2007-12-19",
+      "action_code": "",
+      "references": [],
+      "text": "Message on Senate action sent to the House.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2007-12-19T13:06:21-05:00",
+      "action_code": "H30300",
+      "references": [],
+      "text": "Mr. Conyers moved to suspend the rules and agree to the resolution.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2007-12-19T13:07:29-05:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H16866-16867",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered under suspension of the rules.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2007-12-19T13:07:31-05:00",
+      "action_code": "H8D000",
+      "bill_ids": [
+        "scres62-110"
+      ],
+      "references": [],
+      "text": "DEBATE - The House proceeded with forty minutes of debate on S. Con. Res. 62.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2007-12-19T13:10:55-05:00",
+      "action_code": "H37300",
+      "how": "by voice vote",
+      "references": [
+        {
+          "reference": "CR H16866",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "status": "PASSED:CONCURRENTRES",
+      "suspension": null,
+      "text": "On motion to suspend the rules and agree to the resolution Agreed to by voice vote.",
+      "type": "vote",
+      "vote_type": "vote2",
+      "where": "h"
+    },
+    {
+      "acted_at": "2007-12-19T13:11:02-05:00",
+      "action_code": "H38310",
+      "references": [],
+      "text": "Motion to reconsider laid on the table Agreed to without objection.",
+      "type": "action"
+    }
+  ],
+  "amendments": [],
+  "bill_id": "sconres62-110",
+  "bill_type": "sconres",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [],
+  "congress": "110",
+  "cosponsors": [
+    {
+      "bioguide_id": "K000352",
+      "district": null,
+      "name": "Kyl, Jon",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-12-18",
+      "state": "AZ",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S000709",
+      "district": null,
+      "name": "Specter, Arlen",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-12-18",
+      "state": "PA",
+      "title": "Sen.",
+      "withdrawn_at": null
+    }
+  ],
+  "enacted_as": null,
+  "history": {
+    "active": true,
+    "active_at": "2007-12-19",
+    "awaiting_signature": false,
+    "enacted": false,
+    "house_passage_result": "pass",
+    "house_passage_result_at": "2007-12-19T13:10:55-05:00",
+    "senate_passage_result": "pass",
+    "senate_passage_result_at": "2007-12-19",
+    "vetoed": false
+  },
+  "introduced_at": "2007-12-19",
+  "number": "62",
+  "official_title": "A resolution to correct the enrollment of H.R. 660.",
+  "popular_title": null,
+  "related_bills": [
+    {
+      "bill_id": "hr660-110",
+      "identified_by": "House",
+      "reason": "related",
+      "type": "bill"
+    }
+  ],
+  "short_title": null,
+  "sponsor": {
+    "bioguide_id": "L000174",
+    "district": null,
+    "name": "Leahy, Patrick J.",
+    "state": "VT",
+    "title": "Sen.",
+    "type": "person"
+  },
+  "status": "PASSED:CONCURRENTRES",
+  "status_at": "2007-12-19T13:10:55-05:00",
+  "subjects": [
+    "Congress",
+    "Finance and Financial Sector",
+    "Government employees' life insurance",
+    "Judicial compensation",
+    "Law",
+    "Legislation",
+    "Magistrates"
+  ],
+  "subjects_top_term": "Congress",
+  "summary": {
+    "as": "Passed House without amendment",
+    "asOf": "2007-12-19",
+    "date": "2008-01-14T16:35:08Z",
+    "text": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.)\n\nMakes corrections to the enrollment of H.R. 660 (Court Security Improvement Act of 2007) to exclude bankruptcy and territorial judges from certain life insurance coverage granted to magistrate judges."
+  },
+  "titles": [
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "A resolution to correct the enrollment of H.R. 660.",
+      "type": "display"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "A resolution to correct the enrollment of H.R. 660.",
+      "type": "official"
+    }
+  ],
+  "updated_at": "2023-01-11T13:15:23Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/110/sconres/BILLSTATUS-110sconres62.xml"
+}

@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>875</number>
+    <updateDate>2021-09-28T20:15:29Z</updateDate>
+    <updateDateIncludingText>2022-02-08T17:27:15Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2009-02-04</introducedDate>
+    <congress>111</congress>
+    <committees>
+      <item>
+        <systemCode>hsag00</systemCode>
+        <name>Agriculture Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsag29</systemCode>
+            <name>Livestock, Dairy, and Poultry Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2009-04-23T17:39:10Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2009-02-04T15:07:49Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsif00</systemCode>
+        <name>Energy and Commerce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2009-02-09T17:43:59Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2009-02-04T15:07:48Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2009-04-23</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsag29</systemCode>
+            <name>Livestock, Dairy, and Poultry Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Livestock, Dairy, and Poultry.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2009-02-09</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2009-02-04</actionDate>
+        <text>Referred to House Agriculture</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsag00</systemCode>
+            <name>Agriculture Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2009-02-04</actionDate>
+        <text>Referred to the Committee on Energy and Commerce, and in addition to the Committee on Agriculture, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100-A</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2009-02-04</actionDate>
+        <text>Referred to House Energy and Commerce</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2009-02-04</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2009-02-04</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>D000216</bioguideId>
+        <fullName>Rep. DeLauro, Rosa L. [D-CT-3]</fullName>
+        <firstName>ROSA</firstName>
+        <lastName>DELAURO</lastName>
+        <party>D</party>
+        <state>CT</state>
+        <district>3</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>E000215</bioguideId>
+        <fullName>Rep. Eshoo, Anna G. [D-CA-14]</fullName>
+        <firstName>ANNA</firstName>
+        <lastName>ESHOO</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <middleName>G.</middleName>
+        <district>14</district>
+        <sponsorshipDate>2009-02-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000197</bioguideId>
+        <fullName>Rep. DeGette, Diana [D-CO-1]</fullName>
+        <firstName>DIANA</firstName>
+        <lastName>DEGETTE</lastName>
+        <party>D</party>
+        <state>CO</state>
+        <district>1</district>
+        <sponsorshipDate>2009-02-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001145</bioguideId>
+        <fullName>Rep. Schakowsky, Janice D. [D-IL-9]</fullName>
+        <firstName>JANICE</firstName>
+        <lastName>SCHAKOWSKY</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>D.</middleName>
+        <district>9</district>
+        <sponsorshipDate>2009-02-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000179</bioguideId>
+        <fullName>Rep. Engel, Eliot L. [D-NY-17]</fullName>
+        <firstName>ELIOT</firstName>
+        <lastName>ENGEL</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>L.</middleName>
+        <district>17</district>
+        <sponsorshipDate>2009-02-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001066</bioguideId>
+        <fullName>Rep. Castor, Kathy [D-FL-11]</fullName>
+        <firstName>Kathy</firstName>
+        <lastName>Castor</lastName>
+        <party>D</party>
+        <state>FL</state>
+        <district>11</district>
+        <sponsorshipDate>2009-02-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001169</bioguideId>
+        <fullName>Rep. Murphy, Christopher [D-CT-5]</fullName>
+        <firstName>Christopher</firstName>
+        <lastName>Murphy</lastName>
+        <party>D</party>
+        <state>CT</state>
+        <middleName>S.</middleName>
+        <district>5</district>
+        <sponsorshipDate>2009-02-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001174</bioguideId>
+        <fullName>Rep. Sutton, Betty [D-OH-13]</fullName>
+        <firstName>Betty</firstName>
+        <lastName>Sutton</lastName>
+        <party>D</party>
+        <state>OH</state>
+        <district>13</district>
+        <sponsorshipDate>2009-02-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000480</bioguideId>
+        <fullName>Rep. Lowey, Nita M. [D-NY-18]</fullName>
+        <firstName>NITA</firstName>
+        <lastName>LOWEY</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>M.</middleName>
+        <district>18</district>
+        <sponsorshipDate>2009-02-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000480</bioguideId>
+        <fullName>Rep. Slaughter, Louise McIntosh [D-NY-28]</fullName>
+        <firstName>LOUISE</firstName>
+        <lastName>SLAUGHTER</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>M.</middleName>
+        <district>28</district>
+        <sponsorshipDate>2009-02-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000627</bioguideId>
+        <fullName>Rep. Hinchey, Maurice D. [D-NY-22]</fullName>
+        <firstName>MAURICE</firstName>
+        <lastName>HINCHEY</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>D.</middleName>
+        <district>22</district>
+        <sponsorshipDate>2009-02-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000312</bioguideId>
+        <fullName>Rep. McGovern, James P. [D-MA-3]</fullName>
+        <firstName>JAMES</firstName>
+        <lastName>MCGOVERN</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>P.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2009-02-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000797</bioguideId>
+        <fullName>Rep. Wasserman Schultz, Debbie [D-FL-20]</fullName>
+        <firstName>Debbie</firstName>
+        <lastName>Wasserman Schultz</lastName>
+        <party>D</party>
+        <state>FL</state>
+        <district>20</district>
+        <sponsorshipDate>2009-02-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001042</bioguideId>
+        <fullName>Rep. Hirono, Mazie K. [D-HI-2]</fullName>
+        <firstName>Mazie</firstName>
+        <lastName>Hirono</lastName>
+        <party>D</party>
+        <state>HI</state>
+        <middleName>K.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2009-02-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000551</bioguideId>
+        <fullName>Rep. Grijalva, Raúl M. [D-AZ-7]</fullName>
+        <firstName>Raúl</firstName>
+        <lastName>Grijalva</lastName>
+        <party>D</party>
+        <state>AZ</state>
+        <middleName>M.</middleName>
+        <district>7</district>
+        <sponsorshipDate>2009-02-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001178</bioguideId>
+        <fullName>Rep. Schauer, Mark H. [D-MI-7]</fullName>
+        <firstName>Mark</firstName>
+        <lastName>Schauer</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <middleName>H.</middleName>
+        <district>7</district>
+        <sponsorshipDate>2009-02-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>N000002</bioguideId>
+        <fullName>Rep. Nadler, Jerrold [D-NY-8]</fullName>
+        <firstName>JERROLD</firstName>
+        <lastName>NADLER</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <district>8</district>
+        <sponsorshipDate>2009-02-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001242</bioguideId>
+        <fullName>Rep. Bishop, Timothy H. [D-NY-1]</fullName>
+        <firstName>Timothy</firstName>
+        <lastName>Bishop</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>H.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2009-02-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001156</bioguideId>
+        <fullName>Rep. Sánchez, Linda T. [D-CA-39]</fullName>
+        <firstName>Linda</firstName>
+        <lastName>Sánchez</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <middleName>T.</middleName>
+        <district>39</district>
+        <sponsorshipDate>2009-02-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000404</bioguideId>
+        <fullName>Rep. McDermott, Jim [D-WA-7]</fullName>
+        <firstName>JIM</firstName>
+        <lastName>MCDERMOTT</lastName>
+        <party>D</party>
+        <state>WA</state>
+        <district>7</district>
+        <sponsorshipDate>2009-02-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000577</bioguideId>
+        <fullName>Rep. Ryan, Tim [D-OH-17]</fullName>
+        <firstName>TIM</firstName>
+        <lastName>RYAN</lastName>
+        <party>D</party>
+        <state>OH</state>
+        <district>17</district>
+        <sponsorshipDate>2009-02-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000554</bioguideId>
+        <fullName>Rep. Giffords, Gabrielle [D-AZ-8]</fullName>
+        <firstName>Gabrielle</firstName>
+        <lastName>Giffords</lastName>
+        <party>D</party>
+        <state>AZ</state>
+        <district>8</district>
+        <sponsorshipDate>2009-02-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000116</bioguideId>
+        <fullName>Rep. Filner, Bob [D-CA-51]</fullName>
+        <firstName>BOB</firstName>
+        <lastName>FILNER</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>51</district>
+        <sponsorshipDate>2009-02-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001039</bioguideId>
+        <fullName>Rep. Hall, John J. [D-NY-19]</fullName>
+        <firstName>John</firstName>
+        <lastName>Hall</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>J.</middleName>
+        <district>19</district>
+        <sponsorshipDate>2009-02-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000551</bioguideId>
+        <fullName>Rep. Lee, Barbara [D-CA-9]</fullName>
+        <firstName>BARBARA</firstName>
+        <lastName>LEE</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>9</district>
+        <sponsorshipDate>2009-02-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000597</bioguideId>
+        <fullName>Rep. Pingree, Chellie [D-ME-1]</fullName>
+        <firstName>Chellie</firstName>
+        <lastName>Pingree</lastName>
+        <party>D</party>
+        <state>ME</state>
+        <district>1</district>
+        <sponsorshipDate>2009-02-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <sponsorshipWithdrawnDate>2009-04-22</sponsorshipWithdrawnDate>
+      </item>
+      <item>
+        <bioguideId>K000009</bioguideId>
+        <fullName>Rep. Kaptur, Marcy [D-OH-9]</fullName>
+        <firstName>MARCY</firstName>
+        <lastName>KAPTUR</lastName>
+        <party>D</party>
+        <state>OH</state>
+        <district>9</district>
+        <sponsorshipDate>2009-02-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000490</bioguideId>
+        <fullName>Rep. Bishop, Sanford D., Jr. [D-GA-2]</fullName>
+        <firstName>SANFORD</firstName>
+        <lastName>BISHOP</lastName>
+        <party>D</party>
+        <state>GA</state>
+        <middleName>D.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2009-02-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001160</bioguideId>
+        <fullName>Rep. Moore, Gwen [D-WI-4]</fullName>
+        <firstName>Gwen</firstName>
+        <lastName>Moore</lastName>
+        <party>D</party>
+        <state>WI</state>
+        <district>4</district>
+        <sponsorshipDate>2009-02-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000191</bioguideId>
+        <fullName>Rep. DeFazio, Peter A. [D-OR-4]</fullName>
+        <firstName>PETER</firstName>
+        <lastName>DEFAZIO</lastName>
+        <party>D</party>
+        <state>OR</state>
+        <middleName>A.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2009-02-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000030</bioguideId>
+        <fullName>Rep. Farr, Sam [D-CA-17]</fullName>
+        <firstName>SAM</firstName>
+        <lastName>FARR</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>17</district>
+        <sponsorshipDate>2009-02-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001143</bioguideId>
+        <fullName>Rep. McCollum, Betty [D-MN-4]</fullName>
+        <firstName>BETTY</firstName>
+        <lastName>MCCOLLUM</lastName>
+        <party>D</party>
+        <state>MN</state>
+        <district>4</district>
+        <sponsorshipDate>2009-02-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001072</bioguideId>
+        <fullName>Rep. Carson, Andre [D-IN-7]</fullName>
+        <firstName>Andre</firstName>
+        <lastName>Carson</lastName>
+        <party>D</party>
+        <state>IN</state>
+        <district>7</district>
+        <sponsorshipDate>2009-02-11</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001231</bioguideId>
+        <fullName>Rep. Berkley, Shelley [D-NV-1]</fullName>
+        <firstName>SHELLEY</firstName>
+        <lastName>BERKLEY</lastName>
+        <party>D</party>
+        <state>NV</state>
+        <district>1</district>
+        <sponsorshipDate>2009-02-11</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000810</bioguideId>
+        <fullName>Rep. Stark, Fortney Pete [D-CA-13]</fullName>
+        <firstName>PETE</firstName>
+        <lastName>STARK</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>13</district>
+        <sponsorshipDate>2009-02-12</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>N000147</bioguideId>
+        <fullName>Del. Norton, Eleanor Holmes [D-DC-At Large]</fullName>
+        <firstName>ELEANOR</firstName>
+        <lastName>NORTON</lastName>
+        <party>D</party>
+        <state>DC</state>
+        <middleName>HOLMES</middleName>
+        <district>0</district>
+        <sponsorshipDate>2009-02-12</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>J000126</bioguideId>
+        <fullName>Rep. Johnson, Eddie Bernice [D-TX-30]</fullName>
+        <firstName>EDDIE</firstName>
+        <lastName>JOHNSON</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <middleName>BERNICE</middleName>
+        <district>30</district>
+        <sponsorshipDate>2009-02-12</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000266</bioguideId>
+        <fullName>Rep. Tierney, John F. [D-MA-6]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>TIERNEY</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>F.</middleName>
+        <district>6</district>
+        <sponsorshipDate>2009-03-03</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000314</bioguideId>
+        <fullName>Rep. Wexler, Robert [D-FL-19]</fullName>
+        <firstName>ROBERT</firstName>
+        <lastName>WEXLER</lastName>
+        <party>D</party>
+        <state>FL</state>
+        <district>19</district>
+        <sponsorshipDate>2009-03-03</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001069</bioguideId>
+        <fullName>Rep. Courtney, Joe [D-CT-2]</fullName>
+        <firstName>Joe</firstName>
+        <lastName>Courtney</lastName>
+        <party>D</party>
+        <state>CT</state>
+        <district>2</district>
+        <sponsorshipDate>2009-03-03</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000576</bioguideId>
+        <fullName>Rep. Ruppersberger, C. A. Dutch [D-MD-2]</fullName>
+        <firstName>C. A.</firstName>
+        <lastName>Ruppersberger</lastName>
+        <party>D</party>
+        <state>MD</state>
+        <middleName>Dutch</middleName>
+        <district>2</district>
+        <sponsorshipDate>2009-03-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000339</bioguideId>
+        <fullName>Rep. Frank, Barney [D-MA-4]</fullName>
+        <firstName>BARNEY</firstName>
+        <lastName>FRANK</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <district>4</district>
+        <sponsorshipDate>2009-03-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Agriculture and Food</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Administrative law and regulatory procedures</name>
+        </item>
+        <item>
+          <name>Advisory bodies</name>
+        </item>
+        <item>
+          <name>Business records</name>
+        </item>
+        <item>
+          <name>Civil actions and liability</name>
+        </item>
+        <item>
+          <name>Criminal procedure and sentencing</name>
+        </item>
+        <item>
+          <name>Department of Health and Human Services</name>
+        </item>
+        <item>
+          <name>Employment discrimination and employee rights</name>
+        </item>
+        <item>
+          <name>Executive agency funding and structure</name>
+        </item>
+        <item>
+          <name>Food and Drug Administration (FDA)</name>
+        </item>
+        <item>
+          <name>Food industry and services</name>
+        </item>
+        <item>
+          <name>Food supply, safety, and labeling</name>
+        </item>
+        <item>
+          <name>Government information and archives</name>
+        </item>
+        <item>
+          <name>Government studies and investigations</name>
+        </item>
+        <item>
+          <name>Health information and medical records</name>
+        </item>
+        <item>
+          <name>Medical research</name>
+        </item>
+        <item>
+          <name>Research administration and funding</name>
+        </item>
+        <item>
+          <name>Trade restrictions</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Agriculture and Food</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2009-02-04</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2009-03-12T15:44:43Z</updateDate>
+        <text><![CDATA[ <p>Food Safety Modernization Act of 2009 - Establishes in the Department of Health and Human Services (HHS) the Food Safety Administration. Assigns all the authorities and responsibilities of the Secretary of Health and Human Services related to food safety to the Administrator of Food Safety. </p><p>Transfers to the Administration all functions of specified federal agencies that relate to the administration or enforcement of food safety laws. Renames the Food and Drug Administration (FDA) the Federal Drug and Device Administration.</p><p>Directs the Administrator to: (1) administer a national food safety program; and (2) ensure that persons who produce, process, or distribute food prevent or minimize food safety hazards. Sets forth requirements for the Administrator to carry out such duties, including: (1) requiring food establishments to adopt preventive process controls; (2) enforcing performance standards for food safety; (3) establishing an inspection program; (4) strengthening and expanding foodborne illness surveillance systems; (5) requiring imported food to meet the same standards as U.S. food; and (6) establishing a national traceability system for food.</p><p> Requires the Administrator to: (1) identify priorities for food safety research and data collection; (2) maintain a DNA matching system and epidemiological system for foodborne illness identification, outbreaks, and containment; (3) establish guidelines for a sampling system; (4) establish a national public education program on food safety; (5) conduct research on food safety; and (6) establish a working group on foodborne illness surveillance.</p><p>Requires the Secretary, acting through the Director of the Centers for Disease Control and Prevention (CDC), to develop the Food-Borne Illness Health Registry.</p><p>Directs the Comptroller General to report on the federal resources being dedicated to foodborne illness and food safety research.</p><p>Sets forth provisions regarding prohibited acts, recalls, penalties for violations of food safety laws, whistleblower protections, and civil actions.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Food Safety Modernization Act of 2009</title>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Food Safety Modernization Act of 2009</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Food Safety Modernization Act of 2009</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To establish the Food Safety Administration within the Department of Health and Human Services to protect the public health by preventing food-borne illness, ensuring the safety of food, improving research on contaminants leading to food-borne illness, and improving security of food from intentional contamination, and for other purposes.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2009-02-04T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-111hr875ih/xml/BILLS-111hr875ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2009-04-23</actionDate>
+      <text>Referred to the Subcommittee on Livestock, Dairy, and Poultry.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

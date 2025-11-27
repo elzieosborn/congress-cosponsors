@@ -1,0 +1,94 @@
+{
+  "actions": [
+    {
+      "acted_at": "2007-01-24",
+      "action_code": "",
+      "how": "roll",
+      "references": [],
+      "result": "fail",
+      "roll": 24,
+      "text": "Amendment SA 116 not agreed to in Senate by Yea-Nay Vote. 28 - 69. Record Vote Number: 24.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "s"
+    },
+    {
+      "acted_at": "2007-01-24",
+      "action_code": "",
+      "references": [],
+      "text": "Amendment SA 116 proposed by Senator Allard to Amendment SA 100. (consideration: CR S1021-1022, S1041-1042, S1043-1044; text: CR S1021) To afford States the rights and flexibility to determine minimum wage.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2007-01-24",
+      "action_code": "97000",
+      "references": [],
+      "text": "Roll call votes on amendments in Senate: Amendment SA 116 not agreed to in Senate by Yea-Nay Vote. 28 - 69. Record Vote Number: 24.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2007-01-24",
+      "action_code": "95000",
+      "references": [],
+      "text": "Senate amendment not agreed to: Amendment SA 116 not agreed to in Senate by Yea-Nay Vote. 28 - 69. Record Vote Number: 24.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2007-01-24",
+      "action_code": "93000",
+      "references": [
+        {
+          "reference": "CR S1021-1022, S1041-1042, S1043-1044",
+          "type": "consideration"
+        },
+        {
+          "reference": "CR S1021",
+          "type": "text"
+        }
+      ],
+      "text": "Senate amendment proposed (on the floor): Amendment SA 116 proposed by Senator Allard to Amendment SA 100.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2007-01-23",
+      "action_code": "91000",
+      "references": [],
+      "text": "Senate amendment submitted",
+      "type": "action"
+    }
+  ],
+  "amendment_id": "samdt116-110",
+  "amendment_type": "samdt",
+  "amends_amendment": {
+    "amendment_id": "samdt100-110",
+    "amendment_type": "samdt",
+    "congress": 110,
+    "description": "",
+    "number": 100,
+    "purpose": "In the nature of a substitute."
+  },
+  "amends_bill": {
+    "bill_id": "hr2-110",
+    "bill_type": "hr",
+    "congress": 110,
+    "number": 2
+  },
+  "amends_treaty": null,
+  "chamber": "s",
+  "congress": "110",
+  "introduced_at": "2007-01-23",
+  "number": 116,
+  "proposed_at": "2007-01-24T05:00:00Z",
+  "purpose": "To afford States the rights and flexibility to determine minimum wage.",
+  "sponsor": {
+    "bioguide_id": "A000109",
+    "district": null,
+    "name": "Allard, Wayne",
+    "state": "CO",
+    "title": "Sen.",
+    "type": "person"
+  },
+  "status": "fail",
+  "status_at": "2007-01-24",
+  "updated_at": "2022-02-03T05:24:48Z"
+}

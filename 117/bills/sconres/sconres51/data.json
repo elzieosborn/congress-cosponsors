@@ -1,0 +1,153 @@
+{
+  "actions": [
+    {
+      "acted_at": "2022-12-22",
+      "action_code": "10000",
+      "references": [],
+      "text": "Introduced in Senate",
+      "type": "action"
+    },
+    {
+      "acted_at": "2022-12-22",
+      "action_code": "",
+      "how": "by Voice Vote",
+      "references": [
+        {
+          "reference": "CR S10098",
+          "type": "consideration"
+        },
+        {
+          "reference": "S10092",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "status": "PASS_OVER:SENATE",
+      "text": "Submitted in the Senate, considered, and agreed to without amendment by Voice Vote.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "s"
+    },
+    {
+      "acted_at": "2022-12-23",
+      "action_code": "",
+      "references": [],
+      "text": "Message on Senate action sent to the House.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2022-12-23T09:03:37-05:00",
+      "action_code": "H14000",
+      "references": [],
+      "text": "Received in the House.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2022-12-23T09:10:04-05:00",
+      "action_code": "H15000",
+      "references": [],
+      "text": "Held at the desk.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2022-12-23T12:38:20-05:00",
+      "action_code": "H1B000",
+      "bill_ids": [
+        "hres1531-117",
+        "scres51-117"
+      ],
+      "how": "by special rule",
+      "references": [
+        {
+          "reference": "CR H10074-10075",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "status": "PASSED:CONCURRENTRES",
+      "text": "Pursuant to the provisions of H. Res. 1531, S. Con. Res. 51 is considered passed House.",
+      "type": "vote",
+      "vote_type": "vote2",
+      "where": "h"
+    }
+  ],
+  "amendments": [],
+  "bill_id": "sconres51-117",
+  "bill_type": "sconres",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [],
+  "congress": "117",
+  "cosponsors": [],
+  "enacted_as": null,
+  "history": {
+    "active": true,
+    "active_at": "2022-12-22",
+    "awaiting_signature": false,
+    "enacted": false,
+    "house_passage_result": "pass",
+    "house_passage_result_at": "2022-12-23T12:38:20-05:00",
+    "senate_passage_result": "pass",
+    "senate_passage_result_at": "2022-12-22",
+    "vetoed": false
+  },
+  "introduced_at": "2022-12-22",
+  "number": "51",
+  "official_title": "A concurrent resolution providing for a correction in the enrollment of H.R. 2617.",
+  "popular_title": null,
+  "related_bills": [
+    {
+      "bill_id": "hres1531-117",
+      "identified_by": "House",
+      "reason": "procedurally-related",
+      "type": "bill"
+    },
+    {
+      "bill_id": "hr2617-117",
+      "identified_by": "House",
+      "reason": "related",
+      "type": "bill"
+    }
+  ],
+  "short_title": null,
+  "sponsor": {
+    "bioguide_id": "L000174",
+    "district": null,
+    "name": "Leahy, Patrick J.",
+    "state": "VT",
+    "title": "Sen.",
+    "type": "person"
+  },
+  "status": "PASSED:CONCURRENTRES",
+  "status_at": "2022-12-23T12:38:20-05:00",
+  "subjects": [
+    "Appropriations",
+    "Congress",
+    "Legislative rules and procedure"
+  ],
+  "subjects_top_term": "Congress",
+  "summary": {
+    "as": "Passed House",
+    "asOf": "2022-12-23",
+    "date": "2023-09-01T13:25:13Z",
+    "text": "This concurrent resolution amends the official title of, and makes other changes to, H.R. 2617 (Consolidated Appropriations Act, 2023)."
+  },
+  "titles": [
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "A concurrent resolution providing for a correction in the enrollment of H.R. 2617.",
+      "type": "display"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "A concurrent resolution providing for a correction in the enrollment of H.R. 2617.",
+      "type": "official"
+    }
+  ],
+  "updated_at": "2023-09-06T13:33:46Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/117/sconres/BILLSTATUS-117sconres51.xml"
+}

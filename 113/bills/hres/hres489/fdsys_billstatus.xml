@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>489</number>
+    <updateDate>2023-01-11T13:26:56Z</updateDate>
+    <updateDateIncludingText>2023-01-11T13:26:56Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HRES</type>
+    <introducedDate>2014-02-25</introducedDate>
+    <congress>113</congress>
+    <cdata/>
+    <committees>
+      <item>
+        <systemCode>hsif00</systemCode>
+        <name>Energy and Commerce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2014-02-28T17:59:30Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2014-02-25T17:02:15Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsfa00</systemCode>
+        <name>Foreign Affairs Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2014-02-25T17:02:10Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2014-02-28</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2014-02-25</actionDate>
+        <text>Referred to the Committee on Foreign Affairs, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2014-02-25</actionDate>
+        <text>Referred to the Committee on Foreign Affairs, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsfa00</systemCode>
+            <name>Foreign Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2014-02-25</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2014-02-25</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>S000522</bioguideId>
+        <fullName>Rep. Smith, Christopher H. [R-NJ-4]</fullName>
+        <firstName>CHRISTOPHER</firstName>
+        <lastName>SMITH</lastName>
+        <party>R</party>
+        <state>NJ</state>
+        <middleName>H.</middleName>
+        <district>4</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>W000187</bioguideId>
+        <fullName>Rep. Waters, Maxine [D-CA-43]</fullName>
+        <firstName>MAXINE</firstName>
+        <lastName>WATERS</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>43</district>
+        <sponsorshipDate>2014-02-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001248</bioguideId>
+        <fullName>Rep. Burgess, Michael C. [R-TX-26]</fullName>
+        <firstName>Michael</firstName>
+        <lastName>Burgess</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <middleName>C.</middleName>
+        <district>26</district>
+        <sponsorshipDate>2014-02-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000043</bioguideId>
+        <fullName>Rep. Fattah, Chaka [D-PA-2]</fullName>
+        <firstName>CHAKA</firstName>
+        <lastName>FATTAH</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <district>2</district>
+        <sponsorshipDate>2014-02-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001187</bioguideId>
+        <fullName>Rep. Meadows, Mark [R-NC-11]</fullName>
+        <firstName>Mark</firstName>
+        <lastName>Meadows</lastName>
+        <party>R</party>
+        <state>NC</state>
+        <district>11</district>
+        <sponsorshipDate>2014-02-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000288</bioguideId>
+        <fullName>Rep. Ellison, Keith [D-MN-5]</fullName>
+        <firstName>Keith</firstName>
+        <lastName>Ellison</lastName>
+        <party>D</party>
+        <state>MN</state>
+        <district>5</district>
+        <sponsorshipDate>2014-04-28</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000312</bioguideId>
+        <fullName>Rep. McGovern, James P. [D-MA-2]</fullName>
+        <firstName>JAMES</firstName>
+        <lastName>MCGOVERN</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>P.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2014-04-28</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000587</bioguideId>
+        <fullName>Rep. Ribble, Reid J. [R-WI-8]</fullName>
+        <firstName>Reid</firstName>
+        <lastName>Ribble</lastName>
+        <party>R</party>
+        <state>WI</state>
+        <middleName>J.</middleName>
+        <district>8</district>
+        <sponsorshipDate>2014-04-30</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001165</bioguideId>
+        <fullName>Rep. Sires, Albio [D-NJ-8]</fullName>
+        <firstName>Albio</firstName>
+        <lastName>Sires</lastName>
+        <party>D</party>
+        <state>NJ</state>
+        <district>8</district>
+        <sponsorshipDate>2014-05-07</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000210</bioguideId>
+        <fullName>Rep. King, Peter T. [R-NY-2]</fullName>
+        <firstName>PETER</firstName>
+        <lastName>KING</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <middleName>T.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2014-05-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001053</bioguideId>
+        <fullName>Rep. Hartzler, Vicky [R-MO-4]</fullName>
+        <firstName>Vicky</firstName>
+        <lastName>Hartzler</lastName>
+        <party>R</party>
+        <state>MO</state>
+        <district>4</district>
+        <sponsorshipDate>2014-05-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001090</bioguideId>
+        <fullName>Rep. Cartwright, Matt [D-PA-17]</fullName>
+        <firstName>Matt</firstName>
+        <lastName>Cartwright</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <district>17</district>
+        <sponsorshipDate>2014-05-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>N000147</bioguideId>
+        <fullName>Del. Norton, Eleanor Holmes [D-DC-At Large]</fullName>
+        <firstName>ELEANOR</firstName>
+        <lastName>NORTON</lastName>
+        <party>D</party>
+        <state>DC</state>
+        <middleName>HOLMES</middleName>
+        <district>0</district>
+        <sponsorshipDate>2014-05-13</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000559</bioguideId>
+        <fullName>Rep. Garamendi, John [D-CA-3]</fullName>
+        <firstName>John</firstName>
+        <lastName>Garamendi</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>3</district>
+        <sponsorshipDate>2014-05-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000911</bioguideId>
+        <fullName>Rep. Brown, Corrine [D-FL-5]</fullName>
+        <firstName>CORRINE</firstName>
+        <lastName>BROWN</lastName>
+        <party>D</party>
+        <state>FL</state>
+        <district>5</district>
+        <sponsorshipDate>2014-06-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000933</bioguideId>
+        <fullName>Rep. Moran, James P. [D-VA-8]</fullName>
+        <firstName>JAMES</firstName>
+        <lastName>MORAN</lastName>
+        <party>D</party>
+        <state>VA</state>
+        <middleName>P.</middleName>
+        <district>8</district>
+        <sponsorshipDate>2014-06-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000598</bioguideId>
+        <fullName>Rep. Polis, Jared [D-CO-2]</fullName>
+        <firstName>Jared</firstName>
+        <lastName>Polis</lastName>
+        <party>D</party>
+        <state>CO</state>
+        <district>2</district>
+        <sponsorshipDate>2014-06-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000672</bioguideId>
+        <fullName>Rep. Wolf, Frank R. [R-VA-10]</fullName>
+        <firstName>FRANK</firstName>
+        <lastName>WOLF</lastName>
+        <party>R</party>
+        <state>VA</state>
+        <middleName>R.</middleName>
+        <district>10</district>
+        <sponsorshipDate>2014-06-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>I000057</bioguideId>
+        <fullName>Rep. Israel, Steve [D-NY-3]</fullName>
+        <firstName>STEVE</firstName>
+        <lastName>ISRAEL</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <district>3</district>
+        <sponsorshipDate>2014-06-12</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000574</bioguideId>
+        <fullName>Rep. Blumenauer, Earl [D-OR-3]</fullName>
+        <firstName>EARL</firstName>
+        <lastName>BLUMENAUER</lastName>
+        <party>D</party>
+        <state>OR</state>
+        <district>3</district>
+        <sponsorshipDate>2014-06-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000523</bioguideId>
+        <fullName>Rep. Price, David E. [D-NC-4]</fullName>
+        <firstName>DAVID</firstName>
+        <lastName>PRICE</lastName>
+        <party>D</party>
+        <state>NC</state>
+        <middleName>E.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2014-07-30</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000573</bioguideId>
+        <fullName>Rep. Garcia, Joe [D-FL-26]</fullName>
+        <firstName>Joe</firstName>
+        <lastName>Garcia</lastName>
+        <party>D</party>
+        <state>FL</state>
+        <district>26</district>
+        <sponsorshipDate>2014-09-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>International Affairs</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Aging</name>
+        </item>
+        <item>
+          <name>Foreign aid and international relief</name>
+        </item>
+        <item>
+          <name>Health programs administration and funding</name>
+        </item>
+        <item>
+          <name>Health promotion and preventive care</name>
+        </item>
+        <item>
+          <name>Medical research</name>
+        </item>
+        <item>
+          <name>Neurological disorders</name>
+        </item>
+        <item>
+          <name>Public-private cooperation</name>
+        </item>
+        <item>
+          <name>World health</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>International Affairs</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2014-02-25</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2014-03-31T19:36:07Z</updateDate>
+        <text><![CDATA[ <p>States that it should be the policy of the U.S. government to encourage and facilitate the following efforts concerning Alzheimer's disease and other forms of dementia:</p> <ul> <li>entry by the Secretary of Health and Human Services (HHS) into negotiations with the World Health Organization to develop a Global Alzheimer's and Dementia Action Plan;</li> <li> involvement of all other nations that have adopted national Alzheimer's and/or dementia plans or strategies;</li> <li> development of the foundation for a Global Alzheimer's Fund that would provide resources to support implementation of specific strategies of the Global Plan and assignment of a high-level person to lead and coordinate initiatives;</li> <li>investigation by the G8 nations of systems to monitor and provide care to persons with Alzheimer's and other forms of dementia in developing countries to help build care delivery capacity;</li> <li>investigation by the U.S. Agency for International Development (USAID) of the foreign aid implications of Alzheimer's and other forms of dementia and inform Congress of the need for possible changes to health care-related foreign assistance; and</li> <li>encouragement and facilitation of partnerships with the private sector, such as the current partnership between the National Institutes of Health (NIH) and 10 pharmaceutical companies to identify new approaches to treat Alzheimer's and other medical conditions. </li> </ul>]]></text>
+      </summary>
+    </summaries>
+    <title>Expressing the sense of Congress regarding the need to facilitate and promote a robust response to the looming global crisis of Alzheimer's and other forms of dementia.</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Expressing the sense of Congress regarding the need to facilitate and promote a robust response to the looming global crisis of Alzheimer's and other forms of dementia.</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>Expressing the sense of Congress regarding the need to facilitate and promote a robust response to the looming global crisis of Alzheimer's and other forms of dementia.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2014-02-25T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-113hres489ih/xml/BILLS-113hres489ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2014-02-28</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

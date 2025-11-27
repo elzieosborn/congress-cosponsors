@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>1034</number>
+    <updateDate>2021-04-19T22:16:18Z</updateDate>
+    <updateDateIncludingText>2021-04-19T22:16:18Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2009-02-12</introducedDate>
+    <congress>111</congress>
+    <committees>
+      <item>
+        <systemCode>hsju00</systemCode>
+        <name>Judiciary Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsju10</systemCode>
+            <name>Constitution and Limited Government Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2009-03-16T21:39:14Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2009-02-12T15:01:44Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2009-03-16</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsju10</systemCode>
+            <name>Constitution and Limited Government Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on the Constitution, Civil Rights, and Civil Liberties.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2009-02-12</actionDate>
+        <text>Referred to the House Committee on the Judiciary.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2009-02-12</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2009-02-12</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>F000445</bioguideId>
+        <fullName>Rep. Forbes, J. Randy [R-VA-4]</fullName>
+        <firstName>J.</firstName>
+        <lastName>Forbes</lastName>
+        <party>R</party>
+        <state>VA</state>
+        <middleName>Randy</middleName>
+        <district>4</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>S000185</bioguideId>
+        <fullName>Rep. Scott, Robert C. "Bobby" [D-VA-3]</fullName>
+        <firstName>Robert</firstName>
+        <lastName>Scott</lastName>
+        <party>D</party>
+        <state>VA</state>
+        <middleName>C. "Bobby"</middleName>
+        <district>3</district>
+        <sponsorshipDate>2009-04-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000373</bioguideId>
+        <fullName>Rep. Pitts, Joseph R. [R-PA-16]</fullName>
+        <firstName>JOSEPH</firstName>
+        <lastName>PITTS</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <middleName>R.</middleName>
+        <district>16</district>
+        <sponsorshipDate>2009-05-07</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000575</bioguideId>
+        <fullName>Rep. Rogers, Mike D. [R-AL-3]</fullName>
+        <firstName>Mike</firstName>
+        <lastName>Rogers</lastName>
+        <party>R</party>
+        <state>AL</state>
+        <district>3</district>
+        <sponsorshipDate>2009-06-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>N000183</bioguideId>
+        <fullName>Rep. Nye, Glenn C. [D-VA-2]</fullName>
+        <firstName>Glenn</firstName>
+        <lastName>Nye</lastName>
+        <party>D</party>
+        <state>VA</state>
+        <middleName>C.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2009-06-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000568</bioguideId>
+        <fullName>Rep. Lee, Christopher J. [R-NY-26]</fullName>
+        <firstName>Christopher</firstName>
+        <lastName>Lee</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <middleName>J.</middleName>
+        <district>26</district>
+        <sponsorshipDate>2009-07-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>J000255</bioguideId>
+        <fullName>Rep. Jones, Walter B., Jr. [R-NC-3]</fullName>
+        <firstName>WALTER</firstName>
+        <lastName>JONES</lastName>
+        <party>R</party>
+        <state>NC</state>
+        <middleName>B.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2009-07-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001171</bioguideId>
+        <fullName>Rep. Shuler, Heath [D-NC-11]</fullName>
+        <firstName>Heath</firstName>
+        <lastName>Shuler</lastName>
+        <party>D</party>
+        <state>NC</state>
+        <district>11</district>
+        <sponsorshipDate>2009-07-31</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000585</bioguideId>
+        <fullName>Rep. Platts, Todd Russell [R-PA-19]</fullName>
+        <firstName>TODD</firstName>
+        <lastName>PLATTS</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <middleName>RUSSELL</middleName>
+        <district>19</district>
+        <sponsorshipDate>2009-07-31</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000450</bioguideId>
+        <fullName>Rep. Foxx, Virginia [R-NC-5]</fullName>
+        <firstName>Virginia</firstName>
+        <lastName>Foxx</lastName>
+        <party>R</party>
+        <state>NC</state>
+        <district>5</district>
+        <sponsorshipDate>2009-12-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000485</bioguideId>
+        <fullName>Rep. McIntyre, Mike [D-NC-7]</fullName>
+        <firstName>MIKE</firstName>
+        <lastName>MCINTYRE</lastName>
+        <party>D</party>
+        <state>NC</state>
+        <district>7</district>
+        <sponsorshipDate>2010-01-12</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>Y000033</bioguideId>
+        <fullName>Rep. Young, Don [R-AK-At Large]</fullName>
+        <firstName>DON</firstName>
+        <lastName>YOUNG</lastName>
+        <party>R</party>
+        <state>AK</state>
+        <middleName>E.</middleName>
+        <district>0</district>
+        <sponsorshipDate>2010-01-12</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001250</bioguideId>
+        <fullName>Rep. Bishop, Rob [R-UT-1]</fullName>
+        <firstName>Rob</firstName>
+        <lastName>Bishop</lastName>
+        <party>R</party>
+        <state>UT</state>
+        <district>1</district>
+        <sponsorshipDate>2010-03-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001159</bioguideId>
+        <fullName>Rep. McMorris Rodgers, Cathy [R-WA-5]</fullName>
+        <firstName>Cathy</firstName>
+        <lastName>McMorris Rodgers</lastName>
+        <party>R</party>
+        <state>WA</state>
+        <district>5</district>
+        <sponsorshipDate>2010-03-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001239</bioguideId>
+        <fullName>Rep. Barrett, J. Gresham [R-SC-3]</fullName>
+        <firstName>J.</firstName>
+        <lastName>Barrett</lastName>
+        <party>R</party>
+        <state>SC</state>
+        <middleName>Gresham</middleName>
+        <district>3</district>
+        <sponsorshipDate>2010-04-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000657</bioguideId>
+        <fullName>Rep. Boucher, Rick [D-VA-9]</fullName>
+        <firstName>RICK</firstName>
+        <lastName>BOUCHER</lastName>
+        <party>D</party>
+        <state>VA</state>
+        <district>9</district>
+        <sponsorshipDate>2010-04-28</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000791</bioguideId>
+        <fullName>Rep. Walden, Greg [R-OR-2]</fullName>
+        <firstName>GREG</firstName>
+        <lastName>WALDEN</lastName>
+        <party>R</party>
+        <state>OR</state>
+        <district>2</district>
+        <sponsorshipDate>2010-05-28</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001177</bioguideId>
+        <fullName>Del. Sablan, Gregorio Kilili Camacho [D-MP-At Large]</fullName>
+        <firstName>Gregorio</firstName>
+        <lastName>Sablan</lastName>
+        <party>D</party>
+        <state>MP</state>
+        <middleName>Kilili Camacho</middleName>
+        <district>0</district>
+        <sponsorshipDate>2010-06-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000309</bioguideId>
+        <fullName>Rep. McCarthy, Carolyn [D-NY-4]</fullName>
+        <firstName>CAROLYN</firstName>
+        <lastName>MCCARTHY</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <district>4</district>
+        <sponsorshipDate>2010-06-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000368</bioguideId>
+        <fullName>Rep. Kirkpatrick, Ann [D-AZ-1]</fullName>
+        <firstName>Ann</firstName>
+        <lastName>Kirkpatrick</lastName>
+        <party>D</party>
+        <state>AZ</state>
+        <district>1</district>
+        <sponsorshipDate>2010-06-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001171</bioguideId>
+        <fullName>Rep. Maffei, Daniel B. [D-NY-25]</fullName>
+        <firstName>Daniel</firstName>
+        <lastName>Maffei</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>B.</middleName>
+        <district>25</district>
+        <sponsorshipDate>2010-06-28</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000191</bioguideId>
+        <fullName>Rep. DeFazio, Peter A. [D-OR-4]</fullName>
+        <firstName>PETER</firstName>
+        <lastName>DEFAZIO</lastName>
+        <party>D</party>
+        <state>OR</state>
+        <middleName>A.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2010-09-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000021</bioguideId>
+        <fullName>Rep. Gallegly, Elton [R-CA-24]</fullName>
+        <firstName>ELTON</firstName>
+        <lastName>GALLEGLY</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <district>24</district>
+        <sponsorshipDate>2010-09-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000059</bioguideId>
+        <fullName>Rep. Calvert, Ken [R-CA-44]</fullName>
+        <firstName>KEN</firstName>
+        <lastName>CALVERT</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <district>44</district>
+        <sponsorshipDate>2010-09-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000611</bioguideId>
+        <fullName>Rep. Djou, Charles K. [R-HI-1]</fullName>
+        <firstName>Charles</firstName>
+        <lastName>Djou</lastName>
+        <party>R</party>
+        <state>HI</state>
+        <middleName>K.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2010-09-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001060</bioguideId>
+        <fullName>Rep. Carnahan, Russ [D-MO-3]</fullName>
+        <firstName>Russ</firstName>
+        <lastName>Carnahan</lastName>
+        <party>D</party>
+        <state>MO</state>
+        <district>3</district>
+        <sponsorshipDate>2010-09-28</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000013</bioguideId>
+        <fullName>Rep. Bachus, Spencer [R-AL-6]</fullName>
+        <firstName>SPENCER</firstName>
+        <lastName>BACHUS</lastName>
+        <party>R</party>
+        <state>AL</state>
+        <district>6</district>
+        <sponsorshipDate>2010-11-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001174</bioguideId>
+        <fullName>Rep. Sutton, Betty [D-OH-13]</fullName>
+        <firstName>Betty</firstName>
+        <lastName>Sutton</lastName>
+        <party>D</party>
+        <state>OH</state>
+        <district>13</district>
+        <sponsorshipDate>2010-12-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000795</bioguideId>
+        <fullName>Rep. Wilson, Joe [R-SC-2]</fullName>
+        <firstName>Joe</firstName>
+        <lastName>Wilson</lastName>
+        <party>R</party>
+        <state>SC</state>
+        <district>2</district>
+        <sponsorshipDate>2010-12-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Commemorative events and holidays</name>
+        </item>
+        <item>
+          <name>Military personnel and dependents</name>
+        </item>
+        <item>
+          <name>National symbols</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Armed Forces and National Security</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2009-02-12</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2009-02-26T22:44:37Z</updateDate>
+        <text><![CDATA[ <p>Designates the Honor and Remember Flag, created by Honor and Remember, Inc., as the official symbol of our country's concern and commitment to honoring and remembering all members of the Armed Forces who lost their lives in the line of duty.</p> <p>Provides days of the year, and memorials and other locations, on or at which the Flag shall be displayed.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>To amend title 36, United States Code, to designate the Honor and Remember Flag created by Honor and Remember, Inc., as an official symbol to recognize and honor members of the Armed Forces who died in the line of duty, and for other purposes.</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>To amend title 36, United States Code, to designate the Honor and Remember Flag created by Honor and Remember, Inc., as an official symbol to recognize and honor members of the Armed Forces who died in the line of duty, and for other purposes.</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend title 36, United States Code, to designate the Honor and Remember Flag created by Honor and Remember, Inc., as an official symbol to recognize and honor members of the Armed Forces who died in the line of duty, and for other purposes.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2009-02-12T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-111hr1034ih/xml/BILLS-111hr1034ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2009-03-16</actionDate>
+      <text>Referred to the Subcommittee on the Constitution, Civil Rights, and Civil Liberties.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

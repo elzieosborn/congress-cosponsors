@@ -1,0 +1,94 @@
+{
+  "actions": [
+    {
+      "acted_at": "2016-04-07",
+      "action_code": "",
+      "how": "roll",
+      "references": [],
+      "result": "fail",
+      "roll": 43,
+      "text": "Amendment SA 3483 not agreed to in Senate by Yea-Nay Vote. 42 - 54. Record Vote Number: 43.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "s"
+    },
+    {
+      "acted_at": "2016-04-07",
+      "action_code": "",
+      "references": [],
+      "text": "Amendment SA 3483 proposed by Senator Nelson for Senator Schumer to Amendment SA 3464. (consideration: CR S1786, S1789; text: CR S1786) To require the Federal Aviation Administration to establish minimum standards for space for passengers on passenger aircraft.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2016-04-07",
+      "action_code": "97000",
+      "references": [],
+      "text": "Roll call votes on amendments in Senate: Amendment SA 3483 not agreed to in Senate by Yea-Nay Vote. 42 - 54. Record Vote Number: 43.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2016-04-07",
+      "action_code": "95000",
+      "references": [],
+      "text": "Senate amendment not agreed to: Amendment SA 3483 not agreed to in Senate by Yea-Nay Vote. 42 - 54. Record Vote Number: 43.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2016-04-07",
+      "action_code": "93000",
+      "references": [
+        {
+          "reference": "CR S1786, S1789",
+          "type": "consideration"
+        },
+        {
+          "reference": "CR S1786",
+          "type": "text"
+        }
+      ],
+      "text": "Senate amendment proposed (on the floor): Amendment SA 3483 proposed by Senator Nelson for Senator Schumer to Amendment SA 3464.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2016-04-06",
+      "action_code": "91000",
+      "references": [],
+      "text": "Senate amendment submitted",
+      "type": "action"
+    }
+  ],
+  "amendment_id": "samdt3483-114",
+  "amendment_type": "samdt",
+  "amends_amendment": {
+    "amendment_id": "samdt3464-114",
+    "amendment_type": "samdt",
+    "congress": 114,
+    "description": "",
+    "number": 3464,
+    "purpose": "In the nature of a substitute."
+  },
+  "amends_bill": {
+    "bill_id": "hr636-114",
+    "bill_type": "hr",
+    "congress": 114,
+    "number": 636
+  },
+  "amends_treaty": null,
+  "chamber": "s",
+  "congress": "114",
+  "introduced_at": "2016-04-06",
+  "number": 3483,
+  "proposed_at": "2016-04-07T04:00:00Z",
+  "purpose": "To require the Federal Aviation Administration to establish minimum standards for space for passengers on passenger aircraft.",
+  "sponsor": {
+    "bioguide_id": "S000148",
+    "district": null,
+    "name": "Schumer, Charles E.",
+    "state": "NY",
+    "title": "Sen.",
+    "type": "person"
+  },
+  "status": "fail",
+  "status_at": "2016-04-07",
+  "updated_at": "2020-12-15T19:16:38Z"
+}

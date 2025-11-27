@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>2460</number>
+    <updateDate>2023-01-15T04:49:08Z</updateDate>
+    <updateDateIncludingText>2023-01-15T04:49:08Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <originChamberCode>S</originChamberCode>
+    <type>S</type>
+    <introducedDate>2004-05-20</introducedDate>
+    <congress>108</congress>
+    <committees>
+      <item>
+        <systemCode>hsii00</systemCode>
+        <name>Natural Resources Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsii13</systemCode>
+            <name>Water, Wildlife, and Fisheries Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2004-09-20T21:05:23Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2004-09-17T16:34:33Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>sseg00</systemCode>
+        <name>Energy and Natural Resources Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>sseg07</systemCode>
+            <name>Water and Power Subcommittee</name>
+            <activities>
+              <item>
+                <name>Hearings by</name>
+                <date>2004-06-17T20:09:31Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Reported by</name>
+            <date>2004-08-25T20:00:21Z</date>
+          </item>
+          <item>
+            <name>Markup by</name>
+            <date>2004-07-14T21:38:04Z</date>
+          </item>
+          <item>
+            <name>Referred to</name>
+            <date>2004-05-20T22:03:02Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <committeeReports>
+      <committeeReport>
+        <citation>S. Rept. 108-326</citation>
+      </committeeReport>
+    </committeeReports>
+    <actions>
+      <item>
+        <actionDate>2004-09-20</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii13</systemCode>
+            <name>Water, Wildlife, and Fisheries Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Water and Power.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2004-09-17</actionDate>
+        <text>Referred to the House Committee on Resources.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2004-09-17</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2004-09-17</actionDate>
+        <actionTime>10:04:22</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2004-09-15</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate with an amendment by Unanimous Consent. (consideration: CR S9353-9354; text as passed Senate: CR S9353-9354)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2004-09-15</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate with an amendment by Unanimous Consent.(consideration: CR S9353-9354; text as passed Senate: CR S9353-9354)</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2004-08-25</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 682.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2004-08-25</actionDate>
+        <committees>
+          <item>
+            <systemCode>sseg00</systemCode>
+            <name>Energy and Natural Resources Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Energy and Natural Resources. Reported by Senator Domenici under authority of the order of the Senate of 07/22/04 with an amendment in the nature of a substitute. With written report No. 108-326.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2004-08-25</actionDate>
+        <text>Committee on Energy and Natural Resources. Reported by Senator Domenici under authority of the order of the Senate of 07/22/04 with an amendment in the nature of a substitute. With written report No. 108-326.</text>
+        <type>Committee</type>
+        <actionCode>14000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>sseg00</systemCode>
+            <name>Energy and Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2004-07-14</actionDate>
+        <committees>
+          <item>
+            <systemCode>sseg00</systemCode>
+            <name>Energy and Natural Resources Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Energy and Natural Resources. Ordered to be reported with an amendment in the nature of a substitute favorably.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2004-06-17</actionDate>
+        <committees>
+          <item>
+            <systemCode>sseg07</systemCode>
+            <name>Water and Power Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Energy and Natural Resources Subcommittee on Water and Power. Hearings held. With printed Hearing: S.Hrg. 108-668.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2004-05-20</actionDate>
+        <committees>
+          <item>
+            <systemCode>sseg00</systemCode>
+            <name>Energy and Natural Resources Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Energy and Natural Resources. (text of measure as introduced: CR S5961)</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2004-05-20</actionDate>
+        <text>Sponsor introductory remarks on measure. (CR S5961)</text>
+        <type>IntroReferral</type>
+        <actionCode>B00100</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2004-05-20</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>D000407</bioguideId>
+        <fullName>Sen. Domenici, Pete V. [R-NM]</fullName>
+        <firstName>PETE</firstName>
+        <lastName>DOMENICI</lastName>
+        <party>R</party>
+        <state>NM</state>
+        <middleName>VICHI</middleName>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>B000468</bioguideId>
+        <fullName>Sen. Bingaman, Jeff [D-NM]</fullName>
+        <firstName>JESSE</firstName>
+        <lastName>BINGAMAN</lastName>
+        <party>D</party>
+        <state>NM</state>
+        <middleName>FRANCIS</middleName>
+        <sponsorshipDate>2004-06-07</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <cboCostEstimates>
+      <item>
+        <pubDate>2004-07-16T04:00:00Z</pubDate>
+        <title>S. 2460, New Mexico Water Planning Assistance Act</title>
+        <url>http://www.cbo.gov/publication/15826</url>
+        <description>&lt;p&gt;Cost estimate for the bill as ordered reported by the Senate Committee on Energy and Natural Resources on July 14, 2004&lt;/p&gt;</description>
+      </item>
+      <item>
+        <pubDate>2004-07-16T04:00:00Z</pubDate>
+        <title>S. 2460, New Mexico Water Planning Assistance Act</title>
+        <url>https://www.cbo.gov/publication/15826</url>
+        <description>Cost estimate for the bill as ordered reported by the Senate Committee on Energy and Natural Resources on July 14, 2004</description>
+      </item>
+    </cboCostEstimates>
+    <policyArea>
+      <name>Water Resources Development</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Climate</name>
+        </item>
+        <item>
+          <name>Data banks</name>
+        </item>
+        <item>
+          <name>Economics and Public Finance</name>
+        </item>
+        <item>
+          <name>Environmental Protection</name>
+        </item>
+        <item>
+          <name>Federal aid to water resources development</name>
+        </item>
+        <item>
+          <name>Federal-state relations</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Groundwater</name>
+        </item>
+        <item>
+          <name>Hydrology</name>
+        </item>
+        <item>
+          <name>Infrastructure</name>
+        </item>
+        <item>
+          <name>Maps</name>
+        </item>
+        <item>
+          <name>New Mexico</name>
+        </item>
+        <item>
+          <name>Photography</name>
+        </item>
+        <item>
+          <name>Planning</name>
+        </item>
+        <item>
+          <name>Pollution measurement</name>
+        </item>
+        <item>
+          <name>Public Lands and Natural Resources</name>
+        </item>
+        <item>
+          <name>Rivers</name>
+        </item>
+        <item>
+          <name>Science, Technology, Communications</name>
+        </item>
+        <item>
+          <name>Surveys</name>
+        </item>
+        <item>
+          <name>Water quality</name>
+        </item>
+        <item>
+          <name>Water storage</name>
+        </item>
+        <item>
+          <name>Water supply</name>
+        </item>
+        <item>
+          <name>Watersheds</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Water Resources Development</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2004-05-20</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2004-06-15T19:56:38Z</updateDate>
+        <text><![CDATA[ <p>New Mexico Water Planning Assistance Act - Directs the Secretary of the Interior, at the request of the Governor of New Mexico and acting through the Bureau of Reclamation and the U.S. Geological Survey, to: (1) provide to New Mexico technical assistance and grants for the development of comprehensive State water plans; (2) conduct water resources mapping in New Mexico; and (3) conduct a comprehensive study of groundwater resources in New Mexico to assess the quantity, quality, and interaction of groundwater and surface water resources. Lists types of technical assistance that may be provided, including acquisition of hydrologic data, expansion of groundwater monitoring networks, and coordination of Federal water management planning efforts.</p> <p>Directs the Secretary to allocate specified funds: (1) to develop hydrologic models and acquire associated equipment for the New Mexico Rio Grande main stem sections and Rio Taos and Hondo, Rios Nambe, Pojoaque and Teseque, Rio Chama, and Lower Rio Grande tributaries; (2) to complete the hydrographic survey development of hydrologic models and acquire associated equipment for the San Juan River and tributaries and for Southwest New Mexico, including the Animas Basin, the Gila River, and tributaries; and (3) for statewide digital orthophotography mapping.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>01</versionCode>
+        <actionDate>2004-08-25</actionDate>
+        <actionDesc>Reported to Senate with amendment(s)</actionDesc>
+        <updateDate>2004-09-20T15:20:20Z</updateDate>
+        <text><![CDATA[ <p>New Mexico Water Planning Assistance Act - Directs the Secretary of the Interior, at the request of the Governor of New Mexico and acting through the Bureau of Reclamation and the U.S. Geological Survey, to: (1) provide to New Mexico technical assistance and grants for the development of comprehensive State water plans; (2) conduct water resources mapping in New Mexico; and (3) conduct a comprehensive study of groundwater resources in New Mexico to assess the quantity, quality, and interaction of groundwater and surface water resources. Lists types of technical assistance that may be provided, including acquisition of hydrologic data, expansion of groundwater monitoring networks, and coordination of Federal water management planning efforts.</p> <p>Directs the Secretary to allocate specified funds: (1) to develop hydrologic models and acquire associated equipment for the New Mexico Rio Grande main stem sections and Rio Pueblo de Taos and Hondo, Rios Nambe, Pojoaque and Teseque, Rio Chama, and Lower Rio Grande tributaries; (2) to complete the hydrographic survey development of hydrologic models and acquire associated equipment for the San Juan River and tributaries and for Southwest New Mexico, including the Animas Basin, the Gila River, and tributaries; and (3) for statewide digital orthophotography mapping.</p> <p>Sets the non-Federal share of the total cost of any activity carried out using a grant under this Act at 50 percent, which may be in the form of in-kind services as determined by the Secretary. Authorizes appropriations.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>35</versionCode>
+        <actionDate>2004-09-15</actionDate>
+        <actionDesc>Passed Senate amended</actionDesc>
+        <updateDate>2004-11-10T19:01:14Z</updateDate>
+        <text><![CDATA[ <p><b>(This measure has not been amended since it was reported to the Senate on August 25, 2004. The summary of that version is repeated here.)</b></p> <p> New Mexico Water Planning Assistance Act - Directs the Secretary of the Interior, at the request of the Governor of New Mexico and acting through the Bureau of Reclamation and the U.S. Geological Survey, to: (1) provide to New Mexico technical assistance and grants for the development of comprehensive State water plans; (2) conduct water resources mapping in New Mexico; and (3) conduct a comprehensive study of groundwater resources in New Mexico to assess the quantity, quality, and interaction of groundwater and surface water resources. Lists types of technical assistance that may be provided, including acquisition of hydrologic data, expansion of groundwater monitoring networks, and coordination of Federal water management planning efforts.</p> <p>Directs the Secretary to allocate specified funds: (1) to develop hydrologic models and acquire associated equipment for the New Mexico Rio Grande main stem sections and Rio Pueblo de Taos and Hondo, Rios Nambe, Pojoaque and Teseque, Rio Chama, and Lower Rio Grande tributaries; (2) to complete the hydrographic survey development of hydrologic models and acquire associated equipment for the San Juan River and tributaries and for Southwest New Mexico, including the Animas Basin, the Gila River, and tributaries; and (3) for statewide digital orthophotography mapping.</p> <p>Sets the non-Federal share of the total cost of any activity carried out using a grant under this Act at 50 percent, which may be in the form of in-kind services as determined by the Secretary. Authorizes appropriations.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>New Mexico Water Planning Assistance Act</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>New Mexico Water Planning Assistance Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to provide assistance to the State of New Mexico for the development of comprehensive State water plans, and for other purposes.</title>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>New Mexico Water Planning Assistance Act</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Reported to Senate</titleType>
+        <title>New Mexico Water Planning Assistance Act</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+      <item>
+        <titleType>Short Titles as Passed Senate</titleType>
+        <title>New Mexico Water Planning Assistance Act</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Referred in House</type>
+        <date>2004-09-17T04:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2004-09-15T04:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Reported to Senate</type>
+        <date>2004-08-25T04:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2004-05-20T04:00:00Z</date>
+        <formats/>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2004-09-20</actionDate>
+      <text>Referred to the Subcommittee on Water and Power.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

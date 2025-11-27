@@ -1,0 +1,237 @@
+{
+  "actions": [
+    {
+      "acted_at": "2007-12-04",
+      "action_code": "Intro-H",
+      "references": [],
+      "text": "Introduced in House",
+      "type": "action"
+    },
+    {
+      "acted_at": "2007-12-04",
+      "action_code": "H11100",
+      "committees": [
+        "HSED"
+      ],
+      "references": [],
+      "status": "REFERRED",
+      "text": "Referred to the House Committee on Education and Labor.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2007-12-11T13:32:41-05:00",
+      "action_code": "H30300",
+      "references": [],
+      "text": "Ms. Hirono moved to suspend the rules and agree to the resolution.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2007-12-11T13:33:23-05:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H15241-15243",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered under suspension of the rules.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2007-12-11T13:33:26-05:00",
+      "action_code": "H8D000",
+      "bill_ids": [
+        "hcres264-110"
+      ],
+      "references": [],
+      "text": "DEBATE - The House proceeded with forty minutes of debate on H. Con. Res. 264.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2007-12-11T13:48:17-05:00",
+      "action_code": "H37300",
+      "how": "by voice vote",
+      "references": [
+        {
+          "reference": "CR H15241",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "status": "PASS_OVER:HOUSE",
+      "suspension": null,
+      "text": "On motion to suspend the rules and agree to the resolution Agreed to by voice vote.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "h"
+    },
+    {
+      "acted_at": "2007-12-11T13:48:31-05:00",
+      "action_code": "H38310",
+      "references": [],
+      "text": "Motion to reconsider laid on the table Agreed to without objection.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2007-12-12",
+      "action_code": "",
+      "committees": [
+        "SSJU"
+      ],
+      "references": [],
+      "text": "Received in the Senate and referred to the Committee on the Judiciary.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2007-12-17",
+      "action_code": "",
+      "committees": [
+        "SSJU"
+      ],
+      "references": [
+        {
+          "reference": "CR S15791",
+          "type": "consideration"
+        }
+      ],
+      "text": "Senate Committee on the Judiciary discharged by Unanimous Consent.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2007-12-17",
+      "action_code": "",
+      "how": "by Unanimous Consent",
+      "references": [],
+      "result": "pass",
+      "status": "PASSED:CONCURRENTRES",
+      "text": "Resolution agreed to in Senate without amendment and with a preamble by Unanimous Consent.",
+      "type": "vote",
+      "vote_type": "vote2",
+      "where": "s"
+    },
+    {
+      "acted_at": "2007-12-17",
+      "action_code": "",
+      "references": [],
+      "text": "Message on Senate action sent to the House.",
+      "type": "action"
+    }
+  ],
+  "amendments": [],
+  "bill_id": "hconres264-110",
+  "bill_type": "hconres",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [
+    {
+      "activity": [
+        "discharged",
+        "referral"
+      ],
+      "committee": "Senate Judiciary",
+      "committee_id": "SSJU"
+    },
+    {
+      "activity": [
+        "referral"
+      ],
+      "committee": "House Education and the Workforce",
+      "committee_id": "HSED"
+    }
+  ],
+  "congress": "110",
+  "cosponsors": [
+    {
+      "bioguide_id": "A000014",
+      "district": "1",
+      "name": "Abercrombie, Neil",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-12-04",
+      "state": "HI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001245",
+      "district": "0",
+      "name": "Bordallo, Madeleine Z.",
+      "original_cosponsor": false,
+      "sponsored_at": "2007-12-11",
+      "state": "GU",
+      "title": "Del.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H000636",
+      "district": "15",
+      "name": "Hinojosa, Ruben",
+      "original_cosponsor": false,
+      "sponsored_at": "2007-12-11",
+      "state": "TX",
+      "title": "Rep.",
+      "withdrawn_at": null
+    }
+  ],
+  "enacted_as": null,
+  "history": {
+    "active": true,
+    "active_at": "2007-12-11T13:32:41-05:00",
+    "awaiting_signature": false,
+    "enacted": false,
+    "house_passage_result": "pass",
+    "house_passage_result_at": "2007-12-11T13:48:17-05:00",
+    "senate_passage_result": "pass",
+    "senate_passage_result_at": "2007-12-17",
+    "vetoed": false
+  },
+  "introduced_at": "2007-12-04",
+  "number": "264",
+  "official_title": "Honoring the University of Hawaii for its 100 years of commitment to public higher education.",
+  "popular_title": null,
+  "related_bills": [],
+  "short_title": null,
+  "sponsor": {
+    "bioguide_id": "H001042",
+    "district": "2",
+    "name": "Hirono, Mazie K.",
+    "state": "HI",
+    "title": "Rep.",
+    "type": "person"
+  },
+  "status": "PASSED:CONCURRENTRES",
+  "status_at": "2007-12-17",
+  "subjects": [
+    "Anniversaries",
+    "Colleges",
+    "Commemorations",
+    "Congressional tributes",
+    "Education",
+    "Hawaii",
+    "Higher education"
+  ],
+  "subjects_top_term": "Commemorations",
+  "summary": {
+    "as": "Passed Senate without amendment",
+    "asOf": "2007-12-17",
+    "date": "2008-02-11T15:36:08Z",
+    "text": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.)\n\nCongratulates the University of Hawaii on the momentous occasion of its 100th Anniversary.\n\nExpresses the warmest aloha and best wishes of Congress for continued success."
+  },
+  "titles": [
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Honoring the University of Hawaii for its 100 years of commitment to public higher education.",
+      "type": "official"
+    },
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Honoring the University of Hawaii for its 100 years of commitment to public higher education.",
+      "type": "display"
+    }
+  ],
+  "updated_at": "2023-01-11T20:07:51Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/110/hconres/BILLSTATUS-110hconres264.xml"
+}

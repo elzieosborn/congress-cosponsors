@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>2714</number>
+    <updateDate>2023-01-12T17:53:00Z</updateDate>
+    <updateDateIncludingText>2023-01-12T17:53:00Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2007-06-14</introducedDate>
+    <congress>110</congress>
+    <committees>
+      <item>
+        <systemCode>hswm00</systemCode>
+        <name>Ways and Means Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hswm04</systemCode>
+            <name>Trade Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2007-06-18T17:03:26Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2007-06-14T14:03:40Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2007-06-18</actionDate>
+        <committees>
+          <item>
+            <systemCode>hswm04</systemCode>
+            <name>Trade Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Trade.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2007-06-14</actionDate>
+        <text>Referred to the House Committee on Ways and Means.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hswm00</systemCode>
+            <name>Ways and Means Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2007-06-14</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2007-06-14</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>B001239</bioguideId>
+        <fullName>Rep. Barrett, J. Gresham [R-SC-3]</fullName>
+        <firstName>J.</firstName>
+        <lastName>Barrett</lastName>
+        <party>R</party>
+        <state>SC</state>
+        <middleName>Gresham</middleName>
+        <district>3</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>R000141</bioguideId>
+        <fullName>Rep. Regula, Ralph [R-OH-16]</fullName>
+        <firstName>RALPH</firstName>
+        <lastName>REGULA</lastName>
+        <party>R</party>
+        <state>OH</state>
+        <middleName>S.</middleName>
+        <district>16</district>
+        <sponsorshipDate>2007-06-14</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000749</bioguideId>
+        <fullName>Rep. Spratt, John M., Jr. [D-SC-5]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>SPRATT</lastName>
+        <party>D</party>
+        <state>SC</state>
+        <middleName>M.</middleName>
+        <district>5</district>
+        <sponsorshipDate>2007-06-14</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>N000015</bioguideId>
+        <fullName>Rep. Neal, Richard E. [D-MA-2]</fullName>
+        <firstName>RICHARD</firstName>
+        <lastName>NEAL</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>E.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2007-06-14</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001244</bioguideId>
+        <fullName>Rep. Bonner, Jo [R-AL-1]</fullName>
+        <firstName>Jo</firstName>
+        <lastName>Bonner</lastName>
+        <party>R</party>
+        <state>AL</state>
+        <district>1</district>
+        <sponsorshipDate>2007-06-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000420</bioguideId>
+        <fullName>Rep. Berry, Marion [D-AR-1]</fullName>
+        <firstName>MARION</firstName>
+        <lastName>BERRY</lastName>
+        <party>D</party>
+        <state>AR</state>
+        <district>1</district>
+        <sponsorshipDate>2007-07-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000309</bioguideId>
+        <fullName>Rep. Gordon, Bart [D-TN-6]</fullName>
+        <firstName>BART</firstName>
+        <lastName>GORDON</lastName>
+        <party>D</party>
+        <state>TN</state>
+        <district>6</district>
+        <sponsorshipDate>2007-09-06</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000172</bioguideId>
+        <fullName>Rep. Emerson, Jo Ann [R-MO-8]</fullName>
+        <firstName>JO</firstName>
+        <lastName>EMERSON</lastName>
+        <party>R</party>
+        <state>MO</state>
+        <middleName>ANN</middleName>
+        <district>8</district>
+        <sponsorshipDate>2007-09-06</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000672</bioguideId>
+        <fullName>Rep. Wolf, Frank R. [R-VA-10]</fullName>
+        <firstName>FRANK</firstName>
+        <lastName>WOLF</lastName>
+        <party>R</party>
+        <state>VA</state>
+        <middleName>R.</middleName>
+        <district>10</district>
+        <sponsorshipDate>2007-10-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Foreign Trade and International Finance</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Administrative remedies</name>
+        </item>
+        <item>
+          <name>Countervailing duties</name>
+        </item>
+        <item>
+          <name>Dumping</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Governmental investigations</name>
+        </item>
+        <item>
+          <name>Independent regulatory commissions</name>
+        </item>
+        <item>
+          <name>International Affairs</name>
+        </item>
+        <item>
+          <name>International agencies</name>
+        </item>
+        <item>
+          <name>Law</name>
+        </item>
+        <item>
+          <name>Tariff</name>
+        </item>
+        <item>
+          <name>Trade negotiations</name>
+        </item>
+        <item>
+          <name>U.S. International Trade Commission</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Foreign Trade and International Finance</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2007-06-14</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2007-08-24T22:14:06Z</updateDate>
+        <text><![CDATA[ <p>Amends the Uruguay Round Agreements Act to direct the President to delay or reverse the implementation of a decision of a dispute settlement panel or the Appellate Body that is adverse to the United States involving the calculation of dumping margins and weighted average dumping margins (zeroing decisions) until the United States has obtained clarification of rights and obligations within World Trade Organization (WTO) multilateral negotiations such that historic practices of the United States are permitted in antidumping duty investigations, reviews of antidumping duty orders, and under any other phase of an antidumping duty proceeding.</p> <p>Amends the Tariff Act of 1930 to revise factors that the United States International Trade Commission must consider in making material injury determinations in countervailing duty and antidumping duty proceedings to additionally require that the Commission make such determinations without regard to: (1) whether other imports are likely to replace subject imports; or (2) the effect of a potential order on the domestic industry.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>To require the President to delay or reverse the implementation of a decision of a World Trade Organization dispute settlement panel or the Appellate Body that is adverse to the United States involving the calculation of dumping margins and weighted average dumping margins, and for other purposes.</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>To require the President to delay or reverse the implementation of a decision of a World Trade Organization dispute settlement panel or the Appellate Body that is adverse to the United States involving the calculation of dumping margins and weighted average dumping margins, and for other purposes.</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To require the President to delay or reverse the implementation of a decision of a World Trade Organization dispute settlement panel or the Appellate Body that is adverse to the United States involving the calculation of dumping margins and weighted average dumping margins, and for other purposes.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2007-06-14T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-110hr2714ih/xml/BILLS-110hr2714ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2007-06-18</actionDate>
+      <text>Referred to the Subcommittee on Trade.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

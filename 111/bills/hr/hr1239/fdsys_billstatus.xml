@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>1239</number>
+    <updateDate>2022-02-03T06:03:42Z</updateDate>
+    <updateDateIncludingText>2022-02-03T06:03:42Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2009-02-26</introducedDate>
+    <congress>111</congress>
+    <committees>
+      <item>
+        <systemCode>hshm00</systemCode>
+        <name>Homeland Security Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Legislative interest</name>
+            <date>2010-09-22T16:38:00Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hspw00</systemCode>
+        <name>Transportation and Infrastructure Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hspw13</systemCode>
+            <name>Economic Development, Public Buildings, and Emergency Management Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2009-02-27T17:35:05Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2009-02-26T15:05:48Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2009-02-27</actionDate>
+        <committees>
+          <item>
+            <systemCode>hspw13</systemCode>
+            <name>Economic Development, Public Buildings, and Emergency Management Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Economic Development, Public Buildings and Emergency Management.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2009-02-26</actionDate>
+        <text>Referred to the House Committee on Transportation and Infrastructure.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hspw00</systemCode>
+            <name>Transportation and Infrastructure Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2009-02-26</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2009-02-26</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>T000193</bioguideId>
+        <fullName>Rep. Thompson, Bennie G. [D-MS-2]</fullName>
+        <firstName>BENNIE</firstName>
+        <lastName>THOMPSON</lastName>
+        <party>D</party>
+        <state>MS</state>
+        <district>2</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>R000581</bioguideId>
+        <fullName>Rep. Richardson, Laura [D-CA-37]</fullName>
+        <firstName>Laura</firstName>
+        <lastName>Richardson</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>37</district>
+        <sponsorshipDate>2009-10-26</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000574</bioguideId>
+        <fullName>Rep. Blumenauer, Earl [D-OR-3]</fullName>
+        <firstName>EARL</firstName>
+        <lastName>BLUMENAUER</lastName>
+        <party>D</party>
+        <state>OR</state>
+        <district>3</district>
+        <sponsorshipDate>2009-10-26</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Emergency Management</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Business investment and capital</name>
+        </item>
+        <item>
+          <name>Disaster relief and insurance</name>
+        </item>
+        <item>
+          <name>Emergency planning and evacuation</name>
+        </item>
+        <item>
+          <name>Government lending and loan guarantees</name>
+        </item>
+        <item>
+          <name>Housing and community development funding</name>
+        </item>
+        <item>
+          <name>Residential rehabilitation and home repair</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Emergency Management</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2009-02-26</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2009-03-25T20:22:53Z</updateDate>
+        <text><![CDATA[ <p>Property Mitigation Assistance Act of 2009 - Amends the Robert T. Stafford Disaster Assistance and Emergency Relief Act to direct the Administrator of the Federal Emergency Management Agency (FEMA) to establish a grant program to provide assistance to states to promote pre-disaster property mitigation measures within their jurisdictions.</p> <p>Requires a state, to be eligible for assistance, to have: (1) submitted a mitigation plan; (2) established a process for accepting and processing grant and loan applications from individual homeowners and business owners; (3) established a revolving loan fund to which any grant amounts received under this Act shall be deposited; and (4) submitted a detailed plan for how terms and conditions for authorized loans and grants will be set.</p><p>Directs the Administrator to allocate grant amounts to eligible states according to a formula based on specified factors, including the nature and extent of potential hazards to property in the state, the number of properties at risk in the event that a hazard or natural disaster should occur, the amount of prior property damage incurred by the state during any previous hazard or natural disaster, and any available data on the future risk of occurrence of any hazard or natural disaster in a state.</p><p>Sets forth provisions regarding baseline amounts for eligible states and matching requirements. </p><p>Authorizes each state to make grants or loans to assist individual homeowners and businesses in undertaking pre-disaster property mitigation measures from a revolving loan fund established under this Act.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Property Mitigation Assistance Act of 2009</title>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Property Mitigation Assistance Act of 2009</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Property Mitigation Assistance Act of 2009</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To establish a homeowner mitigation loan program within the Federal Emergency Management Agency to promote pre-disaster property mitigation measures.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2009-02-26T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-111hr1239ih/xml/BILLS-111hr1239ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2009-02-27</actionDate>
+      <text>Referred to the Subcommittee on Economic Development, Public Buildings and Emergency Management.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

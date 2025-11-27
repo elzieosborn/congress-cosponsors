@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>7065</number>
+    <updateDate>2019-11-15T21:20:20Z</updateDate>
+    <updateDateIncludingText>2019-11-15T21:20:20Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2008-09-25</introducedDate>
+    <congress>110</congress>
+    <committees>
+      <item>
+        <systemCode>hsif00</systemCode>
+        <name>Energy and Commerce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2008-09-25T17:44:06Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2008-09-25T14:04:15Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2008-09-25</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2008-09-25</actionDate>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2008-09-25</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2008-09-25</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>P000096</bioguideId>
+        <fullName>Rep. Pascrell, Bill, Jr. [D-NJ-8]</fullName>
+        <firstName>WILLIAM</firstName>
+        <lastName>PASCRELL</lastName>
+        <party>D</party>
+        <state>NJ</state>
+        <middleName>J.</middleName>
+        <district>8</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>M000934</bioguideId>
+        <fullName>Rep. Moran, Jerry [R-KS-1]</fullName>
+        <firstName>Jerry</firstName>
+        <lastName>Moran</lastName>
+        <party>R</party>
+        <state>KS</state>
+        <district>1</district>
+        <sponsorshipDate>2008-09-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000312</bioguideId>
+        <fullName>Rep. McGovern, James P. [D-MA-3]</fullName>
+        <firstName>JAMES</firstName>
+        <lastName>MCGOVERN</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>P.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2008-09-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001036</bioguideId>
+        <fullName>Rep. Capps, Lois [D-CA-23]</fullName>
+        <firstName>LOIS</firstName>
+        <lastName>CAPPS</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>23</district>
+        <sponsorshipDate>2008-09-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Access to health care</name>
+        </item>
+        <item>
+          <name>Data banks</name>
+        </item>
+        <item>
+          <name>Department of Health and Human Services</name>
+        </item>
+        <item>
+          <name>Economics and Public Finance</name>
+        </item>
+        <item>
+          <name>Education</name>
+        </item>
+        <item>
+          <name>Executive reorganization</name>
+        </item>
+        <item>
+          <name>Federal advisory bodies</name>
+        </item>
+        <item>
+          <name>Foreign students</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Government statistics</name>
+        </item>
+        <item>
+          <name>Governmental investigations</name>
+        </item>
+        <item>
+          <name>Grants-in-aid</name>
+        </item>
+        <item>
+          <name>Health information systems</name>
+        </item>
+        <item>
+          <name>Higher education</name>
+        </item>
+        <item>
+          <name>Medical education</name>
+        </item>
+        <item>
+          <name>Medical personnel</name>
+        </item>
+        <item>
+          <name>Nursing education</name>
+        </item>
+        <item>
+          <name>Paramedical personnel</name>
+        </item>
+        <item>
+          <name>Science, Technology, Communications</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Health</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2008-09-25</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2009-01-14T19:10:39Z</updateDate>
+        <text><![CDATA[ <p>Health Workforce Investment Act of 2008 - Amends the Public Health Service Act to establish the National Health Workforce Advisory Council to make recommendations to relevant agencies and congressional committees on health workforce issues, including on: (1) the supply and distribution of the U.S. health workforce; (2) current and future shortages or excesses of health workforce professionals; (3) issues relating to foreign medical and nursing school graduates; and (4) deficiencies in existing databases concerning the supply and distribution of, and postgraduate training programs for, health workforce professionals. Requires the Council to encourage entities providing graduate medical education to conduct activities to voluntarily address health workforce issues.</p><p>Establishes the National Center for Health Workforce Information and Analysis to conduct and support statistical and epidemiological activities for the purpose of assessing and improving the supply, distribution, diversity, and development of the health workforce in the United States. </p><p>Directs the Secretary of Health and Human Services to make grants to states for: (1) ensuring access to health services for all individuals, particularly those with low incomes or limited access to health services; (2) improving the supply, distribution, diversity, and development of the health workforce; and (3) creating state-specific health workforce goals and objectives consistent with health status goals and national health workforce objectives. </p><p>Authorizes the Secretary to provide for research to identify best practices and innovative approaches to improving the health workforce.</p><p>Requires the Secretary to develop national health workforce objectives.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Health Workforce Investment Act of 2008</title>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Health Workforce Investment Act of 2008</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Health Workforce Investment Act of 2008</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend the Public Health Service Act to address health workforce shortages.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2008-09-25T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-110hr7065ih/xml/BILLS-110hr7065ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2008-09-25</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

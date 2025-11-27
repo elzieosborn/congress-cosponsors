@@ -1,0 +1,94 @@
+{
+  "actions": [
+    {
+      "acted_at": "2016-03-03",
+      "action_code": "",
+      "how": "roll",
+      "references": [],
+      "result": "pass",
+      "roll": 31,
+      "text": "Amendment SA 3420 agreed to in Senate by Yea-Nay Vote. 90 - 0. Record Vote Number: 31.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "s"
+    },
+    {
+      "acted_at": "2016-03-03",
+      "action_code": "",
+      "references": [],
+      "text": "Amendment SA 3420 proposed by Senator Manchin to Amendment SA 3378. (consideration: CR S1262-1263; text: CR S1263) To strengthen consumer education about the risks of opioid abuse and addiction.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2016-03-03",
+      "action_code": "93000",
+      "references": [
+        {
+          "reference": "CR S1262-1263",
+          "type": "consideration"
+        },
+        {
+          "reference": "CR S1263",
+          "type": "text"
+        }
+      ],
+      "text": "Senate amendment proposed (on the floor): Amendment SA 3420 proposed by Senator Manchin to Amendment SA 3378.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2016-03-03",
+      "action_code": "94000",
+      "references": [],
+      "text": "Senate amendment agreed to: Amendment SA 3420 agreed to in Senate by Yea-Nay Vote. 90 - 0. Record Vote Number: 31.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2016-03-03",
+      "action_code": "97000",
+      "references": [],
+      "text": "Roll call votes on amendments in Senate: Amendment SA 3420 agreed to in Senate by Yea-Nay Vote. 90 - 0. Record Vote Number: 31.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2016-03-03",
+      "action_code": "91000",
+      "references": [],
+      "text": "Senate amendment submitted",
+      "type": "action"
+    }
+  ],
+  "amendment_id": "samdt3420-114",
+  "amendment_type": "samdt",
+  "amends_amendment": {
+    "amendment_id": "samdt3378-114",
+    "amendment_type": "samdt",
+    "congress": 114,
+    "description": "",
+    "number": 3378,
+    "purpose": "In the nature of a substitute."
+  },
+  "amends_bill": {
+    "bill_id": "s524-114",
+    "bill_type": "s",
+    "congress": 114,
+    "number": 524
+  },
+  "amends_treaty": null,
+  "chamber": "s",
+  "congress": "114",
+  "introduced_at": "2016-03-03",
+  "number": 3420,
+  "proposed_at": "2016-03-03T05:00:00Z",
+  "purpose": "To strengthen consumer education about the risks of opioid abuse and addiction.",
+  "sponsor": {
+    "bioguide_id": "M001183",
+    "district": null,
+    "name": "Manchin, Joe, III",
+    "state": "WV",
+    "title": "Sen.",
+    "type": "person"
+  },
+  "status": "pass",
+  "status_at": "2016-03-03",
+  "updated_at": "2022-02-03T03:10:20Z"
+}

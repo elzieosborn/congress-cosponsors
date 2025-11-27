@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>31</number>
+    <updateDate>2021-04-19T14:15:26Z</updateDate>
+    <updateDateIncludingText>2021-04-19T14:15:26Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HRES</type>
+    <introducedDate>2013-01-15</introducedDate>
+    <congress>113</congress>
+    <cdata/>
+    <committees>
+      <item>
+        <systemCode>hsfa00</systemCode>
+        <name>Foreign Affairs Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsfa07</systemCode>
+            <name>Western Hemisphere Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2013-02-25T17:49:16Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2013-01-15T15:00:25Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2013-02-25</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsfa07</systemCode>
+            <name>Western Hemisphere Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on the Western Hemisphere.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2013-01-15</actionDate>
+        <text>Referred to the House Committee on Foreign Affairs.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsfa00</systemCode>
+            <name>Foreign Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2013-01-15</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2013-01-15</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>L000551</bioguideId>
+        <fullName>Rep. Lee, Barbara [D-CA-13]</fullName>
+        <firstName>BARBARA</firstName>
+        <lastName>LEE</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>13</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>B001245</bioguideId>
+        <fullName>Del. Bordallo, Madeleine Z. [D-GU-At Large]</fullName>
+        <firstName>Madeleine</firstName>
+        <lastName>Bordallo</lastName>
+        <party>D</party>
+        <state>GU</state>
+        <middleName>Z.</middleName>
+        <district>0</district>
+        <sponsorshipDate>2013-01-15</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000911</bioguideId>
+        <fullName>Rep. Brown, Corrine [D-FL-5]</fullName>
+        <firstName>CORRINE</firstName>
+        <lastName>BROWN</lastName>
+        <party>D</party>
+        <state>FL</state>
+        <district>5</district>
+        <sponsorshipDate>2013-01-15</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001037</bioguideId>
+        <fullName>Rep. Capuano, Michael E. [D-MA-7]</fullName>
+        <firstName>MICHAEL</firstName>
+        <lastName>CAPUANO</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>E.</middleName>
+        <district>7</district>
+        <sponsorshipDate>2013-01-15</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001067</bioguideId>
+        <fullName>Rep. Clarke, Yvette D. [D-NY-9]</fullName>
+        <firstName>Yvette</firstName>
+        <lastName>Clarke</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>D.</middleName>
+        <district>9</district>
+        <sponsorshipDate>2013-01-15</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000288</bioguideId>
+        <fullName>Rep. Ellison, Keith [D-MN-5]</fullName>
+        <firstName>Keith</firstName>
+        <lastName>Ellison</lastName>
+        <party>D</party>
+        <state>MN</state>
+        <district>5</district>
+        <sponsorshipDate>2013-01-15</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000808</bioguideId>
+        <fullName>Rep. Wilson, Frederica S. [D-FL-24]</fullName>
+        <firstName>Frederica</firstName>
+        <lastName>Wilson</lastName>
+        <party>D</party>
+        <state>FL</state>
+        <middleName>S.</middleName>
+        <district>24</district>
+        <sponsorshipDate>2013-01-15</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000610</bioguideId>
+        <fullName>Rep. Deutch, Theodore E. [D-FL-21]</fullName>
+        <firstName>Theodore</firstName>
+        <lastName>Deutch</lastName>
+        <party>D</party>
+        <state>FL</state>
+        <middleName>E.</middleName>
+        <district>21</district>
+        <sponsorshipDate>2013-01-15</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>V000128</bioguideId>
+        <fullName>Rep. Van Hollen, Chris [D-MD-8]</fullName>
+        <firstName>Chris</firstName>
+        <lastName>Van Hollen</lastName>
+        <party>D</party>
+        <state>MD</state>
+        <district>8</district>
+        <sponsorshipDate>2013-01-15</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001137</bioguideId>
+        <fullName>Rep. Meeks, Gregory W. [D-NY-5]</fullName>
+        <firstName>GREGORY</firstName>
+        <lastName>MEEKS</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>W.</middleName>
+        <district>5</district>
+        <sponsorshipDate>2013-01-15</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>J000032</bioguideId>
+        <fullName>Rep. Jackson Lee, Sheila [D-TX-18]</fullName>
+        <firstName>SHEILA</firstName>
+        <lastName>JACKSON LEE</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>18</district>
+        <sponsorshipDate>2013-01-15</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001188</bioguideId>
+        <fullName>Rep. Meng, Grace [D-NY-6]</fullName>
+        <firstName>Grace</firstName>
+        <lastName>Meng</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <district>6</district>
+        <sponsorshipDate>2013-01-15</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000312</bioguideId>
+        <fullName>Rep. McGovern, James P. [D-MA-2]</fullName>
+        <firstName>JAMES</firstName>
+        <lastName>MCGOVERN</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>P.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2013-01-15</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000604</bioguideId>
+        <fullName>Rep. Payne, Donald M., Jr. [D-NJ-10]</fullName>
+        <firstName>Donald</firstName>
+        <lastName>Payne</lastName>
+        <party>D</party>
+        <state>NJ</state>
+        <middleName>M.</middleName>
+        <district>10</district>
+        <sponsorshipDate>2013-01-15</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>N000147</bioguideId>
+        <fullName>Del. Norton, Eleanor Holmes [D-DC-At Large]</fullName>
+        <firstName>ELEANOR</firstName>
+        <lastName>NORTON</lastName>
+        <party>D</party>
+        <state>DC</state>
+        <middleName>HOLMES</middleName>
+        <district>0</district>
+        <sponsorshipDate>2013-01-15</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000449</bioguideId>
+        <fullName>Rep. Fortenberry, Jeff [R-NE-1]</fullName>
+        <firstName>Jeff</firstName>
+        <lastName>Fortenberry</lastName>
+        <party>R</party>
+        <state>NE</state>
+        <district>1</district>
+        <sponsorshipDate>2013-01-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000187</bioguideId>
+        <fullName>Rep. Waters, Maxine [D-CA-43]</fullName>
+        <firstName>MAXINE</firstName>
+        <lastName>WATERS</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>43</district>
+        <sponsorshipDate>2013-01-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000553</bioguideId>
+        <fullName>Rep. Green, Al [D-TX-9]</fullName>
+        <firstName>Al</firstName>
+        <lastName>Green</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>9</district>
+        <sponsorshipDate>2013-01-29</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000714</bioguideId>
+        <fullName>Rep. Conyers, John, Jr. [D-MI-13]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>CONYERS</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <district>13</district>
+        <sponsorshipDate>2013-02-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000515</bioguideId>
+        <fullName>Rep. Rush, Bobby L. [D-IL-1]</fullName>
+        <firstName>BOBBY</firstName>
+        <lastName>RUSH</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>L.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2013-03-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>International Affairs</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Caribbean area</name>
+        </item>
+        <item>
+          <name>Commemorative events and holidays</name>
+        </item>
+        <item>
+          <name>Congressional tributes</name>
+        </item>
+        <item>
+          <name>Disaster relief and insurance</name>
+        </item>
+        <item>
+          <name>Food assistance and relief</name>
+        </item>
+        <item>
+          <name>Foreign aid and international relief</name>
+        </item>
+        <item>
+          <name>Haiti</name>
+        </item>
+        <item>
+          <name>Health promotion and preventive care</name>
+        </item>
+        <item>
+          <name>Housing supply and affordability</name>
+        </item>
+        <item>
+          <name>Infectious and parasitic diseases</name>
+        </item>
+        <item>
+          <name>International organizations and cooperation</name>
+        </item>
+        <item>
+          <name>Latin America</name>
+        </item>
+        <item>
+          <name>Natural disasters</name>
+        </item>
+        <item>
+          <name>Public contracts and procurement</name>
+        </item>
+        <item>
+          <name>Reconstruction and stabilization</name>
+        </item>
+        <item>
+          <name>Refugees, asylum, displaced persons</name>
+        </item>
+        <item>
+          <name>Solid waste and recycling</name>
+        </item>
+        <item>
+          <name>United Nations</name>
+        </item>
+        <item>
+          <name>Water quality</name>
+        </item>
+        <item>
+          <name>World health</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>International Affairs</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2013-01-15</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2013-01-17T21:02:38Z</updateDate>
+        <text><![CDATA[ <p>Honors: (1) those who lost their lives due to the tragic earthquake of January 12, 2010; and (2) the sacrifice of the men and women of the government of Haiti, the U.S. government, the United Nations (U.N.), and the international community for their response to the calamity.</p> <p>Expresses solidarity with the people of Haiti as they work to rebuild their neighborhoods, livelihoods, and country.</p> <p>Reaffirms the commitment of the House of Representatives to support long-term Haitian reconstruction.</p> <p>Supports the Administration's efforts to: (1) increase food security in Haiti through sustainable agriculture programs; (2) shore up housing initiatives; (3) prevent the spread of cholera, treat persons who contract the disease, and provide technical assistance to the Haitian Ministry of Public Health; and (4) improve water, sanitation, and health systems.</p> <p>Urges the President and the international community to: (1) focus assistance on Haiti's public sector capacity to provide basic services, (2) develop and improve communications and participatory mechanisms to more substantially involve Haitian civil society at all stages of the cholera and post-earthquake responses, and (3) give priority to programs that protect vulnerable populations. </p> <p>Urges the President to: (1) make necessary resources available to U.S. and U.N. agencies, nongovernmental organizations, private volunteer organizations, and regional institutions; (2) support U.N. efforts to eliminate cholera from the island of Hispaniola; (3) lead humanitarian and development efforts with the government of Haiti, the Haitian Diaspora, and international actors; (4) improve the monitoring of U.S. government-funded aid programs; and (5) work with Haitian authorities and private landowners to prevent evictions of internally displaced person communities.</p> <p>Expresses the desire for a clear understanding of what would constitute success in the priority areas identified by the Department of State.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Recognizing the anniversary of the tragic earthquake in Haiti on January 12, 2010, honoring those who lost their lives, and expressing continued solidarity with the Haitian people.</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Recognizing the anniversary of the tragic earthquake in Haiti on January 12, 2010, honoring those who lost their lives, and expressing continued solidarity with the Haitian people.</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>Recognizing the anniversary of the tragic earthquake in Haiti on January 12, 2010, honoring those who lost their lives, and expressing continued solidarity with the Haitian people.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2013-01-15T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-113hres31ih/xml/BILLS-113hres31ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2013-02-25</actionDate>
+      <text>Referred to the Subcommittee on the Western Hemisphere.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

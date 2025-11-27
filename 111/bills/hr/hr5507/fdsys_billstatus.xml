@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>5507</number>
+    <updateDate>2023-01-11T13:19:55Z</updateDate>
+    <updateDateIncludingText>2023-01-11T13:19:55Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2010-06-10</introducedDate>
+    <congress>111</congress>
+    <committees>
+      <item>
+        <systemCode>hsas00</systemCode>
+        <name>Armed Services Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsas03</systemCode>
+            <name>Readiness Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2010-07-14T18:49:28Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2010-06-10T14:01:44Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2010-07-14</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsas03</systemCode>
+            <name>Readiness Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Readiness.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2010-06-10</actionDate>
+        <text>Referred to the House Committee on Armed Services.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsas00</systemCode>
+            <name>Armed Services Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2010-06-10</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2010-06-10</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>H001041</bioguideId>
+        <fullName>Rep. Heller, Dean [R-NV-2]</fullName>
+        <firstName>Dean</firstName>
+        <lastName>Heller</lastName>
+        <party>R</party>
+        <state>NV</state>
+        <district>2</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Alternative and renewable resources</name>
+        </item>
+        <item>
+          <name>Government information and archives</name>
+        </item>
+        <item>
+          <name>Military facilities and property</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Armed Forces and National Security</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2010-06-10</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2010-09-10T20:02:51Z</updateDate>
+        <text><![CDATA[ <p>Department of Defense Alternative Energy Mapping Act - Requires the Secretary of Defense (DOD) to: (1) prepare maps of military installations and eligible adjacent property that classify locations on the installations and property as acceptable, unacceptable, or unassessed regarding their suitability for placement of geothermal, wind, solar photovoltaic, or solar thermal trough systems; (2) enter into agreements with entities involved in the production or installation of alternative energy systems to utilize their expertise and to share the costs of preparing such maps; and (3) disseminate such maps to Congress, the states in which the installations are located, local governments having jurisdiction over adjacent land, and the owners of adjacent private property.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Department of Defense Alternative Energy Mapping Act</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Department of Defense Alternative Energy Mapping Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To require the Secretary of Defense to identify areas on military installations and certain other properties as acceptable, unacceptable, or unassessed regarding their suitability for placement of geothermal, wind, solar photovoltaic, or solar thermal trough systems, and for other purposes.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Department of Defense Alternative Energy Mapping Act</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2010-06-10T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-111hr5507ih/xml/BILLS-111hr5507ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2010-07-14</actionDate>
+      <text>Referred to the Subcommittee on Readiness.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

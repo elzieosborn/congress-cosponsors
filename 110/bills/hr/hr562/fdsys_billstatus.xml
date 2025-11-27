@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>562</number>
+    <updateDate>2022-02-03T05:09:12Z</updateDate>
+    <updateDateIncludingText>2022-02-03T05:09:12Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2007-01-18</introducedDate>
+    <congress>110</congress>
+    <committees>
+      <item>
+        <systemCode>hswm00</systemCode>
+        <name>Ways and Means Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hswm02</systemCode>
+            <name>Health Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2007-01-24T15:41:24Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2007-01-18T15:01:45Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2007-01-24</actionDate>
+        <committees>
+          <item>
+            <systemCode>hswm02</systemCode>
+            <name>Health Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2007-01-18</actionDate>
+        <text>Referred to the House Committee on Ways and Means.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hswm00</systemCode>
+            <name>Ways and Means Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2007-01-18</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2007-01-18</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>E000187</bioguideId>
+        <fullName>Rep. English, Phil [R-PA-3]</fullName>
+        <firstName>PHIL</firstName>
+        <lastName>ENGLISH</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <district>3</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>P000422</bioguideId>
+        <fullName>Rep. Pomeroy, Earl [D-ND-At Large]</fullName>
+        <firstName>EARL</firstName>
+        <lastName>POMEROY</lastName>
+        <party>D</party>
+        <state>ND</state>
+        <district>0</district>
+        <sponsorshipDate>2007-01-18</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000293</bioguideId>
+        <fullName>Rep. Lewis, Ron [R-KY-2]</fullName>
+        <firstName>RON</firstName>
+        <lastName>LEWIS</lastName>
+        <party>R</party>
+        <state>KY</state>
+        <district>2</district>
+        <sponsorshipDate>2007-01-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>J000032</bioguideId>
+        <fullName>Rep. Jackson-Lee, Sheila [D-TX-18]</fullName>
+        <firstName>SHEILA</firstName>
+        <lastName>JACKSON-LEE</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>18</district>
+        <sponsorshipDate>2007-02-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>A000361</bioguideId>
+        <fullName>Rep. Alexander, Rodney [R-LA-5]</fullName>
+        <firstName>Rodney</firstName>
+        <lastName>Alexander</lastName>
+        <party>R</party>
+        <state>LA</state>
+        <district>5</district>
+        <sponsorshipDate>2007-02-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>J000174</bioguideId>
+        <fullName>Rep. Johnson, Sam [R-TX-3]</fullName>
+        <firstName>SAM</firstName>
+        <lastName>JOHNSON</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>3</district>
+        <sponsorshipDate>2007-02-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000462</bioguideId>
+        <fullName>Rep. Tiberi, Patrick J. [R-OH-12]</fullName>
+        <firstName>PATRICK</firstName>
+        <lastName>TIBERI</lastName>
+        <party>R</party>
+        <state>OH</state>
+        <middleName>J.</middleName>
+        <district>12</district>
+        <sponsorshipDate>2007-02-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>J000287</bioguideId>
+        <fullName>Rep. Jindal, Bobby [R-LA-1]</fullName>
+        <firstName>Bobby</firstName>
+        <lastName>Jindal</lastName>
+        <party>R</party>
+        <state>LA</state>
+        <district>1</district>
+        <sponsorshipDate>2007-03-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001053</bioguideId>
+        <fullName>Rep. Cole, Tom [R-OK-4]</fullName>
+        <firstName>Tom</firstName>
+        <lastName>Cole</lastName>
+        <party>R</party>
+        <state>OK</state>
+        <district>4</district>
+        <sponsorshipDate>2007-03-13</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000577</bioguideId>
+        <fullName>Rep. Ryan, Tim [D-OH-17]</fullName>
+        <firstName>TIM</firstName>
+        <lastName>RYAN</lastName>
+        <party>D</party>
+        <state>OH</state>
+        <district>17</district>
+        <sponsorshipDate>2007-03-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000459</bioguideId>
+        <fullName>Rep. Terry, Lee [R-NE-2]</fullName>
+        <firstName>LEE</firstName>
+        <lastName>TERRY</lastName>
+        <party>R</party>
+        <state>NE</state>
+        <district>2</district>
+        <sponsorshipDate>2007-03-29</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001161</bioguideId>
+        <fullName>Rep. Melancon, Charlie [D-LA-3]</fullName>
+        <firstName>Charlie</firstName>
+        <lastName>Melancon</lastName>
+        <party>D</party>
+        <state>LA</state>
+        <district>3</district>
+        <sponsorshipDate>2007-04-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000172</bioguideId>
+        <fullName>Rep. Kildee, Dale E. [D-MI-5]</fullName>
+        <firstName>DALE</firstName>
+        <lastName>KILDEE</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <middleName>E.</middleName>
+        <district>5</district>
+        <sponsorshipDate>2007-04-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000755</bioguideId>
+        <fullName>Rep. Brady, Kevin [R-TX-8]</fullName>
+        <firstName>KEVIN</firstName>
+        <lastName>BRADY</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>8</district>
+        <sponsorshipDate>2007-04-26</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000801</bioguideId>
+        <fullName>Rep. Wilson, Charles A. [D-OH-6]</fullName>
+        <firstName>Charles</firstName>
+        <lastName>Wilson</lastName>
+        <party>D</party>
+        <state>OH</state>
+        <middleName>A.</middleName>
+        <district>6</district>
+        <sponsorshipDate>2007-05-02</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001255</bioguideId>
+        <fullName>Rep. Boustany, Charles W., Jr. [R-LA-7]</fullName>
+        <firstName>Charles</firstName>
+        <lastName>Boustany</lastName>
+        <party>R</party>
+        <state>LA</state>
+        <middleName>W.</middleName>
+        <district>7</district>
+        <sponsorshipDate>2007-05-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000072</bioguideId>
+        <fullName>Rep. Baker, Richard H. [R-LA-6]</fullName>
+        <firstName>RICHARD</firstName>
+        <lastName>BAKER</lastName>
+        <party>R</party>
+        <state>LA</state>
+        <middleName>H.</middleName>
+        <district>6</district>
+        <sponsorshipDate>2007-05-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001037</bioguideId>
+        <fullName>Rep. Herseth Sandlin, Stephanie [D-SD-At Large]</fullName>
+        <firstName>Stephanie</firstName>
+        <lastName>Herseth Sandlin</lastName>
+        <party>D</party>
+        <state>SD</state>
+        <district>0</district>
+        <sponsorshipDate>2007-05-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000309</bioguideId>
+        <fullName>Rep. Gordon, Bart [D-TN-6]</fullName>
+        <firstName>BART</firstName>
+        <lastName>GORDON</lastName>
+        <party>D</party>
+        <state>TN</state>
+        <district>6</district>
+        <sponsorshipDate>2007-05-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000798</bioguideId>
+        <fullName>Rep. Walberg, Timothy [R-MI-7]</fullName>
+        <firstName>Timothy</firstName>
+        <lastName>Walberg</lastName>
+        <party>R</party>
+        <state>MI</state>
+        <district>7</district>
+        <sponsorshipDate>2007-05-24</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Administrative procedure</name>
+        </item>
+        <item>
+          <name>Cardiovascular diseases</name>
+        </item>
+        <item>
+          <name>Case management</name>
+        </item>
+        <item>
+          <name>Case mix (Medical care)</name>
+        </item>
+        <item>
+          <name>Communicable diseases</name>
+        </item>
+        <item>
+          <name>Congressional reporting requirements</name>
+        </item>
+        <item>
+          <name>Department of Health and Human Services</name>
+        </item>
+        <item>
+          <name>Digestive diseases</name>
+        </item>
+        <item>
+          <name>Finance and Financial Sector</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Government paperwork</name>
+        </item>
+        <item>
+          <name>Government publicity</name>
+        </item>
+        <item>
+          <name>Governmental investigations</name>
+        </item>
+        <item>
+          <name>Health insurance</name>
+        </item>
+        <item>
+          <name>Hospital care</name>
+        </item>
+        <item>
+          <name>Hospital rates</name>
+        </item>
+        <item>
+          <name>Hospitals</name>
+        </item>
+        <item>
+          <name>Kidney diseases</name>
+        </item>
+        <item>
+          <name>Labor and Employment</name>
+        </item>
+        <item>
+          <name>Law</name>
+        </item>
+        <item>
+          <name>Long-term care</name>
+        </item>
+        <item>
+          <name>Medicaid</name>
+        </item>
+        <item>
+          <name>Medical records</name>
+        </item>
+        <item>
+          <name>Medicare</name>
+        </item>
+        <item>
+          <name>Metabolism</name>
+        </item>
+        <item>
+          <name>Nervous system diseases</name>
+        </item>
+        <item>
+          <name>Performance measurement</name>
+        </item>
+        <item>
+          <name>Physicians</name>
+        </item>
+        <item>
+          <name>Quality of care</name>
+        </item>
+        <item>
+          <name>Respiratory diseases</name>
+        </item>
+        <item>
+          <name>Skin diseases</name>
+        </item>
+        <item>
+          <name>Social Welfare</name>
+        </item>
+        <item>
+          <name>Wages</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Health</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2007-01-18</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2007-01-22T21:36:13Z</updateDate>
+        <text><![CDATA[ <p>Medicare Long-Term Care Hospital Improvement Act of 2007 - Amends title XVIII (Medicare) of the Social Security Act to prescribe requirements for a long-term care hospital (LTCH) and patient criteria for prospective payment to an LTCH.</p> <p>Directs the Secretary of Health and Human Services to: (1) determine the LTCH diagnosis related groups (LTCH-DRGs) associated with a high severity of illness for specified medical conditions; and (2) study and report to Congress on appropriate quality measures for Medicare patients receiving care in LTCHs.</p><p>Directs the Secretary to choose three quality measures from the study for LTCHs to report.</p><p>Amends the Medicare, Medicaid, and SCHIP Benefits Improvement and Protection Act of 2000 to require annual updates of LTCH base rates and wage indices and the reweighting of LTCH-DRGs. </p><p>Prohibits the Secretary from extending application of the 25% (or applicable percentage) patient threshold payment adjustment to freestanding LTCHs.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Medicare Long-Term Care Hospital Improvement Act of 2007</title>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Medicare Long-Term Care Hospital Improvement Act of 2007</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend title XVIII of the Social Security Act to ensure and foster continued patient quality of care by establishing facility and patient criteria for long-term care hospitals and related improvements under the Medicare Program.</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Medicare Long-Term Care Hospital Improvement Act of 2007</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2007-01-18T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-110hr562ih/xml/BILLS-110hr562ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2007-01-24</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>726</number>
+    <updateDate>2019-11-15T21:43:07Z</updateDate>
+    <updateDateIncludingText>2019-11-15T21:43:07Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2007-01-30</introducedDate>
+    <congress>110</congress>
+    <committees>
+      <item>
+        <systemCode>hswm00</systemCode>
+        <name>Ways and Means Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hswm01</systemCode>
+            <name>Social Security Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2007-02-07T15:52:21Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2007-01-30T15:31:20Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2007-02-07</actionDate>
+        <committees>
+          <item>
+            <systemCode>hswm01</systemCode>
+            <name>Social Security Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Social Security.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2007-01-30</actionDate>
+        <text>Referred to the House Committee on Ways and Means.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hswm00</systemCode>
+            <name>Ways and Means Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2007-01-30</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2007-01-30</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>F000339</bioguideId>
+        <fullName>Rep. Frank, Barney [D-MA-4]</fullName>
+        <firstName>BARNEY</firstName>
+        <lastName>FRANK</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <district>4</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>H000324</bioguideId>
+        <fullName>Rep. Hastings, Alcee L. [D-FL-23]</fullName>
+        <firstName>ALCEE</firstName>
+        <lastName>HASTINGS</lastName>
+        <party>D</party>
+        <state>FL</state>
+        <middleName>L.</middleName>
+        <district>23</district>
+        <sponsorshipDate>2007-03-28</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001038</bioguideId>
+        <fullName>Rep. Crowley, Joseph [D-NY-7]</fullName>
+        <firstName>JOSEPH</firstName>
+        <lastName>CROWLEY</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <district>7</district>
+        <sponsorshipDate>2007-04-24</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001146</bioguideId>
+        <fullName>Rep. Marshall, Jim [D-GA-8]</fullName>
+        <firstName>Jim</firstName>
+        <lastName>Marshall</lastName>
+        <party>D</party>
+        <state>GA</state>
+        <district>8</district>
+        <sponsorshipDate>2007-04-24</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000011</bioguideId>
+        <fullName>Rep. Rahall, Nick J., II [D-WV-3]</fullName>
+        <firstName>NICK</firstName>
+        <lastName>RAHALL</lastName>
+        <party>D</party>
+        <state>WV</state>
+        <middleName>J.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2007-05-02</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>A000014</bioguideId>
+        <fullName>Rep. Abercrombie, Neil [D-HI-1]</fullName>
+        <firstName>NEIL</firstName>
+        <lastName>ABERCROMBIE</lastName>
+        <party>D</party>
+        <state>HI</state>
+        <district>1</district>
+        <sponsorshipDate>2007-05-24</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001138</bioguideId>
+        <fullName>Rep. Manzullo, Donald A. [R-IL-16]</fullName>
+        <firstName>DONALD</firstName>
+        <lastName>MANZULLO</lastName>
+        <party>R</party>
+        <state>IL</state>
+        <district>16</district>
+        <sponsorshipDate>2007-05-24</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000034</bioguideId>
+        <fullName>Rep. Pallone, Frank, Jr. [D-NJ-6]</fullName>
+        <firstName>FRANK</firstName>
+        <lastName>PALLONE</lastName>
+        <party>D</party>
+        <state>NJ</state>
+        <district>6</district>
+        <sponsorshipDate>2007-06-12</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000149</bioguideId>
+        <fullName>Rep. Payne, Donald M. [D-NJ-10]</fullName>
+        <firstName>DONALD</firstName>
+        <lastName>PAYNE</lastName>
+        <party>D</party>
+        <state>NJ</state>
+        <middleName>M.</middleName>
+        <district>10</district>
+        <sponsorshipDate>2007-06-12</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001038</bioguideId>
+        <fullName>Rep. Higgins, Brian [D-NY-27]</fullName>
+        <firstName>Brian</firstName>
+        <lastName>Higgins</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <district>27</district>
+        <sponsorshipDate>2007-06-26</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000314</bioguideId>
+        <fullName>Rep. Wexler, Robert [D-FL-19]</fullName>
+        <firstName>ROBERT</firstName>
+        <lastName>WEXLER</lastName>
+        <party>D</party>
+        <state>FL</state>
+        <district>19</district>
+        <sponsorshipDate>2007-07-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>J000032</bioguideId>
+        <fullName>Rep. Jackson-Lee, Sheila [D-TX-18]</fullName>
+        <firstName>SHEILA</firstName>
+        <lastName>JACKSON-LEE</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>18</district>
+        <sponsorshipDate>2007-07-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000172</bioguideId>
+        <fullName>Rep. Kildee, Dale E. [D-MI-5]</fullName>
+        <firstName>DALE</firstName>
+        <lastName>KILDEE</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <middleName>E.</middleName>
+        <district>5</district>
+        <sponsorshipDate>2007-08-02</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000510</bioguideId>
+        <fullName>Rep. Smith, Adam [D-WA-9]</fullName>
+        <firstName>ADAM</firstName>
+        <lastName>SMITH</lastName>
+        <party>D</party>
+        <state>WA</state>
+        <district>9</district>
+        <sponsorshipDate>2007-09-18</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000523</bioguideId>
+        <fullName>Rep. Price, David E. [D-NC-4]</fullName>
+        <firstName>DAVID</firstName>
+        <lastName>PRICE</lastName>
+        <party>D</party>
+        <state>NC</state>
+        <middleName>E.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2007-09-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000652</bioguideId>
+        <fullName>Rep. Boswell, Leonard L. [D-IA-3]</fullName>
+        <firstName>LEONARD</firstName>
+        <lastName>BOSWELL</lastName>
+        <party>D</party>
+        <state>IA</state>
+        <middleName>L.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2007-10-01</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000563</bioguideId>
+        <fullName>Rep. Lipinski, Daniel [D-IL-3]</fullName>
+        <firstName>Daniel</firstName>
+        <lastName>Lipinski</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>William</middleName>
+        <district>3</district>
+        <sponsorshipDate>2007-11-06</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001072</bioguideId>
+        <fullName>Rep. Carson, Andre [D-IN-7]</fullName>
+        <firstName>Andre</firstName>
+        <lastName>Carson</lastName>
+        <party>D</party>
+        <state>IN</state>
+        <district>7</district>
+        <sponsorshipDate>2008-04-24</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000984</bioguideId>
+        <fullName>Rep. Cummings, Elijah E. [D-MD-7]</fullName>
+        <firstName>ELIJAH</firstName>
+        <lastName>CUMMINGS</lastName>
+        <party>D</party>
+        <state>MD</state>
+        <middleName>E.</middleName>
+        <district>7</district>
+        <sponsorshipDate>2008-05-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001037</bioguideId>
+        <fullName>Rep. Capuano, Michael E. [D-MA-8]</fullName>
+        <firstName>MICHAEL</firstName>
+        <lastName>CAPUANO</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>E.</middleName>
+        <district>8</district>
+        <sponsorshipDate>2008-07-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Social Welfare</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Cost of living adjustments</name>
+        </item>
+        <item>
+          <name>Old age, survivors and disability insurance</name>
+        </item>
+        <item>
+          <name>Social security beneficiaries</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Social Welfare</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2007-01-30</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2007-02-05T20:37:49Z</updateDate>
+        <text><![CDATA[ <p>Windfall Elimination Provision Relief Act of 2007 - Amends title II (Old Age, Survivors and Disability Insurance) (OASDI) of the Social Security Act to: (1) restrict the application of the windfall elimination requirement to individuals whose combined monthly income from the primary OASDI insurance amount and the portion of the monthly periodic payment attributable to noncovered service performed after 1956 exceeds the cost-of-living adjusted amount of $2,500; and (2) provide for a graduated implementation of such requirement on amounts above such threshold by applying applicable percentages determined according to a specified formula.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Windfall Elimination Provision Relief Act of 2007</title>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Windfall Elimination Provision Relief Act of 2007</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Windfall Elimination Provision Relief Act of 2007</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend title II of the Social Security Act to restrict the application of the windfall elimination provision to individuals whose combined monthly income from benefits under such title and other monthly periodic payments exceeds a minimum COLA-adjusted amount of $2,500 and to provide for a graduated implementation of such provision on amounts above such minimum amount.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2007-01-30T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-110hr726ih/xml/BILLS-110hr726ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2007-02-07</actionDate>
+      <text>Referred to the Subcommittee on Social Security.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

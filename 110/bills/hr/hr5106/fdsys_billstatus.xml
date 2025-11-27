@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>5106</number>
+    <updateDate>2023-01-11T13:15:18Z</updateDate>
+    <updateDateIncludingText>2023-01-11T13:15:18Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2008-01-23</introducedDate>
+    <congress>110</congress>
+    <committees>
+      <item>
+        <systemCode>hsii00</systemCode>
+        <name>Natural Resources Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsii15</systemCode>
+            <name>Oversight and Investigations Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2008-01-28T15:24:23Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2008-01-23T15:05:00Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2008-01-28</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii15</systemCode>
+            <name>Oversight and Investigations Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Fisheries, Wildlife, and Oceans.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2008-01-23</actionDate>
+        <text>Referred to the House Committee on Natural Resources.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2008-01-23</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2008-01-23</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>A000014</bioguideId>
+        <fullName>Rep. Abercrombie, Neil [D-HI-1]</fullName>
+        <firstName>NEIL</firstName>
+        <lastName>ABERCROMBIE</lastName>
+        <party>D</party>
+        <state>HI</state>
+        <district>1</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>L000559</bioguideId>
+        <fullName>Rep. Langevin, James R. [D-RI-2]</fullName>
+        <firstName>JAMES</firstName>
+        <lastName>LANGEVIN</lastName>
+        <party>D</party>
+        <state>RI</state>
+        <middleName>R.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2008-02-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001068</bioguideId>
+        <fullName>Rep. Cohen, Steve [D-TN-9]</fullName>
+        <firstName>Steve</firstName>
+        <lastName>Cohen</lastName>
+        <party>D</party>
+        <state>TN</state>
+        <district>9</district>
+        <sponsorshipDate>2008-02-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000933</bioguideId>
+        <fullName>Rep. Moran, James P. [D-VA-8]</fullName>
+        <firstName>JAMES</firstName>
+        <lastName>MORAN</lastName>
+        <party>D</party>
+        <state>VA</state>
+        <middleName>P.</middleName>
+        <district>8</district>
+        <sponsorshipDate>2008-02-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001034</bioguideId>
+        <fullName>Rep. Honda, Michael M. [D-CA-15]</fullName>
+        <firstName>MICHAEL</firstName>
+        <lastName>HONDA</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <middleName>M.</middleName>
+        <district>15</district>
+        <sponsorshipDate>2008-04-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000452</bioguideId>
+        <fullName>Resident Commissioner Fortuno, Luis G. [R-PR-At Large]</fullName>
+        <firstName>Luis</firstName>
+        <lastName>Fortuno</lastName>
+        <party>R</party>
+        <state>PR</state>
+        <middleName>G.</middleName>
+        <district>0</district>
+        <sponsorshipDate>2008-04-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000010</bioguideId>
+        <fullName>Del. Faleomavaega, Eni F. H. [D-AS-At Large]</fullName>
+        <firstName>Eni</firstName>
+        <lastName>Faleomavaega</lastName>
+        <party>D</party>
+        <state>AS</state>
+        <middleName>F. H.</middleName>
+        <district>0</district>
+        <sponsorshipDate>2008-04-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000551</bioguideId>
+        <fullName>Rep. Grijalva, Raúl M. [D-AZ-7]</fullName>
+        <firstName>Raúl</firstName>
+        <lastName>Grijalva</lastName>
+        <party>D</party>
+        <state>AZ</state>
+        <middleName>M.</middleName>
+        <district>7</district>
+        <sponsorshipDate>2008-05-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>Y000031</bioguideId>
+        <fullName>Rep. Young, C. W. Bill [R-FL-10]</fullName>
+        <firstName>C. W.</firstName>
+        <lastName>Young</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <middleName>Bill</middleName>
+        <district>10</district>
+        <sponsorshipDate>2008-06-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Public Lands and Natural Resources</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Animals</name>
+        </item>
+        <item>
+          <name>Commerce</name>
+        </item>
+        <item>
+          <name>Ecological research</name>
+        </item>
+        <item>
+          <name>Environmental Protection</name>
+        </item>
+        <item>
+          <name>Executive reorganization</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Independent regulatory commissions</name>
+        </item>
+        <item>
+          <name>Marine Mammal Commission</name>
+        </item>
+        <item>
+          <name>Marine and coastal resources, fisheries</name>
+        </item>
+        <item>
+          <name>Marine mammals</name>
+        </item>
+        <item>
+          <name>Marine resources conservation</name>
+        </item>
+        <item>
+          <name>Oceanography</name>
+        </item>
+        <item>
+          <name>Planning</name>
+        </item>
+        <item>
+          <name>Public-private partnerships</name>
+        </item>
+        <item>
+          <name>Science, Technology, Communications</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Public Lands and Natural Resources</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2008-01-23</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2008-04-24T20:13:19Z</updateDate>
+        <text><![CDATA[ <p>National Marine Mammal Research Program Act of 2007 - Amends the Marine Mammal Protection Act of 1972 to require the Marine Mammal Commission to establish the National Marine Mammal Research Program and a National Marine Mammal Research Program Office for the Research Program. Includes in the Program's purposes: (1) undertaking research on marine mammals, the factors that affect their populations and habitats, and related mitigation; and (2) coordinating and strengthening scientific research by developing partnerships among federal agencies, academia, industry, and other members of the oceanographic and marine mammal scientific communities. Authorizes the Commission to enter into contracts, make grants, or enter other arrangements as necessary to carry out the Program.</p> <p>Directs the President to create a National Marine Mammal Research Coordinating Committee, including in its duties: (1) developing a national marine mammal research plan; and (2) seeking to enter into an agreement with the National Research Council to periodically evaluate the scientific content of the plan and the implementation of research conducted under the Program.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>National Marine Mammal Research Program Act of 2007</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>National Marine Mammal Research Program Act of 2007</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To authorize the Marine Mammal Commission to establish a national research program to fund basic and applied research on marine mammals, and for other purposes.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>National Marine Mammal Research Program Act of 2007</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2008-01-23T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-110hr5106ih/xml/BILLS-110hr5106ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2008-01-28</actionDate>
+      <text>Referred to the Subcommittee on Fisheries, Wildlife, and Oceans.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

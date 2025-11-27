@@ -1,0 +1,103 @@
+{
+  "actions": [
+    {
+      "acted_at": "2003-05-23",
+      "action_code": "",
+      "how": "roll",
+      "references": [],
+      "result": "fail",
+      "roll": 197,
+      "text": "Amendment SA 833 not agreed to in Senate by Yea-Nay Vote. 47 - 52. Record Vote Number: 197.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "s"
+    },
+    {
+      "acted_at": "2003-05-23",
+      "action_code": "",
+      "references": [],
+      "text": "Amendment SA 833 proposed by Senator Baucus 197. (consideration:  CR S7094-7095; text:  CR S7094) To reduce the amount by which the statutory limit on the public debt is increased.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2003-05-23",
+      "action_code": "97000",
+      "references": [],
+      "text": "Roll call votes on amendments in Senate: Amendment SA 833 not agreed to in Senate by Yea-Nay Vote. 47 - 52. Record Vote Number: 197.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2003-05-23",
+      "action_code": "95000",
+      "references": [],
+      "text": "Senate amendment not agreed to: Amendment SA 833 not agreed to in Senate by Yea-Nay Vote. 47 - 52. Record Vote Number: 197.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2003-05-23",
+      "action_code": "97000",
+      "references": [
+        {
+          "reference": " CR S7094-7095",
+          "type": "consideration"
+        },
+        {
+          "reference": " CR S7094",
+          "type": "text"
+        }
+      ],
+      "text": "Roll call votes on amendments in Senate: Amendment SA 833 proposed by Senator Baucus 197.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2003-05-23",
+      "action_code": "93000",
+      "references": [
+        {
+          "reference": " CR S7094-7095",
+          "type": "consideration"
+        },
+        {
+          "reference": " CR S7094",
+          "type": "text"
+        }
+      ],
+      "text": "Senate amendment proposed (on the floor): Amendment SA 833 proposed by Senator Baucus 197.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2003-05-23",
+      "action_code": "91000",
+      "references": [],
+      "text": "Senate amendment submitted",
+      "type": "action"
+    }
+  ],
+  "amendment_id": "samdt833-108",
+  "amendment_type": "samdt",
+  "amends_amendment": null,
+  "amends_bill": {
+    "bill_id": "hjres51-108",
+    "bill_type": "hjres",
+    "congress": 108,
+    "number": 51
+  },
+  "amends_treaty": null,
+  "chamber": "s",
+  "congress": "108",
+  "introduced_at": "2003-05-23",
+  "number": 833,
+  "proposed_at": "2003-05-23T04:00:00Z",
+  "purpose": "To reduce the amount by which the statutory limit on the public debt is increased.",
+  "sponsor": {
+    "bioguide_id": "B000243",
+    "district": null,
+    "name": "Baucus, Max",
+    "state": "MT",
+    "title": "Sen.",
+    "type": "person"
+  },
+  "status": "fail",
+  "status_at": "2003-05-23",
+  "updated_at": "2022-02-03T05:37:30Z"
+}

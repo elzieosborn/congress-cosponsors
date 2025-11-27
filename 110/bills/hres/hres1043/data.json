@@ -1,0 +1,661 @@
+{
+  "actions": [
+    {
+      "acted_at": "2008-03-12",
+      "action_code": "Intro-H",
+      "references": [],
+      "text": "Introduced in House",
+      "type": "action"
+    },
+    {
+      "acted_at": "2008-03-12",
+      "action_code": "H11100",
+      "committees": [
+        "HSII"
+      ],
+      "references": [],
+      "status": "REFERRED",
+      "text": "Referred to the House Committee on Natural Resources.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2008-04-29T14:19:21-04:00",
+      "action_code": "H30300",
+      "references": [],
+      "text": "Mr. Rahall moved to suspend the rules and agree to the resolution.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2008-04-29T14:19:37-04:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H2772-2773",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered under suspension of the rules.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2008-04-29T14:19:39-04:00",
+      "action_code": "H8D000",
+      "references": [],
+      "text": "DEBATE - The House proceeded with forty minutes of debate on H. Res. 1043.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2008-04-29T14:25:45-04:00",
+      "action_code": "H37300",
+      "how": "by voice vote",
+      "references": [
+        {
+          "reference": "CR H2772",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "status": "PASSED:SIMPLERES",
+      "suspension": null,
+      "text": "On motion to suspend the rules and agree to the resolution Agreed to by voice vote.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "h"
+    },
+    {
+      "acted_at": "2008-04-29T14:25:49-04:00",
+      "action_code": "H38310",
+      "references": [],
+      "text": "Motion to reconsider laid on the table Agreed to without objection.",
+      "type": "action"
+    }
+  ],
+  "amendments": [],
+  "bill_id": "hres1043-110",
+  "bill_type": "hres",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [
+    {
+      "activity": [
+        "referral"
+      ],
+      "committee": "House Natural Resources",
+      "committee_id": "HSII"
+    }
+  ],
+  "congress": "110",
+  "cosponsors": [
+    {
+      "bioguide_id": "A000361",
+      "district": "5",
+      "name": "Alexander, Rodney",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "LA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001239",
+      "district": "3",
+      "name": "Barrett, J. Gresham",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "SC",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B000574",
+      "district": "3",
+      "name": "Blumenauer, Earl",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "OR",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001254",
+      "district": "2",
+      "name": "Boren, Dan",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "OK",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001227",
+      "district": "1",
+      "name": "Brady, Robert A.",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-04-15",
+      "state": "PA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001259",
+      "district": "1",
+      "name": "Braley, Bruce L.",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "IA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001260",
+      "district": "13",
+      "name": "Buchanan, Vern",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "FL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001248",
+      "district": "26",
+      "name": "Burgess, Michael C.",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "TX",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C000266",
+      "district": "1",
+      "name": "Chabot, Steve",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "OH",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001053",
+      "district": "4",
+      "name": "Cole, Tom",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "OK",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000136",
+      "district": "11",
+      "name": "Davis, Tom",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "VA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000210",
+      "district": "10",
+      "name": "Delahunt, William D.",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "MA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "E000092",
+      "district": "3",
+      "name": "Ehlers, Vernon J.",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "MI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "F000010",
+      "district": "0",
+      "name": "Faleomavaega, Eni F. H.",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-04-29",
+      "state": "AS",
+      "title": "Del.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "F000443",
+      "district": "7",
+      "name": "Ferguson, Mike",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "NJ",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "F000448",
+      "district": "2",
+      "name": "Franks, Trent",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "AZ",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "G000180",
+      "district": "1",
+      "name": "Gilchrest, Wayne T.",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "MD",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H001040",
+      "district": "17",
+      "name": "Hare, Phil",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-04-15",
+      "state": "IL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H001041",
+      "district": "2",
+      "name": "Heller, Dean",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "NV",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "I000023",
+      "district": "4",
+      "name": "Inglis, Bob",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "SC",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "I000056",
+      "district": "49",
+      "name": "Issa, Darrell E.",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "J000255",
+      "district": "3",
+      "name": "Jones, Walter B., Jr.",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "NC",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "K000172",
+      "district": "5",
+      "name": "Kildee, Dale E.",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "MI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "K000188",
+      "district": "3",
+      "name": "Kind, Ron",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "WI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "K000362",
+      "district": "5",
+      "name": "King, Steve",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "IA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "K000220",
+      "district": "1",
+      "name": "Kingston, Jack",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "GA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "K000364",
+      "district": "29",
+      "name": "Kuhl, John R. \"Randy\", Jr.",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "NY",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "L000552",
+      "district": "18",
+      "name": "LaHood, Ray",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "IL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "L000287",
+      "district": "5",
+      "name": "Lewis, John",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "GA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "L000293",
+      "district": "2",
+      "name": "Lewis, Ron",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "KY",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001157",
+      "district": "10",
+      "name": "McCaul, Michael T.",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "TX",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001147",
+      "district": "11",
+      "name": "McCotter, Thaddeus G.",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "MI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001159",
+      "district": "5",
+      "name": "McMorris Rodgers, Cathy",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "WA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001140",
+      "district": "3",
+      "name": "Moore, Dennis",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "KS",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M000934",
+      "district": "1",
+      "name": "Moran, Jerry",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "KS",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001151",
+      "district": "18",
+      "name": "Murphy, Tim",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "PA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "N000179",
+      "district": "38",
+      "name": "Napolitano, Grace F.",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "P000373",
+      "district": "16",
+      "name": "Pitts, Joseph R.",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "PA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000011",
+      "district": "3",
+      "name": "Rahall, Nick J., II",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-03-14",
+      "state": "WV",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000033",
+      "district": "3",
+      "name": "Ramstad, Jim",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "MN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000571",
+      "district": "0",
+      "name": "Rehberg, Dennis R.",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "MT",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001157",
+      "district": "13",
+      "name": "Scott, David",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "GA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001171",
+      "district": "11",
+      "name": "Shuler, Heath",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "NC",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001172",
+      "district": "3",
+      "name": "Smith, Adrian",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "NE",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001155",
+      "district": "1",
+      "name": "Sullivan, John",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "OK",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "T000459",
+      "district": "2",
+      "name": "Terry, Lee",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-04-29",
+      "state": "NE",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000791",
+      "district": "2",
+      "name": "Walden, Greg",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "OR",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000799",
+      "district": "1",
+      "name": "Walz, Timothy J.",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "MN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000119",
+      "district": "3",
+      "name": "Wamp, Zach",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "TN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000215",
+      "district": "30",
+      "name": "Waxman, Henry A.",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000800",
+      "district": "0",
+      "name": "Welch, Peter",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-03-12",
+      "state": "VT",
+      "title": "Rep.",
+      "withdrawn_at": null
+    }
+  ],
+  "enacted_as": null,
+  "history": {
+    "active": true,
+    "active_at": "2008-04-29T14:19:21-04:00",
+    "awaiting_signature": false,
+    "enacted": false,
+    "house_passage_result": "pass",
+    "house_passage_result_at": "2008-04-29T14:25:45-04:00",
+    "vetoed": false
+  },
+  "introduced_at": "2008-03-12",
+  "number": "1043",
+  "official_title": "Honoring the life and legacy of Chief Standing Bear, a pioneer in civil rights for Native Americans, on the 100th anniversary of Chief Standing Bear's death.",
+  "popular_title": null,
+  "related_bills": [],
+  "short_title": null,
+  "sponsor": {
+    "bioguide_id": "F000449",
+    "district": "1",
+    "name": "Fortenberry, Jeff",
+    "state": "NE",
+    "title": "Rep.",
+    "type": "person"
+  },
+  "status": "PASSED:SIMPLERES",
+  "status_at": "2008-04-29T14:25:45-04:00",
+  "subjects": [
+    "Anniversaries",
+    "Civil Rights and Liberties, Minority Issues",
+    "Civil rights workers",
+    "Commemorations",
+    "Congressional tributes",
+    "Federal-Indian relations",
+    "Minorities",
+    "Native Americans"
+  ],
+  "subjects_top_term": "Commemorations",
+  "summary": {
+    "as": "Passed House without amendment",
+    "asOf": "2008-04-29",
+    "date": "2008-05-08T21:23:08Z",
+    "text": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.)\n\nHonors the life, legacy, and contributions to civil rights of Chief Standing Bear."
+  },
+  "titles": [
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Honoring the life and legacy of Chief Standing Bear, a pioneer in civil rights for Native Americans, on the 100th anniversary of Chief Standing Bear's death.",
+      "type": "display"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Honoring the life and legacy of Chief Standing Bear, a pioneer in civil rights for Native Americans, on the 100th anniversary of Chief Standing Bear's death.",
+      "type": "official"
+    }
+  ],
+  "updated_at": "2022-02-03T05:18:12Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/110/hres/BILLSTATUS-110hres1043.xml"
+}

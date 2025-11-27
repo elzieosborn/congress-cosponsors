@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>5055</number>
+    <updateDate>2023-01-13T04:48:54Z</updateDate>
+    <updateDateIncludingText>2023-01-13T04:48:54Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2006-03-30</introducedDate>
+    <congress>109</congress>
+    <committees>
+      <item>
+        <systemCode>hsju00</systemCode>
+        <name>Judiciary Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsju03</systemCode>
+            <name>Courts, Intellectual Property, and the Internet Subcommittee</name>
+            <activities>
+              <item>
+                <name>Hearings by</name>
+                <date>2006-07-27T14:11:16Z</date>
+              </item>
+              <item>
+                <name>Referred to</name>
+                <date>2006-05-01T20:32:20Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2006-03-30T15:00:40Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2006-07-27</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsju03</systemCode>
+            <name>Courts, Intellectual Property, and the Internet Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Subcommittee Hearings Held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2006-05-01</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsju03</systemCode>
+            <name>Courts, Intellectual Property, and the Internet Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Courts, the Internet, and Intellectual Property.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2006-03-30</actionDate>
+        <text>Referred to the House Committee on the Judiciary.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2006-03-30</actionDate>
+        <text>Sponsor introductory remarks on measure. (CR E472-473)</text>
+        <type>IntroReferral</type>
+        <actionCode>B00100</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2006-03-30</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2006-03-30</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>G000289</bioguideId>
+        <fullName>Rep. Goodlatte, Bob [R-VA-6]</fullName>
+        <firstName>ROBERT</firstName>
+        <lastName>GOODLATTE</lastName>
+        <party>R</party>
+        <state>VA</state>
+        <middleName>W.</middleName>
+        <district>6</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>D000210</bioguideId>
+        <fullName>Rep. Delahunt, William D. [D-MA-10]</fullName>
+        <firstName>William</firstName>
+        <lastName>Delahunt</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>D.</middleName>
+        <district>10</district>
+        <sponsorshipDate>2006-03-30</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000556</bioguideId>
+        <fullName>Rep. Coble, Howard [R-NC-6]</fullName>
+        <firstName>HOWARD</firstName>
+        <lastName>COBLE</lastName>
+        <party>R</party>
+        <state>NC</state>
+        <district>6</district>
+        <sponsorshipDate>2006-03-30</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000314</bioguideId>
+        <fullName>Rep. Wexler, Robert [D-FL-19]</fullName>
+        <firstName>ROBERT</firstName>
+        <lastName>WEXLER</lastName>
+        <party>D</party>
+        <state>FL</state>
+        <district>19</district>
+        <sponsorshipDate>2006-03-30</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000244</bioguideId>
+        <fullName>Rep. Sensenbrenner, F. James, Jr. [R-WI-5]</fullName>
+        <firstName>F.</firstName>
+        <lastName>SENSENBRENNER</lastName>
+        <party>R</party>
+        <state>WI</state>
+        <middleName>JAMES</middleName>
+        <district>5</district>
+        <sponsorshipDate>2006-04-06</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001228</bioguideId>
+        <fullName>Rep. Bono, Mary [R-CA-45]</fullName>
+        <firstName>Mary</firstName>
+        <lastName>Bono</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <district>45</district>
+        <sponsorshipDate>2006-04-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000087</bioguideId>
+        <fullName>Rep. Maloney, Carolyn B. [D-NY-14]</fullName>
+        <firstName>CAROLYN</firstName>
+        <lastName>MALONEY</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>B.</middleName>
+        <district>14</district>
+        <sponsorshipDate>2006-05-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001144</bioguideId>
+        <fullName>Rep. Shays, Christopher [R-CT-4]</fullName>
+        <firstName>CHRISTOPHER</firstName>
+        <lastName>SHAYS</lastName>
+        <party>R</party>
+        <state>CT</state>
+        <district>4</district>
+        <sponsorshipDate>2006-09-29</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Commerce</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Clothing</name>
+        </item>
+        <item>
+          <name>Copyright</name>
+        </item>
+        <item>
+          <name>Damages</name>
+        </item>
+        <item>
+          <name>Eyeglasses</name>
+        </item>
+        <item>
+          <name>Intellectual property</name>
+        </item>
+        <item>
+          <name>Law</name>
+        </item>
+        <item>
+          <name>Liability (Law)</name>
+        </item>
+        <item>
+          <name>Shoe industry</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Commerce</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2006-03-30</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2006-05-18T20:44:19Z</updateDate>
+        <text><![CDATA[ <p>Extends copyright protection to fashion designs. Excludes from such protection fashion designs that are embodied in a useful article that was made public by the designer or owner more than three months before the registration of copyright application. Gives fashion designs copyright protection for three years.</p> <p>Declares that is not infringement to make, have made, import, sell, or distribute any article embodying a design which was created without knowledge or reasonable grounds to know that protection for the design is claimed and was copied from such protected design.</p> <p>Extends the definition of infringing article to include any article the design of which has been copied from an image of a protected design without the consent of the owner.</p> <p>Applies the doctrines of secondary infringement and secondary liability to actions related to original designs. Makes any person who is liable under either such doctrine subject to all the remedies, including those attributable to any underlying or resulting infringement.</p> <p>Requires the Register of Copyrights to determine whether or not the application relates to a design which on its face appears to be within the subject matter protected as original designs and, if so, register the design.</p> <p>Increases allowable damage awards for infringement of original designs.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>To amend title 17, United States Code, to provide protection for fashion design.</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>To amend title 17, United States Code, to provide protection for fashion design.</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend title 17, United States Code, to provide protection for fashion design.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2006-03-30T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-109hr5055ih/xml/BILLS-109hr5055ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2006-07-27</actionDate>
+      <text>Subcommittee Hearings Held.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

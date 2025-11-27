@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>5073</number>
+    <updateDate>2023-01-13T22:01:47Z</updateDate>
+    <updateDateIncludingText>2023-01-13T22:01:47Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2004-09-14</introducedDate>
+    <congress>108</congress>
+    <committees>
+      <item>
+        <systemCode>hsgo00</systemCode>
+        <name>Oversight and Accountability Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsgo20</systemCode>
+            <name>Technology, Information Policy, Intergovernmental Relations and the Census Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2004-10-14T17:23:24Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2004-09-14T13:02:20Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hshm00</systemCode>
+        <name>Homeland Security Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2004-09-15T19:24:44Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2004-10-14</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsgo20</systemCode>
+            <name>Technology, Information Policy, Intergovernmental Relations and the Census Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Technology, Information Policy, Intergovernmental Relations and the Census.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2004-09-15</actionDate>
+        <text>Referred to the House Committee on Homeland Security (Select).</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hshm00</systemCode>
+            <name>Homeland Security Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2004-09-14</actionDate>
+        <text>Referred to the House Committee on Government Reform.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsgo00</systemCode>
+            <name>Oversight and Accountability Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2004-09-14</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2004-09-14</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>W000215</bioguideId>
+        <fullName>Rep. Waxman, Henry A. [D-CA-30]</fullName>
+        <firstName>HENRY</firstName>
+        <lastName>WAXMAN</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <middleName>A.</middleName>
+        <district>30</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>S000033</bioguideId>
+        <fullName>Rep. Sanders, Bernard [I-VT-At Large]</fullName>
+        <firstName>Bernard</firstName>
+        <lastName>Sanders</lastName>
+        <party>I</party>
+        <state>VT</state>
+        <district>0</district>
+        <sponsorshipDate>2004-09-14</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000087</bioguideId>
+        <fullName>Rep. Maloney, Carolyn B. [D-NY-14]</fullName>
+        <firstName>CAROLYN</firstName>
+        <lastName>MALONEY</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>B.</middleName>
+        <district>14</district>
+        <sponsorshipDate>2004-09-14</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000984</bioguideId>
+        <fullName>Rep. Cummings, Elijah E. [D-MD-7]</fullName>
+        <firstName>ELIJAH</firstName>
+        <lastName>CUMMINGS</lastName>
+        <party>D</party>
+        <state>MD</state>
+        <middleName>E.</middleName>
+        <district>7</district>
+        <sponsorshipDate>2004-09-14</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000336</bioguideId>
+        <fullName>Rep. Kucinich, Dennis J. [D-OH-10]</fullName>
+        <firstName>DENNIS</firstName>
+        <lastName>KUCINICH</lastName>
+        <party>D</party>
+        <state>OH</state>
+        <middleName>J.</middleName>
+        <district>10</district>
+        <sponsorshipDate>2004-09-14</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001049</bioguideId>
+        <fullName>Rep. Clay, Wm. Lacy [D-MO-1]</fullName>
+        <firstName>WM.</firstName>
+        <lastName>CLAY</lastName>
+        <party>D</party>
+        <state>MO</state>
+        <middleName>LACY</middleName>
+        <district>1</district>
+        <sponsorshipDate>2004-09-14</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>V000128</bioguideId>
+        <fullName>Rep. Van Hollen, Chris [D-MD-8]</fullName>
+        <firstName>Chris</firstName>
+        <lastName>Van Hollen</lastName>
+        <party>D</party>
+        <state>MD</state>
+        <district>8</district>
+        <sponsorshipDate>2004-09-14</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>N000147</bioguideId>
+        <fullName>Del. Norton, Eleanor Holmes [D-DC-At Large]</fullName>
+        <firstName>ELEANOR</firstName>
+        <lastName>NORTON</lastName>
+        <party>D</party>
+        <state>DC</state>
+        <middleName>HOLMES</middleName>
+        <district>0</district>
+        <sponsorshipDate>2004-09-14</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001143</bioguideId>
+        <fullName>Rep. McCollum, Betty [D-MN-4]</fullName>
+        <firstName>BETTY</firstName>
+        <lastName>MCCOLLUM</lastName>
+        <party>D</party>
+        <state>MN</state>
+        <district>4</district>
+        <sponsorshipDate>2004-09-14</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000404</bioguideId>
+        <fullName>Rep. McDermott, Jim [D-WA-7]</fullName>
+        <firstName>JIM</firstName>
+        <lastName>MCDERMOTT</lastName>
+        <party>D</party>
+        <state>WA</state>
+        <district>7</district>
+        <sponsorshipDate>2004-09-14</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000197</bioguideId>
+        <fullName>Rep. Pelosi, Nancy [D-CA-8]</fullName>
+        <firstName>NANCY</firstName>
+        <lastName>PELOSI</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>8</district>
+        <sponsorshipDate>2004-09-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000399</bioguideId>
+        <fullName>Rep. Doggett, Lloyd [D-TX-10]</fullName>
+        <firstName>LLOYD</firstName>
+        <lastName>DOGGETT</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>10</district>
+        <sponsorshipDate>2004-09-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000714</bioguideId>
+        <fullName>Rep. Conyers, John, Jr. [D-MI-14]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>CONYERS</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <district>14</district>
+        <sponsorshipDate>2004-09-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000810</bioguideId>
+        <fullName>Rep. Stark, Fortney Pete [D-CA-13]</fullName>
+        <firstName>PETE</firstName>
+        <lastName>STARK</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>13</district>
+        <sponsorshipDate>2004-09-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000410</bioguideId>
+        <fullName>Rep. Berman, Howard L. [D-CA-28]</fullName>
+        <firstName>HOWARD</firstName>
+        <lastName>BERMAN</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <middleName>L.</middleName>
+        <district>28</district>
+        <sponsorshipDate>2004-09-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000562</bioguideId>
+        <fullName>Rep. Lynch, Stephen F. [D-MA-9]</fullName>
+        <firstName>Stephen</firstName>
+        <lastName>Lynch</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>F.</middleName>
+        <district>9</district>
+        <sponsorshipDate>2004-11-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000197</bioguideId>
+        <fullName>Rep. DeGette, Diana [D-CO-1]</fullName>
+        <firstName>DIANA</firstName>
+        <lastName>DEGETTE</lastName>
+        <party>D</party>
+        <state>CO</state>
+        <district>1</district>
+        <sponsorshipDate>2004-11-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001145</bioguideId>
+        <fullName>Rep. Schakowsky, Janice D. [D-IL-9]</fullName>
+        <firstName>JANICE</firstName>
+        <lastName>SCHAKOWSKY</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>D.</middleName>
+        <district>9</district>
+        <sponsorshipDate>2004-11-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>O000159</bioguideId>
+        <fullName>Rep. Owens, Major R. [D-NY-11]</fullName>
+        <firstName>MAJOR</firstName>
+        <lastName>OWENS</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>R.</middleName>
+        <district>11</district>
+        <sponsorshipDate>2004-11-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000480</bioguideId>
+        <fullName>Rep. Slaughter, Louise McIntosh [D-NY-28]</fullName>
+        <firstName>LOUISE</firstName>
+        <lastName>SLAUGHTER</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>M.</middleName>
+        <district>28</district>
+        <sponsorshipDate>2004-11-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000738</bioguideId>
+        <fullName>Rep. Woolsey, Lynn C. [D-CA-6]</fullName>
+        <firstName>LYNN</firstName>
+        <lastName>WOOLSEY</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>6</district>
+        <sponsorshipDate>2004-11-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>N000002</bioguideId>
+        <fullName>Rep. Nadler, Jerrold [D-NY-8]</fullName>
+        <firstName>JERROLD</firstName>
+        <lastName>NADLER</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <district>8</district>
+        <sponsorshipDate>2004-11-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Government Operations and Politics</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Administrative procedure</name>
+        </item>
+        <item>
+          <name>Armed Forces and National Security</name>
+        </item>
+        <item>
+          <name>Business records</name>
+        </item>
+        <item>
+          <name>Citizen lawsuits</name>
+        </item>
+        <item>
+          <name>Civil Rights and Liberties, Minority Issues</name>
+        </item>
+        <item>
+          <name>Commerce</name>
+        </item>
+        <item>
+          <name>Confidential communications</name>
+        </item>
+        <item>
+          <name>Congress</name>
+        </item>
+        <item>
+          <name>Congressional investigations</name>
+        </item>
+        <item>
+          <name>Congressional reporting requirements</name>
+        </item>
+        <item>
+          <name>Crime and Law Enforcement</name>
+        </item>
+        <item>
+          <name>Department of Homeland Security</name>
+        </item>
+        <item>
+          <name>Executive orders</name>
+        </item>
+        <item>
+          <name>Federal advisory bodies</name>
+        </item>
+        <item>
+          <name>Freedom of information</name>
+        </item>
+        <item>
+          <name>Government and business</name>
+        </item>
+        <item>
+          <name>Government publicity</name>
+        </item>
+        <item>
+          <name>Infrastructure</name>
+        </item>
+        <item>
+          <name>Infrastructure (Economics)</name>
+        </item>
+        <item>
+          <name>Law</name>
+        </item>
+        <item>
+          <name>Legal fees</name>
+        </item>
+        <item>
+          <name>Local laws</name>
+        </item>
+        <item>
+          <name>Presidential records</name>
+        </item>
+        <item>
+          <name>Public records</name>
+        </item>
+        <item>
+          <name>Security classification (Government documents)</name>
+        </item>
+        <item>
+          <name>State laws</name>
+        </item>
+        <item>
+          <name>Terrorism</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Government Operations and Politics</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2004-09-14</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2004-09-24T15:45:15Z</updateDate>
+        <text><![CDATA[ <p>Restore Open Government Act of 2004 - Revokes: (1) the &quot; Memorandum for Heads of all Federal Departments and Agencies&quot; on &quot;The Freedom of Information Act&quot; issued by Attorney General John Ashcroft on October 12, 2001; and (2) the &quot;Memorandum for the Heads of Executive Department and Agencies&quot; on &quot;Action to Safeguard Information Regarding Weapons of Mass Destruction and Other Sensitive Documents Related to Homeland Security&quot; issued by Andrew H. Card, Jr., Assistant to the President and Chief of Staff on March 19, 2002.</p> <p>Declares that the policy of the Federal Government is to release information to the public in response to a request under the Freedom of Information Act (FOIA) if such release is: (1) required by law; or (2) allowed by law and the agency concerned does not reasonably foresee that disclosure would be harmful to an interest protected by an applicable exemption. Instructs that all guidance provided to Federal agencies shall be consistent with such policy.</p> <p> Prohibits a record pertaining to the vulnerability of and threats to critical infrastructure that is furnished voluntarily to the Department of Homeland Security (DHS) from being made available under the FOIA if: (1) the provider would not customarily make the record available to the public; and (2) the record is designated and certified by the provider as confidential and not customarily made available to the public. (Allows the provider of such a record at any time to to withdraw the confidential designation.) Requires a Federal agency in receipt of a record that was furnished voluntarily to DHS and subsequently shared with that agency, upon receipt of a FOIA request, to: (1) not make the record available; and (2) refer the request to DHS for processing and response in accordance with this Act. </p> <p>Revokes Executive Order 13233 (relating to further implementation of the Presidential Records Act), dated November 1, 2001 and makes effective Executive Order 12667 (relating to Presidential records), dated January 18, 1989.</p> <p>Directs the President to ensure that the names of Presidential interagency advisory committee members are published in the Federal Register. Mandates that such a committee must make public each substantive contact between the advisory committee, or individual committee members acting on the committee's behalf, and any person who is not a full-time or permanent part-time officer or employee of the Government.</p> <p>Directs the President to require Federal departments and agencies to promote a culture of information sharing by reducing disincentives to information sharing, including overclassification of information and unnecessary requirements for originator approval.</p> <p>Amends the FOIA to permit a U.S. district court to assess against the United States reasonable attorney fees and other litigation costs reasonably incurred in any case seeking information from a Federal agency or official under any other Federal law in which the complainant has substantially prevailed.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Restore Open Government Act of 2004</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Restore Open Government Act of 2004</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To restore and strengthen the laws that provide for an open and transparent Federal Government.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Restore Open Government Act of 2004</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2004-09-14T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-108hr5073ih/xml/BILLS-108hr5073ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2004-10-14</actionDate>
+      <text>Referred to the Subcommittee on Technology, Information Policy, Intergovernmental Relations and the Census.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

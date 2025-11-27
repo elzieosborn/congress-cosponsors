@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>1443</number>
+    <updateDate>2023-01-11T13:15:50Z</updateDate>
+    <updateDateIncludingText>2023-01-11T13:15:50Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HRES</type>
+    <introducedDate>2008-09-16</introducedDate>
+    <congress>110</congress>
+    <committees>
+      <item>
+        <systemCode>hsii00</systemCode>
+        <name>Natural Resources Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsii10</systemCode>
+            <name>Federal Lands Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2008-09-22T20:24:18Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2008-09-16T13:01:20Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2008-09-22</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii10</systemCode>
+            <name>Federal Lands Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on National Parks, Forests and Public Lands.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2008-09-16</actionDate>
+        <text>Referred to the House Committee on Natural Resources.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2008-09-16</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2008-09-16</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>D000191</bioguideId>
+        <fullName>Rep. DeFazio, Peter A. [D-OR-4]</fullName>
+        <firstName>PETER</firstName>
+        <lastName>DEFAZIO</lastName>
+        <party>D</party>
+        <state>OR</state>
+        <middleName>A.</middleName>
+        <district>4</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>F000116</bioguideId>
+        <fullName>Rep. Filner, Bob [D-CA-51]</fullName>
+        <firstName>BOB</firstName>
+        <lastName>FILNER</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>51</district>
+        <sponsorshipDate>2008-09-16</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000215</bioguideId>
+        <fullName>Rep. Waxman, Henry A. [D-CA-30]</fullName>
+        <firstName>HENRY</firstName>
+        <lastName>WAXMAN</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <middleName>A.</middleName>
+        <district>30</district>
+        <sponsorshipDate>2008-09-16</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000574</bioguideId>
+        <fullName>Rep. Blumenauer, Earl [D-OR-3]</fullName>
+        <firstName>EARL</firstName>
+        <lastName>BLUMENAUER</lastName>
+        <party>D</party>
+        <state>OR</state>
+        <district>3</district>
+        <sponsorshipDate>2008-09-16</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000578</bioguideId>
+        <fullName>Rep. Reichert, David G. [R-WA-8]</fullName>
+        <firstName>David</firstName>
+        <lastName>Reichert</lastName>
+        <party>R</party>
+        <state>WA</state>
+        <middleName>G.</middleName>
+        <district>8</district>
+        <sponsorshipDate>2008-09-16</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000460</bioguideId>
+        <fullName>Rep. Thompson, Mike [D-CA-1]</fullName>
+        <firstName>MIKE</firstName>
+        <lastName>THOMPSON</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>1</district>
+        <sponsorshipDate>2008-09-16</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>I000026</bioguideId>
+        <fullName>Rep. Inslee, Jay [D-WA-1]</fullName>
+        <firstName>JAY</firstName>
+        <lastName>INSLEE</lastName>
+        <party>D</party>
+        <state>WA</state>
+        <district>1</district>
+        <sponsorshipDate>2008-09-16</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000793</bioguideId>
+        <fullName>Rep. Wu, David [D-OR-1]</fullName>
+        <firstName>DAVID</firstName>
+        <lastName>WU</lastName>
+        <party>D</party>
+        <state>OR</state>
+        <district>1</district>
+        <sponsorshipDate>2008-09-16</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000404</bioguideId>
+        <fullName>Rep. McDermott, Jim [D-WA-7]</fullName>
+        <firstName>JIM</firstName>
+        <lastName>MCDERMOTT</lastName>
+        <party>D</party>
+        <state>WA</state>
+        <district>7</district>
+        <sponsorshipDate>2008-09-16</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000551</bioguideId>
+        <fullName>Rep. Lee, Barbara [D-CA-9]</fullName>
+        <firstName>BARBARA</firstName>
+        <lastName>LEE</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>9</district>
+        <sponsorshipDate>2008-09-26</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Public Lands and Natural Resources</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Congressional tributes</name>
+        </item>
+        <item>
+          <name>Historic sites and heritage areas</name>
+        </item>
+        <item>
+          <name>Parks, recreation areas, trails</name>
+        </item>
+        <item>
+          <name>Public-private cooperation</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Public Lands and Natural Resources</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2008-09-16</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2008-11-10T20:18:29Z</updateDate>
+        <text><![CDATA[ <p>Expresses that the House of Representatives: (1) reaffirms support for the National Trails System and intends to provide funding and necessary authorities to complete the designated National Scenic and Historic Trails; (2) honors the contributions of the thousands of dedicated volunteers, nonprofits, cooperating landowners, and federal agency staff who work to develop, protect, interpret, and sustain the trails; and (3) recognizes the essential collaboration among federal agencies and private organizations that is so necessary to administer and manage the National Scenic and Historic Trails and encourages such agencies to continue to foster more effective public, private, and interagency collaboration. </p>]]></text>
+      </summary>
+    </summaries>
+    <title>Recognizing the 40th anniversary of the National Trails System Act and the Pacific Crest National Scenic Trail.</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Recognizing the 40th anniversary of the National Trails System Act and the Pacific Crest National Scenic Trail.</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>Recognizing the 40th anniversary of the National Trails System Act and the Pacific Crest National Scenic Trail.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2008-09-16T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-110hres1443ih/xml/BILLS-110hres1443ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2008-09-22</actionDate>
+      <text>Referred to the Subcommittee on National Parks, Forests and Public Lands.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

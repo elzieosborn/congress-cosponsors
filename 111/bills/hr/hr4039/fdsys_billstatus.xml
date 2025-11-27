@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>4039</number>
+    <updateDate>2023-01-11T13:17:19Z</updateDate>
+    <updateDateIncludingText>2023-01-11T13:17:19Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2009-11-06</introducedDate>
+    <congress>111</congress>
+    <committees>
+      <item>
+        <systemCode>hsif00</systemCode>
+        <name>Energy and Commerce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2009-11-07T19:48:36Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2009-11-06T14:01:48Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsju00</systemCode>
+        <name>Judiciary Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2009-11-06T14:01:49Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2009-11-07</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2009-11-06</actionDate>
+        <text>Referred to House Judiciary</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2009-11-06</actionDate>
+        <text>Referred to the Committee on Energy and Commerce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100-A</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2009-11-06</actionDate>
+        <text>Referred to House Energy and Commerce</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2009-11-06</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2009-11-06</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>D000604</bioguideId>
+        <fullName>Rep. Dent, Charles W. [R-PA-15]</fullName>
+        <firstName>Charles</firstName>
+        <lastName>Dent</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <middleName>W.</middleName>
+        <district>15</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>L000568</bioguideId>
+        <fullName>Rep. Lee, Christopher J. [R-NY-26]</fullName>
+        <firstName>Christopher</firstName>
+        <lastName>Lee</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <middleName>J.</middleName>
+        <district>26</district>
+        <sponsorshipDate>2009-11-06</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000462</bioguideId>
+        <fullName>Rep. Tiberi, Patrick J. [R-OH-12]</fullName>
+        <firstName>PATRICK</firstName>
+        <lastName>TIBERI</lastName>
+        <party>R</party>
+        <state>OH</state>
+        <middleName>J.</middleName>
+        <district>12</district>
+        <sponsorshipDate>2009-11-06</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Alternative dispute resolution, mediation, arbitration</name>
+        </item>
+        <item>
+          <name>Civil actions and liability</name>
+        </item>
+        <item>
+          <name>Disaster relief and insurance</name>
+        </item>
+        <item>
+          <name>Drug safety, medical device, and laboratory regulation</name>
+        </item>
+        <item>
+          <name>Emergency medical services and trauma care</name>
+        </item>
+        <item>
+          <name>Evidence and witnesses</name>
+        </item>
+        <item>
+          <name>Federal preemption</name>
+        </item>
+        <item>
+          <name>Government liability</name>
+        </item>
+        <item>
+          <name>Health care quality</name>
+        </item>
+        <item>
+          <name>Health facilities and institutions</name>
+        </item>
+        <item>
+          <name>Health personnel</name>
+        </item>
+        <item>
+          <name>Health programs administration and funding</name>
+        </item>
+        <item>
+          <name>Judicial procedure and administration</name>
+        </item>
+        <item>
+          <name>Legal fees and court costs</name>
+        </item>
+        <item>
+          <name>Social work, volunteer service, charitable organizations</name>
+        </item>
+        <item>
+          <name>Specialized courts</name>
+        </item>
+        <item>
+          <name>State and local government operations</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Health</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2009-11-06</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2010-04-14T17:41:46Z</updateDate>
+        <text><![CDATA[ <p>Ending Defensive Medicine and Encouraging Innovative Reforms Act of 2009 - Provides for reform of health care lawsuits by: (1) allowing a party against whom a judgment for medical malpractice has been awarded to pay future damages of $50,000 or more in periodic payments; (2) making each party liable for that party's share of damages only; (3) requiring a court to appoint a qualified specialist to review a health care lawsuit and file a statement of opinion regarding whether such lawsuit has a reasonable and meritorious basis; (4) requiring the losing party to pay the costs and reasonable attorneys fees of the prevailing party; (5) absolving health care providers from liability if such providers acted consistently with accepted clinical practice guidelines; and (6) providing that evidence of Medicare payments and reimbursements made to health care providers shall not, in a health care lawsuit, constitute a determination that a health care provider has or has not met the applicable standard of care. </p> <p>Amends the Public Health Service Act to: (1) provide protections from civil liability for certain emergency medical personnel and health center volunteer practitioners; (2) grant incentive payments to states for medical liability reform; and (3) impose liability limits and other restrictions on health care lawsuits in states that have not adopted medical liability reforms. </p> <p>Protects disaster relief volunteers, nonprofit organizations, and other entities from civil liability for injuries related to disaster relief services, except for injuries caused by willful, wanton, or reckless misconduct.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Ending Defensive Medicine and Encouraging Innovative Reforms Act of 2009</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Ending Defensive Medicine and Encouraging Innovative Reforms Act of 2009</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To improve the medical justice system by encouraging the prompt and fair resolution of disputes, enhancing the quality of care, ensuring patient access to health care services, fostering alternatives to litigation, and combating defensive medicine, and for other purposes.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Ending Defensive Medicine and Encouraging Innovative Reforms Act of 2009</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2009-11-06T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-111hr4039ih/xml/BILLS-111hr4039ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2009-11-07</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

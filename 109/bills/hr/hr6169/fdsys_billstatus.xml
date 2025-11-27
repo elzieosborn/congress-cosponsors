@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>6169</number>
+    <updateDate>2023-01-12T17:52:16Z</updateDate>
+    <updateDateIncludingText>2023-01-12T17:52:16Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2006-09-25</introducedDate>
+    <congress>109</congress>
+    <committees>
+      <item>
+        <systemCode>hsif00</systemCode>
+        <name>Energy and Commerce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2006-10-02T17:55:07Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2006-09-25T16:16:10Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2006-10-02</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2006-09-25</actionDate>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2006-09-25</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2006-09-25</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>P000373</bioguideId>
+        <fullName>Rep. Pitts, Joseph R. [R-PA-16]</fullName>
+        <firstName>JOSEPH</firstName>
+        <lastName>PITTS</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <middleName>R.</middleName>
+        <district>16</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>S000522</bioguideId>
+        <fullName>Rep. Smith, Christopher H. [R-NJ-4]</fullName>
+        <firstName>CHRISTOPHER</firstName>
+        <lastName>SMITH</lastName>
+        <party>R</party>
+        <state>NJ</state>
+        <middleName>H.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2006-09-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001143</bioguideId>
+        <fullName>Rep. Souder, Mark E. [R-IN-3]</fullName>
+        <firstName>MARK</firstName>
+        <lastName>SOUDER</lastName>
+        <party>R</party>
+        <state>IN</state>
+        <middleName>EDWARD</middleName>
+        <district>3</district>
+        <sponsorshipDate>2006-09-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000566</bioguideId>
+        <fullName>Rep. Ryun, Jim [R-KS-2]</fullName>
+        <firstName>JIM</firstName>
+        <lastName>RYUN</lastName>
+        <party>R</party>
+        <state>KS</state>
+        <district>2</district>
+        <sponsorshipDate>2006-09-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>A000358</bioguideId>
+        <fullName>Rep. Akin, W. Todd [R-MO-2]</fullName>
+        <firstName>W.</firstName>
+        <lastName>AKIN</lastName>
+        <party>R</party>
+        <state>MO</state>
+        <middleName>TODD</middleName>
+        <district>2</district>
+        <sponsorshipDate>2006-09-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001152</bioguideId>
+        <fullName>Rep. Musgrave, Marilyn N. [R-CO-4]</fullName>
+        <firstName>Marilyn</firstName>
+        <lastName>Musgrave</lastName>
+        <party>R</party>
+        <state>CO</state>
+        <middleName>N.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2006-09-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001033</bioguideId>
+        <fullName>Rep. Hart, Melissa A. [R-PA-4]</fullName>
+        <firstName>MELISSA</firstName>
+        <lastName>HART</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <middleName>A.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2006-09-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000260</bioguideId>
+        <fullName>Rep. Tiahrt, Todd [R-KS-4]</fullName>
+        <firstName>TODD</firstName>
+        <lastName>TIAHRT</lastName>
+        <party>R</party>
+        <state>KS</state>
+        <district>4</district>
+        <sponsorshipDate>2006-09-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000587</bioguideId>
+        <fullName>Rep. Pence, Mike [R-IN-6]</fullName>
+        <firstName>MIKE</firstName>
+        <lastName>PENCE</lastName>
+        <party>R</party>
+        <state>IN</state>
+        <district>6</district>
+        <sponsorshipDate>2006-09-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000552</bioguideId>
+        <fullName>Rep. Gohmert, Louie [R-TX-1]</fullName>
+        <firstName>Louie</firstName>
+        <lastName>Gohmert</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>1</district>
+        <sponsorshipDate>2006-09-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000289</bioguideId>
+        <fullName>Rep. Goodlatte, Bob [R-VA-6]</fullName>
+        <firstName>ROBERT</firstName>
+        <lastName>GOODLATTE</lastName>
+        <party>R</party>
+        <state>VA</state>
+        <middleName>W.</middleName>
+        <district>6</district>
+        <sponsorshipDate>2006-09-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001029</bioguideId>
+        <fullName>Rep. Hayes, Robin [R-NC-8]</fullName>
+        <firstName>ROBIN</firstName>
+        <lastName>HAYES</lastName>
+        <party>R</party>
+        <state>NC</state>
+        <district>8</district>
+        <sponsorshipDate>2006-09-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000597</bioguideId>
+        <fullName>Rep. Davis, Jo Ann [R-VA-1]</fullName>
+        <firstName>JO ANN</firstName>
+        <lastName>DAVIS</lastName>
+        <party>R</party>
+        <state>VA</state>
+        <district>1</district>
+        <sponsorshipDate>2006-09-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>N000182</bioguideId>
+        <fullName>Rep. Neugebauer, Randy [R-TX-19]</fullName>
+        <firstName>Randy</firstName>
+        <lastName>Neugebauer</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>19</district>
+        <sponsorshipDate>2006-09-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000448</bioguideId>
+        <fullName>Rep. Franks, Trent [R-AZ-2]</fullName>
+        <firstName>Trent</firstName>
+        <lastName>Franks</lastName>
+        <party>R</party>
+        <state>AZ</state>
+        <district>2</district>
+        <sponsorshipDate>2006-09-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000358</bioguideId>
+        <fullName>Rep. Kennedy, Mark R. [R-MN-6]</fullName>
+        <firstName>MARK</firstName>
+        <lastName>KENNEDY</lastName>
+        <party>R</party>
+        <state>MN</state>
+        <middleName>R.</middleName>
+        <district>6</district>
+        <sponsorshipDate>2006-09-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000795</bioguideId>
+        <fullName>Rep. Wilson, Joe [R-SC-2]</fullName>
+        <firstName>Joe</firstName>
+        <lastName>Wilson</lastName>
+        <party>R</party>
+        <state>SC</state>
+        <district>2</district>
+        <sponsorshipDate>2006-09-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000452</bioguideId>
+        <fullName>Resident Commissioner Fortuno, Luis G. [R-PR-At Large]</fullName>
+        <firstName>Luis</firstName>
+        <lastName>Fortuno</lastName>
+        <party>R</party>
+        <state>PR</state>
+        <middleName>G.</middleName>
+        <district>0</district>
+        <sponsorshipDate>2006-09-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001149</bioguideId>
+        <fullName>Rep. Burton, Dan [R-IN-5]</fullName>
+        <firstName>DAN</firstName>
+        <lastName>BURTON</lastName>
+        <party>R</party>
+        <state>IN</state>
+        <district>5</district>
+        <sponsorshipDate>2006-09-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000588</bioguideId>
+        <fullName>Rep. Pearce, Stevan [R-NM-2]</fullName>
+        <firstName>Stevan</firstName>
+        <lastName>Pearce</lastName>
+        <party>R</party>
+        <state>NM</state>
+        <district>2</district>
+        <sponsorshipDate>2006-09-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000548</bioguideId>
+        <fullName>Rep. Garrett, Scott [R-NJ-5]</fullName>
+        <firstName>Scott</firstName>
+        <lastName>Garrett</lastName>
+        <party>R</party>
+        <state>NJ</state>
+        <district>5</district>
+        <sponsorshipDate>2006-09-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000409</bioguideId>
+        <fullName>Rep. Rohrabacher, Dana [R-CA-46]</fullName>
+        <firstName>DANA</firstName>
+        <lastName>ROHRABACHER</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <district>46</district>
+        <sponsorshipDate>2006-09-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001156</bioguideId>
+        <fullName>Rep. McHenry, Patrick T. [R-NC-10]</fullName>
+        <firstName>Patrick</firstName>
+        <lastName>McHenry</lastName>
+        <party>R</party>
+        <state>NC</state>
+        <district>10</district>
+        <sponsorshipDate>2006-09-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001158</bioguideId>
+        <fullName>Rep. Marchant, Kenny [R-TX-24]</fullName>
+        <firstName>Kenny</firstName>
+        <lastName>Marchant</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>24</district>
+        <sponsorshipDate>2006-09-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000570</bioguideId>
+        <fullName>Rep. Ryan, Paul [R-WI-1]</fullName>
+        <firstName>PAUL</firstName>
+        <lastName>RYAN</lastName>
+        <party>R</party>
+        <state>WI</state>
+        <district>1</district>
+        <sponsorshipDate>2006-09-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Abortion</name>
+        </item>
+        <item>
+          <name>Access to health care</name>
+        </item>
+        <item>
+          <name>Ambulatory care</name>
+        </item>
+        <item>
+          <name>Case management</name>
+        </item>
+        <item>
+          <name>Clinical trials</name>
+        </item>
+        <item>
+          <name>Commerce</name>
+        </item>
+        <item>
+          <name>Congress</name>
+        </item>
+        <item>
+          <name>Congressional reporting requirements</name>
+        </item>
+        <item>
+          <name>Consumer education</name>
+        </item>
+        <item>
+          <name>Economics and Public Finance</name>
+        </item>
+        <item>
+          <name>Epidemiology</name>
+        </item>
+        <item>
+          <name>Families</name>
+        </item>
+        <item>
+          <name>Family services</name>
+        </item>
+        <item>
+          <name>Federal aid to health facilities</name>
+        </item>
+        <item>
+          <name>Federal aid to research</name>
+        </item>
+        <item>
+          <name>Health education</name>
+        </item>
+        <item>
+          <name>Home care services</name>
+        </item>
+        <item>
+          <name>Medical fees</name>
+        </item>
+        <item>
+          <name>Medical research</name>
+        </item>
+        <item>
+          <name>Medical tests</name>
+        </item>
+        <item>
+          <name>Mental care facilities</name>
+        </item>
+        <item>
+          <name>Mental depression</name>
+        </item>
+        <item>
+          <name>Mental health</name>
+        </item>
+        <item>
+          <name>Mental health services</name>
+        </item>
+        <item>
+          <name>Mental illness</name>
+        </item>
+        <item>
+          <name>Pharmaceutical research</name>
+        </item>
+        <item>
+          <name>Quality of care</name>
+        </item>
+        <item>
+          <name>Science, Technology, Communications</name>
+        </item>
+        <item>
+          <name>Women</name>
+        </item>
+        <item>
+          <name>Women's health</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Health</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2006-09-25</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2006-11-06T20:17:10Z</updateDate>
+        <text><![CDATA[ <p>Post-Abortion Depression Research and Care Act - Requires the Secretary of Health and Human Services, acting through the Director of the National Institutes of Health (NIH) and the Director of the National Institute of Mental Health (NIMH), to expand and intensify NIMH research and related activities with respect to post-abortion depression and psychosis.</p> <p>Requires the Director of NIMH to: (1) conduct or support research to expand the understanding of the causes of, and to find a cure for, such post-abortion conditions; and (2) conduct a study to determine the incidence and prevalence of cases of post-abortion conditions and the symptoms, severity, and duration of such cases, toward the goal of more fully identifying the characteristics of such cases and developing diagnostic techniques. <p>Requires the Secretary to make grants to establish, operate, and coordinate effective and cost-efficient systems for the delivery of essential services to individuals with such post-abortion conditions.]]></text>
+      </summary>
+    </summaries>
+    <title>Post-Abortion Depression Research and Care Act</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Post-Abortion Depression Research and Care Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To provide for research on, and services for individuals with, post-abortion depression and psychosis.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Post-Abortion Depression Research and Care Act</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2006-09-25T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-109hr6169ih/xml/BILLS-109hr6169ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2006-10-02</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

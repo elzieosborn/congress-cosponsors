@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>886</number>
+    <updateDate>2023-01-15T22:03:57Z</updateDate>
+    <updateDateIncludingText>2023-01-15T22:03:57Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2003-02-25</introducedDate>
+    <congress>108</congress>
+    <committees>
+      <item>
+        <systemCode>hsvr00</systemCode>
+        <name>Veterans' Affairs Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsvr06</systemCode>
+            <name>Benefits Subcommittee</name>
+            <activities>
+              <item>
+                <name>Hearings by</name>
+                <date>2003-06-11T21:14:40Z</date>
+              </item>
+              <item>
+                <name>Referred to</name>
+                <date>2003-03-12T14:57:33Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2003-02-25T19:05:05Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2003-06-11</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsvr06</systemCode>
+            <name>Benefits Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Subcommittee Hearings Held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2003-03-12</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsvr06</systemCode>
+            <name>Benefits Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Benefits.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2003-02-25</actionDate>
+        <text>Referred to the House Committee on Veterans' Affairs.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsvr00</systemCode>
+            <name>Veterans' Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2003-02-25</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2003-02-25</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>H000712</bioguideId>
+        <fullName>Rep. Holden, Tim [D-PA-17]</fullName>
+        <firstName>TIM</firstName>
+        <lastName>HOLDEN</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <district>17</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>E000250</bioguideId>
+        <fullName>Rep. Evans, Lane [D-IL-17]</fullName>
+        <firstName>LANE</firstName>
+        <lastName>EVANS</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <district>17</district>
+        <sponsorshipDate>2003-02-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000009</bioguideId>
+        <fullName>Rep. Kaptur, Marcy [D-OH-9]</fullName>
+        <firstName>MARCY</firstName>
+        <lastName>KAPTUR</lastName>
+        <party>D</party>
+        <state>OH</state>
+        <district>9</district>
+        <sponsorshipDate>2003-02-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000326</bioguideId>
+        <fullName>Rep. Towns, Edolphus [D-NY-10]</fullName>
+        <firstName>EDOLPHUS</firstName>
+        <lastName>TOWNS</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <district>10</district>
+        <sponsorshipDate>2003-02-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000033</bioguideId>
+        <fullName>Rep. Sanders, Bernard [I-VT-At Large]</fullName>
+        <firstName>Bernard</firstName>
+        <lastName>Sanders</lastName>
+        <party>I</party>
+        <state>VT</state>
+        <district>0</district>
+        <sponsorshipDate>2003-02-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000309</bioguideId>
+        <fullName>Rep. McCarthy, Carolyn [D-NY-4]</fullName>
+        <firstName>CAROLYN</firstName>
+        <lastName>MCCARTHY</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <district>4</district>
+        <sponsorshipDate>2003-02-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001227</bioguideId>
+        <fullName>Rep. Brady, Robert A. [D-PA-1]</fullName>
+        <firstName>ROBERT</firstName>
+        <lastName>BRADY</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <middleName>A.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2003-02-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>N000147</bioguideId>
+        <fullName>Del. Norton, Eleanor Holmes [D-DC-At Large]</fullName>
+        <firstName>ELEANOR</firstName>
+        <lastName>NORTON</lastName>
+        <party>D</party>
+        <state>DC</state>
+        <middleName>HOLMES</middleName>
+        <district>0</district>
+        <sponsorshipDate>2003-02-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001044</bioguideId>
+        <fullName>Rep. Carson, Brad [D-OK-2]</fullName>
+        <firstName>BRAD</firstName>
+        <lastName>CARSON</lastName>
+        <party>D</party>
+        <state>OK</state>
+        <district>2</district>
+        <sponsorshipDate>2003-02-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000392</bioguideId>
+        <fullName>Rep. Frost, Martin [D-TX-24]</fullName>
+        <firstName>MARTIN</firstName>
+        <lastName>FROST</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>24</district>
+        <sponsorshipDate>2003-02-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000738</bioguideId>
+        <fullName>Rep. Woolsey, Lynn C. [D-CA-6]</fullName>
+        <firstName>LYNN</firstName>
+        <lastName>WOOLSEY</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>6</district>
+        <sponsorshipDate>2003-02-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000583</bioguideId>
+        <fullName>Rep. Paul, Ron [R-TX-14]</fullName>
+        <firstName>RON</firstName>
+        <lastName>PAUL</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>14</district>
+        <sponsorshipDate>2003-02-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001004</bioguideId>
+        <fullName>Rep. Strickland, Ted [D-OH-6]</fullName>
+        <firstName>TED</firstName>
+        <lastName>STRICKLAND</lastName>
+        <party>D</party>
+        <state>OH</state>
+        <district>6</district>
+        <sponsorshipDate>2003-02-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000087</bioguideId>
+        <fullName>Rep. Maloney, Carolyn B. [D-NY-14]</fullName>
+        <firstName>CAROLYN</firstName>
+        <lastName>MALONEY</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>B.</middleName>
+        <district>14</district>
+        <sponsorshipDate>2003-02-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000435</bioguideId>
+        <fullName>Rep. Ros-Lehtinen, Ileana [R-FL-18]</fullName>
+        <firstName>ILEANA</firstName>
+        <lastName>ROS-LEHTINEN</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>18</district>
+        <sponsorshipDate>2003-02-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000444</bioguideId>
+        <fullName>Rep. Hefley, Joel [R-CO-5]</fullName>
+        <firstName>JOEL</firstName>
+        <lastName>HEFLEY</lastName>
+        <party>R</party>
+        <state>CO</state>
+        <district>5</district>
+        <sponsorshipDate>2003-02-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001145</bioguideId>
+        <fullName>Rep. Schakowsky, Janice D. [D-IL-9]</fullName>
+        <firstName>JANICE</firstName>
+        <lastName>SCHAKOWSKY</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>D.</middleName>
+        <district>9</district>
+        <sponsorshipDate>2003-02-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000053</bioguideId>
+        <fullName>Rep. Rangel, Charles B. [D-NY-15]</fullName>
+        <firstName>CHARLES</firstName>
+        <lastName>RANGEL</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>B.</middleName>
+        <district>15</district>
+        <sponsorshipDate>2003-02-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>J000284</bioguideId>
+        <fullName>Rep. Jones, Stephanie Tubbs [D-OH-11]</fullName>
+        <firstName>STEPHANIE</firstName>
+        <lastName>JONES</lastName>
+        <party>D</party>
+        <state>OH</state>
+        <middleName>TUBBS</middleName>
+        <district>11</district>
+        <sponsorshipDate>2003-02-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000312</bioguideId>
+        <fullName>Rep. McGovern, James P. [D-MA-3]</fullName>
+        <firstName>JAMES</firstName>
+        <lastName>MCGOVERN</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>P.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2003-02-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001149</bioguideId>
+        <fullName>Rep. Michaud, Michael H. [D-ME-2]</fullName>
+        <firstName>Michael</firstName>
+        <lastName>Michaud</lastName>
+        <party>D</party>
+        <state>ME</state>
+        <middleName>H.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2003-03-11</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000577</bioguideId>
+        <fullName>Rep. Ryan, Timothy J. [D-OH-17]</fullName>
+        <firstName>TIMOTHY</firstName>
+        <lastName>RYAN</lastName>
+        <party>D</party>
+        <state>OH</state>
+        <middleName>J.</middleName>
+        <district>17</district>
+        <sponsorshipDate>2003-03-11</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000550</bioguideId>
+        <fullName>Rep. Gingrey, Phil [R-GA-11]</fullName>
+        <firstName>Phil</firstName>
+        <lastName>Gingrey</lastName>
+        <party>R</party>
+        <state>GA</state>
+        <district>11</district>
+        <sponsorshipDate>2003-03-26</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000490</bioguideId>
+        <fullName>Rep. Bishop, Sanford D., Jr. [D-GA-2]</fullName>
+        <firstName>SANFORD</firstName>
+        <lastName>BISHOP</lastName>
+        <party>D</party>
+        <state>GA</state>
+        <middleName>D.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2003-04-01</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000533</bioguideId>
+        <fullName>Rep. Duncan, John J., Jr. [R-TN-2]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>DUNCAN</lastName>
+        <party>R</party>
+        <state>TN</state>
+        <middleName>J.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2003-04-07</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000172</bioguideId>
+        <fullName>Rep. Kildee, Dale E. [D-MI-5]</fullName>
+        <firstName>DALE</firstName>
+        <lastName>KILDEE</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <middleName>E.</middleName>
+        <district>5</district>
+        <sponsorshipDate>2003-06-02</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000535</bioguideId>
+        <fullName>Rep. Gutierrez, Luis V. [D-IL-4]</fullName>
+        <firstName>LUIS</firstName>
+        <lastName>GUTIERREZ</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>V.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2003-06-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000170</bioguideId>
+        <fullName>Rep. Reyes, Silvestre [D-TX-16]</fullName>
+        <firstName>SILVESTRE</firstName>
+        <lastName>REYES</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>16</district>
+        <sponsorshipDate>2003-06-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000568</bioguideId>
+        <fullName>Rep. Rodriguez, Ciro D. [D-TX-28]</fullName>
+        <firstName>CIRO</firstName>
+        <lastName>RODRIGUEZ</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <middleName>D.</middleName>
+        <district>28</district>
+        <sponsorshipDate>2003-06-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000911</bioguideId>
+        <fullName>Rep. Brown, Corrine [D-FL-3]</fullName>
+        <firstName>CORRINE</firstName>
+        <lastName>BROWN</lastName>
+        <party>D</party>
+        <state>FL</state>
+        <district>3</district>
+        <sponsorshipDate>2003-06-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000187</bioguideId>
+        <fullName>Rep. Waters, Maxine [D-CA-35]</fullName>
+        <firstName>MAXINE</firstName>
+        <lastName>WATERS</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>35</district>
+        <sponsorshipDate>2003-06-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000598</bioguideId>
+        <fullName>Rep. Davis, Susan A. [D-CA-53]</fullName>
+        <firstName>SUSAN</firstName>
+        <lastName>DAVIS</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <middleName>A.</middleName>
+        <district>53</district>
+        <sponsorshipDate>2003-06-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000238</bioguideId>
+        <fullName>Rep. Foley, Mark [R-FL-16]</fullName>
+        <firstName>MARK</firstName>
+        <lastName>FOLEY</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>16</district>
+        <sponsorshipDate>2003-07-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000116</bioguideId>
+        <fullName>Rep. Filner, Bob [D-CA-51]</fullName>
+        <firstName>BOB</firstName>
+        <lastName>FILNER</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>51</district>
+        <sponsorshipDate>2003-09-03</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000263</bioguideId>
+        <fullName>Rep. Levin, Sander M. [D-MI-12]</fullName>
+        <firstName>SANDER</firstName>
+        <lastName>LEVIN</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <middleName>M.</middleName>
+        <district>12</district>
+        <sponsorshipDate>2004-01-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <cboCostEstimates>
+      <item>
+        <pubDate>2003-05-23T04:00:00Z</pubDate>
+        <title>H.R. 886, A bill to amend title 38, United States Code, to provide for the payment of dependency and indemnity compensation to the survivors of former prisoners of war who died on or before September 30, 1999, under the same eligibility conditio</title>
+        <url>http://www.cbo.gov/publication/14483</url>
+        <description>&lt;p&gt;Cost estimate for the bill as introduced on February 25, 2003&lt;/p&gt;</description>
+      </item>
+      <item>
+        <pubDate>2003-05-23T04:00:00Z</pubDate>
+        <title>H.R. 886, A bill to amend title 38, United States Code, to provide for the payment of dependency and indemnity compensation to the survivors of former prisoners of war who died on or before September 30, 1999, under the same eligibility conditio</title>
+        <url>https://www.cbo.gov/publication/14483</url>
+        <description>Cost estimate for the bill as introduced on February 25, 2003</description>
+      </item>
+    </cboCostEstimates>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Disabled</name>
+        </item>
+        <item>
+          <name>Ex-prisoners of war</name>
+        </item>
+        <item>
+          <name>Families</name>
+        </item>
+        <item>
+          <name>Labor and Employment</name>
+        </item>
+        <item>
+          <name>Survivors' benefits</name>
+        </item>
+        <item>
+          <name>Veterans' disability compensation</name>
+        </item>
+        <item>
+          <name>Veterans' pensions</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Armed Forces and National Security</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2003-02-25</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2006-11-28T17:35:40Z</updateDate>
+        <text><![CDATA[Amends veterans' benefit provisions to provide for the payment of dependency and indemnity compensation to the survivors of veterans rated totally disabled at the time of death who were former prisoners of war (currently, to the survivors of such veterans who died after September 30, 1999).]]></text>
+      </summary>
+    </summaries>
+    <title>To amend title 38, United States Code, to provide for the payment of dependency and indemnity compensation to the survivors of former prisoners of war who died on or before September 30, 1999, under the same eligibility conditions as apply to payment of dependency and indemnity compensation to the survivors of former prisoners of war who die after that date.</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>To amend title 38, United States Code, to provide for the payment of dependency and indemnity compensation to the survivors of former prisoners of war who died on or before September 30, 1999, under the same eligibility conditions as apply to payment of dependency and indemnity compensation to the survivors of former prisoners of war who die after that date.</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend title 38, United States Code, to provide for the payment of dependency and indemnity compensation to the survivors of former prisoners of war who died on or before September 30, 1999, under the same eligibility conditions as apply to payment of dependency and indemnity compensation to the survivors of former prisoners of war who die after that date.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2003-02-25T05:00:00Z</date>
+        <formats/>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2003-06-11</actionDate>
+      <text>Subcommittee Hearings Held.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

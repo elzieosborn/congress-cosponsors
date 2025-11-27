@@ -1,0 +1,297 @@
+{
+  "actions": [
+    {
+      "acted_at": "2015-10-07",
+      "action_code": "10000",
+      "references": [],
+      "text": "Introduced in Senate",
+      "type": "action"
+    },
+    {
+      "acted_at": "2015-10-07",
+      "action_code": "",
+      "how": "by Unanimous Consent",
+      "references": [
+        {
+          "reference": "CR S7224",
+          "type": "consideration"
+        },
+        {
+          "reference": "CR S7224",
+          "type": "text as passed Senate"
+        }
+      ],
+      "result": "pass",
+      "status": "PASS_OVER:SENATE",
+      "text": "Introduced in the Senate, read twice, considered, read the third time, and passed without amendment by Unanimous Consent.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "s"
+    },
+    {
+      "acted_at": "2015-10-08T12:01:50-04:00",
+      "action_code": "H14000",
+      "references": [],
+      "text": "Received in the House.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2015-10-08",
+      "action_code": "",
+      "references": [],
+      "text": "Message on Senate action sent to the House.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2015-10-08",
+      "action_code": "H11100",
+      "committees": [
+        "HSHA"
+      ],
+      "references": [],
+      "text": "Referred to the House Committee on House Administration.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2015-10-20T19:15:08-04:00",
+      "action_code": "H30200",
+      "references": [
+        {
+          "reference": "CR H7012",
+          "type": "consideration"
+        }
+      ],
+      "text": "Mr. Harper asked unanimous consent to discharge from committee and consider.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2015-10-20",
+      "action_code": "H12300",
+      "committees": [
+        "HSHA"
+      ],
+      "references": [
+        {
+          "reference": "CR H7012",
+          "type": "consideration"
+        }
+      ],
+      "text": "Committee on House Administration discharged.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2015-10-20T19:15:10-04:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H7012",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered by unanimous consent.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2015-10-20T19:15:40-04:00",
+      "action_code": "H37100",
+      "how": "without objection",
+      "references": [
+        {
+          "reference": "CR H7012",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "status": "PASSED:BILL",
+      "suspension": null,
+      "text": "On passage Passed without objection.",
+      "type": "vote",
+      "vote_type": "vote2",
+      "where": "h"
+    },
+    {
+      "acted_at": "2015-10-20T19:15:42-04:00",
+      "action_code": "H38310",
+      "references": [],
+      "text": "Motion to reconsider laid on the table Agreed to without objection.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2015-10-26",
+      "action_code": "E20000",
+      "references": [],
+      "text": "Presented to President.",
+      "type": "topresident"
+    },
+    {
+      "acted_at": "2015-11-05",
+      "action_code": "E30000",
+      "references": [],
+      "status": "ENACTED:SIGNED",
+      "text": "Signed by President.",
+      "type": "signed"
+    },
+    {
+      "acted_at": "2015-11-05",
+      "action_code": "E40000",
+      "congress": "114",
+      "law": "public",
+      "number": "86",
+      "references": [],
+      "text": "Became Public Law No: 114-86.",
+      "type": "enacted"
+    }
+  ],
+  "amendments": [],
+  "bill_id": "s2162-114",
+  "bill_type": "s",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [
+    {
+      "activity": [
+        "discharged",
+        "referral"
+      ],
+      "committee": "House Committee on House Administration",
+      "committee_id": "HSHA"
+    }
+  ],
+  "congress": "114",
+  "cosponsors": [
+    {
+      "bioguide_id": "C001047",
+      "district": null,
+      "name": "Capito, Shelley Moore",
+      "original_cosponsor": true,
+      "sponsored_at": "2015-10-07",
+      "state": "WV",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "L000174",
+      "district": null,
+      "name": "Leahy, Patrick J.",
+      "original_cosponsor": true,
+      "sponsored_at": "2015-10-07",
+      "state": "VT",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000307",
+      "district": null,
+      "name": "Roberts, Pat",
+      "original_cosponsor": true,
+      "sponsored_at": "2015-10-07",
+      "state": "KS",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S000148",
+      "district": null,
+      "name": "Schumer, Charles E.",
+      "original_cosponsor": true,
+      "sponsored_at": "2015-10-07",
+      "state": "NY",
+      "title": "Sen.",
+      "withdrawn_at": null
+    }
+  ],
+  "enacted_as": {
+    "congress": "114",
+    "law_type": "public",
+    "number": "86"
+  },
+  "history": {
+    "active": true,
+    "active_at": "2015-10-07",
+    "awaiting_signature": false,
+    "enacted": true,
+    "enacted_at": "2015-11-05",
+    "house_passage_result": "pass",
+    "house_passage_result_at": "2015-10-20T19:15:40-04:00",
+    "senate_passage_result": "pass",
+    "senate_passage_result_at": "2015-10-07",
+    "vetoed": false
+  },
+  "introduced_at": "2015-10-07",
+  "number": "2162",
+  "official_title": "A bill to establish a 10-year term for the service of the Librarian of Congress.",
+  "popular_title": null,
+  "related_bills": [],
+  "short_title": "Librarian of Congress Succession Modernization Act of 2015",
+  "sponsor": {
+    "bioguide_id": "B000575",
+    "district": null,
+    "name": "Blunt, Roy",
+    "state": "MO",
+    "title": "Sen.",
+    "type": "person"
+  },
+  "status": "ENACTED:SIGNED",
+  "status_at": "2015-11-05",
+  "subjects": [
+    "Congress",
+    "Congressional agencies",
+    "Federal officials",
+    "Libraries and archives",
+    "Library of Congress",
+    "Presidents and presidential powers, Vice Presidents"
+  ],
+  "subjects_top_term": "Congress",
+  "summary": {
+    "as": "Public Law",
+    "asOf": "2015-11-05",
+    "date": "2015-11-12T15:12:43Z",
+    "text": "(This measure has not been amended since it was introduced. The expanded summary of the Senate passed version is repeated here.)\n\nLibrarian of Congress Succession Modernization Act of 2015\n\n(Sec. 2) This bill limits the term of the Librarian of Congress to 10 years.\n\nThe individual appointed to the position may be reappointed in accordance with this requirement."
+  },
+  "titles": [
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Librarian of Congress Succession Modernization Act of 2015",
+      "type": "display"
+    },
+    {
+      "as": "enacted",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Librarian of Congress Succession Modernization Act of 2015",
+      "type": "short"
+    },
+    {
+      "as": "passed senate",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Librarian of Congress Succession Modernization Act of 2015",
+      "type": "short"
+    },
+    {
+      "as": "passed house",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Librarian of Congress Succession Modernization Act of 2015",
+      "type": "short"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Librarian of Congress Succession Modernization Act of 2015",
+      "type": "short"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "A bill to establish a 10-year term for the service of the Librarian of Congress.",
+      "type": "official"
+    }
+  ],
+  "updated_at": "2023-04-24T20:39:50Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/114/s/BILLSTATUS-114s2162.xml"
+}

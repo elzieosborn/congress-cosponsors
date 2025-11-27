@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>12</number>
+    <updateDate>2023-01-11T13:34:08Z</updateDate>
+    <updateDateIncludingText>2023-01-11T13:34:08Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <type>S</type>
+    <introducedDate>2017-01-03</introducedDate>
+    <congress>115</congress>
+    <committees>
+      <item>
+        <systemCode>hsvr00</systemCode>
+        <name>Veterans' Affairs Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2017-05-26T15:05:46Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>ssva00</systemCode>
+        <name>Veterans' Affairs Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Discharged from</name>
+            <date>2017-05-25T19:32:47Z</date>
+          </item>
+          <item>
+            <name>Referred to</name>
+            <date>2017-01-03T18:08:14Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2017-05-26</actionDate>
+        <text>Referred to the House Committee on Veterans' Affairs.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsvr00</systemCode>
+            <name>Veterans' Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2017-05-26</actionDate>
+        <actionTime>10:02:08</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2017-05-25</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2017-05-25</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate with an amendment by Unanimous Consent. (text: CR S3189-3190)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2017-05-25</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate with an amendment by Unanimous Consent.(text: CR S3189-3190)</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2017-05-25</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Measure laid before Senate by unanimous consent. (consideration: CR S3189-3190)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2017-05-25</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssva00</systemCode>
+            <name>Veterans' Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Senate Committee on Veterans' Affairs discharged by Unanimous Consent.</text>
+        <type>Discharge</type>
+      </item>
+      <item>
+        <actionDate>2017-05-25</actionDate>
+        <text>Senate Committee on Veterans' Affairs discharged by Unanimous Consent.</text>
+        <type>Committee</type>
+        <actionCode>14500</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>ssva00</systemCode>
+            <name>Veterans' Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2017-01-03</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssva00</systemCode>
+            <name>Veterans' Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Veterans' Affairs.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2017-01-03</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>M000934</bioguideId>
+        <fullName>Sen. Moran, Jerry [R-KS]</fullName>
+        <firstName>Jerry</firstName>
+        <lastName>Moran</lastName>
+        <party>R</party>
+        <state>KS</state>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>B001277</bioguideId>
+        <fullName>Sen. Blumenthal, Richard [D-CT]</fullName>
+        <firstName>Richard</firstName>
+        <lastName>Blumenthal</lastName>
+        <party>D</party>
+        <state>CT</state>
+        <sponsorshipDate>2017-01-03</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001267</bioguideId>
+        <fullName>Sen. Bennet, Michael F. [D-CO]</fullName>
+        <firstName>Michael</firstName>
+        <lastName>Bennet</lastName>
+        <party>D</party>
+        <state>CO</state>
+        <sponsorshipDate>2017-01-03</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Congressional oversight</name>
+        </item>
+        <item>
+          <name>Department of Veterans Affairs</name>
+        </item>
+        <item>
+          <name>Employee performance</name>
+        </item>
+        <item>
+          <name>Federal officials</name>
+        </item>
+        <item>
+          <name>Government employee pay, benefits, personnel management</name>
+        </item>
+        <item>
+          <name>Government ethics and transparency, public corruption</name>
+        </item>
+        <item>
+          <name>Public contracts and procurement</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Armed Forces and National Security</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2017-01-03</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2017-04-26T22:18:11Z</updateDate>
+        <text><![CDATA[ <p><strong>Increasing the Department of Veterans Affairs Accountability to Veterans Act of 2017</strong></p> <p> This bill requires the reduction of the federal annuities of individuals removed from the Department of Veterans Affairs (VA) Senior Executive Service (SES) if they are convicted of a felony that was related to their performance while employed in such position.</p> <p> The VA may order the reduction of the federal annuities of individuals who were convicted of such a felony and were subject to removal or transfer from the SES, but who left the VA before final action was taken. </p> <p> Such annuities are reduced by excluding the covered service performed after the activity that subjects such an individual to transfer or removal. </p> <p> Any individual whose annuity is reduced may appeal to the Office of Personnel Management. </p> <p> The VA shall conduct an annual performance plan for each political appointee that is similar to the plan conducted for career appointee SES employees. </p> <p>Evaluation of VA managers shall include actions taken to address employee performance. </p> <p>The supervisor of a probationary VA employee shall determine during the 30-day period ending on the date on which the probationary period ends whether the employee has demonstrated successful performance and should continue past the probationary period. Such supervisor's performance plan shall include feedback on his or her actions during an employee's probationary period.</p> <p>Before terminating VA employment an official who has participated personally and substantially during the past year in a VA acquisition that exceeds $10 million shall obtain a written opinion from a VA ethics counselor regarding any restrictions on activities that the official may undertake on behalf of a contractor during the two-year period after the official terminates VA employment. </p> <p>A contractor may not knowingly provide compensation to such an individual during the two-year period unless the contractor determines that the individual has obtained or requested such written opinion. </p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>35</versionCode>
+        <actionDate>2017-05-25</actionDate>
+        <actionDesc>Passed Senate amended</actionDesc>
+        <updateDate>2017-10-19T19:22:48Z</updateDate>
+        <text><![CDATA[ <p><strong>Increasing the Department of Veterans Affairs Accountability to Veterans Act of 2017</strong></p> <p> (Sec. 2) This bill directs the Department of Veterans Affairs (VA) to conduct an annual performance plan for each political appointee that is similar to the plan conducted for career appointee Senior Executive Service employees.</p> <p> Each plan conducted with respect to a VA political appointee shall assess whether such appointee is: (1) recruiting and retaining well-qualified individuals, (2) motivating employees, (3) training and developing employees and preparing them for future leadership roles, and (4) holding managers accountable for addressing performance issues. </p> <p> (Sec. 3) The supervisor of a probationary VA employee shall determine, during the 30-day period ending on the date on which the probationary period ends, whether the employee has demonstrated successful performance and should continue past the probationary period. No VA employee serving a probationary period may complete such period until the employee's supervisor or another appropriate supervisor has made an affirmative performance determination. If no such determination is made before the end of the 60-day period following such 30-day period, the probationary period shall be deemed to have been completed. </p> <p> The VA shall notify Congress at least monthly regarding negative determinations.</p> <p>A successful assessment of a supervisor's probationary period shall include demonstration of management competencies, in addition to the technical skills required for such position. </p> <p>A supervisor's performance plan shall include feedback on his or her actions during an employee's probationary period.</p> <p> (Sec. 4) The VA shall ensure that, as a part of a manager's annual performance plan, the manager is evaluated on actions taken to: (1) address poor employee performance and misconduct, and (2) improve or sustain high levels of employee engagement. </p> <p>(Sec. 5) Before terminating VA employment, an official who has participated personally and substantially during the past year in a VA acquisition that exceeds $10 million shall obtain a written opinion from a VA ethics counselor regarding any restrictions on activities that the official may undertake on behalf of a contractor carrying out a VA contract (covered contractor) during the two-year period after the official terminates VA employment. A covered contractor may not knowingly provide compensation to such a separated VA official during the two-year period after separation unless the contractor determines that the individual has obtained or requested such opinion.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Increasing the Department of Veterans Affairs Accountability to Veterans Act of 2017</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Increasing the Department of Veterans Affairs Accountability to Veterans Act of 2017</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to amend title 38, United States Code, to improve the accountability of employees of the Department of Veterans Affairs, and for other purposes.</title>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Increasing the Department of Veterans Affairs Accountability to Veterans Act of 2017</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Passed Senate</titleType>
+        <title>Increasing the Department of Veterans Affairs Accountability to Veterans Act of 2017</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+    </titles>
+    <amendments>
+      <amendment>
+        <number>218</number>
+        <congress>115</congress>
+        <type>SAMDT</type>
+        <purpose>To improve the bill by striking section 2, relating to reduction of benefits for senior executives and certain health care employees of the Department of Veterans Affairs convicted of a felony.</purpose>
+        <updateDate>2020-12-15T16:40:18Z</updateDate>
+        <latestAction>
+          <actionDate>2017-05-25</actionDate>
+          <text>Amendment SA 218 agreed to in Senate by Unanimous Consent.</text>
+          <links>
+            <link>
+              <name>SA 218</name>
+              <url>https://www.congress.gov/amendment/115th-congress/senate-amendment/218</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>M000934</bioguideId>
+            <fullName>Sen. Moran, Jerry [R-KS]</fullName>
+            <firstName>Jerry</firstName>
+            <lastName>Moran</lastName>
+            <party>R</party>
+            <state>KS</state>
+          </item>
+        </sponsors>
+        <proposedDate>2017-05-25T04:00:00Z</proposedDate>
+        <submittedDate>2017-05-25T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>115</congress>
+          <type>S</type>
+          <originChamber>Senate</originChamber>
+          <originChamberCode>S</originChamberCode>
+          <number>12</number>
+          <title>Increasing the Department of Veterans Affairs Accountability to Veterans Act of 2017</title>
+          <updateDateIncludingText>2023-01-11T13:34:08Z</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2017-05-25</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 218 agreed to in Senate by Unanimous Consent.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2017-05-25</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 218 proposed by Senator McConnell for Senator Moran. (consideration: CR S3189; text: CR S3189) To improve the bill by striking section 2, relating to reduction of benefits for senior executives and certain health care employees of the Department of Veterans Affairs convicted of a felony.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2017-05-25</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2017-05-25</actionDate>
+              <text>Senate amendment proposed (on the floor): Amendment SA 218 proposed by Senator McConnell for Senator Moran.(consideration: CR S3189; text: CR S3189)</text>
+              <type>Floor</type>
+              <actionCode>93000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2017-05-25</actionDate>
+              <text>Senate amendment agreed to: Amendment SA 218 agreed to in Senate by Unanimous Consent.</text>
+              <type>Floor</type>
+              <actionCode>94000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+    </amendments>
+    <textVersions>
+      <item>
+        <type>Referred in House</type>
+        <date>2017-05-26T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-115s12rfh/xml/BILLS-115s12rfh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2017-05-25T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-115s12es/xml/BILLS-115s12es.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2017-01-03T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-115s12is/xml/BILLS-115s12is.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2017-05-26</actionDate>
+      <text>Referred to the House Committee on Veterans' Affairs.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

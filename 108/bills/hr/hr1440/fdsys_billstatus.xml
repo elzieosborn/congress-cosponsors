@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>1440</number>
+    <updateDate>2023-01-15T22:33:32Z</updateDate>
+    <updateDateIncludingText>2023-01-15T22:33:32Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2003-03-26</introducedDate>
+    <congress>108</congress>
+    <committees>
+      <item>
+        <systemCode>hsju00</systemCode>
+        <name>Judiciary Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsju01</systemCode>
+            <name>Immigration Integrity, Security, and Enforcement Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2003-05-05T17:12:32Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2003-03-26T15:00:20Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <relatedBills>
+      <item>
+        <title>Anti-Atrocity Alien Deportation Act of 2003</title>
+        <congress>108</congress>
+        <number>710</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2004-07-22</actionDate>
+          <text>Sponsor introductory remarks on measure. (CR S8667)</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2003-05-05</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsju01</systemCode>
+            <name>Immigration Integrity, Security, and Enforcement Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Immigration, Border Security, and Claims.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2003-03-26</actionDate>
+        <text>Referred to the House Committee on the Judiciary.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2003-03-26</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2003-03-26</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>F000238</bioguideId>
+        <fullName>Rep. Foley, Mark [R-FL-16]</fullName>
+        <firstName>MARK</firstName>
+        <lastName>FOLEY</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>16</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>A000022</bioguideId>
+        <fullName>Rep. Ackerman, Gary L. [D-NY-5]</fullName>
+        <firstName>GARY</firstName>
+        <lastName>ACKERMAN</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>L.</middleName>
+        <district>5</district>
+        <sponsorshipDate>2003-03-26</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000548</bioguideId>
+        <fullName>Rep. Garrett, Scott [R-NJ-5]</fullName>
+        <firstName>Scott</firstName>
+        <lastName>Garrett</lastName>
+        <party>R</party>
+        <state>NJ</state>
+        <district>5</district>
+        <sponsorshipDate>2003-03-26</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000590</bioguideId>
+        <fullName>Rep. McNulty, Michael R. [D-NY-21]</fullName>
+        <firstName>MICHAEL</firstName>
+        <lastName>MCNULTY</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>R.</middleName>
+        <district>21</district>
+        <sponsorshipDate>2003-03-26</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000392</bioguideId>
+        <fullName>Rep. Frost, Martin [D-TX-24]</fullName>
+        <firstName>MARTIN</firstName>
+        <lastName>FROST</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>24</district>
+        <sponsorshipDate>2003-03-26</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000435</bioguideId>
+        <fullName>Rep. Ros-Lehtinen, Ileana [R-FL-18]</fullName>
+        <firstName>ILEANA</firstName>
+        <lastName>ROS-LEHTINEN</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>18</district>
+        <sponsorshipDate>2003-03-26</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000312</bioguideId>
+        <fullName>Rep. McGovern, James P. [D-MA-3]</fullName>
+        <firstName>JAMES</firstName>
+        <lastName>MCGOVERN</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>P.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2003-03-26</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000410</bioguideId>
+        <fullName>Rep. Berman, Howard L. [D-CA-28]</fullName>
+        <firstName>HOWARD</firstName>
+        <lastName>BERMAN</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <middleName>L.</middleName>
+        <district>28</district>
+        <sponsorshipDate>2003-03-26</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000208</bioguideId>
+        <fullName>Rep. Bartlett, Roscoe G. [R-MD-6]</fullName>
+        <firstName>ROSCOE</firstName>
+        <lastName>BARTLETT</lastName>
+        <party>R</party>
+        <state>MD</state>
+        <middleName>G.</middleName>
+        <district>6</district>
+        <sponsorshipDate>2003-03-26</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000672</bioguideId>
+        <fullName>Rep. Wolf, Frank R. [R-VA-10]</fullName>
+        <firstName>FRANK</firstName>
+        <lastName>WOLF</lastName>
+        <party>R</party>
+        <state>VA</state>
+        <middleName>R.</middleName>
+        <district>10</district>
+        <sponsorshipDate>2003-03-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000090</bioguideId>
+        <fullName>Rep. Lantos, Tom [D-CA-12]</fullName>
+        <firstName>TOM</firstName>
+        <lastName>LANTOS</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>12</district>
+        <sponsorshipDate>2003-05-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000627</bioguideId>
+        <fullName>Rep. Meehan, Martin T. [D-MA-5]</fullName>
+        <firstName>MARTIN</firstName>
+        <lastName>MEEHAN</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>T.</middleName>
+        <district>5</district>
+        <sponsorshipDate>2004-09-07</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <notes>
+      <item>
+        <text><![CDATA[The text of H.R. 1440 was added as H.Amdt. 794 to H.R. 10, the 9/11 Recommendations Implementation Act, as passed House, and is also present in the conference report to S. 2845, the Intelligence Reform and Terrorism Prevention Act. S. 2845 became Public Law 108-458 on 12/17/2004.]]></text>
+        <links>
+          <link>
+            <name>H.Amdt. 794</name>
+            <url>https://www.congress.gov/amendment/108th-congress/house-amendment/794</url>
+          </link>
+          <link>
+            <name>H.R. 10</name>
+            <url>https://www.congress.gov/bill/108th-congress/house-bill/10</url>
+          </link>
+          <link>
+            <name>H.R. 1440</name>
+            <url>https://www.congress.gov/bill/108th-congress/house-bill/1440</url>
+          </link>
+          <link>
+            <name>S. 2845</name>
+            <url>https://www.congress.gov/bill/108th-congress/senate-bill/2845</url>
+          </link>
+        </links>
+      </item>
+    </notes>
+    <policyArea>
+      <name>Immigration</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Aliens</name>
+        </item>
+        <item>
+          <name>Authorization</name>
+        </item>
+        <item>
+          <name>Citizenship</name>
+        </item>
+        <item>
+          <name>Civil Rights and Liberties, Minority Issues</name>
+        </item>
+        <item>
+          <name>Congress</name>
+        </item>
+        <item>
+          <name>Congressional reporting requirements</name>
+        </item>
+        <item>
+          <name>Crime and Law Enforcement</name>
+        </item>
+        <item>
+          <name>Criminal aliens</name>
+        </item>
+        <item>
+          <name>Criminal investigation</name>
+        </item>
+        <item>
+          <name>Department of Justice</name>
+        </item>
+        <item>
+          <name>Deportation</name>
+        </item>
+        <item>
+          <name>Due process of law</name>
+        </item>
+        <item>
+          <name>Economics and Public Finance</name>
+        </item>
+        <item>
+          <name>Evidence (Law)</name>
+        </item>
+        <item>
+          <name>Executive reorganization</name>
+        </item>
+        <item>
+          <name>Extradition</name>
+        </item>
+        <item>
+          <name>Families</name>
+        </item>
+        <item>
+          <name>Foreign leaders</name>
+        </item>
+        <item>
+          <name>Genocide</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Government officials</name>
+        </item>
+        <item>
+          <name>Government paperwork</name>
+        </item>
+        <item>
+          <name>History</name>
+        </item>
+        <item>
+          <name>Human rights</name>
+        </item>
+        <item>
+          <name>International Affairs</name>
+        </item>
+        <item>
+          <name>Jewish holocaust (1939-1945)</name>
+        </item>
+        <item>
+          <name>Law</name>
+        </item>
+        <item>
+          <name>Married people</name>
+        </item>
+        <item>
+          <name>Murder</name>
+        </item>
+        <item>
+          <name>Nazism</name>
+        </item>
+        <item>
+          <name>Political persecution</name>
+        </item>
+        <item>
+          <name>Prosecution</name>
+        </item>
+        <item>
+          <name>Religion</name>
+        </item>
+        <item>
+          <name>Religious liberty</name>
+        </item>
+        <item>
+          <name>Torture</name>
+        </item>
+        <item>
+          <name>Visas</name>
+        </item>
+        <item>
+          <name>War crimes</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Immigration</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2003-03-26</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2006-11-28T17:35:40Z</updateDate>
+        <text><![CDATA[Anti-Atrocity Alien Deportation Act of 2003 - Amends the Immigration and Nationality Act to provide for the inadmissibility and removability of aliens who have committed, ordered, assisted, incited, or otherwise participated in acts of torture (as defined in title 18, United States Code) or extrajudicial killings abroad (as defined in the Torture Victims Protection Act of 1991).<p>Redefines "genocide" for such purposes to cover an alien who has ordered, incited, assisted, or otherwise participated in conduct outside the United States that would, if committed in the United States or by a U.S. national, be genocide (as defined in title 18, United States Code).<p>Redefines "severe violations of religious freedom" with respect to the inadmissibility and removability of a foreign government official to cover an alien who, while serving as a foreign government official, was responsible for or directly carried out at any time severe violations of religious freedom (as defined in the International Religious Freedom Act of 1998). Eliminates the bar to the admission of such person's spouse or children.<p>Prohibits the waiver of inadmissibility and temporary admission of such aliens.<p>Prohibits an alien who has engaged in Nazi persecution, genocide, acts of torture, extrajudicial killings, or severe violations of religious freedom from establishing good moral character under such Act.<p>Directs the Attorney General to: (1) establish within the Criminal Division of the Department of Justice an Office of Special Investigations to investigate and denaturalize an alien who has participated in Nazi persecution, genocide, torture, or extrajudicial killing abroad; and (2) consult with the Secretary of Homeland Security regarding actions to prosecute or extradite such aliens.<p>States that in determining the proper legal action against such an alien, consideration shall be given to the availability of U.S. prosecution or removal to a foreign jurisdiction for prosecution.]]></text>
+      </summary>
+    </summaries>
+    <title>Anti-Atrocity Alien Deportation Act of 2003</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Anti-Atrocity Alien Deportation Act of 2003</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend the Immigration and Nationality Act to provide that aliens who commit acts of torture, extrajudicial killings, or other specified atrocities abroad are inadmissible and removable and to establish within the Criminal Division of the Department of Justice an Office of Special Investigations having responsibilities under that Act with respect to all alien participants in war crimes, genocide, and the commission of acts of torture and extrajudicial killings abroad.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Anti-Atrocity Alien Deportation Act of 2003</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2003-03-26T05:00:00Z</date>
+        <formats/>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2003-05-05</actionDate>
+      <text>Referred to the Subcommittee on Immigration, Border Security, and Claims.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

@@ -1,0 +1,110 @@
+<bill session="118" type="sj" number="9" updated="2025-11-21T17:51:08Z">
+  <state datetime="2023-09-28">VETOED:OVERRIDE_FAIL_ORIGINATING:SENATE</state>
+  <status>
+    <unknown datetime="2023-09-28"/>
+  </status>
+  <introduced datetime="2023-02-07"/>
+  <titles>
+    <title type="display">A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the United States Fish and Wildlife Service relating to "Endangered and Threatened Wildlife and Plants; Lesser Prairie-Chicken; Threatened Status with Section 4(d) Rule for the Northern Distinct Population Segment and Endangered Status for the Southern Distinct Population Segment".</title>
+    <title type="official" as="introduced">A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the United States Fish and Wildlife Service relating to "Endangered and Threatened Wildlife and Plants; Lesser Prairie-Chicken; Threatened Status with Section 4(d) Rule for the Northern Distinct Population Segment and Endangered Status for the Southern Distinct Population Segment".</title>
+  </titles>
+  <sponsor bioguide_id="M001198"/>
+  <cosponsors>
+    <cosponsor bioguide_id="B001319" joined="2023-05-01"/>
+    <cosponsor bioguide_id="C001047" joined="2023-03-23"/>
+    <cosponsor bioguide_id="L000575" joined="2023-02-07"/>
+    <cosponsor bioguide_id="M000934" joined="2023-02-07"/>
+    <cosponsor bioguide_id="M001190" joined="2023-02-07"/>
+  </cosponsors>
+  <actions>
+    <action datetime="2023-02-07">
+      <text>Introduced in Senate</text>
+    </action>
+    <action datetime="2023-02-07" state="REFERRED">
+      <text>Read twice and referred to the Committee on Environment and Public Works.</text>
+    </action>
+    <action datetime="2023-05-03">
+      <text>Senate Committee on Environment and Public Works discharged by Unanimous Consent.</text>
+    </action>
+    <action datetime="2023-05-03">
+      <text>Measure laid before Senate by unanimous consent.</text>
+      <reference ref="CR S1478-1500" label="consideration"/>
+    </action>
+    <vote how="roll" type="vote" roll="110" datetime="2023-05-03" where="s" result="pass" state="PASS_OVER:SENATE">
+      <text>Passed Senate without amendment by Yea-Nay Vote. 50 - 48. Record Vote Number: 110.</text>
+      <reference ref="CR S1500" label="text"/>
+    </vote>
+    <action datetime="2023-05-04">
+      <text>Message on Senate action sent to the House.</text>
+    </action>
+    <action datetime="2023-05-05T11:03:14-04:00">
+      <text>Received in the House.</text>
+    </action>
+    <action datetime="2023-05-05T11:12:16-04:00">
+      <text>Held at the desk.</text>
+    </action>
+    <action datetime="2023-07-26T09:32:08-04:00">
+      <text>Rules Committee Resolution H. Res. 614 Reported to House. Rule provides for consideration of H.R. 4366, S.J. Res. 9 and S.J. Res. 24. The resolution provides for consideration of H.R. 4366, under a structured rule with one hour of general debate and a motion to recommit. The resolution provides for consideration of S.J. Res. 9 and S.J. Res. 24, under a closed rule with one hour of general debate for both joint resolutions and one motion to commit for both joint resolutions.</text>
+    </action>
+    <action datetime="2023-07-27T12:17:13-04:00">
+      <text>Considered under the provisions of rule H. Res. 614.</text>
+      <reference ref="CR H4044-4049" label="consideration"/>
+    </action>
+    <action datetime="2023-07-27T12:17:18-04:00">
+      <text>Rule provides for consideration of H.R. 4366, S.J. Res. 9 and S.J. Res. 24. The resolution provides for consideration of H.R. 4366, under a structured rule with one hour of general debate and a motion to recommit. The resolution provides for consideration of S.J. Res. 9 and S.J. Res. 24, under a closed rule with one hour of general debate for both joint resolutions and one motion to commit for both joint resolutions.</text>
+    </action>
+    <action datetime="2023-07-27T12:18:14-04:00">
+      <text>DEBATE - The House proceeded with one hour of debate on S.J. Res. 9.</text>
+    </action>
+    <action datetime="2023-07-27T13:00:09-04:00">
+      <text>The previous question was ordered pursuant to the rule.</text>
+    </action>
+    <action datetime="2023-07-27T13:00:57-04:00">
+      <text>POSTPONED PROCEEDINGS - At the conclusion of debate on S. J. Res. 9, the Chair put the question on passage of the joint resolution and by voice vote, announced the ayes had prevailed. Mr. Grijalva demanded the yeas and nays and the Chair postponed further proceedings until a time to be announced.</text>
+    </action>
+    <action datetime="2023-07-27T14:06:40-04:00">
+      <text>Considered as unfinished business.</text>
+      <reference ref="CR H4051-4052" label="consideration"/>
+    </action>
+    <vote how="roll" type="vote2" roll="381" datetime="2023-07-27T14:13:33-04:00" where="h" result="pass" state="PASSED:BILL">
+      <text>On passage Passed by the Yeas and Nays: 221 - 206 (Roll no. 381).</text>
+      <reference ref="CR H4044" label="text"/>
+    </vote>
+    <action datetime="2023-07-27T14:13:35-04:00">
+      <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+    </action>
+    <topresident datetime="2023-09-14">
+      <text>Presented to President.</text>
+    </topresident>
+    <vetoed datetime="2023-09-26" state="PROV_KILL:VETO">
+      <text>Vetoed by President.</text>
+    </vetoed>
+    <action datetime="2023-09-26">
+      <text>Veto message received in Senate. Ordered held at the desk.</text>
+    </action>
+    <action datetime="2023-09-28">
+      <text>Veto Message considered in Senate.</text>
+      <reference ref="CR S4739-4740" label="consideration"/>
+    </action>
+    <vote how="roll" type="override" roll="242" datetime="2023-09-28" where="s" result="fail" state="VETOED:OVERRIDE_FAIL_ORIGINATING:SENATE">
+      <text>Failed of passage in Senate over veto by Yea-Nay Vote. 47 - 46. Record Vote Number: 242.</text>
+    </vote>
+  </actions>
+  <committees>
+    <committee code="SSEV" name="Senate Environment and Public Works" subcommittee="" activity="Discharged From, Referred To"/>
+  </committees>
+  <relatedbills>
+    <bill session="118" type="hr" number="614" relation="procedurally related"/>
+    <bill session="118" type="hj" number="29" relation="identical"/>
+  </relatedbills>
+  <subjects>
+    <term name="Public lands and natural resources"/>
+    <term name="Administrative law and regulatory procedures"/>
+    <term name="Birds"/>
+    <term name="Congressional oversight"/>
+    <term name="Department of the Interior"/>
+    <term name="Endangered and threatened species"/>
+  </subjects>
+  <amendments/>
+  <summary date="2023-09-15T22:09:57Z" status="Passed House">This joint resolution nullifies the final rule issued by the U.S. Fish and Wildlife Service titled Endangered and Threatened Wildlife and Plants; Lesser Prairie-Chicken; Threatened Status With Section 4(d) Rule for the Northern Distinct Population Segment and Endangered Status for the Southern Distinct Population Segment and published on November 25, 2022. The rule adds the Northern Distinct Population Segment of lesser prairie-chicken to the list of threatened species and the Southern District Population Segment of lesser prairie-chicken to the list of endangered species.</summary>
+</bill>

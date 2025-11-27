@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>3072</number>
+    <updateDate>2023-01-13T04:47:52Z</updateDate>
+    <updateDateIncludingText>2023-01-13T04:47:52Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2005-06-27</introducedDate>
+    <congress>109</congress>
+    <committees>
+      <item>
+        <systemCode>hsju00</systemCode>
+        <name>Judiciary Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsju08</systemCode>
+            <name>Crime and Federal Government Surveillance Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2005-08-23T21:30:13Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2005-06-27T16:30:25Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2005-08-23</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsju08</systemCode>
+            <name>Crime and Federal Government Surveillance Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2005-06-27</actionDate>
+        <text>Referred to the House Committee on the Judiciary.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2005-06-27</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2005-06-27</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>D000096</bioguideId>
+        <fullName>Rep. Davis, Danny K. [D-IL-7]</fullName>
+        <firstName>DANNY</firstName>
+        <lastName>DAVIS</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>K.</middleName>
+        <district>7</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>R000053</bioguideId>
+        <fullName>Rep. Rangel, Charles B. [D-NY-15]</fullName>
+        <firstName>CHARLES</firstName>
+        <lastName>RANGEL</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>B.</middleName>
+        <district>15</district>
+        <sponsorshipDate>2005-09-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000714</bioguideId>
+        <fullName>Rep. Conyers, John, Jr. [D-MI-14]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>CONYERS</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <district>14</district>
+        <sponsorshipDate>2005-09-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001049</bioguideId>
+        <fullName>Rep. Clay, Wm. Lacy [D-MO-1]</fullName>
+        <firstName>WM.</firstName>
+        <lastName>CLAY</lastName>
+        <party>D</party>
+        <state>MO</state>
+        <middleName>LACY</middleName>
+        <district>1</district>
+        <sponsorshipDate>2005-09-29</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000287</bioguideId>
+        <fullName>Rep. Lewis, John [D-GA-5]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>LEWIS</lastName>
+        <party>D</party>
+        <state>GA</state>
+        <district>5</district>
+        <sponsorshipDate>2005-12-07</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>J000283</bioguideId>
+        <fullName>Rep. Jackson, Jesse L., Jr. [D-IL-2]</fullName>
+        <firstName>JESSE</firstName>
+        <lastName>JACKSON</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>L.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2005-12-07</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>J000032</bioguideId>
+        <fullName>Rep. Jackson-Lee, Sheila [D-TX-18]</fullName>
+        <firstName>SHEILA</firstName>
+        <lastName>JACKSON-LEE</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>18</district>
+        <sponsorshipDate>2005-12-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000193</bioguideId>
+        <fullName>Rep. Thompson, Bennie G. [D-MS-2]</fullName>
+        <firstName>BENNIE</firstName>
+        <lastName>THOMPSON</lastName>
+        <party>D</party>
+        <state>MS</state>
+        <district>2</district>
+        <sponsorshipDate>2005-12-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001160</bioguideId>
+        <fullName>Rep. Moore, Gwen [D-WI-4]</fullName>
+        <firstName>Gwen</firstName>
+        <lastName>Moore</lastName>
+        <party>D</party>
+        <state>WI</state>
+        <district>4</district>
+        <sponsorshipDate>2005-12-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>O000159</bioguideId>
+        <fullName>Rep. Owens, Major R. [D-NY-11]</fullName>
+        <firstName>MAJOR</firstName>
+        <lastName>OWENS</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>R.</middleName>
+        <district>11</district>
+        <sponsorshipDate>2006-02-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000523</bioguideId>
+        <fullName>Rep. McKinney, Cynthia A. [D-GA-4]</fullName>
+        <firstName>CYNTHIA</firstName>
+        <lastName>MCKINNEY</lastName>
+        <party>D</party>
+        <state>GA</state>
+        <middleName>A.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2006-02-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001145</bioguideId>
+        <fullName>Rep. Schakowsky, Janice D. [D-IL-9]</fullName>
+        <firstName>JANICE</firstName>
+        <lastName>SCHAKOWSKY</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>D.</middleName>
+        <district>9</district>
+        <sponsorshipDate>2006-03-01</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000248</bioguideId>
+        <fullName>Rep. Serrano, Jose E. [D-NY-16]</fullName>
+        <firstName>JOSE</firstName>
+        <lastName>SERRANO</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>E.</middleName>
+        <district>16</district>
+        <sponsorshipDate>2006-05-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Crime and Law Enforcement</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Administrative procedure</name>
+        </item>
+        <item>
+          <name>Administrative remedies</name>
+        </item>
+        <item>
+          <name>Advice and consent of the Senate</name>
+        </item>
+        <item>
+          <name>Alcoholism</name>
+        </item>
+        <item>
+          <name>Aliens</name>
+        </item>
+        <item>
+          <name>Appellate procedure</name>
+        </item>
+        <item>
+          <name>Civil Rights and Liberties, Minority Issues</name>
+        </item>
+        <item>
+          <name>Commemorations</name>
+        </item>
+        <item>
+          <name>Compensatory education</name>
+        </item>
+        <item>
+          <name>Congress</name>
+        </item>
+        <item>
+          <name>Criminal justice information</name>
+        </item>
+        <item>
+          <name>Criminal procedure</name>
+        </item>
+        <item>
+          <name>DNA</name>
+        </item>
+        <item>
+          <name>Department of Justice</name>
+        </item>
+        <item>
+          <name>Deportation</name>
+        </item>
+        <item>
+          <name>District of Columbia</name>
+        </item>
+        <item>
+          <name>Drug abuse</name>
+        </item>
+        <item>
+          <name>Drug abuse treatment</name>
+        </item>
+        <item>
+          <name>Drug testing</name>
+        </item>
+        <item>
+          <name>Education</name>
+        </item>
+        <item>
+          <name>Elementary and secondary education</name>
+        </item>
+        <item>
+          <name>Evidence (Law)</name>
+        </item>
+        <item>
+          <name>Executive reorganization</name>
+        </item>
+        <item>
+          <name>Families</name>
+        </item>
+        <item>
+          <name>Federal-local relations</name>
+        </item>
+        <item>
+          <name>Federal-state relations</name>
+        </item>
+        <item>
+          <name>Fines (Penalties)</name>
+        </item>
+        <item>
+          <name>Fingerprints</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Government paperwork</name>
+        </item>
+        <item>
+          <name>Higher education</name>
+        </item>
+        <item>
+          <name>Holidays</name>
+        </item>
+        <item>
+          <name>Identification devices</name>
+        </item>
+        <item>
+          <name>Identification of criminals</name>
+        </item>
+        <item>
+          <name>Immigration</name>
+        </item>
+        <item>
+          <name>Judicial review</name>
+        </item>
+        <item>
+          <name>Jurisdiction</name>
+        </item>
+        <item>
+          <name>Labor and Employment</name>
+        </item>
+        <item>
+          <name>Law</name>
+        </item>
+        <item>
+          <name>Local laws</name>
+        </item>
+        <item>
+          <name>Married people</name>
+        </item>
+        <item>
+          <name>Parole</name>
+        </item>
+        <item>
+          <name>Presidential appointments</name>
+        </item>
+        <item>
+          <name>Prison alternatives</name>
+        </item>
+        <item>
+          <name>Prison labor</name>
+        </item>
+        <item>
+          <name>Prisoners</name>
+        </item>
+        <item>
+          <name>Rehabilitation of criminals</name>
+        </item>
+        <item>
+          <name>Residence requirements</name>
+        </item>
+        <item>
+          <name>Right to counsel</name>
+        </item>
+        <item>
+          <name>Science, Technology, Communications</name>
+        </item>
+        <item>
+          <name>Sentences (Criminal procedure)</name>
+        </item>
+        <item>
+          <name>Sentencing guidelines</name>
+        </item>
+        <item>
+          <name>Social Welfare</name>
+        </item>
+        <item>
+          <name>Sound recording and reproducing</name>
+        </item>
+        <item>
+          <name>Subpoena</name>
+        </item>
+        <item>
+          <name>Teachers</name>
+        </item>
+        <item>
+          <name>Technical education</name>
+        </item>
+        <item>
+          <name>Video tape recording</name>
+        </item>
+        <item>
+          <name>Vocational and technical education</name>
+        </item>
+        <item>
+          <name>Warrants (Law)</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Crime and Law Enforcement</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2005-06-27</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2005-09-30T15:39:59Z</updateDate>
+        <text><![CDATA[ Amends the federal criminal code to reestablish the United States Parole Commission as an independent agency in the Department of Justice. Sets forth the Commission's powers, including the powers to grant or deny an application or recommendation to parole, and to modify or revoke an order paroling, an eligible prisoner. <p>Makes a prisoner serving a definite term or terms of more than one year eligible for release on parole after serving one-third of such terms, or after serving ten years of a sentence of over 25 years (or life). Subjects a prisoner convicted under District of Columbia (DC) law to the guidelines used by the former DC parole board. <p>Grants courts the authority to: (1) designate a minimum term at the expiration of which the prisoner shall become eligible for parole, which may be less than, but not more than, 10 years; or (2) fix the maximum sentence to be served. <p>Sets forth provisions regarding: (1) parole determination criteria; (2) conditions of parole; (3) jurisdiction of the Commission; (4) early termination of parole; (5) aliens subject to deportation after parole; (6) summonses to appear and warrants for retaking parolees; (7) revocation of parole for violators; (8) appeals of disputes over the time of eligibility for release, parole denials, conditions, and revocations; (9) good time credits; and (10) compassionate release requirements. <p>Grants the Commission jurisdiction over the parole of persons whose parole was governed by the Parole Commission Phase-Out Act of 1996 or by the Balanced Budget Act of 1997.]]></text>
+      </summary>
+    </summaries>
+    <title>To revive the system of parole for Federal prisoners, and for other purposes.</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>To revive the system of parole for Federal prisoners, and for other purposes.</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To revive the system of parole for Federal prisoners, and for other purposes.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2005-06-27T04:00:00Z</date>
+        <formats/>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2005-08-23</actionDate>
+      <text>Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

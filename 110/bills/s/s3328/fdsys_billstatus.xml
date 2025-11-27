@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>3328</number>
+    <updateDate>2022-02-03T05:09:21Z</updateDate>
+    <updateDateIncludingText>2022-02-03T05:09:21Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <originChamberCode>S</originChamberCode>
+    <type>S</type>
+    <introducedDate>2008-07-24</introducedDate>
+    <congress>110</congress>
+    <committees>
+      <item>
+        <systemCode>hshm00</systemCode>
+        <name>Homeland Security Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hshm09</systemCode>
+            <name>Oversight, Investigations, and Accountability Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2008-09-29T16:00:21Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2008-09-24T15:07:08Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>ssga00</systemCode>
+        <name>Homeland Security and Governmental Affairs Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Reported by</name>
+            <date>2008-09-11T16:42:48Z</date>
+          </item>
+          <item>
+            <name>Markup by</name>
+            <date>2008-07-30T16:57:54Z</date>
+          </item>
+          <item>
+            <name>Referred to</name>
+            <date>2008-07-24T20:38:52Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <committeeReports>
+      <committeeReport>
+        <citation>S. Rept. 110-454</citation>
+      </committeeReport>
+    </committeeReports>
+    <actions>
+      <item>
+        <actionDate>2008-09-29</actionDate>
+        <committees>
+          <item>
+            <systemCode>hshm09</systemCode>
+            <name>Oversight, Investigations, and Accountability Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Management, Investigations, and Oversight.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2008-09-24</actionDate>
+        <text>Referred to the House Committee on Homeland Security.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hshm00</systemCode>
+            <name>Homeland Security Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2008-09-24</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2008-09-24</actionDate>
+        <actionTime>10:03:08</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2008-09-23</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate with an amendment by Unanimous Consent. (text as passed Senate: CR S9336)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2008-09-23</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate with an amendment by Unanimous Consent.(text as passed Senate: CR S9336)</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2008-09-23</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Measure laid before Senate by unanimous consent. (consideration: CR S9335-9336)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2008-09-11</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 952.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2008-09-11</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssga00</systemCode>
+            <name>Homeland Security and Governmental Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Homeland Security and Governmental Affairs. Reported by Senator Lieberman without amendment. With written report No. 110-454.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2008-09-11</actionDate>
+        <text>Committee on Homeland Security and Governmental Affairs. Reported by Senator Lieberman without amendment. With written report No. 110-454.</text>
+        <type>Committee</type>
+        <actionCode>14000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>ssga00</systemCode>
+            <name>Homeland Security and Governmental Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2008-07-30</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssga00</systemCode>
+            <name>Homeland Security and Governmental Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Homeland Security and Governmental Affairs. Ordered to be reported without amendment favorably.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2008-07-24</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssga00</systemCode>
+            <name>Homeland Security and Governmental Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Homeland Security and Governmental Affairs.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2008-07-24</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>C001035</bioguideId>
+        <fullName>Sen. Collins, Susan M. [R-ME]</fullName>
+        <firstName>Susan</firstName>
+        <lastName>Collins</lastName>
+        <party>R</party>
+        <state>ME</state>
+        <middleName>M.</middleName>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>L000304</bioguideId>
+        <fullName>Sen. Lieberman, Joseph I. [ID-CT]</fullName>
+        <firstName>JOSEPH</firstName>
+        <lastName>LIEBERMAN</lastName>
+        <party>ID</party>
+        <state>CT</state>
+        <middleName>I.</middleName>
+        <sponsorshipDate>2008-07-24</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <cboCostEstimates>
+      <item>
+        <pubDate>2008-08-12T04:00:00Z</pubDate>
+        <title>S. 3328, A bill to amend the Homeland Security Act of 2002 to provide for a one-year extension of other transaction authority</title>
+        <url>http://www.cbo.gov/publication/20181</url>
+        <description>&lt;p&gt;Cost estimate for the bill as ordered reported by the Senate Committee on Homeland Security and Governmental Affairs on July 30, 2008&lt;/p&gt;</description>
+      </item>
+      <item>
+        <pubDate>2008-08-12T04:00:00Z</pubDate>
+        <title>S. 3328, A bill to amend the Homeland Security Act of 2002 to provide for a one-year extension of other transaction authority</title>
+        <url>https://www.cbo.gov/publication/20181</url>
+        <description>Cost estimate for the bill as ordered reported by the Senate Committee on Homeland Security and Governmental Affairs on July 30, 2008</description>
+      </item>
+    </cboCostEstimates>
+    <policyArea>
+      <name>Emergency Management</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Armed Forces and National Security</name>
+        </item>
+        <item>
+          <name>Competitive bidding</name>
+        </item>
+        <item>
+          <name>Congress</name>
+        </item>
+        <item>
+          <name>Congressional reporting requirements</name>
+        </item>
+        <item>
+          <name>Cost accounting</name>
+        </item>
+        <item>
+          <name>Department of Homeland Security</name>
+        </item>
+        <item>
+          <name>Economics and Public Finance</name>
+        </item>
+        <item>
+          <name>Finance and Financial Sector</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Government procurement</name>
+        </item>
+        <item>
+          <name>Research and development</name>
+        </item>
+        <item>
+          <name>Science, Technology, Communications</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Emergency Management</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2008-07-24</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2008-11-04T18:43:55Z</updateDate>
+        <text><![CDATA[ <p>Amends the Homeland Security Act of 2002 to provide for a one year extension of the authority of the Secretary of Homeland Security to carry out an alternative contracting program for research and development projects if the Secretary issues policy guidance by September 30, 2008, detailing the appropriate use of other transaction authority and provides mandatory training to each employee handling procurements under such authority.</p><p>Directs the Secretary to submit to the Senate Committee on Homeland Security and Governmental Affairs and the House Committee on Homeland Security an annual report on the exercise of such authority, including: (1) the technology areas in which research projects were conducted under other transactions; (2) the extent of the cost-sharing among federal and nonfederal sources; (3) the extent to which use of the other transactions contributed to a broadening of the technology and industrial base available for meeting the needs of the Department of Homeland Security (DHS) and fostered within the technology and industrial base new relationships and practices that support national security; (4) the total payments received by the government; and (5) the rationale for using such authority.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>80</versionCode>
+        <actionDate>2008-09-11</actionDate>
+        <actionDesc>Reported to Senate without amendment</actionDesc>
+        <updateDate>2008-11-04T18:45:24Z</updateDate>
+        <text><![CDATA[ <p><b>(This measure has not been amended since it was introduced. The summary of that version is repeated here.)</b></p><p>Amends the Homeland Security Act of 2002 to provide for a one year extension of the authority of the Secretary of Homeland Security to carry out an alternative contracting program for research and development projects if the Secretary issues policy guidance by September 30, 2008, detailing the appropriate use of other transaction authority and provides mandatory training to each employee handling procurements under such authority.</p><p>Directs the Secretary to submit to the Senate Committee on Homeland Security and Governmental Affairs and the House Committee on Homeland Security an annual report on the exercise of such authority, including: (1) the technology areas in which research projects were conducted under other transactions; (2) the extent of the cost-sharing among federal and nonfederal sources; (3) the extent to which use of the other transactions contributed to a broadening of the technology and industrial base available for meeting the needs of the Department of Homeland Security (DHS) and fostered within the technology and industrial base new relationships and practices that support national security; (4) the total payments received by the government; and (5) the rationale for using such authority.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>35</versionCode>
+        <actionDate>2008-09-23</actionDate>
+        <actionDesc>Passed Senate amended</actionDesc>
+        <updateDate>2008-11-17T16:23:20Z</updateDate>
+        <text><![CDATA[ <p>Amends the Homeland Security Act of 2002 to provide for a one-year extension of the authority of the Secretary of Homeland Security to carry out an alternative contracting program for research and development projects if the Secretary issues policy guidance by September 30, 2008, detailing the appropriate use of other transaction authority and provides mandatory training to each employee handling procurements under such authority.</p><p>Directs the Secretary to submit to the Senate Committee on Homeland Security and Governmental Affairs, the Senate Committee on Commerce, Science, and Transportation, and the House Committee on Homeland Security an annual report on the exercise of such authority, including: (1) the technology areas in which research projects were conducted under other transactions; (2) the extent of the cost-sharing among federal and nonfederal sources; (3) the extent to which use of the other transactions contributed to a broadening of the technology and industrial base available for meeting the needs of the Department of Homeland Security (DHS) and fostered within the technology and industrial base new relationships and practices that support national security; (4) the total payments received by the government; and (5) the rationale for using such authority.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>A bill to amend the Homeland Security Act of 2002 to provide for a one-year extension of other transaction authority.</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>A bill to amend the Homeland Security Act of 2002 to provide for a one-year extension of other transaction authority.</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to amend the Homeland Security Act of 2002 to provide for a one-year extension of other transaction authority.</title>
+      </item>
+    </titles>
+    <amendments>
+      <amendment>
+        <number>5638</number>
+        <congress>110</congress>
+        <type>SAMDT</type>
+        <purpose>To provide for additional oversight.</purpose>
+        <updateDate>2022-02-03T05:09:21Z</updateDate>
+        <latestAction>
+          <actionDate>2008-09-23</actionDate>
+          <text>Amendment SA 5638 agreed to in Senate by Unanimous Consent.</text>
+          <links>
+            <link>
+              <name>SA 5638</name>
+              <url>https://www.congress.gov/amendment/110th-congress/senate-amendment/5638</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>L000304</bioguideId>
+            <fullName>Sen. Lieberman, Joseph I. [ID-CT]</fullName>
+            <firstName>JOSEPH</firstName>
+            <lastName>LIEBERMAN</lastName>
+            <party>ID</party>
+            <state>CT</state>
+            <middleName>I.</middleName>
+          </item>
+        </sponsors>
+        <proposedDate>2008-09-23T04:00:00Z</proposedDate>
+        <submittedDate>2008-09-23T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>110</congress>
+          <type>S</type>
+          <originChamber>Senate</originChamber>
+          <originChamberCode>S</originChamberCode>
+          <number>3328</number>
+          <title>A bill to amend the Homeland Security Act of 2002 to provide for a one-year extension of other transaction authority.</title>
+          <updateDateIncludingText>2022-02-03T05:09:21Z</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2008-09-23</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 5638 agreed to in Senate by Unanimous Consent.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2008-09-23</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 5638 proposed by Senator Menendez for Senator Lieberman. (consideration: CR S9335-9336; text: CR S9335) To provide for additional oversight.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2008-09-23</actionDate>
+              <text>Senate amendment agreed to: Amendment SA 5638 agreed to in Senate by Unanimous Consent.</text>
+              <type>Floor</type>
+              <actionCode>94000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2008-09-23</actionDate>
+              <text>Senate amendment proposed (on the floor): Amendment SA 5638 proposed by Senator Menendez for Senator Lieberman.(consideration: CR S9335-9336; text: CR S9335)</text>
+              <type>Floor</type>
+              <actionCode>93000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2008-09-23</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+    </amendments>
+    <textVersions>
+      <item>
+        <type>Referred in House</type>
+        <date>2008-09-24T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-110s3328rfh/xml/BILLS-110s3328rfh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2008-09-24T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-110s3328es/xml/BILLS-110s3328es.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Reported to Senate</type>
+        <date>2008-09-11T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-110s3328rs/xml/BILLS-110s3328rs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2008-07-24T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-110s3328is/xml/BILLS-110s3328is.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2008-09-29</actionDate>
+      <text>Referred to the Subcommittee on Management, Investigations, and Oversight.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

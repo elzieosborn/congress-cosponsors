@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>233</number>
+    <updateDate>2023-01-11T20:26:56Z</updateDate>
+    <updateDateIncludingText>2023-01-11T20:26:56Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HCONRES</type>
+    <introducedDate>2007-10-10</introducedDate>
+    <congress>110</congress>
+    <committees>
+      <item>
+        <systemCode>hsas00</systemCode>
+        <name>Armed Services Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsas02</systemCode>
+            <name>Military Personnel Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2007-10-19T17:26:40Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2007-10-10T14:08:25Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2007-10-19</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsas02</systemCode>
+            <name>Military Personnel Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Military Personnel.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2007-10-10</actionDate>
+        <text>Referred to the House Committee on Armed Services.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsas00</systemCode>
+            <name>Armed Services Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2007-10-10</actionDate>
+        <text>Sponsor introductory remarks on measure. (CR E2103)</text>
+        <type>IntroReferral</type>
+        <actionCode>B00100</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2007-10-10</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2007-10-10</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>R000395</bioguideId>
+        <fullName>Rep. Rogers, Harold [R-KY-5]</fullName>
+        <firstName>HAROLD</firstName>
+        <lastName>ROGERS</lastName>
+        <party>R</party>
+        <state>KY</state>
+        <district>5</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>W000413</bioguideId>
+        <fullName>Rep. Whitfield, Ed [R-KY-1]</fullName>
+        <firstName>EDWARD</firstName>
+        <lastName>WHITFIELD</lastName>
+        <party>R</party>
+        <state>KY</state>
+        <district>1</district>
+        <sponsorshipDate>2007-10-10</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000293</bioguideId>
+        <fullName>Rep. Lewis, Ron [R-KY-2]</fullName>
+        <firstName>RON</firstName>
+        <lastName>LEWIS</lastName>
+        <party>R</party>
+        <state>KY</state>
+        <district>2</district>
+        <sponsorshipDate>2007-10-10</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>Y000062</bioguideId>
+        <fullName>Rep. Yarmuth, John A. [D-KY-3]</fullName>
+        <firstName>John</firstName>
+        <lastName>Yarmuth</lastName>
+        <party>D</party>
+        <state>KY</state>
+        <middleName>A.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2007-10-10</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000603</bioguideId>
+        <fullName>Rep. Davis, Geoff [R-KY-4]</fullName>
+        <firstName>Geoff</firstName>
+        <lastName>Davis</lastName>
+        <party>R</party>
+        <state>KY</state>
+        <district>4</district>
+        <sponsorshipDate>2007-10-10</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001058</bioguideId>
+        <fullName>Rep. Chandler, Ben [D-KY-6]</fullName>
+        <firstName>Ben</firstName>
+        <lastName>Chandler</lastName>
+        <party>D</party>
+        <state>KY</state>
+        <district>6</district>
+        <sponsorshipDate>2007-10-10</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Commemorations</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Armed Forces and National Security</name>
+        </item>
+        <item>
+          <name>Armed forces abroad</name>
+        </item>
+        <item>
+          <name>Army</name>
+        </item>
+        <item>
+          <name>Congressional tributes</name>
+        </item>
+        <item>
+          <name>Infantry</name>
+        </item>
+        <item>
+          <name>Iraq</name>
+        </item>
+        <item>
+          <name>Iraq compilation</name>
+        </item>
+        <item>
+          <name>Kentucky</name>
+        </item>
+        <item>
+          <name>Middle East and North Africa</name>
+        </item>
+        <item>
+          <name>Military operations</name>
+        </item>
+        <item>
+          <name>National Guard</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Commemorations</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2007-10-10</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2008-04-29T15:40:15Z</updateDate>
+        <text><![CDATA[ <p>Commends and recognizes the achievements of members of certain sections of the 1st and 2nd Battalions of the Kentucky Army National Guard for their service in Iraq.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Commending the Kentucky National Guard for its service to the Commonwealth of Kentucky and the citizens of the United States.</title>
+    <titles>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>Commending the Kentucky National Guard for its service to the Commonwealth of Kentucky and the citizens of the United States.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Commending the Kentucky National Guard for its service to the Commonwealth of Kentucky and the citizens of the United States.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2007-10-10T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-110hconres233ih/xml/BILLS-110hconres233ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2007-10-19</actionDate>
+      <text>Referred to the Subcommittee on Military Personnel.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

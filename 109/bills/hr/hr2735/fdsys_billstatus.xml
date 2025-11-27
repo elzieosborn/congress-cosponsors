@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>2735</number>
+    <updateDate>2019-11-15T21:41:21Z</updateDate>
+    <updateDateIncludingText>2019-11-15T21:41:21Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2005-05-26</introducedDate>
+    <congress>109</congress>
+    <committees>
+      <item>
+        <systemCode>hsvr00</systemCode>
+        <name>Veterans' Affairs Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsvr03</systemCode>
+            <name>Health Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2005-06-15T13:05:36Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2005-05-26T14:09:15Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2005-06-15</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsvr03</systemCode>
+            <name>Health Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2005-05-26</actionDate>
+        <text>Referred to the House Committee on Veterans' Affairs.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsvr00</systemCode>
+            <name>Veterans' Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2005-05-26</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2005-05-26</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>S000522</bioguideId>
+        <fullName>Rep. Smith, Christopher H. [R-NJ-4]</fullName>
+        <firstName>CHRISTOPHER</firstName>
+        <lastName>SMITH</lastName>
+        <party>R</party>
+        <state>NJ</state>
+        <middleName>H.</middleName>
+        <district>4</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>F000451</bioguideId>
+        <fullName>Rep. Fitzpatrick, Michael G. [R-PA-8]</fullName>
+        <firstName>Michael</firstName>
+        <lastName>Fitzpatrick</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <middleName>G.</middleName>
+        <district>8</district>
+        <sponsorshipDate>2005-05-26</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001151</bioguideId>
+        <fullName>Rep. Murphy, Tim [R-PA-18]</fullName>
+        <firstName>Tim</firstName>
+        <lastName>Murphy</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <district>18</district>
+        <sponsorshipDate>2005-05-26</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000554</bioguideId>
+        <fullName>Rep. LoBiondo, Frank A. [R-NJ-2]</fullName>
+        <firstName>FRANK</firstName>
+        <lastName>LOBIONDO</lastName>
+        <party>R</party>
+        <state>NJ</state>
+        <middleName>A.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2005-06-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001246</bioguideId>
+        <fullName>Rep. Bradley, Jeb [R-NH-1]</fullName>
+        <firstName>Jeb</firstName>
+        <lastName>Bradley</lastName>
+        <party>R</party>
+        <state>NH</state>
+        <district>1</district>
+        <sponsorshipDate>2005-06-30</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001035</bioguideId>
+        <fullName>Rep. Harris, Katherine [R-FL-13]</fullName>
+        <firstName>Katherine</firstName>
+        <lastName>Harris</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>13</district>
+        <sponsorshipDate>2006-03-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000549</bioguideId>
+        <fullName>Rep. Gerlach, Jim [R-PA-6]</fullName>
+        <firstName>Jim</firstName>
+        <lastName>Gerlach</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <district>6</district>
+        <sponsorshipDate>2006-05-04</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000578</bioguideId>
+        <fullName>Rep. Reichert, David G. [R-WA-8]</fullName>
+        <firstName>David</firstName>
+        <lastName>Reichert</lastName>
+        <party>R</party>
+        <state>WA</state>
+        <middleName>G.</middleName>
+        <district>8</district>
+        <sponsorshipDate>2006-11-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000485</bioguideId>
+        <fullName>Rep. McIntyre, Mike [D-NC-7]</fullName>
+        <firstName>MIKE</firstName>
+        <lastName>MCINTYRE</lastName>
+        <party>D</party>
+        <state>NC</state>
+        <district>7</district>
+        <sponsorshipDate>2006-11-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Access to health care</name>
+        </item>
+        <item>
+          <name>Administrative procedure</name>
+        </item>
+        <item>
+          <name>Building construction</name>
+        </item>
+        <item>
+          <name>Congress</name>
+        </item>
+        <item>
+          <name>Congressional reporting requirements</name>
+        </item>
+        <item>
+          <name>Department of Veterans Affairs</name>
+        </item>
+        <item>
+          <name>Disabled</name>
+        </item>
+        <item>
+          <name>Economics and Public Finance</name>
+        </item>
+        <item>
+          <name>Executive reorganization</name>
+        </item>
+        <item>
+          <name>Federal budgets</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Health</name>
+        </item>
+        <item>
+          <name>Law</name>
+        </item>
+        <item>
+          <name>Leases</name>
+        </item>
+        <item>
+          <name>Maintenance and repair</name>
+        </item>
+        <item>
+          <name>Medical economics</name>
+        </item>
+        <item>
+          <name>Nursing homes</name>
+        </item>
+        <item>
+          <name>Standards</name>
+        </item>
+        <item>
+          <name>Veterans' hospitals</name>
+        </item>
+        <item>
+          <name>Veterans' medical care</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Armed Forces and National Security</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2005-05-26</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2005-08-17T20:36:07Z</updateDate>
+        <text><![CDATA[ <p>Veterans Health Care Full Funding Act - Requires each fiscal year budget submitted to Congress by the President to include requests for amounts for veterans health care programs. Requires amounts appropriated for such programs to be available for two consecutive fiscal years.</p> <p> Establishes the Veterans Health Care Funding Review Board within the Department of Veterans Affairs. Directs the Board, beginning with FY2008, to determine the level of funding needed for such programs for that fiscal year and the next and to publish such determination in the Federal Register. Outlines veterans' health care needs factors to be considered by the Board in arriving at such determination.</p> <p>Repeals requirements for certain congressional notifications in connection with a funding request for a Department major medical facility project or lease.</p> <p>Provides a 30-day standard for access to medical care for veterans seeking primary or specialized care, as measured from: (1) the time the veteran contacts the Department seeking an appointment until the date a visit is completed (primary care); and (2) the date on which the veteran is referred to a specialist until the date a visit is completed (specialty care). Directs the Secretary of Veterans Affairs to develop a standard of waiting time during a visit and to periodically review the performance of Department facilities compared to that standard.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Veterans Health Care Full Funding Act</title>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Veterans Health Care Full Funding Act</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Veterans Health Care Full Funding Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend title 38, United States Code, to provide an enhanced funding process to ensure an adequate level of funding for veterans health care programs of the Department of Veterans Affairs, to establish standards of access to care for veterans seeking health care from the Department of Veterans Affairs, and for other purposes.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2005-05-26T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-109hr2735ih/xml/BILLS-109hr2735ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2005-06-15</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

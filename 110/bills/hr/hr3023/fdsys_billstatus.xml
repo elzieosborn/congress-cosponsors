@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>3023</number>
+    <updateDate>2023-01-11T21:19:28Z</updateDate>
+    <updateDateIncludingText>2023-01-11T21:19:28Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2007-07-12</introducedDate>
+    <congress>110</congress>
+    <committees>
+      <item>
+        <systemCode>hsif00</systemCode>
+        <name>Energy and Commerce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2007-07-12T19:48:17Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2007-07-12T14:04:30Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2007-07-12</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2007-07-12</actionDate>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2007-07-12</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2007-07-12</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>D000191</bioguideId>
+        <fullName>Rep. DeFazio, Peter A. [D-OR-4]</fullName>
+        <firstName>PETER</firstName>
+        <lastName>DEFAZIO</lastName>
+        <party>D</party>
+        <state>OR</state>
+        <middleName>A.</middleName>
+        <district>4</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>S000810</bioguideId>
+        <fullName>Rep. Stark, Fortney Pete [D-CA-13]</fullName>
+        <firstName>PETE</firstName>
+        <lastName>STARK</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>13</district>
+        <sponsorshipDate>2007-07-12</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000215</bioguideId>
+        <fullName>Rep. Waxman, Henry A. [D-CA-30]</fullName>
+        <firstName>HENRY</firstName>
+        <lastName>WAXMAN</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <middleName>A.</middleName>
+        <district>30</district>
+        <sponsorshipDate>2007-07-12</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001058</bioguideId>
+        <fullName>Rep. Chandler, Ben [D-KY-6]</fullName>
+        <firstName>Ben</firstName>
+        <lastName>Chandler</lastName>
+        <party>D</party>
+        <state>KY</state>
+        <district>6</district>
+        <sponsorshipDate>2007-07-12</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000627</bioguideId>
+        <fullName>Rep. Hinchey, Maurice D. [D-NY-22]</fullName>
+        <firstName>MAURICE</firstName>
+        <lastName>HINCHEY</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>D.</middleName>
+        <district>22</district>
+        <sponsorshipDate>2007-07-12</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Business records</name>
+        </item>
+        <item>
+          <name>Commerce</name>
+        </item>
+        <item>
+          <name>Drug industry</name>
+        </item>
+        <item>
+          <name>Drugs</name>
+        </item>
+        <item>
+          <name>Fines (Penalties)</name>
+        </item>
+        <item>
+          <name>Gifts</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Government paperwork</name>
+        </item>
+        <item>
+          <name>Government publicity</name>
+        </item>
+        <item>
+          <name>Governmental investigations</name>
+        </item>
+        <item>
+          <name>Health insurance</name>
+        </item>
+        <item>
+          <name>Health maintenance organizations</name>
+        </item>
+        <item>
+          <name>Hospitals</name>
+        </item>
+        <item>
+          <name>Injunctions</name>
+        </item>
+        <item>
+          <name>Law</name>
+        </item>
+        <item>
+          <name>Marketing</name>
+        </item>
+        <item>
+          <name>Medical personnel</name>
+        </item>
+        <item>
+          <name>Medical supplies</name>
+        </item>
+        <item>
+          <name>Nurses</name>
+        </item>
+        <item>
+          <name>Nursing homes</name>
+        </item>
+        <item>
+          <name>Pharmacists</name>
+        </item>
+        <item>
+          <name>Physicians</name>
+        </item>
+        <item>
+          <name>Prescription pricing</name>
+        </item>
+        <item>
+          <name>Rebates</name>
+        </item>
+        <item>
+          <name>Sales promotion</name>
+        </item>
+        <item>
+          <name>Trade secrets</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Health</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2007-07-12</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2007-10-03T18:44:55Z</updateDate>
+        <text><![CDATA[ <p>Drug and Medical Device Company Gift Disclosure Act - Amends the Federal Food, Drug, and Cosmetic Act to require prescription drug or medical device manufacturers, packers, and distributors to annually disclose to the Commissioner of Food and Drugs the value, nature, and purpose of any : (1) gift made in connection with detailing, promotion, or other marketing activity to any physician, nurse, therapist, hospital, nursing home, pharmacist, health benefit plan administrator, or any other person authorized to prescribe or dispense prescription drugs; and (2) cash rebate, discount, or other financial consideration given to any pharmaceutical benefit manager in connection with such marketing activities. Defines &quot;gift&quot; to include any fee, payment, subsidy, amenity, object, service, or other economic benefit, except: (1) free samples of prescription drugs; (2) reasonable compensation and reimbursement of expenses in connection with a bona fide clinical trial; and (3) certain scholarships or other support for medical students, residents, or fellows to attend conferences. Applies such provisions only if the total value of the gift or gifts is $50 or more during the calendar year. </p><p>Requires the Commissioner to: (1) make such information available to the public; and (2) keep confidential any information related to a trade secret. Establishes civil penalties for violations.</p><p>Gives the Commissioner authority to investigate compliance with this Act. Authorizes the Commissioner to file a petition in the United States District Court for an order requiring submission of a report or other appropriate relief.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Drug and Medical Device Company Gift Disclosure Act</title>
+    <titles>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To require the manufacturers, packers, and distributors of prescription drugs and medical devices to disclose certain gifts provided in connection with detailing, promotional, or other marketing activities, and for other purposes.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Drug and Medical Device Company Gift Disclosure Act</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Drug and Medical Device Company Gift Disclosure Act</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2007-07-12T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-110hr3023ih/xml/BILLS-110hr3023ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2007-07-12</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

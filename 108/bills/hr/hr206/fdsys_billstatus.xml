@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>206</number>
+    <updateDate>2023-01-15T21:04:28Z</updateDate>
+    <updateDateIncludingText>2023-01-15T21:04:28Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2003-01-07</introducedDate>
+    <congress>108</congress>
+    <committees>
+      <item>
+        <systemCode>hswm00</systemCode>
+        <name>Ways and Means Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hswm01</systemCode>
+            <name>Social Security Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2003-01-22T17:30:57Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2003-01-07T17:10:15Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2003-01-22</actionDate>
+        <committees>
+          <item>
+            <systemCode>hswm01</systemCode>
+            <name>Social Security Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Social Security.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2003-01-07</actionDate>
+        <text>Referred to the House Committee on Ways and Means.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hswm00</systemCode>
+            <name>Ways and Means Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2003-01-07</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2003-01-07</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>S001149</bioguideId>
+        <fullName>Rep. Sweeney, John E. [R-NY-20]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>SWEENEY</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <middleName>E.</middleName>
+        <district>20</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>G000309</bioguideId>
+        <fullName>Rep. Gordon, Bart [D-TN-6]</fullName>
+        <firstName>BART</firstName>
+        <lastName>GORDON</lastName>
+        <party>D</party>
+        <state>TN</state>
+        <district>6</district>
+        <sponsorshipDate>2003-04-29</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001240</bioguideId>
+        <fullName>Rep. Beauprez, Bob [R-CO-7]</fullName>
+        <firstName>Bob</firstName>
+        <lastName>Beauprez</lastName>
+        <party>R</party>
+        <state>CO</state>
+        <district>7</district>
+        <sponsorshipDate>2003-04-29</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000258</bioguideId>
+        <fullName>Rep. Peterson, Collin C. [D-MN-7]</fullName>
+        <firstName>COLLIN</firstName>
+        <lastName>PETERSON</lastName>
+        <party>D</party>
+        <state>MN</state>
+        <middleName>C.</middleName>
+        <district>7</district>
+        <sponsorshipDate>2003-07-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>V000127</bioguideId>
+        <fullName>Rep. Vitter, David [R-LA-1]</fullName>
+        <firstName>David</firstName>
+        <lastName>Vitter</lastName>
+        <party>R</party>
+        <state>LA</state>
+        <district>1</district>
+        <sponsorshipDate>2003-09-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000116</bioguideId>
+        <fullName>Rep. Filner, Bob [D-CA-51]</fullName>
+        <firstName>BOB</firstName>
+        <lastName>FILNER</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>51</district>
+        <sponsorshipDate>2004-05-04</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000392</bioguideId>
+        <fullName>Rep. Frost, Martin [D-TX-24]</fullName>
+        <firstName>MARTIN</firstName>
+        <lastName>FROST</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>24</district>
+        <sponsorshipDate>2004-07-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Social Welfare</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Death</name>
+        </item>
+        <item>
+          <name>Families</name>
+        </item>
+        <item>
+          <name>Old age, survivors and disability insurance</name>
+        </item>
+        <item>
+          <name>Social security beneficiaries</name>
+        </item>
+        <item>
+          <name>Social security eligibility</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Social Welfare</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2003-01-07</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2006-11-28T17:35:40Z</updateDate>
+        <text><![CDATA[Social Security Decedent's Family Relief Act of 2001 (sic) - Amends title II (Old Age, Survivors and Disability Insurance) (OASDI) of the Social Security Act to continue an individual's entitlement to benefits through the month of his or her death, without affecting any other person's entitlement to benefits for that month.<p>Provides that such individual's benefit shall be payable for such month only in proportion to the number of days preceding the date of such individual's death.<p>Provides for disregard of such benefits for the individual for the month of death under provisions for determining maximum family benefits.]]></text>
+      </summary>
+    </summaries>
+    <title>Social Security Decedent's Family Relief Act of 2001</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Social Security Decedent's Family Relief Act of 2001</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend title II of the Social Security Act to provide that an individual's entitlement to any benefit thereunder shall continue through the month of his or her death (without affecting any other person's entitlement to benefits for that month) and that such individual's benefit shall be payable for such month only to the extent proportionate to the number of days in such month preceding the date of such individual's death.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Social Security Decedent's Family Relief Act of 2001</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2003-01-07T05:00:00Z</date>
+        <formats/>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2003-01-22</actionDate>
+      <text>Referred to the Subcommittee on Social Security.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

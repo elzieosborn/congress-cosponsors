@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>1474</number>
+    <updateDate>2022-02-03T06:09:31Z</updateDate>
+    <updateDateIncludingText>2022-02-03T06:09:31Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2009-03-12</introducedDate>
+    <congress>111</congress>
+    <committees>
+      <item>
+        <systemCode>hsas00</systemCode>
+        <name>Armed Services Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsas02</systemCode>
+            <name>Military Personnel Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2009-04-27T13:14:10Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2009-03-12T14:06:43Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsvr00</systemCode>
+        <name>Veterans' Affairs Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsvr10</systemCode>
+            <name>Economic Opportunity Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2009-03-13T19:31:43Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2009-03-12T14:06:42Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsgo00</systemCode>
+        <name>Oversight and Accountability Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2009-03-12T14:06:44Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <relatedBills>
+      <item>
+        <title>Servicemembers Access to Justice Act of 2009</title>
+        <congress>111</congress>
+        <number>263</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2009-04-29</actionDate>
+          <text>Committee on Veterans' Affairs. Hearings held. Hearings printed: S.Hrg. 111-81.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2009-04-27</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsas02</systemCode>
+            <name>Military Personnel Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Military Personnel.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2009-03-13</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsvr10</systemCode>
+            <name>Economic Opportunity Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Economic Opportunity.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2009-03-12</actionDate>
+        <text>Referred to House Oversight and Government Reform</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsgo00</systemCode>
+            <name>Oversight and Accountability Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2009-03-12</actionDate>
+        <text>Referred to House Armed Services</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsas00</systemCode>
+            <name>Armed Services Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2009-03-12</actionDate>
+        <text>Referred to the Committee on Veterans' Affairs, and in addition to the Committees on Armed Services, and Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100-A</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2009-03-12</actionDate>
+        <text>Referred to House Veterans' Affairs</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsvr00</systemCode>
+            <name>Veterans' Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2009-03-12</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2009-03-12</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>D000602</bioguideId>
+        <fullName>Rep. Davis, Artur [D-AL-7]</fullName>
+        <firstName>Artur</firstName>
+        <lastName>Davis</lastName>
+        <party>D</party>
+        <state>AL</state>
+        <district>7</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>B001263</bioguideId>
+        <fullName>Rep. Boccieri, John A. [D-OH-16]</fullName>
+        <firstName>John</firstName>
+        <lastName>Boccieri</lastName>
+        <party>D</party>
+        <state>OH</state>
+        <middleName>A.</middleName>
+        <district>16</district>
+        <sponsorshipDate>2009-03-12</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000799</bioguideId>
+        <fullName>Rep. Walz, Timothy J. [D-MN-1]</fullName>
+        <firstName>Timothy</firstName>
+        <lastName>Walz</lastName>
+        <party>D</party>
+        <state>MN</state>
+        <middleName>J.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2009-03-12</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>A000362</bioguideId>
+        <fullName>Rep. Altmire, Jason [D-PA-4]</fullName>
+        <firstName>Jason</firstName>
+        <lastName>Altmire</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <district>4</district>
+        <sponsorshipDate>2009-03-12</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001173</bioguideId>
+        <fullName>Rep. Massa, Eric J. J. [D-NY-29]</fullName>
+        <firstName>Eric</firstName>
+        <lastName>Massa</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>J. J.</middleName>
+        <district>29</district>
+        <sponsorshipDate>2009-04-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000369</bioguideId>
+        <fullName>Rep. Kissell, Larry [D-NC-8]</fullName>
+        <firstName>Larry</firstName>
+        <lastName>Kissell</lastName>
+        <party>D</party>
+        <state>NC</state>
+        <district>8</district>
+        <sponsorshipDate>2009-04-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001245</bioguideId>
+        <fullName>Del. Bordallo, Madeleine Z. [D-GU-At Large]</fullName>
+        <firstName>Madeleine</firstName>
+        <lastName>Bordallo</lastName>
+        <party>D</party>
+        <state>GU</state>
+        <middleName>Z.</middleName>
+        <district>0</district>
+        <sponsorshipDate>2009-04-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001174</bioguideId>
+        <fullName>Rep. Sutton, Betty [D-OH-13]</fullName>
+        <firstName>Betty</firstName>
+        <lastName>Sutton</lastName>
+        <party>D</party>
+        <state>OH</state>
+        <district>13</district>
+        <sponsorshipDate>2009-04-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001165</bioguideId>
+        <fullName>Rep. Sires, Albio [D-NJ-13]</fullName>
+        <firstName>Albio</firstName>
+        <lastName>Sires</lastName>
+        <party>D</party>
+        <state>NJ</state>
+        <district>13</district>
+        <sponsorshipDate>2009-04-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001069</bioguideId>
+        <fullName>Rep. Courtney, Joe [D-CT-2]</fullName>
+        <firstName>Joe</firstName>
+        <lastName>Courtney</lastName>
+        <party>D</party>
+        <state>CT</state>
+        <district>2</district>
+        <sponsorshipDate>2009-04-28</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001154</bioguideId>
+        <fullName>Rep. Miller, Brad [D-NC-13]</fullName>
+        <firstName>Brad</firstName>
+        <lastName>Miller</lastName>
+        <party>D</party>
+        <state>NC</state>
+        <district>13</district>
+        <sponsorshipDate>2009-04-28</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000258</bioguideId>
+        <fullName>Rep. Peterson, Collin C. [D-MN-7]</fullName>
+        <firstName>COLLIN</firstName>
+        <lastName>PETERSON</lastName>
+        <party>D</party>
+        <state>MN</state>
+        <middleName>C.</middleName>
+        <district>7</district>
+        <sponsorshipDate>2009-04-28</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001032</bioguideId>
+        <fullName>Rep. Holt, Rush [D-NJ-12]</fullName>
+        <firstName>RUSH</firstName>
+        <lastName>HOLT</lastName>
+        <party>D</party>
+        <state>NJ</state>
+        <middleName>D.</middleName>
+        <district>12</district>
+        <sponsorshipDate>2009-04-28</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000180</bioguideId>
+        <fullName>Rep. Kilpatrick, Carolyn C. [D-MI-13]</fullName>
+        <firstName>CAROLYN</firstName>
+        <lastName>KILPATRICK</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <middleName>CHEEKS</middleName>
+        <district>13</district>
+        <sponsorshipDate>2009-05-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000482</bioguideId>
+        <fullName>Rep. Doyle, Michael F. [D-PA-14]</fullName>
+        <firstName>MIKE</firstName>
+        <lastName>DOYLE</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <district>14</district>
+        <sponsorshipDate>2009-05-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000312</bioguideId>
+        <fullName>Rep. McGovern, James P. [D-MA-3]</fullName>
+        <firstName>JAMES</firstName>
+        <lastName>MCGOVERN</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>P.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2009-05-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000288</bioguideId>
+        <fullName>Rep. Ellison, Keith [D-MN-5]</fullName>
+        <firstName>Keith</firstName>
+        <lastName>Ellison</lastName>
+        <party>D</party>
+        <state>MN</state>
+        <district>5</district>
+        <sponsorshipDate>2009-05-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001078</bioguideId>
+        <fullName>Rep. Connolly, Gerald E. [D-VA-11]</fullName>
+        <firstName>Gerald</firstName>
+        <lastName>Connolly</lastName>
+        <party>D</party>
+        <state>VA</state>
+        <middleName>E.</middleName>
+        <district>11</district>
+        <sponsorshipDate>2009-05-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>O000107</bioguideId>
+        <fullName>Rep. Ortiz, Solomon P. [D-TX-27]</fullName>
+        <firstName>SOLOMON</firstName>
+        <lastName>ORTIZ</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <middleName>P.</middleName>
+        <district>27</district>
+        <sponsorshipDate>2009-05-12</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>V000128</bioguideId>
+        <fullName>Rep. Van Hollen, Chris [D-MD-8]</fullName>
+        <firstName>Chris</firstName>
+        <lastName>Van Hollen</lastName>
+        <party>D</party>
+        <state>MD</state>
+        <district>8</district>
+        <sponsorshipDate>2009-05-12</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001242</bioguideId>
+        <fullName>Rep. Bishop, Timothy H. [D-NY-1]</fullName>
+        <firstName>Timothy</firstName>
+        <lastName>Bishop</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>H.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2009-05-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000596</bioguideId>
+        <fullName>Resident Commissioner Pierluisi, Pedro R. [D-PR-At Large]</fullName>
+        <firstName>Pedro</firstName>
+        <lastName>Pierluisi</lastName>
+        <party>D</party>
+        <state>PR</state>
+        <middleName>R.</middleName>
+        <district>0</district>
+        <sponsorshipDate>2009-05-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000553</bioguideId>
+        <fullName>Rep. Green, Al [D-TX-9]</fullName>
+        <firstName>Al</firstName>
+        <lastName>Green</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>9</district>
+        <sponsorshipDate>2009-05-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000565</bioguideId>
+        <fullName>Rep. Loebsack, David [D-IA-2]</fullName>
+        <firstName>David</firstName>
+        <lastName>Loebsack</lastName>
+        <party>D</party>
+        <state>IA</state>
+        <district>2</district>
+        <sponsorshipDate>2009-06-02</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000038</bioguideId>
+        <fullName>Rep. Tanner, John S. [D-TN-8]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>TANNER</lastName>
+        <party>D</party>
+        <state>TN</state>
+        <district>8</district>
+        <sponsorshipDate>2009-06-02</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000535</bioguideId>
+        <fullName>Rep. Gutierrez, Luis V. [D-IL-4]</fullName>
+        <firstName>LUIS</firstName>
+        <lastName>GUTIERREZ</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>V.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2009-06-02</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000574</bioguideId>
+        <fullName>Rep. Blumenauer, Earl [D-OR-3]</fullName>
+        <firstName>EARL</firstName>
+        <lastName>BLUMENAUER</lastName>
+        <party>D</party>
+        <state>OR</state>
+        <district>3</district>
+        <sponsorshipDate>2009-07-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000469</bioguideId>
+        <fullName>Rep. Tonko, Paul [D-NY-21]</fullName>
+        <firstName>Paul</firstName>
+        <lastName>Tonko</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <district>21</district>
+        <sponsorshipDate>2009-07-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001068</bioguideId>
+        <fullName>Rep. Cohen, Steve [D-TN-9]</fullName>
+        <firstName>Steve</firstName>
+        <lastName>Cohen</lastName>
+        <party>D</party>
+        <state>TN</state>
+        <district>9</district>
+        <sponsorshipDate>2009-09-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Alternative dispute resolution, mediation, arbitration</name>
+        </item>
+        <item>
+          <name>Civil actions and liability</name>
+        </item>
+        <item>
+          <name>Congressional oversight</name>
+        </item>
+        <item>
+          <name>Employment discrimination and employee rights</name>
+        </item>
+        <item>
+          <name>Government information and archives</name>
+        </item>
+        <item>
+          <name>Government liability</name>
+        </item>
+        <item>
+          <name>Public contracts and procurement</name>
+        </item>
+        <item>
+          <name>State and local government operations</name>
+        </item>
+        <item>
+          <name>Veterans' education, employment, rehabilitation</name>
+        </item>
+        <item>
+          <name>Wages and earnings</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Armed Forces and National Security</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2009-03-12</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2009-03-25T22:21:10Z</updateDate>
+        <text><![CDATA[ <p>Servicemembers Access to Justice Act of 2009 - Waives a state's sovereign immunity with respect to the enforcement of uniformed services members' employment or reemployment rights or benefits under the Uniformed Services Employment and Reemployment Rights Act of 1994 (USERRA).</p> <p>Makes unenforceable agreements between an employer and employee requiring arbitration of disputes arising under USERRA. Provides exceptions. Requires the validity and enforceability of such an agreement to be determined by a court (as opposed to the arbitrator).</p> <p>Provides increased liquidated damages, and authorizes punitive damages, against state or private employer violations of USERRA. Provides a right to a jury trial in such cases.</p> <p>Requires (under current law, authorizes) the award of attorney fees in actions to enforce USERRA.</p> <p>Defines &quot;successor in interest&quot; for USERRA purposes.</p> <p>Prohibits wage discrimination against members covered under USERRA.</p> <p>Requires (under current law, authorizes) a court to use equitable relief, including injunctions and restraining orders when appropriate, for USERRA violations.</p> <p>Amends the Federal Property and Administrative Services Act of 1949 to require federal procurement contracts to include a notice that the contractor may have USERRA obligations.</p> <p>Requires a Comptroller General study on the effectiveness of federal education and outreach programs on employer obligations under USERRA. </p>]]></text>
+      </summary>
+    </summaries>
+    <title>Servicemembers Access to Justice Act of 2009</title>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Servicemembers Access to Justice Act of 2009</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Servicemembers Access to Justice Act of 2009</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend title 38, United States Code, to improve the enforcement of the Uniformed Services Employment and Reemployment Rights Act of 1994, and for other purposes.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2009-03-12T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-111hr1474ih/xml/BILLS-111hr1474ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2009-04-27</actionDate>
+      <text>Referred to the Subcommittee on Military Personnel.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

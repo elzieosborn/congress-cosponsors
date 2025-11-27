@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>3008</number>
+    <updateDate>2023-01-11T21:19:39Z</updateDate>
+    <updateDateIncludingText>2023-01-11T21:19:39Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2007-07-11</introducedDate>
+    <congress>110</congress>
+    <committees>
+      <item>
+        <systemCode>hsvr00</systemCode>
+        <name>Veterans' Affairs Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsvr09</systemCode>
+            <name>Disability Assistance and Memorial Affairs Subcommittee</name>
+            <activities>
+              <item>
+                <name>Hearings by</name>
+                <date>2008-06-12T21:30:45Z</date>
+              </item>
+              <item>
+                <name>Referred to</name>
+                <date>2007-07-23T13:56:21Z</date>
+              </item>
+            </activities>
+          </item>
+          <item>
+            <systemCode>hsvr03</systemCode>
+            <name>Health Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2007-07-23T14:49:27Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2007-07-11T14:01:00Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2008-06-12</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsvr09</systemCode>
+            <name>Disability Assistance and Memorial Affairs Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Subcommittee Hearings Held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2007-07-23</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsvr03</systemCode>
+            <name>Health Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2007-07-23</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsvr09</systemCode>
+            <name>Disability Assistance and Memorial Affairs Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Disability Assistance and Memorial Affairs.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2007-07-11</actionDate>
+        <text>Referred to the House Committee on Veterans' Affairs.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsvr00</systemCode>
+            <name>Veterans' Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2007-07-11</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2007-07-11</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>W000793</bioguideId>
+        <fullName>Rep. Wu, David [D-OR-1]</fullName>
+        <firstName>DAVID</firstName>
+        <lastName>WU</lastName>
+        <party>D</party>
+        <state>OR</state>
+        <district>1</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>B001227</bioguideId>
+        <fullName>Rep. Brady, Robert A. [D-PA-1]</fullName>
+        <firstName>ROBERT</firstName>
+        <lastName>BRADY</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <middleName>A.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2007-07-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001030</bioguideId>
+        <fullName>Rep. Hill, Baron P. [D-IN-9]</fullName>
+        <firstName>BARON</firstName>
+        <lastName>HILL</lastName>
+        <party>D</party>
+        <state>IN</state>
+        <middleName>P.</middleName>
+        <district>9</district>
+        <sponsorshipDate>2007-07-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000258</bioguideId>
+        <fullName>Rep. Peterson, Collin C. [D-MN-7]</fullName>
+        <firstName>COLLIN</firstName>
+        <lastName>PETERSON</lastName>
+        <party>D</party>
+        <state>MN</state>
+        <middleName>C.</middleName>
+        <district>7</district>
+        <sponsorshipDate>2007-07-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000365</bioguideId>
+        <fullName>Rep. Kagen, Steve [D-WI-8]</fullName>
+        <firstName>Steve</firstName>
+        <lastName>Kagen</lastName>
+        <party>D</party>
+        <state>WI</state>
+        <district>8</district>
+        <sponsorshipDate>2007-07-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000801</bioguideId>
+        <fullName>Rep. Wilson, Charles A. [D-OH-6]</fullName>
+        <firstName>Charles</firstName>
+        <lastName>Wilson</lastName>
+        <party>D</party>
+        <state>OH</state>
+        <middleName>A.</middleName>
+        <district>6</district>
+        <sponsorshipDate>2007-07-13</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000490</bioguideId>
+        <fullName>Rep. Bishop, Sanford D., Jr. [D-GA-2]</fullName>
+        <firstName>SANFORD</firstName>
+        <lastName>BISHOP</lastName>
+        <party>D</party>
+        <state>GA</state>
+        <middleName>D.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2007-07-13</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001063</bioguideId>
+        <fullName>Rep. Cuellar, Henry [D-TX-28]</fullName>
+        <firstName>Henry</firstName>
+        <lastName>Cuellar</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>28</district>
+        <sponsorshipDate>2007-07-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000380</bioguideId>
+        <fullName>Del. Christensen, Donna M. [D-VI-At Large]</fullName>
+        <firstName>DONNA</firstName>
+        <lastName>CHRISTENSEN</lastName>
+        <party>D</party>
+        <state>VI</state>
+        <middleName>M.</middleName>
+        <district>0</district>
+        <sponsorshipDate>2007-07-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000452</bioguideId>
+        <fullName>Resident Commissioner Fortuno, Luis G. [R-PR-At Large]</fullName>
+        <firstName>Luis</firstName>
+        <lastName>Fortuno</lastName>
+        <party>R</party>
+        <state>PR</state>
+        <middleName>G.</middleName>
+        <district>0</district>
+        <sponsorshipDate>2007-07-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001060</bioguideId>
+        <fullName>Rep. Carnahan, Russ [D-MO-3]</fullName>
+        <firstName>Russ</firstName>
+        <lastName>Carnahan</lastName>
+        <party>D</party>
+        <state>MO</state>
+        <district>3</district>
+        <sponsorshipDate>2007-07-24</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001173</bioguideId>
+        <fullName>Rep. Space, Zachary T. [D-OH-18]</fullName>
+        <firstName>Zachary</firstName>
+        <lastName>Space</lastName>
+        <party>D</party>
+        <state>OH</state>
+        <middleName>T.</middleName>
+        <district>18</district>
+        <sponsorshipDate>2007-07-30</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001164</bioguideId>
+        <fullName>Rep. Mahoney, Tim [D-FL-16]</fullName>
+        <firstName>Tim</firstName>
+        <lastName>Mahoney</lastName>
+        <party>D</party>
+        <state>FL</state>
+        <district>16</district>
+        <sponsorshipDate>2007-08-01</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000627</bioguideId>
+        <fullName>Rep. Hinchey, Maurice D. [D-NY-22]</fullName>
+        <firstName>MAURICE</firstName>
+        <lastName>HINCHEY</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>D.</middleName>
+        <district>22</district>
+        <sponsorshipDate>2007-09-04</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000326</bioguideId>
+        <fullName>Rep. Towns, Edolphus [D-NY-10]</fullName>
+        <firstName>EDOLPHUS</firstName>
+        <lastName>TOWNS</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <district>10</district>
+        <sponsorshipDate>2007-09-24</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000309</bioguideId>
+        <fullName>Rep. Gordon, Bart [D-TN-6]</fullName>
+        <firstName>BART</firstName>
+        <lastName>GORDON</lastName>
+        <party>D</party>
+        <state>TN</state>
+        <district>6</district>
+        <sponsorshipDate>2007-09-26</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001171</bioguideId>
+        <fullName>Rep. Shuler, Heath [D-NC-11]</fullName>
+        <firstName>Heath</firstName>
+        <lastName>Shuler</lastName>
+        <party>D</party>
+        <state>NC</state>
+        <district>11</district>
+        <sponsorshipDate>2007-10-29</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000657</bioguideId>
+        <fullName>Rep. Boucher, Rick [D-VA-9]</fullName>
+        <firstName>RICK</firstName>
+        <lastName>BOUCHER</lastName>
+        <party>D</party>
+        <state>VA</state>
+        <district>9</district>
+        <sponsorshipDate>2007-12-04</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000515</bioguideId>
+        <fullName>Rep. Rush, Bobby L. [D-IL-1]</fullName>
+        <firstName>BOBBY</firstName>
+        <lastName>RUSH</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>L.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2008-01-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000636</bioguideId>
+        <fullName>Rep. Hinojosa, Ruben [D-TX-15]</fullName>
+        <firstName>RUBEN</firstName>
+        <lastName>HINOJOSA</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>15</district>
+        <sponsorshipDate>2008-01-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001065</bioguideId>
+        <fullName>Rep. Carney, Christopher P. [D-PA-10]</fullName>
+        <firstName>Christopher</firstName>
+        <lastName>Carney</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <middleName>P.</middleName>
+        <district>10</district>
+        <sponsorshipDate>2008-01-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000116</bioguideId>
+        <fullName>Rep. Filner, Bob [D-CA-51]</fullName>
+        <firstName>BOB</firstName>
+        <lastName>FILNER</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>51</district>
+        <sponsorshipDate>2008-02-13</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001072</bioguideId>
+        <fullName>Rep. Carson, Andre [D-IN-7]</fullName>
+        <firstName>Andre</firstName>
+        <lastName>Carson</lastName>
+        <party>D</party>
+        <state>IN</state>
+        <district>7</district>
+        <sponsorshipDate>2008-04-29</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001158</bioguideId>
+        <fullName>Rep. Salazar, John T. [D-CO-3]</fullName>
+        <firstName>John</firstName>
+        <lastName>Salazar</lastName>
+        <party>D</party>
+        <state>CO</state>
+        <middleName>T.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2008-05-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000799</bioguideId>
+        <fullName>Rep. Walz, Timothy J. [D-MN-1]</fullName>
+        <firstName>Timothy</firstName>
+        <lastName>Walz</lastName>
+        <party>D</party>
+        <state>MN</state>
+        <middleName>J.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2008-05-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001074</bioguideId>
+        <fullName>Rep. Childers, Travis [D-MS-1]</fullName>
+        <firstName>Travis</firstName>
+        <lastName>Childers</lastName>
+        <party>D</party>
+        <state>MS</state>
+        <district>1</district>
+        <sponsorshipDate>2008-06-11</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>A000362</bioguideId>
+        <fullName>Rep. Altmire, Jason [D-PA-4]</fullName>
+        <firstName>Jason</firstName>
+        <lastName>Altmire</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <district>4</district>
+        <sponsorshipDate>2008-06-18</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000551</bioguideId>
+        <fullName>Rep. Grijalva, Raúl M. [D-AZ-7]</fullName>
+        <firstName>Raúl</firstName>
+        <lastName>Grijalva</lastName>
+        <party>D</party>
+        <state>AZ</state>
+        <middleName>M.</middleName>
+        <district>7</district>
+        <sponsorshipDate>2008-06-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000652</bioguideId>
+        <fullName>Rep. Boswell, Leonard L. [D-IA-3]</fullName>
+        <firstName>LEONARD</firstName>
+        <lastName>BOSWELL</lastName>
+        <party>D</party>
+        <state>IA</state>
+        <middleName>L.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2008-07-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000712</bioguideId>
+        <fullName>Rep. Holden, Tim [D-PA-17]</fullName>
+        <firstName>TIM</firstName>
+        <lastName>HOLDEN</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <district>17</district>
+        <sponsorshipDate>2008-07-31</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000573</bioguideId>
+        <fullName>Rep. Ross, Mike [D-AR-4]</fullName>
+        <firstName>MIKE</firstName>
+        <lastName>ROSS</lastName>
+        <party>D</party>
+        <state>AR</state>
+        <district>4</district>
+        <sponsorshipDate>2008-07-31</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001245</bioguideId>
+        <fullName>Del. Bordallo, Madeleine Z. [D-GU-At Large]</fullName>
+        <firstName>Madeleine</firstName>
+        <lastName>Bordallo</lastName>
+        <party>D</party>
+        <state>GU</state>
+        <middleName>Z.</middleName>
+        <district>0</district>
+        <sponsorshipDate>2008-09-26</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Counseling</name>
+        </item>
+        <item>
+          <name>County politics and government</name>
+        </item>
+        <item>
+          <name>Economics and Public Finance</name>
+        </item>
+        <item>
+          <name>Employee training</name>
+        </item>
+        <item>
+          <name>Families</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Government paperwork</name>
+        </item>
+        <item>
+          <name>Government publicity</name>
+        </item>
+        <item>
+          <name>Grants-in-aid</name>
+        </item>
+        <item>
+          <name>Housing and Community Development</name>
+        </item>
+        <item>
+          <name>Labor and Employment</name>
+        </item>
+        <item>
+          <name>Local employees</name>
+        </item>
+        <item>
+          <name>Social Welfare</name>
+        </item>
+        <item>
+          <name>Survivors' benefits</name>
+        </item>
+        <item>
+          <name>Veterans' benefits</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Armed Forces and National Security</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2007-07-11</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2007-10-04T15:53:37Z</updateDate>
+        <text><![CDATA[ <p>Rural Veterans Services Outreach and Training Act - Directs the Secretary of Veterans Affairs to carry out a program to make competitive grants to provide financial assistance to state departments of veterans affairs for the training of rural county veteran service officers in order to improve outreach and assistance to veterans, as well as their spouses, children, and parents, who may be eligible to receive veterans' or veterans-related benefits and who are residing in rural counties. Limits each grant to $1 million. Requires grants to be made on an annual basis.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Rural Veterans Services Outreach and Training Act</title>
+    <titles>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend title 38, United States Code, to improve services for veterans residing in rural areas.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Rural Veterans Services Outreach and Training Act</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Rural Veterans Services Outreach and Training Act</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2007-07-11T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-110hr3008ih/xml/BILLS-110hr3008ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2008-06-12</actionDate>
+      <text>Subcommittee Hearings Held.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

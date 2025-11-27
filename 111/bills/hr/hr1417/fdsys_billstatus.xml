@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>1417</number>
+    <updateDate>2019-11-15T21:26:23Z</updateDate>
+    <updateDateIncludingText>2019-11-15T21:26:23Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2009-03-10</introducedDate>
+    <congress>111</congress>
+    <committees>
+      <item>
+        <systemCode>hshm00</systemCode>
+        <name>Homeland Security Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Legislative interest</name>
+            <date>2010-09-22T16:38:00Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsas00</systemCode>
+        <name>Armed Services Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsas29</systemCode>
+            <name>Strategic Forces Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2010-01-25T21:12:31Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2009-03-10T14:32:47Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsif00</systemCode>
+        <name>Energy and Commerce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsif03</systemCode>
+            <name>Energy, Climate and Grid Security Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2009-03-11T20:36:20Z</date>
+              </item>
+            </activities>
+          </item>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2009-03-11T15:47:03Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2009-03-10T14:32:48Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsii00</systemCode>
+        <name>Natural Resources Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2009-03-10T14:32:49Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <relatedBills>
+      <item>
+        <title>Safety for Americans from Nuclear Weapons Testing Act</title>
+        <congress>111</congress>
+        <number>600</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2009-03-16</actionDate>
+          <text>Read twice and referred to the Committee on Energy and Natural Resources.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2010-01-25</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsas29</systemCode>
+            <name>Strategic Forces Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Strategic Forces.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2009-03-11</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif03</systemCode>
+            <name>Energy, Climate and Grid Security Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Energy and Environment.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2009-03-11</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2009-03-10</actionDate>
+        <text>Referred to House Natural Resources</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2009-03-10</actionDate>
+        <text>Referred to House Energy and Commerce</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2009-03-10</actionDate>
+        <text>Referred to the Committee on Armed Services, and in addition to the Committees on Energy and Commerce, and Natural Resources, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100-A</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2009-03-10</actionDate>
+        <text>Referred to House Armed Services</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsas00</systemCode>
+            <name>Armed Services Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2009-03-10</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2009-03-10</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>M001142</bioguideId>
+        <fullName>Rep. Matheson, Jim [D-UT-2]</fullName>
+        <firstName>JIM</firstName>
+        <lastName>MATHESON</lastName>
+        <party>D</party>
+        <state>UT</state>
+        <district>2</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Air quality</name>
+        </item>
+        <item>
+          <name>Cancer</name>
+        </item>
+        <item>
+          <name>Education programs funding</name>
+        </item>
+        <item>
+          <name>Environmental assessment, monitoring, research</name>
+        </item>
+        <item>
+          <name>Government information and archives</name>
+        </item>
+        <item>
+          <name>Government studies and investigations</name>
+        </item>
+        <item>
+          <name>Health information and medical records</name>
+        </item>
+        <item>
+          <name>Health programs administration and funding</name>
+        </item>
+        <item>
+          <name>Higher education</name>
+        </item>
+        <item>
+          <name>Medical research</name>
+        </item>
+        <item>
+          <name>Military procurement, research, weapons development</name>
+        </item>
+        <item>
+          <name>Nevada</name>
+        </item>
+        <item>
+          <name>Nuclear weapons</name>
+        </item>
+        <item>
+          <name>Radioactive wastes and releases</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Armed Forces and National Security</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2009-03-10</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2009-06-25T17:43:24Z</updateDate>
+        <text><![CDATA[ <p>Safety for Americans from Nuclear Weapons Testing Act - Deems each of the following actions undertaken by a federal agency to be a major federal action significantly affecting the quality of the human environment for which a detailed environmental impact statement is required in conformance with the National Environmental Policy Act of 1969: (1) any action having as a purpose the resumption of testing of one or more nuclear weapons (including other nuclear explosive devices producing a nuclear yield) at the Nevada Test Site; or (2) use of any other location for such testing. Outlines information required to be included in such statement, including: (1) the possibility of radiation containment failure and the effects of such failure; (2) possible long-term effects on the water table from underground radiation leakage; and (3) information with respect to certain kiloton categories of weapons.</p> <p>Prohibits the United States from resuming any such testing unless authorized by a law enacted after the enactment of this Act.</p> <p>Requires: (1) advance public notice of each test by the President; (2) notice of each release of radiation beyond the boundaries of the Nevada Test Site by the Secretary of Energy within one hour of detection of such radiation; and (3) public meetings in southern Utah, Arizona, and Nevada after each test to discuss test results.</p> <p>Directs the National Academy of Sciences to conduct a study on the safety and health of citizens in the vicinity of the Nevada Test Site.</p> <p>Directs the Secretary to establish a Nevada Test Site Citizens Review Board.</p> <p>Directs the Secretary of Homeland Security to make grants to institutions of higher education to acquire and operate, for ten years, radiation detection equipment and sensors.</p> <p>Directs the Secretary of Energy, through the Department of Energy (DOE) and Environmental Protection Agency (EPA), to monitor the nature and extent of any radiation released into the atmosphere as a result of such testing. Requires: (1) DOE radiation containment assessment; and (2) public notice of monitoring data.</p> <p>Requires the: (1) Director of the National Institutes of Health (NIH) to make a grant to establish the National Center for the Study of Radiation and Human Health; and (2) Secretary of Health and Human Services to conduct a study of individuals exposed to nuclear weapons tests.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Safety for Americans from Nuclear Weapons Testing Act</title>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Safety for Americans from Nuclear Weapons Testing Act</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Safety for Americans from Nuclear Weapons Testing Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To protect public health and safety, should the testing of nuclear weapons by the United States be resumed.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2009-03-10T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-111hr1417ih/xml/BILLS-111hr1417ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2010-01-25</actionDate>
+      <text>Referred to the Subcommittee on Strategic Forces.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>873</number>
+    <updateDate>2023-01-11T20:00:46Z</updateDate>
+    <updateDateIncludingText>2023-01-11T20:00:46Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2007-02-07</introducedDate>
+    <congress>110</congress>
+    <committees>
+      <item>
+        <systemCode>hsba00</systemCode>
+        <name>Financial Services Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsba15</systemCode>
+            <name>Consumer Protection and Financial Institutions Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2007-04-12T17:41:05Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2007-02-07T15:00:49Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2007-04-12</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsba15</systemCode>
+            <name>Consumer Protection and Financial Institutions Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Financial Institutions and Consumer Credit.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2007-02-07</actionDate>
+        <text>Referred to the House Committee on Financial Services.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsba00</systemCode>
+            <name>Financial Services Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2007-02-07</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2007-02-07</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>A000022</bioguideId>
+        <fullName>Rep. Ackerman, Gary L. [D-NY-5]</fullName>
+        <firstName>GARY</firstName>
+        <lastName>ACKERMAN</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>L.</middleName>
+        <district>5</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>M000087</bioguideId>
+        <fullName>Rep. Maloney, Carolyn B. [D-NY-14]</fullName>
+        <firstName>CAROLYN</firstName>
+        <lastName>MALONEY</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>B.</middleName>
+        <district>14</district>
+        <sponsorshipDate>2007-02-07</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001145</bioguideId>
+        <fullName>Rep. Schakowsky, Janice D. [D-IL-9]</fullName>
+        <firstName>JANICE</firstName>
+        <lastName>SCHAKOWSKY</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>D.</middleName>
+        <district>9</district>
+        <sponsorshipDate>2007-02-12</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000288</bioguideId>
+        <fullName>Rep. Ellison, Keith [D-MN-5]</fullName>
+        <firstName>Keith</firstName>
+        <lastName>Ellison</lastName>
+        <party>D</party>
+        <state>MN</state>
+        <district>5</district>
+        <sponsorshipDate>2007-02-28</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001068</bioguideId>
+        <fullName>Rep. Cohen, Steve [D-TN-9]</fullName>
+        <firstName>Steve</firstName>
+        <lastName>Cohen</lastName>
+        <party>D</party>
+        <state>TN</state>
+        <district>9</district>
+        <sponsorshipDate>2007-03-06</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001061</bioguideId>
+        <fullName>Rep. Cleaver, Emanuel [D-MO-5]</fullName>
+        <firstName>Emanuel</firstName>
+        <lastName>Cleaver</lastName>
+        <party>D</party>
+        <state>MO</state>
+        <district>5</district>
+        <sponsorshipDate>2007-06-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001169</bioguideId>
+        <fullName>Rep. Sestak, Joe [D-PA-7]</fullName>
+        <firstName>Joe</firstName>
+        <lastName>Sestak</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <district>7</district>
+        <sponsorshipDate>2007-10-29</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Finance and Financial Sector</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Collection of accounts</name>
+        </item>
+        <item>
+          <name>Commerce</name>
+        </item>
+        <item>
+          <name>Consumer credit</name>
+        </item>
+        <item>
+          <name>Consumer protection</name>
+        </item>
+        <item>
+          <name>Credit cards</name>
+        </item>
+        <item>
+          <name>Debtor and creditor</name>
+        </item>
+        <item>
+          <name>Electronic funds transfers</name>
+        </item>
+        <item>
+          <name>Fees</name>
+        </item>
+        <item>
+          <name>Science, Technology, Communications</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Finance and Financial Sector</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2007-02-07</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2007-02-21T22:41:30Z</updateDate>
+        <text><![CDATA[ <p>Credit Card Payment Fee Act of 2007 - Amends the Truth in Lending Act to prohibit a creditor, in the case of a credit card account under an open end consumer credit plan, from imposing a fee based on the manner in which payment on the account is made, including a fee for making any such payment by electronic fund transfer.</p> <p></p>]]></text>
+      </summary>
+    </summaries>
+    <title>Credit Card Payment Fee Act of 2007</title>
+    <titles>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend the Truth in Lending Act to prohibit fees by creditors for payments on credit card accounts by electronic fund transfers, and for other purposes.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Credit Card Payment Fee Act of 2007</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Credit Card Payment Fee Act of 2007</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2007-02-07T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-110hr873ih/xml/BILLS-110hr873ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2007-04-12</actionDate>
+      <text>Referred to the Subcommittee on Financial Institutions and Consumer Credit.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

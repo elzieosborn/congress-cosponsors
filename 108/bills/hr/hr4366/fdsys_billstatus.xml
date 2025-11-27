@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>4366</number>
+    <updateDate>2023-01-15T04:49:00Z</updateDate>
+    <updateDateIncludingText>2023-01-15T04:49:00Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2004-05-13</introducedDate>
+    <congress>108</congress>
+    <committees>
+      <item>
+        <systemCode>hsif00</systemCode>
+        <name>Energy and Commerce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsif17</systemCode>
+            <name>Innovation, Data, and Commerce Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2004-05-21T13:56:27Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2004-05-13T13:56:45Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2004-05-21</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif17</systemCode>
+            <name>Innovation, Data, and Commerce Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Commerce, Trade and Consumer Protection.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2004-05-13</actionDate>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2004-05-13</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2004-05-13</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>M000133</bioguideId>
+        <fullName>Rep. Markey, Edward J. [D-MA-7]</fullName>
+        <firstName>Edward</firstName>
+        <lastName>Markey</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>J.</middleName>
+        <district>7</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>D000216</bioguideId>
+        <fullName>Rep. DeLauro, Rosa L. [D-CT-3]</fullName>
+        <firstName>ROSA</firstName>
+        <lastName>DELAURO</lastName>
+        <party>D</party>
+        <state>CT</state>
+        <district>3</district>
+        <sponsorshipDate>2004-07-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000033</bioguideId>
+        <fullName>Rep. Sanders, Bernard [I-VT-At Large]</fullName>
+        <firstName>Bernard</firstName>
+        <lastName>Sanders</lastName>
+        <party>I</party>
+        <state>VT</state>
+        <district>0</district>
+        <sponsorshipDate>2004-07-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000336</bioguideId>
+        <fullName>Rep. Kucinich, Dennis J. [D-OH-10]</fullName>
+        <firstName>DENNIS</firstName>
+        <lastName>KUCINICH</lastName>
+        <party>D</party>
+        <state>OH</state>
+        <middleName>J.</middleName>
+        <district>10</district>
+        <sponsorshipDate>2004-07-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000551</bioguideId>
+        <fullName>Rep. Grijalva, Raúl M. [D-AZ-7]</fullName>
+        <firstName>Raúl</firstName>
+        <lastName>Grijalva</lastName>
+        <party>D</party>
+        <state>AZ</state>
+        <middleName>M.</middleName>
+        <district>7</district>
+        <sponsorshipDate>2004-07-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001145</bioguideId>
+        <fullName>Rep. Schakowsky, Janice D. [D-IL-9]</fullName>
+        <firstName>JANICE</firstName>
+        <lastName>SCHAKOWSKY</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>D.</middleName>
+        <district>9</district>
+        <sponsorshipDate>2004-09-13</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001152</bioguideId>
+        <fullName>Rep. Simmons, Rob [R-CT-2]</fullName>
+        <firstName>ROB</firstName>
+        <lastName>SIMMONS</lastName>
+        <party>R</party>
+        <state>CT</state>
+        <district>2</district>
+        <sponsorshipDate>2004-09-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Commerce</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Affiliated corporations</name>
+        </item>
+        <item>
+          <name>Civil Rights and Liberties, Minority Issues</name>
+        </item>
+        <item>
+          <name>Civil actions and liability</name>
+        </item>
+        <item>
+          <name>Consumer education</name>
+        </item>
+        <item>
+          <name>Consumer protection</name>
+        </item>
+        <item>
+          <name>Damages</name>
+        </item>
+        <item>
+          <name>Driver licenses</name>
+        </item>
+        <item>
+          <name>Electronic data interchange</name>
+        </item>
+        <item>
+          <name>Electronic mail systems</name>
+        </item>
+        <item>
+          <name>Europe</name>
+        </item>
+        <item>
+          <name>European Union</name>
+        </item>
+        <item>
+          <name>Finance and Financial Sector</name>
+        </item>
+        <item>
+          <name>Financial statements</name>
+        </item>
+        <item>
+          <name>Foreign Trade and International Finance</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Government paperwork</name>
+        </item>
+        <item>
+          <name>Government publicity</name>
+        </item>
+        <item>
+          <name>Health</name>
+        </item>
+        <item>
+          <name>Identification devices</name>
+        </item>
+        <item>
+          <name>Injunctions</name>
+        </item>
+        <item>
+          <name>Internet</name>
+        </item>
+        <item>
+          <name>Law</name>
+        </item>
+        <item>
+          <name>Medical records</name>
+        </item>
+        <item>
+          <name>Names</name>
+        </item>
+        <item>
+          <name>Parties to actions</name>
+        </item>
+        <item>
+          <name>Punitive damages</name>
+        </item>
+        <item>
+          <name>Restrictive trade practices</name>
+        </item>
+        <item>
+          <name>Right of privacy</name>
+        </item>
+        <item>
+          <name>Science, Technology, Communications</name>
+        </item>
+        <item>
+          <name>Social Welfare</name>
+        </item>
+        <item>
+          <name>Social security numbers</name>
+        </item>
+        <item>
+          <name>State courts</name>
+        </item>
+        <item>
+          <name>Subcontractors</name>
+        </item>
+        <item>
+          <name>Tax returns</name>
+        </item>
+        <item>
+          <name>Taxation</name>
+        </item>
+        <item>
+          <name>Transportation and Public Works</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Commerce</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2004-05-13</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2004-06-07T18:38:10Z</updateDate>
+        <text><![CDATA[ <p>Personal Data Offshoring Protection Act of 2004 - Requires business enterprises to give U.S. citizens notice before transmitting personally identifiable information about such citizens to foreign affiliates or subcontractors located in countries with adequate privacy protections. Prohibits such transmittal where adequate privacy protections are lacking, unless: (1) the business enterprise discloses the lack of protections and obtains the citizen's prior consent for transmittal; and (2) such consent is renewed by the citizen within one year before the transmittal.</p> <p>Prohibits business entities from denying goods and services or modifying business terms for any person based on that person's exercise of consent rights provided by this Act or other law.</p> <p>Requires violations of this Act to be treated as unfair or deceptive acts or practices under the Federal Trade Commission Act. </p> <p>Creates a private right of action in State court for violations of this Act. Authorizes States, on behalf of their residents, to bring civil actions in Federal court for such violations. Requires prior notice to the Federal Trade Commission (FTC) of State actions and authorizes the FTC's intervention and appeal.</p> <p>Directs the FTC to certify those countries that have legal systems providing adequate privacy protections. Creates a presumption of inadequacy for foreign laws that are less protective of privacy than Federal law or the law of any State, or where the FTC determines that enforcement is lacking. Requires certification of countries whose laws meet the requirements of the European Union Data Protection Directive, unless such laws are not adequately enforced.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Personal Data Offshoring Protection Act of 2004</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Personal Data Offshoring Protection Act of 2004</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To prohibit the transfer of personal information to any person outside the United States, without notice and consent, and for other purposes.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Personal Data Offshoring Protection Act of 2004</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2004-05-13T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-108hr4366ih/xml/BILLS-108hr4366ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2004-05-21</actionDate>
+      <text>Referred to the Subcommittee on Commerce, Trade and Consumer Protection.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

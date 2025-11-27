@@ -1,0 +1,94 @@
+{
+  "actions": [
+    {
+      "acted_at": "2015-12-03",
+      "action_code": "",
+      "how": "roll",
+      "references": [],
+      "result": "fail",
+      "roll": 314,
+      "text": "Amendment SA 2885 not agreed to in Senate by Yea-Nay Vote. 48 - 52. Record Vote Number: 314.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "s"
+    },
+    {
+      "acted_at": "2015-12-03",
+      "action_code": "",
+      "references": [],
+      "text": "Amendment SA 2885 proposed by Senator Collins to Amendment SA 2874. (consideration: CR S8343; text: CR S8343) To improve the bill.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2015-12-03",
+      "action_code": "97000",
+      "references": [],
+      "text": "Roll call votes on amendments in Senate: Amendment SA 2885 not agreed to in Senate by Yea-Nay Vote. 48 - 52. Record Vote Number: 314.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2015-12-03",
+      "action_code": "95000",
+      "references": [],
+      "text": "Senate amendment not agreed to: Amendment SA 2885 not agreed to in Senate by Yea-Nay Vote. 48 - 52. Record Vote Number: 314.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2015-12-03",
+      "action_code": "93000",
+      "references": [
+        {
+          "reference": "CR S8343",
+          "type": "consideration"
+        },
+        {
+          "reference": "CR S8343",
+          "type": "text"
+        }
+      ],
+      "text": "Senate amendment proposed (on the floor): Amendment SA 2885 proposed by Senator Collins to Amendment SA 2874.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2015-12-02",
+      "action_code": "91000",
+      "references": [],
+      "text": "Senate amendment submitted",
+      "type": "action"
+    }
+  ],
+  "amendment_id": "samdt2885-114",
+  "amendment_type": "samdt",
+  "amends_amendment": {
+    "amendment_id": "samdt2874-114",
+    "amendment_type": "samdt",
+    "congress": 114,
+    "description": "",
+    "number": 2874,
+    "purpose": "In the nature of a substitute."
+  },
+  "amends_bill": {
+    "bill_id": "hr3762-114",
+    "bill_type": "hr",
+    "congress": 114,
+    "number": 3762
+  },
+  "amends_treaty": null,
+  "chamber": "s",
+  "congress": "114",
+  "introduced_at": "2015-12-02",
+  "number": 2885,
+  "proposed_at": "2015-12-03T05:00:00Z",
+  "purpose": "To improve the bill.",
+  "sponsor": {
+    "bioguide_id": "C001035",
+    "district": null,
+    "name": "Collins, Susan M.",
+    "state": "ME",
+    "title": "Sen.",
+    "type": "person"
+  },
+  "status": "fail",
+  "status_at": "2015-12-03",
+  "updated_at": "2020-12-15T19:05:27Z"
+}

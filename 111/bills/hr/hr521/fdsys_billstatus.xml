@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>521</number>
+    <updateDate>2022-02-03T06:04:24Z</updateDate>
+    <updateDateIncludingText>2022-02-03T06:04:24Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2009-01-14</introducedDate>
+    <congress>111</congress>
+    <committees>
+      <item>
+        <systemCode>hsif00</systemCode>
+        <name>Energy and Commerce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2009-01-15T16:38:20Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2009-01-14T15:02:47Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2009-01-15</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2009-01-14</actionDate>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2009-01-14</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2009-01-14</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>K000210</bioguideId>
+        <fullName>Rep. King, Peter T. [R-NY-3]</fullName>
+        <firstName>PETER</firstName>
+        <lastName>KING</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <middleName>T.</middleName>
+        <district>3</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>G000544</bioguideId>
+        <fullName>Rep. Gonzalez, Charles A. [D-TX-20]</fullName>
+        <firstName>CHARLES</firstName>
+        <lastName>GONZALEZ</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <middleName>A.</middleName>
+        <district>20</district>
+        <sponsorshipDate>2009-01-14</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000410</bioguideId>
+        <fullName>Rep. Green, Gene [D-TX-29]</fullName>
+        <firstName>GENE</firstName>
+        <lastName>GREEN</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>29</district>
+        <sponsorshipDate>2009-01-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001068</bioguideId>
+        <fullName>Rep. Cohen, Steve [D-TN-9]</fullName>
+        <firstName>Steve</firstName>
+        <lastName>Cohen</lastName>
+        <party>D</party>
+        <state>TN</state>
+        <district>9</district>
+        <sponsorshipDate>2009-01-26</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001157</bioguideId>
+        <fullName>Rep. McCaul, Michael T. [R-TX-10]</fullName>
+        <firstName>Michael</firstName>
+        <lastName>McCaul</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <middleName>T.</middleName>
+        <district>10</district>
+        <sponsorshipDate>2009-02-26</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001140</bioguideId>
+        <fullName>Rep. Moore, Dennis [D-KS-3]</fullName>
+        <firstName>DENNIS</firstName>
+        <lastName>MOORE</lastName>
+        <party>D</party>
+        <state>KS</state>
+        <district>3</district>
+        <sponsorshipDate>2009-03-30</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000099</bioguideId>
+        <fullName>Rep. Pastor, Ed [D-AZ-4]</fullName>
+        <firstName>ED</firstName>
+        <lastName>PASTOR</lastName>
+        <party>D</party>
+        <state>AZ</state>
+        <district>4</district>
+        <sponsorshipDate>2009-04-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000462</bioguideId>
+        <fullName>Rep. Rothman, Steven R. [D-NJ-9]</fullName>
+        <firstName>STEVEN</firstName>
+        <lastName>ROTHMAN</lastName>
+        <party>D</party>
+        <state>NJ</state>
+        <middleName>R.</middleName>
+        <district>9</district>
+        <sponsorshipDate>2009-07-24</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001138</bioguideId>
+        <fullName>Rep. Manzullo, Donald A. [R-IL-16]</fullName>
+        <firstName>DONALD</firstName>
+        <lastName>MANZULLO</lastName>
+        <party>R</party>
+        <state>IL</state>
+        <district>16</district>
+        <sponsorshipDate>2009-11-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001254</bioguideId>
+        <fullName>Rep. Boren, Dan [D-OK-2]</fullName>
+        <firstName>Dan</firstName>
+        <lastName>Boren</lastName>
+        <party>D</party>
+        <state>OK</state>
+        <district>2</district>
+        <sponsorshipDate>2010-05-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Child health</name>
+        </item>
+        <item>
+          <name>Government information and archives</name>
+        </item>
+        <item>
+          <name>Health information and medical records</name>
+        </item>
+        <item>
+          <name>Health programs administration and funding</name>
+        </item>
+        <item>
+          <name>Medical research</name>
+        </item>
+        <item>
+          <name>Research administration and funding</name>
+        </item>
+        <item>
+          <name>Sex and reproductive health</name>
+        </item>
+        <item>
+          <name>Women's health</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Health</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2009-01-14</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2009-01-27T19:53:18Z</updateDate>
+        <text><![CDATA[ <p>Stillbirth Awareness and Research Act of 2009 - Amends the Public Health Service Act to direct the Secretary of Health and Human Services, acting through the Director of the Centers for Disease Control and Prevention (CDC), to establish and maintain a scientific registry of stillbirths in the United States, which shall include for each stillbirth information on the stillborn fetus and the mother's health and pregnancy as collected and submitted by states on the U.S. Standard Report of Fetal Death. </p> <p>Requires the Secretary to: (1) provide for the development of a standard definition of stillbirth and a standard protocol for stillbirth data collection and surveillance; and (2) carry out a national campaign to increase public and state awareness of such definition and protocol and public awareness and knowledge of stillbirths.</p> <p>Expresses the sense of Congress that the Director of the National Institutes of Health (NIH) should increase the allocation of funds and other resources for stillbirth research. </p>]]></text>
+      </summary>
+    </summaries>
+    <title>Stillbirth Awareness and Research Act of 2009</title>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Stillbirth Awareness and Research Act of 2009</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Stillbirth Awareness and Research Act of 2009</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend the Public Health Service Act to provide for the national collection of data on stillbirths in a standardized manner, and for other purposes.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2009-01-14T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-111hr521ih/xml/BILLS-111hr521ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2009-01-15</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

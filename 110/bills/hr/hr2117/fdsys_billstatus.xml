@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>2117</number>
+    <updateDate>2023-01-11T15:48:00Z</updateDate>
+    <updateDateIncludingText>2023-01-11T15:48:00Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2007-05-02</introducedDate>
+    <congress>110</congress>
+    <committees>
+      <item>
+        <systemCode>hsif00</systemCode>
+        <name>Energy and Commerce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsif17</systemCode>
+            <name>Innovation, Data, and Commerce Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2007-05-02T16:40:11Z</date>
+              </item>
+            </activities>
+          </item>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2007-05-02T16:40:00Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2007-05-02T14:00:15Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2007-05-02</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif17</systemCode>
+            <name>Innovation, Data, and Commerce Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Commerce, Trade and Consumer Protection.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2007-05-02</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2007-05-02</actionDate>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2007-05-02</actionDate>
+        <text>Sponsor introductory remarks on measure. (CR E925)</text>
+        <type>IntroReferral</type>
+        <actionCode>B00100</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2007-05-02</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2007-05-02</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>P000583</bioguideId>
+        <fullName>Rep. Paul, Ron [R-TX-14]</fullName>
+        <firstName>RON</firstName>
+        <lastName>PAUL</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>14</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>B001149</bioguideId>
+        <fullName>Rep. Burton, Dan [R-IN-5]</fullName>
+        <firstName>DAN</firstName>
+        <lastName>BURTON</lastName>
+        <party>R</party>
+        <state>IN</state>
+        <district>5</district>
+        <sponsorshipDate>2007-05-02</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001144</bioguideId>
+        <fullName>Rep. Shays, Christopher [R-CT-4]</fullName>
+        <firstName>CHRISTOPHER</firstName>
+        <lastName>SHAYS</lastName>
+        <party>R</party>
+        <state>CT</state>
+        <district>4</district>
+        <sponsorshipDate>2007-05-02</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000208</bioguideId>
+        <fullName>Rep. Bartlett, Roscoe G. [R-MD-6]</fullName>
+        <firstName>ROSCOE</firstName>
+        <lastName>BARTLETT</lastName>
+        <party>R</party>
+        <state>MD</state>
+        <middleName>G.</middleName>
+        <district>6</district>
+        <sponsorshipDate>2007-05-02</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000533</bioguideId>
+        <fullName>Rep. Duncan, John J., Jr. [R-TN-2]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>DUNCAN</lastName>
+        <party>R</party>
+        <state>TN</state>
+        <middleName>J.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2007-05-02</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000452</bioguideId>
+        <fullName>Resident Commissioner Fortuno, Luis G. [R-PR-At Large]</fullName>
+        <firstName>Luis</firstName>
+        <lastName>Fortuno</lastName>
+        <party>R</party>
+        <state>PR</state>
+        <middleName>G.</middleName>
+        <district>0</district>
+        <sponsorshipDate>2007-06-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000191</bioguideId>
+        <fullName>Rep. DeFazio, Peter A. [D-OR-4]</fullName>
+        <firstName>PETER</firstName>
+        <lastName>DEFAZIO</lastName>
+        <party>D</party>
+        <state>OR</state>
+        <middleName>A.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2007-06-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000364</bioguideId>
+        <fullName>Rep. Kuhl, John R. "Randy", Jr. [R-NY-29]</fullName>
+        <firstName>John</firstName>
+        <lastName>Kuhl</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <middleName>R. "Randy"</middleName>
+        <district>29</district>
+        <sponsorshipDate>2007-06-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001152</bioguideId>
+        <fullName>Rep. Musgrave, Marilyn N. [R-CO-4]</fullName>
+        <firstName>Marilyn</firstName>
+        <lastName>Musgrave</lastName>
+        <party>R</party>
+        <state>CO</state>
+        <middleName>N.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2007-08-03</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000409</bioguideId>
+        <fullName>Rep. Rohrabacher, Dana [R-CA-46]</fullName>
+        <firstName>DANA</firstName>
+        <lastName>ROHRABACHER</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <district>46</district>
+        <sponsorshipDate>2007-12-18</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Agriculture and Food</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Administrative procedure</name>
+        </item>
+        <item>
+          <name>Administrative remedies</name>
+        </item>
+        <item>
+          <name>Arthritis</name>
+        </item>
+        <item>
+          <name>Bone fractures</name>
+        </item>
+        <item>
+          <name>Calcium</name>
+        </item>
+        <item>
+          <name>Cardiovascular diseases</name>
+        </item>
+        <item>
+          <name>Commerce</name>
+        </item>
+        <item>
+          <name>Communication in medicine</name>
+        </item>
+        <item>
+          <name>Communication in science</name>
+        </item>
+        <item>
+          <name>Conflict of interests</name>
+        </item>
+        <item>
+          <name>Deceptive advertising</name>
+        </item>
+        <item>
+          <name>Department of Health and Human Services</name>
+        </item>
+        <item>
+          <name>Dietary supplements</name>
+        </item>
+        <item>
+          <name>Drug advertising</name>
+        </item>
+        <item>
+          <name>Evidence (Law)</name>
+        </item>
+        <item>
+          <name>Federal Trade Commission</name>
+        </item>
+        <item>
+          <name>Federal advisory bodies</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Government publications</name>
+        </item>
+        <item>
+          <name>Governmental investigations</name>
+        </item>
+        <item>
+          <name>Health</name>
+        </item>
+        <item>
+          <name>Independent regulatory commissions</name>
+        </item>
+        <item>
+          <name>Labeling</name>
+        </item>
+        <item>
+          <name>Law</name>
+        </item>
+        <item>
+          <name>Medicinal plants</name>
+        </item>
+        <item>
+          <name>Nutrition</name>
+        </item>
+        <item>
+          <name>Oils and fats</name>
+        </item>
+        <item>
+          <name>Periodicals</name>
+        </item>
+        <item>
+          <name>Preventive medicine</name>
+        </item>
+        <item>
+          <name>Science, Technology, Communications</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Agriculture and Food</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2007-05-02</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2007-06-14T21:26:11Z</updateDate>
+        <text><![CDATA[ <p>Health Freedom Protection Act - Amends the Federal Food, Drug, and Cosmetic Act (FFDCA) to provide that a food or dietary supplement is not a drug solely because the label or labeling contains a claim to cure, mitigate, treat, or prevent disease.</p> <p>Prohibits the Secretary of Health and Human Services from: (1) restricting the reprinting and distribution or sale of any U.S. government publication or any accurate quotations of such a publication, including content concerning nutrients and disease treatment or prevention; or (2) construing the distribution or sale of, or accurate quotation from, such a publication in connection with the sale of a food or dietary supplement as evidence of an intent to sell that food or dietary supplement as a drug.</p> <p>Requires the Secretary to allow claims on food or nutrient labeling that characterize the relationship of a nutrient to the cure, mitigation, treatment, or prevention of a disease (with no more than a three-sentence disclaimer) unless the Secretary proves by clear and convincing evidence that: (1) there is no scientific evidence that supports the claim; and (2) the claim is inherently misleading and incapable of being rendered nonmisleading through the addition of a disclaimer.</p> <p>Authorizes the use of specified health claims on the label of all foods and dietary supplements, including claims related to saw palmetto, omega-3 fatty acids, glucosamine, and calcium.</p> <p>Allows a statement for a dietary supplement to include words that are recognized as signs or symptoms of disease so long as the statement does not include the name of a specific disease. </p> <p>Amends the Federal Trade Commission Act to exempt from being regulated as advertising: (1) government publications exempted from reprinting or distribution restrictions under FFDCA; or (2) accurate summaries of scientific publications. Places the burden of proof that an advertisement for a dietary supplement or ingredient is false and misleading on the Federal Trade Commission.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Health Freedom Protection Act</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Health Freedom Protection Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend the Federal Food, Drug, and Cosmetic Act concerning foods and dietary supplements, to amend the Federal Trade Commission Act concerning the burden of proof in false advertising cases, and for other purposes.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Health Freedom Protection Act</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2007-05-02T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-110hr2117ih/xml/BILLS-110hr2117ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2007-05-02</actionDate>
+      <text>Referred to the Subcommittee on Commerce, Trade and Consumer Protection.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

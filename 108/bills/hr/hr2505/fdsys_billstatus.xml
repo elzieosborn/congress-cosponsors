@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>2505</number>
+    <updateDate>2023-01-15T16:33:43Z</updateDate>
+    <updateDateIncludingText>2023-01-15T16:33:43Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2003-06-18</introducedDate>
+    <congress>108</congress>
+    <committees>
+      <item>
+        <systemCode>hsed00</systemCode>
+        <name>Education and the Workforce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsed13</systemCode>
+            <name>Higher Education and Workforce Development Subcomittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2003-07-21T13:18:25Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2003-06-18T14:00:25Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2003-07-21</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsed13</systemCode>
+            <name>Higher Education and Workforce Development Subcomittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on 21st Century Competitiveness.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2003-06-18</actionDate>
+        <text>Referred to the House Committee on Education and the Workforce.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsed00</systemCode>
+            <name>Education and the Workforce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2003-06-18</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2003-06-18</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>D000216</bioguideId>
+        <fullName>Rep. DeLauro, Rosa L. [D-CT-3]</fullName>
+        <firstName>ROSA</firstName>
+        <lastName>DELAURO</lastName>
+        <party>D</party>
+        <state>CT</state>
+        <district>3</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>G000551</bioguideId>
+        <fullName>Rep. Grijalva, Raúl M. [D-AZ-7]</fullName>
+        <firstName>Raúl</firstName>
+        <lastName>Grijalva</lastName>
+        <party>D</party>
+        <state>AZ</state>
+        <middleName>M.</middleName>
+        <district>7</district>
+        <sponsorshipDate>2003-06-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000226</bioguideId>
+        <fullName>Rep. Etheridge, Bob [D-NC-2]</fullName>
+        <firstName>BOB</firstName>
+        <lastName>ETHERIDGE</lastName>
+        <party>D</party>
+        <state>NC</state>
+        <district>2</district>
+        <sponsorshipDate>2003-06-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000714</bioguideId>
+        <fullName>Rep. Millender-McDonald, Juanita [D-CA-37]</fullName>
+        <firstName>JUANITA</firstName>
+        <lastName>MILLENDER-MCDONALD</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <middleName>M.</middleName>
+        <district>37</district>
+        <sponsorshipDate>2003-06-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000627</bioguideId>
+        <fullName>Rep. Hinchey, Maurice D. [D-NY-22]</fullName>
+        <firstName>MAURICE</firstName>
+        <lastName>HINCHEY</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>D.</middleName>
+        <district>22</district>
+        <sponsorshipDate>2003-06-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001049</bioguideId>
+        <fullName>Rep. Clay, Wm. Lacy [D-MO-1]</fullName>
+        <firstName>WM.</firstName>
+        <lastName>CLAY</lastName>
+        <party>D</party>
+        <state>MO</state>
+        <middleName>LACY</middleName>
+        <district>1</district>
+        <sponsorshipDate>2003-06-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000590</bioguideId>
+        <fullName>Rep. McNulty, Michael R. [D-NY-21]</fullName>
+        <firstName>MICHAEL</firstName>
+        <lastName>MCNULTY</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>R.</middleName>
+        <district>21</district>
+        <sponsorshipDate>2003-06-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000944</bioguideId>
+        <fullName>Rep. Brown, Sherrod [D-OH-13]</fullName>
+        <firstName>Sherrod</firstName>
+        <lastName>Brown</lastName>
+        <party>D</party>
+        <state>OH</state>
+        <district>13</district>
+        <sponsorshipDate>2003-06-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001157</bioguideId>
+        <fullName>Rep. Scott, David [D-GA-13]</fullName>
+        <firstName>David</firstName>
+        <lastName>Scott</lastName>
+        <party>D</party>
+        <state>GA</state>
+        <district>13</district>
+        <sponsorshipDate>2003-06-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>J000032</bioguideId>
+        <fullName>Rep. Jackson-Lee, Sheila [D-TX-18]</fullName>
+        <firstName>SHEILA</firstName>
+        <lastName>JACKSON-LEE</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>18</district>
+        <sponsorshipDate>2003-06-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000312</bioguideId>
+        <fullName>Rep. McGovern, James P. [D-MA-3]</fullName>
+        <firstName>JAMES</firstName>
+        <lastName>MCGOVERN</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>P.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2003-06-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000404</bioguideId>
+        <fullName>Rep. McDermott, Jim [D-WA-7]</fullName>
+        <firstName>JIM</firstName>
+        <lastName>MCDERMOTT</lastName>
+        <party>D</party>
+        <state>WA</state>
+        <district>7</district>
+        <sponsorshipDate>2003-06-24</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>O000159</bioguideId>
+        <fullName>Rep. Owens, Major R. [D-NY-11]</fullName>
+        <firstName>MAJOR</firstName>
+        <lastName>OWENS</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>R.</middleName>
+        <district>11</district>
+        <sponsorshipDate>2003-06-26</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000033</bioguideId>
+        <fullName>Rep. Sanders, Bernard [I-VT-At Large]</fullName>
+        <firstName>Bernard</firstName>
+        <lastName>Sanders</lastName>
+        <party>I</party>
+        <state>VT</state>
+        <district>0</district>
+        <sponsorshipDate>2003-07-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>A000357</bioguideId>
+        <fullName>Rep. Allen, Thomas H. [D-ME-1]</fullName>
+        <firstName>THOMAS</firstName>
+        <lastName>ALLEN</lastName>
+        <party>D</party>
+        <state>ME</state>
+        <middleName>H.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2003-07-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000287</bioguideId>
+        <fullName>Rep. Emanuel, Rahm [D-IL-5]</fullName>
+        <firstName>Rahm</firstName>
+        <lastName>Emanuel</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <district>5</district>
+        <sponsorshipDate>2003-07-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001145</bioguideId>
+        <fullName>Rep. Schakowsky, Janice D. [D-IL-9]</fullName>
+        <firstName>JANICE</firstName>
+        <lastName>SCHAKOWSKY</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>D.</middleName>
+        <district>9</district>
+        <sponsorshipDate>2003-07-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000090</bioguideId>
+        <fullName>Rep. Lantos, Tom [D-CA-12]</fullName>
+        <firstName>TOM</firstName>
+        <lastName>LANTOS</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>12</district>
+        <sponsorshipDate>2003-07-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000314</bioguideId>
+        <fullName>Rep. Wexler, Robert [D-FL-19]</fullName>
+        <firstName>ROBERT</firstName>
+        <lastName>WEXLER</lastName>
+        <party>D</party>
+        <state>FL</state>
+        <district>19</district>
+        <sponsorshipDate>2003-07-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>J000070</bioguideId>
+        <fullName>Rep. Jefferson, William J. [D-LA-2]</fullName>
+        <firstName>WILLIAM</firstName>
+        <lastName>JEFFERSON</lastName>
+        <party>D</party>
+        <state>LA</state>
+        <middleName>J.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2003-07-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000193</bioguideId>
+        <fullName>Rep. Thompson, Bennie G. [D-MS-2]</fullName>
+        <firstName>BENNIE</firstName>
+        <lastName>THOMPSON</lastName>
+        <party>D</party>
+        <state>MS</state>
+        <district>2</district>
+        <sponsorshipDate>2003-07-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>N000015</bioguideId>
+        <fullName>Rep. Neal, Richard E. [D-MA-2]</fullName>
+        <firstName>RICHARD</firstName>
+        <lastName>NEAL</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>E.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2003-07-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000392</bioguideId>
+        <fullName>Rep. Frost, Martin [D-TX-24]</fullName>
+        <firstName>MARTIN</firstName>
+        <lastName>FROST</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>24</district>
+        <sponsorshipDate>2003-07-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000794</bioguideId>
+        <fullName>Rep. Watson, Diane E. [D-CA-33]</fullName>
+        <firstName>Diane</firstName>
+        <lastName>Watson</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <middleName>E.</middleName>
+        <district>33</district>
+        <sponsorshipDate>2003-07-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>N000147</bioguideId>
+        <fullName>Del. Norton, Eleanor Holmes [D-DC-At Large]</fullName>
+        <firstName>ELEANOR</firstName>
+        <lastName>NORTON</lastName>
+        <party>D</party>
+        <state>DC</state>
+        <middleName>HOLMES</middleName>
+        <district>0</district>
+        <sponsorshipDate>2003-07-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000030</bioguideId>
+        <fullName>Rep. Farr, Sam [D-CA-17]</fullName>
+        <firstName>SAM</firstName>
+        <lastName>FARR</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>17</district>
+        <sponsorshipDate>2003-07-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000515</bioguideId>
+        <fullName>Rep. Rush, Bobby L. [D-IL-1]</fullName>
+        <firstName>BOBBY</firstName>
+        <lastName>RUSH</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>L.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2003-07-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001055</bioguideId>
+        <fullName>Rep. Case, Ed [D-HI-2]</fullName>
+        <firstName>Ed</firstName>
+        <lastName>Case</lastName>
+        <party>D</party>
+        <state>HI</state>
+        <district>2</district>
+        <sponsorshipDate>2003-07-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001156</bioguideId>
+        <fullName>Rep. Sánchez, Linda T. [D-CA-39]</fullName>
+        <firstName>Linda</firstName>
+        <lastName>Sánchez</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <middleName>T.</middleName>
+        <district>39</district>
+        <sponsorshipDate>2003-07-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000738</bioguideId>
+        <fullName>Rep. Woolsey, Lynn C. [D-CA-6]</fullName>
+        <firstName>LYNN</firstName>
+        <lastName>WOOLSEY</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>6</district>
+        <sponsorshipDate>2003-07-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001004</bioguideId>
+        <fullName>Rep. Strickland, Ted [D-OH-6]</fullName>
+        <firstName>TED</firstName>
+        <lastName>STRICKLAND</lastName>
+        <party>D</party>
+        <state>OH</state>
+        <district>6</district>
+        <sponsorshipDate>2003-07-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000480</bioguideId>
+        <fullName>Rep. Slaughter, Louise McIntosh [D-NY-28]</fullName>
+        <firstName>LOUISE</firstName>
+        <lastName>SLAUGHTER</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>M.</middleName>
+        <district>28</district>
+        <sponsorshipDate>2003-07-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000009</bioguideId>
+        <fullName>Rep. Kaptur, Marcy [D-OH-9]</fullName>
+        <firstName>MARCY</firstName>
+        <lastName>KAPTUR</lastName>
+        <party>D</party>
+        <state>OH</state>
+        <district>9</district>
+        <sponsorshipDate>2003-09-03</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000215</bioguideId>
+        <fullName>Rep. Eshoo, Anna G. [D-CA-14]</fullName>
+        <firstName>ANNA</firstName>
+        <lastName>ESHOO</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <middleName>G.</middleName>
+        <district>14</district>
+        <sponsorshipDate>2003-09-03</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000397</bioguideId>
+        <fullName>Rep. Lofgren, Zoe [D-CA-16]</fullName>
+        <firstName>ZOE</firstName>
+        <lastName>LOFGREN</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>16</district>
+        <sponsorshipDate>2003-09-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001149</bioguideId>
+        <fullName>Rep. Michaud, Michael H. [D-ME-2]</fullName>
+        <firstName>Michael</firstName>
+        <lastName>Michaud</lastName>
+        <party>D</party>
+        <state>ME</state>
+        <middleName>H.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2003-09-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000933</bioguideId>
+        <fullName>Rep. Moran, James P. [D-VA-8]</fullName>
+        <firstName>JAMES</firstName>
+        <lastName>MORAN</lastName>
+        <party>D</party>
+        <state>VA</state>
+        <middleName>P.</middleName>
+        <district>8</district>
+        <sponsorshipDate>2003-10-02</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000558</bioguideId>
+        <fullName>Rep. Lucas, Ken [D-KY-4]</fullName>
+        <firstName>KEN</firstName>
+        <lastName>LUCAS</lastName>
+        <party>D</party>
+        <state>KY</state>
+        <district>4</district>
+        <sponsorshipDate>2003-10-07</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000557</bioguideId>
+        <fullName>Rep. Larson, John B. [D-CT-1]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>LARSON</lastName>
+        <party>D</party>
+        <state>CT</state>
+        <middleName>B.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2003-10-07</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000535</bioguideId>
+        <fullName>Rep. Gutierrez, Luis V. [D-IL-4]</fullName>
+        <firstName>LUIS</firstName>
+        <lastName>GUTIERREZ</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>V.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2003-11-18</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001030</bioguideId>
+        <fullName>Rep. Hill, Baron P. [D-IN-9]</fullName>
+        <firstName>BARON</firstName>
+        <lastName>HILL</lastName>
+        <party>D</party>
+        <state>IN</state>
+        <middleName>P.</middleName>
+        <district>9</district>
+        <sponsorshipDate>2004-02-04</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000339</bioguideId>
+        <fullName>Rep. Frank, Barney [D-MA-4]</fullName>
+        <firstName>BARNEY</firstName>
+        <lastName>FRANK</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <district>4</district>
+        <sponsorshipDate>2004-03-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000116</bioguideId>
+        <fullName>Rep. Filner, Bob [D-CA-51]</fullName>
+        <firstName>BOB</firstName>
+        <lastName>FILNER</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>51</district>
+        <sponsorshipDate>2004-03-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000287</bioguideId>
+        <fullName>Rep. Lewis, John [D-GA-5]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>LEWIS</lastName>
+        <party>D</party>
+        <state>GA</state>
+        <district>5</district>
+        <sponsorshipDate>2004-03-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000210</bioguideId>
+        <fullName>Rep. Delahunt, William D. [D-MA-10]</fullName>
+        <firstName>William</firstName>
+        <lastName>Delahunt</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>D.</middleName>
+        <district>10</district>
+        <sponsorshipDate>2004-03-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001138</bioguideId>
+        <fullName>Rep. Manzullo, Donald A. [R-IL-16]</fullName>
+        <firstName>DONALD</firstName>
+        <lastName>MANZULLO</lastName>
+        <party>R</party>
+        <state>IL</state>
+        <district>16</district>
+        <sponsorshipDate>2004-05-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>O000085</bioguideId>
+        <fullName>Rep. Olver, John W. [D-MA-1]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>OLVER</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>W.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2004-06-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000258</bioguideId>
+        <fullName>Rep. Peterson, Collin C. [D-MN-7]</fullName>
+        <firstName>COLLIN</firstName>
+        <lastName>PETERSON</lastName>
+        <party>D</party>
+        <state>MN</state>
+        <middleName>C.</middleName>
+        <district>7</district>
+        <sponsorshipDate>2004-06-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000522</bioguideId>
+        <fullName>Rep. Smith, Christopher H. [R-NJ-4]</fullName>
+        <firstName>CHRISTOPHER</firstName>
+        <lastName>SMITH</lastName>
+        <party>R</party>
+        <state>NJ</state>
+        <middleName>H.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2004-06-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000215</bioguideId>
+        <fullName>Rep. Waxman, Henry A. [D-CA-30]</fullName>
+        <firstName>HENRY</firstName>
+        <lastName>WAXMAN</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <middleName>A.</middleName>
+        <district>30</district>
+        <sponsorshipDate>2004-06-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000559</bioguideId>
+        <fullName>Rep. Langevin, James R. [D-RI-2]</fullName>
+        <firstName>JAMES</firstName>
+        <lastName>LANGEVIN</lastName>
+        <party>D</party>
+        <state>RI</state>
+        <middleName>R.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2004-09-07</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000810</bioguideId>
+        <fullName>Rep. Stark, Fortney Pete [D-CA-13]</fullName>
+        <firstName>PETE</firstName>
+        <lastName>STARK</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>13</district>
+        <sponsorshipDate>2004-09-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001246</bioguideId>
+        <fullName>Rep. Bradley, Jeb [R-NH-1]</fullName>
+        <firstName>Jeb</firstName>
+        <lastName>Bradley</lastName>
+        <party>R</party>
+        <state>NH</state>
+        <district>1</district>
+        <sponsorshipDate>2004-09-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>I000057</bioguideId>
+        <fullName>Rep. Israel, Steve [D-NY-2]</fullName>
+        <firstName>STEVE</firstName>
+        <lastName>ISRAEL</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <district>2</district>
+        <sponsorshipDate>2004-11-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Education</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Administrative fees</name>
+        </item>
+        <item>
+          <name>Economics and Public Finance</name>
+        </item>
+        <item>
+          <name>Federal aid to education</name>
+        </item>
+        <item>
+          <name>Federally-guaranteed loans</name>
+        </item>
+        <item>
+          <name>Fees</name>
+        </item>
+        <item>
+          <name>Finance and Financial Sector</name>
+        </item>
+        <item>
+          <name>Government lending</name>
+        </item>
+        <item>
+          <name>Higher education</name>
+        </item>
+        <item>
+          <name>Interest rates</name>
+        </item>
+        <item>
+          <name>Law</name>
+        </item>
+        <item>
+          <name>Scholarships</name>
+        </item>
+        <item>
+          <name>Student loan funds</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Education</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2003-06-18</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2003-09-02T20:26:03Z</updateDate>
+        <text><![CDATA[ <p>College Loan Assistance Act of 2003 - Amends the Higher Education Act of 1965 to revise student aid requirements for student loans and Pell Grants.</p> <p>Allows refinancing of student consolidation loans under the Federal Family Education Loan (FFEL) program. Reduces the amount of a cap on interest rate under the FFEL program.</p> <p>Extends authority for the Pell Grant program. Increases the maximum amount of an individual Pell Grant award to $7,000 for each of academic years 2004-2005 and 2005-2006.</p> <p>Prohibits eligible lenders or the Secretary of Education from collecting origination fees from borrowers, under the FFEL or the Federal direct loan program, for any loan made on or after the first July 1 after the date of enactment of the Student Loan Relief Act of 2003 (sic).</p>]]></text>
+      </summary>
+    </summaries>
+    <title>College Loan Assistance Act of 2003</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>College Loan Assistance Act of 2003</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend the Higher Education Act of 1965 to permit refinancing of student consolidation loans, increase Pell Grant maximum awards, and for other purposes.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>College Loan Assistance Act of 2003</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2003-06-18T04:00:00Z</date>
+        <formats/>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2003-07-21</actionDate>
+      <text>Referred to the Subcommittee on 21st Century Competitiveness.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

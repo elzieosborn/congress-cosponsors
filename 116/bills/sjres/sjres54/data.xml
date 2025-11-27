@@ -1,0 +1,110 @@
+<bill session="116" type="sj" number="54" updated="2023-11-17T22:13:46Z">
+  <state datetime="2019-10-17">VETOED:OVERRIDE_FAIL_ORIGINATING:SENATE</state>
+  <status>
+    <unknown datetime="2019-10-17"/>
+  </status>
+  <introduced datetime="2019-09-10"/>
+  <titles>
+    <title type="display">A joint resolution relating to a national emergency declared by the President on February 15, 2019.</title>
+    <title type="official" as="introduced">A joint resolution relating to a national emergency declared by the President on February 15, 2019.</title>
+  </titles>
+  <sponsor bioguide_id="U000039"/>
+  <cosponsors>
+    <cosponsor bioguide_id="C001035" joined="2019-09-10"/>
+    <cosponsor bioguide_id="S001181" joined="2019-09-10"/>
+  </cosponsors>
+  <actions>
+    <action datetime="2019-09-10">
+      <text>Introduced in Senate</text>
+    </action>
+    <action datetime="2019-09-10" state="REFERRED">
+      <text>Read twice and referred to the Committee on Armed Services.</text>
+    </action>
+    <action datetime="2019-09-25">
+      <text>Senate Committee on Armed Services discharged by Unanimous Consent.</text>
+    </action>
+    <action datetime="2019-09-25">
+      <text>Measure laid before Senate by unanimous consent.</text>
+      <reference ref="CR S5674-5677, S5680-5681" label="consideration"/>
+    </action>
+    <vote how="roll" type="vote" roll="302" datetime="2019-09-25" where="s" result="pass" state="PASS_OVER:SENATE">
+      <text>Passed Senate without amendment by Yea-Nay Vote. 54 - 41. Record Vote Number: 302.</text>
+      <reference ref="09/26/2019 CR S5759" label="text"/>
+    </vote>
+    <action datetime="2019-09-25">
+      <text>Message on Senate action sent to the House.</text>
+    </action>
+    <action datetime="2019-09-25T16:01:02-04:00">
+      <text>Received in the House.</text>
+    </action>
+    <action datetime="2019-09-25T18:45:23-04:00">
+      <text>Rules Committee Resolution H. Res. 591 Reported to House. Rule provides for consideration of S.J. Res. 54 with 1 hour of general debate. Motion to recommit with or without instructions allowed. Measure will be considered read. Bill is closed to amendments.</text>
+    </action>
+    <action datetime="2019-09-25T18:52:20-04:00">
+      <text>Held at the desk.</text>
+    </action>
+    <action datetime="2019-09-26T16:53:57-04:00">
+      <text>Rule H. Res. 591 passed House.</text>
+    </action>
+    <action datetime="2019-09-27T09:18:20-04:00">
+      <text>Considered under the provisions of rule H. Res. 591.</text>
+      <reference ref="CR H8061-8071" label="consideration"/>
+    </action>
+    <action datetime="2019-09-27T09:18:25-04:00">
+      <text>Rule provides for consideration of S.J. Res. 54 with 1 hour of general debate. Motion to commit allowed. Measure will be considered read. Bill is closed to amendments.</text>
+    </action>
+    <action datetime="2019-09-27T09:19:05-04:00">
+      <text>DEBATE - The House proceeded with one hour of debate on S.J. Res. 54.</text>
+    </action>
+    <action datetime="2019-09-27T10:32:39-04:00">
+      <text>The previous question was ordered pursuant to the rule.</text>
+    </action>
+    <vote how="roll" type="vote2" roll="553" datetime="2019-09-27T11:04:54-04:00" where="h" result="pass" state="PASSED:BILL">
+      <text>On passage Passed by the Yeas and Nays: 236 - 174 (Roll no. 553).</text>
+      <reference ref="CR H8061" label="text"/>
+    </vote>
+    <action datetime="2019-09-27T11:04:55-04:00">
+      <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+    </action>
+    <topresident datetime="2019-10-04">
+      <text>Presented to President.</text>
+    </topresident>
+    <vetoed datetime="2019-10-15" state="PROV_KILL:VETO">
+      <text>Vetoed by President.</text>
+    </vetoed>
+    <action datetime="2019-10-16">
+      <text>Veto message received in Senate. Ordered held at the desk.</text>
+      <reference ref="CR S5852" label="text"/>
+    </action>
+    <action datetime="2019-10-17">
+      <text>Veto Message considered in Senate.</text>
+      <reference ref="CR S5869, S5874-5875" label="consideration"/>
+    </action>
+    <vote how="roll" type="override" roll="325" datetime="2019-10-17" where="s" result="fail" state="VETOED:OVERRIDE_FAIL_ORIGINATING:SENATE">
+      <text>Failed of passage in Senate over veto by Yea-Nay Vote. 53 - 36. Record Vote Number: 325.</text>
+    </vote>
+  </actions>
+  <committees>
+    <committee code="SSAS" name="Senate Armed Services" subcommittee="" activity="Discharged, Referral"/>
+  </committees>
+  <relatedbills>
+    <bill session="116" type="hj" number="46" relation="identical"/>
+    <bill session="116" type="hj" number="75" relation="identical"/>
+    <bill session="116" type="hj" number="85" relation="identical"/>
+    <bill session="116" type="sj" number="10" relation="identical"/>
+    <bill session="116" type="hr" number="591" relation="procedurally-related"/>
+  </relatedbills>
+  <subjects>
+    <term name="Immigration"/>
+    <term name="Border security and unlawful immigration"/>
+    <term name="Congressional oversight"/>
+    <term name="Latin America"/>
+    <term name="Mexico"/>
+    <term name="Military civil functions"/>
+    <term name="National Guard and reserves"/>
+    <term name="Presidents and presidential powers, Vice Presidents"/>
+    <term name="War and emergency powers"/>
+  </subjects>
+  <amendments/>
+  <summary date="2020-01-27T11:29:05Z" status="Passed House">This joint resolution terminates the national emergency related to the U.S.-Mexico border, declared by the President on February 15, 2019.</summary>
+</bill>

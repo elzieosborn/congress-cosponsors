@@ -1,0 +1,870 @@
+{
+  "actions": [
+    {
+      "acted_at": "2017-01-03",
+      "action_code": "Intro-H",
+      "references": [],
+      "text": "Introduced in House",
+      "type": "action"
+    },
+    {
+      "acted_at": "2017-01-03",
+      "action_code": "H11100",
+      "committees": [
+        "HSJU"
+      ],
+      "references": [],
+      "status": "REFERRED",
+      "text": "Referred to the House Committee on the Judiciary.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2017-01-11",
+      "action_code": "",
+      "committees": [
+        "HSJU"
+      ],
+      "references": [],
+      "text": "Referred to the Subcommittee on the Constitution and Civil Justice.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2018-04-12T12:28:50-04:00",
+      "action_code": "H30300",
+      "references": [],
+      "text": "Mr. Goodlatte moved to suspend the rules and pass the resolution.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2018-04-12T12:29:00-04:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H3162-3192",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered under suspension of the rules.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2018-04-12T12:29:02-04:00",
+      "action_code": "H8D000",
+      "bill_ids": [
+        "hres811-115"
+      ],
+      "references": [],
+      "text": "DEBATE - Pursuant to the provisions of H.Res. 811, the House proceeded with 4 hours of debate on H.J. Res. 2.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2018-04-12T16:41:33-04:00",
+      "action_code": "H37220",
+      "references": [],
+      "text": "At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2018-04-12T17:01:30-04:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H3193",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered as unfinished business.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2018-04-12T17:30:17-04:00",
+      "action_code": "H37300",
+      "how": "roll",
+      "references": [
+        {
+          "reference": "CR H3162",
+          "type": "text"
+        }
+      ],
+      "result": "fail",
+      "roll": "138",
+      "status": "PROV_KILL:SUSPENSIONFAILED",
+      "suspension": true,
+      "text": "On motion to suspend the rules and pass the resolution Failed by the Yeas and Nays: (2/3 required): 233 - 184 (Roll no. 138).",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "h"
+    }
+  ],
+  "amendments": [],
+  "bill_id": "hjres2-115",
+  "bill_type": "hjres",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [
+    {
+      "activity": [
+        "referral"
+      ],
+      "committee": "House Judiciary",
+      "committee_id": "HSJU"
+    },
+    {
+      "activity": [
+        "referral"
+      ],
+      "committee": "House Judiciary",
+      "committee_id": "HSJU",
+      "subcommittee": "Subcommittee on Constitution and Limited Government",
+      "subcommittee_id": "10"
+    }
+  ],
+  "congress": "115",
+  "cosponsors": [
+    {
+      "bioguide_id": "A000374",
+      "district": "5",
+      "name": "Abraham, Ralph Lee",
+      "original_cosponsor": false,
+      "sponsored_at": "2018-04-09",
+      "state": "LA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "A000372",
+      "district": "12",
+      "name": "Allen, Rick W.",
+      "original_cosponsor": false,
+      "sponsored_at": "2017-01-31",
+      "state": "GA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "A000369",
+      "district": "2",
+      "name": "Amodei, Mark E.",
+      "original_cosponsor": false,
+      "sponsored_at": "2017-01-31",
+      "state": "NV",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "A000375",
+      "district": "19",
+      "name": "Arrington, Jodey C.",
+      "original_cosponsor": false,
+      "sponsored_at": "2017-11-16",
+      "state": "TX",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001298",
+      "district": "2",
+      "name": "Bacon, Don",
+      "original_cosponsor": false,
+      "sponsored_at": "2017-01-10",
+      "state": "NE",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001299",
+      "district": "3",
+      "name": "Banks, Jim",
+      "original_cosponsor": false,
+      "sponsored_at": "2018-04-09",
+      "state": "IN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001257",
+      "district": "12",
+      "name": "Bilirakis, Gus M.",
+      "original_cosponsor": false,
+      "sponsored_at": "2017-07-12",
+      "state": "FL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001293",
+      "district": "8",
+      "name": "Bishop, Mike",
+      "original_cosponsor": false,
+      "sponsored_at": "2017-01-10",
+      "state": "MI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001243",
+      "district": "7",
+      "name": "Blackburn, Marsha",
+      "original_cosponsor": false,
+      "sponsored_at": "2018-04-10",
+      "state": "TN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001260",
+      "district": "16",
+      "name": "Buchanan, Vern",
+      "original_cosponsor": false,
+      "sponsored_at": "2018-04-05",
+      "state": "FL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C000059",
+      "district": "42",
+      "name": "Calvert, Ken",
+      "original_cosponsor": false,
+      "sponsored_at": "2017-03-23",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C000266",
+      "district": "1",
+      "name": "Chabot, Steve",
+      "original_cosponsor": false,
+      "sponsored_at": "2017-07-26",
+      "state": "OH",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001077",
+      "district": "6",
+      "name": "Coffman, Mike",
+      "original_cosponsor": false,
+      "sponsored_at": "2017-01-31",
+      "state": "CO",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001053",
+      "district": "4",
+      "name": "Cole, Tom",
+      "original_cosponsor": false,
+      "sponsored_at": "2017-03-08",
+      "state": "OK",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001108",
+      "district": "1",
+      "name": "Comer, James",
+      "original_cosponsor": false,
+      "sponsored_at": "2017-01-31",
+      "state": "KY",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001062",
+      "district": "11",
+      "name": "Conaway, K. Michael",
+      "original_cosponsor": false,
+      "sponsored_at": "2017-03-08",
+      "state": "TX",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001096",
+      "district": "0",
+      "name": "Cramer, Kevin",
+      "original_cosponsor": false,
+      "sponsored_at": "2018-04-05",
+      "state": "ND",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001048",
+      "district": "7",
+      "name": "Culberson, John Abney",
+      "original_cosponsor": true,
+      "sponsored_at": "2017-01-03",
+      "state": "TX",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000191",
+      "district": "4",
+      "name": "DeFazio, Peter A.",
+      "original_cosponsor": true,
+      "sponsored_at": "2017-01-03",
+      "state": "OR",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "E000294",
+      "district": "6",
+      "name": "Emmer, Tom",
+      "original_cosponsor": false,
+      "sponsored_at": "2017-01-31",
+      "state": "MN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "F000460",
+      "district": "27",
+      "name": "Farenthold, Blake",
+      "original_cosponsor": true,
+      "sponsored_at": "2017-01-03",
+      "state": "TX",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "F000466",
+      "district": "8",
+      "name": "Fitzpatrick, Brian K.",
+      "original_cosponsor": false,
+      "sponsored_at": "2018-04-09",
+      "state": "PA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "F000461",
+      "district": "17",
+      "name": "Flores, Bill",
+      "original_cosponsor": false,
+      "sponsored_at": "2017-07-26",
+      "state": "TX",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "G000579",
+      "district": "8",
+      "name": "Gallagher, Mike",
+      "original_cosponsor": false,
+      "sponsored_at": "2017-04-05",
+      "state": "WI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "G000580",
+      "district": "5",
+      "name": "Garrett, Thomas A., Jr.",
+      "original_cosponsor": false,
+      "sponsored_at": "2018-04-11",
+      "state": "VA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "G000584",
+      "district": "0",
+      "name": "Gianforte, Greg",
+      "original_cosponsor": false,
+      "sponsored_at": "2017-06-21",
+      "state": "MT",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "G000566",
+      "district": "4",
+      "name": "Gowdy, Trey",
+      "original_cosponsor": false,
+      "sponsored_at": "2017-01-10",
+      "state": "SC",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "G000577",
+      "district": "6",
+      "name": "Graves, Garret",
+      "original_cosponsor": false,
+      "sponsored_at": "2018-04-10",
+      "state": "LA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "G000568",
+      "district": "9",
+      "name": "Griffith, H. Morgan",
+      "original_cosponsor": false,
+      "sponsored_at": "2017-03-08",
+      "state": "VA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "G000558",
+      "district": "2",
+      "name": "Guthrie, Brett",
+      "original_cosponsor": false,
+      "sponsored_at": "2017-09-27",
+      "state": "KY",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H001056",
+      "district": "3",
+      "name": "Herrera Beutler, Jaime",
+      "original_cosponsor": false,
+      "sponsored_at": "2018-04-05",
+      "state": "WA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H001077",
+      "district": "3",
+      "name": "Higgins, Clay",
+      "original_cosponsor": false,
+      "sponsored_at": "2018-04-11",
+      "state": "LA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H001072",
+      "district": "2",
+      "name": "Hill, J. French",
+      "original_cosponsor": false,
+      "sponsored_at": "2017-03-23",
+      "state": "AR",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H001067",
+      "district": "8",
+      "name": "Hudson, Richard",
+      "original_cosponsor": false,
+      "sponsored_at": "2018-04-11",
+      "state": "NC",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "J000297",
+      "district": "3",
+      "name": "Jenkins, Evan H.",
+      "original_cosponsor": false,
+      "sponsored_at": "2018-04-05",
+      "state": "WV",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "K000362",
+      "district": "4",
+      "name": "King, Steve",
+      "original_cosponsor": false,
+      "sponsored_at": "2017-07-26",
+      "state": "IA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "K000392",
+      "district": "8",
+      "name": "Kustoff, David",
+      "original_cosponsor": false,
+      "sponsored_at": "2018-04-10",
+      "state": "TN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "L000566",
+      "district": "5",
+      "name": "Latta, Robert E.",
+      "original_cosponsor": false,
+      "sponsored_at": "2018-02-27",
+      "state": "OH",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001199",
+      "district": "18",
+      "name": "Mast, Brian J.",
+      "original_cosponsor": false,
+      "sponsored_at": "2017-11-16",
+      "state": "FL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001197",
+      "district": "2",
+      "name": "McSally, Martha",
+      "original_cosponsor": false,
+      "sponsored_at": "2018-04-10",
+      "state": "AZ",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001201",
+      "district": "10",
+      "name": "Mitchell, Paul",
+      "original_cosponsor": false,
+      "sponsored_at": "2017-01-31",
+      "state": "MI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001151",
+      "district": "18",
+      "name": "Murphy, Tim",
+      "original_cosponsor": false,
+      "sponsored_at": "2017-01-31",
+      "state": "PA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "N000189",
+      "district": "4",
+      "name": "Newhouse, Dan",
+      "original_cosponsor": true,
+      "sponsored_at": "2017-01-03",
+      "state": "WA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "O000168",
+      "district": "22",
+      "name": "Olson, Pete",
+      "original_cosponsor": false,
+      "sponsored_at": "2017-01-10",
+      "state": "TX",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "P000601",
+      "district": "4",
+      "name": "Palazzo, Steven M.",
+      "original_cosponsor": false,
+      "sponsored_at": "2018-04-11",
+      "state": "MS",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "P000611",
+      "district": "2",
+      "name": "Poliquin, Bruce",
+      "original_cosponsor": false,
+      "sponsored_at": "2018-01-08",
+      "state": "ME",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000597",
+      "district": "7",
+      "name": "Rice, Tom",
+      "original_cosponsor": false,
+      "sponsored_at": "2017-01-31",
+      "state": "SC",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000582",
+      "district": "1",
+      "name": "Roe, David P.",
+      "original_cosponsor": false,
+      "sponsored_at": "2017-03-08",
+      "state": "TN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000592",
+      "district": "4",
+      "name": "Rokita, Todd",
+      "original_cosponsor": false,
+      "sponsored_at": "2017-09-27",
+      "state": "IN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000607",
+      "district": "19",
+      "name": "Rooney, Francis",
+      "original_cosponsor": false,
+      "sponsored_at": "2017-01-10",
+      "state": "FL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000603",
+      "district": "7",
+      "name": "Rouzer, David",
+      "original_cosponsor": false,
+      "sponsored_at": "2017-01-10",
+      "state": "NC",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S000051",
+      "district": "1",
+      "name": "Sanford, Mark",
+      "original_cosponsor": false,
+      "sponsored_at": "2017-01-10",
+      "state": "SC",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S000250",
+      "district": "32",
+      "name": "Sessions, Pete",
+      "original_cosponsor": false,
+      "sponsored_at": "2018-01-12",
+      "state": "TX",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001148",
+      "district": "2",
+      "name": "Simpson, Michael K.",
+      "original_cosponsor": false,
+      "sponsored_at": "2018-02-02",
+      "state": "ID",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001172",
+      "district": "3",
+      "name": "Smith, Adrian",
+      "original_cosponsor": false,
+      "sponsored_at": "2018-04-09",
+      "state": "NE",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001195",
+      "district": "8",
+      "name": "Smith, Jason",
+      "original_cosponsor": false,
+      "sponsored_at": "2018-04-05",
+      "state": "MO",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S000583",
+      "district": "21",
+      "name": "Smith, Lamar",
+      "original_cosponsor": true,
+      "sponsored_at": "2017-01-03",
+      "state": "TX",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001199",
+      "district": "16",
+      "name": "Smucker, Lloyd",
+      "original_cosponsor": false,
+      "sponsored_at": "2017-03-08",
+      "state": "PA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001187",
+      "district": "15",
+      "name": "Stivers, Steve",
+      "original_cosponsor": false,
+      "sponsored_at": "2018-04-10",
+      "state": "OH",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "T000478",
+      "district": "22",
+      "name": "Tenney, Claudia",
+      "original_cosponsor": false,
+      "sponsored_at": "2018-04-05",
+      "state": "NY",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "T000238",
+      "district": "13",
+      "name": "Thornberry, Mac",
+      "original_cosponsor": false,
+      "sponsored_at": "2017-07-12",
+      "state": "TX",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "T000463",
+      "district": "10",
+      "name": "Turner, Michael R.",
+      "original_cosponsor": false,
+      "sponsored_at": "2017-03-23",
+      "state": "OH",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "U000031",
+      "district": "6",
+      "name": "Upton, Fred",
+      "original_cosponsor": false,
+      "sponsored_at": "2017-01-31",
+      "state": "MI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000791",
+      "district": "2",
+      "name": "Walden, Greg",
+      "original_cosponsor": false,
+      "sponsored_at": "2018-04-05",
+      "state": "OR",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "Y000066",
+      "district": "3",
+      "name": "Young, David",
+      "original_cosponsor": false,
+      "sponsored_at": "2018-04-10",
+      "state": "IA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    }
+  ],
+  "enacted_as": null,
+  "history": {
+    "active": true,
+    "active_at": "2018-04-12T12:28:50-04:00",
+    "awaiting_signature": false,
+    "enacted": false,
+    "house_passage_result": "fail",
+    "house_passage_result_at": "2018-04-12T17:30:17-04:00",
+    "vetoed": false
+  },
+  "introduced_at": "2017-01-03",
+  "number": "2",
+  "official_title": "Proposing a balanced budget amendment to the Constitution of the United States.",
+  "popular_title": null,
+  "related_bills": [
+    {
+      "bill_id": "hjres8-115",
+      "identified_by": "CRS",
+      "reason": "related",
+      "type": "bill"
+    },
+    {
+      "bill_id": "hjres109-115",
+      "identified_by": "CRS",
+      "reason": "related",
+      "type": "bill"
+    },
+    {
+      "bill_id": "hjres1-115",
+      "identified_by": "CRS",
+      "reason": "related",
+      "type": "bill"
+    },
+    {
+      "bill_id": "hjres14-115",
+      "identified_by": "CRS",
+      "reason": "related",
+      "type": "bill"
+    },
+    {
+      "bill_id": "hjres18-115",
+      "identified_by": "CRS",
+      "reason": "related",
+      "type": "bill"
+    },
+    {
+      "bill_id": "hjres98-115",
+      "identified_by": "CRS",
+      "reason": "related",
+      "type": "bill"
+    }
+  ],
+  "short_title": null,
+  "sponsor": {
+    "bioguide_id": "G000289",
+    "district": "6",
+    "name": "Goodlatte, Bob",
+    "state": "VA",
+    "title": "Rep.",
+    "type": "person"
+  },
+  "status": "PROV_KILL:SUSPENSIONFAILED",
+  "status_at": "2018-04-12T17:30:17-04:00",
+  "subjects": [
+    "Budget deficits and national debt",
+    "Constitution and constitutional amendments",
+    "Economics and public finance",
+    "Income tax rates",
+    "Legislative rules and procedure"
+  ],
+  "subjects_top_term": "Economics and public finance",
+  "summary": {
+    "as": "Introduced in House",
+    "asOf": "2017-01-03",
+    "date": "2017-01-05T20:50:08Z",
+    "text": "Constitutional Amendment \n\nThis joint resolution proposes a constitutional amendment prohibiting total outlays for a fiscal year from exceeding total receipts for that fiscal year unless Congress authorizes the excess by a three-fifths roll call vote of each chamber. The prohibition excludes outlays for repayment of debt principal and receipts derived from borrowing.\n\nThe amendment requires a three-fifths roll call vote of each chamber of Congress to increase the public debt limit. It requires a majority roll vote of each chamber to increase revenue. It also requires the President to submit a balanced budget to Congress annually.\n\nCongress is authorized to waive these requirements when a declaration of war is in effect or if the United States is engaged in a military conflict which causes an imminent and serious military threat to national security."
+  },
+  "titles": [
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Proposing a balanced budget amendment to the Constitution of the United States.",
+      "type": "display"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Proposing a balanced budget amendment to the Constitution of the United States.",
+      "type": "official"
+    }
+  ],
+  "updated_at": "2023-01-11T13:34:41Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/115/hjres/BILLSTATUS-115hjres2.xml"
+}

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>2593</number>
+    <updateDate>2023-01-15T16:33:40Z</updateDate>
+    <updateDateIncludingText>2023-01-15T16:33:40Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2003-06-24</introducedDate>
+    <congress>108</congress>
+    <committees>
+      <item>
+        <systemCode>hsvr00</systemCode>
+        <name>Veterans' Affairs Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsvr06</systemCode>
+            <name>Benefits Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2003-07-24T13:52:10Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2003-06-24T12:57:15Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2003-07-24</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsvr06</systemCode>
+            <name>Benefits Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Benefits.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2003-06-24</actionDate>
+        <text>Referred to the House Committee on Veterans' Affairs.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsvr00</systemCode>
+            <name>Veterans' Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2003-06-24</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2003-06-24</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>R000004</bioguideId>
+        <fullName>Rep. Radanovich, George [R-CA-19]</fullName>
+        <firstName>GEORGE</firstName>
+        <lastName>RADANOVICH</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <middleName>P.</middleName>
+        <district>19</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>R000435</bioguideId>
+        <fullName>Rep. Ros-Lehtinen, Ileana [R-FL-18]</fullName>
+        <firstName>ILEANA</firstName>
+        <lastName>ROS-LEHTINEN</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>18</district>
+        <sponsorshipDate>2003-06-24</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000213</bioguideId>
+        <fullName>Rep. Harman, Jane [D-CA-36]</fullName>
+        <firstName>JANE</firstName>
+        <lastName>HARMAN</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>36</district>
+        <sponsorshipDate>2003-06-24</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001035</bioguideId>
+        <fullName>Rep. Harris, Katherine [R-FL-13]</fullName>
+        <firstName>Katherine</firstName>
+        <lastName>Harris</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>13</district>
+        <sponsorshipDate>2004-04-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Merchant marine</name>
+        </item>
+        <item>
+          <name>Merchant seamen</name>
+        </item>
+        <item>
+          <name>Transportation and Public Works</name>
+        </item>
+        <item>
+          <name>Veterans' benefits</name>
+        </item>
+        <item>
+          <name>War</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Armed Forces and National Security</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2003-06-24</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2003-08-26T13:37:05Z</updateDate>
+        <text><![CDATA[ Combat Merchant Mariners Veterans Benefits Act of 2003 - Provides that: (1) qualifying service in the U.S. merchant marine during a period of war for a total period equal to at least 12 months shall be considered active duty in determining eligibility for veterans' benefits; and (2) such service may be verified by entries in a continuous discharge book, a certificate of discharge to merchant seamen, a certificate of substantially continuous service, or other documentation available from the Secretary of Transportation or the head of any other Federal agency.]]></text>
+      </summary>
+    </summaries>
+    <title>Combat Merchant Mariners Veterans Benefits Act of 2003</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Combat Merchant Mariners Veterans Benefits Act of 2003</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To provide veterans benefits to certain individuals who serve in the United States merchant marine during a period of war.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Combat Merchant Mariners Veterans Benefits Act of 2003</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2003-06-24T04:00:00Z</date>
+        <formats/>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2003-07-24</actionDate>
+      <text>Referred to the Subcommittee on Benefits.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

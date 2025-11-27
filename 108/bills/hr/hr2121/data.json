@@ -1,0 +1,276 @@
+{
+  "actions": [
+    {
+      "acted_at": "2003-05-15",
+      "action_code": "Intro-H",
+      "references": [],
+      "text": "Introduced in House",
+      "type": "action"
+    },
+    {
+      "acted_at": "2003-05-15",
+      "action_code": "H11100",
+      "committees": [
+        "HSFA"
+      ],
+      "references": [],
+      "status": "REFERRED",
+      "text": "Referred to the House Committee on International Relations.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2004-07-06T14:19:06-04:00",
+      "action_code": "H30300",
+      "references": [],
+      "text": "Mr. Flake moved to suspend the rules and pass the bill.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2004-07-06T14:19:18-04:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H5158-5159",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered under suspension of the rules.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2004-07-06T14:19:20-04:00",
+      "action_code": "H8D000",
+      "references": [],
+      "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 2121.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2004-07-06T14:26:38-04:00",
+      "action_code": "H37300",
+      "how": "by voice vote",
+      "references": [
+        {
+          "reference": "CR H5159",
+          "type": "text as passed House"
+        }
+      ],
+      "result": "pass",
+      "status": "PASS_OVER:HOUSE",
+      "suspension": null,
+      "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "h"
+    },
+    {
+      "acted_at": "2004-07-06T14:26:43-04:00",
+      "action_code": "H38310",
+      "references": [],
+      "text": "Motion to reconsider laid on the table Agreed to without objection.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2004-07-07",
+      "action_code": "",
+      "committees": [
+        "SSFR"
+      ],
+      "references": [],
+      "text": "Received in the Senate and Read twice and referred to the Committee on Foreign Relations.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2004-12-08",
+      "action_code": "",
+      "committees": [
+        "SSFR"
+      ],
+      "references": [],
+      "text": "Senate Committee on Foreign Relations discharged by Unanimous Consent.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2004-12-08",
+      "action_code": "",
+      "references": [
+        {
+          "reference": "CR S12029",
+          "type": "consideration"
+        }
+      ],
+      "text": "Measure laid before Senate by unanimous consent.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2004-12-08",
+      "action_code": "",
+      "how": "by Unanimous Consent",
+      "references": [],
+      "result": "pass",
+      "status": "PASS_BACK:SENATE",
+      "text": "Passed Senate with an amendment by Unanimous Consent.",
+      "type": "vote",
+      "vote_type": "vote2",
+      "where": "s"
+    }
+  ],
+  "amendments": [
+    {
+      "amendment_id": "samdt4088-108",
+      "amendment_type": "samdt",
+      "chamber": "s",
+      "number": "4088"
+    }
+  ],
+  "bill_id": "hr2121-108",
+  "bill_type": "hr",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [
+    {
+      "activity": [
+        "discharged",
+        "referral"
+      ],
+      "committee": "Senate Foreign Relations",
+      "committee_id": "SSFR"
+    },
+    {
+      "activity": [
+        "referral"
+      ],
+      "committee": "House Foreign Affairs",
+      "committee_id": "HSFA"
+    }
+  ],
+  "congress": "108",
+  "cosponsors": [
+    {
+      "bioguide_id": "M000404",
+      "district": "7",
+      "name": "McDermott, Jim",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-06-12",
+      "state": "WA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001140",
+      "district": "3",
+      "name": "Moore, Dennis",
+      "original_cosponsor": true,
+      "sponsored_at": "2003-05-15",
+      "state": "KS",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M000934",
+      "district": "1",
+      "name": "Moran, Jerry",
+      "original_cosponsor": true,
+      "sponsored_at": "2003-05-15",
+      "state": "KS",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000566",
+      "district": "2",
+      "name": "Ryun, Jim",
+      "original_cosponsor": true,
+      "sponsored_at": "2003-05-15",
+      "state": "KS",
+      "title": "Rep.",
+      "withdrawn_at": null
+    }
+  ],
+  "enacted_as": null,
+  "history": {
+    "active": true,
+    "active_at": "2004-07-06T14:19:06-04:00",
+    "awaiting_signature": false,
+    "enacted": false,
+    "house_passage_result": "pass",
+    "house_passage_result_at": "2004-07-06T14:26:38-04:00",
+    "senate_passage_result": "pass",
+    "senate_passage_result_at": "2004-12-08",
+    "vetoed": false
+  },
+  "introduced_at": "2003-05-15",
+  "number": "2121",
+  "official_title": "To amend the Eisenhower Exchange Fellowship Act of 1990 to authorize additional appropriations for the Eisenhower Exchange Fellowship Program Trust Fund, and for other purposes.",
+  "popular_title": null,
+  "related_bills": [],
+  "short_title": "Eisenhower Exchange Fellowship Program Trust Fund Enhancement Act of 2003",
+  "sponsor": {
+    "bioguide_id": "T000260",
+    "district": "4",
+    "name": "Tiahrt, Todd",
+    "state": "KS",
+    "title": "Rep.",
+    "type": "person"
+  },
+  "status": "PASS_BACK:SENATE",
+  "status_at": "2004-12-08",
+  "subjects": [
+    "Authorization",
+    "Economics and Public Finance",
+    "Education",
+    "Educational exchanges",
+    "Federal aid to education",
+    "Foreign leaders",
+    "Government trust funds",
+    "Higher education",
+    "International affairs",
+    "International education",
+    "Scholarships"
+  ],
+  "subjects_top_term": "International affairs",
+  "summary": {
+    "as": "Passed Senate amended",
+    "asOf": "2004-12-08",
+    "date": "2004-12-13T21:36:44Z",
+    "text": "Eisenhower Exchange Fellowship Program Trust Fund Enhancement Act of 2004 - Authorizes additional appropriations for the Eisenhower Exchange Fellowship Program Trust Fund."
+  },
+  "titles": [
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Eisenhower Exchange Fellowship Program Trust Fund Enhancement Act of 2004",
+      "type": "display"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "To amend the Eisenhower Exchange Fellowship Act of 1990 to authorize additional appropriations for the Eisenhower Exchange Fellowship Program Trust Fund, and for other purposes.",
+      "type": "official"
+    },
+    {
+      "as": "passed senate",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Eisenhower Exchange Fellowship Program Trust Fund Enhancement Act of 2004",
+      "type": "short"
+    },
+    {
+      "as": "passed house",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Eisenhower Exchange Fellowship Program Trust Fund Enhancement Act of 2004",
+      "type": "short"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Eisenhower Exchange Fellowship Program Trust Fund Enhancement Act of 2003",
+      "type": "short"
+    }
+  ],
+  "updated_at": "2023-01-15T15:33:26Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/108/hr/BILLSTATUS-108hr2121.xml"
+}

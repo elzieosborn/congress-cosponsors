@@ -1,0 +1,64 @@
+<bill session="108" type="s" number="148" updated="2023-01-15T21:34:11Z">
+  <state datetime="2003-06-27">PASS_OVER:SENATE</state>
+  <status>
+    <unknown datetime="2003-06-27"/>
+  </status>
+  <introduced datetime="2003-01-13"/>
+  <titles>
+    <title type="display">A bill to provide for the Secretary of Homeland Security to be included in the line of Presidential succession.</title>
+    <title type="official" as="introduced">A bill to provide for the Secretary of Homeland Security to be included in the line of Presidential succession.</title>
+  </titles>
+  <sponsor bioguide_id="D000294"/>
+  <cosponsors>
+    <cosponsor bioguide_id="D000388" joined="2003-03-26"/>
+  </cosponsors>
+  <actions>
+    <action datetime="2003-01-13">
+      <text>Introduced in Senate</text>
+    </action>
+    <action datetime="2003-01-13" state="REFERRED">
+      <text>Read twice and referred to the Committee on Rules and Administration.</text>
+      <reference ref="CR S234" label="text of measure as introduced"/>
+    </action>
+    <action datetime="2003-06-24" state="REPORTED">
+      <text>Committee on Rules and Administration. Ordered to be reported without amendment favorably.</text>
+    </action>
+    <action datetime="2003-06-26">
+      <text>Committee on Rules and Administration. Reported by Senator Lott without amendment. Without written report.</text>
+    </action>
+    <calendar datetime="2003-06-26" calendar="Senate Legislative" under="General Orders" number="179">
+      <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 179.</text>
+    </calendar>
+    <vote how="by Unanimous Consent" type="vote" datetime="2003-06-27" where="s" result="pass" state="PASS_OVER:SENATE">
+      <text>Passed Senate without amendment by Unanimous Consent.</text>
+      <reference ref="CR S8846" label="consideration"/>
+      <reference ref="CR S8846" label="text as passed Senate"/>
+    </vote>
+    <action datetime="2003-07-07">
+      <text>Message on Senate action sent to the House.</text>
+    </action>
+    <action datetime="2003-07-07T14:05:02-04:00">
+      <text>Received in the House.</text>
+    </action>
+    <action datetime="2003-07-07">
+      <text>Referred to the House Committee on the Judiciary.</text>
+    </action>
+    <action datetime="2003-09-04">
+      <text>Referred to the Subcommittee on the Constitution.</text>
+    </action>
+  </actions>
+  <committees>
+    <committee code="HSJU" name="House Judiciary" subcommittee="" activity="Referral"/>
+    <committee code="HSJU10" name="House Judiciary" subcommittee="Constitution and Limited Government" activity="Referral"/>
+    <committee code="SSRA" name="Senate Rules and Administration" subcommittee="" activity="Reporting, Markup, Referral"/>
+  </committees>
+  <relatedbills/>
+  <subjects>
+    <term name="Government operations and politics"/>
+    <term name="Cabinet officers"/>
+    <term name="Department of Homeland Security"/>
+    <term name="Presidential succession"/>
+  </subjects>
+  <amendments/>
+  <summary date="2006-11-28T17:35:40Z" status="Introduced in Senate">Includes the Secretary of Homeland Security in the line of presidential succession after the Attorney General.</summary>
+</bill>

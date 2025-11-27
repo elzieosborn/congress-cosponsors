@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>185</number>
+    <updateDate>2019-11-15T21:19:09Z</updateDate>
+    <updateDateIncludingText>2019-11-15T21:19:09Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2009-01-06</introducedDate>
+    <congress>111</congress>
+    <committees>
+      <item>
+        <systemCode>hsag00</systemCode>
+        <name>Agriculture Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsag29</systemCode>
+            <name>Livestock, Dairy, and Poultry Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2009-04-23T17:12:29Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2009-01-06T17:04:40Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsif00</systemCode>
+        <name>Energy and Commerce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2009-01-14T20:12:17Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2009-01-06T17:03:50Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2009-04-23</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsag29</systemCode>
+            <name>Livestock, Dairy, and Poultry Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Livestock, Dairy, and Poultry.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2009-01-14</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2009-01-06</actionDate>
+        <text>Referred to House Agriculture</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsag00</systemCode>
+            <name>Agriculture Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2009-01-06</actionDate>
+        <text>Referred to the Committee on Energy and Commerce, and in addition to the Committee on Agriculture, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100-A</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2009-01-06</actionDate>
+        <text>Referred to House Energy and Commerce</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2009-01-06</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2009-01-06</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>S000248</bioguideId>
+        <fullName>Rep. Serrano, Jose E. [D-NY-16]</fullName>
+        <firstName>JOSE</firstName>
+        <lastName>SERRANO</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>E.</middleName>
+        <district>16</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>G000556</bioguideId>
+        <fullName>Rep. Grayson, Alan [D-FL-8]</fullName>
+        <firstName>Alan</firstName>
+        <lastName>Grayson</lastName>
+        <party>D</party>
+        <state>FL</state>
+        <district>8</district>
+        <sponsorshipDate>2010-12-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Agriculture and Food</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Agricultural practices and innovations</name>
+        </item>
+        <item>
+          <name>Consumer affairs</name>
+        </item>
+        <item>
+          <name>Farmland</name>
+        </item>
+        <item>
+          <name>Food industry and services</name>
+        </item>
+        <item>
+          <name>Food supply, safety, and labeling</name>
+        </item>
+        <item>
+          <name>Livestock</name>
+        </item>
+        <item>
+          <name>Meat</name>
+        </item>
+        <item>
+          <name>Solid waste and recycling</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Agriculture and Food</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2009-01-06</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2011-01-14T20:55:59Z</updateDate>
+        <text><![CDATA[ <p>Sewage Sludge in Food Production Consumer Notification Act - Amends the Federal Food, Drug, and Cosmetic Act, the Egg Products Inspection Act, the Federal Meat Inspection Act, and the Poultry Products Inspection Act to deem as adulterated food that is: (1) produced on land on which sewage sludge was applied; (2) derived from poultry that were raised, or that consumed animal feed produced, on such land; and (3) derived from livestock that grazed, or consumed animal feed produced, on such land.</p> <p>Permits exceptions if: (1) the application of sewage sludge ended more than one year before producing food, raising poultry, producing animal feed, or grazing livestock; (2) the food labeling includes notice that the product was produced on such land; or (3) a sign providing such notice is posted in close proximity to the product for those foods generally offered for sale without labeling.</p> <p> <p>States that nothing in this Act shall be construed to modify the prohibition on the use of sewage sludge in organic food production under the National Organic Program of the Department of Agriculture.]]></text>
+      </summary>
+    </summaries>
+    <title>Sewage Sludge in Food Production Consumer Notification Act</title>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Sewage Sludge in Food Production Consumer Notification Act</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Sewage Sludge in Food Production Consumer Notification Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend the Food, Drug, and Cosmetic Act and the egg, meat, and poultry inspection laws to ensure that consumers receive notification regarding food products produced from crops, livestock, or poultry raised on land on which sewage sludge was applied.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2009-01-06T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-111hr185ih/xml/BILLS-111hr185ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2009-04-23</actionDate>
+      <text>Referred to the Subcommittee on Livestock, Dairy, and Poultry.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

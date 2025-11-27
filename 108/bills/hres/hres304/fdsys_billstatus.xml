@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>304</number>
+    <updateDate>2023-01-15T16:48:46Z</updateDate>
+    <updateDateIncludingText>2023-01-15T16:48:46Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HRES</type>
+    <introducedDate>2003-06-26</introducedDate>
+    <congress>108</congress>
+    <committees>
+      <item>
+        <systemCode>hsju00</systemCode>
+        <name>Judiciary Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsju01</systemCode>
+            <name>Immigration Integrity, Security, and Enforcement Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2003-09-04T15:45:42Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2003-06-26T14:08:00Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2003-09-04</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsju01</systemCode>
+            <name>Immigration Integrity, Security, and Enforcement Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Immigration, Border Security, and Claims.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2003-06-26</actionDate>
+        <text>Referred to the House Committee on the Judiciary.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2003-06-26</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2003-06-26</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>N000143</bioguideId>
+        <fullName>Rep. Northup, Anne M. [R-KY-3]</fullName>
+        <firstName>ANNE</firstName>
+        <lastName>NORTHUP</lastName>
+        <party>R</party>
+        <state>KY</state>
+        <middleName>M.</middleName>
+        <district>3</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>M000404</bioguideId>
+        <fullName>Rep. McDermott, Jim [D-WA-7]</fullName>
+        <firstName>JIM</firstName>
+        <lastName>MCDERMOTT</lastName>
+        <party>D</party>
+        <state>WA</state>
+        <district>7</district>
+        <sponsorshipDate>2003-07-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000562</bioguideId>
+        <fullName>Rep. Lynch, Stephen F. [D-MA-9]</fullName>
+        <firstName>Stephen</firstName>
+        <lastName>Lynch</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>F.</middleName>
+        <district>9</district>
+        <sponsorshipDate>2003-07-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000339</bioguideId>
+        <fullName>Rep. Frank, Barney [D-MA-4]</fullName>
+        <firstName>BARNEY</firstName>
+        <lastName>FRANK</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <district>4</district>
+        <sponsorshipDate>2003-07-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000096</bioguideId>
+        <fullName>Rep. Davis, Danny K. [D-IL-7]</fullName>
+        <firstName>DANNY</firstName>
+        <lastName>DAVIS</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>K.</middleName>
+        <district>7</district>
+        <sponsorshipDate>2003-07-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000441</bioguideId>
+        <fullName>Rep. Fletcher, Ernie [R-KY-6]</fullName>
+        <firstName>ERNEST</firstName>
+        <lastName>FLETCHER</lastName>
+        <party>R</party>
+        <state>KY</state>
+        <middleName>L.</middleName>
+        <district>6</district>
+        <sponsorshipDate>2003-07-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000268</bioguideId>
+        <fullName>Rep. Weldon, Curt [R-PA-7]</fullName>
+        <firstName>CURT</firstName>
+        <lastName>WELDON</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <district>7</district>
+        <sponsorshipDate>2003-07-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000672</bioguideId>
+        <fullName>Rep. Snyder, Vic [D-AR-2]</fullName>
+        <firstName>VICTOR</firstName>
+        <lastName>SNYDER</lastName>
+        <party>D</party>
+        <state>AR</state>
+        <middleName>F.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2003-07-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000377</bioguideId>
+        <fullName>Rep. Granger, Kay [R-TX-12]</fullName>
+        <firstName>KAY</firstName>
+        <lastName>GRANGER</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>12</district>
+        <sponsorshipDate>2003-07-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001033</bioguideId>
+        <fullName>Rep. Hart, Melissa A. [R-PA-4]</fullName>
+        <firstName>MELISSA</firstName>
+        <lastName>HART</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <middleName>A.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2003-07-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001236</bioguideId>
+        <fullName>Rep. Boozman, John [R-AR-3]</fullName>
+        <firstName>John</firstName>
+        <lastName>Boozman</lastName>
+        <party>R</party>
+        <state>AR</state>
+        <district>3</district>
+        <sponsorshipDate>2003-07-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000314</bioguideId>
+        <fullName>Rep. Wexler, Robert [D-FL-19]</fullName>
+        <firstName>ROBERT</firstName>
+        <lastName>WEXLER</lastName>
+        <party>D</party>
+        <state>FL</state>
+        <district>19</district>
+        <sponsorshipDate>2003-07-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000640</bioguideId>
+        <fullName>Rep. Collins, Mac [R-GA-8]</fullName>
+        <firstName>MAC</firstName>
+        <lastName>COLLINS</lastName>
+        <party>R</party>
+        <state>GA</state>
+        <district>8</district>
+        <sponsorshipDate>2003-07-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000794</bioguideId>
+        <fullName>Rep. Costello, Jerry F. [D-IL-12]</fullName>
+        <firstName>JERRY</firstName>
+        <lastName>COSTELLO</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>F.</middleName>
+        <district>12</district>
+        <sponsorshipDate>2003-07-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000342</bioguideId>
+        <fullName>Rep. Lipinski, William O. [D-IL-3]</fullName>
+        <firstName>WILLIAM</firstName>
+        <lastName>LIPINSKI</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>O.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2003-07-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001150</bioguideId>
+        <fullName>Rep. Schiff, Adam B. [D-CA-29]</fullName>
+        <firstName>ADAM</firstName>
+        <lastName>SCHIFF</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <middleName>B.</middleName>
+        <district>29</district>
+        <sponsorshipDate>2003-07-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000287</bioguideId>
+        <fullName>Rep. Emanuel, Rahm [D-IL-5]</fullName>
+        <firstName>Rahm</firstName>
+        <lastName>Emanuel</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <district>5</district>
+        <sponsorshipDate>2003-09-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001149</bioguideId>
+        <fullName>Rep. Burton, Dan [R-IN-5]</fullName>
+        <firstName>DAN</firstName>
+        <lastName>BURTON</lastName>
+        <party>R</party>
+        <state>IN</state>
+        <district>5</district>
+        <sponsorshipDate>2003-09-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000459</bioguideId>
+        <fullName>Rep. Terry, Lee [R-NE-2]</fullName>
+        <firstName>LEE</firstName>
+        <lastName>TERRY</lastName>
+        <party>R</party>
+        <state>NE</state>
+        <district>2</district>
+        <sponsorshipDate>2003-10-02</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000558</bioguideId>
+        <fullName>Rep. Lucas, Ken [D-KY-4]</fullName>
+        <firstName>KEN</firstName>
+        <lastName>LUCAS</lastName>
+        <party>D</party>
+        <state>KY</state>
+        <district>4</district>
+        <sponsorshipDate>2003-10-02</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Immigration</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Administrative remedies</name>
+        </item>
+        <item>
+          <name>Adoption</name>
+        </item>
+        <item>
+          <name>China</name>
+        </item>
+        <item>
+          <name>Commemorations</name>
+        </item>
+        <item>
+          <name>Congress</name>
+        </item>
+        <item>
+          <name>Congressional tributes</name>
+        </item>
+        <item>
+          <name>Department of Homeland Security</name>
+        </item>
+        <item>
+          <name>Developing countries</name>
+        </item>
+        <item>
+          <name>East Asia</name>
+        </item>
+        <item>
+          <name>Families</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Government publicity</name>
+        </item>
+        <item>
+          <name>International Affairs</name>
+        </item>
+        <item>
+          <name>Law</name>
+        </item>
+        <item>
+          <name>Orphans</name>
+        </item>
+        <item>
+          <name>Travel</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Immigration</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2003-06-26</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2006-11-28T17:35:40Z</updateDate>
+        <text><![CDATA[Commends the efforts of U.S. citizens seeking to provide a home for orphan children.<p>Encourages the adoption of these children from countries characterized by need or extreme poverty and political or social instability.<p>Expresses the sense of the House of Representatives that the Secretary of Homeland Security and the Director of the Bureau of Citizenship and Immigration Services should provide: (1) a 60-day extension of approval for U.S. citizens directly affected by the cessation of travel authorization by the China Center for Adoption Affairs; and (2) immediate notification to the families affected by this extension.]]></text>
+      </summary>
+    </summaries>
+    <title>Expressing the sense of the House of Representatives regarding United States citizens adopting children from the People's Republic of China.</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Expressing the sense of the House of Representatives regarding United States citizens adopting children from the People's Republic of China.</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>Expressing the sense of the House of Representatives regarding United States citizens adopting children from the People's Republic of China.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2003-06-26T04:00:00Z</date>
+        <formats/>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2003-09-04</actionDate>
+      <text>Referred to the Subcommittee on Immigration, Border Security, and Claims.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

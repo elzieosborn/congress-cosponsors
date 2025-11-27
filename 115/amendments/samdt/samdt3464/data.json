@@ -1,0 +1,90 @@
+{
+  "actions": [
+    {
+      "acted_at": "2018-08-01",
+      "action_code": "",
+      "how": "roll",
+      "references": [],
+      "result": "fail",
+      "roll": 176,
+      "text": "Amendment SA 3464, not having achieved 60 votes in the affirmative, was not agreed to in Senate by Yea-Nay Vote. 50 - 47. Record Vote Number: 176.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "s"
+    },
+    {
+      "acted_at": "2018-08-01",
+      "action_code": "",
+      "references": [],
+      "text": "Amendment SA 3464 proposed by Senator Collins for Senator Leahy to Amendment SA 3399. (consideration: CR S5533, S5534) To provide for election security grants.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2018-08-01",
+      "action_code": "95000",
+      "references": [],
+      "text": "Senate amendment not agreed to: Amendment SA 3464, not having achieved 60 votes in the affirmative, was not agreed to in Senate by Yea-Nay Vote. 50 - 47. Record Vote Number: 176.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2018-08-01",
+      "action_code": "93000",
+      "references": [
+        {
+          "reference": "CR S5533, S5534",
+          "type": "consideration"
+        }
+      ],
+      "text": "Senate amendment proposed (on the floor): Amendment SA 3464 proposed by Senator Collins for Senator Leahy to Amendment SA 3399.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2018-08-01",
+      "action_code": "97000",
+      "references": [],
+      "text": "Roll call votes on amendments in Senate: Amendment SA 3464, not having achieved 60 votes in the affirmative, was not agreed to in Senate by Yea-Nay Vote. 50 - 47. Record Vote Number: 176.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2018-07-24",
+      "action_code": "91000",
+      "references": [],
+      "text": "Senate amendment submitted",
+      "type": "action"
+    }
+  ],
+  "amendment_id": "samdt3464-115",
+  "amendment_type": "samdt",
+  "amends_amendment": {
+    "amendment_id": "samdt3399-115",
+    "amendment_type": "samdt",
+    "congress": 115,
+    "description": "",
+    "number": 3399,
+    "purpose": "In the nature of a substitute."
+  },
+  "amends_bill": {
+    "bill_id": "hr6147-115",
+    "bill_type": "hr",
+    "congress": 115,
+    "number": 6147
+  },
+  "amends_treaty": null,
+  "chamber": "s",
+  "congress": "115",
+  "introduced_at": "2018-07-24",
+  "number": 3464,
+  "proposed_at": "2018-08-01T04:00:00Z",
+  "purpose": "To provide for election security grants.",
+  "sponsor": {
+    "bioguide_id": "L000174",
+    "district": null,
+    "name": "Leahy, Patrick J.",
+    "state": "VT",
+    "title": "Sen.",
+    "type": "person"
+  },
+  "status": "fail",
+  "status_at": "2018-08-01",
+  "updated_at": "2020-12-15T17:53:45Z"
+}

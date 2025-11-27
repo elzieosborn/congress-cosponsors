@@ -1,0 +1,804 @@
+{
+  "actions": [
+    {
+      "acted_at": "2003-10-30",
+      "action_code": "Intro-H",
+      "references": [],
+      "text": "Introduced in House",
+      "type": "action"
+    },
+    {
+      "acted_at": "2003-10-30",
+      "action_code": "H11100",
+      "committees": [
+        "HSGO"
+      ],
+      "references": [],
+      "status": "REFERRED",
+      "text": "Referred to the House Committee on Government Reform.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2003-11-05T13:13:24-05:00",
+      "action_code": "H30300",
+      "references": [],
+      "text": "Mr. Shays moved to suspend the rules and agree to the resolution.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2003-11-05T13:13:42-05:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H10377-10384",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered under suspension of the rules.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2003-11-05T13:13:44-05:00",
+      "action_code": "H8D000",
+      "references": [],
+      "text": "DEBATE - The House proceeded with forty minutes of debate on H. Res. 425.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2003-11-05T13:59:04-05:00",
+      "action_code": "H37300",
+      "how": "by voice vote",
+      "references": [
+        {
+          "reference": "CR H10377-10378",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "status": "PASSED:SIMPLERES",
+      "suspension": null,
+      "text": "On motion to suspend the rules and agree to the resolution Agreed to by voice vote.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "h"
+    },
+    {
+      "acted_at": "2003-11-05T13:59:09-05:00",
+      "action_code": "H38310",
+      "references": [],
+      "text": "Motion to reconsider laid on the table Agreed to without objection.",
+      "type": "action"
+    }
+  ],
+  "amendments": [],
+  "bill_id": "hres425-108",
+  "bill_type": "hres",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [
+    {
+      "activity": [
+        "referral"
+      ],
+      "committee": "House Oversight and Accountability",
+      "committee_id": "HSGO"
+    }
+  ],
+  "congress": "108",
+  "cosponsors": [
+    {
+      "bioguide_id": "B001234",
+      "district": "43",
+      "name": "Baca, Joe",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B000287",
+      "district": "31",
+      "name": "Becerra, Xavier",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B000410",
+      "district": "28",
+      "name": "Berman, Howard L.",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001228",
+      "district": "45",
+      "name": "Bono, Mary",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C000059",
+      "district": "44",
+      "name": "Calvert, Ken",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001036",
+      "district": "23",
+      "name": "Capps, Lois",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001050",
+      "district": "18",
+      "name": "Cardoza, Dennis A.",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C000830",
+      "district": "48",
+      "name": "Cox, Christopher",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C000994",
+      "district": "50",
+      "name": "Cunningham, Randy (Duke)",
+      "original_cosponsor": true,
+      "sponsored_at": "2003-10-30",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000424",
+      "district": "20",
+      "name": "Dooley, Calvin M.",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000429",
+      "district": "4",
+      "name": "Doolittle, John T.",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000492",
+      "district": "26",
+      "name": "Dreier, David",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "E000215",
+      "district": "14",
+      "name": "Eshoo, Anna G.",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "F000030",
+      "district": "17",
+      "name": "Farr, Sam",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "F000116",
+      "district": "51",
+      "name": "Filner, Bob",
+      "original_cosponsor": true,
+      "sponsored_at": "2003-10-30",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "F000339",
+      "district": "4",
+      "name": "Frank, Barney",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "MA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "G000021",
+      "district": "24",
+      "name": "Gallegly, Elton",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "G000152",
+      "district": "2",
+      "name": "Gibbons, Jim",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-05",
+      "state": "NV",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "G000289",
+      "district": "6",
+      "name": "Goodlatte, Bob",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "VA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H000213",
+      "district": "36",
+      "name": "Harman, Jane",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H000528",
+      "district": "2",
+      "name": "Herger, Wally",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H001034",
+      "district": "15",
+      "name": "Honda, Michael M.",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H000981",
+      "district": "52",
+      "name": "Hunter, Duncan",
+      "original_cosponsor": true,
+      "sponsored_at": "2003-10-30",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "I000056",
+      "district": "49",
+      "name": "Issa, Darrell E.",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "J000284",
+      "district": "11",
+      "name": "Jones, Stephanie Tubbs",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "OH",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "K000306",
+      "district": "8",
+      "name": "Kolbe, Jim",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "AZ",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "L000090",
+      "district": "12",
+      "name": "Lantos, Tom",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "L000551",
+      "district": "9",
+      "name": "Lee, Barbara",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "L000274",
+      "district": "41",
+      "name": "Lewis, Jerry",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "L000397",
+      "district": "16",
+      "name": "Lofgren, Zoe",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M000249",
+      "district": "5",
+      "name": "Matsui, Robert T.",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M000404",
+      "district": "7",
+      "name": "McDermott, Jim",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "WA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M000477",
+      "district": "3",
+      "name": "McInnis, Scott",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CO",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M000508",
+      "district": "25",
+      "name": "McKeon, Howard P. \"Buck\"",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M000714",
+      "district": "37",
+      "name": "Millender-McDonald, Juanita",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001139",
+      "district": "42",
+      "name": "Miller, Gary G.",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M000725",
+      "district": "7",
+      "name": "Miller, George",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "N000179",
+      "district": "38",
+      "name": "Napolitano, Grace F.",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "N000181",
+      "district": "21",
+      "name": "Nunes, Devin",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "O000164",
+      "district": "3",
+      "name": "Ose, Doug",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "P000096",
+      "district": "8",
+      "name": "Pascrell, Bill, Jr.",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "NJ",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "P000197",
+      "district": "8",
+      "name": "Pelosi, Nancy",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "P000419",
+      "district": "11",
+      "name": "Pombo, Richard W.",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000004",
+      "district": "19",
+      "name": "Radanovich, George",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000409",
+      "district": "46",
+      "name": "Rohrabacher, Dana",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000486",
+      "district": "34",
+      "name": "Roybal-Allard, Lucille",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000487",
+      "district": "40",
+      "name": "Royce, Edward R.",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S000030",
+      "district": "47",
+      "name": "Sanchez, Loretta",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001150",
+      "district": "29",
+      "name": "Schiff, Adam B.",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S000344",
+      "district": "27",
+      "name": "Sherman, Brad",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S000510",
+      "district": "9",
+      "name": "Smith, Adam",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "WA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001153",
+      "district": "32",
+      "name": "Solis, Hilda L.",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S000810",
+      "district": "13",
+      "name": "Stark, Fortney Pete",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001156",
+      "district": "39",
+      "name": "S\u00c3\u00a1nchez, Linda T.",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "T000057",
+      "district": "10",
+      "name": "Tauscher, Ellen O.",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "T000188",
+      "district": "22",
+      "name": "Thomas, William M.",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "T000460",
+      "district": "1",
+      "name": "Thompson, Mike",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000791",
+      "district": "2",
+      "name": "Walden, Greg",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "OR",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000187",
+      "district": "35",
+      "name": "Waters, Maxine",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000794",
+      "district": "33",
+      "name": "Watson, Diane E.",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000215",
+      "district": "30",
+      "name": "Waxman, Henry A.",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000268",
+      "district": "7",
+      "name": "Weldon, Curt",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "PA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000672",
+      "district": "10",
+      "name": "Wolf, Frank R.",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "VA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000738",
+      "district": "6",
+      "name": "Woolsey, Lynn C.",
+      "original_cosponsor": false,
+      "sponsored_at": "2003-11-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    }
+  ],
+  "enacted_as": null,
+  "history": {
+    "active": true,
+    "active_at": "2003-11-05T13:13:24-05:00",
+    "awaiting_signature": false,
+    "enacted": false,
+    "house_passage_result": "pass",
+    "house_passage_result_at": "2003-11-05T13:59:04-05:00",
+    "vetoed": false
+  },
+  "introduced_at": "2003-10-30",
+  "number": "425",
+  "official_title": "Recognizing and honoring the firefighters and other public servants who responded to the October, 2003, historically devastating, outbreak of wildfires in Southern California.",
+  "popular_title": null,
+  "related_bills": [],
+  "short_title": null,
+  "sponsor": {
+    "bioguide_id": "D000598",
+    "district": "53",
+    "name": "Davis, Susan A.",
+    "state": "CA",
+    "title": "Rep.",
+    "type": "person"
+  },
+  "status": "PASSED:SIMPLERES",
+  "status_at": "2003-11-05T13:59:04-05:00",
+  "subjects": [
+    "Armed Forces and National Security",
+    "California",
+    "Commemorations",
+    "Congress",
+    "Congressional tributes",
+    "Crime and Law Enforcement",
+    "Emergency Management",
+    "Emergency medicine",
+    "Fire fighters",
+    "Fire prevention",
+    "Fires",
+    "Forest fires",
+    "Government Operations and Politics",
+    "Health",
+    "Law enforcement officers",
+    "Medical personnel",
+    "Military civic action",
+    "Military personnel",
+    "Paramedical personnel",
+    "Police",
+    "Public Lands and Natural Resources"
+  ],
+  "subjects_top_term": "Commemorations",
+  "summary": {
+    "as": "Passed House without amendment",
+    "asOf": "2003-11-05",
+    "date": "2003-11-10T15:02:02Z",
+    "text": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.)\n\nCommends the firefighters and public servants who participated in responding to the October 2003 wildfires in southern California for their dedicated service to the people of California."
+  },
+  "titles": [
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Recognizing and honoring the firefighters and other public servants who responded to the October, 2003, historically devastating, outbreak of wildfires in Southern California.",
+      "type": "display"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Recognizing and honoring the firefighters and other public servants who responded to the October, 2003, historically devastating, outbreak of wildfires in Southern California.",
+      "type": "official"
+    }
+  ],
+  "updated_at": "2023-01-15T08:48:08Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/108/hres/BILLSTATUS-108hres425.xml"
+}

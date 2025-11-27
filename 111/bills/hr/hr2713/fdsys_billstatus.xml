@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>2713</number>
+    <updateDate>2023-01-11T13:18:53Z</updateDate>
+    <updateDateIncludingText>2023-01-11T13:18:53Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2009-06-04</introducedDate>
+    <congress>111</congress>
+    <committees>
+      <item>
+        <systemCode>hsvr00</systemCode>
+        <name>Veterans' Affairs Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsvr09</systemCode>
+            <name>Disability Assistance and Memorial Affairs Subcommittee</name>
+            <activities>
+              <item>
+                <name>Hearings by</name>
+                <date>2009-06-24T16:21:03Z</date>
+              </item>
+              <item>
+                <name>Referred to</name>
+                <date>2009-06-05T16:44:28Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2009-06-04T14:07:46Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2009-06-24</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsvr09</systemCode>
+            <name>Disability Assistance and Memorial Affairs Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Subcommittee Hearings Held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2009-06-05</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsvr09</systemCode>
+            <name>Disability Assistance and Memorial Affairs Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Disability Assistance and Memorial Affairs.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2009-06-04</actionDate>
+        <text>Referred to the House Committee on Veterans' Affairs.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsvr00</systemCode>
+            <name>Veterans' Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2009-06-04</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2009-06-04</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>D000607</bioguideId>
+        <fullName>Rep. Donnelly, Joe [D-IN-2]</fullName>
+        <firstName>Joe</firstName>
+        <lastName>Donnelly</lastName>
+        <party>D</party>
+        <state>IN</state>
+        <district>2</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>H001039</bioguideId>
+        <fullName>Rep. Hall, John J. [D-NY-19]</fullName>
+        <firstName>John</firstName>
+        <lastName>Hall</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>J.</middleName>
+        <district>19</district>
+        <sponsorshipDate>2009-06-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001236</bioguideId>
+        <fullName>Rep. Boozman, John [R-AR-3]</fullName>
+        <firstName>John</firstName>
+        <lastName>Boozman</lastName>
+        <party>R</party>
+        <state>AR</state>
+        <district>3</district>
+        <sponsorshipDate>2009-06-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001037</bioguideId>
+        <fullName>Rep. Herseth Sandlin, Stephanie [D-SD-At Large]</fullName>
+        <firstName>Stephanie</firstName>
+        <lastName>Herseth Sandlin</lastName>
+        <party>D</party>
+        <state>SD</state>
+        <district>0</district>
+        <sponsorshipDate>2009-06-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001257</bioguideId>
+        <fullName>Rep. Bilirakis, Gus M. [R-FL-9]</fullName>
+        <firstName>Gus</firstName>
+        <lastName>Bilirakis</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <middleName>M.</middleName>
+        <district>9</district>
+        <sponsorshipDate>2009-06-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001173</bioguideId>
+        <fullName>Rep. Space, Zachary T. [D-OH-18]</fullName>
+        <firstName>Zachary</firstName>
+        <lastName>Space</lastName>
+        <party>D</party>
+        <state>OH</state>
+        <middleName>T.</middleName>
+        <district>18</district>
+        <sponsorshipDate>2009-06-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000289</bioguideId>
+        <fullName>Rep. Ellsworth, Brad [D-IN-8]</fullName>
+        <firstName>Brad</firstName>
+        <lastName>Ellsworth</lastName>
+        <party>D</party>
+        <state>IN</state>
+        <district>8</district>
+        <sponsorshipDate>2009-06-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001030</bioguideId>
+        <fullName>Rep. Hill, Baron P. [D-IN-9]</fullName>
+        <firstName>BARON</firstName>
+        <lastName>HILL</lastName>
+        <party>D</party>
+        <state>IN</state>
+        <middleName>P.</middleName>
+        <district>9</district>
+        <sponsorshipDate>2009-06-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001143</bioguideId>
+        <fullName>Rep. Souder, Mark E. [R-IN-3]</fullName>
+        <firstName>MARK</firstName>
+        <lastName>SOUDER</lastName>
+        <party>R</party>
+        <state>IN</state>
+        <middleName>EDWARD</middleName>
+        <district>3</district>
+        <sponsorshipDate>2009-06-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>U000031</bioguideId>
+        <fullName>Rep. Upton, Fred [R-MI-6]</fullName>
+        <firstName>FRED</firstName>
+        <lastName>UPTON</lastName>
+        <party>R</party>
+        <state>MI</state>
+        <district>6</district>
+        <sponsorshipDate>2009-06-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>A000363</bioguideId>
+        <fullName>Rep. Arcuri, Michael A. [D-NY-24]</fullName>
+        <firstName>Michael</firstName>
+        <lastName>Arcuri</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>A.</middleName>
+        <district>24</district>
+        <sponsorshipDate>2009-06-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001170</bioguideId>
+        <fullName>Rep. Shea-Porter, Carol [D-NH-1]</fullName>
+        <firstName>Carol</firstName>
+        <lastName>Shea-Porter</lastName>
+        <party>D</party>
+        <state>NH</state>
+        <district>1</district>
+        <sponsorshipDate>2009-09-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001247</bioguideId>
+        <fullName>Rep. Brown-Waite, Ginny [R-FL-5]</fullName>
+        <firstName>Ginny</firstName>
+        <lastName>Brown-Waite</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>5</district>
+        <sponsorshipDate>2009-09-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000799</bioguideId>
+        <fullName>Rep. Walz, Timothy J. [D-MN-1]</fullName>
+        <firstName>Timothy</firstName>
+        <lastName>Walz</lastName>
+        <party>D</party>
+        <state>MN</state>
+        <middleName>J.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2010-03-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Disability and paralysis</name>
+        </item>
+        <item>
+          <name>Life, casualty, property insurance</name>
+        </item>
+        <item>
+          <name>Veterans' pensions and compensation</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Armed Forces and National Security</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2009-06-04</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2009-06-26T19:50:31Z</updateDate>
+        <text><![CDATA[ <p>Disabled Veterans Life Insurance Enhancement Act - Directs the Secretary of Veterans Affairs (VA) to provide a two-year period, beginning on the date of enactment of this Act, to allow a person who was eligible for service disabled veterans life insurance but did not apply within the required two-year period after their disability was determined to apply for such insurance.</p> <p>Increases from: (1) $10,000 to $100,000 the maximum authorized amount of U.S. government or National Service life insurance; and (2) $20,000 to $50,000 the maximum authorized amount of supplemental insurance for totally disabled veterans.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Disabled Veterans Life Insurance Enhancement Act</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Disabled Veterans Life Insurance Enhancement Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend title 38, United States Code, to make certain improvements in the service disabled veterans' insurance program of the Department of Veterans Affairs.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Disabled Veterans Life Insurance Enhancement Act</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2009-06-04T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-111hr2713ih/xml/BILLS-111hr2713ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2009-06-24</actionDate>
+      <text>Subcommittee Hearings Held.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

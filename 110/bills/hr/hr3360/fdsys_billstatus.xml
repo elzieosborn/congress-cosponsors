@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>3360</number>
+    <updateDate>2023-01-11T20:37:41Z</updateDate>
+    <updateDateIncludingText>2023-01-11T20:37:41Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2007-08-03</introducedDate>
+    <congress>110</congress>
+    <committees>
+      <item>
+        <systemCode>hspw00</systemCode>
+        <name>Transportation and Infrastructure Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hspw02</systemCode>
+            <name>Water Resources and Environment Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2007-08-04T21:18:54Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2007-08-03T13:02:10Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2007-08-04</actionDate>
+        <committees>
+          <item>
+            <systemCode>hspw02</systemCode>
+            <name>Water Resources and Environment Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Water Resources and Environment.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2007-08-03</actionDate>
+        <text>Referred to the House Committee on Transportation and Infrastructure.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hspw00</systemCode>
+            <name>Transportation and Infrastructure Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2007-08-03</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2007-08-03</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>S001145</bioguideId>
+        <fullName>Rep. Schakowsky, Janice D. [D-IL-9]</fullName>
+        <firstName>JANICE</firstName>
+        <lastName>SCHAKOWSKY</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>D.</middleName>
+        <district>9</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>D000355</bioguideId>
+        <fullName>Rep. Dingell, John D. [D-MI-15]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>DINGELL</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <middleName>D.</middleName>
+        <district>15</district>
+        <sponsorshipDate>2007-08-03</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000287</bioguideId>
+        <fullName>Rep. Emanuel, Rahm [D-IL-5]</fullName>
+        <firstName>Rahm</firstName>
+        <lastName>Emanuel</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <district>5</district>
+        <sponsorshipDate>2007-08-03</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000360</bioguideId>
+        <fullName>Rep. Kirk, Mark Steven [R-IL-10]</fullName>
+        <firstName>MARK</firstName>
+        <lastName>KIRK</lastName>
+        <party>R</party>
+        <state>IL</state>
+        <middleName>STEVEN</middleName>
+        <district>10</district>
+        <sponsorshipDate>2007-08-03</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000714</bioguideId>
+        <fullName>Rep. Conyers, John, Jr. [D-MI-14]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>CONYERS</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <district>14</district>
+        <sponsorshipDate>2007-08-03</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000535</bioguideId>
+        <fullName>Rep. Gutierrez, Luis V. [D-IL-4]</fullName>
+        <firstName>LUIS</firstName>
+        <lastName>GUTIERREZ</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>V.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2007-08-03</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000172</bioguideId>
+        <fullName>Rep. Kildee, Dale E. [D-MI-5]</fullName>
+        <firstName>DALE</firstName>
+        <lastName>KILDEE</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <middleName>E.</middleName>
+        <district>5</district>
+        <sponsorshipDate>2007-08-03</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001253</bioguideId>
+        <fullName>Rep. Bean, Melissa L. [D-IL-8]</fullName>
+        <firstName>Melissa</firstName>
+        <lastName>Bean</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>L.</middleName>
+        <district>8</district>
+        <sponsorshipDate>2007-08-03</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000627</bioguideId>
+        <fullName>Rep. Hinchey, Maurice D. [D-NY-22]</fullName>
+        <firstName>MAURICE</firstName>
+        <lastName>HINCHEY</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>D.</middleName>
+        <district>22</district>
+        <sponsorshipDate>2007-08-03</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000365</bioguideId>
+        <fullName>Rep. Kagen, Steve [D-WI-8]</fullName>
+        <firstName>Steve</firstName>
+        <lastName>Kagen</lastName>
+        <party>D</party>
+        <state>WI</state>
+        <district>8</district>
+        <sponsorshipDate>2007-08-03</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000180</bioguideId>
+        <fullName>Rep. Kilpatrick, Carolyn C. [D-MI-13]</fullName>
+        <firstName>CAROLYN</firstName>
+        <lastName>KILPATRICK</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <middleName>CHEEKS</middleName>
+        <district>13</district>
+        <sponsorshipDate>2007-08-03</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001169</bioguideId>
+        <fullName>Rep. Sestak, Joe [D-PA-7]</fullName>
+        <firstName>Joe</firstName>
+        <lastName>Sestak</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <district>7</district>
+        <sponsorshipDate>2007-08-03</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001174</bioguideId>
+        <fullName>Rep. Sutton, Betty [D-OH-13]</fullName>
+        <firstName>Betty</firstName>
+        <lastName>Sutton</lastName>
+        <party>D</party>
+        <state>OH</state>
+        <district>13</district>
+        <sponsorshipDate>2007-08-03</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000515</bioguideId>
+        <fullName>Rep. Rush, Bobby L. [D-IL-1]</fullName>
+        <firstName>BOBBY</firstName>
+        <lastName>RUSH</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>L.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2007-09-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000096</bioguideId>
+        <fullName>Rep. Davis, Danny K. [D-IL-7]</fullName>
+        <firstName>DANNY</firstName>
+        <lastName>DAVIS</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>K.</middleName>
+        <district>7</district>
+        <sponsorshipDate>2007-09-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000191</bioguideId>
+        <fullName>Rep. Carson, Julia [D-IN-7]</fullName>
+        <firstName>JULIA</firstName>
+        <lastName>CARSON</lastName>
+        <party>D</party>
+        <state>IN</state>
+        <district>7</district>
+        <sponsorshipDate>2007-09-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000149</bioguideId>
+        <fullName>Rep. Payne, Donald M. [D-NJ-10]</fullName>
+        <firstName>DONALD</firstName>
+        <lastName>PAYNE</lastName>
+        <party>D</party>
+        <state>NJ</state>
+        <middleName>M.</middleName>
+        <district>10</district>
+        <sponsorshipDate>2007-09-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000551</bioguideId>
+        <fullName>Rep. Grijalva, Raúl M. [D-AZ-7]</fullName>
+        <firstName>Raúl</firstName>
+        <lastName>Grijalva</lastName>
+        <party>D</party>
+        <state>AZ</state>
+        <middleName>M.</middleName>
+        <district>7</district>
+        <sponsorshipDate>2007-10-01</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001170</bioguideId>
+        <fullName>Rep. Shea-Porter, Carol [D-NH-1]</fullName>
+        <firstName>Carol</firstName>
+        <lastName>Shea-Porter</lastName>
+        <party>D</party>
+        <state>NH</state>
+        <district>1</district>
+        <sponsorshipDate>2007-11-06</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000263</bioguideId>
+        <fullName>Rep. Levin, Sander M. [D-MI-12]</fullName>
+        <firstName>SANDER</firstName>
+        <lastName>LEVIN</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <middleName>M.</middleName>
+        <district>12</district>
+        <sponsorshipDate>2007-11-06</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000480</bioguideId>
+        <fullName>Rep. Slaughter, Louise McIntosh [D-NY-28]</fullName>
+        <firstName>LOUISE</firstName>
+        <lastName>SLAUGHTER</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>M.</middleName>
+        <district>28</district>
+        <sponsorshipDate>2007-11-06</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001045</bioguideId>
+        <fullName>Rep. Stupak, Bart [D-MI-1]</fullName>
+        <firstName>BART</firstName>
+        <lastName>STUPAK</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <district>1</district>
+        <sponsorshipDate>2007-11-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000191</bioguideId>
+        <fullName>Rep. DeFazio, Peter A. [D-OR-4]</fullName>
+        <firstName>PETER</firstName>
+        <lastName>DEFAZIO</lastName>
+        <party>D</party>
+        <state>OR</state>
+        <middleName>A.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2007-11-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001039</bioguideId>
+        <fullName>Rep. Hall, John J. [D-NY-19]</fullName>
+        <firstName>John</firstName>
+        <lastName>Hall</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>J.</middleName>
+        <district>19</district>
+        <sponsorshipDate>2007-11-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000326</bioguideId>
+        <fullName>Rep. Towns, Edolphus [D-NY-10]</fullName>
+        <firstName>EDOLPHUS</firstName>
+        <lastName>TOWNS</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <district>10</district>
+        <sponsorshipDate>2007-12-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000090</bioguideId>
+        <fullName>Rep. Lantos, Tom [D-CA-12]</fullName>
+        <firstName>TOM</firstName>
+        <lastName>LANTOS</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>12</district>
+        <sponsorshipDate>2007-12-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001143</bioguideId>
+        <fullName>Rep. McCollum, Betty [D-MN-4]</fullName>
+        <firstName>BETTY</firstName>
+        <lastName>MCCOLLUM</lastName>
+        <party>D</party>
+        <state>MN</state>
+        <district>4</district>
+        <sponsorshipDate>2007-12-12</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001043</bioguideId>
+        <fullName>Rep. Hodes, Paul W. [D-NH-2]</fullName>
+        <firstName>Paul</firstName>
+        <lastName>Hodes</lastName>
+        <party>D</party>
+        <state>NH</state>
+        <middleName>W.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2007-12-18</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000551</bioguideId>
+        <fullName>Rep. Lee, Barbara [D-CA-9]</fullName>
+        <firstName>BARBARA</firstName>
+        <lastName>LEE</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>9</district>
+        <sponsorshipDate>2008-03-06</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Environmental Protection</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Citizen participation</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Government publicity</name>
+        </item>
+        <item>
+          <name>Great Lakes</name>
+        </item>
+        <item>
+          <name>Interstate relations</name>
+        </item>
+        <item>
+          <name>Law</name>
+        </item>
+        <item>
+          <name>Licenses</name>
+        </item>
+        <item>
+          <name>State laws</name>
+        </item>
+        <item>
+          <name>Waste disposal in rivers, lakes, etc.</name>
+        </item>
+        <item>
+          <name>Water pollution control</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Environmental Protection</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2007-08-03</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2007-10-19T20:59:12Z</updateDate>
+        <text><![CDATA[ <p>Great Lakes Pollution Prevention Act of 2007 - Amends the Federal Water Pollution Control Act to prohibit either the Administrator of the Environmental Protection Agency (EPA) or any Great Lakes state from issuing a permit for the discharge of a pollutant into a body of water that is part of the Great Lakes, or that is within the boundaries of two or more of such states, without the concurrence of all such states. Authorizes a state to concur only after providing notice in the vicinity of the portion of the body of water within its boundaries and an opportunity for public comment.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Great Lakes Pollution Prevention Act of 2007</title>
+    <titles>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend the Federal Water Pollution Control Act to require the concurrence of all bordering States when a permit for the discharge of pollutants into one of the Great Lakes is issued.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Great Lakes Pollution Prevention Act of 2007</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Great Lakes Pollution Prevention Act of 2007</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2007-08-03T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-110hr3360ih/xml/BILLS-110hr3360ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2007-08-04</actionDate>
+      <text>Referred to the Subcommittee on Water Resources and Environment.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

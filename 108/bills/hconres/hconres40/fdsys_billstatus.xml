@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>40</number>
+    <updateDate>2023-01-15T21:34:03Z</updateDate>
+    <updateDateIncludingText>2023-01-15T21:34:03Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HCONRES</type>
+    <introducedDate>2003-02-13</introducedDate>
+    <congress>108</congress>
+    <committees>
+      <item>
+        <systemCode>ssra00</systemCode>
+        <name>Rules and Administration Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Discharged from</name>
+            <date>2003-03-19T01:42:07Z</date>
+          </item>
+          <item>
+            <name>Referred to</name>
+            <date>2003-02-26T22:35:22Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsha00</systemCode>
+        <name>Committee on House Administration</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2003-02-13T15:02:45Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2003-03-19</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2003-03-18</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Resolution agreed to in Senate without amendment by Unanimous Consent.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2003-03-18</actionDate>
+        <text>Passed/agreed to in Senate: Resolution agreed to in Senate without amendment by Unanimous Consent.</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2003-03-18</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssra00</systemCode>
+            <name>Rules and Administration Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Senate Committee on Rules and Administration discharged by Unanimous Consent. (consideration: CR S3909-3910)</text>
+        <type>Discharge</type>
+      </item>
+      <item>
+        <actionDate>2003-03-18</actionDate>
+        <text>Senate Committee on Rules and Administration discharged by Unanimous Consent.(consideration: CR S3909-3910)</text>
+        <type>Committee</type>
+        <actionCode>14500</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>ssra00</systemCode>
+            <name>Rules and Administration Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2003-02-26</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssra00</systemCode>
+            <name>Rules and Administration Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate and referred to the Committee on Rules and Administration.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2003-02-25</actionDate>
+        <actionTime>18:56:24</actionTime>
+        <text>On motion to suspend the rules and agree to the resolution Agreed to by the Yeas and Nays: (2/3 required): 408 - 0 (Roll no. 34). (text of measure as passed House: CR H1280)</text>
+        <type>Floor</type>
+        <actionCode>H37300</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>34</rollNumber>
+            <url>https://clerk.house.gov/evs/2003/roll034.xml</url>
+            <chamber>House</chamber>
+            <congress>108</congress>
+            <date>2003-02-25T23:56:24Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2003-02-25</actionDate>
+        <actionTime>18:56:24</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2003-02-25</actionDate>
+        <actionTime>18:56:24</actionTime>
+        <text>Passed/agreed to in House: On motion to suspend the rules and agree to the resolution Agreed to by the Yeas and Nays: (2/3 required): 408 - 0 (Roll no. 34).(text of measure as passed House: CR H1280)</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>34</rollNumber>
+            <url>https://clerk.house.gov/evs/2003/roll034.xml</url>
+            <chamber>House</chamber>
+            <congress>108</congress>
+            <date>2003-02-25T23:56:24Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2003-02-25</actionDate>
+        <actionTime>18:50:14</actionTime>
+        <text>Considered as unfinished business. (consideration: CR H1283-1284)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2003-02-25</actionDate>
+        <actionTime>16:38:50</actionTime>
+        <text>At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.</text>
+        <type>Floor</type>
+        <actionCode>H37220</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2003-02-25</actionDate>
+        <actionTime>16:28:43</actionTime>
+        <text>DEBATE - The House proceeded with forty minutes of debate on H. Con. Res. 40.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2003-02-25</actionDate>
+        <actionTime>16:28:41</actionTime>
+        <text>Considered under suspension of the rules. (consideration: CR H1280-1282)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2003-02-25</actionDate>
+        <actionTime>16:28:23</actionTime>
+        <text>Mr. Mica moved to suspend the rules and agree to the resolution.</text>
+        <type>Floor</type>
+        <actionCode>H30300</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2003-02-13</actionDate>
+        <text>Referred to the House Committee on House Administration.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsha00</systemCode>
+            <name>Committee on House Administration</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2003-02-13</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2003-02-13</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>C001046</bioguideId>
+        <fullName>Rep. Cantor, Eric [R-VA-7]</fullName>
+        <firstName>ERIC</firstName>
+        <lastName>CANTOR</lastName>
+        <party>R</party>
+        <state>VA</state>
+        <district>7</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>N000081</bioguideId>
+        <fullName>Rep. Ney, Robert W. [R-OH-18]</fullName>
+        <firstName>BOB</firstName>
+        <lastName>NEY</lastName>
+        <party>R</party>
+        <state>OH</state>
+        <district>18</district>
+        <sponsorshipDate>2003-02-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000557</bioguideId>
+        <fullName>Rep. Larson, John B. [D-CT-1]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>LARSON</lastName>
+        <party>D</party>
+        <state>CT</state>
+        <middleName>B.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2003-02-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000553</bioguideId>
+        <fullName>Rep. LaTourette, Steven C. [R-OH-14]</fullName>
+        <firstName>STEVEN</firstName>
+        <lastName>LATOURETTE</lastName>
+        <party>R</party>
+        <state>OH</state>
+        <middleName>C.</middleName>
+        <district>14</district>
+        <sponsorshipDate>2003-02-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000714</bioguideId>
+        <fullName>Rep. Millender-McDonald, Juanita [D-CA-37]</fullName>
+        <firstName>JUANITA</firstName>
+        <lastName>MILLENDER-MCDONALD</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <middleName>M.</middleName>
+        <district>37</district>
+        <sponsorshipDate>2003-02-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000116</bioguideId>
+        <fullName>Rep. Cannon, Chris [R-UT-3]</fullName>
+        <firstName>CHRIS</firstName>
+        <lastName>CANNON</lastName>
+        <party>R</party>
+        <state>UT</state>
+        <district>3</district>
+        <sponsorshipDate>2003-02-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001227</bioguideId>
+        <fullName>Rep. Brady, Robert A. [D-PA-1]</fullName>
+        <firstName>ROBERT</firstName>
+        <lastName>BRADY</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <middleName>A.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2003-02-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001134</bioguideId>
+        <fullName>Rep. Myrick, Sue Wilkins [R-NC-9]</fullName>
+        <firstName>SUE</firstName>
+        <lastName>MYRICK</lastName>
+        <party>R</party>
+        <state>NC</state>
+        <middleName>WILKINS</middleName>
+        <district>9</district>
+        <sponsorshipDate>2003-02-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000090</bioguideId>
+        <fullName>Rep. Lantos, Tom [D-CA-12]</fullName>
+        <firstName>TOM</firstName>
+        <lastName>LANTOS</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>12</district>
+        <sponsorshipDate>2003-02-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000795</bioguideId>
+        <fullName>Rep. Wilson, Joe [R-SC-2]</fullName>
+        <firstName>Joe</firstName>
+        <lastName>Wilson</lastName>
+        <party>R</party>
+        <state>SC</state>
+        <district>2</district>
+        <sponsorshipDate>2003-02-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000392</bioguideId>
+        <fullName>Rep. Frost, Martin [D-TX-24]</fullName>
+        <firstName>MARTIN</firstName>
+        <lastName>FROST</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>24</district>
+        <sponsorshipDate>2003-02-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000435</bioguideId>
+        <fullName>Rep. Ros-Lehtinen, Ileana [R-FL-18]</fullName>
+        <firstName>ILEANA</firstName>
+        <lastName>ROS-LEHTINEN</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>18</district>
+        <sponsorshipDate>2003-02-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Commemorations</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Capitol (Washington, D.C.)</name>
+        </item>
+        <item>
+          <name>Congress</name>
+        </item>
+        <item>
+          <name>Crime and Law Enforcement</name>
+        </item>
+        <item>
+          <name>History</name>
+        </item>
+        <item>
+          <name>International Affairs</name>
+        </item>
+        <item>
+          <name>Jewish holocaust (1939-1945)</name>
+        </item>
+        <item>
+          <name>Special days</name>
+        </item>
+        <item>
+          <name>Special weeks</name>
+        </item>
+        <item>
+          <name>Victims of crimes</name>
+        </item>
+        <item>
+          <name>War crimes</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Commemorations</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2003-02-13</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2006-11-28T17:35:40Z</updateDate>
+        <text><![CDATA[Authorizes the use of the Capitol rotunda on April 30, 2003, for a ceremony as part of the commemoration of the days of remembrance of victims of the Holocaust.]]></text>
+      </summary>
+      <summary>
+        <versionCode>82</versionCode>
+        <actionDate>2003-03-18</actionDate>
+        <actionDesc>Passed Senate without amendment</actionDesc>
+        <updateDate>2006-11-28T17:35:40Z</updateDate>
+        <text><![CDATA[<b>(This measure has not been amended since it was introduced in the House of Representatives on February 13, 2003. The summary of that version is repeated here.)</b><p>Authorizes the use of the Capitol rotunda on April 30, 2003, for a ceremony as part of the commemoration of the days of remembrance of victims of the Holocaust.]]></text>
+      </summary>
+    </summaries>
+    <title>Permitting the use of the rotunda of the Capitol for a ceremony as part of the commemoration of the days of remembrance of victims of the Holocaust.</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Permitting the use of the rotunda of the Capitol for a ceremony as part of the commemoration of the days of remembrance of victims of the Holocaust.</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>Permitting the use of the rotunda of the Capitol for a ceremony as part of the commemoration of the days of remembrance of victims of the Holocaust.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Enrolled Bill</type>
+        <date/>
+        <formats/>
+      </item>
+      <item>
+        <type>Referred in Senate</type>
+        <date>2003-02-26T05:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Engrossed in House</type>
+        <date>2003-02-25T05:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Introduced in House</type>
+        <date>2003-02-13T05:00:00Z</date>
+        <formats/>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2003-03-19</actionDate>
+      <text>Message on Senate action sent to the House.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

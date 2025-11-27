@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>1023</number>
+    <updateDate>2023-01-11T13:16:42Z</updateDate>
+    <updateDateIncludingText>2023-01-11T13:16:42Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HRES</type>
+    <introducedDate>2010-01-20</introducedDate>
+    <congress>111</congress>
+    <committees>
+      <item>
+        <systemCode>hsru00</systemCode>
+        <name>Rules Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2010-01-20T15:00:49Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2010-01-20</actionDate>
+        <text>Referred to the House Committee on Rules.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsru00</systemCode>
+            <name>Rules Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2010-01-20</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2010-01-20</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>L000567</bioguideId>
+        <fullName>Rep. Lance, Leonard [R-NJ-7]</fullName>
+        <firstName>Leonard</firstName>
+        <lastName>Lance</lastName>
+        <party>R</party>
+        <state>NJ</state>
+        <district>7</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Congress</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Congressional committees</name>
+        </item>
+        <item>
+          <name>House Committee on Rules</name>
+        </item>
+        <item>
+          <name>House of Representatives</name>
+        </item>
+        <item>
+          <name>Legislative rules and procedure</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Congress</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2010-01-20</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2010-03-24T15:33:16Z</updateDate>
+        <text><![CDATA[ <p>Amends Rule XIII (Calendars and Committee Reports) of the Rules of the House of Representatives to prohibit the Committee on Rules from reporting a rule or an order that would waive: (1) clause 5 of Rule XVI (Motions and Amendments) regarding divisibility or nondivisibility of a question, motion, or resolution in specified circumstances on the demand of a Member, Delegate, or Resident Commissioner; or (2) clause 9 of rule XXII (House and Senate Relations) regarding the germaneness of modifications proposed by the managers on the part of the House to amendments committed in disagreement to a conference committee.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Amending the Rules of the House of Representatives to remove the authority of the Committee on Rules to waive clause 5 of rule XVI or clause 9 of rule XXII.</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Amending the Rules of the House of Representatives to remove the authority of the Committee on Rules to waive clause 5 of rule XVI or clause 9 of rule XXII.</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>Amending the Rules of the House of Representatives to remove the authority of the Committee on Rules to waive clause 5 of rule XVI or clause 9 of rule XXII.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2010-01-20T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-111hres1023ih/xml/BILLS-111hres1023ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2010-01-20</actionDate>
+      <text>Referred to the House Committee on Rules.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>4551</number>
+    <updateDate>2023-01-11T13:16:43Z</updateDate>
+    <updateDateIncludingText>2023-01-11T13:16:43Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2010-01-27</introducedDate>
+    <congress>111</congress>
+    <committees>
+      <item>
+        <systemCode>hsas00</systemCode>
+        <name>Armed Services Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsas02</systemCode>
+            <name>Military Personnel Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2010-02-25T14:33:52Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2010-01-27T19:38:46Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsgo00</systemCode>
+        <name>Oversight and Accountability Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2010-01-27T19:38:47Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2010-02-25</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsas02</systemCode>
+            <name>Military Personnel Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Military Personnel.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2010-01-27</actionDate>
+        <text>Referred to House Oversight and Government Reform</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsgo00</systemCode>
+            <name>Oversight and Accountability Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2010-01-27</actionDate>
+        <text>Referred to the Committee on Armed Services, and in addition to the Committee on Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100-A</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2010-01-27</actionDate>
+        <text>Referred to House Armed Services</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsas00</systemCode>
+            <name>Armed Services Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2010-01-27</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2010-01-27</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>V000128</bioguideId>
+        <fullName>Rep. Van Hollen, Chris [D-MD-8]</fullName>
+        <firstName>Chris</firstName>
+        <lastName>Van Hollen</lastName>
+        <party>D</party>
+        <state>MD</state>
+        <district>8</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>D000299</bioguideId>
+        <fullName>Rep. Diaz-Balart, Lincoln [R-FL-21]</fullName>
+        <firstName>LINCOLN</firstName>
+        <lastName>DIAZ-BALART</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>21</district>
+        <sponsorshipDate>2010-01-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000672</bioguideId>
+        <fullName>Rep. Wolf, Frank R. [R-VA-10]</fullName>
+        <firstName>FRANK</firstName>
+        <lastName>WOLF</lastName>
+        <party>R</party>
+        <state>VA</state>
+        <middleName>R.</middleName>
+        <district>10</district>
+        <sponsorshipDate>2010-01-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001245</bioguideId>
+        <fullName>Del. Bordallo, Madeleine Z. [D-GU-At Large]</fullName>
+        <firstName>Madeleine</firstName>
+        <lastName>Bordallo</lastName>
+        <party>D</party>
+        <state>GU</state>
+        <middleName>Z.</middleName>
+        <district>0</district>
+        <sponsorshipDate>2010-01-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001170</bioguideId>
+        <fullName>Rep. Shea-Porter, Carol [D-NH-1]</fullName>
+        <firstName>Carol</firstName>
+        <lastName>Shea-Porter</lastName>
+        <party>D</party>
+        <state>NH</state>
+        <district>1</district>
+        <sponsorshipDate>2010-01-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000208</bioguideId>
+        <fullName>Rep. Bartlett, Roscoe G. [R-MD-6]</fullName>
+        <firstName>ROSCOE</firstName>
+        <lastName>BARTLETT</lastName>
+        <party>R</party>
+        <state>MD</state>
+        <middleName>G.</middleName>
+        <district>6</district>
+        <sponsorshipDate>2010-01-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001227</bioguideId>
+        <fullName>Rep. Brady, Robert A. [D-PA-1]</fullName>
+        <firstName>ROBERT</firstName>
+        <lastName>BRADY</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <middleName>A.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2010-01-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000193</bioguideId>
+        <fullName>Rep. Thompson, Bennie G. [D-MS-2]</fullName>
+        <firstName>BENNIE</firstName>
+        <lastName>THOMPSON</lastName>
+        <party>D</party>
+        <state>MS</state>
+        <district>2</district>
+        <sponsorshipDate>2010-01-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000288</bioguideId>
+        <fullName>Rep. Ellison, Keith [D-MN-5]</fullName>
+        <firstName>Keith</firstName>
+        <lastName>Ellison</lastName>
+        <party>D</party>
+        <state>MN</state>
+        <district>5</district>
+        <sponsorshipDate>2010-01-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001036</bioguideId>
+        <fullName>Rep. Capps, Lois [D-CA-23]</fullName>
+        <firstName>LOIS</firstName>
+        <lastName>CAPPS</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>23</district>
+        <sponsorshipDate>2010-01-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>N000015</bioguideId>
+        <fullName>Rep. Neal, Richard E. [D-MA-2]</fullName>
+        <firstName>RICHARD</firstName>
+        <lastName>NEAL</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>E.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2010-01-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000652</bioguideId>
+        <fullName>Rep. Boswell, Leonard L. [D-IA-3]</fullName>
+        <firstName>LEONARD</firstName>
+        <lastName>BOSWELL</lastName>
+        <party>D</party>
+        <state>IA</state>
+        <middleName>L.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2010-01-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000554</bioguideId>
+        <fullName>Rep. LoBiondo, Frank A. [R-NJ-2]</fullName>
+        <firstName>FRANK</firstName>
+        <lastName>LOBIONDO</lastName>
+        <party>R</party>
+        <state>NJ</state>
+        <middleName>A.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2010-01-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001157</bioguideId>
+        <fullName>Rep. Scott, David [D-GA-13]</fullName>
+        <firstName>David</firstName>
+        <lastName>Scott</lastName>
+        <party>D</party>
+        <state>GA</state>
+        <district>13</district>
+        <sponsorshipDate>2010-01-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000210</bioguideId>
+        <fullName>Rep. Delahunt, Bill [D-MA-10]</fullName>
+        <firstName>Bill</firstName>
+        <lastName>Delahunt</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <district>10</district>
+        <sponsorshipDate>2010-01-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000312</bioguideId>
+        <fullName>Rep. McGovern, James P. [D-MA-3]</fullName>
+        <firstName>JAMES</firstName>
+        <lastName>MCGOVERN</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>P.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2010-01-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000933</bioguideId>
+        <fullName>Rep. Moran, James P. [D-VA-8]</fullName>
+        <firstName>JAMES</firstName>
+        <lastName>MORAN</lastName>
+        <party>D</party>
+        <state>VA</state>
+        <middleName>P.</middleName>
+        <district>8</district>
+        <sponsorshipDate>2010-01-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>J000255</bioguideId>
+        <fullName>Rep. Jones, Walter B., Jr. [R-NC-3]</fullName>
+        <firstName>WALTER</firstName>
+        <lastName>JONES</lastName>
+        <party>R</party>
+        <state>NC</state>
+        <middleName>B.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2010-01-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000074</bioguideId>
+        <fullName>Rep. Taylor, Gene [D-MS-4]</fullName>
+        <firstName>GENE</firstName>
+        <lastName>TAYLOR</lastName>
+        <party>D</party>
+        <state>MS</state>
+        <district>4</district>
+        <sponsorshipDate>2010-01-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001140</bioguideId>
+        <fullName>Rep. Moore, Dennis [D-KS-3]</fullName>
+        <firstName>DENNIS</firstName>
+        <lastName>MOORE</lastName>
+        <party>D</party>
+        <state>KS</state>
+        <district>3</district>
+        <sponsorshipDate>2010-01-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000583</bioguideId>
+        <fullName>Rep. Paul, Ron [R-TX-14]</fullName>
+        <firstName>RON</firstName>
+        <lastName>PAUL</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>14</district>
+        <sponsorshipDate>2010-01-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>J000032</bioguideId>
+        <fullName>Rep. Jackson Lee, Sheila [D-TX-18]</fullName>
+        <firstName>SHEILA</firstName>
+        <lastName>JACKSON LEE</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>18</district>
+        <sponsorshipDate>2010-01-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001169</bioguideId>
+        <fullName>Rep. Sestak, Joe [D-PA-7]</fullName>
+        <firstName>Joe</firstName>
+        <lastName>Sestak</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <district>7</district>
+        <sponsorshipDate>2010-01-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000365</bioguideId>
+        <fullName>Rep. Kagen, Steve [D-WI-8]</fullName>
+        <firstName>Steve</firstName>
+        <lastName>Kagen</lastName>
+        <party>D</party>
+        <state>WI</state>
+        <district>8</district>
+        <sponsorshipDate>2010-01-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>I000057</bioguideId>
+        <fullName>Rep. Israel, Steve [D-NY-2]</fullName>
+        <firstName>STEVE</firstName>
+        <lastName>ISRAEL</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <district>2</district>
+        <sponsorshipDate>2010-01-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000410</bioguideId>
+        <fullName>Rep. Green, Gene [D-TX-29]</fullName>
+        <firstName>GENE</firstName>
+        <lastName>GREEN</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>29</district>
+        <sponsorshipDate>2010-01-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000191</bioguideId>
+        <fullName>Rep. DeFazio, Peter A. [D-OR-4]</fullName>
+        <firstName>PETER</firstName>
+        <lastName>DEFAZIO</lastName>
+        <party>D</party>
+        <state>OR</state>
+        <middleName>A.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2010-01-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000544</bioguideId>
+        <fullName>Rep. Gonzalez, Charles A. [D-TX-20]</fullName>
+        <firstName>CHARLES</firstName>
+        <lastName>GONZALEZ</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <middleName>A.</middleName>
+        <district>20</district>
+        <sponsorshipDate>2010-01-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001040</bioguideId>
+        <fullName>Rep. Hare, Phil [D-IL-17]</fullName>
+        <firstName>Phil</firstName>
+        <lastName>Hare</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <district>17</district>
+        <sponsorshipDate>2010-01-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000485</bioguideId>
+        <fullName>Rep. McIntyre, Mike [D-NC-7]</fullName>
+        <firstName>MIKE</firstName>
+        <lastName>MCINTYRE</lastName>
+        <party>D</party>
+        <state>NC</state>
+        <district>7</district>
+        <sponsorshipDate>2010-01-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000309</bioguideId>
+        <fullName>Rep. Gordon, Bart [D-TN-6]</fullName>
+        <firstName>BART</firstName>
+        <lastName>GORDON</lastName>
+        <party>D</party>
+        <state>TN</state>
+        <district>6</district>
+        <sponsorshipDate>2010-01-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000116</bioguideId>
+        <fullName>Rep. Filner, Bob [D-CA-51]</fullName>
+        <firstName>BOB</firstName>
+        <lastName>FILNER</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>51</district>
+        <sponsorshipDate>2010-02-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000553</bioguideId>
+        <fullName>Rep. LaTourette, Steven C. [R-OH-14]</fullName>
+        <firstName>STEVEN</firstName>
+        <lastName>LATOURETTE</lastName>
+        <party>R</party>
+        <state>OH</state>
+        <middleName>C.</middleName>
+        <district>14</district>
+        <sponsorshipDate>2010-03-02</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Government employee pay, benefits, personnel management</name>
+        </item>
+        <item>
+          <name>Health care costs and insurance</name>
+        </item>
+        <item>
+          <name>Health care coverage and access</name>
+        </item>
+        <item>
+          <name>Military medicine</name>
+        </item>
+        <item>
+          <name>Military personnel and dependents</name>
+        </item>
+        <item>
+          <name>Prescription drugs</name>
+        </item>
+        <item>
+          <name>Veterans' medical care</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Armed Forces and National Security</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2010-01-27</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2010-04-13T17:33:46Z</updateDate>
+        <text><![CDATA[ <p>Keep Our Promise to America's Military Retirees Act - Directs the Secretary of Defense to enter into an agreement with the Office of Personnel Management (OPM) to provide Federal Employees Health Benefits (FEHB) coverage to the following eligible beneficiaries: (1) a member or former member of the Armed Forces entitled to military retired or retainer pay; (2) an unremarried former spouse who was married to a member for at least 20 years, during which such member performed at least 20 years of retirement-creditable military service; (3) a dependent of a deceased qualifying member or former member; (4) a dependent of a living member or former member; and (5) a family member.</p> <p>Directs the Secretary to reimburse such eligible persons for pharmacy benefits received from a pharmacy that is not a TRICARE (Department of Defense [DOD] managed health care plan) network pharmacy in the same manner as the Secretary would reimburse such person for such benefits received from a TRICARE network pharmacy. Requires such persons, in order to receive such reimbursement, to submit a certification from their physician stating that the person does not have access to a TRICARE network pharmacy due to physical or medical constraints.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Keep Our Promise to America's Military Retirees Act</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Keep Our Promise to America's Military Retirees Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To restore health care coverage to retired members of the uniformed services, and for other purposes.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Keep Our Promise to America's Military Retirees Act</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2010-01-27T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-111hr4551ih/xml/BILLS-111hr4551ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2010-02-25</actionDate>
+      <text>Referred to the Subcommittee on Military Personnel.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

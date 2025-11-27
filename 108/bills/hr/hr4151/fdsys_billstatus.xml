@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>4151</number>
+    <updateDate>2023-01-15T04:48:37Z</updateDate>
+    <updateDateIncludingText>2023-01-15T04:48:37Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2004-04-02</introducedDate>
+    <congress>108</congress>
+    <committees>
+      <item>
+        <systemCode>hsif00</systemCode>
+        <name>Energy and Commerce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2004-04-08T13:21:50Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2004-04-02T14:00:15Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <relatedBills>
+      <item>
+        <title>Brian Lykins Human Tissue Transplant Safety Act of 2003</title>
+        <congress>108</congress>
+        <number>1063</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2003-05-14</actionDate>
+          <text>Read twice and referred to the Committee on Health, Education, Labor, and Pensions.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2004-04-08</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2004-04-02</actionDate>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2004-04-02</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2004-04-02</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>K000363</bioguideId>
+        <fullName>Rep. Kline, John [R-MN-2]</fullName>
+        <firstName>John</firstName>
+        <lastName>Kline</lastName>
+        <party>R</party>
+        <state>MN</state>
+        <district>2</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>K000358</bioguideId>
+        <fullName>Rep. Kennedy, Mark R. [R-MN-6]</fullName>
+        <firstName>MARK</firstName>
+        <lastName>KENNEDY</lastName>
+        <party>R</party>
+        <state>MN</state>
+        <middleName>R.</middleName>
+        <district>6</district>
+        <sponsorshipDate>2004-04-02</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001143</bioguideId>
+        <fullName>Rep. McCollum, Betty [D-MN-4]</fullName>
+        <firstName>BETTY</firstName>
+        <lastName>MCCOLLUM</lastName>
+        <party>D</party>
+        <state>MN</state>
+        <district>4</district>
+        <sponsorshipDate>2004-04-02</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000033</bioguideId>
+        <fullName>Rep. Ramstad, Jim [R-MN-3]</fullName>
+        <firstName>JIM</firstName>
+        <lastName>RAMSTAD</lastName>
+        <party>R</party>
+        <state>MN</state>
+        <district>3</district>
+        <sponsorshipDate>2004-04-02</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000258</bioguideId>
+        <fullName>Rep. Peterson, Collin C. [D-MN-7]</fullName>
+        <firstName>COLLIN</firstName>
+        <lastName>PETERSON</lastName>
+        <party>D</party>
+        <state>MN</state>
+        <middleName>C.</middleName>
+        <district>7</district>
+        <sponsorshipDate>2004-04-02</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000536</bioguideId>
+        <fullName>Rep. Gutknecht, Gil [R-MN-1]</fullName>
+        <firstName>GIL</firstName>
+        <lastName>GUTKNECHT</lastName>
+        <party>R</party>
+        <state>MN</state>
+        <district>1</district>
+        <sponsorshipDate>2004-04-02</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000005</bioguideId>
+        <fullName>Rep. Sabo, Martin Olav [D-MN-5]</fullName>
+        <firstName>MARTIN</firstName>
+        <lastName>SABO</lastName>
+        <party>D</party>
+        <state>MN</state>
+        <middleName>OLAV</middleName>
+        <district>5</district>
+        <sponsorshipDate>2004-04-02</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>O000006</bioguideId>
+        <fullName>Rep. Oberstar, James L. [D-MN-8]</fullName>
+        <firstName>JAMES</firstName>
+        <lastName>OBERSTAR</lastName>
+        <party>D</party>
+        <state>MN</state>
+        <middleName>L.</middleName>
+        <district>8</district>
+        <sponsorshipDate>2004-04-02</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001152</bioguideId>
+        <fullName>Rep. Musgrave, Marilyn N. [R-CO-4]</fullName>
+        <firstName>Marilyn</firstName>
+        <lastName>Musgrave</lastName>
+        <party>R</party>
+        <state>CO</state>
+        <middleName>N.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2004-04-02</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000477</bioguideId>
+        <fullName>Rep. McInnis, Scott [R-CO-3]</fullName>
+        <firstName>SCOTT</firstName>
+        <lastName>MCINNIS</lastName>
+        <party>R</party>
+        <state>CO</state>
+        <district>3</district>
+        <sponsorshipDate>2004-04-02</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000444</bioguideId>
+        <fullName>Rep. Hefley, Joel [R-CO-5]</fullName>
+        <firstName>JOEL</firstName>
+        <lastName>HEFLEY</lastName>
+        <party>R</party>
+        <state>CO</state>
+        <district>5</district>
+        <sponsorshipDate>2004-04-02</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001240</bioguideId>
+        <fullName>Rep. Beauprez, Bob [R-CO-7]</fullName>
+        <firstName>Bob</firstName>
+        <lastName>Beauprez</lastName>
+        <party>R</party>
+        <state>CO</state>
+        <district>7</district>
+        <sponsorshipDate>2004-04-02</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>N000159</bioguideId>
+        <fullName>Rep. Norwood, Charles W. [R-GA-9]</fullName>
+        <firstName>CHARLES</firstName>
+        <lastName>NORWOOD</lastName>
+        <party>R</party>
+        <state>GA</state>
+        <middleName>W.</middleName>
+        <district>9</district>
+        <sponsorshipDate>2004-06-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000309</bioguideId>
+        <fullName>Rep. Gordon, Bart [D-TN-6]</fullName>
+        <firstName>BART</firstName>
+        <lastName>GORDON</lastName>
+        <party>D</party>
+        <state>TN</state>
+        <district>6</district>
+        <sponsorshipDate>2004-06-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000448</bioguideId>
+        <fullName>Rep. Franks, Trent [R-AZ-2]</fullName>
+        <firstName>Trent</firstName>
+        <lastName>Franks</lastName>
+        <party>R</party>
+        <state>AZ</state>
+        <district>2</district>
+        <sponsorshipDate>2004-07-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001149</bioguideId>
+        <fullName>Rep. Burton, Dan [R-IN-5]</fullName>
+        <firstName>DAN</firstName>
+        <lastName>BURTON</lastName>
+        <party>R</party>
+        <state>IN</state>
+        <district>5</district>
+        <sponsorshipDate>2004-07-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000326</bioguideId>
+        <fullName>Rep. Towns, Edolphus [D-NY-10]</fullName>
+        <firstName>EDOLPHUS</firstName>
+        <lastName>TOWNS</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <district>10</district>
+        <sponsorshipDate>2004-07-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000373</bioguideId>
+        <fullName>Rep. Pitts, Joseph R. [R-PA-16]</fullName>
+        <firstName>JOSEPH</firstName>
+        <lastName>PITTS</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <middleName>R.</middleName>
+        <district>16</district>
+        <sponsorshipDate>2004-07-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001248</bioguideId>
+        <fullName>Rep. Burgess, Michael C. [R-TX-26]</fullName>
+        <firstName>Michael</firstName>
+        <lastName>Burgess</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <middleName>C.</middleName>
+        <district>26</district>
+        <sponsorshipDate>2004-07-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Administrative procedure</name>
+        </item>
+        <item>
+          <name>Commerce</name>
+        </item>
+        <item>
+          <name>Communicable diseases</name>
+        </item>
+        <item>
+          <name>Communication in medicine</name>
+        </item>
+        <item>
+          <name>Cytology</name>
+        </item>
+        <item>
+          <name>Data banks</name>
+        </item>
+        <item>
+          <name>Department of Health and Human Services</name>
+        </item>
+        <item>
+          <name>Food and Drug Administration (FDA)</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Government paperwork</name>
+        </item>
+        <item>
+          <name>Governmental investigations</name>
+        </item>
+        <item>
+          <name>Health facilities</name>
+        </item>
+        <item>
+          <name>Health information systems</name>
+        </item>
+        <item>
+          <name>Labeling</name>
+        </item>
+        <item>
+          <name>Law</name>
+        </item>
+        <item>
+          <name>Licenses</name>
+        </item>
+        <item>
+          <name>Medical screening</name>
+        </item>
+        <item>
+          <name>Medical tests</name>
+        </item>
+        <item>
+          <name>Packaging</name>
+        </item>
+        <item>
+          <name>Preventive medicine</name>
+        </item>
+        <item>
+          <name>Product safety</name>
+        </item>
+        <item>
+          <name>Science, Technology, Communications</name>
+        </item>
+        <item>
+          <name>Storage</name>
+        </item>
+        <item>
+          <name>Tissue banks</name>
+        </item>
+        <item>
+          <name>Transplantation of organs, tissues, etc.</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Health</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2004-04-02</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2004-04-21T17:45:24Z</updateDate>
+        <text><![CDATA[ <p>Brian Lykins Human Tissue Transplant Safety Act of 2004 - Amends the Public Health Service Act to provide for oversight by the Commissioner of Food and Drugs of entities engaged in activities relating to human tissue or human tissue-based products, requiring their registration and authorizing their inspection. Requires the reporting of any adverse incidents. Requires the Commissioner to develop a reporting mechanism and a database to store such information. </p> <p>Allows the Commissioner, in an instance in which this Act is violated, to: (1) issue an order requiring any distributor of a human cell, tissue, or cellular or tissue-based product to recall or destroy such product; (2) condemn, seize, and destroy such product; (3) require a covered entity to cease the activity that resulted in the violation; or (4) suspend or revoke the registration and listing of the covered entity involved. <p>]]></text>
+      </summary>
+    </summaries>
+    <title>Brian Lykins Human Tissue Transplant Safety Act of 2004</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Brian Lykins Human Tissue Transplant Safety Act of 2004</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend the Public Health Service Act to authorize the Commissioner of Food and Drugs to conduct oversight of any entity engaged in the recovery, screening, testing, processing, storage, or distribution of human tissue or human tissue-based products.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Brian Lykins Human Tissue Transplant Safety Act of 2004</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2004-04-02T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-108hr4151ih/xml/BILLS-108hr4151ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2004-04-08</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

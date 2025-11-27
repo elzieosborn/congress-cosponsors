@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>3339</number>
+    <updateDate>2023-01-15T07:47:46Z</updateDate>
+    <updateDateIncludingText>2023-01-15T07:47:46Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2003-10-17</introducedDate>
+    <congress>108</congress>
+    <committees>
+      <item>
+        <systemCode>hsas00</systemCode>
+        <name>Armed Services Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsas03</systemCode>
+            <name>Readiness Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2003-11-03T19:40:17Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2003-10-17T13:01:10Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2003-11-03</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsas00</systemCode>
+            <name>Armed Services Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Executive Comment Requested from DOD.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2003-11-03</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsas03</systemCode>
+            <name>Readiness Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Readiness.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2003-10-17</actionDate>
+        <text>Referred to the House Committee on Armed Services.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsas00</systemCode>
+            <name>Armed Services Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2003-10-17</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2003-10-17</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>W000795</bioguideId>
+        <fullName>Rep. Wilson, Joe [R-SC-2]</fullName>
+        <firstName>Joe</firstName>
+        <lastName>Wilson</lastName>
+        <party>R</party>
+        <state>SC</state>
+        <district>2</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>T000057</bioguideId>
+        <fullName>Rep. Tauscher, Ellen O. [D-CA-10]</fullName>
+        <firstName>ELLEN</firstName>
+        <lastName>TAUSCHER</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <middleName>O.</middleName>
+        <district>10</district>
+        <sponsorshipDate>2003-10-17</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000074</bioguideId>
+        <fullName>Rep. Taylor, Gene [D-MS-4]</fullName>
+        <firstName>GENE</firstName>
+        <lastName>TAYLOR</lastName>
+        <party>D</party>
+        <state>MS</state>
+        <district>4</district>
+        <sponsorshipDate>2003-10-17</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000485</bioguideId>
+        <fullName>Rep. McIntyre, Mike [D-NC-7]</fullName>
+        <firstName>MIKE</firstName>
+        <lastName>MCINTYRE</lastName>
+        <party>D</party>
+        <state>NC</state>
+        <district>7</district>
+        <sponsorshipDate>2003-10-17</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>I000047</bioguideId>
+        <fullName>Rep. Istook, Ernest J., Jr. [R-OK-5]</fullName>
+        <firstName>ERNEST</firstName>
+        <lastName>ISTOOK</lastName>
+        <party>R</party>
+        <state>OK</state>
+        <middleName>JIM</middleName>
+        <district>5</district>
+        <sponsorshipDate>2003-10-17</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001144</bioguideId>
+        <fullName>Rep. Miller, Jeff [R-FL-1]</fullName>
+        <firstName>Jeff</firstName>
+        <lastName>Miller</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>1</district>
+        <sponsorshipDate>2003-10-17</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000260</bioguideId>
+        <fullName>Rep. Tiahrt, Todd [R-KS-4]</fullName>
+        <firstName>TODD</firstName>
+        <lastName>TIAHRT</lastName>
+        <party>R</party>
+        <state>KS</state>
+        <district>4</district>
+        <sponsorshipDate>2003-10-17</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000197</bioguideId>
+        <fullName>Rep. DeGette, Diana [D-CO-1]</fullName>
+        <firstName>DIANA</firstName>
+        <lastName>DEGETTE</lastName>
+        <party>D</party>
+        <state>CO</state>
+        <district>1</district>
+        <sponsorshipDate>2003-10-17</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001053</bioguideId>
+        <fullName>Rep. Cole, Tom [R-OK-4]</fullName>
+        <firstName>Tom</firstName>
+        <lastName>Cole</lastName>
+        <party>R</party>
+        <state>OK</state>
+        <district>4</district>
+        <sponsorshipDate>2003-11-06</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000557</bioguideId>
+        <fullName>Rep. Larson, John B. [D-CT-1]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>LARSON</lastName>
+        <party>D</party>
+        <state>CT</state>
+        <middleName>B.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2004-05-13</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000429</bioguideId>
+        <fullName>Rep. Doolittle, John T. [R-CA-4]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>DOOLITTLE</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <middleName>T.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2004-06-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000807</bioguideId>
+        <fullName>Rep. Hostettler, John N. [R-IN-8]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>HOSTETTLER</lastName>
+        <party>R</party>
+        <state>IN</state>
+        <district>8</district>
+        <sponsorshipDate>2004-09-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Administrative procedure</name>
+        </item>
+        <item>
+          <name>Administrative remedies</name>
+        </item>
+        <item>
+          <name>Cogeneration of electric power and heat</name>
+        </item>
+        <item>
+          <name>Computer software</name>
+        </item>
+        <item>
+          <name>Congress</name>
+        </item>
+        <item>
+          <name>Congressional reporting requirements</name>
+        </item>
+        <item>
+          <name>Defense contracts</name>
+        </item>
+        <item>
+          <name>Defense procurement</name>
+        </item>
+        <item>
+          <name>Department of Defense</name>
+        </item>
+        <item>
+          <name>Directories</name>
+        </item>
+        <item>
+          <name>Energy</name>
+        </item>
+        <item>
+          <name>Energy conservation</name>
+        </item>
+        <item>
+          <name>Energy efficiency</name>
+        </item>
+        <item>
+          <name>Fuel consumption</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Government contractors</name>
+        </item>
+        <item>
+          <name>Government publicity</name>
+        </item>
+        <item>
+          <name>Law</name>
+        </item>
+        <item>
+          <name>Maintenance and repair</name>
+        </item>
+        <item>
+          <name>Performance measurement</name>
+        </item>
+        <item>
+          <name>Science, Technology, Communications</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Armed Forces and National Security</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2003-10-17</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2003-12-17T19:35:28Z</updateDate>
+        <text><![CDATA[ <p>National Defense Energy Savings Act of 2003 - Authorizes the Secretary of Defense to: (1) enter into an energy savings performance contract (for a period of up to 25 years) for the sole purpose of achieving ancillary energy savings and benefits; and (2) incur obligations under the contract to finance energy conservation measures so long as guaranteed savings exceed the debt service requirements.</p> <p>Directs the Secretary to issue final rules establishing implementation procedures and methods that meet specified requirements.</p> <p>Authorizes the Secretary to implement a pilot program to enter into up to ten energy savings performance contracts in nonbuilding applications.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>National Defense Energy Savings Act of 2003</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>National Defense Energy Savings Act of 2003</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To expand upon the Department of Defense Energy Efficiency Program required by section 317 of the National Defense Authorization Act of 2002 by authorizing the Secretary of Defense to enter into energy savings performance contracts, and for other purposes.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>National Defense Energy Savings Act of 2003</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2003-10-17T04:00:00Z</date>
+        <formats/>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2003-11-03</actionDate>
+      <text>Executive Comment Requested from DOD.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

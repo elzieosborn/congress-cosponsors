@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>2112</number>
+    <updateDate>2023-01-11T15:48:00Z</updateDate>
+    <updateDateIncludingText>2023-01-11T15:48:00Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2007-05-02</introducedDate>
+    <congress>110</congress>
+    <committees>
+      <item>
+        <systemCode>hsgo00</systemCode>
+        <name>Oversight and Accountability Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsgo24</systemCode>
+            <name>Government Operations and the Federal Workforce Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2007-05-16T13:36:17Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2007-05-02T14:02:20Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2007-05-16</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsgo24</systemCode>
+            <name>Government Operations and the Federal Workforce Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Government Management, Organization, and Procurement.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2007-05-02</actionDate>
+        <text>Referred to the House Committee on Oversight and Government Reform.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsgo00</systemCode>
+            <name>Oversight and Accountability Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2007-05-02</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2007-05-02</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>I000057</bioguideId>
+        <fullName>Rep. Israel, Steve [D-NY-2]</fullName>
+        <firstName>STEVE</firstName>
+        <lastName>ISRAEL</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <district>2</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>I000026</bioguideId>
+        <fullName>Rep. Inslee, Jay [D-WA-1]</fullName>
+        <firstName>JAY</firstName>
+        <lastName>INSLEE</lastName>
+        <party>D</party>
+        <state>WA</state>
+        <district>1</district>
+        <sponsorshipDate>2007-07-30</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001242</bioguideId>
+        <fullName>Rep. Bishop, Timothy H. [D-NY-1]</fullName>
+        <firstName>Timothy</firstName>
+        <lastName>Bishop</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>H.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2007-09-26</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000551</bioguideId>
+        <fullName>Rep. Grijalva, Raúl M. [D-AZ-7]</fullName>
+        <firstName>Raúl</firstName>
+        <lastName>Grijalva</lastName>
+        <party>D</party>
+        <state>AZ</state>
+        <middleName>M.</middleName>
+        <district>7</district>
+        <sponsorshipDate>2007-10-01</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001143</bioguideId>
+        <fullName>Rep. McCollum, Betty [D-MN-4]</fullName>
+        <firstName>BETTY</firstName>
+        <lastName>MCCOLLUM</lastName>
+        <party>D</party>
+        <state>MN</state>
+        <district>4</district>
+        <sponsorshipDate>2007-11-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000133</bioguideId>
+        <fullName>Rep. Markey, Edward J. [D-MA-7]</fullName>
+        <firstName>Edward</firstName>
+        <lastName>Markey</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>J.</middleName>
+        <district>7</district>
+        <sponsorshipDate>2007-12-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Energy</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Buy American</name>
+        </item>
+        <item>
+          <name>Electric vehicles</name>
+        </item>
+        <item>
+          <name>Foreign Trade and International Finance</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Government procurement</name>
+        </item>
+        <item>
+          <name>Government vehicles</name>
+        </item>
+        <item>
+          <name>Transportation and Public Works</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Energy</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2007-05-02</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2007-06-19T21:15:02Z</updateDate>
+        <text><![CDATA[ <p>Purchasing Low-Emission Vehicles for Use in Government (PLUG) Act - Amends the Energy Policy Act of 1992 to instruct the Secretary of Energy to ensure that the federal government acquires not fewer than 50,000 plug-in hybrid electric vehicles manufactured in the United States by U.S. entities.</p> <p>Defines a plug-in hybrid electric vehicle as a light duty vehicle propelled by an internal combustion engine or heat engine using: (1) a combustible fuel; (2) an on-board, rechargeable storage device; and (3) a device that collects electricity from an off-board source.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Purchasing Low-Emission Vehicles for Use in Government (PLUG) Act</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Purchasing Low-Emission Vehicles for Use in Government (PLUG) Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend the Energy Policy Act of 1992 to require the Federal Government to acquire not fewer than 50,000 plug-in hybrid electric vehicles.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Purchasing Low-Emission Vehicles for Use in Government (PLUG) Act</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2007-05-02T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-110hr2112ih/xml/BILLS-110hr2112ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2007-05-16</actionDate>
+      <text>Referred to the Subcommittee on Government Management, Organization, and Procurement.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>936</number>
+    <updateDate>2023-01-11T20:00:16Z</updateDate>
+    <updateDateIncludingText>2023-01-11T20:00:16Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2007-02-08</introducedDate>
+    <congress>110</congress>
+    <committees>
+      <item>
+        <systemCode>hsif00</systemCode>
+        <name>Energy and Commerce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsif17</systemCode>
+            <name>Innovation, Data, and Commerce Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2007-02-09T14:27:53Z</date>
+              </item>
+            </activities>
+          </item>
+          <item>
+            <systemCode>hsif16</systemCode>
+            <name>Communications and Technology Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2007-02-09T14:27:48Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2007-02-08T15:00:20Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2007-02-09</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif17</systemCode>
+            <name>Innovation, Data, and Commerce Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Commerce, Trade and Consumer Protection.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2007-02-09</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif16</systemCode>
+            <name>Communications and Technology Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Telecommunications and the Internet.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2007-02-08</actionDate>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2007-02-08</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2007-02-08</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>D000355</bioguideId>
+        <fullName>Rep. Dingell, John D. [D-MI-15]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>DINGELL</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <middleName>D.</middleName>
+        <district>15</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>B000213</bioguideId>
+        <fullName>Rep. Barton, Joe [R-TX-6]</fullName>
+        <firstName>JOE</firstName>
+        <lastName>BARTON</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <middleName>L.</middleName>
+        <district>6</district>
+        <sponsorshipDate>2007-02-08</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000133</bioguideId>
+        <fullName>Rep. Markey, Edward J. [D-MA-7]</fullName>
+        <firstName>Edward</firstName>
+        <lastName>Markey</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>J.</middleName>
+        <district>7</district>
+        <sponsorshipDate>2007-02-08</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>U000031</bioguideId>
+        <fullName>Rep. Upton, Fred [R-MI-6]</fullName>
+        <firstName>FRED</firstName>
+        <lastName>UPTON</lastName>
+        <party>R</party>
+        <state>MI</state>
+        <district>6</district>
+        <sponsorshipDate>2007-02-08</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000515</bioguideId>
+        <fullName>Rep. Rush, Bobby L. [D-IL-1]</fullName>
+        <firstName>BOBBY</firstName>
+        <lastName>RUSH</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>L.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2007-02-08</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000822</bioguideId>
+        <fullName>Rep. Stearns, Cliff [R-FL-6]</fullName>
+        <firstName>CLIFF</firstName>
+        <lastName>STEARNS</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>6</district>
+        <sponsorshipDate>2007-02-08</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001145</bioguideId>
+        <fullName>Rep. Schakowsky, Janice D. [D-IL-9]</fullName>
+        <firstName>JANICE</firstName>
+        <lastName>SCHAKOWSKY</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>D.</middleName>
+        <district>9</district>
+        <sponsorshipDate>2007-02-08</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000657</bioguideId>
+        <fullName>Rep. Boucher, Rick [D-VA-9]</fullName>
+        <firstName>RICK</firstName>
+        <lastName>BOUCHER</lastName>
+        <party>D</party>
+        <state>VA</state>
+        <district>9</district>
+        <sponsorshipDate>2007-02-08</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000309</bioguideId>
+        <fullName>Rep. Gordon, Bart [D-TN-6]</fullName>
+        <firstName>BART</firstName>
+        <lastName>GORDON</lastName>
+        <party>D</party>
+        <state>TN</state>
+        <district>6</district>
+        <sponsorshipDate>2007-02-08</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000215</bioguideId>
+        <fullName>Rep. Eshoo, Anna G. [D-CA-14]</fullName>
+        <firstName>ANNA</firstName>
+        <lastName>ESHOO</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <middleName>G.</middleName>
+        <district>14</district>
+        <sponsorshipDate>2007-02-08</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001045</bioguideId>
+        <fullName>Rep. Stupak, Bart [D-MI-1]</fullName>
+        <firstName>BART</firstName>
+        <lastName>STUPAK</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <district>1</district>
+        <sponsorshipDate>2007-02-08</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000410</bioguideId>
+        <fullName>Rep. Green, Gene [D-TX-29]</fullName>
+        <firstName>GENE</firstName>
+        <lastName>GREEN</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>29</district>
+        <sponsorshipDate>2007-02-08</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000197</bioguideId>
+        <fullName>Rep. DeGette, Diana [D-CO-1]</fullName>
+        <firstName>DIANA</firstName>
+        <lastName>DEGETTE</lastName>
+        <party>D</party>
+        <state>CO</state>
+        <district>1</district>
+        <sponsorshipDate>2007-02-08</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001036</bioguideId>
+        <fullName>Rep. Capps, Lois [D-CA-23]</fullName>
+        <firstName>LOIS</firstName>
+        <lastName>CAPPS</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>23</district>
+        <sponsorshipDate>2007-02-08</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000482</bioguideId>
+        <fullName>Rep. Doyle, Michael F. [D-PA-14]</fullName>
+        <firstName>MIKE</firstName>
+        <lastName>DOYLE</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <district>14</district>
+        <sponsorshipDate>2007-02-08</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001153</bioguideId>
+        <fullName>Rep. Solis, Hilda L. [D-CA-32]</fullName>
+        <firstName>HILDA</firstName>
+        <lastName>SOLIS</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <middleName>L.</middleName>
+        <district>32</district>
+        <sponsorshipDate>2007-02-08</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000544</bioguideId>
+        <fullName>Rep. Gonzalez, Charles A. [D-TX-20]</fullName>
+        <firstName>CHARLES</firstName>
+        <lastName>GONZALEZ</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <middleName>A.</middleName>
+        <district>20</district>
+        <sponsorshipDate>2007-02-08</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>I000026</bioguideId>
+        <fullName>Rep. Inslee, Jay [D-WA-1]</fullName>
+        <firstName>JAY</firstName>
+        <lastName>INSLEE</lastName>
+        <party>D</party>
+        <state>WA</state>
+        <district>1</district>
+        <sponsorshipDate>2007-02-08</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001230</bioguideId>
+        <fullName>Rep. Baldwin, Tammy [D-WI-2]</fullName>
+        <firstName>Tammy</firstName>
+        <lastName>Baldwin</lastName>
+        <party>D</party>
+        <state>WI</state>
+        <district>2</district>
+        <sponsorshipDate>2007-02-08</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000762</bioguideId>
+        <fullName>Rep. Hooley, Darlene [D-OR-5]</fullName>
+        <firstName>DARLENE</firstName>
+        <lastName>HOOLEY</lastName>
+        <party>D</party>
+        <state>OR</state>
+        <district>5</district>
+        <sponsorshipDate>2007-02-08</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001142</bioguideId>
+        <fullName>Rep. Matheson, Jim [D-UT-2]</fullName>
+        <firstName>JIM</firstName>
+        <lastName>MATHESON</lastName>
+        <party>D</party>
+        <state>UT</state>
+        <district>2</district>
+        <sponsorshipDate>2007-02-08</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001251</bioguideId>
+        <fullName>Rep. Butterfield, G. K. [D-NC-1]</fullName>
+        <firstName>G. K.</firstName>
+        <lastName>Butterfield</lastName>
+        <party>D</party>
+        <state>NC</state>
+        <district>1</district>
+        <sponsorshipDate>2007-02-08</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000440</bioguideId>
+        <fullName>Rep. Fossella, Vito [R-NY-13]</fullName>
+        <firstName>VITO</firstName>
+        <lastName>FOSSELLA</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <district>13</district>
+        <sponsorshipDate>2007-02-08</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000459</bioguideId>
+        <fullName>Rep. Terry, Lee [R-NE-2]</fullName>
+        <firstName>LEE</firstName>
+        <lastName>TERRY</lastName>
+        <party>R</party>
+        <state>NE</state>
+        <district>2</district>
+        <sponsorshipDate>2007-02-08</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001248</bioguideId>
+        <fullName>Rep. Burgess, Michael C. [R-TX-26]</fullName>
+        <firstName>Michael</firstName>
+        <lastName>Burgess</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <middleName>C.</middleName>
+        <district>26</district>
+        <sponsorshipDate>2007-02-08</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000179</bioguideId>
+        <fullName>Rep. Engel, Eliot L. [D-NY-17]</fullName>
+        <firstName>ELIOT</firstName>
+        <lastName>ENGEL</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>L.</middleName>
+        <district>17</district>
+        <sponsorshipDate>2007-02-08</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000962</bioguideId>
+        <fullName>Rep. Cubin, Barbara [R-WY-At Large]</fullName>
+        <firstName>BARBARA</firstName>
+        <lastName>CUBIN</lastName>
+        <party>R</party>
+        <state>WY</state>
+        <district>0</district>
+        <sponsorshipDate>2007-02-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000213</bioguideId>
+        <fullName>Rep. Harman, Jane [D-CA-36]</fullName>
+        <firstName>JANE</firstName>
+        <lastName>HARMAN</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>36</district>
+        <sponsorshipDate>2007-03-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001072</bioguideId>
+        <fullName>Rep. Carson, Andre [D-IN-7]</fullName>
+        <firstName>Andre</firstName>
+        <lastName>Carson</lastName>
+        <party>D</party>
+        <state>IN</state>
+        <district>7</district>
+        <sponsorshipDate>2008-06-03</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Commerce</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Administrative procedure</name>
+        </item>
+        <item>
+          <name>Affiliated corporations</name>
+        </item>
+        <item>
+          <name>Business records</name>
+        </item>
+        <item>
+          <name>Civil Rights and Liberties, Minority Issues</name>
+        </item>
+        <item>
+          <name>Computer security measures</name>
+        </item>
+        <item>
+          <name>Congress</name>
+        </item>
+        <item>
+          <name>Congressional reporting requirements</name>
+        </item>
+        <item>
+          <name>Consumer education</name>
+        </item>
+        <item>
+          <name>Consumer protection</name>
+        </item>
+        <item>
+          <name>Contractors</name>
+        </item>
+        <item>
+          <name>Crime and Law Enforcement</name>
+        </item>
+        <item>
+          <name>Data banks</name>
+        </item>
+        <item>
+          <name>Encryption</name>
+        </item>
+        <item>
+          <name>Federal Communications Commission</name>
+        </item>
+        <item>
+          <name>Fines (Penalties)</name>
+        </item>
+        <item>
+          <name>Forfeiture</name>
+        </item>
+        <item>
+          <name>Fraud</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Government paperwork</name>
+        </item>
+        <item>
+          <name>Identification devices</name>
+        </item>
+        <item>
+          <name>Independent regulatory commissions</name>
+        </item>
+        <item>
+          <name>Internet</name>
+        </item>
+        <item>
+          <name>Joint ventures</name>
+        </item>
+        <item>
+          <name>Law</name>
+        </item>
+        <item>
+          <name>Restrictive trade practices</name>
+        </item>
+        <item>
+          <name>Right of privacy</name>
+        </item>
+        <item>
+          <name>Science, Technology, Communications</name>
+        </item>
+        <item>
+          <name>Security measures</name>
+        </item>
+        <item>
+          <name>Standards</name>
+        </item>
+        <item>
+          <name>Telecommunication industry</name>
+        </item>
+        <item>
+          <name>Telephone</name>
+        </item>
+        <item>
+          <name>Voice mail systems</name>
+        </item>
+        <item>
+          <name>Wireless communication</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Commerce</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2007-02-08</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2007-03-15T21:01:51Z</updateDate>
+        <text><![CDATA[ <p>Prevention of Fraudulent Access to Phone Records Act - Makes it unlawful to attempt to obtain, or cause to be disclosed to any person, customer proprietary network information (CPNI) relating to any other person by: (1) making a false or fraudulent statement to an officer, employee, or agent of a telecommunications carrier; or (2) providing any document or other information to such officer, employee, or agent that the presenter knows or should have known to be forged, lost, stolen, or otherwise fraudulently obtained, or to contain a false or fraudulent statement or representation. Prohibits also: (1) the solicitation of another person to fraudulently obtain such information; and (2) the sale or other disclosure of CPNI obtained under false pretenses. Provides for enforcement through the Federal Trade Commission (FTC).</p> <p>Amends the Communications Act of 1934 to expand responsibilities of telecommunications carriers with respect to the confidentiality of subscriber (customer) calling records, both cellular and land-line based. Allows a carrier to use individual calling records only for purposes such as increasing business or publishing directories, and prohibits a carrier from otherwise disclosing CPNI without express prior authorization by the subscriber. Directs the Federal Communications Commission (FCC) to prescribe regulations adopting more stringent security standards for CPNI (including detailed customer telephone records) to detect and prevent confidentiality violations. Provides penalties for such violations.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Prevention of Fraudulent Access to Phone Records Act</title>
+    <titles>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To prohibit fraudulent access to telephone records.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Prevention of Fraudulent Access to Phone Records Act</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Prevention of Fraudulent Access to Phone Records Act</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2007-02-08T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-110hr936ih/xml/BILLS-110hr936ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2007-02-09</actionDate>
+      <text>Referred to the Subcommittee on Commerce, Trade and Consumer Protection.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

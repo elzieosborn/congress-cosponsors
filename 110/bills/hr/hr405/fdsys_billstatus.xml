@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>405</number>
+    <updateDate>2021-04-20T13:13:02Z</updateDate>
+    <updateDateIncludingText>2021-04-20T13:13:02Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2007-01-11</introducedDate>
+    <congress>110</congress>
+    <committees>
+      <item>
+        <systemCode>hsif00</systemCode>
+        <name>Energy and Commerce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2007-02-02T21:48:08Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2007-01-11T15:02:36Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <relatedBills>
+      <item>
+        <title>Family-Based Meth Treatment Access Act of 2007</title>
+        <congress>110</congress>
+        <number>884</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2007-03-14</actionDate>
+          <text>Read twice and referred to the Committee on Health, Education, Labor, and Pensions. (text of measure as introduced: CR S3139-3140)</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2007-02-02</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2007-01-11</actionDate>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2007-01-11</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2007-01-11</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>C000962</bioguideId>
+        <fullName>Rep. Cubin, Barbara [R-WY-At Large]</fullName>
+        <firstName>BARBARA</firstName>
+        <lastName>CUBIN</lastName>
+        <party>R</party>
+        <state>WY</state>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>H000762</bioguideId>
+        <fullName>Rep. Hooley, Darlene [D-OR-5]</fullName>
+        <firstName>DARLENE</firstName>
+        <lastName>HOOLEY</lastName>
+        <party>D</party>
+        <state>OR</state>
+        <district>5</district>
+        <sponsorshipDate>2007-01-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000033</bioguideId>
+        <fullName>Rep. Ramstad, Jim [R-MN-3]</fullName>
+        <firstName>JIM</firstName>
+        <lastName>RAMSTAD</lastName>
+        <party>R</party>
+        <state>MN</state>
+        <district>3</district>
+        <sponsorshipDate>2007-01-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001143</bioguideId>
+        <fullName>Rep. Souder, Mark E. [R-IN-3]</fullName>
+        <firstName>MARK</firstName>
+        <lastName>SOUDER</lastName>
+        <party>R</party>
+        <state>IN</state>
+        <middleName>EDWARD</middleName>
+        <district>3</district>
+        <sponsorshipDate>2007-01-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001245</bioguideId>
+        <fullName>Del. Bordallo, Madeleine Z. [D-GU-At Large]</fullName>
+        <firstName>Madeleine</firstName>
+        <lastName>Bordallo</lastName>
+        <party>D</party>
+        <state>GU</state>
+        <middleName>Z.</middleName>
+        <district>0</district>
+        <sponsorshipDate>2007-01-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000571</bioguideId>
+        <fullName>Rep. Rehberg, Dennis R. [R-MT-At Large]</fullName>
+        <firstName>DENNIS</firstName>
+        <lastName>REHBERG</lastName>
+        <party>R</party>
+        <state>MT</state>
+        <middleName>R.</middleName>
+        <district>0</district>
+        <sponsorshipDate>2007-01-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001036</bioguideId>
+        <fullName>Rep. Capps, Lois [D-CA-23]</fullName>
+        <firstName>LOIS</firstName>
+        <lastName>CAPPS</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>23</district>
+        <sponsorshipDate>2007-02-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>U000039</bioguideId>
+        <fullName>Rep. Udall, Tom [D-NM-3]</fullName>
+        <firstName>TOM</firstName>
+        <lastName>UDALL</lastName>
+        <party>D</party>
+        <state>NM</state>
+        <district>3</district>
+        <sponsorshipDate>2007-03-29</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>N000147</bioguideId>
+        <fullName>Del. Norton, Eleanor Holmes [D-DC-At Large]</fullName>
+        <firstName>ELEANOR</firstName>
+        <lastName>NORTON</lastName>
+        <party>D</party>
+        <state>DC</state>
+        <middleName>HOLMES</middleName>
+        <district>0</district>
+        <sponsorshipDate>2007-03-29</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000119</bioguideId>
+        <fullName>Rep. Wamp, Zach [R-TN-3]</fullName>
+        <firstName>ZACH</firstName>
+        <lastName>WAMP</lastName>
+        <party>R</party>
+        <state>TN</state>
+        <district>3</district>
+        <sponsorshipDate>2007-04-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000226</bioguideId>
+        <fullName>Rep. Etheridge, Bob [D-NC-2]</fullName>
+        <firstName>BOB</firstName>
+        <lastName>ETHERIDGE</lastName>
+        <party>D</party>
+        <state>NC</state>
+        <district>2</district>
+        <sponsorshipDate>2007-04-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000636</bioguideId>
+        <fullName>Rep. Hinojosa, Ruben [D-TX-15]</fullName>
+        <firstName>RUBEN</firstName>
+        <lastName>HINOJOSA</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>15</district>
+        <sponsorshipDate>2007-04-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001042</bioguideId>
+        <fullName>Rep. Hirono, Mazie K. [D-HI-2]</fullName>
+        <firstName>Mazie</firstName>
+        <lastName>Hirono</lastName>
+        <party>D</party>
+        <state>HI</state>
+        <middleName>K.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2007-04-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001166</bioguideId>
+        <fullName>Rep. McNerney, Jerry [D-CA-11]</fullName>
+        <firstName>Jerry</firstName>
+        <lastName>McNerney</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>11</district>
+        <sponsorshipDate>2007-04-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000560</bioguideId>
+        <fullName>Rep. Larsen, Rick [D-WA-2]</fullName>
+        <firstName>RICK</firstName>
+        <lastName>LARSEN</lastName>
+        <party>D</party>
+        <state>WA</state>
+        <district>2</district>
+        <sponsorshipDate>2007-04-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000288</bioguideId>
+        <fullName>Rep. Ellison, Keith [D-MN-5]</fullName>
+        <firstName>Keith</firstName>
+        <lastName>Ellison</lastName>
+        <party>D</party>
+        <state>MN</state>
+        <district>5</district>
+        <sponsorshipDate>2007-06-26</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000652</bioguideId>
+        <fullName>Rep. Boswell, Leonard L. [D-IA-3]</fullName>
+        <firstName>LEONARD</firstName>
+        <lastName>BOSWELL</lastName>
+        <party>D</party>
+        <state>IA</state>
+        <middleName>L.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2007-07-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000410</bioguideId>
+        <fullName>Rep. Green, Gene [D-TX-29]</fullName>
+        <firstName>GENE</firstName>
+        <lastName>GREEN</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>29</district>
+        <sponsorshipDate>2007-09-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000588</bioguideId>
+        <fullName>Rep. Pearce, Stevan [R-NM-2]</fullName>
+        <firstName>Stevan</firstName>
+        <lastName>Pearce</lastName>
+        <party>R</party>
+        <state>NM</state>
+        <district>2</district>
+        <sponsorshipDate>2007-09-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000791</bioguideId>
+        <fullName>Rep. Walden, Greg [R-OR-2]</fullName>
+        <firstName>GREG</firstName>
+        <lastName>WALDEN</lastName>
+        <party>R</party>
+        <state>OR</state>
+        <district>2</district>
+        <sponsorshipDate>2007-09-18</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000197</bioguideId>
+        <fullName>Rep. DeGette, Diana [D-CO-1]</fullName>
+        <firstName>DIANA</firstName>
+        <lastName>DEGETTE</lastName>
+        <party>D</party>
+        <state>CO</state>
+        <district>1</district>
+        <sponsorshipDate>2007-09-18</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000459</bioguideId>
+        <fullName>Rep. Terry, Lee [R-NE-2]</fullName>
+        <firstName>LEE</firstName>
+        <lastName>TERRY</lastName>
+        <party>R</party>
+        <state>NE</state>
+        <district>2</district>
+        <sponsorshipDate>2007-10-30</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000490</bioguideId>
+        <fullName>Rep. Bishop, Sanford D., Jr. [D-GA-2]</fullName>
+        <firstName>SANFORD</firstName>
+        <lastName>BISHOP</lastName>
+        <party>D</party>
+        <state>GA</state>
+        <middleName>D.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2007-11-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000672</bioguideId>
+        <fullName>Rep. Snyder, Vic [D-AR-2]</fullName>
+        <firstName>VICTOR</firstName>
+        <lastName>SNYDER</lastName>
+        <party>D</party>
+        <state>AR</state>
+        <middleName>F.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2007-12-04</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001049</bioguideId>
+        <fullName>Rep. Clay, Wm. Lacy [D-MO-1]</fullName>
+        <firstName>WM.</firstName>
+        <lastName>CLAY</lastName>
+        <party>D</party>
+        <state>MO</state>
+        <middleName>LACY</middleName>
+        <district>1</district>
+        <sponsorshipDate>2007-12-04</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001072</bioguideId>
+        <fullName>Rep. Carson, Andre [D-IN-7]</fullName>
+        <firstName>Andre</firstName>
+        <lastName>Carson</lastName>
+        <party>D</party>
+        <state>IN</state>
+        <district>7</district>
+        <sponsorshipDate>2008-05-01</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>A000014</bioguideId>
+        <fullName>Rep. Abercrombie, Neil [D-HI-1]</fullName>
+        <firstName>NEIL</firstName>
+        <lastName>ABERCROMBIE</lastName>
+        <party>D</party>
+        <state>HI</state>
+        <district>1</district>
+        <sponsorshipDate>2008-09-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Access to health care</name>
+        </item>
+        <item>
+          <name>Congressional reporting requirements</name>
+        </item>
+        <item>
+          <name>Crime and Law Enforcement</name>
+        </item>
+        <item>
+          <name>Drug abuse</name>
+        </item>
+        <item>
+          <name>Drug abuse treatment</name>
+        </item>
+        <item>
+          <name>Drug addiction</name>
+        </item>
+        <item>
+          <name>Drug testing</name>
+        </item>
+        <item>
+          <name>Drugs and women</name>
+        </item>
+        <item>
+          <name>Drugs and youth</name>
+        </item>
+        <item>
+          <name>Economics and Public Finance</name>
+        </item>
+        <item>
+          <name>Families</name>
+        </item>
+        <item>
+          <name>Family services</name>
+        </item>
+        <item>
+          <name>Federal aid to health facilities</name>
+        </item>
+        <item>
+          <name>Health counseling</name>
+        </item>
+        <item>
+          <name>Housing and Community Development</name>
+        </item>
+        <item>
+          <name>Medical statistics</name>
+        </item>
+        <item>
+          <name>Mental health services</name>
+        </item>
+        <item>
+          <name>Methamphetamine</name>
+        </item>
+        <item>
+          <name>Minorities</name>
+        </item>
+        <item>
+          <name>Minority health</name>
+        </item>
+        <item>
+          <name>Mortality</name>
+        </item>
+        <item>
+          <name>Parent and child</name>
+        </item>
+        <item>
+          <name>Parents</name>
+        </item>
+        <item>
+          <name>Pregnant women</name>
+        </item>
+        <item>
+          <name>Prison alternatives</name>
+        </item>
+        <item>
+          <name>Rehabilitation of criminals</name>
+        </item>
+        <item>
+          <name>Rural health</name>
+        </item>
+        <item>
+          <name>Sentences (Criminal procedure)</name>
+        </item>
+        <item>
+          <name>Women</name>
+        </item>
+        <item>
+          <name>Women's health</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Health</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2007-01-11</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2007-06-04T19:35:36Z</updateDate>
+        <text><![CDATA[ <p>Family-Based Meth Treatment Access Act of 2007 - Amends the Public Health Service Act to expand the grant program to provide residential substance abuse treatment to pregnant and postpartum women to include: (1) parenting women substance abuse treatment (including treatment for addiction to methamphetamine); and (2) outpatient treatment services. Requires that such treatment programs be accessible to pregnant and parenting women in health disparity populations. </p><p>Requires the Secretary of Health and Human Services to expand, intensify, and coordinate efforts to provide treatment for methamphetamine addiction to pregnant and parenting women.</p><p>Requires the Secretary, acting through the Administrator of the Substance Abuse and Mental Health Services Administration, to award grants, cooperative agreements, or contracts for to assist local jails and detention facilities in providing comprehensive, family-based substance abuse treatment services to pregnant and parenting adults who are considered nonviolent offenders. Sets forth criteria that must be met if such a grant is used for a family drug treatment program that is an alternative to incarceration.</p><p>Gives priority in awarding grants under this Act to any entity that agrees to use the award for programs serving an area that: (1) is a rural area, an area with a shortage of mental health professionals, or an area with a shortage of family-based substance abuse treatment options; and (2) has high rates of addiction to methamphetamine or other drugs.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Family-Based Meth Treatment Access Act of 2007</title>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Family-Based Meth Treatment Access Act of 2007</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Family-Based Meth Treatment Access Act of 2007</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend the Public Health Service Act regarding residential treatment programs for pregnant and parenting women, a program to reduce substance abuse among nonviolent offenders, and for other purposes.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2007-01-11T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-110hr405ih/xml/BILLS-110hr405ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2007-02-02</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

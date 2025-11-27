@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>4159</number>
+    <updateDate>2023-01-11T13:17:01Z</updateDate>
+    <updateDateIncludingText>2023-01-11T13:17:01Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2009-12-01</introducedDate>
+    <congress>111</congress>
+    <committees>
+      <item>
+        <systemCode>hsag00</systemCode>
+        <name>Agriculture Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsag03</systemCode>
+            <name>Nutrition, Foreign Agriculture, and Horticulture</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2010-03-29T16:59:29Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2009-12-01T19:00:46Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2010-03-29</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsag03</systemCode>
+            <name>Nutrition, Foreign Agriculture, and Horticulture</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Horticulture and Organic Agriculture.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2009-12-01</actionDate>
+        <text>Referred to the House Committee on Agriculture.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsag00</systemCode>
+            <name>Agriculture Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2009-12-01</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2009-12-01</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>H001032</bioguideId>
+        <fullName>Rep. Holt, Rush [D-NJ-12]</fullName>
+        <firstName>RUSH</firstName>
+        <lastName>HOLT</lastName>
+        <party>D</party>
+        <state>NJ</state>
+        <middleName>D.</middleName>
+        <district>12</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>E000288</bioguideId>
+        <fullName>Rep. Ellison, Keith [D-MN-5]</fullName>
+        <firstName>Keith</firstName>
+        <lastName>Ellison</lastName>
+        <party>D</party>
+        <state>MN</state>
+        <district>5</district>
+        <sponsorshipDate>2009-12-01</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>V000128</bioguideId>
+        <fullName>Rep. Van Hollen, Chris [D-MD-8]</fullName>
+        <firstName>Chris</firstName>
+        <lastName>Van Hollen</lastName>
+        <party>D</party>
+        <state>MD</state>
+        <district>8</district>
+        <sponsorshipDate>2009-12-01</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000551</bioguideId>
+        <fullName>Rep. Grijalva, Raúl M. [D-AZ-7]</fullName>
+        <firstName>Raúl</firstName>
+        <lastName>Grijalva</lastName>
+        <party>D</party>
+        <state>AZ</state>
+        <middleName>M.</middleName>
+        <district>7</district>
+        <sponsorshipDate>2009-12-01</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001234</bioguideId>
+        <fullName>Rep. Baca, Joe [D-CA-43]</fullName>
+        <firstName>JOE</firstName>
+        <lastName>BACA</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>43</district>
+        <sponsorshipDate>2009-12-01</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000053</bioguideId>
+        <fullName>Rep. Rangel, Charles B. [D-NY-15]</fullName>
+        <firstName>CHARLES</firstName>
+        <lastName>RANGEL</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>B.</middleName>
+        <district>15</district>
+        <sponsorshipDate>2009-12-01</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>J000032</bioguideId>
+        <fullName>Rep. Jackson-Lee, Sheila [D-TX-18]</fullName>
+        <firstName>SHEILA</firstName>
+        <lastName>JACKSON-LEE</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>18</district>
+        <sponsorshipDate>2009-12-01</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>I000057</bioguideId>
+        <fullName>Rep. Israel, Steve [D-NY-2]</fullName>
+        <firstName>STEVE</firstName>
+        <lastName>ISRAEL</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <district>2</district>
+        <sponsorshipDate>2009-12-01</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000149</bioguideId>
+        <fullName>Rep. Payne, Donald M. [D-NJ-10]</fullName>
+        <firstName>DONALD</firstName>
+        <lastName>PAYNE</lastName>
+        <party>D</party>
+        <state>NJ</state>
+        <middleName>M.</middleName>
+        <district>10</district>
+        <sponsorshipDate>2009-12-01</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000523</bioguideId>
+        <fullName>Rep. Price, David E. [D-NC-4]</fullName>
+        <firstName>DAVID</firstName>
+        <lastName>PRICE</lastName>
+        <party>D</party>
+        <state>NC</state>
+        <middleName>E.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2009-12-01</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001143</bioguideId>
+        <fullName>Rep. McCollum, Betty [D-MN-4]</fullName>
+        <firstName>BETTY</firstName>
+        <lastName>MCCOLLUM</lastName>
+        <party>D</party>
+        <state>MN</state>
+        <district>4</district>
+        <sponsorshipDate>2009-12-01</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000556</bioguideId>
+        <fullName>Rep. Grayson, Alan [D-FL-8]</fullName>
+        <firstName>Alan</firstName>
+        <lastName>Grayson</lastName>
+        <party>D</party>
+        <state>FL</state>
+        <district>8</district>
+        <sponsorshipDate>2009-12-01</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000380</bioguideId>
+        <fullName>Del. Christensen, Donna M. [D-VI-At Large]</fullName>
+        <firstName>DONNA</firstName>
+        <lastName>CHRISTENSEN</lastName>
+        <party>D</party>
+        <state>VI</state>
+        <middleName>M.</middleName>
+        <district>0</district>
+        <sponsorshipDate>2009-12-01</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001145</bioguideId>
+        <fullName>Rep. Schakowsky, Janice D. [D-IL-9]</fullName>
+        <firstName>JANICE</firstName>
+        <lastName>SCHAKOWSKY</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>D.</middleName>
+        <district>9</district>
+        <sponsorshipDate>2009-12-01</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000197</bioguideId>
+        <fullName>Rep. DeGette, Diana [D-CO-1]</fullName>
+        <firstName>DIANA</firstName>
+        <lastName>DEGETTE</lastName>
+        <party>D</party>
+        <state>CO</state>
+        <district>1</district>
+        <sponsorshipDate>2009-12-01</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000714</bioguideId>
+        <fullName>Rep. Conyers, John, Jr. [D-MI-14]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>CONYERS</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <district>14</district>
+        <sponsorshipDate>2009-12-03</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001080</bioguideId>
+        <fullName>Rep. Chu, Judy [D-CA-32]</fullName>
+        <firstName>Judy</firstName>
+        <lastName>Chu</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>32</district>
+        <sponsorshipDate>2010-03-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Environmental Protection</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Advisory bodies</name>
+        </item>
+        <item>
+          <name>Child health</name>
+        </item>
+        <item>
+          <name>Education programs funding</name>
+        </item>
+        <item>
+          <name>Educational facilities and institutions</name>
+        </item>
+        <item>
+          <name>Elementary and secondary education</name>
+        </item>
+        <item>
+          <name>Environmental Protection Agency (EPA)</name>
+        </item>
+        <item>
+          <name>Environmental health</name>
+        </item>
+        <item>
+          <name>Executive agency funding and structure</name>
+        </item>
+        <item>
+          <name>Government information and archives</name>
+        </item>
+        <item>
+          <name>Government trust funds</name>
+        </item>
+        <item>
+          <name>Hazardous wastes and toxic substances</name>
+        </item>
+        <item>
+          <name>Pollution liability</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Environmental Protection</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2009-12-01</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2010-05-19T15:11:53Z</updateDate>
+        <text><![CDATA[ <p>School Environment Protection Act of 2009 - Amends the Federal Insecticide, Fungicide, and Rodenticide Act to require each local educational agency (agency) of a school district to implement an integrated pest management (IPM) program that: (1) applies to school buildings and school grounds; (2) establishes an IPM coordinator within the agency; and (3) follows an IPM plan for addressing school pest problems. <br> </p> <p>Prohibits agencies or schools from using: (1) pesticides other than nontoxic or least toxic (as defined in this Act) pesticides; or (2) synthetic fertilizers. Permits an agency or school to use: (1) a least toxic pesticide as part of the IPM program only as a last resort and only if the area or room treated is unoccupied or not in use; and (2) only natural organic fertilizers.</p> <p>Authorizes a school to use a pesticide otherwise if: (1) the school or agency determines that a pest in the school or on school grounds cannot be controlled after having used the IPM program and least toxic pesticides and it is a public health emergency; (2) the IPM coordinator approves of the application of the pesticide product; (3) the area or room treated is vacant during the application and for 24-hours after the application; (4) the application is made by a certified pesticide applicator; and (5) the school notifies the parents or guardians of each student 24 hours before application of the pesticide. Sets forth requirements for such notification. </p> <p>Requires the Administrator of the Environmental Protection Agency (EPA) to establish a National School Integrated Pest Management Advisory Board to: (1) establish uniform standards and criteria for developing IPM; and (2) develop standards for the use of least toxic pesticides in schools.</p> <p>Requires the Administrator to: (1) appoint an official for school pest management within EPA's Office of Pesticide Programs to coordinate the implementation of IPM programs in schools; and (2) publish an IPM plan and a list of products containing the least toxic pesticides and restrictions on their use.</p> <p>Requires each agency, state pesticide lead agency, and the Administrator to create school environments that are protected from pesticides that drift from treated land to school grounds.</p> <p>Establishes the Integrated Pest Management Trust Fund. Requires the Administrator to provide grants to agencies to implement IPM systems.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>School Environment Protection Act of 2009</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>School Environment Protection Act of 2009</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend the Federal Insecticide, Fungicide, and Rodenticide Act to require local educational agencies and schools to implement integrated pest management programs to minimize the use of pesticides in schools and to provide parents, guardians, and employees with notice of the use of pesticides in schools, and for other purposes.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>School Environment Protection Act of 2009</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2009-12-01T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-111hr4159ih/xml/BILLS-111hr4159ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2010-03-29</actionDate>
+      <text>Referred to the Subcommittee on Horticulture and Organic Agriculture.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

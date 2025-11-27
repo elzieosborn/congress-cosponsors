@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>2611</number>
+    <updateDate>2023-01-15T16:33:40Z</updateDate>
+    <updateDateIncludingText>2023-01-15T16:33:40Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2003-06-26</introducedDate>
+    <congress>108</congress>
+    <committees>
+      <item>
+        <systemCode>hswm00</systemCode>
+        <name>Ways and Means Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hswm01</systemCode>
+            <name>Social Security Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2003-07-02T19:42:56Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2003-06-26T14:01:40Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2003-07-02</actionDate>
+        <committees>
+          <item>
+            <systemCode>hswm01</systemCode>
+            <name>Social Security Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Social Security.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2003-06-26</actionDate>
+        <text>Referred to the House Committee on Ways and Means.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hswm00</systemCode>
+            <name>Ways and Means Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2003-06-26</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2003-06-26</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>M001149</bioguideId>
+        <fullName>Rep. Michaud, Michael H. [D-ME-2]</fullName>
+        <firstName>Michael</firstName>
+        <lastName>Michaud</lastName>
+        <party>D</party>
+        <state>ME</state>
+        <middleName>H.</middleName>
+        <district>2</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>B001235</bioguideId>
+        <fullName>Rep. Brown, Henry E., Jr. [R-SC-1]</fullName>
+        <firstName>HENRY</firstName>
+        <lastName>BROWN</lastName>
+        <party>R</party>
+        <state>SC</state>
+        <middleName>E.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2003-06-26</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000250</bioguideId>
+        <fullName>Rep. Evans, Lane [D-IL-17]</fullName>
+        <firstName>LANE</firstName>
+        <lastName>EVANS</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <district>17</district>
+        <sponsorshipDate>2003-06-26</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000116</bioguideId>
+        <fullName>Rep. Filner, Bob [D-CA-51]</fullName>
+        <firstName>BOB</firstName>
+        <lastName>FILNER</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>51</district>
+        <sponsorshipDate>2003-06-26</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000535</bioguideId>
+        <fullName>Rep. Gutierrez, Luis V. [D-IL-4]</fullName>
+        <firstName>LUIS</firstName>
+        <lastName>GUTIERREZ</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>V.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2003-06-26</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000911</bioguideId>
+        <fullName>Rep. Brown, Corrine [D-FL-3]</fullName>
+        <firstName>CORRINE</firstName>
+        <lastName>BROWN</lastName>
+        <party>D</party>
+        <state>FL</state>
+        <district>3</district>
+        <sponsorshipDate>2003-06-26</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000568</bioguideId>
+        <fullName>Rep. Rodriguez, Ciro D. [D-TX-28]</fullName>
+        <firstName>CIRO</firstName>
+        <lastName>RODRIGUEZ</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <middleName>D.</middleName>
+        <district>28</district>
+        <sponsorshipDate>2003-06-26</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000577</bioguideId>
+        <fullName>Rep. Ryan, Timothy J. [D-OH-17]</fullName>
+        <firstName>TIMOTHY</firstName>
+        <lastName>RYAN</lastName>
+        <party>D</party>
+        <state>OH</state>
+        <middleName>J.</middleName>
+        <district>17</district>
+        <sponsorshipDate>2003-06-26</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000392</bioguideId>
+        <fullName>Rep. Frost, Martin [D-TX-24]</fullName>
+        <firstName>MARTIN</firstName>
+        <lastName>FROST</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>24</district>
+        <sponsorshipDate>2003-06-26</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>V000128</bioguideId>
+        <fullName>Rep. Van Hollen, Chris [D-MD-8]</fullName>
+        <firstName>Chris</firstName>
+        <lastName>Van Hollen</lastName>
+        <party>D</party>
+        <state>MD</state>
+        <district>8</district>
+        <sponsorshipDate>2003-07-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Social Welfare</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Armed Forces and National Security</name>
+        </item>
+        <item>
+          <name>Labor and Employment</name>
+        </item>
+        <item>
+          <name>Military pensions</name>
+        </item>
+        <item>
+          <name>Old age, survivors and disability insurance</name>
+        </item>
+        <item>
+          <name>Retired military personnel</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Social Welfare</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2003-06-26</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2003-09-09T21:05:41Z</updateDate>
+        <text><![CDATA[ <p>Amends title II (Old Age, Survivors and Disability Insurance) of the Social Security Act to exempt from the windfall elimination requirement of such title individuals who are entitled to retired pay based on at least 20 years of service as a member of a uniformed service.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Military Retirees Government Employment Act of 2003</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Military Retirees Government Employment Act of 2003</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend title II of the Social Security Act to exempt from the windfall elimination provision of such title individuals who are entitled to retired pay based on at least 20 years of service as a member of a uniformed service.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Military Retirees Government Employment Act of 2003</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2003-06-26T04:00:00Z</date>
+        <formats/>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2003-07-02</actionDate>
+      <text>Referred to the Subcommittee on Social Security.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

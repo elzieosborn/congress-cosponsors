@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>466</number>
+    <updateDate>2023-01-12T17:52:01Z</updateDate>
+    <updateDateIncludingText>2023-01-12T17:52:01Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <originChamberCode>S</originChamberCode>
+    <type>S</type>
+    <introducedDate>2005-02-18</introducedDate>
+    <congress>109</congress>
+    <committees>
+      <item>
+        <systemCode>hspw00</systemCode>
+        <name>Transportation and Infrastructure Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hspw07</systemCode>
+            <name>Coast Guard and Maritime Transportation Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2006-09-07T21:49:47Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2006-09-07T01:15:15Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>ssev00</systemCode>
+        <name>Environment and Public Works Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Discharged from</name>
+            <date>2006-09-05T23:08:07Z</date>
+          </item>
+          <item>
+            <name>Referred to</name>
+            <date>2005-02-18T16:17:16Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2006-09-07</actionDate>
+        <committees>
+          <item>
+            <systemCode>hspw07</systemCode>
+            <name>Coast Guard and Maritime Transportation Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Coast Guard and Maritime Transportation.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2006-09-06</actionDate>
+        <text>Referred to the House Committee on Transportation and Infrastructure.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hspw00</systemCode>
+            <name>Transportation and Infrastructure Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2006-09-06</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2006-09-06</actionDate>
+        <actionTime>14:05:37</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2006-09-05</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate with amendments by Unanimous Consent. (text as passed Senate: CR S8977)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2006-09-05</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate with amendments by Unanimous Consent.(text as passed Senate: CR S8977)</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2006-09-05</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Measure laid before Senate by unanimous consent. (consideration: CR S8976-8977)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2006-09-05</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssev00</systemCode>
+            <name>Environment and Public Works Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Senate Committee on Environment and Public Works discharged by Unanimous Consent.</text>
+        <type>Discharge</type>
+      </item>
+      <item>
+        <actionDate>2006-09-05</actionDate>
+        <text>Senate Committee on Environment and Public Works discharged by Unanimous Consent.</text>
+        <type>Committee</type>
+        <actionCode>14500</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>ssev00</systemCode>
+            <name>Environment and Public Works Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2005-02-18</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssev00</systemCode>
+            <name>Environment and Public Works Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Environment and Public Works. (text of measure as introduced: CR S1722)</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2005-02-18</actionDate>
+        <text>Sponsor introductory remarks on measure. (CR S1722-1723)</text>
+        <type>IntroReferral</type>
+        <actionCode>B00100</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2005-02-18</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>S000663</bioguideId>
+        <fullName>Sen. Snowe, Olympia J. [R-ME]</fullName>
+        <firstName>Olympia</firstName>
+        <lastName>Snowe</lastName>
+        <party>R</party>
+        <state>ME</state>
+        <middleName>J.</middleName>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Water Resources Development</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Dikes (Engineering)</name>
+        </item>
+        <item>
+          <name>Economics and Public Finance</name>
+        </item>
+        <item>
+          <name>Emergency Management</name>
+        </item>
+        <item>
+          <name>Environmental Protection</name>
+        </item>
+        <item>
+          <name>Everglades</name>
+        </item>
+        <item>
+          <name>Federal aid to water resources development</name>
+        </item>
+        <item>
+          <name>Flood control</name>
+        </item>
+        <item>
+          <name>Florida</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Government publicity</name>
+        </item>
+        <item>
+          <name>Governmental investigations</name>
+        </item>
+        <item>
+          <name>Harbors</name>
+        </item>
+        <item>
+          <name>Illinois</name>
+        </item>
+        <item>
+          <name>Lakes</name>
+        </item>
+        <item>
+          <name>Maine</name>
+        </item>
+        <item>
+          <name>Navigation</name>
+        </item>
+        <item>
+          <name>Restoration ecology</name>
+        </item>
+        <item>
+          <name>Rivers</name>
+        </item>
+        <item>
+          <name>Transportation and Public Works</name>
+        </item>
+        <item>
+          <name>Water storage</name>
+        </item>
+        <item>
+          <name>Waterways</name>
+        </item>
+        <item>
+          <name>Wetlands</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Water Resources Development</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2005-02-18</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2005-04-02T18:14:38Z</updateDate>
+        <text><![CDATA[ <p>Deauthorizes a portion of the project for navigation at Rockland Harbor, Maine.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>35</versionCode>
+        <actionDate>2006-09-05</actionDate>
+        <actionDesc>Passed Senate amended</actionDesc>
+        <updateDate>2006-10-11T18:15:44Z</updateDate>
+        <text><![CDATA[ <p>Deauthorizes: (1) a portion of the project for navigation at Rockland Harbor, Maine; and (2) the portion of the Illinois Waterway project authorized by the River and Harbor Act of 1927 in the South Fork of the South Branch of the Chicago River.</p> <p>Redesignates a portion of the navigation project, Saco River, Maine, described as a maneuvering basin as an anchorage area.</p> <p>Directs the Secretary of the Army, by May 31, 2007, to publish a supplement to the major rehabilitation report for the Herbert Hoover Dike system, approved by the Chief of Engineers in November 2000, which shall: (1) evaluate existing conditions at the Herbert Hoover Dike system; (2) identify additional risks associated with flood events at the system that are equal to or greater than the standard projected flood risks; (3) evaluate the potential to integrate Corps of Engineers projects into an enhanced flood protection system for Lake Okeechobee, including the potential for additional water storage north of that lake and an analysis of other project features included in the Comprehensive Everglades Restoration Plan; and (4) review the report prepared for the South Florida Water Management District dated April 2006.</p> <p>Authorizes appropriations.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>A bill to deauthorize a certain portion of the project for navigation, Rockland Harbor, Maine.</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>A bill to deauthorize a certain portion of the project for navigation, Rockland Harbor, Maine.</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to deauthorize a certain portion of the project for navigation, Rockland Harbor, Maine.</title>
+      </item>
+    </titles>
+    <amendments>
+      <amendment>
+        <number>4888</number>
+        <congress>109</congress>
+        <type>SAMDT</type>
+        <purpose>To provide for the Herbert Hoover Dike Supplemental Major Rehabilitation Report.</purpose>
+        <updateDate>2022-02-03T05:30:31Z</updateDate>
+        <latestAction>
+          <actionDate>2006-09-05</actionDate>
+          <text>Amendment SA 4888 agreed to in Senate by Unanimous Consent.</text>
+          <links>
+            <link>
+              <name>SA 4888</name>
+              <url>https://www.congress.gov/amendment/109th-congress/senate-amendment/4888</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>J000072</bioguideId>
+            <fullName>Sen. Jeffords, James M. [I-VT]</fullName>
+            <firstName>JAMES</firstName>
+            <lastName>JEFFORDS</lastName>
+            <party>I</party>
+            <state>VT</state>
+            <middleName>MERRILL</middleName>
+          </item>
+        </sponsors>
+        <cosponsors>
+          <countIncludingWithdrawnCosponsors>1</countIncludingWithdrawnCosponsors>
+          <count>1</count>
+          <item>
+            <bioguideId>O000167</bioguideId>
+            <fullName>Sen. Obama, Barack [D-IL]</fullName>
+            <firstName>Barack</firstName>
+            <lastName>Obama</lastName>
+            <party>D</party>
+            <state>IL</state>
+            <sponsorshipDate>2006-09-05</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+        </cosponsors>
+        <proposedDate>2006-09-05T04:00:00Z</proposedDate>
+        <submittedDate>2006-09-05T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>109</congress>
+          <type>S</type>
+          <originChamber>Senate</originChamber>
+          <originChamberCode>S</originChamberCode>
+          <number>466</number>
+          <title>A bill to deauthorize a certain portion of the project for navigation, Rockland Harbor, Maine.</title>
+          <updateDateIncludingText>2023-01-12T17:52:01Z</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2006-09-05</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 4888 agreed to in Senate by Unanimous Consent.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2006-09-05</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 4888 proposed by Senator Frist for Senator Jeffords. (consideration: CR S8977; text: CR S8977) To provide for the Herbert Hoover Dike Supplemental Major Rehabilitation Report.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2006-09-05</actionDate>
+              <text>Senate amendment proposed (on the floor): Amendment SA 4888 proposed by Senator Frist for Senator Jeffords.(consideration: CR S8977; text: CR S8977)</text>
+              <type>Floor</type>
+              <actionCode>93000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2006-09-05</actionDate>
+              <text>Senate amendment agreed to: Amendment SA 4888 agreed to in Senate by Unanimous Consent.</text>
+              <type>Floor</type>
+              <actionCode>94000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2006-09-05</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>4887</number>
+        <congress>109</congress>
+        <type>SAMDT</type>
+        <purpose>To redesignate the project for navigation, Saco River, Maine.</purpose>
+        <updateDate>2022-02-03T05:30:31Z</updateDate>
+        <latestAction>
+          <actionDate>2006-09-05</actionDate>
+          <text>Amendment SA 4887 agreed to in Senate by Unanimous Consent.</text>
+          <links>
+            <link>
+              <name>SA 4887</name>
+              <url>https://www.congress.gov/amendment/109th-congress/senate-amendment/4887</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>S000663</bioguideId>
+            <fullName>Sen. Snowe, Olympia J. [R-ME]</fullName>
+            <firstName>Olympia</firstName>
+            <lastName>Snowe</lastName>
+            <party>R</party>
+            <state>ME</state>
+            <middleName>J.</middleName>
+          </item>
+        </sponsors>
+        <proposedDate>2006-09-05T04:00:00Z</proposedDate>
+        <submittedDate>2006-09-05T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>109</congress>
+          <type>S</type>
+          <originChamber>Senate</originChamber>
+          <originChamberCode>S</originChamberCode>
+          <number>466</number>
+          <title>A bill to deauthorize a certain portion of the project for navigation, Rockland Harbor, Maine.</title>
+          <updateDateIncludingText>2023-01-12T17:52:01Z</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2006-09-05</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 4887 agreed to in Senate by Unanimous Consent.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2006-09-05</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 4887 proposed by Senator Frist for Senator Snowe. (consideration: CR S8977; text: CR S8977) To redesignate the project for navigation, Saco River, Maine.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2006-09-05</actionDate>
+              <text>Senate amendment proposed (on the floor): Amendment SA 4887 proposed by Senator Frist for Senator Snowe.(consideration: CR S8977; text: CR S8977)</text>
+              <type>Floor</type>
+              <actionCode>93000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2006-09-05</actionDate>
+              <text>Senate amendment agreed to: Amendment SA 4887 agreed to in Senate by Unanimous Consent.</text>
+              <type>Floor</type>
+              <actionCode>94000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2006-09-05</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>4685</number>
+        <congress>109</congress>
+        <type>SAMDT</type>
+        <purpose>To redesignate the project for navigation, Saco River, Maine.</purpose>
+        <updateDate>2022-02-03T05:30:31Z</updateDate>
+        <latestAction>
+          <actionDate>2006-07-20</actionDate>
+          <text>Referred to the Committee on Environment and Public Works.</text>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>S000663</bioguideId>
+            <fullName>Sen. Snowe, Olympia J. [R-ME]</fullName>
+            <firstName>Olympia</firstName>
+            <lastName>Snowe</lastName>
+            <party>R</party>
+            <state>ME</state>
+            <middleName>J.</middleName>
+          </item>
+        </sponsors>
+        <submittedDate>2006-07-20T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>109</congress>
+          <type>S</type>
+          <originChamber>Senate</originChamber>
+          <originChamberCode>S</originChamberCode>
+          <number>466</number>
+          <title>A bill to deauthorize a certain portion of the project for navigation, Rockland Harbor, Maine.</title>
+          <updateDateIncludingText>2023-01-12T17:52:01Z</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>3</count>
+          <actions>
+            <item>
+              <actionDate>2006-07-20</actionDate>
+              <committees>
+                <item>
+                  <systemCode>ssev00</systemCode>
+                  <name>Environment and Public Works Committee</name>
+                </item>
+              </committees>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Referred to the Committee on Environment and Public Works.</text>
+              <type>IntroReferral</type>
+            </item>
+            <item>
+              <actionDate>2006-07-20</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+    </amendments>
+    <textVersions>
+      <item>
+        <type>Referred in House</type>
+        <date>2006-09-06T04:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2006-09-05T04:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2005-02-18T05:00:00Z</date>
+        <formats/>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2006-09-07</actionDate>
+      <text>Referred to the Subcommittee on Coast Guard and Maritime Transportation.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

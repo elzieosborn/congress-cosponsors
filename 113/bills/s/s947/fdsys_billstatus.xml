@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>947</number>
+    <updateDate>2023-01-11T13:23:30Z</updateDate>
+    <updateDateIncludingText>2023-01-11T13:23:30Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <originChamberCode>S</originChamberCode>
+    <type>S</type>
+    <introducedDate>2013-05-14</introducedDate>
+    <congress>113</congress>
+    <committees>
+      <item>
+        <systemCode>hsba00</systemCode>
+        <name>Financial Services Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2013-12-19T17:20:26Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>ssbk00</systemCode>
+        <name>Banking, Housing, and Urban Affairs Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Discharged from</name>
+            <date>2013-12-18T00:26:38Z</date>
+          </item>
+          <item>
+            <name>Referred to</name>
+            <date>2013-05-14T20:48:58Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <relatedBills>
+      <item>
+        <title>SAFE Act Confidentiality and Privilege Enhancement Act</title>
+        <congress>113</congress>
+        <number>4626</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2014-07-30</actionDate>
+          <text>Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 500.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2013-12-19</actionDate>
+        <text>Referred to the House Committee on Financial Services.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsba00</systemCode>
+            <name>Financial Services Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2013-12-19</actionDate>
+        <actionTime>11:02:28</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2013-12-18</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2013-12-17</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate without amendment by Unanimous Consent. (text: CR S8917)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2013-12-17</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate without amendment by Unanimous Consent.(text: CR S8917)</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2013-12-17</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssbk00</systemCode>
+            <name>Banking, Housing, and Urban Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Senate Committee on Banking, Housing, and Urban Affairs discharged by Unanimous Consent. (consideration: CR S8817)</text>
+        <type>Discharge</type>
+      </item>
+      <item>
+        <actionDate>2013-12-17</actionDate>
+        <text>Senate Committee on Banking, Housing, and Urban Affairs discharged by Unanimous Consent.(consideration: CR S8817)</text>
+        <type>Committee</type>
+        <actionCode>14500</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>ssbk00</systemCode>
+            <name>Banking, Housing, and Urban Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2013-05-14</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssbk00</systemCode>
+            <name>Banking, Housing, and Urban Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2013-05-14</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>H001049</bioguideId>
+        <fullName>Sen. Hagan, Kay R. [D-NC]</fullName>
+        <firstName>Kay</firstName>
+        <lastName>Hagan</lastName>
+        <party>D</party>
+        <state>NC</state>
+        <middleName>R.</middleName>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>T000461</bioguideId>
+        <fullName>Sen. Toomey, Patrick [R-PA]</fullName>
+        <firstName>Patrick</firstName>
+        <lastName>Toomey</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <middleName>J.</middleName>
+        <sponsorshipDate>2013-05-14</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001183</bioguideId>
+        <fullName>Sen. Manchin, Joe, III [D-WV]</fullName>
+        <firstName>Joseph</firstName>
+        <lastName>Manchin</lastName>
+        <party>D</party>
+        <state>WV</state>
+        <sponsorshipDate>2013-05-14</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>J000291</bioguideId>
+        <fullName>Sen. Johanns, Mike [R-NE]</fullName>
+        <firstName>Mike</firstName>
+        <lastName>Johanns</lastName>
+        <party>R</party>
+        <state>NE</state>
+        <sponsorshipDate>2013-05-14</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001176</bioguideId>
+        <fullName>Sen. Merkley, Jeff [D-OR]</fullName>
+        <firstName>Jeff</firstName>
+        <lastName>Merkley</lastName>
+        <party>D</party>
+        <state>OR</state>
+        <sponsorshipDate>2013-05-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001069</bioguideId>
+        <fullName>Sen. Heitkamp, Heidi [D-ND]</fullName>
+        <firstName>Heidi</firstName>
+        <lastName>Heitkamp</lastName>
+        <party>D</party>
+        <state>ND</state>
+        <sponsorshipDate>2013-06-13</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000880</bioguideId>
+        <fullName>Sen. Crapo, Mike [R-ID]</fullName>
+        <firstName>Mike</firstName>
+        <lastName>Crapo</lastName>
+        <party>R</party>
+        <state>ID</state>
+        <sponsorshipDate>2013-12-11</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>J000177</bioguideId>
+        <fullName>Sen. Johnson, Tim [D-SD]</fullName>
+        <firstName>TIM</firstName>
+        <lastName>JOHNSON</lastName>
+        <party>D</party>
+        <state>SD</state>
+        <sponsorshipDate>2013-12-11</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Finance and Financial Sector</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Banking and financial institutions regulation</name>
+        </item>
+        <item>
+          <name>Financial services and investments</name>
+        </item>
+        <item>
+          <name>Right of privacy</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Finance and Financial Sector</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2013-05-14</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2013-06-24T15:08:21Z</updateDate>
+        <text><![CDATA[ <p>SAFE Act Confidentiality and Privilege Enhancement Act - Amends the S.A.F.E. Mortgage Licensing Act of 2008 to extend to state and federal regulatory officials having financial services oversight authority (currently only those having mortgage oversight authority) access to any information provided to the Nationwide Mortgage Licensing System and Registry (or any system established by the Director of the Consumer Financial Protection Bureau [CFPB]) without the loss of privilege or confidentiality protections provided by federal and state laws.<BR> </p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>82</versionCode>
+        <actionDate>2013-12-17</actionDate>
+        <actionDesc>Passed Senate without amendment</actionDesc>
+        <updateDate>2014-01-07T22:19:56Z</updateDate>
+        <text><![CDATA[ <p><b>(This measure has not been amended since it was introduced. The summary of that version is repeated here.)</b></p> <p>SAFE Act Confidentiality and Privilege Enhancement Act - Amends the S.A.F.E. Mortgage Licensing Act of 2008 to extend to state and federal regulatory officials having financial services oversight authority (currently only those having mortgage oversight authority) access to any information provided to the Nationwide Mortgage Licensing System and Registry (or any system established by the Director of the Consumer Financial Protection Bureau [CFPB]) without the loss of privilege or confidentiality protections provided by federal and state laws.<BR> </p>]]></text>
+      </summary>
+    </summaries>
+    <title>SAFE Act Confidentiality and Privilege Enhancement Act</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>SAFE Act Confidentiality and Privilege Enhancement Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to ensure access to certain information for financial services industry regulators, and for other purposes.</title>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>SAFE Act Confidentiality and Privilege Enhancement Act</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Passed Senate</titleType>
+        <title>SAFE Act Confidentiality and Privilege Enhancement Act</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Referred in House</type>
+        <date>2013-12-19T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-113s947rfh/xml/BILLS-113s947rfh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2013-12-17T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-113s947es/xml/BILLS-113s947es.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2013-05-14T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-113s947is/xml/BILLS-113s947is.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2013-12-19</actionDate>
+      <text>Referred to the House Committee on Financial Services.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

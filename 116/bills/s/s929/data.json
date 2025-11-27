@@ -1,0 +1,195 @@
+{
+  "actions": [
+    {
+      "acted_at": "2019-03-28",
+      "action_code": "10000",
+      "references": [],
+      "text": "Introduced in Senate",
+      "type": "action"
+    },
+    {
+      "acted_at": "2019-03-28",
+      "action_code": "",
+      "committees": [
+        "SSJU"
+      ],
+      "references": [],
+      "status": "REFERRED",
+      "text": "Read twice and referred to the Committee on the Judiciary.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2019-07-30",
+      "action_code": "",
+      "committees": [
+        "SSJU"
+      ],
+      "references": [
+        {
+          "reference": "CR S5203-5204",
+          "type": "consideration"
+        }
+      ],
+      "text": "Senate Committee on the Judiciary discharged by Unanimous Consent.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2019-07-30",
+      "action_code": "",
+      "how": "by Unanimous Consent",
+      "references": [
+        {
+          "reference": "CR S5204",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "status": "PASS_OVER:SENATE",
+      "text": "Passed Senate without amendment by Unanimous Consent.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "s"
+    },
+    {
+      "acted_at": "2019-07-31",
+      "action_code": "",
+      "references": [],
+      "text": "Message on Senate action sent to the House.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2019-08-02T11:02:15-04:00",
+      "action_code": "H14000",
+      "references": [],
+      "text": "Received in the House.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2019-08-02",
+      "action_code": "H11100",
+      "committees": [
+        "HSJU"
+      ],
+      "references": [],
+      "text": "Referred to the House Committee on the Judiciary.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2019-08-12",
+      "action_code": "",
+      "committees": [
+        "HSJU"
+      ],
+      "references": [],
+      "text": "Referred to the Subcommittee on Courts, Intellectual Property, and the Internet.",
+      "type": "referral"
+    }
+  ],
+  "amendments": [],
+  "bill_id": "s929-116",
+  "bill_type": "s",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [
+    {
+      "activity": [
+        "referral"
+      ],
+      "committee": "House Judiciary",
+      "committee_id": "HSJU"
+    },
+    {
+      "activity": [
+        "referral"
+      ],
+      "committee": "House Judiciary",
+      "committee_id": "HSJU",
+      "subcommittee": "Subcommittee on Courts, Intellectual Property, and the Internet",
+      "subcommittee_id": "03"
+    },
+    {
+      "activity": [
+        "discharged",
+        "referral"
+      ],
+      "committee": "Senate Judiciary",
+      "committee_id": "SSJU"
+    }
+  ],
+  "congress": "116",
+  "cosponsors": [
+    {
+      "bioguide_id": "B001135",
+      "district": null,
+      "name": "Burr, Richard",
+      "original_cosponsor": true,
+      "sponsored_at": "2019-03-28",
+      "state": "NC",
+      "title": "Sen.",
+      "withdrawn_at": null
+    }
+  ],
+  "enacted_as": null,
+  "history": {
+    "active": true,
+    "active_at": "2019-07-30",
+    "awaiting_signature": false,
+    "enacted": false,
+    "senate_passage_result": "pass",
+    "senate_passage_result_at": "2019-07-30",
+    "vetoed": false
+  },
+  "introduced_at": "2019-03-28",
+  "number": "929",
+  "official_title": "A bill to amend title 28, United States Code, to redefine the eastern and middle judicial districts of North Carolina.",
+  "popular_title": null,
+  "related_bills": [
+    {
+      "bill_id": "hr7775-116",
+      "identified_by": "CRS",
+      "reason": "identical",
+      "type": "bill"
+    }
+  ],
+  "short_title": null,
+  "sponsor": {
+    "bioguide_id": "T000476",
+    "district": null,
+    "name": "Tillis, Thomas",
+    "state": "NC",
+    "title": "Sen.",
+    "type": "person"
+  },
+  "status": "PASS_OVER:SENATE",
+  "status_at": "2019-07-30",
+  "subjects": [
+    "Federal district courts",
+    "Law",
+    "North Carolina"
+  ],
+  "subjects_top_term": "Law",
+  "summary": {
+    "as": "Passed Senate",
+    "asOf": "2019-07-30",
+    "date": "2019-10-04T20:53:34Z",
+    "text": "This bill moves portions of four counties encompassing the Fort Bragg Military Reservation and Camp Mackall from the Middle District to the Eastern District of North Carolina."
+  },
+  "titles": [
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "A bill to amend title 28, United States Code, to redefine the eastern and middle judicial districts of North Carolina.",
+      "type": "display"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "A bill to amend title 28, United States Code, to redefine the eastern and middle judicial districts of North Carolina.",
+      "type": "official"
+    }
+  ],
+  "updated_at": "2022-11-01T18:47:29Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/116/s/BILLSTATUS-116s929.xml"
+}

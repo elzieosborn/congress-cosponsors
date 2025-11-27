@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>1150</number>
+    <updateDate>2023-01-11T13:15:55Z</updateDate>
+    <updateDateIncludingText>2023-01-11T13:15:55Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2009-02-24</introducedDate>
+    <congress>111</congress>
+    <committees>
+      <item>
+        <systemCode>hshm00</systemCode>
+        <name>Homeland Security Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hshm12</systemCode>
+            <name>Emergency Management and Technology Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2009-03-02T21:32:40Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2009-02-24T15:30:46Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsif00</systemCode>
+        <name>Energy and Commerce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsif17</systemCode>
+            <name>Innovation, Data, and Commerce Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2009-02-25T20:57:07Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2009-02-24T15:30:45Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2009-03-02</actionDate>
+        <committees>
+          <item>
+            <systemCode>hshm12</systemCode>
+            <name>Emergency Management and Technology Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Emergency Communications, Preparedness, and Response.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2009-02-25</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif17</systemCode>
+            <name>Innovation, Data, and Commerce Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Commerce, Trade and Consumer Protection.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2009-02-24</actionDate>
+        <text>Referred to House Homeland Security</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hshm00</systemCode>
+            <name>Homeland Security Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2009-02-24</actionDate>
+        <text>Referred to the Committee on Energy and Commerce, and in addition to the Committee on Homeland Security, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100-A</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2009-02-24</actionDate>
+        <text>Referred to House Energy and Commerce</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2009-02-24</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2009-02-24</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>C001065</bioguideId>
+        <fullName>Rep. Carney, Christopher P. [D-PA-10]</fullName>
+        <firstName>Christopher</firstName>
+        <lastName>Carney</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <middleName>P.</middleName>
+        <district>10</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>S001162</bioguideId>
+        <fullName>Rep. Schwartz, Allyson Y. [D-PA-13]</fullName>
+        <firstName>Allyson</firstName>
+        <lastName>Schwartz</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <middleName>Y.</middleName>
+        <district>13</district>
+        <sponsorshipDate>2009-02-24</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001227</bioguideId>
+        <fullName>Rep. Brady, Robert A. [D-PA-1]</fullName>
+        <firstName>ROBERT</firstName>
+        <lastName>BRADY</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <middleName>A.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2009-02-24</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001172</bioguideId>
+        <fullName>Rep. Markey, Betsy [D-CO-4]</fullName>
+        <firstName>Betsy</firstName>
+        <lastName>Markey</lastName>
+        <party>D</party>
+        <state>CO</state>
+        <district>4</district>
+        <sponsorshipDate>2009-02-24</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000482</bioguideId>
+        <fullName>Rep. Doyle, Michael F. [D-PA-14]</fullName>
+        <firstName>MIKE</firstName>
+        <lastName>DOYLE</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <district>14</district>
+        <sponsorshipDate>2009-02-24</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000013</bioguideId>
+        <fullName>Rep. Bachus, Spencer [R-AL-6]</fullName>
+        <firstName>SPENCER</firstName>
+        <lastName>BACHUS</lastName>
+        <party>R</party>
+        <state>AL</state>
+        <district>6</district>
+        <sponsorshipDate>2009-02-24</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>A000362</bioguideId>
+        <fullName>Rep. Altmire, Jason [D-PA-4]</fullName>
+        <firstName>Jason</firstName>
+        <lastName>Altmire</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <district>4</district>
+        <sponsorshipDate>2009-02-24</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000149</bioguideId>
+        <fullName>Rep. Payne, Donald M. [D-NJ-10]</fullName>
+        <firstName>DONALD</firstName>
+        <lastName>PAYNE</lastName>
+        <party>D</party>
+        <state>NJ</state>
+        <middleName>M.</middleName>
+        <district>10</district>
+        <sponsorshipDate>2009-02-24</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000712</bioguideId>
+        <fullName>Rep. Holden, Tim [D-PA-17]</fullName>
+        <firstName>TIM</firstName>
+        <lastName>HOLDEN</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <district>17</district>
+        <sponsorshipDate>2009-02-24</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000043</bioguideId>
+        <fullName>Rep. Fattah, Chaka [D-PA-2]</fullName>
+        <firstName>CHAKA</firstName>
+        <lastName>FATTAH</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <district>2</district>
+        <sponsorshipDate>2009-02-26</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001173</bioguideId>
+        <fullName>Rep. Massa, Eric J. J. [D-NY-29]</fullName>
+        <firstName>Eric</firstName>
+        <lastName>Massa</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>J. J.</middleName>
+        <district>29</district>
+        <sponsorshipDate>2009-03-03</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001151</bioguideId>
+        <fullName>Rep. Murphy, Tim [R-PA-18]</fullName>
+        <firstName>Tim</firstName>
+        <lastName>Murphy</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <district>18</district>
+        <sponsorshipDate>2009-03-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>Y000062</bioguideId>
+        <fullName>Rep. Yarmuth, John A. [D-KY-3]</fullName>
+        <firstName>John</firstName>
+        <lastName>Yarmuth</lastName>
+        <party>D</party>
+        <state>KY</state>
+        <middleName>A.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2009-03-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001169</bioguideId>
+        <fullName>Rep. Sestak, Joe [D-PA-7]</fullName>
+        <firstName>Joe</firstName>
+        <lastName>Sestak</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <district>7</district>
+        <sponsorshipDate>2009-03-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001120</bioguideId>
+        <fullName>Rep. Murtha, John P. [D-PA-12]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>MURTHA</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <middleName>P.</middleName>
+        <district>12</district>
+        <sponsorshipDate>2009-04-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>N000015</bioguideId>
+        <fullName>Rep. Neal, Richard E. [D-MA-2]</fullName>
+        <firstName>RICHARD</firstName>
+        <lastName>NEAL</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>E.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2009-04-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001078</bioguideId>
+        <fullName>Rep. Connolly, Gerald E. [D-VA-11]</fullName>
+        <firstName>Gerald</firstName>
+        <lastName>Connolly</lastName>
+        <party>D</party>
+        <state>VA</state>
+        <middleName>E.</middleName>
+        <district>11</district>
+        <sponsorshipDate>2009-04-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001174</bioguideId>
+        <fullName>Rep. McMahon, Michael E. [D-NY-13]</fullName>
+        <firstName>Michael</firstName>
+        <lastName>McMahon</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>E.</middleName>
+        <district>13</district>
+        <sponsorshipDate>2009-04-30</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001058</bioguideId>
+        <fullName>Rep. Chandler, Ben [D-KY-6]</fullName>
+        <firstName>Ben</firstName>
+        <lastName>Chandler</lastName>
+        <party>D</party>
+        <state>KY</state>
+        <district>6</district>
+        <sponsorshipDate>2009-05-18</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001068</bioguideId>
+        <fullName>Rep. Cohen, Steve [D-TN-9]</fullName>
+        <firstName>Steve</firstName>
+        <lastName>Cohen</lastName>
+        <party>D</party>
+        <state>TN</state>
+        <district>9</district>
+        <sponsorshipDate>2009-07-07</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Emergency Management</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Health facilities and institutions</name>
+        </item>
+        <item>
+          <name>Health programs administration and funding</name>
+        </item>
+        <item>
+          <name>Homeland security</name>
+        </item>
+        <item>
+          <name>Infectious and parasitic diseases</name>
+        </item>
+        <item>
+          <name>Medical research</name>
+        </item>
+        <item>
+          <name>Medical tests and diagnostic methods</name>
+        </item>
+        <item>
+          <name>Research administration and funding</name>
+        </item>
+        <item>
+          <name>Terrorism</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Emergency Management</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2009-02-24</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2009-04-27T15:09:29Z</updateDate>
+        <text><![CDATA[ <p>Laboratory Surge Capacity Preparedness Act - Directs the Secretary of Homeland Security to award grants to regional biocontainment laboratories for maintaining surge capacity that can be used to respond to acts of bioterrorism or outbreaks of infectious diseases. Authorizes the Secretary to award such a grant only if the laboratory agrees to allow the Secretary and other relevant federal agencies to inspect laboratory facilities.</p> <p>Requires the Secretary to report to Congress on: (1) activities undertaken to integrate the network of regional biocontainment laboratories with the laboratory response network of the Centers for Disease Control and Prevention (CDC); and (2) the extent to which additional Biosafety Level 3 laboratories are needed to fulfill the nation's laboratory surge capacity needs.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Laboratory Surge Capacity Preparedness Act</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Laboratory Surge Capacity Preparedness Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To authorize the Secretary of Homeland Security to award grants on a competitive basis to regional biocontainment laboratories for maintaining surge capacity that can be used to respond to acts of bioterrorism or outbreaks of infectious diseases, and for other purposes.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Laboratory Surge Capacity Preparedness Act</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2009-02-24T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-111hr1150ih/xml/BILLS-111hr1150ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2009-03-02</actionDate>
+      <text>Referred to the Subcommittee on Emergency Communications, Preparedness, and Response.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

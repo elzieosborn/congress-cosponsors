@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>6024</number>
+    <updateDate>2023-01-11T13:21:48Z</updateDate>
+    <updateDateIncludingText>2023-01-11T13:21:48Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2010-07-30</introducedDate>
+    <congress>111</congress>
+    <committees>
+      <item>
+        <systemCode>hsag00</systemCode>
+        <name>Agriculture Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsag29</systemCode>
+            <name>Livestock, Dairy, and Poultry Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2010-11-16T16:12:21Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2010-07-30T13:09:46Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2010-11-16</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsag29</systemCode>
+            <name>Livestock, Dairy, and Poultry Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Livestock, Dairy, and Poultry.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2010-07-30</actionDate>
+        <text>Referred to the House Committee on Agriculture.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsag00</systemCode>
+            <name>Agriculture Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2010-07-30</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2010-07-30</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>D000216</bioguideId>
+        <fullName>Rep. DeLauro, Rosa L. [D-CT-3]</fullName>
+        <firstName>ROSA</firstName>
+        <lastName>DELAURO</lastName>
+        <party>D</party>
+        <state>CT</state>
+        <district>3</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>S001145</bioguideId>
+        <fullName>Rep. Schakowsky, Janice D. [D-IL-9]</fullName>
+        <firstName>JANICE</firstName>
+        <lastName>SCHAKOWSKY</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>D.</middleName>
+        <district>9</district>
+        <sponsorshipDate>2010-07-30</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000404</bioguideId>
+        <fullName>Rep. McDermott, Jim [D-WA-7]</fullName>
+        <firstName>JIM</firstName>
+        <lastName>MCDERMOTT</lastName>
+        <party>D</party>
+        <state>WA</state>
+        <district>7</district>
+        <sponsorshipDate>2010-07-30</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000480</bioguideId>
+        <fullName>Rep. Lowey, Nita M. [D-NY-18]</fullName>
+        <firstName>NITA</firstName>
+        <lastName>LOWEY</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>M.</middleName>
+        <district>18</district>
+        <sponsorshipDate>2010-07-30</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000551</bioguideId>
+        <fullName>Rep. Grijalva, Raúl M. [D-AZ-7]</fullName>
+        <firstName>Raúl</firstName>
+        <lastName>Grijalva</lastName>
+        <party>D</party>
+        <state>AZ</state>
+        <middleName>M.</middleName>
+        <district>7</district>
+        <sponsorshipDate>2010-07-30</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000551</bioguideId>
+        <fullName>Rep. Lee, Barbara [D-CA-9]</fullName>
+        <firstName>BARBARA</firstName>
+        <lastName>LEE</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>9</district>
+        <sponsorshipDate>2010-07-30</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001137</bioguideId>
+        <fullName>Rep. Meeks, Gregory W. [D-NY-6]</fullName>
+        <firstName>GREGORY</firstName>
+        <lastName>MEEKS</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>W.</middleName>
+        <district>6</district>
+        <sponsorshipDate>2010-07-30</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000581</bioguideId>
+        <fullName>Rep. Richardson, Laura [D-CA-37]</fullName>
+        <firstName>Laura</firstName>
+        <lastName>Richardson</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>37</district>
+        <sponsorshipDate>2010-07-30</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Agriculture and Food</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Agricultural trade</name>
+        </item>
+        <item>
+          <name>Food supply, safety, and labeling</name>
+        </item>
+        <item>
+          <name>Government studies and investigations</name>
+        </item>
+        <item>
+          <name>Meat</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Agriculture and Food</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2010-07-30</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2010-09-07T17:41:51Z</updateDate>
+        <text><![CDATA[ <p>E. coli Traceability and Eradication Act - Amends the the Federal Meat Inspection Act to require that specified slaughterhouses, processing establishments, and grinding facilities perform specified tests for the presence of Shiga toxin-producing E. coli in beef.</p> <p>Directs the Secretary of Agriculture (USDA) to make grants to assist certain slaughterhouses, processing establishments, and grinding facilities in complying with such requirements. Terminates grant assistance on December 1, 2013.<br> </p> <p>Subjects imported trim, bench trim, and ground beef to the same testing requirements as domestic trim, bench trim, and ground beef. </p> <p>Defines &quot;enteric foodborne pathogen&quot; as live bacteriological matter that is commonly present in the digestive systems of animals for slaughter, including Shiga toxin-producing E. coli and salmonella, the presence of which in meat food products may indicate unsanitary conditions at the point of slaughter.</p> <p> Directs the Secretary to implement sampling protocols to enable the Food Safety and Inspection Service to rapidly trace potential adulteration and contamination of meat and meat food products by enteric foodborne pathogens to possible preceding sources of the adulteration and contamination, including preparation, packaging, and slaughtering establishments, to determine the original site source of the adulteration or contamination.</p> <p>Requires the Secretary: (1) if a meat or meat food product sample tests positive for adulteration or contamination by enteric foodborne pathogens, to conduct a trace to identify all sites of adulteration and contamination, including preparation, packaging, and slaughtering establishments, and to identify the original source of adulteration or contamination; and (2) if a raw ground meat sample tests positive for adulteration or contamination by enteric foodborne pathogens at a preparation, packaging, or slaughtering establishment, to require subsequent daily sampling at the establishment and any supplying establishments for a minimum of 15 consecutive days after the date on which the sample is collected.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>E. coli Traceability and Eradication Act</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>E. coli Traceability and Eradication Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend the Federal Meat Inspection Act to develop an effective sampling and testing program to test for E. coli in boneless beef manufacturing trimmings and other raw ground beef components, and for other purposes.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>E. coli Traceability and Eradication Act</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2010-07-30T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-111hr6024ih/xml/BILLS-111hr6024ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2010-11-16</actionDate>
+      <text>Referred to the Subcommittee on Livestock, Dairy, and Poultry.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

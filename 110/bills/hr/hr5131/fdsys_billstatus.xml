@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>5131</number>
+    <updateDate>2023-01-11T13:15:17Z</updateDate>
+    <updateDateIncludingText>2023-01-11T13:15:17Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2008-01-23</introducedDate>
+    <congress>110</congress>
+    <committees>
+      <item>
+        <systemCode>hsju00</systemCode>
+        <name>Judiciary Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsju08</systemCode>
+            <name>Crime and Federal Government Surveillance Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2008-02-25T18:27:58Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2008-01-23T15:04:45Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <relatedBills>
+      <item>
+        <title>To amend title 18, United States Code, to provide criminal penalties for the destruction of memorials, headstones, markers, and graves commemorating persons serving in the Armed Forces on private property.</title>
+        <congress>110</congress>
+        <number>4973</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2008-02-04</actionDate>
+          <text>Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2008-02-25</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsju08</systemCode>
+            <name>Crime and Federal Government Surveillance Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2008-01-23</actionDate>
+        <text>Referred to the House Committee on the Judiciary.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2008-01-23</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2008-01-23</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>P000592</bioguideId>
+        <fullName>Rep. Poe, Ted [R-TX-2]</fullName>
+        <firstName>Ted</firstName>
+        <lastName>Poe</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>2</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>B001149</bioguideId>
+        <fullName>Rep. Burton, Dan [R-IN-5]</fullName>
+        <firstName>DAN</firstName>
+        <lastName>BURTON</lastName>
+        <party>R</party>
+        <state>IN</state>
+        <district>5</district>
+        <sponsorshipDate>2008-02-12</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001247</bioguideId>
+        <fullName>Rep. Brown-Waite, Ginny [R-FL-5]</fullName>
+        <firstName>Ginny</firstName>
+        <lastName>Brown-Waite</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>5</district>
+        <sponsorshipDate>2008-02-12</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000453</bioguideId>
+        <fullName>Rep. Fallin, Mary [R-OK-5]</fullName>
+        <firstName>Mary</firstName>
+        <lastName>Fallin</lastName>
+        <party>R</party>
+        <state>OK</state>
+        <district>5</district>
+        <sponsorshipDate>2008-02-12</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>J000174</bioguideId>
+        <fullName>Rep. Johnson, Sam [R-TX-3]</fullName>
+        <firstName>SAM</firstName>
+        <lastName>JOHNSON</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>3</district>
+        <sponsorshipDate>2008-02-12</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000452</bioguideId>
+        <fullName>Resident Commissioner Fortuno, Luis G. [R-PR-At Large]</fullName>
+        <firstName>Luis</firstName>
+        <lastName>Fortuno</lastName>
+        <party>R</party>
+        <state>PR</state>
+        <middleName>G.</middleName>
+        <district>0</district>
+        <sponsorshipDate>2008-02-12</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000795</bioguideId>
+        <fullName>Rep. Wilson, Joe [R-SC-2]</fullName>
+        <firstName>Joe</firstName>
+        <lastName>Wilson</lastName>
+        <party>R</party>
+        <state>SC</state>
+        <district>2</district>
+        <sponsorshipDate>2008-02-12</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001048</bioguideId>
+        <fullName>Rep. Culberson, John Abney [R-TX-7]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>CULBERSON</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <middleName>ABNEY</middleName>
+        <district>7</district>
+        <sponsorshipDate>2008-02-12</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>A000358</bioguideId>
+        <fullName>Rep. Akin, W. Todd [R-MO-2]</fullName>
+        <firstName>W.</firstName>
+        <lastName>AKIN</lastName>
+        <party>R</party>
+        <state>MO</state>
+        <middleName>TODD</middleName>
+        <district>2</district>
+        <sponsorshipDate>2008-02-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000550</bioguideId>
+        <fullName>Rep. Gingrey, Phil [R-GA-11]</fullName>
+        <firstName>Phil</firstName>
+        <lastName>Gingrey</lastName>
+        <party>R</party>
+        <state>GA</state>
+        <district>11</district>
+        <sponsorshipDate>2008-02-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001158</bioguideId>
+        <fullName>Rep. Marchant, Kenny [R-TX-24]</fullName>
+        <firstName>Kenny</firstName>
+        <lastName>Marchant</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>24</district>
+        <sponsorshipDate>2008-02-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000280</bioguideId>
+        <fullName>Rep. Goode, Virgil H., Jr. [R-VA-5]</fullName>
+        <firstName>VIRGIL</firstName>
+        <lastName>GOODE</lastName>
+        <party>R</party>
+        <state>VA</state>
+        <middleName>H.</middleName>
+        <district>5</district>
+        <sponsorshipDate>2008-02-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000798</bioguideId>
+        <fullName>Rep. Walberg, Timothy [R-MI-7]</fullName>
+        <firstName>Timothy</firstName>
+        <lastName>Walberg</lastName>
+        <party>R</party>
+        <state>MI</state>
+        <district>7</district>
+        <sponsorshipDate>2008-02-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000208</bioguideId>
+        <fullName>Rep. Bartlett, Roscoe G. [R-MD-6]</fullName>
+        <firstName>ROSCOE</firstName>
+        <lastName>BARTLETT</lastName>
+        <party>R</party>
+        <state>MD</state>
+        <middleName>G.</middleName>
+        <district>6</district>
+        <sponsorshipDate>2008-02-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000067</bioguideId>
+        <fullName>Rep. Hall, Ralph M. [R-TX-4]</fullName>
+        <firstName>RALPH</firstName>
+        <lastName>HALL</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <middleName>M.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2008-02-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000275</bioguideId>
+        <fullName>Rep. Shadegg, John B. [R-AZ-3]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>SHADEGG</lastName>
+        <party>R</party>
+        <state>AZ</state>
+        <district>3</district>
+        <sponsorshipDate>2008-02-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000570</bioguideId>
+        <fullName>Rep. Ryan, Paul [R-WI-1]</fullName>
+        <firstName>PAUL</firstName>
+        <lastName>RYAN</lastName>
+        <party>R</party>
+        <state>WI</state>
+        <district>1</district>
+        <sponsorshipDate>2008-02-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001167</bioguideId>
+        <fullName>Rep. Sali, Bill [R-ID-1]</fullName>
+        <firstName>Bill</firstName>
+        <lastName>Sali</lastName>
+        <party>R</party>
+        <state>ID</state>
+        <district>1</district>
+        <sponsorshipDate>2008-02-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000461</bioguideId>
+        <fullName>Rep. Bilbray, Brian P. [R-CA-50]</fullName>
+        <firstName>BRIAN</firstName>
+        <lastName>BILBRAY</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <middleName>P.</middleName>
+        <district>50</district>
+        <sponsorshipDate>2008-02-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000962</bioguideId>
+        <fullName>Rep. Cubin, Barbara [R-WY-At Large]</fullName>
+        <firstName>BARBARA</firstName>
+        <lastName>CUBIN</lastName>
+        <party>R</party>
+        <state>WY</state>
+        <district>0</district>
+        <sponsorshipDate>2008-02-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001239</bioguideId>
+        <fullName>Rep. Barrett, J. Gresham [R-SC-3]</fullName>
+        <firstName>J.</firstName>
+        <lastName>Barrett</lastName>
+        <party>R</party>
+        <state>SC</state>
+        <middleName>Gresham</middleName>
+        <district>3</district>
+        <sponsorshipDate>2008-02-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001064</bioguideId>
+        <fullName>Rep. Campbell, John [R-CA-48]</fullName>
+        <firstName>John</firstName>
+        <lastName>Campbell</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <district>48</district>
+        <sponsorshipDate>2008-02-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000606</bioguideId>
+        <fullName>Rep. Davis, David [R-TN-1]</fullName>
+        <firstName>David</firstName>
+        <lastName>Davis</lastName>
+        <party>R</party>
+        <state>TN</state>
+        <district>1</district>
+        <sponsorshipDate>2008-02-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001152</bioguideId>
+        <fullName>Rep. Musgrave, Marilyn N. [R-CO-4]</fullName>
+        <firstName>Marilyn</firstName>
+        <lastName>Musgrave</lastName>
+        <party>R</party>
+        <state>CO</state>
+        <middleName>N.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2008-02-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000448</bioguideId>
+        <fullName>Rep. Franks, Trent [R-AZ-2]</fullName>
+        <firstName>Trent</firstName>
+        <lastName>Franks</lastName>
+        <party>R</party>
+        <state>AZ</state>
+        <district>2</district>
+        <sponsorshipDate>2008-02-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000585</bioguideId>
+        <fullName>Rep. Platts, Todd Russell [R-PA-19]</fullName>
+        <firstName>TODD</firstName>
+        <lastName>PLATTS</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <middleName>RUSSELL</middleName>
+        <district>19</district>
+        <sponsorshipDate>2008-02-26</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>J000255</bioguideId>
+        <fullName>Rep. Jones, Walter B., Jr. [R-NC-3]</fullName>
+        <firstName>WALTER</firstName>
+        <lastName>JONES</lastName>
+        <party>R</party>
+        <state>NC</state>
+        <middleName>B.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2008-02-26</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000822</bioguideId>
+        <fullName>Rep. Stearns, Cliff [R-FL-6]</fullName>
+        <firstName>CLIFF</firstName>
+        <lastName>STEARNS</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>6</district>
+        <sponsorshipDate>2008-02-26</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000409</bioguideId>
+        <fullName>Rep. Rohrabacher, Dana [R-CA-46]</fullName>
+        <firstName>DANA</firstName>
+        <lastName>ROHRABACHER</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <district>46</district>
+        <sponsorshipDate>2008-02-26</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001147</bioguideId>
+        <fullName>Rep. McCotter, Thaddeus G. [R-MI-11]</fullName>
+        <firstName>Thaddeus</firstName>
+        <lastName>McCotter</lastName>
+        <party>R</party>
+        <state>MI</state>
+        <middleName>G.</middleName>
+        <district>11</district>
+        <sponsorshipDate>2008-02-26</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001260</bioguideId>
+        <fullName>Rep. Buchanan, Vern [R-FL-13]</fullName>
+        <firstName>Vern</firstName>
+        <lastName>Buchanan</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>13</district>
+        <sponsorshipDate>2008-02-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001257</bioguideId>
+        <fullName>Rep. Bilirakis, Gus M. [R-FL-9]</fullName>
+        <firstName>Gus</firstName>
+        <lastName>Bilirakis</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <middleName>M.</middleName>
+        <district>9</district>
+        <sponsorshipDate>2008-02-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000373</bioguideId>
+        <fullName>Rep. Pitts, Joseph R. [R-PA-16]</fullName>
+        <firstName>JOSEPH</firstName>
+        <lastName>PITTS</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <middleName>R.</middleName>
+        <district>16</district>
+        <sponsorshipDate>2008-03-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000063</bioguideId>
+        <fullName>Rep. Edwards, Chet [D-TX-17]</fullName>
+        <firstName>CHET</firstName>
+        <lastName>EDWARDS</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>17</district>
+        <sponsorshipDate>2008-03-11</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001146</bioguideId>
+        <fullName>Rep. Marshall, Jim [D-GA-8]</fullName>
+        <firstName>Jim</firstName>
+        <lastName>Marshall</lastName>
+        <party>D</party>
+        <state>GA</state>
+        <district>8</district>
+        <sponsorshipDate>2008-04-02</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001069</bioguideId>
+        <fullName>Rep. Courtney, Joe [D-CT-2]</fullName>
+        <firstName>Joe</firstName>
+        <lastName>Courtney</lastName>
+        <party>D</party>
+        <state>CT</state>
+        <district>2</district>
+        <sponsorshipDate>2008-04-02</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000364</bioguideId>
+        <fullName>Rep. Kuhl, John R. "Randy", Jr. [R-NY-29]</fullName>
+        <firstName>John</firstName>
+        <lastName>Kuhl</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <middleName>R. "Randy"</middleName>
+        <district>29</district>
+        <sponsorshipDate>2008-04-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001036</bioguideId>
+        <fullName>Rep. Hensarling, Jeb [R-TX-5]</fullName>
+        <firstName>Jeb</firstName>
+        <lastName>Hensarling</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>5</district>
+        <sponsorshipDate>2008-04-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000043</bioguideId>
+        <fullName>Rep. Lampson, Nick [D-TX-22]</fullName>
+        <firstName>NICK</firstName>
+        <lastName>LAMPSON</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>22</district>
+        <sponsorshipDate>2008-04-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>N000181</bioguideId>
+        <fullName>Rep. Nunes, Devin [R-CA-21]</fullName>
+        <firstName>Devin</firstName>
+        <lastName>Nunes</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <district>21</district>
+        <sponsorshipDate>2008-04-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001051</bioguideId>
+        <fullName>Rep. Carter, John R. [R-TX-31]</fullName>
+        <firstName>John</firstName>
+        <lastName>Carter</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <middleName>R.</middleName>
+        <district>31</district>
+        <sponsorshipDate>2008-04-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001164</bioguideId>
+        <fullName>Rep. Mahoney, Tim [D-FL-16]</fullName>
+        <firstName>Tim</firstName>
+        <lastName>Mahoney</lastName>
+        <party>D</party>
+        <state>FL</state>
+        <district>16</district>
+        <sponsorshipDate>2008-04-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000981</bioguideId>
+        <fullName>Rep. Hunter, Duncan [R-CA-52]</fullName>
+        <firstName>DUNCAN</firstName>
+        <lastName>HUNTER</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <district>52</district>
+        <sponsorshipDate>2008-04-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>I000056</bioguideId>
+        <fullName>Rep. Issa, Darrell E. [R-CA-49]</fullName>
+        <firstName>DARRELL</firstName>
+        <lastName>ISSA</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <middleName>E.</middleName>
+        <district>49</district>
+        <sponsorshipDate>2008-04-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001227</bioguideId>
+        <fullName>Rep. Brady, Robert A. [D-PA-1]</fullName>
+        <firstName>ROBERT</firstName>
+        <lastName>BRADY</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <middleName>A.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2008-04-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001248</bioguideId>
+        <fullName>Rep. Burgess, Michael C. [R-TX-26]</fullName>
+        <firstName>Michael</firstName>
+        <lastName>Burgess</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <middleName>C.</middleName>
+        <district>26</district>
+        <sponsorshipDate>2008-04-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001235</bioguideId>
+        <fullName>Rep. Brown, Henry E., Jr. [R-SC-1]</fullName>
+        <firstName>HENRY</firstName>
+        <lastName>BROWN</lastName>
+        <party>R</party>
+        <state>SC</state>
+        <middleName>E.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2008-04-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000187</bioguideId>
+        <fullName>Rep. English, Phil [R-PA-3]</fullName>
+        <firstName>PHIL</firstName>
+        <lastName>ENGLISH</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <district>3</district>
+        <sponsorshipDate>2008-04-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>J000126</bioguideId>
+        <fullName>Rep. Johnson, Eddie Bernice [D-TX-30]</fullName>
+        <firstName>EDDIE</firstName>
+        <lastName>JOHNSON</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <middleName>BERNICE</middleName>
+        <district>30</district>
+        <sponsorshipDate>2008-04-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000554</bioguideId>
+        <fullName>Rep. LoBiondo, Frank A. [R-NJ-2]</fullName>
+        <firstName>FRANK</firstName>
+        <lastName>LOBIONDO</lastName>
+        <party>R</party>
+        <state>NJ</state>
+        <middleName>A.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2008-04-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001062</bioguideId>
+        <fullName>Rep. Conaway, K. Michael [R-TX-11]</fullName>
+        <firstName>K.</firstName>
+        <lastName>Conaway</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <middleName>Michael</middleName>
+        <district>11</district>
+        <sponsorshipDate>2008-04-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>A000361</bioguideId>
+        <fullName>Rep. Alexander, Rodney [R-LA-5]</fullName>
+        <firstName>Rodney</firstName>
+        <lastName>Alexander</lastName>
+        <party>R</party>
+        <state>LA</state>
+        <district>5</district>
+        <sponsorshipDate>2008-04-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000600</bioguideId>
+        <fullName>Rep. Diaz-Balart, Mario [R-FL-25]</fullName>
+        <firstName>Mario</firstName>
+        <lastName>Diaz-Balart</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>25</district>
+        <sponsorshipDate>2008-04-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000244</bioguideId>
+        <fullName>Rep. Sensenbrenner, F. James, Jr. [R-WI-5]</fullName>
+        <firstName>F.</firstName>
+        <lastName>SENSENBRENNER</lastName>
+        <party>R</party>
+        <state>WI</state>
+        <middleName>JAMES</middleName>
+        <district>5</district>
+        <sponsorshipDate>2008-04-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>Y000033</bioguideId>
+        <fullName>Rep. Young, Don [R-AK-At Large]</fullName>
+        <firstName>DON</firstName>
+        <lastName>YOUNG</lastName>
+        <party>R</party>
+        <state>AK</state>
+        <middleName>E.</middleName>
+        <district>0</district>
+        <sponsorshipDate>2008-04-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000804</bioguideId>
+        <fullName>Rep. Wittman, Robert J. [R-VA-1]</fullName>
+        <firstName>Robert</firstName>
+        <lastName>Wittman</lastName>
+        <party>R</party>
+        <state>VA</state>
+        <middleName>J.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2008-04-24</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001065</bioguideId>
+        <fullName>Rep. Carney, Christopher P. [D-PA-10]</fullName>
+        <firstName>Christopher</firstName>
+        <lastName>Carney</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <middleName>P.</middleName>
+        <district>10</district>
+        <sponsorshipDate>2008-04-30</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000566</bioguideId>
+        <fullName>Rep. Latta, Robert E. [R-OH-5]</fullName>
+        <firstName>Robert</firstName>
+        <lastName>Latta</lastName>
+        <party>R</party>
+        <state>OH</state>
+        <middleName>E.</middleName>
+        <district>5</district>
+        <sponsorshipDate>2008-05-06</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001151</bioguideId>
+        <fullName>Rep. Murphy, Tim [R-PA-18]</fullName>
+        <firstName>Tim</firstName>
+        <lastName>Murphy</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <district>18</district>
+        <sponsorshipDate>2008-06-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000586</bioguideId>
+        <fullName>Rep. Putnam, Adam H. [R-FL-12]</fullName>
+        <firstName>ADAM</firstName>
+        <lastName>PUTNAM</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <middleName>H.</middleName>
+        <district>12</district>
+        <sponsorshipDate>2008-09-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000589</bioguideId>
+        <fullName>Rep. Porter, Jon C. [R-NV-3]</fullName>
+        <firstName>Jon</firstName>
+        <lastName>Porter</lastName>
+        <party>R</party>
+        <state>NV</state>
+        <middleName>C.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2008-09-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>A000362</bioguideId>
+        <fullName>Rep. Altmire, Jason [D-PA-4]</fullName>
+        <firstName>Jason</firstName>
+        <lastName>Altmire</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <district>4</district>
+        <sponsorshipDate>2008-09-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001150</bioguideId>
+        <fullName>Rep. Miller, Candice S. [R-MI-10]</fullName>
+        <firstName>Candice</firstName>
+        <lastName>Miller</lastName>
+        <party>R</party>
+        <state>MI</state>
+        <middleName>S.</middleName>
+        <district>10</district>
+        <sponsorshipDate>2008-09-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Crime and Law Enforcement</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Armed Forces and National Security</name>
+        </item>
+        <item>
+          <name>Cemeteries and funerals</name>
+        </item>
+        <item>
+          <name>Commemorations</name>
+        </item>
+        <item>
+          <name>Destruction of property</name>
+        </item>
+        <item>
+          <name>Fines (Penalties)</name>
+        </item>
+        <item>
+          <name>Monuments and memorials</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Crime and Law Enforcement</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2008-01-23</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2008-02-08T15:26:36Z</updateDate>
+        <text><![CDATA[ <p>Lance Corporal Jeremy Burris Act - Amends the federal criminal code to modify the prohibition against destruction of veterans' memorials to include destruction of the grave, headstone, or marker of any person in the Armed Forces and to extend such prohibition to memorials, graves, headstones, or markers on private as well as public property.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Lance Corporal Jeremy Burris Act</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Lance Corporal Jeremy Burris Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend title 18, United States Code, to provide criminal penalties for the destruction of memorials, headstones, markers, and graves commemorating persons serving in the Armed Forces on private property.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Lance Corporal Jeremy Burris Act</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2008-01-23T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-110hr5131ih/xml/BILLS-110hr5131ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2008-02-25</actionDate>
+      <text>Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

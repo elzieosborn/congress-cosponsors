@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>3009</number>
+    <updateDate>2023-01-11T13:18:46Z</updateDate>
+    <updateDateIncludingText>2023-01-11T13:18:46Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2009-06-23</introducedDate>
+    <congress>111</congress>
+    <committees>
+      <item>
+        <systemCode>hsii00</systemCode>
+        <name>Natural Resources Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsii06</systemCode>
+            <name>Energy and Mineral Resources Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2009-06-26T18:34:02Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2009-06-23T14:34:44Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsif00</systemCode>
+        <name>Energy and Commerce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsif03</systemCode>
+            <name>Energy, Climate and Grid Security Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2009-06-24T14:14:29Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2009-06-23T14:34:45Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2009-06-26</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii06</systemCode>
+            <name>Energy and Mineral Resources Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Energy and Mineral Resources.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2009-06-24</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif03</systemCode>
+            <name>Energy, Climate and Grid Security Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Energy and Environment.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2009-06-23</actionDate>
+        <text>Referred to House Energy and Commerce</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2009-06-23</actionDate>
+        <text>Referred to the Committee on Natural Resources, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100-A</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2009-06-23</actionDate>
+        <text>Referred to House Natural Resources</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2009-06-23</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2009-06-23</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>R000573</bioguideId>
+        <fullName>Rep. Ross, Mike [D-AR-4]</fullName>
+        <firstName>MIKE</firstName>
+        <lastName>ROSS</lastName>
+        <party>D</party>
+        <state>AR</state>
+        <district>4</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>M001161</bioguideId>
+        <fullName>Rep. Melancon, Charlie [D-LA-3]</fullName>
+        <firstName>Charlie</firstName>
+        <lastName>Melancon</lastName>
+        <party>D</party>
+        <state>LA</state>
+        <district>3</district>
+        <sponsorshipDate>2009-07-28</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001254</bioguideId>
+        <fullName>Rep. Boren, Dan [D-OK-2]</fullName>
+        <firstName>Dan</firstName>
+        <lastName>Boren</lastName>
+        <party>D</party>
+        <state>OK</state>
+        <district>2</district>
+        <sponsorshipDate>2009-07-28</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001074</bioguideId>
+        <fullName>Rep. Childers, Travis [D-MS-1]</fullName>
+        <firstName>Travis</firstName>
+        <lastName>Childers</lastName>
+        <party>D</party>
+        <state>MS</state>
+        <district>1</district>
+        <sponsorshipDate>2009-07-28</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Energy</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Alaska</name>
+        </item>
+        <item>
+          <name>Alternative and renewable resources</name>
+        </item>
+        <item>
+          <name>Appropriations</name>
+        </item>
+        <item>
+          <name>Coal</name>
+        </item>
+        <item>
+          <name>Energy revenues and royalties</name>
+        </item>
+        <item>
+          <name>Environmental assessment, monitoring, research</name>
+        </item>
+        <item>
+          <name>Environmental technology</name>
+        </item>
+        <item>
+          <name>Government trust funds</name>
+        </item>
+        <item>
+          <name>Intergovernmental relations</name>
+        </item>
+        <item>
+          <name>Judicial review and appeals</name>
+        </item>
+        <item>
+          <name>Land transfers</name>
+        </item>
+        <item>
+          <name>Nuclear power</name>
+        </item>
+        <item>
+          <name>Oil and gas</name>
+        </item>
+        <item>
+          <name>Pipelines</name>
+        </item>
+        <item>
+          <name>Public contracts and procurement</name>
+        </item>
+        <item>
+          <name>State and local finance</name>
+        </item>
+        <item>
+          <name>Wilderness and natural areas, wildlife refuges, wild rivers, habitats</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Energy</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2009-06-23</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2009-09-11T20:39:46Z</updateDate>
+        <text><![CDATA[ <p>American-Made Energy Act of 2009 - Establishes in the Treasury the American-Made Energy Trust Fund for alternative and renewable energy incentives and projects (e.g., wind, solar, biomass, and geothermal resources, waste to energy, hydropower, nuclear power, and coal to liquid technology). </p> <p>Directs the Secretary of the Interior to establish, implement, and administer a competitive oil and gas leasing program on the Coastal Plain of Alaska.</p> <p>Repeals the prohibition against production or leasing of oil and gas resources from the Arctic National Wildlife Refuge (ANWR).</p> <p>Declares that the oil and gas leasing programs and activities in the Coastal Plain authorized by this Act are deemed in compliance with the purposes for which ANWR was established.</p> <p>Authorizes the Secretary to designate up to a total of 45,000 acres of the Coastal Plain as a special area, after consultation with the state of Alaska, the city of Kaktovik, and the North Slope Borough. Permits directional drilling in such special areas.</p> <p>Prescribes guidelines for implementation of lease sales.</p> <p>Sets forth: (1) a &quot;no significant adverse effect&quot; standard to govern Coastal Plain activities; (2) guidelines for expedited judicial review; and (3) a plan for federal and state distribution of revenues.</p> <p>Directs the Secretary to issue rights-of-way and easements across the Coastal Plain for the transportation of oil and gas.</p> <p>Provides for financial assistance for local government impact aid and community service assistance. </p> <p>Establishes in the Treasury the Coastal Plain Local Government Impact Aid Assistance Fund.</p> <p>Terminates all existing federal laws prohibiting expenditures to conduct oil and natural gas leasing and preleasing activities in the Outer Continental Shelf. </p>]]></text>
+      </summary>
+    </summaries>
+    <title>American-Made Energy Act of 2009</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>American-Made Energy Act of 2009</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To promote alternative and renewable fuels and domestic energy production, and for other purposes.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>American-Made Energy Act of 2009</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2009-06-23T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-111hr3009ih/xml/BILLS-111hr3009ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2009-06-26</actionDate>
+      <text>Referred to the Subcommittee on Energy and Mineral Resources.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

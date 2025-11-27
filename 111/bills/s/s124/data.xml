@@ -1,0 +1,59 @@
+<bill session="111" type="s" number="124" updated="2023-01-11T13:21:09Z">
+  <state datetime="2010-12-03">PASS_OVER:SENATE</state>
+  <status>
+    <unknown datetime="2010-12-03"/>
+  </status>
+  <introduced datetime="2009-01-06"/>
+  <titles>
+    <title type="display">A bill for the relief of Shigeru Yamada.</title>
+    <title type="official" as="introduced">A bill for the relief of Shigeru Yamada.</title>
+  </titles>
+  <sponsor bioguide_id="F000062"/>
+  <cosponsors/>
+  <actions>
+    <action datetime="2009-01-06">
+      <text>Introduced in Senate</text>
+    </action>
+    <action datetime="2009-01-06">
+      <text>Sponsor introductory remarks on measure.</text>
+      <reference ref="CR S96-97"/>
+    </action>
+    <action datetime="2009-01-06" state="REFERRED">
+      <text>Read twice and referred to the Committee on the Judiciary.</text>
+      <reference ref="CR S97" label="text of measure as introduced"/>
+    </action>
+    <action datetime="2010-12-03">
+      <text>Senate Committee on the Judiciary discharged by Unanimous Consent.</text>
+      <reference ref="CR S8510-8511" label="consideration"/>
+    </action>
+    <vote how="by Unanimous Consent" type="vote" datetime="2010-12-03" where="s" result="pass" state="PASS_OVER:SENATE">
+      <text>Passed Senate without amendment by Unanimous Consent.</text>
+      <reference ref="CR S8511" label="text"/>
+    </vote>
+    <action datetime="2010-12-03">
+      <text>Message on Senate action sent to the House.</text>
+    </action>
+    <action datetime="2010-12-07T14:04:04-05:00">
+      <text>Received in the House.</text>
+    </action>
+    <action datetime="2010-12-07">
+      <text>Referred to the House Committee on the Judiciary.</text>
+    </action>
+    <action datetime="2010-12-20">
+      <text>Referred to the Subcommittee on Immigration, Citizenship, Refugees, Border Security, and International Law.</text>
+    </action>
+  </actions>
+  <committees>
+    <committee code="HSJU" name="House Judiciary" subcommittee="" activity="Referral"/>
+    <committee code="HSJU01" name="House Judiciary" subcommittee="Immigration Integrity, Security, and Enforcement" activity="Referral"/>
+    <committee code="SSJU" name="Senate Judiciary" subcommittee="" activity="Discharged, Referral"/>
+  </committees>
+  <relatedbills>
+    <bill session="111" type="s" number="4010" relation="unknown"/>
+  </relatedbills>
+  <subjects>
+    <term name="Private legislation"/>
+  </subjects>
+  <amendments/>
+  <summary date="2009-01-07T09:02:34Z" status="Introduced in Senate">Provides for the relief of Shigeru Yamada.</summary>
+</bill>

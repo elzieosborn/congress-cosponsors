@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>4320</number>
+    <updateDate>2023-01-11T13:14:59Z</updateDate>
+    <updateDateIncludingText>2023-01-11T13:14:59Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2007-12-06</introducedDate>
+    <congress>110</congress>
+    <committees>
+      <item>
+        <systemCode>hsif00</systemCode>
+        <name>Energy and Commerce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2007-12-06T17:59:15Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2007-12-06T15:04:25Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2007-12-06</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2007-12-06</actionDate>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2007-12-06</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2007-12-06</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>E000179</bioguideId>
+        <fullName>Rep. Engel, Eliot L. [D-NY-17]</fullName>
+        <firstName>ELIOT</firstName>
+        <lastName>ENGEL</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>L.</middleName>
+        <district>17</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Business records</name>
+        </item>
+        <item>
+          <name>Claims</name>
+        </item>
+        <item>
+          <name>Collection of accounts</name>
+        </item>
+        <item>
+          <name>Commerce</name>
+        </item>
+        <item>
+          <name>Employee health benefits</name>
+        </item>
+        <item>
+          <name>Finance and Financial Sector</name>
+        </item>
+        <item>
+          <name>Fines (Penalties)</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Government paperwork</name>
+        </item>
+        <item>
+          <name>Health insurance</name>
+        </item>
+        <item>
+          <name>Insurance companies</name>
+        </item>
+        <item>
+          <name>Labor and Employment</name>
+        </item>
+        <item>
+          <name>Law</name>
+        </item>
+        <item>
+          <name>Medicaid</name>
+        </item>
+        <item>
+          <name>Social Welfare</name>
+        </item>
+        <item>
+          <name>State laws</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Health</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2007-12-06</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2008-02-13T22:19:30Z</updateDate>
+        <text><![CDATA[ <p>Amends title XIX (Medicaid) of the Social Security Act to direct state Medicaid plans to require the state to provide the Secretary of Health and Human Services with satisfactory assurances that it has in effect laws requiring the state to make inquiries to third parties, including health insurers, self-insured plans, group health plans, or other parties operating in any state that are responsible for payment of a claim for a health care item or service.</p> <p>Requires third parties to: (1) provide, upon state request, information about Medicaid-eligible or -receiving individuals to determine during what period the individual (or the spouse or dependents) may be (or may have been) covered by a health insurer, as well as the nature of such coverage; (2) accept the state's right of recovery and the assignment to the state of any right of an individual or other entity to payment from the party for an item or service for which payment has been made under the state plan; and (3) agree not to deny a claim submitted by the state solely on the basis of its date of submission, the type or format of the claim form, or a failure to present proper documentation at the point-of-sale that is the basis of the claim, if the claim is submitted by the state within three years after the item or service was furnished, and any action by the state to enforce its rights is commenced within six years of its submission of the claim.</p> <p>Establishes a civil monetary penalty for a third party's failure to reply to inquiries required by this Act.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>To amend title XIX of the Social Security Act to strengthen the Medicaid third-party liability requirements.</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>To amend title XIX of the Social Security Act to strengthen the Medicaid third-party liability requirements.</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend title XIX of the Social Security Act to strengthen the Medicaid third-party liability requirements.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2007-12-06T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-110hr4320ih/xml/BILLS-110hr4320ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2007-12-06</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

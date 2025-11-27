@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>2422</number>
+    <updateDate>2023-01-11T13:32:15Z</updateDate>
+    <updateDateIncludingText>2023-01-11T13:32:15Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <type>S</type>
+    <introducedDate>2015-12-18</introducedDate>
+    <congress>114</congress>
+    <committees>
+      <item>
+        <systemCode>hsvr00</systemCode>
+        <name>Veterans' Affairs Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsvr03</systemCode>
+            <name>Health Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2016-02-05T22:48:56Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2016-01-25T20:25:18Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>ssva00</systemCode>
+        <name>Veterans' Affairs Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Discharged from</name>
+            <date>2016-01-20T23:34:44Z</date>
+          </item>
+          <item>
+            <name>Referred to</name>
+            <date>2015-12-18T15:34:42Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <relatedBills>
+      <item>
+        <title>Fiscal Year 2016 Department of Veterans Affairs Seismic Safety and Construction Authorization Act</title>
+        <congress>114</congress>
+        <number>4334</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2016-01-12</actionDate>
+          <text>Referred to the Subcommittee on Health.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Fiscal Year 2016 Department of Veterans Affairs Seismic Safety and Construction Authorization Act</title>
+        <congress>114</congress>
+        <number>4590</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2016-06-22</actionDate>
+          <text>Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2016-02-05</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsvr03</systemCode>
+            <name>Health Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2016-01-25</actionDate>
+        <text>Referred to the House Committee on Veterans' Affairs.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsvr00</systemCode>
+            <name>Veterans' Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2016-01-25</actionDate>
+        <actionTime>14:02:13</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2016-01-21</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2016-01-20</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate without amendment by Unanimous Consent. (text: CR S139)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2016-01-20</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate without amendment by Unanimous Consent.(text: CR S139)</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2016-01-20</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssva00</systemCode>
+            <name>Veterans' Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Senate Committee on Veterans' Affairs discharged by Unanimous Consent. (consideration: CR S139)</text>
+        <type>Discharge</type>
+      </item>
+      <item>
+        <actionDate>2016-01-20</actionDate>
+        <text>Senate Committee on Veterans' Affairs discharged by Unanimous Consent.(consideration: CR S139)</text>
+        <type>Committee</type>
+        <actionCode>14500</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>ssva00</systemCode>
+            <name>Veterans' Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2015-12-18</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssva00</systemCode>
+            <name>Veterans' Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Veterans' Affairs. (Sponsor introductory remarks on measure: CR S8885)</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2015-12-18</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>F000062</bioguideId>
+        <fullName>Sen. Feinstein, Dianne [D-CA]</fullName>
+        <firstName>Dianne</firstName>
+        <lastName>Feinstein</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>B000711</bioguideId>
+        <fullName>Sen. Boxer, Barbara [D-CA]</fullName>
+        <firstName>BARBARA</firstName>
+        <lastName>BOXER</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <sponsorshipDate>2015-12-18</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000141</bioguideId>
+        <fullName>Sen. Cardin, Benjamin L. [D-MD]</fullName>
+        <firstName>Ben</firstName>
+        <lastName>Cardin</lastName>
+        <party>D</party>
+        <state>MD</state>
+        <sponsorshipDate>2015-12-18</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Building construction</name>
+        </item>
+        <item>
+          <name>California</name>
+        </item>
+        <item>
+          <name>Department of Veterans Affairs</name>
+        </item>
+        <item>
+          <name>Health facilities and institutions</name>
+        </item>
+        <item>
+          <name>Home and outpatient care</name>
+        </item>
+        <item>
+          <name>Kentucky</name>
+        </item>
+        <item>
+          <name>Mental health</name>
+        </item>
+        <item>
+          <name>Natural disasters</name>
+        </item>
+        <item>
+          <name>Veterans' loans, housing, homeless programs</name>
+        </item>
+        <item>
+          <name>Veterans' medical care</name>
+        </item>
+        <item>
+          <name>Washington State</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Armed Forces and National Security</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2015-12-18</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2016-01-08T22:43:28Z</updateDate>
+        <text><![CDATA[ <p><strong>Fiscal Year 2016 Department of Veterans Affairs Seismic Safety and Construction Authorization Act</strong></p> <p>This bill authorizes the Department of Veterans Affairs (VA) to carry out the following major medical facility projects (each with specified maximum authorized funds): </p> <ul> <li>seismic corrections to buildings, including retrofitting and replacement of high-risk buildings, in San Francisco, California; </li> <li>seismic corrections to facilities, including facilities to support homeless veterans, at the medical center in West Los Angeles, California;</li> <li>seismic corrections to the mental health and community living center in Long Beach, California; </li> <li>construction of an outpatient clinic, administrative space, cemetery, and columbarium in Alameda, California; </li> <li>realignment of medical facilities in Livermore, California; </li> <li>construction of a medical center in Louisville, Kentucky; </li> <li>construction of a replacement community living center in Perry Point, Maryland; and </li> <li>seismic corrections and other renovations to several buildings and construction of a specialty care building in American Lake, Washington.</li> </ul> <p>A specified amount is authorized to be appropriated to the VA for such projects for FY2016 or the year in which funds are appropriated for the Construction, Major Projects, account.</p> <p>Such projects may only be carried out using specified funds.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>82</versionCode>
+        <actionDate>2016-01-20</actionDate>
+        <actionDesc>Passed Senate without amendment</actionDesc>
+        <updateDate>2016-01-27T22:06:44Z</updateDate>
+        <text><![CDATA[ <p>(This measure has not been amended since it was introduced. The summary has been expanded because action occurred on the measure.)</p> <p><strong>Fiscal Year 2016 Department of Veterans Affairs Seismic Safety and Construction Authorization Act</strong></p> <p>(Sec. 2) This bill authorizes the Department of Veterans Affairs (VA) to carry out the following major medical facility projects (each with specified maximum authorized funds): </p> <ul> <li>seismic corrections to buildings, including retrofitting and replacement of high-risk buildings, in San Francisco, California; </li> <li>seismic corrections to facilities, including facilities to support homeless veterans, at the medical center in West Los Angeles, California;</li> <li>seismic corrections to the mental health and community living center in Long Beach, California; </li> <li>construction of an outpatient clinic, administrative space, cemetery, and columbarium in Alameda, California; </li> <li>realignment of medical facilities in Livermore, California; </li> <li>construction of a medical center in Louisville, Kentucky; </li> <li>construction of a replacement community living center in Perry Point, Maryland; and </li> <li>seismic corrections and other renovations to several buildings and construction of a specialty care building in American Lake, Washington.</li> </ul> <p>A specified amount is authorized to be appropriated to the VA for such projects for FY2016 or the year in which funds are appropriated for the Construction, Major Projects, account.</p> <p> Such projects may only be carried out using: </p> <ul> <li> funds appropriated for FY2016 pursuant to such authorization; </li> <li> funds available for Construction, Major Projects, for a fiscal year before, or a fiscal year after, FY2016 that remain available for obligation; </li> <li> funds appropriated for Construction, Major Projects, for FY2016 for a category of activity not specific to a project; and </li> <li> funds appropriated for Construction, Major Projects, for a fiscal year before, or a fiscal year after, FY2016 for a category of activity not specific to a project. </li> </ul>]]></text>
+      </summary>
+    </summaries>
+    <title>Fiscal Year 2016 Department of Veterans Affairs Seismic Safety and Construction Authorization Act</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Fiscal Year 2016 Department of Veterans Affairs Seismic Safety and Construction Authorization Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to authorize the Secretary of Veterans Affairs to carry out certain major medical facility projects for which appropriations are being made for fiscal year 2016.</title>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Fiscal Year 2016 Department of Veterans Affairs Seismic Safety and Construction Authorization Act</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Passed Senate</titleType>
+        <title>Fiscal Year 2016 Department of Veterans Affairs Seismic Safety and Construction Authorization Act</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Referred in House</type>
+        <date>2016-01-25T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-114s2422rfh/xml/BILLS-114s2422rfh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2016-01-20T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-114s2422es/xml/BILLS-114s2422es.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2015-12-18T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-114s2422is/xml/BILLS-114s2422is.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2016-02-05</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

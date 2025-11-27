@@ -1,0 +1,94 @@
+{
+  "actions": [
+    {
+      "acted_at": "2014-06-25",
+      "action_code": "",
+      "how": "roll",
+      "references": [],
+      "result": "fail",
+      "roll": 213,
+      "text": "Amendment SA 3380 not agreed to in Senate by Yea-Nay Vote. 40 - 58. Record Vote Number: 213.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "s"
+    },
+    {
+      "acted_at": "2014-06-25",
+      "action_code": "",
+      "references": [],
+      "text": "Amendment SA 3380 proposed by Senator Lee to Amendment SA 3378. (consideration: CR S3979-3982, S3982; text: CR S3979) To require that evaluation reports are due every fourth year, to establish a reservation of funds in a fiscal year in which a report is due, and to establish a reduction in funds if a report is not submitted.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2014-06-25",
+      "action_code": "93000",
+      "references": [
+        {
+          "reference": "CR S3979-3982, S3982",
+          "type": "consideration"
+        },
+        {
+          "reference": "CR S3979",
+          "type": "text"
+        }
+      ],
+      "text": "Senate amendment proposed (on the floor): Amendment SA 3380 proposed by Senator Lee to Amendment SA 3378.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2014-06-25",
+      "action_code": "95000",
+      "references": [],
+      "text": "Senate amendment not agreed to: Amendment SA 3380 not agreed to in Senate by Yea-Nay Vote. 40 - 58. Record Vote Number: 213.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2014-06-25",
+      "action_code": "97000",
+      "references": [],
+      "text": "Roll call votes on amendments in Senate: Amendment SA 3380 not agreed to in Senate by Yea-Nay Vote. 40 - 58. Record Vote Number: 213.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2014-06-25",
+      "action_code": "91000",
+      "references": [],
+      "text": "Senate amendment submitted",
+      "type": "action"
+    }
+  ],
+  "amendment_id": "samdt3380-113",
+  "amendment_type": "samdt",
+  "amends_amendment": {
+    "amendment_id": "samdt3378-113",
+    "amendment_type": "samdt",
+    "congress": 113,
+    "description": "",
+    "number": 3378,
+    "purpose": "In the nature of a substitute."
+  },
+  "amends_bill": {
+    "bill_id": "hr803-113",
+    "bill_type": "hr",
+    "congress": 113,
+    "number": 803
+  },
+  "amends_treaty": null,
+  "chamber": "s",
+  "congress": "113",
+  "introduced_at": "2014-06-25",
+  "number": 3380,
+  "proposed_at": "2014-06-25T04:00:00Z",
+  "purpose": "To require that evaluation reports are due every fourth year, to establish a reservation of funds in a fiscal year in which a report is due, and to establish a reduction in funds if a report is not submitted.",
+  "sponsor": {
+    "bioguide_id": "L000577",
+    "district": null,
+    "name": "Lee, Mike",
+    "state": "UT",
+    "title": "Sen.",
+    "type": "person"
+  },
+  "status": "fail",
+  "status_at": "2014-06-25",
+  "updated_at": "2022-02-25T17:32:36Z"
+}

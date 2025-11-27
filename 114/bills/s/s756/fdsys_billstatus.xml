@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>756</number>
+    <updateDate>2023-01-11T13:27:51Z</updateDate>
+    <updateDateIncludingText>2023-01-11T13:27:51Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <type>S</type>
+    <introducedDate>2015-03-17</introducedDate>
+    <congress>114</congress>
+    <committees>
+      <item>
+        <systemCode>hsfa00</systemCode>
+        <name>Foreign Affairs Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2015-07-15T20:58:05Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>ssfr00</systemCode>
+        <name>Foreign Relations Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Reported by</name>
+            <date>2015-06-11T22:30:34Z</date>
+          </item>
+          <item>
+            <name>Markup by</name>
+            <date>2015-06-09T19:08:34Z</date>
+          </item>
+          <item>
+            <name>Referred to</name>
+            <date>2015-03-17T19:07:23Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2015-07-15</actionDate>
+        <text>Referred to the House Committee on Foreign Affairs.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsfa00</systemCode>
+            <name>Foreign Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2015-07-15</actionDate>
+        <actionTime>12:06:54</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2015-07-15</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2015-07-14</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate without amendment by Unanimous Consent. (consideration: CR S5088-5089; text as passed Senate: CR S5088-5089)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2015-07-14</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate without amendment by Unanimous Consent.(consideration: CR S5088-5089; text as passed Senate: CR S5088-5089)</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2015-06-11</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 117.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2015-06-11</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssfr00</systemCode>
+            <name>Foreign Relations Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Foreign Relations. Reported by Senator Corker without amendment. Without written report.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-06-11</actionDate>
+        <text>Committee on Foreign Relations. Reported by Senator Corker without amendment. Without written report.</text>
+        <type>Committee</type>
+        <actionCode>14000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>ssfr00</systemCode>
+            <name>Foreign Relations Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2015-06-09</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssfr00</systemCode>
+            <name>Foreign Relations Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Foreign Relations. Ordered to be reported without amendment favorably.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-03-17</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssfr00</systemCode>
+            <name>Foreign Relations Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Foreign Relations.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2015-03-17</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>C000141</bioguideId>
+        <fullName>Sen. Cardin, Benjamin L. [D-MD]</fullName>
+        <firstName>Ben</firstName>
+        <lastName>Cardin</lastName>
+        <party>D</party>
+        <state>MD</state>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>R000595</bioguideId>
+        <fullName>Sen. Rubio, Marco [R-FL]</fullName>
+        <firstName>Marco</firstName>
+        <lastName>Rubio</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <sponsorshipDate>2015-03-17</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000639</bioguideId>
+        <fullName>Sen. Menendez, Robert [D-NJ]</fullName>
+        <firstName>Robert</firstName>
+        <lastName>Menendez</lastName>
+        <party>D</party>
+        <state>NJ</state>
+        <sponsorshipDate>2015-03-17</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000595</bioguideId>
+        <fullName>Sen. Peters, Gary C. [D-MI]</fullName>
+        <firstName>Gary</firstName>
+        <lastName>Peters</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <sponsorshipDate>2015-03-18</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001181</bioguideId>
+        <fullName>Sen. Shaheen, Jeanne [D-NH]</fullName>
+        <firstName>Jeanne</firstName>
+        <lastName>Shaheen</lastName>
+        <party>D</party>
+        <state>NH</state>
+        <sponsorshipDate>2015-03-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000367</bioguideId>
+        <fullName>Sen. Klobuchar, Amy [D-MN]</fullName>
+        <firstName>Amy</firstName>
+        <lastName>Klobuchar</lastName>
+        <party>D</party>
+        <state>MN</state>
+        <sponsorshipDate>2015-03-24</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001088</bioguideId>
+        <fullName>Sen. Coons, Christopher A. [D-DE]</fullName>
+        <firstName>Christopher</firstName>
+        <lastName>Coons</lastName>
+        <party>D</party>
+        <state>DE</state>
+        <middleName>A.</middleName>
+        <sponsorshipDate>2015-03-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <cboCostEstimates>
+      <item>
+        <pubDate>2015-06-19T20:40:09Z</pubDate>
+        <title>S. 756, Syrian War Crimes Accountability Act of 2015</title>
+        <url>https://www.cbo.gov/publication/50334</url>
+        <description>As reported by the Senate Committee on Foreign Relations on June 11,&amp;nbsp;2015</description>
+      </item>
+    </cboCostEstimates>
+    <policyArea>
+      <name>International Affairs</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Chemical and biological weapons</name>
+        </item>
+        <item>
+          <name>Conflicts and wars</name>
+        </item>
+        <item>
+          <name>Congressional oversight</name>
+        </item>
+        <item>
+          <name>Criminal investigation, prosecution, interrogation</name>
+        </item>
+        <item>
+          <name>Foreign aid and international relief</name>
+        </item>
+        <item>
+          <name>Human rights</name>
+        </item>
+        <item>
+          <name>International law and treaties</name>
+        </item>
+        <item>
+          <name>Middle East</name>
+        </item>
+        <item>
+          <name>Sovereignty, recognition, national governance and status</name>
+        </item>
+        <item>
+          <name>Syria</name>
+        </item>
+        <item>
+          <name>United Nations</name>
+        </item>
+        <item>
+          <name>War crimes, genocide, crimes against humanity</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>International Affairs</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2015-03-17</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2015-03-26T14:36:19Z</updateDate>
+        <text><![CDATA[ <p><strong>Syrian War Crimes Accountability Act of 2015 </strong></p> <p>Declares that Congress:</p> <ul> <li>condemns the ongoing violence, use of chemical weapons, targeting of civilian populations, and systematic gross human rights violations carried out by government of Syria and pro-government forces under the direction of President Bashar al-Assad, as well as abuses committed by extremist groups and other combatants involved in the civil war in Syria;</li> <li>supports the people of Syria seeking democratic change;</li> <li>urges all parties to the conflict to halt attacks on civilians;</li> <li>calls on the President to support efforts in Syria and on the part of the international community to ensure accountability for war crimes and crimes against humanity committed during the conflict; and</li> <li>calls for a United Nations Security Council investigation into gross violations of human rights and war crimes committed during the Syrian conflict.</li> </ul> <p>Direct the Secretary of State to report to Congress regarding war crimes and crimes against humanity in Syria.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>80</versionCode>
+        <actionDate>2015-06-11</actionDate>
+        <actionDesc>Reported to Senate without amendment</actionDesc>
+        <updateDate>2015-06-15T20:05:06Z</updateDate>
+        <text><![CDATA[ <p>(This measure has not been amended since it was introduced. The summary has been expanded because action occurred on the measure.)</p> <p><strong>Syrian War Crimes Accountability Act of 2015 </strong></p> <p>(Sec. 3) Declares that Congress:</p> <ul> <li>condemns the ongoing violence, use of chemical weapons, targeting of civilian populations, and systematic gross human rights violations carried out by government of Syria and pro-government forces under the direction of President Bashar al-Assad, as well as abuses committed by extremist groups and other combatants involved in the civil war in Syria;</li> <li>supports the people of Syria seeking democratic change;</li> <li>urges all parties to the conflict to halt attacks on civilians;</li> <li>calls on the President to support efforts in Syria and on the part of the international community to ensure accountability for war crimes and crimes against humanity committed during the conflict; and</li> <li>calls for a United Nations Security Council investigation into gross violations of human rights and war crimes committed during the Syrian conflict.</li> </ul> <p>(Sec. 4) Requires the Department of State to report to Congress regarding war crimes and crimes against humanity in Syria, including descriptions of: </p> <ul> <li> violations of internationally recognized human rights, war crimes, and crimes against humanity perpetrated during the civil war in Syria; and</li> <li> efforts by the Department and the U.S. Agency for International Development to ensure accountability for violations of internationally recognized human rights, international humanitarian law, and crimes against humanity perpetrated in Syria by the regime of President Bashar al-Assad, violent extremist groups, and other combatants involved in the conflict.</li></ul>]]></text>
+      </summary>
+      <summary>
+        <versionCode>82</versionCode>
+        <actionDate>2015-07-14</actionDate>
+        <actionDesc>Passed Senate without amendment</actionDesc>
+        <updateDate>2015-07-16T18:15:32Z</updateDate>
+        <text><![CDATA[ <p>(This measure has not been amended since it was introduced. The expanded summary of the Senate reported version is repeated here.)</p> <p><strong>Syrian War Crimes Accountability Act of 2015 </strong></p> <p>(Sec. 3) Declares that Congress:</p> <ul> <li>condemns the ongoing violence, use of chemical weapons, targeting of civilian populations, and systematic gross human rights violations carried out by government of Syria and pro-government forces under the direction of President Bashar al-Assad, as well as abuses committed by extremist groups and other combatants involved in the civil war in Syria;</li> <li>supports the people of Syria seeking democratic change;</li> <li>urges all parties to the conflict to halt attacks on civilians;</li> <li>calls on the President to support efforts in Syria and on the part of the international community to ensure accountability for war crimes and crimes against humanity committed during the conflict; and</li> <li>calls for a United Nations Security Council investigation into gross violations of human rights and war crimes committed during the Syrian conflict.</li> </ul> <p>(Sec. 4) Requires the Department of State to report to Congress regarding war crimes and crimes against humanity in Syria, including descriptions of: </p> <ul> <li> violations of internationally recognized human rights, war crimes, and crimes against humanity perpetrated during the civil war in Syria; and</li> <li> efforts by the Department and the U.S. Agency for International Development to ensure accountability for violations of internationally recognized human rights, international humanitarian law, and crimes against humanity perpetrated in Syria by the regime of President Bashar al-Assad, violent extremist groups, and other combatants involved in the conflict.</li></ul>]]></text>
+      </summary>
+    </summaries>
+    <title>Syrian War Crimes Accountability Act of 2015</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Syrian War Crimes Accountability Act of 2015</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to require a report on accountability for war crimes and crimes against humanity in Syria.</title>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Syrian War Crimes Accountability Act of 2015</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Reported to Senate</titleType>
+        <title>Syrian War Crimes Accountability Act of 2015</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+      <item>
+        <titleType>Short Titles as Passed Senate</titleType>
+        <title>Syrian War Crimes Accountability Act of 2015</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Referred in House</type>
+        <date>2015-07-15T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-114s756rfh/xml/BILLS-114s756rfh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2015-07-14T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-114s756es/xml/BILLS-114s756es.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Reported to Senate</type>
+        <date>2015-06-11T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-114s756rs/xml/BILLS-114s756rs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2015-03-17T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-114s756is/xml/BILLS-114s756is.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2015-07-15</actionDate>
+      <text>Referred to the House Committee on Foreign Affairs.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>3004</number>
+    <updateDate>2023-01-13T04:47:54Z</updateDate>
+    <updateDateIncludingText>2023-01-13T04:47:54Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2005-06-21</introducedDate>
+    <congress>109</congress>
+    <committees>
+      <item>
+        <systemCode>hswm00</systemCode>
+        <name>Ways and Means Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hswm04</systemCode>
+            <name>Trade Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2005-06-28T19:19:25Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2005-06-21T13:05:00Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2005-06-28</actionDate>
+        <committees>
+          <item>
+            <systemCode>hswm04</systemCode>
+            <name>Trade Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Trade.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2005-06-21</actionDate>
+        <text>Referred to the House Committee on Ways and Means.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hswm00</systemCode>
+            <name>Ways and Means Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2005-06-21</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2005-06-21</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>E000187</bioguideId>
+        <fullName>Rep. English, Phil [R-PA-3]</fullName>
+        <firstName>PHIL</firstName>
+        <lastName>ENGLISH</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <district>3</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>G000545</bioguideId>
+        <fullName>Rep. Green, Mark [R-WI-8]</fullName>
+        <firstName>MARK</firstName>
+        <lastName>GREEN</lastName>
+        <party>R</party>
+        <state>WI</state>
+        <district>8</district>
+        <sponsorshipDate>2005-06-21</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001052</bioguideId>
+        <fullName>Rep. Chocola, Chris [R-IN-2]</fullName>
+        <firstName>Chris</firstName>
+        <lastName>Chocola</lastName>
+        <party>R</party>
+        <state>IN</state>
+        <district>2</district>
+        <sponsorshipDate>2005-06-21</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001029</bioguideId>
+        <fullName>Rep. Hayes, Robin [R-NC-8]</fullName>
+        <firstName>ROBIN</firstName>
+        <lastName>HAYES</lastName>
+        <party>R</party>
+        <state>NC</state>
+        <district>8</district>
+        <sponsorshipDate>2005-06-21</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000569</bioguideId>
+        <fullName>Rep. Reynolds, Thomas M. [R-NY-26]</fullName>
+        <firstName>THOMAS</firstName>
+        <lastName>REYNOLDS</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <middleName>M.</middleName>
+        <district>26</district>
+        <sponsorshipDate>2005-06-21</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000585</bioguideId>
+        <fullName>Rep. Platts, Todd Russell [R-PA-19]</fullName>
+        <firstName>TODD</firstName>
+        <lastName>PLATTS</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <middleName>RUSSELL</middleName>
+        <district>19</district>
+        <sponsorshipDate>2005-06-21</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000437</bioguideId>
+        <fullName>Rep. Wicker, Roger F. [R-MS-1]</fullName>
+        <firstName>Roger</firstName>
+        <lastName>Wicker</lastName>
+        <party>R</party>
+        <state>MS</state>
+        <middleName>F.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2005-06-21</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>N000159</bioguideId>
+        <fullName>Rep. Norwood, Charles W. [R-GA-9]</fullName>
+        <firstName>CHARLES</firstName>
+        <lastName>NORWOOD</lastName>
+        <party>R</party>
+        <state>GA</state>
+        <middleName>W.</middleName>
+        <district>9</district>
+        <sponsorshipDate>2005-06-21</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000549</bioguideId>
+        <fullName>Rep. Gerlach, Jim [R-PA-6]</fullName>
+        <firstName>Jim</firstName>
+        <lastName>Gerlach</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <district>6</district>
+        <sponsorshipDate>2005-06-21</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>U000031</bioguideId>
+        <fullName>Rep. Upton, Fred [R-MI-6]</fullName>
+        <firstName>FRED</firstName>
+        <lastName>UPTON</lastName>
+        <party>R</party>
+        <state>MI</state>
+        <district>6</district>
+        <sponsorshipDate>2005-06-21</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000092</bioguideId>
+        <fullName>Rep. Ehlers, Vernon J. [R-MI-3]</fullName>
+        <firstName>VERNON</firstName>
+        <lastName>EHLERS</lastName>
+        <party>R</party>
+        <state>MI</state>
+        <middleName>J.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2005-06-21</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000344</bioguideId>
+        <fullName>Rep. Sherman, Brad [D-CA-27]</fullName>
+        <firstName>BRAD</firstName>
+        <lastName>SHERMAN</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>27</district>
+        <sponsorshipDate>2005-06-21</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001154</bioguideId>
+        <fullName>Rep. Shuster, Bill [R-PA-9]</fullName>
+        <firstName>Bill</firstName>
+        <lastName>Shuster</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <district>9</district>
+        <sponsorshipDate>2005-06-21</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001134</bioguideId>
+        <fullName>Rep. Myrick, Sue Wilkins [R-NC-9]</fullName>
+        <firstName>SUE</firstName>
+        <lastName>MYRICK</lastName>
+        <party>R</party>
+        <state>NC</state>
+        <middleName>WILKINS</middleName>
+        <district>9</district>
+        <sponsorshipDate>2005-06-21</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000226</bioguideId>
+        <fullName>Rep. Etheridge, Bob [D-NC-2]</fullName>
+        <firstName>BOB</firstName>
+        <lastName>ETHERIDGE</lastName>
+        <party>D</party>
+        <state>NC</state>
+        <district>2</district>
+        <sponsorshipDate>2005-06-21</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000472</bioguideId>
+        <fullName>Rep. McHugh, John M. [R-NY-23]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>MCHUGH</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <middleName>M.</middleName>
+        <district>23</district>
+        <sponsorshipDate>2005-06-21</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000099</bioguideId>
+        <fullName>Rep. Walsh, James T. [R-NY-25]</fullName>
+        <firstName>JAMES</firstName>
+        <lastName>WALSH</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <middleName>T.</middleName>
+        <district>25</district>
+        <sponsorshipDate>2005-06-21</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000210</bioguideId>
+        <fullName>Rep. Gillmor, Paul E. [R-OH-5]</fullName>
+        <firstName>PAUL</firstName>
+        <lastName>GILLMOR</lastName>
+        <party>R</party>
+        <state>OH</state>
+        <middleName>E.</middleName>
+        <district>5</district>
+        <sponsorshipDate>2005-06-21</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000289</bioguideId>
+        <fullName>Rep. Goodlatte, Bob [R-VA-6]</fullName>
+        <firstName>ROBERT</firstName>
+        <lastName>GOODLATTE</lastName>
+        <party>R</party>
+        <state>VA</state>
+        <middleName>W.</middleName>
+        <district>6</district>
+        <sponsorshipDate>2005-06-21</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001151</bioguideId>
+        <fullName>Rep. Murphy, Tim [R-PA-18]</fullName>
+        <firstName>Tim</firstName>
+        <lastName>Murphy</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <district>18</district>
+        <sponsorshipDate>2005-06-21</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000482</bioguideId>
+        <fullName>Rep. Doyle, Michael F. [D-PA-14]</fullName>
+        <firstName>MIKE</firstName>
+        <lastName>DOYLE</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <district>14</district>
+        <sponsorshipDate>2005-06-21</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001033</bioguideId>
+        <fullName>Rep. Hart, Melissa A. [R-PA-4]</fullName>
+        <firstName>MELISSA</firstName>
+        <lastName>HART</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <middleName>A.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2005-06-30</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000463</bioguideId>
+        <fullName>Rep. Turner, Michael R. [R-OH-3]</fullName>
+        <firstName>Michael</firstName>
+        <lastName>Turner</lastName>
+        <party>R</party>
+        <state>OH</state>
+        <middleName>R.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2005-06-30</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000546</bioguideId>
+        <fullName>Rep. Graves, Sam [R-MO-6]</fullName>
+        <firstName>SAM</firstName>
+        <lastName>GRAVES</lastName>
+        <party>R</party>
+        <state>MO</state>
+        <district>6</district>
+        <sponsorshipDate>2006-03-07</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001252</bioguideId>
+        <fullName>Rep. Barrow, John [D-GA-12]</fullName>
+        <firstName>John</firstName>
+        <lastName>Barrow</lastName>
+        <party>D</party>
+        <state>GA</state>
+        <district>12</district>
+        <sponsorshipDate>2006-09-06</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Foreign Trade and International Finance</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>China</name>
+        </item>
+        <item>
+          <name>Congress</name>
+        </item>
+        <item>
+          <name>Congressional reporting requirements</name>
+        </item>
+        <item>
+          <name>Countervailing duties</name>
+        </item>
+        <item>
+          <name>Currency devaluation</name>
+        </item>
+        <item>
+          <name>East Asia</name>
+        </item>
+        <item>
+          <name>Foreign exchange</name>
+        </item>
+        <item>
+          <name>Governmental investigations</name>
+        </item>
+        <item>
+          <name>Nontariff trade barriers</name>
+        </item>
+        <item>
+          <name>Tariff</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Foreign Trade and International Finance</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2005-06-21</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2005-07-27T13:53:32Z</updateDate>
+        <text><![CDATA[ <p>Currency Harmonization Initiative through Neutralizing Action Act of 2005 - Directs the Secretary of the Treasury to analyze annually the exchange rate policies of the People's Republic of China, and to impose additional tariffs, if necessary, to equalize any currency manipulations.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Currency Harmonization Initiative through Neutralizing Action Act of 2005</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Currency Harmonization Initiative through Neutralizing Action Act of 2005</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To require the Secretary of the Treasury to analyze and report on the exchange rate policies of the People's Republic of China, and to require that additional tariffs be imposed on products of that country on the basis of the rate of manipulation by that country of the rate of exchange between the currency of that country and the United States dollar.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Currency Harmonization Initiative through Neutralizing Action Act of 2005</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2005-06-21T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-109hr3004ih/xml/BILLS-109hr3004ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2005-06-28</actionDate>
+      <text>Referred to the Subcommittee on Trade.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

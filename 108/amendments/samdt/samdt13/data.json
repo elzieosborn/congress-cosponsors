@@ -1,0 +1,86 @@
+{
+  "actions": [
+    {
+      "acted_at": "2003-01-16",
+      "action_code": "",
+      "how": "roll",
+      "references": [],
+      "result": "fail",
+      "roll": 5,
+      "text": "Amendment SA 13 not agreed to in Senate by Yea-Nay Vote. 46 - 51. Record Vote Number: 5.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "s"
+    },
+    {
+      "acted_at": "2003-01-16",
+      "action_code": "",
+      "references": [],
+      "text": "Amendment SA 13 proposed by Senator Kennedy. (consideration:  CR S1023-1036, S1047-1048; text:  CR S1023-1024) To provide additional funding for education.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2003-01-16",
+      "action_code": "97000",
+      "references": [],
+      "text": "Roll call votes on amendments in Senate: Amendment SA 13 not agreed to in Senate by Yea-Nay Vote. 46 - 51. Record Vote Number: 5.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2003-01-16",
+      "action_code": "93000",
+      "references": [
+        {
+          "reference": " CR S1023-1036, S1047-1048",
+          "type": "consideration"
+        },
+        {
+          "reference": " CR S1023-1024",
+          "type": "text"
+        }
+      ],
+      "text": "Senate amendment proposed (on the floor): Amendment SA 13 proposed by Senator Kennedy.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2003-01-16",
+      "action_code": "95000",
+      "references": [],
+      "text": "Senate amendment not agreed to: Amendment SA 13 not agreed to in Senate by Yea-Nay Vote. 46 - 51. Record Vote Number: 5.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2003-01-16",
+      "action_code": "91000",
+      "references": [],
+      "text": "Senate amendment submitted",
+      "type": "action"
+    }
+  ],
+  "amendment_id": "samdt13-108",
+  "amendment_type": "samdt",
+  "amends_amendment": null,
+  "amends_bill": {
+    "bill_id": "hjres2-108",
+    "bill_type": "hjres",
+    "congress": 108,
+    "number": 2
+  },
+  "amends_treaty": null,
+  "chamber": "s",
+  "congress": "108",
+  "introduced_at": "2003-01-16",
+  "number": 13,
+  "purpose": "To provide additional funding for education.",
+  "sponsor": {
+    "bioguide_id": "K000105",
+    "district": null,
+    "name": "Kennedy, Edward M.",
+    "state": "MA",
+    "title": "Sen.",
+    "type": "person"
+  },
+  "status": "fail",
+  "status_at": "2003-01-16",
+  "updated_at": "2022-02-25T17:34:04Z"
+}

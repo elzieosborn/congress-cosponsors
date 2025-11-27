@@ -1,0 +1,82 @@
+{
+  "actions": [
+    {
+      "acted_at": "2016-03-02",
+      "action_code": "",
+      "how": "Voice Vote",
+      "references": [],
+      "result": "pass",
+      "text": "Amendment SA 3367 agreed to in Senate by Voice Vote.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "s"
+    },
+    {
+      "acted_at": "2016-03-02",
+      "action_code": "",
+      "references": [],
+      "text": "Amendment SA 3367 proposed by Senator Grassley for Senator Toomey to Amendment SA 3378. (consideration: CR S1192, S1198, S1204-1205) To establish a life-saving program to prevent drug and opioid abuse in Medicare.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2016-03-02",
+      "action_code": "94000",
+      "references": [],
+      "text": "Senate amendment agreed to: Amendment SA 3367 agreed to in Senate by Voice Vote.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2016-03-02",
+      "action_code": "93000",
+      "references": [
+        {
+          "reference": "CR S1192, S1198, S1204-1205",
+          "type": "consideration"
+        }
+      ],
+      "text": "Senate amendment proposed (on the floor): Amendment SA 3367 proposed by Senator Grassley for Senator Toomey to Amendment SA 3378.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2016-03-01",
+      "action_code": "91000",
+      "references": [],
+      "text": "Senate amendment submitted",
+      "type": "action"
+    }
+  ],
+  "amendment_id": "samdt3367-114",
+  "amendment_type": "samdt",
+  "amends_amendment": {
+    "amendment_id": "samdt3378-114",
+    "amendment_type": "samdt",
+    "congress": 114,
+    "description": "",
+    "number": 3378,
+    "purpose": "In the nature of a substitute."
+  },
+  "amends_bill": {
+    "bill_id": "s524-114",
+    "bill_type": "s",
+    "congress": 114,
+    "number": 524
+  },
+  "amends_treaty": null,
+  "chamber": "s",
+  "congress": "114",
+  "introduced_at": "2016-03-01",
+  "number": 3367,
+  "proposed_at": "2016-03-02T05:00:00Z",
+  "purpose": "To establish a life-saving program to prevent drug and opioid abuse in Medicare.",
+  "sponsor": {
+    "bioguide_id": "T000461",
+    "district": null,
+    "name": "Toomey, Patrick",
+    "state": "PA",
+    "title": "Sen.",
+    "type": "person"
+  },
+  "status": "pass",
+  "status_at": "2016-03-02",
+  "updated_at": "2022-02-02T13:58:34Z"
+}

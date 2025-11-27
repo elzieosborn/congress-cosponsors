@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>2575</number>
+    <updateDate>2023-01-15T16:33:41Z</updateDate>
+    <updateDateIncludingText>2023-01-15T16:33:41Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2003-06-24</introducedDate>
+    <congress>108</congress>
+    <committees>
+      <item>
+        <systemCode>hsba00</systemCode>
+        <name>Financial Services Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsba16</systemCode>
+            <name>Capital Markets Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2003-07-09T15:53:55Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Hearings by</name>
+            <date>2003-09-25T20:55:19Z</date>
+          </item>
+          <item>
+            <name>Referred to</name>
+            <date>2003-06-24T12:58:40Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2003-09-25</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsba00</systemCode>
+            <name>Financial Services Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Committee Hearings Held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2003-07-09</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsba16</systemCode>
+            <name>Capital Markets Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Capital Markets, Insurance and Government Sponsored Enterprises.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2003-06-24</actionDate>
+        <text>Referred to the House Committee on Financial Services.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsba00</systemCode>
+            <name>Financial Services Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2003-06-24</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2003-06-24</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>B000072</bioguideId>
+        <fullName>Rep. Baker, Richard H. [R-LA-6]</fullName>
+        <firstName>RICHARD</firstName>
+        <lastName>BAKER</lastName>
+        <party>R</party>
+        <state>LA</state>
+        <middleName>H.</middleName>
+        <district>6</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>O000164</bioguideId>
+        <fullName>Rep. Ose, Doug [R-CA-3]</fullName>
+        <firstName>DOUG</firstName>
+        <lastName>OSE</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <district>3</district>
+        <sponsorshipDate>2003-06-24</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000013</bioguideId>
+        <fullName>Rep. Bachus, Spencer [R-AL-6]</fullName>
+        <firstName>SPENCER</firstName>
+        <lastName>BACHUS</lastName>
+        <party>R</party>
+        <state>AL</state>
+        <district>6</district>
+        <sponsorshipDate>2003-06-24</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000210</bioguideId>
+        <fullName>Rep. King, Peter T. [R-NY-3]</fullName>
+        <firstName>PETER</firstName>
+        <lastName>KING</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <middleName>T.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2003-06-24</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000169</bioguideId>
+        <fullName>Rep. Leach, James A. [R-IA-2]</fullName>
+        <firstName>JIM</firstName>
+        <lastName>LEACH</lastName>
+        <party>R</party>
+        <state>IA</state>
+        <district>2</district>
+        <sponsorshipDate>2003-06-24</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001144</bioguideId>
+        <fullName>Rep. Shays, Christopher [R-CT-4]</fullName>
+        <firstName>CHRISTOPHER</firstName>
+        <lastName>SHAYS</lastName>
+        <party>R</party>
+        <state>CT</state>
+        <district>4</district>
+        <sponsorshipDate>2003-06-24</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000321</bioguideId>
+        <fullName>Rep. Linder, John [R-GA-7]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>LINDER</lastName>
+        <party>R</party>
+        <state>GA</state>
+        <district>7</district>
+        <sponsorshipDate>2003-06-24</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001247</bioguideId>
+        <fullName>Rep. Brown-Waite, Ginny [R-FL-5]</fullName>
+        <firstName>Ginny</firstName>
+        <lastName>Brown-Waite</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>5</district>
+        <sponsorshipDate>2003-06-24</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000830</bioguideId>
+        <fullName>Rep. Cox, Christopher [R-CA-48]</fullName>
+        <firstName>CHRISTOPHER</firstName>
+        <lastName>COX</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <district>48</district>
+        <sponsorshipDate>2003-06-24</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000570</bioguideId>
+        <fullName>Rep. Ryan, Paul [R-WI-1]</fullName>
+        <firstName>PAUL</firstName>
+        <lastName>RYAN</lastName>
+        <party>R</party>
+        <state>WI</state>
+        <district>1</district>
+        <sponsorshipDate>2003-06-24</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001139</bioguideId>
+        <fullName>Rep. Miller, Gary G. [R-CA-42]</fullName>
+        <firstName>GARY</firstName>
+        <lastName>MILLER</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <district>42</district>
+        <sponsorshipDate>2003-06-24</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000574</bioguideId>
+        <fullName>Rep. Renzi, Rick [R-AZ-1]</fullName>
+        <firstName>Rick</firstName>
+        <lastName>Renzi</lastName>
+        <party>R</party>
+        <state>AZ</state>
+        <district>1</district>
+        <sponsorshipDate>2003-06-24</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001138</bioguideId>
+        <fullName>Rep. Manzullo, Donald A. [R-IL-16]</fullName>
+        <firstName>DONALD</firstName>
+        <lastName>MANZULLO</lastName>
+        <party>R</party>
+        <state>IL</state>
+        <district>16</district>
+        <sponsorshipDate>2003-06-24</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001033</bioguideId>
+        <fullName>Rep. Hart, Melissa A. [R-PA-4]</fullName>
+        <firstName>MELISSA</firstName>
+        <lastName>HART</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <middleName>A.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2003-06-24</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000676</bioguideId>
+        <fullName>Rep. Hoekstra, Peter [R-MI-2]</fullName>
+        <firstName>PETER</firstName>
+        <lastName>HOEKSTRA</lastName>
+        <party>R</party>
+        <state>MI</state>
+        <district>2</district>
+        <sponsorshipDate>2003-06-24</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>J000255</bioguideId>
+        <fullName>Rep. Jones, Walter B., Jr. [R-NC-3]</fullName>
+        <firstName>WALTER</firstName>
+        <lastName>JONES</lastName>
+        <party>R</party>
+        <state>NC</state>
+        <middleName>B.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2003-06-24</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000461</bioguideId>
+        <fullName>Rep. Toomey, Patrick J. [R-PA-15]</fullName>
+        <firstName>PATRICK</firstName>
+        <lastName>TOOMEY</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <middleName>J.</middleName>
+        <district>15</district>
+        <sponsorshipDate>2003-06-24</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001036</bioguideId>
+        <fullName>Rep. Hensarling, Jeb [R-TX-5]</fullName>
+        <firstName>Jeb</firstName>
+        <lastName>Hensarling</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>5</district>
+        <sponsorshipDate>2003-06-24</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000210</bioguideId>
+        <fullName>Rep. Gillmor, Paul E. [R-OH-5]</fullName>
+        <firstName>PAUL</firstName>
+        <lastName>GILLMOR</lastName>
+        <party>R</party>
+        <state>OH</state>
+        <middleName>E.</middleName>
+        <district>5</district>
+        <sponsorshipDate>2003-06-24</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000491</bioguideId>
+        <fullName>Rep. Lucas, Frank D. [R-OK-3]</fullName>
+        <firstName>FRANK</firstName>
+        <lastName>LUCAS</lastName>
+        <party>R</party>
+        <state>OK</state>
+        <middleName>D.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2003-06-24</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001035</bioguideId>
+        <fullName>Rep. Harris, Katherine [R-FL-13]</fullName>
+        <firstName>Katherine</firstName>
+        <lastName>Harris</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>13</district>
+        <sponsorshipDate>2003-06-24</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001157</bioguideId>
+        <fullName>Rep. Scott, David [D-GA-13]</fullName>
+        <firstName>David</firstName>
+        <lastName>Scott</lastName>
+        <party>D</party>
+        <state>GA</state>
+        <district>13</district>
+        <sponsorshipDate>2003-07-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <sponsorshipWithdrawnDate>2003-07-21</sponsorshipWithdrawnDate>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Finance and Financial Sector</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Administrative fees</name>
+        </item>
+        <item>
+          <name>Administrative procedure</name>
+        </item>
+        <item>
+          <name>Administrative remedies</name>
+        </item>
+        <item>
+          <name>Bank capital</name>
+        </item>
+        <item>
+          <name>Bank examination</name>
+        </item>
+        <item>
+          <name>Bank fraud</name>
+        </item>
+        <item>
+          <name>Bank management</name>
+        </item>
+        <item>
+          <name>Bank records</name>
+        </item>
+        <item>
+          <name>Business records</name>
+        </item>
+        <item>
+          <name>Civil actions and liability</name>
+        </item>
+        <item>
+          <name>Commerce</name>
+        </item>
+        <item>
+          <name>Congress</name>
+        </item>
+        <item>
+          <name>Congressional reporting requirements</name>
+        </item>
+        <item>
+          <name>Consumer credit</name>
+        </item>
+        <item>
+          <name>Corporate debt</name>
+        </item>
+        <item>
+          <name>Corporate finance</name>
+        </item>
+        <item>
+          <name>Corporate management</name>
+        </item>
+        <item>
+          <name>Corporation directors</name>
+        </item>
+        <item>
+          <name>Crime and Law Enforcement</name>
+        </item>
+        <item>
+          <name>Department of Housing and Urban Development</name>
+        </item>
+        <item>
+          <name>Department of the Treasury</name>
+        </item>
+        <item>
+          <name>Economics and Public Finance</name>
+        </item>
+        <item>
+          <name>Economists</name>
+        </item>
+        <item>
+          <name>Employee rights</name>
+        </item>
+        <item>
+          <name>Executive compensation</name>
+        </item>
+        <item>
+          <name>Executive reorganization</name>
+        </item>
+        <item>
+          <name>Executives</name>
+        </item>
+        <item>
+          <name>Federal employees</name>
+        </item>
+        <item>
+          <name>Federally-assisted loans</name>
+        </item>
+        <item>
+          <name>Fines (Penalties)</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Government paperwork</name>
+        </item>
+        <item>
+          <name>Governmental investigations</name>
+        </item>
+        <item>
+          <name>Housing and Community Development</name>
+        </item>
+        <item>
+          <name>Housing finance</name>
+        </item>
+        <item>
+          <name>Indexing (Economic policy)</name>
+        </item>
+        <item>
+          <name>Indictments</name>
+        </item>
+        <item>
+          <name>Injunctions</name>
+        </item>
+        <item>
+          <name>Judicial review</name>
+        </item>
+        <item>
+          <name>Labor and Employment</name>
+        </item>
+        <item>
+          <name>Law</name>
+        </item>
+        <item>
+          <name>Mortgage banks</name>
+        </item>
+        <item>
+          <name>Mortgages</name>
+        </item>
+        <item>
+          <name>Price indexes</name>
+        </item>
+        <item>
+          <name>Recruiting of employees</name>
+        </item>
+        <item>
+          <name>Removal of officials</name>
+        </item>
+        <item>
+          <name>Secondary mortgage market</name>
+        </item>
+        <item>
+          <name>Securities</name>
+        </item>
+        <item>
+          <name>Securities regulation</name>
+        </item>
+        <item>
+          <name>Transfer of employees</name>
+        </item>
+        <item>
+          <name>Trusts and trustees</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Finance and Financial Sector</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2003-06-24</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2006-11-28T17:35:40Z</updateDate>
+        <text><![CDATA[Secondary Mortgage Market Enterprises Regulatory Improvement Act - Amends the Home Owners' Loan Act to rename the Office of Thrift Supervision as the Office of Housing Finance Supervision.<p>Amends the Housing and Community Development Act of 1992 to transfer supervisory and regulatory authority over specified government sponsored enterprises (Fannie Mae and Freddie Mac) to the Director of the Office of Housing Finance Supervision from the Office of Federal Housing Enterprise Oversight of the Department of Housing and Urban Development (HUD) and from the Secretary of Housing and Urban Development.<p>Requires the Director to ensure that the enterprises operate in a financially safe manner and remain adequately capitalized.<p>Sets forth operating, administrative, and regulatory provisions, including: (1) public disclosure of information; (2) assessment authority; (3) authority to limit nonmission-related assets and set specified conforming loan limits; (4) establishment of a housing price index; (5) minimum and critical capital levels; (6) risk-based capital test; (7) capital classifications and undercapitalized enterprises; (8) receivership; (9) enforcement actions and penalties; and (10) reporting.<p>Sets forth retained and new authorities of the Secretary.<p>Abolishes the Office of Federal Housing Enterprise Oversight. Sets forth related transfer of personnel and facility and property provisions.]]></text>
+      </summary>
+    </summaries>
+    <title>Secondary Mortgage Market Enterprises Regulatory Improvement Act</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Secondary Mortgage Market Enterprises Regulatory Improvement Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To reform the regulation of certain housing-related Government-sponsored enterprises, and for other purposes.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Secondary Mortgage Market Enterprises Regulatory Improvement Act</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2003-06-24T04:00:00Z</date>
+        <formats/>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2003-09-25</actionDate>
+      <text>Committee Hearings Held.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

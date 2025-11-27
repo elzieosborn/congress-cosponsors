@@ -1,0 +1,313 @@
+{
+  "actions": [
+    {
+      "acted_at": "2020-10-01",
+      "action_code": "Intro-H",
+      "references": [],
+      "text": "Introduced in House",
+      "type": "action"
+    },
+    {
+      "acted_at": "2020-10-01",
+      "action_code": "H11100",
+      "committees": [
+        "HSED"
+      ],
+      "references": [],
+      "status": "REFERRED",
+      "text": "Referred to the House Committee on Education and Labor.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2020-10-02T12:34:42-04:00",
+      "action_code": "H30200",
+      "references": [],
+      "text": "Mr. Scott (VA) asked unanimous consent to discharge from committee and consider.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2020-10-02",
+      "action_code": "H12300",
+      "committees": [
+        "HSED"
+      ],
+      "references": [],
+      "text": "Committee on Education and Labor discharged.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2020-10-02T12:34:45-04:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H5659-5660",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered by unanimous consent.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2020-10-02T12:36:21-04:00",
+      "action_code": "H37100",
+      "how": "without objection",
+      "references": [
+        {
+          "reference": "CR H5660",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "status": "PASS_OVER:HOUSE",
+      "suspension": null,
+      "text": "On passage Passed without objection.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "h"
+    },
+    {
+      "acted_at": "2020-10-02T12:36:23-04:00",
+      "action_code": "H38310",
+      "references": [],
+      "text": "Motion to reconsider laid on the table Agreed to without objection.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2020-10-19",
+      "action_code": "",
+      "references": [],
+      "text": "Received in the Senate, read twice.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2020-11-12",
+      "action_code": "",
+      "how": "by Unanimous Consent",
+      "references": [
+        {
+          "reference": "CR S6660",
+          "type": "consideration"
+        }
+      ],
+      "result": "pass",
+      "status": "PASSED:BILL",
+      "text": "Passed Senate without amendment by Unanimous Consent.",
+      "type": "vote",
+      "vote_type": "vote2",
+      "where": "s"
+    },
+    {
+      "acted_at": "2020-11-12",
+      "action_code": "",
+      "references": [],
+      "text": "Message on Senate action sent to the House.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2020-11-24",
+      "action_code": "E20000",
+      "references": [],
+      "text": "Presented to President.",
+      "type": "topresident"
+    },
+    {
+      "acted_at": "2020-12-04",
+      "action_code": "E30000",
+      "references": [],
+      "status": "ENACTED:SIGNED",
+      "text": "Signed by President.",
+      "type": "signed"
+    },
+    {
+      "acted_at": "2020-12-04",
+      "action_code": "E40000",
+      "congress": "116",
+      "law": "public",
+      "number": "211",
+      "references": [],
+      "text": "Became Public Law No: 116-211.",
+      "type": "enacted"
+    }
+  ],
+  "amendments": [],
+  "bill_id": "hr8472-116",
+  "bill_type": "hr",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [
+    {
+      "activity": [
+        "discharged",
+        "referral"
+      ],
+      "committee": "House Education and the Workforce",
+      "committee_id": "HSED"
+    }
+  ],
+  "congress": "116",
+  "cosponsors": [
+    {
+      "bioguide_id": "J000301",
+      "district": "0",
+      "name": "Johnson, Dusty",
+      "original_cosponsor": false,
+      "sponsored_at": "2020-10-02",
+      "state": "SD",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S000185",
+      "district": "3",
+      "name": "Scott, Robert C. \"Bobby\"",
+      "original_cosponsor": false,
+      "sponsored_at": "2020-10-02",
+      "state": "VA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    }
+  ],
+  "enacted_as": {
+    "congress": "116",
+    "law_type": "public",
+    "number": "211"
+  },
+  "history": {
+    "active": true,
+    "active_at": "2020-10-02T12:34:42-04:00",
+    "awaiting_signature": false,
+    "enacted": true,
+    "enacted_at": "2020-12-04",
+    "house_passage_result": "pass",
+    "house_passage_result_at": "2020-10-02T12:36:21-04:00",
+    "senate_passage_result": "pass",
+    "senate_passage_result_at": "2020-11-12",
+    "vetoed": false
+  },
+  "introduced_at": "2020-10-01",
+  "number": "8472",
+  "official_title": "To provide that, due to the disruptions caused by COVID-19, applications for impact aid funding for fiscal year 2022 may use certain data submitted in the fiscal year 2021 application.",
+  "popular_title": null,
+  "related_bills": [
+    {
+      "bill_id": "hr925-116",
+      "identified_by": "CRS",
+      "reason": "related",
+      "type": "bill"
+    },
+    {
+      "bill_id": "hr8406-116",
+      "identified_by": "CRS",
+      "reason": "related",
+      "type": "bill"
+    },
+    {
+      "bill_id": "hr8075-116",
+      "identified_by": "CRS",
+      "reason": "related",
+      "type": "bill"
+    },
+    {
+      "bill_id": "s4063-116",
+      "identified_by": "CRS",
+      "reason": "related",
+      "type": "bill"
+    },
+    {
+      "bill_id": "s4800-116",
+      "identified_by": "CRS",
+      "reason": "related",
+      "type": "bill"
+    }
+  ],
+  "short_title": "Impact Aid Coronavirus Relief Act",
+  "sponsor": {
+    "bioguide_id": "C001069",
+    "district": "2",
+    "name": "Courtney, Joe",
+    "state": "CT",
+    "title": "Rep.",
+    "type": "person"
+  },
+  "status": "ENACTED:SIGNED",
+  "status_at": "2020-12-04",
+  "subjects": [
+    "Cardiovascular and respiratory health",
+    "Education",
+    "Education programs funding",
+    "Elementary and secondary education",
+    "Emergency medical services and trauma care",
+    "Government information and archives",
+    "Infectious and parasitic diseases",
+    "Migrant, seasonal, agricultural labor",
+    "Property tax",
+    "State and local taxation"
+  ],
+  "subjects_top_term": "Education",
+  "summary": {
+    "as": "Public Law",
+    "asOf": "2020-12-04",
+    "date": "2020-12-09T16:48:55Z",
+    "text": "Impact Aid Coronavirus Relief Act\n\nThis bill revises the Impact Aid Program application process for FY2022. It also revises FY2021 allocations under the Migrant Education Program.\n\nFirst, the bill requires local educational agencies (LEAs) participating in the Impact Aid Program to use the student count or federal property valuation data from their FY2021 program applications, as applicable, for their FY2022 program applications. The program provides funding to LEAs that have lost property tax revenue due to the presence of tax-exempt federal property or to those that have experienced increased expenditures due to enrollment of federally connected children (e.g., children living on Indian lands or military bases).\n\nIn addition, the bill directs the Department of Education to use school year 2018-2019 data or school year 2019-2020 data, whichever is greater, for making FY2021 allocations to states under the Migrant Education Program. States use these program funds to identify eligible migratory children and provide them with education and support services."
+  },
+  "titles": [
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Impact Aid Coronavirus Relief Act",
+      "type": "display"
+    },
+    {
+      "as": "enacted",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Impact Aid Coronavirus Relief Act",
+      "type": "short"
+    },
+    {
+      "as": "passed senate",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Impact Aid Coronavirus Relief Act",
+      "type": "short"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Impact Aid Coronavirus Relief Act",
+      "type": "short"
+    },
+    {
+      "as": "passed house",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Impact Aid Coronavirus Relief Act",
+      "type": "short"
+    },
+    {
+      "as": "passed house",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Impact Aid Coronavirus Relief Act",
+      "type": "short"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "To provide that, due to the disruptions caused by COVID-19, applications for impact aid funding for fiscal year 2022 may use certain data submitted in the fiscal year 2021 application.",
+      "type": "official"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "To provide that, due to the disruptions caused by COVID\u00e2\u20ac\u201c19, applications for impact aid funding for fiscal year 2022 may use certain data submitted in the fiscal year 2021 application.",
+      "type": "official"
+    }
+  ],
+  "updated_at": "2023-01-11T13:44:36Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/116/hr/BILLSTATUS-116hr8472.xml"
+}

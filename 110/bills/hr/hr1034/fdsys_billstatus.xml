@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>1034</number>
+    <updateDate>2023-01-11T20:03:05Z</updateDate>
+    <updateDateIncludingText>2023-01-11T20:03:05Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2007-02-13</introducedDate>
+    <congress>110</congress>
+    <committees>
+      <item>
+        <systemCode>hsas00</systemCode>
+        <name>Armed Services Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsas02</systemCode>
+            <name>Military Personnel Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2007-03-14T15:28:21Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2007-02-13T14:06:20Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2007-03-14</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsas02</systemCode>
+            <name>Military Personnel Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Military Personnel.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2007-02-13</actionDate>
+        <text>Referred to the House Committee on Armed Services.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsas00</systemCode>
+            <name>Armed Services Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2007-02-13</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2007-02-13</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>W000795</bioguideId>
+        <fullName>Rep. Wilson, Joe [R-SC-2]</fullName>
+        <firstName>Joe</firstName>
+        <lastName>Wilson</lastName>
+        <party>R</party>
+        <state>SC</state>
+        <district>2</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>A000361</bioguideId>
+        <fullName>Rep. Alexander, Rodney [R-LA-5]</fullName>
+        <firstName>Rodney</firstName>
+        <lastName>Alexander</lastName>
+        <party>R</party>
+        <state>LA</state>
+        <district>5</district>
+        <sponsorshipDate>2007-02-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000226</bioguideId>
+        <fullName>Rep. Etheridge, Bob [D-NC-2]</fullName>
+        <firstName>BOB</firstName>
+        <lastName>ETHERIDGE</lastName>
+        <party>D</party>
+        <state>NC</state>
+        <district>2</district>
+        <sponsorshipDate>2007-02-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000522</bioguideId>
+        <fullName>Rep. Smith, Christopher H. [R-NJ-4]</fullName>
+        <firstName>CHRISTOPHER</firstName>
+        <lastName>SMITH</lastName>
+        <party>R</party>
+        <state>NJ</state>
+        <middleName>H.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2007-02-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001032</bioguideId>
+        <fullName>Rep. Holt, Rush [D-NJ-12]</fullName>
+        <firstName>RUSH</firstName>
+        <lastName>HOLT</lastName>
+        <party>D</party>
+        <state>NJ</state>
+        <middleName>D.</middleName>
+        <district>12</district>
+        <sponsorshipDate>2007-02-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000097</bioguideId>
+        <fullName>Rep. Saxton, Jim [R-NJ-3]</fullName>
+        <firstName>H.</firstName>
+        <lastName>SAXTON</lastName>
+        <party>R</party>
+        <state>NJ</state>
+        <middleName>JAMES</middleName>
+        <district>3</district>
+        <sponsorshipDate>2007-02-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000099</bioguideId>
+        <fullName>Rep. Pastor, Ed [D-AZ-4]</fullName>
+        <firstName>ED</firstName>
+        <lastName>PASTOR</lastName>
+        <party>D</party>
+        <state>AZ</state>
+        <district>4</district>
+        <sponsorshipDate>2007-02-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001161</bioguideId>
+        <fullName>Rep. Melancon, Charlie [D-LA-3]</fullName>
+        <firstName>Charlie</firstName>
+        <lastName>Melancon</lastName>
+        <party>D</party>
+        <state>LA</state>
+        <district>3</district>
+        <sponsorshipDate>2007-02-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000552</bioguideId>
+        <fullName>Rep. LaHood, Ray [R-IL-18]</fullName>
+        <firstName>RAY</firstName>
+        <lastName>LAHOOD</lastName>
+        <party>R</party>
+        <state>IL</state>
+        <district>18</district>
+        <sponsorshipDate>2007-02-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000749</bioguideId>
+        <fullName>Rep. Spratt, John M., Jr. [D-SC-5]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>SPRATT</lastName>
+        <party>D</party>
+        <state>SC</state>
+        <middleName>M.</middleName>
+        <district>5</district>
+        <sponsorshipDate>2007-02-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001149</bioguideId>
+        <fullName>Rep. Burton, Dan [R-IN-5]</fullName>
+        <firstName>DAN</firstName>
+        <lastName>BURTON</lastName>
+        <party>R</party>
+        <state>IN</state>
+        <district>5</district>
+        <sponsorshipDate>2007-02-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001245</bioguideId>
+        <fullName>Del. Bordallo, Madeleine Z. [D-GU-At Large]</fullName>
+        <firstName>Madeleine</firstName>
+        <lastName>Bordallo</lastName>
+        <party>D</party>
+        <state>GU</state>
+        <middleName>Z.</middleName>
+        <district>0</district>
+        <sponsorshipDate>2007-02-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001251</bioguideId>
+        <fullName>Rep. Butterfield, G. K. [D-NC-1]</fullName>
+        <firstName>G. K.</firstName>
+        <lastName>Butterfield</lastName>
+        <party>D</party>
+        <state>NC</state>
+        <district>1</district>
+        <sponsorshipDate>2007-03-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001036</bioguideId>
+        <fullName>Rep. Capps, Lois [D-CA-23]</fullName>
+        <firstName>LOIS</firstName>
+        <lastName>CAPPS</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>23</district>
+        <sponsorshipDate>2007-03-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001157</bioguideId>
+        <fullName>Rep. McCaul, Michael T. [R-TX-10]</fullName>
+        <firstName>Michael</firstName>
+        <lastName>McCaul</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <middleName>T.</middleName>
+        <district>10</district>
+        <sponsorshipDate>2007-03-07</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000011</bioguideId>
+        <fullName>Rep. Rahall, Nick J., II [D-WV-3]</fullName>
+        <firstName>NICK</firstName>
+        <lastName>RAHALL</lastName>
+        <party>D</party>
+        <state>WV</state>
+        <middleName>J.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2007-03-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000191</bioguideId>
+        <fullName>Rep. Carson, Julia [D-IN-7]</fullName>
+        <firstName>JULIA</firstName>
+        <lastName>CARSON</lastName>
+        <party>D</party>
+        <state>IN</state>
+        <district>7</district>
+        <sponsorshipDate>2007-03-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000327</bioguideId>
+        <fullName>Rep. Dicks, Norman D. [D-WA-6]</fullName>
+        <firstName>NORMAN</firstName>
+        <lastName>DICKS</lastName>
+        <party>D</party>
+        <state>WA</state>
+        <district>6</district>
+        <sponsorshipDate>2007-03-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>A000210</bioguideId>
+        <fullName>Rep. Andrews, Robert E. [D-NJ-1]</fullName>
+        <firstName>ROBERT</firstName>
+        <lastName>ANDREWS</lastName>
+        <party>D</party>
+        <state>NJ</state>
+        <middleName>E.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2007-04-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000388</bioguideId>
+        <fullName>Rep. McCrery, Jim [R-LA-4]</fullName>
+        <firstName>JIM</firstName>
+        <lastName>MCCRERY</lastName>
+        <party>R</party>
+        <state>LA</state>
+        <district>4</district>
+        <sponsorshipDate>2007-04-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001160</bioguideId>
+        <fullName>Rep. Moore, Gwen [D-WI-4]</fullName>
+        <firstName>Gwen</firstName>
+        <lastName>Moore</lastName>
+        <party>D</party>
+        <state>WI</state>
+        <district>4</district>
+        <sponsorshipDate>2007-05-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000822</bioguideId>
+        <fullName>Rep. Stearns, Cliff [R-FL-6]</fullName>
+        <firstName>CLIFF</firstName>
+        <lastName>STEARNS</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>6</district>
+        <sponsorshipDate>2007-05-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000188</bioguideId>
+        <fullName>Rep. Kind, Ron [D-WI-3]</fullName>
+        <firstName>RON</firstName>
+        <lastName>KIND</lastName>
+        <party>D</party>
+        <state>WI</state>
+        <district>3</district>
+        <sponsorshipDate>2007-06-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Authorization</name>
+        </item>
+        <item>
+          <name>Compensatory education</name>
+        </item>
+        <item>
+          <name>Department of Defense</name>
+        </item>
+        <item>
+          <name>Dropouts</name>
+        </item>
+        <item>
+          <name>Economics and Public Finance</name>
+        </item>
+        <item>
+          <name>Education</name>
+        </item>
+        <item>
+          <name>Elementary and secondary education</name>
+        </item>
+        <item>
+          <name>Families</name>
+        </item>
+        <item>
+          <name>Federal aid to education</name>
+        </item>
+        <item>
+          <name>Federal-state relations</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Intergovernmental fiscal relations</name>
+        </item>
+        <item>
+          <name>Labor and Employment</name>
+        </item>
+        <item>
+          <name>Mentoring</name>
+        </item>
+        <item>
+          <name>Military training</name>
+        </item>
+        <item>
+          <name>National Guard</name>
+        </item>
+        <item>
+          <name>Secondary education</name>
+        </item>
+        <item>
+          <name>Youth services</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Armed Forces and National Security</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2007-02-13</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2007-03-21T18:11:49Z</updateDate>
+        <text><![CDATA[ <p>Excludes funds provided for the National Guard Youth Challenge Program by federal agencies other than the Department of Defense from the matching-funds requirement.</p> <p> Authorizes appropriations for FY2008 to the Secretary of Defense to carry out the Program.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>To amend the National Guard Youth Challenge Program under title 32, United States Code, to exclude non-defense funds made available by other Federal agencies for the Program from the matching requirements of the Program.</title>
+    <titles>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend the National Guard Youth Challenge Program under title 32, United States Code, to exclude non-defense funds made available by other Federal agencies for the Program from the matching requirements of the Program.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>To amend the National Guard Youth Challenge Program under title 32, United States Code, to exclude non-defense funds made available by other Federal agencies for the Program from the matching requirements of the Program.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2007-02-13T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-110hr1034ih/xml/BILLS-110hr1034ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2007-03-14</actionDate>
+      <text>Referred to the Subcommittee on Military Personnel.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

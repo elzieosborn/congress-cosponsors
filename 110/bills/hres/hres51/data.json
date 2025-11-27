@@ -1,0 +1,938 @@
+{
+  "actions": [
+    {
+      "acted_at": "2007-01-10",
+      "action_code": "Intro-H",
+      "references": [],
+      "text": "Introduced in House",
+      "type": "action"
+    },
+    {
+      "acted_at": "2007-01-10",
+      "action_code": "H11100",
+      "committees": [
+        "HSED"
+      ],
+      "references": [],
+      "status": "REFERRED",
+      "text": "Referred to the House Committee on Education and Labor.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2007-01-22T14:19:14-05:00",
+      "action_code": "H30300",
+      "references": [],
+      "text": "Mrs. Davis (CA) moved to suspend the rules and agree to the resolution.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2007-01-22T14:19:57-05:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H796-800",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered under suspension of the rules.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2007-01-22T14:20:01-05:00",
+      "action_code": "H8D000",
+      "references": [],
+      "text": "DEBATE - The House proceeded with forty minutes of debate on H. Res. 51.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2007-01-22T14:30:29-05:00",
+      "action_code": "H37220",
+      "references": [],
+      "text": "At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2007-01-23T14:11:40-05:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H859-860",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered as unfinished business.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2007-01-23T14:19:27-05:00",
+      "action_code": "8000",
+      "how": "roll",
+      "references": [
+        {
+          "reference": "CR 1/22/2007 H796",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "roll": "48",
+      "status": "PASSED:SIMPLERES",
+      "suspension": true,
+      "text": "Passed/agreed to in House: On motion to suspend the rules and agree to the resolution Agreed to by the Yeas and Nays: (2/3 required): 428 - 0 (Roll no. 48).",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "h"
+    },
+    {
+      "acted_at": "2007-01-23T14:19:27-05:00",
+      "action_code": "H38310",
+      "references": [],
+      "text": "Motion to reconsider laid on the table Agreed to without objection.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2007-01-23T14:19:27-05:00",
+      "action_code": "H37300",
+      "how": "roll",
+      "references": [
+        {
+          "reference": "CR 1/22/2007 H796",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "roll": "48",
+      "status": "PASSED:SIMPLERES",
+      "suspension": true,
+      "text": "On motion to suspend the rules and agree to the resolution Agreed to by the Yeas and Nays: (2/3 required): 428 - 0 (Roll no. 48).",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "h"
+    }
+  ],
+  "amendments": [],
+  "bill_id": "hres51-110",
+  "bill_type": "hres",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [
+    {
+      "activity": [
+        "referral"
+      ],
+      "committee": "House Education and the Workforce",
+      "committee_id": "HSED"
+    }
+  ],
+  "congress": "110",
+  "cosponsors": [
+    {
+      "bioguide_id": "A000358",
+      "district": "2",
+      "name": "Akin, W. Todd",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "MO",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B000072",
+      "district": "6",
+      "name": "Baker, Richard H.",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "LA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001232",
+      "district": "13",
+      "name": "Biggert, Judy",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "IL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001245",
+      "district": "0",
+      "name": "Bordallo, Madeleine Z.",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "GU",
+      "title": "Del.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001203",
+      "district": "4",
+      "name": "Buyer, Steve",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "IN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001065",
+      "district": "10",
+      "name": "Carney, Christopher P.",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "PA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C000266",
+      "district": "1",
+      "name": "Chabot, Steve",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "OH",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C000380",
+      "district": "0",
+      "name": "Christensen, Donna M.",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "VI",
+      "title": "Del.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001049",
+      "district": "1",
+      "name": "Clay, Wm. Lacy",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "MO",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001061",
+      "district": "5",
+      "name": "Cleaver, Emanuel",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "MO",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001069",
+      "district": "2",
+      "name": "Courtney, Joe",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "CT",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001063",
+      "district": "28",
+      "name": "Cuellar, Henry",
+      "original_cosponsor": false,
+      "sponsored_at": "2007-01-18",
+      "state": "TX",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000096",
+      "district": "7",
+      "name": "Davis, Danny K.",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "IL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000603",
+      "district": "4",
+      "name": "Davis, Geoff",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "KY",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000216",
+      "district": "3",
+      "name": "DeLauro, Rosa L.",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "CT",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000604",
+      "district": "15",
+      "name": "Dent, Charles W.",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "PA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000600",
+      "district": "25",
+      "name": "Diaz-Balart, Mario",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "FL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000482",
+      "district": "14",
+      "name": "Doyle, Michael F.",
+      "original_cosponsor": false,
+      "sponsored_at": "2007-01-18",
+      "state": "PA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000605",
+      "district": "2",
+      "name": "Drake, Thelma D.",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "VA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "E000092",
+      "district": "3",
+      "name": "Ehlers, Vernon J.",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "MI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "E000187",
+      "district": "3",
+      "name": "English, Phil",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "PA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "E000215",
+      "district": "14",
+      "name": "Eshoo, Anna G.",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "F000443",
+      "district": "7",
+      "name": "Ferguson, Mike",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "NJ",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "F000440",
+      "district": "13",
+      "name": "Fossella, Vito",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "NY",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "F000448",
+      "district": "2",
+      "name": "Franks, Trent",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "AZ",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "G000021",
+      "district": "24",
+      "name": "Gallegly, Elton",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "G000210",
+      "district": "5",
+      "name": "Gillmor, Paul E.",
+      "original_cosponsor": false,
+      "sponsored_at": "2007-01-18",
+      "state": "OH",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "G000550",
+      "district": "11",
+      "name": "Gingrey, Phil",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "GA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "G000544",
+      "district": "20",
+      "name": "Gonzalez, Charles A.",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "TX",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "G000551",
+      "district": "7",
+      "name": "Grijalva, Ra\u00c3\u00bal M.",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "AZ",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H001040",
+      "district": "17",
+      "name": "Hare, Phil",
+      "original_cosponsor": false,
+      "sponsored_at": "2007-01-18",
+      "state": "IL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H001038",
+      "district": "27",
+      "name": "Higgins, Brian",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "NY",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H001042",
+      "district": "2",
+      "name": "Hirono, Mazie K.",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "HI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H000712",
+      "district": "17",
+      "name": "Holden, Tim",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "PA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H001032",
+      "district": "12",
+      "name": "Holt, Rush",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "NJ",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "J000255",
+      "district": "3",
+      "name": "Jones, Walter B., Jr.",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "NC",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "K000210",
+      "district": "3",
+      "name": "King, Peter T.",
+      "original_cosponsor": false,
+      "sponsored_at": "2007-01-18",
+      "state": "NY",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "L000552",
+      "district": "18",
+      "name": "LaHood, Ray",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "IL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "L000090",
+      "district": "12",
+      "name": "Lantos, Tom",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "L000293",
+      "district": "2",
+      "name": "Lewis, Ron",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "KY",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001138",
+      "district": "16",
+      "name": "Manzullo, Donald A.",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "IL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001157",
+      "district": "10",
+      "name": "McCaul, Michael T.",
+      "original_cosponsor": false,
+      "sponsored_at": "2007-01-18",
+      "state": "TX",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001143",
+      "district": "4",
+      "name": "McCollum, Betty",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "MN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001147",
+      "district": "11",
+      "name": "McCotter, Thaddeus G.",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "MI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M000312",
+      "district": "3",
+      "name": "McGovern, James P.",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "MA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001156",
+      "district": "10",
+      "name": "McHenry, Patrick T.",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "NC",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001161",
+      "district": "3",
+      "name": "Melancon, Charlie",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "LA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001160",
+      "district": "4",
+      "name": "Moore, Gwen",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "WI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001168",
+      "district": "8",
+      "name": "Murphy, Patrick J.",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "PA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001151",
+      "district": "18",
+      "name": "Murphy, Tim",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "PA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "N000015",
+      "district": "2",
+      "name": "Neal, Richard E.",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "MA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "P000096",
+      "district": "8",
+      "name": "Pascrell, Bill, Jr.",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "NJ",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "P000149",
+      "district": "10",
+      "name": "Payne, Donald M.",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "NJ",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000004",
+      "district": "19",
+      "name": "Radanovich, George",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000574",
+      "district": "1",
+      "name": "Renzi, Rick",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "AZ",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000435",
+      "district": "18",
+      "name": "Ros-Lehtinen, Ileana",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "FL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000462",
+      "district": "9",
+      "name": "Rothman, Steven R.",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "NJ",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000486",
+      "district": "34",
+      "name": "Roybal-Allard, Lucille",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000576",
+      "district": "2",
+      "name": "Ruppersberger, C. A. Dutch",
+      "original_cosponsor": false,
+      "sponsored_at": "2007-01-18",
+      "state": "MD",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000577",
+      "district": "17",
+      "name": "Ryan, Tim",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "OH",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S000250",
+      "district": "32",
+      "name": "Sessions, Pete",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "TX",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001144",
+      "district": "4",
+      "name": "Shays, Christopher",
+      "original_cosponsor": false,
+      "sponsored_at": "2007-01-18",
+      "state": "CT",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S000522",
+      "district": "4",
+      "name": "Smith, Christopher H.",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "NJ",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001143",
+      "district": "3",
+      "name": "Souder, Mark E.",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "IN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001045",
+      "district": "1",
+      "name": "Stupak, Bart",
+      "original_cosponsor": false,
+      "sponsored_at": "2007-01-23",
+      "state": "MI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001174",
+      "district": "13",
+      "name": "Sutton, Betty",
+      "original_cosponsor": false,
+      "sponsored_at": "2007-01-22",
+      "state": "OH",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "T000074",
+      "district": "4",
+      "name": "Taylor, Gene",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "MS",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "T000459",
+      "district": "2",
+      "name": "Terry, Lee",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "NE",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "T000462",
+      "district": "12",
+      "name": "Tiberi, Patrick J.",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "OH",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "T000326",
+      "district": "10",
+      "name": "Towns, Edolphus",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "NY",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000798",
+      "district": "7",
+      "name": "Walberg, Timothy",
+      "original_cosponsor": false,
+      "sponsored_at": "2007-01-22",
+      "state": "MI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000795",
+      "district": "2",
+      "name": "Wilson, Joe",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "SC",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000672",
+      "district": "10",
+      "name": "Wolf, Frank R.",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-10",
+      "state": "VA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    }
+  ],
+  "enacted_as": null,
+  "history": {
+    "active": true,
+    "active_at": "2007-01-22T14:19:14-05:00",
+    "awaiting_signature": false,
+    "enacted": false,
+    "house_passage_result": "pass",
+    "house_passage_result_at": "2007-01-23T14:19:27-05:00",
+    "vetoed": false
+  },
+  "introduced_at": "2007-01-10",
+  "number": "51",
+  "official_title": "Honoring the contributions of Catholic schools.",
+  "popular_title": null,
+  "related_bills": [
+    {
+      "bill_id": "sres62-110",
+      "identified_by": "CRS",
+      "reason": "related",
+      "type": "bill"
+    },
+    {
+      "bill_id": "hres916-110",
+      "identified_by": "CRS",
+      "reason": "identical",
+      "type": "bill"
+    }
+  ],
+  "short_title": null,
+  "sponsor": {
+    "bioguide_id": "L000563",
+    "district": "3",
+    "name": "Lipinski, Daniel",
+    "state": "IL",
+    "title": "Rep.",
+    "type": "person"
+  },
+  "status": "PASSED:SIMPLERES",
+  "status_at": "2007-01-23T14:19:27-05:00",
+  "subjects": [
+    "Catholic Church",
+    "Church and education",
+    "Commemorations",
+    "Congress",
+    "Congressional tributes",
+    "Education",
+    "Elementary and secondary education",
+    "Elementary education",
+    "Private schools",
+    "Religion",
+    "Religious education",
+    "Secondary education",
+    "Special weeks"
+  ],
+  "subjects_top_term": "Commemorations",
+  "summary": {
+    "as": "Passed House without amendment",
+    "asOf": "2007-01-23",
+    "date": "2007-01-25T15:37:17Z",
+    "text": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.)\n\nExpresses support for the goals of Catholic Schools Week, an event cosponsored by the National Catholic Educational Association and the United States Conference of Catholic Bishops and established to recognize the vital contributions of America's thousands of Catholic elementary and secondary schools."
+  },
+  "titles": [
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Honoring the contributions of Catholic schools.",
+      "type": "display"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Honoring the contributions of Catholic schools.",
+      "type": "official"
+    }
+  ],
+  "updated_at": "2022-02-03T05:18:48Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/110/hres/BILLSTATUS-110hres51.xml"
+}

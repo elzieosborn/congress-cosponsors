@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>711</number>
+    <updateDate>2021-04-20T19:00:19Z</updateDate>
+    <updateDateIncludingText>2021-04-20T19:00:19Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2005-02-09</introducedDate>
+    <congress>109</congress>
+    <committees>
+      <item>
+        <systemCode>hsju00</systemCode>
+        <name>Judiciary Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsju09</systemCode>
+            <name>Commercial and Administrative Law Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2005-03-03T03:41:36Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2005-02-09T15:06:20Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2005-03-02</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsju09</systemCode>
+            <name>Commercial and Administrative Law Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Commercial and Administrative Law.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2005-02-09</actionDate>
+        <text>Referred to the House Committee on the Judiciary.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2005-02-09</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2005-02-09</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>K000113</bioguideId>
+        <fullName>Rep. Kennedy, Patrick J. [D-RI-1]</fullName>
+        <firstName>PATRICK</firstName>
+        <lastName>KENNEDY</lastName>
+        <party>D</party>
+        <state>RI</state>
+        <middleName>J.</middleName>
+        <district>1</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>L000559</bioguideId>
+        <fullName>Rep. Langevin, James R. [D-RI-2]</fullName>
+        <firstName>JAMES</firstName>
+        <lastName>LANGEVIN</lastName>
+        <party>D</party>
+        <state>RI</state>
+        <middleName>R.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2005-03-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000309</bioguideId>
+        <fullName>Rep. McCarthy, Carolyn [D-NY-4]</fullName>
+        <firstName>CAROLYN</firstName>
+        <lastName>MCCARTHY</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <district>4</district>
+        <sponsorshipDate>2005-03-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000326</bioguideId>
+        <fullName>Rep. Towns, Edolphus [D-NY-10]</fullName>
+        <firstName>EDOLPHUS</firstName>
+        <lastName>TOWNS</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <district>10</district>
+        <sponsorshipDate>2005-03-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>N000147</bioguideId>
+        <fullName>Del. Norton, Eleanor Holmes [D-DC-At Large]</fullName>
+        <firstName>ELEANOR</firstName>
+        <lastName>NORTON</lastName>
+        <party>D</party>
+        <state>DC</state>
+        <middleName>HOLMES</middleName>
+        <district>0</district>
+        <sponsorshipDate>2005-03-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>V000128</bioguideId>
+        <fullName>Rep. Van Hollen, Chris [D-MD-8]</fullName>
+        <firstName>Chris</firstName>
+        <lastName>Van Hollen</lastName>
+        <party>D</party>
+        <state>MD</state>
+        <district>8</district>
+        <sponsorshipDate>2005-03-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000314</bioguideId>
+        <fullName>Rep. Wexler, Robert [D-FL-19]</fullName>
+        <firstName>ROBERT</firstName>
+        <lastName>WEXLER</lastName>
+        <party>D</party>
+        <state>FL</state>
+        <district>19</district>
+        <sponsorshipDate>2005-03-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000574</bioguideId>
+        <fullName>Rep. Blumenauer, Earl [D-OR-3]</fullName>
+        <firstName>EARL</firstName>
+        <lastName>BLUMENAUER</lastName>
+        <party>D</party>
+        <state>OR</state>
+        <district>3</district>
+        <sponsorshipDate>2005-03-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000627</bioguideId>
+        <fullName>Rep. Meehan, Martin T. [D-MA-5]</fullName>
+        <firstName>MARTIN</firstName>
+        <lastName>MEEHAN</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>T.</middleName>
+        <district>5</district>
+        <sponsorshipDate>2005-03-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001153</bioguideId>
+        <fullName>Rep. Solis, Hilda L. [D-CA-32]</fullName>
+        <firstName>HILDA</firstName>
+        <lastName>SOLIS</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <middleName>L.</middleName>
+        <district>32</district>
+        <sponsorshipDate>2005-03-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000090</bioguideId>
+        <fullName>Rep. Lantos, Tom [D-CA-12]</fullName>
+        <firstName>TOM</firstName>
+        <lastName>LANTOS</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>12</district>
+        <sponsorshipDate>2005-03-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001032</bioguideId>
+        <fullName>Rep. Holt, Rush [D-NJ-12]</fullName>
+        <firstName>RUSH</firstName>
+        <lastName>HOLT</lastName>
+        <party>D</party>
+        <state>NJ</state>
+        <middleName>D.</middleName>
+        <district>12</district>
+        <sponsorshipDate>2005-03-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000551</bioguideId>
+        <fullName>Rep. Lee, Barbara [D-CA-9]</fullName>
+        <firstName>BARBARA</firstName>
+        <lastName>LEE</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>9</district>
+        <sponsorshipDate>2005-03-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000714</bioguideId>
+        <fullName>Rep. Conyers, John, Jr. [D-MI-14]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>CONYERS</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <district>14</district>
+        <sponsorshipDate>2005-03-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000404</bioguideId>
+        <fullName>Rep. McDermott, Jim [D-WA-7]</fullName>
+        <firstName>JIM</firstName>
+        <lastName>MCDERMOTT</lastName>
+        <party>D</party>
+        <state>WA</state>
+        <district>7</district>
+        <sponsorshipDate>2005-03-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Crime and Law Enforcement</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Accident prevention</name>
+        </item>
+        <item>
+          <name>Administrative procedure</name>
+        </item>
+        <item>
+          <name>Administrative remedies</name>
+        </item>
+        <item>
+          <name>Ammunition</name>
+        </item>
+        <item>
+          <name>Business records</name>
+        </item>
+        <item>
+          <name>Civil actions and liability</name>
+        </item>
+        <item>
+          <name>Commerce</name>
+        </item>
+        <item>
+          <name>Congress</name>
+        </item>
+        <item>
+          <name>Congressional reporting requirements</name>
+        </item>
+        <item>
+          <name>Consumer education</name>
+        </item>
+        <item>
+          <name>Damages</name>
+        </item>
+        <item>
+          <name>Data banks</name>
+        </item>
+        <item>
+          <name>Defective products</name>
+        </item>
+        <item>
+          <name>Department of the Treasury</name>
+        </item>
+        <item>
+          <name>Emergency Management</name>
+        </item>
+        <item>
+          <name>Export controls</name>
+        </item>
+        <item>
+          <name>Fines (Penalties)</name>
+        </item>
+        <item>
+          <name>Firearms</name>
+        </item>
+        <item>
+          <name>Firearms control</name>
+        </item>
+        <item>
+          <name>Firearms injuries</name>
+        </item>
+        <item>
+          <name>Foreign Trade and International Finance</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Government paperwork</name>
+        </item>
+        <item>
+          <name>Government publicity</name>
+        </item>
+        <item>
+          <name>Government statistics</name>
+        </item>
+        <item>
+          <name>Governmental investigations</name>
+        </item>
+        <item>
+          <name>Health</name>
+        </item>
+        <item>
+          <name>Identification devices</name>
+        </item>
+        <item>
+          <name>Import restrictions</name>
+        </item>
+        <item>
+          <name>Imports</name>
+        </item>
+        <item>
+          <name>Injunctions</name>
+        </item>
+        <item>
+          <name>Labeling</name>
+        </item>
+        <item>
+          <name>Law</name>
+        </item>
+        <item>
+          <name>Legal fees</name>
+        </item>
+        <item>
+          <name>Liability (Law)</name>
+        </item>
+        <item>
+          <name>Packaging</name>
+        </item>
+        <item>
+          <name>Product safety</name>
+        </item>
+        <item>
+          <name>Research</name>
+        </item>
+        <item>
+          <name>Retail trade</name>
+        </item>
+        <item>
+          <name>Science, Technology, Communications</name>
+        </item>
+        <item>
+          <name>Searches and seizures</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Crime and Law Enforcement</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2005-02-09</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2005-02-23T20:13:43Z</updateDate>
+        <text><![CDATA[ <p>Firearms Safety and Consumer Protection Act of 2005 - Directs the Attorney General to prescribe regulations governing the design, manufacture, and performance of, and commerce in, firearm products in order to reduce or prevent unreasonable risk of injury.</p> <p>Authorizes individuals to petition the Attorney General to issue or revise product regulations or to require the recall, repair, or replacement of, or the provision of refunds regarding, a firearm product. Authorizes the Attorney General to: (1) take such action; (2) prohibit the manufacture, sale, or transfer of firearm products made, imported, transferred, or distributed in violation of regulations; (3) prohibit the manufacture, importation, transfer, distribution, or export of unreasonably risky firearm products; and (4) conduct inspections.</p> <p>Sets forth prohibitions against a manufacturer: (1) transferring, distributing, or exporting a firearm product that the manufacturer has not tested and certified as conforming to such regulations or that is not appropriately labeled; (2) producing a new type of firearm product without providing notice to the Attorney General; or (3) failing to maintain records and supply information to the Attorney General. Prohibits any person from: (1) importing or exporting a firearm product that has not been so certified; or (2) manufacturing, purchasing, or importing products before regulations take effect at a greater rate than before enactment of this Act.</p> <p>Sets forth provisions regarding civil and criminal penalties for violations of this Act. Authorizes: (1) injunctive enforcement and condemnation and seizure of qualified firearm products; (2) actions to restrain the manufacture or distribution of imminently hazardous products; and (3) private actions by persons aggrieved by violations of this Act or to enforce this Act.</p> <p>Directs the Attorney General : (1) in cooperation with the Secretary of Health and Human Services, to collect and share with other appropriate agencies circumstances of death and injury associated with firearms and to conduct continuing studies and investigations of economic costs and losses resulting from firearm-related deaths and injuries; (2) maintain firearms production and sales figures for licensed manufacturers; and (3) conduct research on firearm product safety and develop safety testing methods and devices.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>To expand the powers of the Attorney General to regulate the manufacture, distribution, and sale of firearms and ammunition, and to expand the jurisdiction of the Attorney General to include firearm products and nonpowder firearms.</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>To expand the powers of the Attorney General to regulate the manufacture, distribution, and sale of firearms and ammunition, and to expand the jurisdiction of the Attorney General to include firearm products and nonpowder firearms.</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To expand the powers of the Attorney General to regulate the manufacture, distribution, and sale of firearms and ammunition, and to expand the jurisdiction of the Attorney General to include firearm products and nonpowder firearms.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2005-02-09T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-109hr711ih/xml/BILLS-109hr711ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2005-03-02</actionDate>
+      <text>Referred to the Subcommittee on Commercial and Administrative Law.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

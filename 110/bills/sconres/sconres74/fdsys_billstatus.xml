@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>74</number>
+    <updateDate>2019-11-15T21:52:01Z</updateDate>
+    <updateDateIncludingText>2019-11-15T21:52:01Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <originChamberCode>S</originChamberCode>
+    <type>SCONRES</type>
+    <introducedDate>2008-04-08</introducedDate>
+    <congress>110</congress>
+    <committees>
+      <item>
+        <systemCode>hsfa00</systemCode>
+        <name>Foreign Affairs Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2008-04-29T22:50:54Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>ssfr00</systemCode>
+        <name>Foreign Relations Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Reported by</name>
+            <date>2008-04-23T21:54:27Z</date>
+          </item>
+          <item>
+            <name>Markup by</name>
+            <date>2008-04-22T22:04:09Z</date>
+          </item>
+          <item>
+            <name>Referred to</name>
+            <date>2008-04-08T19:24:53Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2008-04-29</actionDate>
+        <text>Referred to the House Committee on Foreign Affairs.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsfa00</systemCode>
+            <name>Foreign Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2008-04-29</actionDate>
+        <actionTime>14:08:13</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2008-04-29</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2008-04-28</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Resolution agreed to in Senate without amendment and with a preamble by Unanimous Consent. (consideration: CR S3450-3451; text as passed Senate: CR S3451)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2008-04-28</actionDate>
+        <text>Passed/agreed to in Senate: Resolution agreed to in Senate without amendment and with a preamble by Unanimous Consent.(consideration: CR S3450-3451; text as passed Senate: CR S3451)</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2008-04-23</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 708.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2008-04-23</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssfr00</systemCode>
+            <name>Foreign Relations Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Foreign Relations. Reported by Senator Biden without amendment and with a preamble. Without written report.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2008-04-23</actionDate>
+        <text>Committee on Foreign Relations. Reported by Senator Biden without amendment and with a preamble. Without written report.</text>
+        <type>Committee</type>
+        <actionCode>14000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>ssfr00</systemCode>
+            <name>Foreign Relations Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2008-04-22</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssfr00</systemCode>
+            <name>Foreign Relations Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Foreign Relations. Ordered to be reported without amendment favorably.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2008-04-08</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssfr00</systemCode>
+            <name>Foreign Relations Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Referred to the Committee on Foreign Relations. (text of measure as introduced: CR S2757)</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2008-04-08</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>K000105</bioguideId>
+        <fullName>Sen. Kennedy, Edward M. [D-MA]</fullName>
+        <firstName>EDWARD</firstName>
+        <lastName>KENNEDY</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>MOORE</middleName>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>D000388</bioguideId>
+        <fullName>Sen. Dodd, Christopher J. [D-CT]</fullName>
+        <firstName>CHRISTOPHER</firstName>
+        <lastName>DODD</lastName>
+        <party>D</party>
+        <state>CT</state>
+        <middleName>JOHN</middleName>
+        <sponsorshipDate>2008-04-08</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001035</bioguideId>
+        <fullName>Sen. Collins, Susan M. [R-ME]</fullName>
+        <firstName>Susan</firstName>
+        <lastName>Collins</lastName>
+        <party>R</party>
+        <state>ME</state>
+        <middleName>M.</middleName>
+        <sponsorshipDate>2008-04-08</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>International Affairs</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Commemorations</name>
+        </item>
+        <item>
+          <name>Congress</name>
+        </item>
+        <item>
+          <name>Congress and foreign policy</name>
+        </item>
+        <item>
+          <name>Congressional tributes</name>
+        </item>
+        <item>
+          <name>Europe</name>
+        </item>
+        <item>
+          <name>Foreign leaders</name>
+        </item>
+        <item>
+          <name>Ireland</name>
+        </item>
+        <item>
+          <name>Peace negotiations</name>
+        </item>
+        <item>
+          <name>Peace treaties</name>
+        </item>
+        <item>
+          <name>United Kingdom</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>International Affairs</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2008-04-08</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2008-05-08T21:27:53Z</updateDate>
+        <text><![CDATA[ <p>Expresses the sense of Congress that: (1) the Prime Minister of Ireland, Bertie Ahern, has been a strong leader for the people of Ireland and a good friend to the United States; and (2) the skillful leadership of Prime Minister Ahern was indispensable in achieving a successful resolution of the conflict in Northern Ireland. </p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>80</versionCode>
+        <actionDate>2008-04-23</actionDate>
+        <actionDesc>Reported to Senate without amendment</actionDesc>
+        <updateDate>2008-05-08T21:28:19Z</updateDate>
+        <text><![CDATA[ <p><b>(This measure has not been amended since it was introduced. The summary has been expanded because action occurred on the measure.)</b></p> <p>Expresses the sense of Congress that: (1) the Prime Minister of Ireland, Bertie Ahern, has been a strong leader for the people of Ireland and a good friend to the United States; (2) the skillful leadership of Prime Minister Ahern was indispensable in achieving a successful resolution of the conflict in Northern Ireland, and hopes his unique talents will be of service in resolving conflicts elsewhere in the years ahead; and (3) the Members of the Senate and the House of Representatives look forward to paying fitting and fond tribute to Prime Minister Ahern when he addresses a joint session of Congress on April 30, 2008. </p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>82</versionCode>
+        <actionDate>2008-04-28</actionDate>
+        <actionDesc>Passed Senate without amendment</actionDesc>
+        <updateDate>2008-05-08T21:31:27Z</updateDate>
+        <text><![CDATA[ <p><b>(This measure has not been amended since it was introduced. The expanded summary of the Senate reported version is repeated here.)</b></p> <p>Expresses the sense of Congress that: (1) the Prime Minister of Ireland, Bertie Ahern, has been a strong leader for the people of Ireland and a good friend to the United States; (2) the skillful leadership of Prime Minister Ahern was indispensable in achieving a successful resolution of the conflict in Northern Ireland, and hopes his unique talents will be of service in resolving conflicts elsewhere in the years ahead; and (3) the Members of the Senate and the House of Representatives look forward to paying fitting and fond tribute to Prime Minister Ahern when he addresses a joint session of Congress on April 30, 2008.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>A concurrent resolution honoring the Prime Minister of Ireland, Bertie Ahern, for his service to the people of Ireland and to the world and welcoming the Prime Minister to the United States.</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>A concurrent resolution honoring the Prime Minister of Ireland, Bertie Ahern, for his service to the people of Ireland and to the world and welcoming the Prime Minister to the United States.</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A concurrent resolution honoring the Prime Minister of Ireland, Bertie Ahern, for his service to the people of Ireland and to the world and welcoming the Prime Minister to the United States.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Referred in House</type>
+        <date>2008-04-29T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-110sconres74rfh/xml/BILLS-110sconres74rfh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2008-04-28T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-110sconres74es/xml/BILLS-110sconres74es.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Reported to Senate</type>
+        <date>2008-04-23T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-110sconres74rs/xml/BILLS-110sconres74rs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2008-04-08T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-110sconres74is/xml/BILLS-110sconres74is.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2008-04-29</actionDate>
+      <text>Referred to the House Committee on Foreign Affairs.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

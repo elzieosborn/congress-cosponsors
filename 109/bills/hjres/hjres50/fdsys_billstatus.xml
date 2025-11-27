@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>50</number>
+    <updateDate>2019-11-15T21:33:33Z</updateDate>
+    <updateDateIncludingText>2022-05-20T16:27:20Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HJRES</type>
+    <introducedDate>2005-05-12</introducedDate>
+    <congress>109</congress>
+    <committees>
+      <item>
+        <systemCode>hsju00</systemCode>
+        <name>Judiciary Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsju10</systemCode>
+            <name>Constitution and Limited Government Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2005-06-06T16:02:06Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2005-05-12T14:00:40Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <relatedBills>
+      <item>
+        <title>Every Vote Counts Amendment</title>
+        <congress>109</congress>
+        <number>8</number>
+        <type>HJRES</type>
+        <latestAction>
+          <actionDate>2005-03-02</actionDate>
+          <text>Referred to the Subcommittee on the Constitution.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Proposing an amendment to the Constitution of the United States to abolish the Electoral College and provide for the direct election of the President and Vice President by the popular vote of all citizens of the United States regardless of place of residence.</title>
+        <congress>109</congress>
+        <number>36</number>
+        <type>HJRES</type>
+        <latestAction>
+          <actionDate>2005-04-04</actionDate>
+          <text>Referred to the Subcommittee on the Constitution.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>A joint resolution proposing an amendment to the Constitution of the United States to abolish the electoral college and to provide for the direct popular election of the President and Vice President of the United States.</title>
+        <congress>109</congress>
+        <number>11</number>
+        <type>SJRES</type>
+        <latestAction>
+          <actionDate>2005-03-16</actionDate>
+          <text>Read twice and referred to the Committee on the Judiciary. (text of measure as introduced: CR S2859-2860)</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2005-06-06</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsju10</systemCode>
+            <name>Constitution and Limited Government Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on the Constitution.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2005-05-12</actionDate>
+        <text>Referred to the House Committee on the Judiciary.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2005-05-12</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2005-05-12</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>L000397</bioguideId>
+        <fullName>Rep. Lofgren, Zoe [D-CA-16]</fullName>
+        <firstName>ZOE</firstName>
+        <lastName>LOFGREN</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>16</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>W000738</bioguideId>
+        <fullName>Rep. Woolsey, Lynn C. [D-CA-6]</fullName>
+        <firstName>LYNN</firstName>
+        <lastName>WOOLSEY</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>6</district>
+        <sponsorshipDate>2005-05-12</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000810</bioguideId>
+        <fullName>Rep. Stark, Fortney Pete [D-CA-13]</fullName>
+        <firstName>PETE</firstName>
+        <lastName>STARK</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>13</district>
+        <sponsorshipDate>2005-05-12</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000404</bioguideId>
+        <fullName>Rep. McDermott, Jim [D-WA-7]</fullName>
+        <firstName>JIM</firstName>
+        <lastName>MCDERMOTT</lastName>
+        <party>D</party>
+        <state>WA</state>
+        <district>7</district>
+        <sponsorshipDate>2005-05-12</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000248</bioguideId>
+        <fullName>Rep. Serrano, Jose E. [D-NY-16]</fullName>
+        <firstName>JOSE</firstName>
+        <lastName>SERRANO</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>E.</middleName>
+        <district>16</district>
+        <sponsorshipDate>2005-05-12</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Government Operations and Politics</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Constitutional amendments</name>
+        </item>
+        <item>
+          <name>Death</name>
+        </item>
+        <item>
+          <name>Election candidates</name>
+        </item>
+        <item>
+          <name>Electoral college</name>
+        </item>
+        <item>
+          <name>Law</name>
+        </item>
+        <item>
+          <name>Presidential elections</name>
+        </item>
+        <item>
+          <name>Presidential succession</name>
+        </item>
+        <item>
+          <name>Vice Presidents</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Government Operations and Politics</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2005-05-12</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2005-05-27T20:22:04Z</updateDate>
+        <text><![CDATA[ <p>Constitutional Amendment - Provides for the direct popular election of the President and the Vice President. </p>]]></text>
+      </summary>
+    </summaries>
+    <title>Proposing an amendment to the Constitution of the United States to abolish the Electoral College and to provide for the direct election of the President and Vice President of the United States.</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Proposing an amendment to the Constitution of the United States to abolish the Electoral College and to provide for the direct election of the President and Vice President of the United States.</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>Proposing an amendment to the Constitution of the United States to abolish the Electoral College and to provide for the direct election of the President and Vice President of the United States.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2005-05-12T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-109hjres50ih/xml/BILLS-109hjres50ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2005-06-06</actionDate>
+      <text>Referred to the Subcommittee on the Constitution.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

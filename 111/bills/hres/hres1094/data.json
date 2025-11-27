@@ -1,0 +1,560 @@
+{
+  "actions": [
+    {
+      "acted_at": "2010-02-22",
+      "action_code": "Intro-H",
+      "references": [],
+      "text": "Introduced in House",
+      "type": "action"
+    },
+    {
+      "acted_at": "2010-02-22",
+      "action_code": "H11100",
+      "committees": [
+        "HSJU"
+      ],
+      "references": [],
+      "status": "REFERRED",
+      "text": "Referred to the House Committee on the Judiciary.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2010-05-11T15:08:57-04:00",
+      "action_code": "H30300",
+      "references": [],
+      "text": "Mr. Deutch moved to suspend the rules and agree to the resolution.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2010-05-11T15:08:58-04:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H3290-3292",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered under suspension of the rules.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2010-05-11T15:08:59-04:00",
+      "action_code": "H8D000",
+      "references": [],
+      "text": "DEBATE - The House proceeded with forty minutes of debate on H. Res. 1094.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2010-05-11T15:15:24-04:00",
+      "action_code": "H37300",
+      "how": "by voice vote",
+      "references": [
+        {
+          "reference": "CR H3290-3291",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "status": "PASSED:SIMPLERES",
+      "suspension": null,
+      "text": "On motion to suspend the rules and agree to the resolution Agreed to by voice vote.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "h"
+    },
+    {
+      "acted_at": "2010-05-11T15:15:25-04:00",
+      "action_code": "H38310",
+      "references": [],
+      "text": "Motion to reconsider laid on the table Agreed to without objection.",
+      "type": "action"
+    }
+  ],
+  "amendments": [],
+  "bill_id": "hres1094-111",
+  "bill_type": "hres",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [
+    {
+      "activity": [
+        "referral"
+      ],
+      "committee": "House Judiciary",
+      "committee_id": "HSJU"
+    }
+  ],
+  "congress": "111",
+  "cosponsors": [
+    {
+      "bioguide_id": "B000287",
+      "district": "31",
+      "name": "Becerra, Xavier",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001231",
+      "district": "1",
+      "name": "Berkley, Shelley",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "NV",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B000490",
+      "district": "2",
+      "name": "Bishop, Sanford D., Jr.",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "GA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001227",
+      "district": "1",
+      "name": "Brady, Robert A.",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "PA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B000911",
+      "district": "3",
+      "name": "Brown, Corrine",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "FL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001251",
+      "district": "1",
+      "name": "Butterfield, G. K.",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "NC",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001072",
+      "district": "7",
+      "name": "Carson, Andre",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "IN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001067",
+      "district": "11",
+      "name": "Clarke, Yvette D.",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "NY",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C000537",
+      "district": "6",
+      "name": "Clyburn, James E.",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "SC",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000355",
+      "district": "15",
+      "name": "Dingell, John D.",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "MI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000399",
+      "district": "25",
+      "name": "Doggett, Lloyd",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "TX",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "E000290",
+      "district": "4",
+      "name": "Edwards, Donna F.",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "MD",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "F000043",
+      "district": "2",
+      "name": "Fattah, Chaka",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "PA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "F000455",
+      "district": "11",
+      "name": "Fudge, Marcia L.",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "OH",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "G000559",
+      "district": "10",
+      "name": "Garamendi, John",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H001044",
+      "district": "11",
+      "name": "Halvorson, Deborah L.",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "IL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H000324",
+      "district": "23",
+      "name": "Hastings, Alcee L.",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "FL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H001042",
+      "district": "2",
+      "name": "Hirono, Mazie K.",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "HI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H000712",
+      "district": "17",
+      "name": "Holden, Tim",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "PA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H000874",
+      "district": "5",
+      "name": "Hoyer, Steny H.",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "MD",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "J000283",
+      "district": "2",
+      "name": "Jackson, Jesse L., Jr.",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "IL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "J000126",
+      "district": "30",
+      "name": "Johnson, Eddie Bernice",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "TX",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "K000008",
+      "district": "11",
+      "name": "Kanjorski, Paul E.",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "PA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "K000009",
+      "district": "9",
+      "name": "Kaptur, Marcy",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "OH",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "K000372",
+      "district": "15",
+      "name": "Kilroy, Mary Jo",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "OH",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "L000551",
+      "district": "9",
+      "name": "Lee, Barbara",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "L000287",
+      "district": "5",
+      "name": "Lewis, John",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "GA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M000087",
+      "district": "14",
+      "name": "Maloney, Carolyn B.",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "NY",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001148",
+      "district": "17",
+      "name": "Meek, Kendrick B.",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-24",
+      "state": "FL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001134",
+      "district": "9",
+      "name": "Myrick, Sue Wilkins",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "NC",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000581",
+      "district": "37",
+      "name": "Richardson, Laura",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000462",
+      "district": "9",
+      "name": "Rothman, Steven R.",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "NJ",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001145",
+      "district": "9",
+      "name": "Schakowsky, Janice D.",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "IL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001164",
+      "district": "2",
+      "name": "Schmidt, Jean",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "OH",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001157",
+      "district": "13",
+      "name": "Scott, David",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "GA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S000185",
+      "district": "3",
+      "name": "Scott, Robert C. \"Bobby\"",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "VA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S000480",
+      "district": "28",
+      "name": "Slaughter, Louise McIntosh",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "NY",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001175",
+      "district": "12",
+      "name": "Speier, Jackie",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001174",
+      "district": "13",
+      "name": "Sutton, Betty",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "OH",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000738",
+      "district": "6",
+      "name": "Woolsey, Lynn C.",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-03-23",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    }
+  ],
+  "enacted_as": null,
+  "history": {
+    "active": true,
+    "active_at": "2010-05-11T15:08:57-04:00",
+    "awaiting_signature": false,
+    "enacted": false,
+    "house_passage_result": "pass",
+    "house_passage_result_at": "2010-05-11T15:15:24-04:00",
+    "vetoed": false
+  },
+  "introduced_at": "2010-02-22",
+  "number": "1094",
+  "official_title": "Commemorating the life of the late Cynthia DeLores Tucker.",
+  "popular_title": null,
+  "related_bills": [
+    {
+      "bill_id": "hres1108-111",
+      "identified_by": "CRS",
+      "reason": "identical",
+      "type": "bill"
+    },
+    {
+      "bill_id": "sres418-111",
+      "identified_by": "CRS",
+      "reason": "identical",
+      "type": "bill"
+    }
+  ],
+  "short_title": null,
+  "sponsor": {
+    "bioguide_id": "W000794",
+    "district": "33",
+    "name": "Watson, Diane E.",
+    "state": "CA",
+    "title": "Rep.",
+    "type": "person"
+  },
+  "status": "PASSED:SIMPLERES",
+  "status_at": "2010-05-11T15:15:24-04:00",
+  "subjects": [
+    "Civil rights and liberties, minority issues",
+    "Congressional tributes",
+    "Racial and ethnic relations",
+    "Women's rights"
+  ],
+  "subjects_top_term": "Civil rights and liberties, minority issues",
+  "summary": {
+    "as": "Passed House without amendment",
+    "asOf": "2010-05-11",
+    "date": "2010-05-17T13:56:11Z",
+    "text": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.)\n\nCommemorates the life and legacy of Cynthia DeLores Tucker and encourages the continued pursuit of her vision to eliminate racial and gender prejudice."
+  },
+  "titles": [
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Commemorating the life of the late Cynthia DeLores Tucker.",
+      "type": "display"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Commemorating the life of the late Cynthia DeLores Tucker.",
+      "type": "official"
+    }
+  ],
+  "updated_at": "2023-01-11T13:16:33Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/111/hres/BILLSTATUS-111hres1094.xml"
+}

@@ -1,0 +1,106 @@
+{
+  "actions": [
+    {
+      "acted_at": "2011-11-01",
+      "action_code": "",
+      "how": "roll",
+      "references": [],
+      "result": "fail",
+      "roll": 189,
+      "text": "Amendment SA 800 not agreed to in Senate by Yea-Nay Vote. 13 - 85. Record Vote Number: 189.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "s"
+    },
+    {
+      "acted_at": "2011-11-01",
+      "action_code": "",
+      "references": [
+        {
+          "reference": "CR S6932, S6932-6933",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered by Senate.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2011-10-20",
+      "action_code": "",
+      "references": [],
+      "text": "Amendment SA 800 proposed by Senator Coburn to Amendment SA 738. (consideration: CR S6808-6809; text: CR S6809) To reduce funding for the Rural Development Agency.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2011-11-01",
+      "action_code": "97000",
+      "references": [],
+      "text": "Roll call votes on amendments in Senate: Amendment SA 800 not agreed to in Senate by Yea-Nay Vote. 13 - 85. Record Vote Number: 189.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2011-11-01",
+      "action_code": "95000",
+      "references": [],
+      "text": "Senate amendment not agreed to: Amendment SA 800 not agreed to in Senate by Yea-Nay Vote. 13 - 85. Record Vote Number: 189.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2011-10-20",
+      "action_code": "93000",
+      "references": [
+        {
+          "reference": "CR S6808-6809",
+          "type": "consideration"
+        },
+        {
+          "reference": "CR S6809",
+          "type": "text"
+        }
+      ],
+      "text": "Senate amendment proposed (on the floor): Amendment SA 800 proposed by Senator Coburn to Amendment SA 738.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2011-10-18",
+      "action_code": "91000",
+      "references": [],
+      "text": "Senate amendment submitted",
+      "type": "action"
+    }
+  ],
+  "amendment_id": "samdt800-112",
+  "amendment_type": "samdt",
+  "amends_amendment": {
+    "amendment_id": "samdt738-112",
+    "amendment_type": "samdt",
+    "congress": 112,
+    "description": "",
+    "number": 738,
+    "purpose": "In the nature of a substitute."
+  },
+  "amends_bill": {
+    "bill_id": "hr2112-112",
+    "bill_type": "hr",
+    "congress": 112,
+    "number": 2112
+  },
+  "amends_treaty": null,
+  "chamber": "s",
+  "congress": "112",
+  "introduced_at": "2011-10-18",
+  "number": 800,
+  "proposed_at": "2011-10-20T04:00:00Z",
+  "purpose": "To reduce funding for the Rural Development Agency.",
+  "sponsor": {
+    "bioguide_id": "C000560",
+    "district": null,
+    "name": "Coburn, Tom",
+    "state": "OK",
+    "title": "Sen.",
+    "type": "person"
+  },
+  "status": "fail",
+  "status_at": "2011-11-01",
+  "updated_at": "2022-02-25T17:32:27Z"
+}

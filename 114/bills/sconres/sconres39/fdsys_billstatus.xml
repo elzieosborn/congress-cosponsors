@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>39</number>
+    <updateDate>2023-01-11T13:32:36Z</updateDate>
+    <updateDateIncludingText>2023-01-11T13:32:36Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <type>SCONRES</type>
+    <introducedDate>2016-05-19</introducedDate>
+    <congress>114</congress>
+    <committees>
+      <item>
+        <systemCode>hsas00</systemCode>
+        <name>Armed Services Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsas02</systemCode>
+            <name>Military Personnel Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2016-07-11T14:54:47Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2016-06-28T21:53:09Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>ssas00</systemCode>
+        <name>Armed Services Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Discharged from</name>
+            <date>2016-06-23T22:04:35Z</date>
+          </item>
+          <item>
+            <name>Referred to</name>
+            <date>2016-05-19T21:22:15Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <relatedBills>
+      <item>
+        <title>Honoring the members of the United States Air Force who were casualties of the June 25, 1996, terrorist bombing of the United States Sector Khobar Towers military housing complex on Dhahran Air Base.</title>
+        <congress>114</congress>
+        <number>133</number>
+        <type>HCONRES</type>
+        <latestAction>
+          <actionDate>2016-06-09</actionDate>
+          <text>Referred to the Subcommittee on Military Personnel.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2016-07-11</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsas02</systemCode>
+            <name>Military Personnel Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Military Personnel.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2016-06-28</actionDate>
+        <text>Referred to the House Committee on Armed Services.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsas00</systemCode>
+            <name>Armed Services Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2016-06-28</actionDate>
+        <actionTime>17:05:58</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2016-06-24</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2016-06-23</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Resolution agreed to in Senate without amendment and an amended preamble by Unanimous Consent. (text: CR S4561-4562)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2016-06-23</actionDate>
+        <text>Passed/agreed to in Senate: Resolution agreed to in Senate without amendment and an amended preamble by Unanimous Consent.(text: CR S4561-4562)</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2016-06-23</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssas00</systemCode>
+            <name>Armed Services Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Senate Committee on Armed Services discharged by Unanimous Consent. (consideration: CR S4561-4562)</text>
+        <type>Discharge</type>
+      </item>
+      <item>
+        <actionDate>2016-06-23</actionDate>
+        <text>Senate Committee on Armed Services discharged by Unanimous Consent.(consideration: CR S4561-4562)</text>
+        <type>Committee</type>
+        <actionCode>14500</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>ssas00</systemCode>
+            <name>Armed Services Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2016-06-23</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Measure laid before Senate by unanimous consent.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2016-05-19</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssas00</systemCode>
+            <name>Armed Services Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Referred to the Committee on Armed Services. (text of measure as introduced: CR S3034)</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2016-05-19</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>N000032</bioguideId>
+        <fullName>Sen. Nelson, Bill [D-FL]</fullName>
+        <firstName>CLARENCE</firstName>
+        <lastName>NELSON</lastName>
+        <party>D</party>
+        <state>FL</state>
+        <middleName>WILLIAM</middleName>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>R000595</bioguideId>
+        <fullName>Sen. Rubio, Marco [R-FL]</fullName>
+        <firstName>Marco</firstName>
+        <lastName>Rubio</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <sponsorshipDate>2016-05-19</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000584</bioguideId>
+        <fullName>Sen. Risch, James E. [R-ID]</fullName>
+        <firstName>James</firstName>
+        <lastName>Risch</lastName>
+        <party>R</party>
+        <state>ID</state>
+        <middleName>E.</middleName>
+        <sponsorshipDate>2016-05-24</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000702</bioguideId>
+        <fullName>Sen. Mikulski, Barbara A. [D-MD]</fullName>
+        <firstName>BARBARA</firstName>
+        <lastName>MIKULSKI</lastName>
+        <party>D</party>
+        <state>MD</state>
+        <middleName>ANN</middleName>
+        <sponsorshipDate>2016-05-24</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001046</bioguideId>
+        <fullName>Sen. Heinrich, Martin [D-NM]</fullName>
+        <firstName>Martin</firstName>
+        <lastName>Heinrich</lastName>
+        <party>D</party>
+        <state>NM</state>
+        <middleName>T.</middleName>
+        <sponsorshipDate>2016-06-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Congressional tributes</name>
+        </item>
+        <item>
+          <name>Crime victims</name>
+        </item>
+        <item>
+          <name>Criminal investigation, prosecution, interrogation</name>
+        </item>
+        <item>
+          <name>Middle East</name>
+        </item>
+        <item>
+          <name>Military facilities and property</name>
+        </item>
+        <item>
+          <name>Military personnel and dependents</name>
+        </item>
+        <item>
+          <name>Saudi Arabia</name>
+        </item>
+        <item>
+          <name>Terrorism</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Armed Forces and National Security</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2016-05-19</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2016-06-20T15:43:58Z</updateDate>
+        <text><![CDATA[ <p>Recognizes the service and sacrifice of the 19 Air Force members who were killed in the June 25, 1996, terrorist bombing of the United States Sector Khobar Towers military housing complex on Dhahran Air Base, Saudi Arabia. </p> <p>Extends sympathies to the families and friends of those killed. </p> <p>Acknowledges the anguish and resilience of the attack's survivors. </p> <p>Assures members of the Armed Forces and other U.S. agents serving in harm's way that their well-being will be given the highest priority.</p> <p> Declares that perpetrators of terrorist acts against members of the Armed Forces and U.S. agents or citizens will be brought to justice. </p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>82</versionCode>
+        <actionDate>2016-06-23</actionDate>
+        <actionDesc>Passed Senate without amendment</actionDesc>
+        <updateDate>2016-07-14T19:59:26Z</updateDate>
+        <text><![CDATA[ <p>(This measure has not been amended since it was introduced. The summary of that version is repeated here.)</p> <p>Recognizes the service and sacrifice of the 19 Air Force members who were killed in the June 25, 1996, terrorist bombing of the United States Sector Khobar Towers military housing complex on Dhahran Air Base, Saudi Arabia. </p> <p>Extends sympathies to the families and friends of those killed. </p> <p>Acknowledges the anguish and resilience of the attack's survivors. </p> <p>Assures members of the Armed Forces and other U.S. agents serving in harm's way that their well-being will be given the highest priority.</p> <p> Declares that perpetrators of terrorist acts against members of the Armed Forces and U.S. agents or citizens will be brought to justice. </p>]]></text>
+      </summary>
+    </summaries>
+    <title>A concurrent resolution honoring the members of the United States Air Force who were casualties of the June 25, 1996, terrorist bombing of the United States Sector Khobar Towers military housing complex on Dhahran Air Base.</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>A concurrent resolution honoring the members of the United States Air Force who were casualties of the June 25, 1996, terrorist bombing of the United States Sector Khobar Towers military housing complex on Dhahran Air Base.</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A concurrent resolution honoring the members of the United States Air Force who were casualties of the June 25, 1996, terrorist bombing of the United States Sector Khobar Towers military housing complex on Dhahran Air Base.</title>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+    </titles>
+    <amendments>
+      <amendment>
+        <number>4864</number>
+        <congress>114</congress>
+        <type>SAMDT</type>
+        <purpose>To amend the preamble.</purpose>
+        <updateDate>2020-12-15T19:39:28Z</updateDate>
+        <latestAction>
+          <actionDate>2016-06-23</actionDate>
+          <text>Amendment SA 4864 agreed to in Senate by Unanimous Consent.</text>
+          <links>
+            <link>
+              <name>SA 4864</name>
+              <url>https://www.congress.gov/amendment/114th-congress/senate-amendment/4864</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>N000032</bioguideId>
+            <fullName>Sen. Nelson, Bill [D-FL]</fullName>
+            <firstName>CLARENCE</firstName>
+            <lastName>NELSON</lastName>
+            <party>D</party>
+            <state>FL</state>
+            <middleName>WILLIAM</middleName>
+          </item>
+        </sponsors>
+        <proposedDate>2016-06-23T04:00:00Z</proposedDate>
+        <submittedDate>2016-06-23T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>114</congress>
+          <type>SCONRES</type>
+          <originChamber>Senate</originChamber>
+          <originChamberCode>S</originChamberCode>
+          <number>39</number>
+          <title>A concurrent resolution honoring the members of the United States Air Force who were casualties of the June 25, 1996, terrorist bombing of the United States Sector Khobar Towers military housing complex on Dhahran Air Base.</title>
+          <updateDateIncludingText>2023-01-11T13:32:36Z</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2016-06-23</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 4864 agreed to in Senate by Unanimous Consent.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2016-06-23</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 4864 proposed by Senator McConnell for Senator Nelson. (consideration: CR S4561-4562; text: CR S4561) To amend the preamble.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2016-06-23</actionDate>
+              <text>Senate amendment proposed (on the floor): Amendment SA 4864 proposed by Senator McConnell for Senator Nelson.(consideration: CR S4561-4562; text: CR S4561)</text>
+              <type>Floor</type>
+              <actionCode>93000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2016-06-23</actionDate>
+              <text>Senate amendment agreed to: Amendment SA 4864 agreed to in Senate by Unanimous Consent.</text>
+              <type>Floor</type>
+              <actionCode>94000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2016-06-23</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+    </amendments>
+    <textVersions>
+      <item>
+        <type>Referred in House</type>
+        <date>2016-06-28T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-114sconres39rfh/xml/BILLS-114sconres39rfh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2016-06-23T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-114sconres39es/xml/BILLS-114sconres39es.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2016-05-19T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-114sconres39is/xml/BILLS-114sconres39is.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2016-07-11</actionDate>
+      <text>Referred to the Subcommittee on Military Personnel.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

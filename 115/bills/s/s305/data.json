@@ -1,0 +1,270 @@
+{
+  "actions": [
+    {
+      "acted_at": "2017-02-03",
+      "action_code": "10000",
+      "references": [],
+      "text": "Introduced in Senate",
+      "type": "action"
+    },
+    {
+      "acted_at": "2017-02-03",
+      "action_code": "",
+      "how": "by Unanimous Consent",
+      "references": [
+        {
+          "reference": "CR S683",
+          "type": "consideration"
+        },
+        {
+          "reference": "CR S683",
+          "type": "text as passed Senate"
+        }
+      ],
+      "result": "pass",
+      "status": "PASS_OVER:SENATE",
+      "text": "Introduced in the Senate, read twice, considered, read the third time, and passed without amendment by Unanimous Consent.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "s"
+    },
+    {
+      "acted_at": "2017-02-03",
+      "action_code": "",
+      "references": [],
+      "text": "Message on Senate action sent to the House.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2017-02-06T14:05:54-05:00",
+      "action_code": "H14000",
+      "references": [],
+      "text": "Received in the House.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2017-02-06",
+      "action_code": "H11100",
+      "committees": [
+        "HSJU"
+      ],
+      "references": [],
+      "text": "Referred to the House Committee on the Judiciary.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2017-02-14",
+      "action_code": "",
+      "committees": [
+        "HSJU"
+      ],
+      "references": [],
+      "text": "Referred to the Subcommittee on the Constitution and Civil Justice.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2017-03-16",
+      "action_code": "",
+      "committees": [
+        "HSJU"
+      ],
+      "references": [],
+      "text": "Committee Consideration and Mark-up Session Held.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2017-03-16",
+      "action_code": "",
+      "committees": [
+        "HSJU"
+      ],
+      "references": [],
+      "text": "Ordered to be Reported.",
+      "type": "ordered-reported"
+    },
+    {
+      "acted_at": "2017-03-21T14:41:03-04:00",
+      "action_code": "H30200",
+      "references": [],
+      "text": "Mr. Goodlatte asked unanimous consent to discharge from committee and consider.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2017-03-21",
+      "action_code": "H12300",
+      "committees": [
+        "HSJU"
+      ],
+      "references": [],
+      "text": "Committee on the Judiciary discharged.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2017-03-21T14:41:22-04:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H2267",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered by unanimous consent.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2017-03-21T14:41:25-04:00",
+      "action_code": "H37100",
+      "how": "by voice vote",
+      "references": [
+        {
+          "reference": "CR H2267",
+          "type": "text of measure as passed"
+        }
+      ],
+      "result": "pass",
+      "status": "PASSED:BILL",
+      "suspension": null,
+      "text": "On passage Passed by voice vote.",
+      "type": "vote",
+      "vote_type": "vote2",
+      "where": "h"
+    },
+    {
+      "acted_at": "2017-03-21T14:41:30-04:00",
+      "action_code": "H38310",
+      "references": [],
+      "text": "Motion to reconsider laid on the table Agreed to without objection.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2017-03-23",
+      "action_code": "E20000",
+      "references": [],
+      "text": "Presented to President.",
+      "type": "topresident"
+    },
+    {
+      "acted_at": "2017-03-28",
+      "action_code": "E30000",
+      "references": [],
+      "status": "ENACTED:SIGNED",
+      "text": "Signed by President.",
+      "type": "signed"
+    }
+  ],
+  "amendments": [],
+  "bill_id": "s305-115",
+  "bill_type": "s",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [
+    {
+      "activity": [
+        "discharged",
+        "markup",
+        "referral"
+      ],
+      "committee": "House Judiciary",
+      "committee_id": "HSJU"
+    },
+    {
+      "activity": [
+        "referral"
+      ],
+      "committee": "House Judiciary",
+      "committee_id": "HSJU",
+      "subcommittee": "Subcommittee on Constitution and Limited Government",
+      "subcommittee_id": "10"
+    }
+  ],
+  "congress": "115",
+  "cosponsors": [
+    {
+      "bioguide_id": "D000607",
+      "district": null,
+      "name": "Donnelly, Joe",
+      "original_cosponsor": true,
+      "sponsored_at": "2017-02-03",
+      "state": "IN",
+      "title": "Sen.",
+      "withdrawn_at": null
+    }
+  ],
+  "enacted_as": null,
+  "history": {
+    "active": true,
+    "active_at": "2017-02-03",
+    "awaiting_signature": true,
+    "awaiting_signature_since": "2017-03-28",
+    "enacted": false,
+    "house_passage_result": "pass",
+    "house_passage_result_at": "2017-03-21T14:41:25-04:00",
+    "senate_passage_result": "pass",
+    "senate_passage_result_at": "2017-02-03",
+    "vetoed": false
+  },
+  "introduced_at": "2017-02-03",
+  "number": "305",
+  "official_title": "A bill to amend title 4, United States Code, to encourage the display of the flag of the United States on National Vietnam War Veterans Day.",
+  "popular_title": null,
+  "related_bills": [],
+  "short_title": "Vietnam War Veterans Recognition Act of 2017",
+  "sponsor": {
+    "bioguide_id": "T000461",
+    "district": null,
+    "name": "Toomey, Patrick",
+    "state": "PA",
+    "title": "Sen.",
+    "type": "person"
+  },
+  "status": "ENACTED:SIGNED",
+  "status_at": "2017-03-28",
+  "subjects": [
+    "Armed forces and national security",
+    "Asia",
+    "Commemorative events and holidays",
+    "Conflicts and wars",
+    "National symbols",
+    "Veterans' organizations and recognition",
+    "Vietnam"
+  ],
+  "subjects_top_term": "Armed forces and national security",
+  "summary": {
+    "as": "Public Law",
+    "asOf": "2017-03-28",
+    "date": "2017-04-08T14:45:24Z",
+    "text": "(This measure has not been amended since it was introduced. The expanded summary of the Senate passed version is repeated here.)\n\nVietnam War Veterans Recognition Act of 2017\n\n(Sec. 2) This bill includes National Vietnam War Veterans Day, March 29, among those days on which the flag should especially be displayed."
+  },
+  "titles": [
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Vietnam War Veterans Recognition Act of 2017",
+      "type": "display"
+    },
+    {
+      "as": "passed senate",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Vietnam War Veterans Recognition Act of 2017",
+      "type": "short"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Vietnam War Veterans Recognition Act of 2017",
+      "type": "short"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "A bill to amend title 4, United States Code, to encourage the display of the flag of the United States on National Vietnam War Veterans Day.",
+      "type": "official"
+    }
+  ],
+  "updated_at": "2023-09-05T16:12:54Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/115/s/BILLSTATUS-115s305.xml"
+}

@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>4983</number>
+    <updateDate>2023-01-11T13:16:20Z</updateDate>
+    <updateDateIncludingText>2023-01-11T13:16:20Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2010-03-25</introducedDate>
+    <congress>111</congress>
+    <committees>
+      <item>
+        <systemCode>hsju00</systemCode>
+        <name>Judiciary Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsju10</systemCode>
+            <name>Constitution and Limited Government Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2010-06-15T13:55:39Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2010-03-25T14:06:42Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsso00</systemCode>
+        <name>Ethics Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2010-03-25T14:06:43Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsha00</systemCode>
+        <name>Committee on House Administration</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2010-03-25T14:06:40Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsru00</systemCode>
+        <name>Rules Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2010-03-25T14:06:39Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsgo00</systemCode>
+        <name>Oversight and Accountability Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2010-03-25T14:05:51Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2010-06-15</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsju10</systemCode>
+            <name>Constitution and Limited Government Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on the Constitution, Civil Rights, and Civil Liberties.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2010-03-25</actionDate>
+        <text>Referred to House Standards of Official Conduct</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsso00</systemCode>
+            <name>Ethics Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2010-03-25</actionDate>
+        <text>Referred to House Judiciary</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2010-03-25</actionDate>
+        <text>Referred to House Administration</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsha00</systemCode>
+            <name>Committee on House Administration</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2010-03-25</actionDate>
+        <text>Referred to House Rules</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsru00</systemCode>
+            <name>Rules Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2010-03-25</actionDate>
+        <text>Referred to the Committee on Oversight and Government Reform, and in addition to the Committees on Rules, House Administration, the Judiciary, and Standards of Official Conduct, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100-A</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2010-03-25</actionDate>
+        <text>Referred to House Oversight and Government Reform</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsgo00</systemCode>
+            <name>Oversight and Accountability Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2010-03-25</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2010-03-25</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>Q000023</bioguideId>
+        <fullName>Rep. Quigley, Mike [D-IL-5]</fullName>
+        <firstName>Mike</firstName>
+        <lastName>Quigley</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <district>5</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>S001175</bioguideId>
+        <fullName>Rep. Speier, Jackie [D-CA-12]</fullName>
+        <firstName>Jackie</firstName>
+        <lastName>Speier</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>12</district>
+        <sponsorshipDate>2010-05-11</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Congress</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Advisory bodies</name>
+        </item>
+        <item>
+          <name>Appropriations</name>
+        </item>
+        <item>
+          <name>Congressional Research Service (CRS)</name>
+        </item>
+        <item>
+          <name>Congressional agencies</name>
+        </item>
+        <item>
+          <name>Congressional committees</name>
+        </item>
+        <item>
+          <name>Congressional officers and employees</name>
+        </item>
+        <item>
+          <name>Congressional oversight</name>
+        </item>
+        <item>
+          <name>Elections, voting, political campaign regulation</name>
+        </item>
+        <item>
+          <name>Freedom of information</name>
+        </item>
+        <item>
+          <name>Government ethics and transparency, public corruption</name>
+        </item>
+        <item>
+          <name>Government information and archives</name>
+        </item>
+        <item>
+          <name>Government studies and investigations</name>
+        </item>
+        <item>
+          <name>Income tax credits</name>
+        </item>
+        <item>
+          <name>Income tax deductions</name>
+        </item>
+        <item>
+          <name>Income tax exclusion</name>
+        </item>
+        <item>
+          <name>Intelligence activities, surveillance, classified information</name>
+        </item>
+        <item>
+          <name>Internet and video services</name>
+        </item>
+        <item>
+          <name>Internet, web applications, social media</name>
+        </item>
+        <item>
+          <name>Legislative rules and procedure</name>
+        </item>
+        <item>
+          <name>Libraries and archives</name>
+        </item>
+        <item>
+          <name>Library of Congress</name>
+        </item>
+        <item>
+          <name>Licensing and registrations</name>
+        </item>
+        <item>
+          <name>Members of Congress</name>
+        </item>
+        <item>
+          <name>Political advertising</name>
+        </item>
+        <item>
+          <name>Public contracts and procurement</name>
+        </item>
+        <item>
+          <name>Public participation and lobbying</name>
+        </item>
+        <item>
+          <name>Tariffs</name>
+        </item>
+        <item>
+          <name>Travel and tourism</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Congress</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2010-03-25</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2010-05-26T16:13:01Z</updateDate>
+        <text><![CDATA[ <p>Transparency in Government Act of 2010 - Amends the Ethics in Government Act of 1978 to revise or prescribe requirements for greater disclosure and electronic filing of personal financial information by Members of Congress and congressional officers and employees.</p> <p>Amends Rule XXVI (Financial Disclosure) of the Rules of the House of Representatives to require the Clerk of the House and the Secretary of the Senate to make each financial quarterly report filed by a Member, congressional officer, or employee available within 48 hours after its receipt on the Clerk's or Secretary's website.</p> <p>Amends Rule X (Organization of Committees) to require reports filed on foreign travel with the chair of a committee to be posted on the committee's Internet site within 48 hours after their receipt.</p> <p>Amends Rule XXV (Limitations on Outside Earned Income and Acceptance of Gifts) to require all advance authorizations, certifications, and gift reports filed with the Clerk to be posted publicly on the Clerk's Internet site within 48 hours after their receipt.</p> <p>Amends Rule XXIII (Code of Official Conduct) to require any Member who requests a congressional earmark, a limited tax benefit, or a limited tariff benefit to post on his or her public website, within 24 hours after making such request, and for the remainder of the Congress: (1) the name and address of the intended recipient; (2) whether the recipient is a for-profit or not-for-profit entity; (3) the requested congressional earmark amount; and (4) an explanation of the request, including the purpose, and why it is a valuable use of taxpayer funds.</p> <p>Amends Rule XI (Procedures of Committees and Unfinished Business) to require any committee that accepts a Member's request for a congressional earmark or a limited tax or tariff benefit to maintain a public website with an earmark disclosure webpage that contains specified earmark information.</p> <p></p> <p>Requires the Clerk, the Secretary, and the chairs of specified congressional committees to create one centralized database where all requests for earmarks and limited tax and tariff benefits are publicly available on the Internet.</p> <p>Amends Rule XI to require each committee to post on its Internet website: (1) each of its recorded votes within 24 hours; and (2) its public hearings and markup schedules, as well as those of its subcommittees, at the same time that information is made available to members of the committee.</p> <p>Requires a committee or subcommittee to post on its Internet website, within 24 hours after ordering any bill or resolution to be reported, all amendments agreed to, except technical or conforming amendments.</p> <p>Amends Rule II (Other Officers and Officials) to direct the Clerk to require the House to provide a list of all committee and subcommittee public hearings and markup schedules, including links to committee websites.</p> <p>Amends Rule XIII (Calendar and Committee Reports) to make it out of order to consider any legislation until 72 hours (excluding Saturdays, Sundays and holidays except when the House is in session on such a day) after it has been made publicly available to Members and the general public. Amends Rule XXII (House and Senate Relations) to make it similarly out of order to consider a conference report and its accompanying joint statement or amendment until 72 hours after they have been made available to Members and the general public.</p> <p>Prescribes requirements for protection of classified information and increased transparency of recorded votes.</p> <p>Requires the Clerk to make the following Congressional Research Service (CRS) information publicly available on the Internet: (1) CRS Issue Briefs; (2) CRS Reports that are available to Members through the CRS website; and (3) CRS Authorization of Appropriations and Appropriations Products. Exempts from this requirement information deemed confidential by the Director of CRS or the head of the federal department or agency that provided such information and confidential research requests made by an individual, office, or committee.</p> <p></p> <p></p> <p>Requires the Comptroller General to study and report to Congress on whether certain individuals are complying with the registration and reporting requirements of the Lobbying Disclosure Act of 1995 (LDA).</p> <p>Amends the LDA to revise or prescribe requirements for: (1) expedited online registration of lobbyists; (2) LDA exemptions; (3) disclosure of additional information by lobbyists; and (4) disclosure of political contributions.</p> <p>Amends the Federal Funding Accountability and Transparency Act of 2006 to provide transparency in federal contracting by revising the application programming interface and data elements of the federal funding website established by the Office of Management and Budget (OMB).</p> <p>Requires the OMB Director to ensure that: (1) a simple method for the public to report errors on the website is available; and (2) the unique identifier used to link information on the website about the award recipient is also used to link information about that recipient on the Federal Awardee Performance Integrity Information System.</p> <p>Amends the Duncan Hunter National Defense Authorization Act of Fiscal Year 2009 to revise or prescribe requirements for the System's database.</p> <p>Revises OMB collection and reporting requirements with respect to subaward data on federal contracts.</p> <p>Prescribes requirements for: (1) disclosure of federal sponsorship of all federal advertising or other communications paid for by an executive agency, either directly or through a contract awarded by such agency; and (2) digital access to completed responses to the Freedom of Information Act.</p> <p>Establishes a Commission on Freedom of Information Act Processing Delays.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Transparency in Government Act of 2010</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Transparency in Government Act of 2010</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Transparency in Government Act of 2010</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend the Ethics in Government Act of 1978, the Rules of the House of Representatives, the Lobbying Disclosure Act of 1995, and the Federal Funding Accountability and Transparency Act of 2006 to improve access to information in the legislative and executive branches of the Government, and for other purposes.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2010-03-25T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-111hr4983ih/xml/BILLS-111hr4983ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2010-06-15</actionDate>
+      <text>Referred to the Subcommittee on the Constitution, Civil Rights, and Civil Liberties.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

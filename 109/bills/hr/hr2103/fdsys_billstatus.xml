@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>2103</number>
+    <updateDate>2022-02-03T05:35:37Z</updateDate>
+    <updateDateIncludingText>2022-02-03T05:35:37Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2005-05-04</introducedDate>
+    <congress>109</congress>
+    <committees>
+      <item>
+        <systemCode>hsju00</systemCode>
+        <name>Judiciary Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsju08</systemCode>
+            <name>Crime and Federal Government Surveillance Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2005-06-06T20:50:00Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2005-05-04T14:02:10Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2005-06-06</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsju08</systemCode>
+            <name>Crime and Federal Government Surveillance Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2005-05-04</actionDate>
+        <text>Referred to the House Committee on the Judiciary.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2005-05-04</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2005-05-04</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>M001134</bioguideId>
+        <fullName>Rep. Myrick, Sue Wilkins [R-NC-9]</fullName>
+        <firstName>SUE</firstName>
+        <lastName>MYRICK</lastName>
+        <party>R</party>
+        <state>NC</state>
+        <middleName>WILKINS</middleName>
+        <district>9</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>P000099</bioguideId>
+        <fullName>Rep. Pastor, Ed [D-AZ-4]</fullName>
+        <firstName>ED</firstName>
+        <lastName>PASTOR</lastName>
+        <party>D</party>
+        <state>AZ</state>
+        <district>4</district>
+        <sponsorshipDate>2005-05-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000545</bioguideId>
+        <fullName>Rep. Green, Mark [R-WI-8]</fullName>
+        <firstName>MARK</firstName>
+        <lastName>GREEN</lastName>
+        <party>R</party>
+        <state>WI</state>
+        <district>8</district>
+        <sponsorshipDate>2005-05-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>O000159</bioguideId>
+        <fullName>Rep. Owens, Major R. [D-NY-11]</fullName>
+        <firstName>MAJOR</firstName>
+        <lastName>OWENS</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>R.</middleName>
+        <district>11</district>
+        <sponsorshipDate>2005-05-26</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>N000015</bioguideId>
+        <fullName>Rep. Neal, Richard E. [D-MA-2]</fullName>
+        <firstName>RICHARD</firstName>
+        <lastName>NEAL</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>E.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2005-05-26</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001156</bioguideId>
+        <fullName>Rep. McHenry, Patrick T. [R-NC-10]</fullName>
+        <firstName>Patrick</firstName>
+        <lastName>McHenry</lastName>
+        <party>R</party>
+        <state>NC</state>
+        <district>10</district>
+        <sponsorshipDate>2005-05-26</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000435</bioguideId>
+        <fullName>Rep. Ros-Lehtinen, Ileana [R-FL-18]</fullName>
+        <firstName>ILEANA</firstName>
+        <lastName>ROS-LEHTINEN</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>18</district>
+        <sponsorshipDate>2005-06-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000714</bioguideId>
+        <fullName>Rep. Millender-McDonald, Juanita [D-CA-37]</fullName>
+        <firstName>JUANITA</firstName>
+        <lastName>MILLENDER-MCDONALD</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <middleName>M.</middleName>
+        <district>37</district>
+        <sponsorshipDate>2005-06-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000672</bioguideId>
+        <fullName>Rep. Wolf, Frank R. [R-VA-10]</fullName>
+        <firstName>FRANK</firstName>
+        <lastName>WOLF</lastName>
+        <party>R</party>
+        <state>VA</state>
+        <middleName>R.</middleName>
+        <district>10</district>
+        <sponsorshipDate>2005-06-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001227</bioguideId>
+        <fullName>Rep. Brady, Robert A. [D-PA-1]</fullName>
+        <firstName>ROBERT</firstName>
+        <lastName>BRADY</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <middleName>A.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2005-06-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001062</bioguideId>
+        <fullName>Rep. Conaway, K. Michael [R-TX-11]</fullName>
+        <firstName>K.</firstName>
+        <lastName>Conaway</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <middleName>Michael</middleName>
+        <district>11</district>
+        <sponsorshipDate>2005-06-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000738</bioguideId>
+        <fullName>Rep. Woolsey, Lynn C. [D-CA-6]</fullName>
+        <firstName>LYNN</firstName>
+        <lastName>WOOLSEY</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>6</district>
+        <sponsorshipDate>2005-07-13</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000523</bioguideId>
+        <fullName>Rep. McKinney, Cynthia A. [D-GA-4]</fullName>
+        <firstName>CYNTHIA</firstName>
+        <lastName>MCKINNEY</lastName>
+        <party>D</party>
+        <state>GA</state>
+        <middleName>A.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2005-07-13</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001157</bioguideId>
+        <fullName>Rep. McCaul, Michael T. [R-TX-10]</fullName>
+        <firstName>Michael</firstName>
+        <lastName>McCaul</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <middleName>T.</middleName>
+        <district>10</district>
+        <sponsorshipDate>2005-07-13</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000260</bioguideId>
+        <fullName>Rep. Tiahrt, Todd [R-KS-4]</fullName>
+        <firstName>TODD</firstName>
+        <lastName>TIAHRT</lastName>
+        <party>R</party>
+        <state>KS</state>
+        <district>4</district>
+        <sponsorshipDate>2005-09-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000265</bioguideId>
+        <fullName>Rep. Petri, Thomas E. [R-WI-6]</fullName>
+        <firstName>TOM</firstName>
+        <lastName>PETRI</lastName>
+        <party>R</party>
+        <state>WI</state>
+        <district>6</district>
+        <sponsorshipDate>2006-03-28</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000149</bioguideId>
+        <fullName>Rep. Payne, Donald M. [D-NJ-10]</fullName>
+        <firstName>DONALD</firstName>
+        <lastName>PAYNE</lastName>
+        <party>D</party>
+        <state>NJ</state>
+        <middleName>M.</middleName>
+        <district>10</district>
+        <sponsorshipDate>2006-06-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001245</bioguideId>
+        <fullName>Del. Bordallo, Madeleine Z. [D-GU-At Large]</fullName>
+        <firstName>Madeleine</firstName>
+        <lastName>Bordallo</lastName>
+        <party>D</party>
+        <state>GU</state>
+        <middleName>Z.</middleName>
+        <district>0</district>
+        <sponsorshipDate>2006-06-26</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000172</bioguideId>
+        <fullName>Rep. Emerson, Jo Ann [R-MO-8]</fullName>
+        <firstName>JO</firstName>
+        <lastName>EMERSON</lastName>
+        <party>R</party>
+        <state>MO</state>
+        <middleName>ANN</middleName>
+        <district>8</district>
+        <sponsorshipDate>2006-06-28</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000444</bioguideId>
+        <fullName>Rep. Hefley, Joel [R-CO-5]</fullName>
+        <firstName>JOEL</firstName>
+        <lastName>HEFLEY</lastName>
+        <party>R</party>
+        <state>CO</state>
+        <district>5</district>
+        <sponsorshipDate>2006-06-29</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000592</bioguideId>
+        <fullName>Rep. Poe, Ted [R-TX-2]</fullName>
+        <firstName>Ted</firstName>
+        <lastName>Poe</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>2</district>
+        <sponsorshipDate>2006-06-29</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000544</bioguideId>
+        <fullName>Rep. Gonzalez, Charles A. [D-TX-20]</fullName>
+        <firstName>CHARLES</firstName>
+        <lastName>GONZALEZ</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <middleName>A.</middleName>
+        <district>20</district>
+        <sponsorshipDate>2006-06-29</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000522</bioguideId>
+        <fullName>Rep. Smith, Christopher H. [R-NJ-4]</fullName>
+        <firstName>CHRISTOPHER</firstName>
+        <lastName>SMITH</lastName>
+        <party>R</party>
+        <state>NJ</state>
+        <middleName>H.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2006-07-13</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001149</bioguideId>
+        <fullName>Rep. Burton, Dan [R-IN-5]</fullName>
+        <firstName>DAN</firstName>
+        <lastName>BURTON</lastName>
+        <party>R</party>
+        <state>IN</state>
+        <district>5</district>
+        <sponsorshipDate>2006-07-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000309</bioguideId>
+        <fullName>Rep. McCarthy, Carolyn [D-NY-4]</fullName>
+        <firstName>CAROLYN</firstName>
+        <lastName>MCCARTHY</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <district>4</district>
+        <sponsorshipDate>2006-11-13</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Crime and Law Enforcement</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Crime prevention</name>
+        </item>
+        <item>
+          <name>Crimes against the elderly</name>
+        </item>
+        <item>
+          <name>Criminal investigation</name>
+        </item>
+        <item>
+          <name>Criminal justice information</name>
+        </item>
+        <item>
+          <name>Data banks</name>
+        </item>
+        <item>
+          <name>Disabled</name>
+        </item>
+        <item>
+          <name>Economics and Public Finance</name>
+        </item>
+        <item>
+          <name>Families</name>
+        </item>
+        <item>
+          <name>Family services</name>
+        </item>
+        <item>
+          <name>Federal aid to law enforcement</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Government publicity</name>
+        </item>
+        <item>
+          <name>Labor and Employment</name>
+        </item>
+        <item>
+          <name>Missing persons</name>
+        </item>
+        <item>
+          <name>Nonprofit organizations</name>
+        </item>
+        <item>
+          <name>Police training</name>
+        </item>
+        <item>
+          <name>Prosecution</name>
+        </item>
+        <item>
+          <name>Science, Technology, Communications</name>
+        </item>
+        <item>
+          <name>Social Welfare</name>
+        </item>
+        <item>
+          <name>Victims of crimes</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Crime and Law Enforcement</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2005-05-04</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2005-05-18T19:50:08Z</updateDate>
+        <text><![CDATA[ <p>Kristen's Act Reauthorization of 2005 - Directs the Attorney General, acting through the Director of the Bureau of Justice Assistance, to make grants to public agencies and/or nonprofit private organizations to: (1) maintain a national resource center and information clearinghouse for missing and unidentified adults; (2) maintain a national, interconnected database for tracking missing adults who are determined by law enforcement to be endangered due to age, diminished mental capacity, or the circumstances of disappearance, when foul play is suspected or circumstances are unknown; (3) coordinate public and private programs that locate or recover missing adults or reunite missing adults with their families; (4) provide assistance and training to law enforcement agencies, State and local governments, elements of the criminal justice system, nonprofit organizations, and individuals in the prevention, investigation, prosecution, and treatment of cases involving missing adults; (5) provide assistance to families in locating and recovering missing adults; and (6) assist in public notification and victim advocacy related to missing adults.</p> <p>Directs the Attorney General, through the Director, to: (1) coordinate Government-funded programs relating to missing adults; and (2) provide the public agencies or nonprofit private organizations receiving grants to maintain a national resource center and information clearinghouse for missing and unidentified adults with access to the Federal Bureau of Investigation's National Crime Information Center.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Kristen's Act Reauthorization of 2005</title>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Kristen's Act Reauthorization of 2005</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Kristen's Act Reauthorization of 2005</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To authorize the Attorney General to provide grants for organizations to find missing adults.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2005-05-04T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-109hr2103ih/xml/BILLS-109hr2103ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2005-06-06</actionDate>
+      <text>Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

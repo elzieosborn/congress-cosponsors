@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>486</number>
+    <updateDate>2023-01-15T21:19:36Z</updateDate>
+    <updateDateIncludingText>2023-01-15T21:19:36Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2003-01-29</introducedDate>
+    <congress>108</congress>
+    <committees>
+      <item>
+        <systemCode>hsif00</systemCode>
+        <name>Energy and Commerce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2003-02-14T19:32:12Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2003-01-29T17:08:45Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2003-02-14</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2003-01-29</actionDate>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2003-01-29</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2003-01-29</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>V000127</bioguideId>
+        <fullName>Rep. Vitter, David [R-LA-1]</fullName>
+        <firstName>David</firstName>
+        <lastName>Vitter</lastName>
+        <party>R</party>
+        <state>LA</state>
+        <district>1</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>R000566</bioguideId>
+        <fullName>Rep. Ryun, Jim [R-KS-2]</fullName>
+        <firstName>JIM</firstName>
+        <lastName>RYUN</lastName>
+        <party>R</party>
+        <state>KS</state>
+        <district>2</district>
+        <sponsorshipDate>2003-03-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000461</bioguideId>
+        <fullName>Rep. Toomey, Patrick J. [R-PA-15]</fullName>
+        <firstName>PATRICK</firstName>
+        <lastName>TOOMEY</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <middleName>J.</middleName>
+        <district>15</district>
+        <sponsorshipDate>2003-03-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000640</bioguideId>
+        <fullName>Rep. Collins, Mac [R-GA-8]</fullName>
+        <firstName>MAC</firstName>
+        <lastName>COLLINS</lastName>
+        <party>R</party>
+        <state>GA</state>
+        <district>8</district>
+        <sponsorshipDate>2003-07-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000267</bioguideId>
+        <fullName>Rep. Weldon, Dave [R-FL-15]</fullName>
+        <firstName>DAVE</firstName>
+        <lastName>WELDON</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>15</district>
+        <sponsorshipDate>2003-07-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000437</bioguideId>
+        <fullName>Rep. Wicker, Roger F. [R-MS-1]</fullName>
+        <firstName>Roger</firstName>
+        <lastName>Wicker</lastName>
+        <party>R</party>
+        <state>MS</state>
+        <middleName>F.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2003-07-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001036</bioguideId>
+        <fullName>Rep. Hensarling, Jeb [R-TX-5]</fullName>
+        <firstName>Jeb</firstName>
+        <lastName>Hensarling</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>5</district>
+        <sponsorshipDate>2003-07-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000208</bioguideId>
+        <fullName>Rep. Bartlett, Roscoe G. [R-MD-6]</fullName>
+        <firstName>ROSCOE</firstName>
+        <lastName>BARTLETT</lastName>
+        <party>R</party>
+        <state>MD</state>
+        <middleName>G.</middleName>
+        <district>6</district>
+        <sponsorshipDate>2003-07-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000213</bioguideId>
+        <fullName>Rep. Barton, Joe [R-TX-6]</fullName>
+        <firstName>JOE</firstName>
+        <lastName>BARTON</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <middleName>L.</middleName>
+        <district>6</district>
+        <sponsorshipDate>2003-07-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000445</bioguideId>
+        <fullName>Rep. Forbes, J. Randy [R-VA-4]</fullName>
+        <firstName>J.</firstName>
+        <lastName>Forbes</lastName>
+        <party>R</party>
+        <state>VA</state>
+        <middleName>Randy</middleName>
+        <district>4</district>
+        <sponsorshipDate>2003-07-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000597</bioguideId>
+        <fullName>Rep. Davis, Jo Ann [R-VA-1]</fullName>
+        <firstName>JO ANN</firstName>
+        <lastName>DAVIS</lastName>
+        <party>R</party>
+        <state>VA</state>
+        <district>1</district>
+        <sponsorshipDate>2003-07-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000323</bioguideId>
+        <fullName>Rep. Pickering, Charles W. "Chip" [R-MS-3]</fullName>
+        <firstName>CHARLES</firstName>
+        <lastName>PICKERING</lastName>
+        <party>R</party>
+        <state>MS</state>
+        <middleName>W.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2003-07-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000364</bioguideId>
+        <fullName>Rep. Shimkus, John [R-IL-19]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>SHIMKUS</lastName>
+        <party>R</party>
+        <state>IL</state>
+        <middleName>M.</middleName>
+        <district>19</district>
+        <sponsorshipDate>2003-07-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001052</bioguideId>
+        <fullName>Rep. Chocola, Chris [R-IN-2]</fullName>
+        <firstName>Chris</firstName>
+        <lastName>Chocola</lastName>
+        <party>R</party>
+        <state>IN</state>
+        <district>2</district>
+        <sponsorshipDate>2003-07-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001152</bioguideId>
+        <fullName>Rep. Musgrave, Marilyn N. [R-CO-4]</fullName>
+        <firstName>Marilyn</firstName>
+        <lastName>Musgrave</lastName>
+        <party>R</party>
+        <state>CO</state>
+        <middleName>N.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2003-07-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000676</bioguideId>
+        <fullName>Rep. Hoekstra, Peter [R-MI-2]</fullName>
+        <firstName>PETER</firstName>
+        <lastName>HOEKSTRA</lastName>
+        <party>R</party>
+        <state>MI</state>
+        <district>2</district>
+        <sponsorshipDate>2003-07-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001143</bioguideId>
+        <fullName>Rep. Souder, Mark E. [R-IN-3]</fullName>
+        <firstName>MARK</firstName>
+        <lastName>SOUDER</lastName>
+        <party>R</party>
+        <state>IN</state>
+        <middleName>EDWARD</middleName>
+        <district>3</district>
+        <sponsorshipDate>2003-07-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000459</bioguideId>
+        <fullName>Rep. Terry, Lee [R-NE-2]</fullName>
+        <firstName>LEE</firstName>
+        <lastName>TERRY</lastName>
+        <party>R</party>
+        <state>NE</state>
+        <district>2</district>
+        <sponsorshipDate>2003-07-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000574</bioguideId>
+        <fullName>Rep. Renzi, Rick [R-AZ-1]</fullName>
+        <firstName>Rick</firstName>
+        <lastName>Renzi</lastName>
+        <party>R</party>
+        <state>AZ</state>
+        <district>1</district>
+        <sponsorshipDate>2003-07-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000522</bioguideId>
+        <fullName>Rep. Smith, Christopher H. [R-NJ-4]</fullName>
+        <firstName>CHRISTOPHER</firstName>
+        <lastName>SMITH</lastName>
+        <party>R</party>
+        <state>NJ</state>
+        <middleName>H.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2003-07-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000373</bioguideId>
+        <fullName>Rep. Pitts, Joseph R. [R-PA-16]</fullName>
+        <firstName>JOSEPH</firstName>
+        <lastName>PITTS</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <middleName>R.</middleName>
+        <district>16</district>
+        <sponsorshipDate>2003-07-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000595</bioguideId>
+        <fullName>Rep. DeMint, Jim [R-SC-4]</fullName>
+        <firstName>Jim</firstName>
+        <lastName>DeMint</lastName>
+        <party>R</party>
+        <state>SC</state>
+        <district>4</district>
+        <sponsorshipDate>2003-10-02</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000807</bioguideId>
+        <fullName>Rep. Hostettler, John N. [R-IN-8]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>HOSTETTLER</lastName>
+        <party>R</party>
+        <state>IN</state>
+        <district>8</district>
+        <sponsorshipDate>2003-10-02</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001155</bioguideId>
+        <fullName>Rep. Sullivan, John [R-OK-1]</fullName>
+        <firstName>John</firstName>
+        <lastName>Sullivan</lastName>
+        <party>R</party>
+        <state>OK</state>
+        <district>1</district>
+        <sponsorshipDate>2003-10-02</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000072</bioguideId>
+        <fullName>Rep. Baker, Richard H. [R-LA-6]</fullName>
+        <firstName>RICHARD</firstName>
+        <lastName>BAKER</lastName>
+        <party>R</party>
+        <state>LA</state>
+        <middleName>H.</middleName>
+        <district>6</district>
+        <sponsorshipDate>2003-10-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001150</bioguideId>
+        <fullName>Rep. Miller, Candice S. [R-MI-10]</fullName>
+        <firstName>Candice</firstName>
+        <lastName>Miller</lastName>
+        <party>R</party>
+        <state>MI</state>
+        <middleName>S.</middleName>
+        <district>10</district>
+        <sponsorshipDate>2003-10-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001147</bioguideId>
+        <fullName>Rep. McCotter, Thaddeus G. [R-MI-11]</fullName>
+        <firstName>Thaddeus</firstName>
+        <lastName>McCotter</lastName>
+        <party>R</party>
+        <state>MI</state>
+        <middleName>G.</middleName>
+        <district>11</district>
+        <sponsorshipDate>2003-10-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000280</bioguideId>
+        <fullName>Rep. Goode, Virgil H., Jr. [R-VA-5]</fullName>
+        <firstName>VIRGIL</firstName>
+        <lastName>GOODE</lastName>
+        <party>R</party>
+        <state>VA</state>
+        <middleName>H.</middleName>
+        <district>5</district>
+        <sponsorshipDate>2003-10-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000873</bioguideId>
+        <fullName>Rep. Crane, Philip M. [R-IL-8]</fullName>
+        <firstName>PHILIP</firstName>
+        <lastName>CRANE</lastName>
+        <party>R</party>
+        <state>IL</state>
+        <middleName>M.</middleName>
+        <district>8</district>
+        <sponsorshipDate>2003-10-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000558</bioguideId>
+        <fullName>Rep. Lucas, Ken [D-KY-4]</fullName>
+        <firstName>KEN</firstName>
+        <lastName>LUCAS</lastName>
+        <party>D</party>
+        <state>KY</state>
+        <district>4</district>
+        <sponsorshipDate>2003-10-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001240</bioguideId>
+        <fullName>Rep. Beauprez, Bob [R-CO-7]</fullName>
+        <firstName>Bob</firstName>
+        <lastName>Beauprez</lastName>
+        <party>R</party>
+        <state>CO</state>
+        <district>7</district>
+        <sponsorshipDate>2003-10-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000587</bioguideId>
+        <fullName>Rep. Pence, Mike [R-IN-6]</fullName>
+        <firstName>MIKE</firstName>
+        <lastName>PENCE</lastName>
+        <party>R</party>
+        <state>IN</state>
+        <district>6</district>
+        <sponsorshipDate>2003-10-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001046</bioguideId>
+        <fullName>Rep. Cantor, Eric [R-VA-7]</fullName>
+        <firstName>ERIC</firstName>
+        <lastName>CANTOR</lastName>
+        <party>R</party>
+        <state>VA</state>
+        <district>7</district>
+        <sponsorshipDate>2003-11-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001134</bioguideId>
+        <fullName>Rep. Myrick, Sue Wilkins [R-NC-9]</fullName>
+        <firstName>SUE</firstName>
+        <lastName>MYRICK</lastName>
+        <party>R</party>
+        <state>NC</state>
+        <middleName>WILKINS</middleName>
+        <district>9</district>
+        <sponsorshipDate>2003-11-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000443</bioguideId>
+        <fullName>Rep. Ferguson, Mike [R-NJ-7]</fullName>
+        <firstName>MIKE</firstName>
+        <lastName>FERGUSON</lastName>
+        <party>R</party>
+        <state>NJ</state>
+        <district>7</district>
+        <sponsorshipDate>2003-11-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001239</bioguideId>
+        <fullName>Rep. Barrett, J. Gresham [R-SC-3]</fullName>
+        <firstName>J.</firstName>
+        <lastName>Barrett</lastName>
+        <party>R</party>
+        <state>SC</state>
+        <middleName>Gresham</middleName>
+        <district>3</district>
+        <sponsorshipDate>2003-11-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000822</bioguideId>
+        <fullName>Rep. Stearns, Cliff [R-FL-6]</fullName>
+        <firstName>CLIFF</firstName>
+        <lastName>STEARNS</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>6</district>
+        <sponsorshipDate>2003-11-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000448</bioguideId>
+        <fullName>Rep. Franks, Trent [R-AZ-2]</fullName>
+        <firstName>Trent</firstName>
+        <lastName>Franks</lastName>
+        <party>R</party>
+        <state>AZ</state>
+        <district>2</district>
+        <sponsorshipDate>2003-11-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000962</bioguideId>
+        <fullName>Rep. Cubin, Barbara [R-WY-At Large]</fullName>
+        <firstName>BARBARA</firstName>
+        <lastName>CUBIN</lastName>
+        <party>R</party>
+        <state>WY</state>
+        <district>0</district>
+        <sponsorshipDate>2003-11-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001138</bioguideId>
+        <fullName>Rep. Manzullo, Donald A. [R-IL-16]</fullName>
+        <firstName>DONALD</firstName>
+        <lastName>MANZULLO</lastName>
+        <party>R</party>
+        <state>IL</state>
+        <district>16</district>
+        <sponsorshipDate>2003-11-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001243</bioguideId>
+        <fullName>Rep. Blackburn, Marsha [R-TN-7]</fullName>
+        <firstName>Marsha</firstName>
+        <lastName>Blackburn</lastName>
+        <party>R</party>
+        <state>TN</state>
+        <district>7</district>
+        <sponsorshipDate>2003-11-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000265</bioguideId>
+        <fullName>Rep. Petri, Thomas E. [R-WI-6]</fullName>
+        <firstName>TOM</firstName>
+        <lastName>PETRI</lastName>
+        <party>R</party>
+        <state>WI</state>
+        <district>6</district>
+        <sponsorshipDate>2003-11-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000293</bioguideId>
+        <fullName>Rep. Lewis, Ron [R-KY-2]</fullName>
+        <firstName>RON</firstName>
+        <lastName>LEWIS</lastName>
+        <party>R</party>
+        <state>KY</state>
+        <district>2</district>
+        <sponsorshipDate>2003-11-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Abortion</name>
+        </item>
+        <item>
+          <name>Administrative procedure</name>
+        </item>
+        <item>
+          <name>Continuing education</name>
+        </item>
+        <item>
+          <name>Contraceptives</name>
+        </item>
+        <item>
+          <name>Curricula</name>
+        </item>
+        <item>
+          <name>Department of Health and Human Services</name>
+        </item>
+        <item>
+          <name>Drug approvals</name>
+        </item>
+        <item>
+          <name>Drugs</name>
+        </item>
+        <item>
+          <name>Education</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Higher education</name>
+        </item>
+        <item>
+          <name>Imaging systems in medicine</name>
+        </item>
+        <item>
+          <name>Law</name>
+        </item>
+        <item>
+          <name>Medical education</name>
+        </item>
+        <item>
+          <name>Medical personnel</name>
+        </item>
+        <item>
+          <name>Medical tests</name>
+        </item>
+        <item>
+          <name>Physicians</name>
+        </item>
+        <item>
+          <name>Pregnancy</name>
+        </item>
+        <item>
+          <name>Transportation and Public Works</name>
+        </item>
+        <item>
+          <name>Travel</name>
+        </item>
+        <item>
+          <name>Women</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Health</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2003-01-29</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2006-11-28T17:35:40Z</updateDate>
+        <text><![CDATA[RU-486 Patient Health and Safety Protection Act - Restricts the prescribing of the drug mifepristone (commonly referred to as RU-486, to be marketed as Mifeprex) to physicians who meet specified requirements.]]></text>
+      </summary>
+    </summaries>
+    <title>RU-486 Patient Health and Safety Protection Act</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>RU-486 Patient Health and Safety Protection Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To require the Food and Drug Administration to establish restrictions regarding the qualifications of physicians to prescribe the abortion drug commonly known as RU-486.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>RU-486 Patient Health and Safety Protection Act</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2003-01-29T05:00:00Z</date>
+        <formats/>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2003-02-14</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

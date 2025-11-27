@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>759</number>
+    <updateDate>2019-11-15T21:56:14Z</updateDate>
+    <updateDateIncludingText>2023-01-12T12:19:20Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <originChamberCode>S</originChamberCode>
+    <type>S</type>
+    <introducedDate>2005-04-11</introducedDate>
+    <congress>109</congress>
+    <committees>
+      <item>
+        <systemCode>ssfi00</systemCode>
+        <name>Finance Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2005-07-01T19:10:45Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>ssju00</systemCode>
+        <name>Judiciary Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Discharged from</name>
+            <date>2005-07-01T19:10:18Z</date>
+          </item>
+          <item>
+            <name>Referred to</name>
+            <date>2005-04-11T22:58:00Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2005-07-01</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssfi00</systemCode>
+            <name>Finance Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Referred to the Committee on Finance.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2005-07-01</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Senate Committee on the Judiciary discharged by Unanimous Consent.</text>
+        <type>Discharge</type>
+      </item>
+      <item>
+        <actionDate>2005-07-01</actionDate>
+        <text>Senate Committee on the Judiciary discharged by Unanimous Consent.</text>
+        <type>Committee</type>
+        <actionCode>14500</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>ssju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2005-04-11</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on the Judiciary. (text of measure as introduced: CR S3432)</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2005-04-11</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>S000148</bioguideId>
+        <fullName>Sen. Schumer, Charles E. [D-NY]</fullName>
+        <firstName>Charles</firstName>
+        <lastName>Schumer</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>E.</middleName>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>B000444</bioguideId>
+        <fullName>Sen. Biden, Joseph R., Jr. [D-DE]</fullName>
+        <firstName>JOSEPH</firstName>
+        <lastName>BIDEN</lastName>
+        <party>D</party>
+        <state>DE</state>
+        <middleName>ROBINETTE</middleName>
+        <sponsorshipDate>2005-04-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000663</bioguideId>
+        <fullName>Sen. Snowe, Olympia J. [R-ME]</fullName>
+        <firstName>Olympia</firstName>
+        <lastName>Snowe</lastName>
+        <party>R</party>
+        <state>ME</state>
+        <middleName>J.</middleName>
+        <sponsorshipDate>2005-04-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000563</bioguideId>
+        <fullName>Sen. Durbin, Richard J. [D-IL]</fullName>
+        <firstName>Richard</firstName>
+        <lastName>Durbin</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>J.</middleName>
+        <sponsorshipDate>2005-04-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001142</bioguideId>
+        <fullName>Sen. Smith, Gordon H. [R-OR]</fullName>
+        <firstName>GORDON</firstName>
+        <lastName>SMITH</lastName>
+        <party>R</party>
+        <state>OR</state>
+        <middleName>H.</middleName>
+        <sponsorshipDate>2005-04-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001233</bioguideId>
+        <fullName>Sen. Bayh, Evan [D-IN]</fullName>
+        <firstName>EVAN</firstName>
+        <lastName>BAYH</lastName>
+        <party>D</party>
+        <state>IN</state>
+        <sponsorshipDate>2005-06-29</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000711</bioguideId>
+        <fullName>Sen. Boxer, Barbara [D-CA]</fullName>
+        <firstName>BARBARA</firstName>
+        <lastName>BOXER</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <sponsorshipDate>2005-10-06</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000127</bioguideId>
+        <fullName>Sen. Cantwell, Maria [D-WA]</fullName>
+        <firstName>Maria</firstName>
+        <lastName>Cantwell</lastName>
+        <party>D</party>
+        <state>WA</state>
+        <sponsorshipDate>2006-11-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Taxation</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>College costs</name>
+        </item>
+        <item>
+          <name>Congress</name>
+        </item>
+        <item>
+          <name>Cost of living adjustments</name>
+        </item>
+        <item>
+          <name>Economics and Public Finance</name>
+        </item>
+        <item>
+          <name>Education</name>
+        </item>
+        <item>
+          <name>Finance and Financial Sector</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Higher education</name>
+        </item>
+        <item>
+          <name>Income tax</name>
+        </item>
+        <item>
+          <name>Indexing (Economic policy)</name>
+        </item>
+        <item>
+          <name>Interest</name>
+        </item>
+        <item>
+          <name>Labor and Employment</name>
+        </item>
+        <item>
+          <name>Student loan funds</name>
+        </item>
+        <item>
+          <name>Sunset legislation</name>
+        </item>
+        <item>
+          <name>Tax credits</name>
+        </item>
+        <item>
+          <name>Tax deductions</name>
+        </item>
+        <item>
+          <name>Vocational and technical education</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Taxation</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2005-04-11</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2005-05-06T20:10:25Z</updateDate>
+        <text><![CDATA[ <p>Make College Affordable Act of 2005 - Amends the Internal Revenue Code to: (1) increase the amount of the tax deduction for higher education tuition and related expenses; and (2) allow a tax credit for up to $1,500 of the interest paid annually on certain student loans for higher education expenses. Reduces the allowable amount of both the tax deduction and the tax credit based upon taxpayer adjusted gross income levels. Provides for an inflation adjustment for calendar years after 2005 to such adjusted gross income levels. </p> <p>Makes the tax deduction for higher education tuition and related expenses permanent.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Make College Affordable Act of 2005</title>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Make College Affordable Act of 2005</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Make College Affordable Act of 2005</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to amend the Internal Revenue Code of 1986 to make higher education more affordable, and for other purposes.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Committee Discharged Senate</type>
+        <date>2005-07-01T04:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2005-04-11T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-109s759is/xml/BILLS-109s759is.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2005-07-01</actionDate>
+      <text>Referred to the Committee on Finance.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

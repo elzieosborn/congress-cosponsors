@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>1426</number>
+    <updateDate>2023-01-11T19:54:42Z</updateDate>
+    <updateDateIncludingText>2023-01-11T19:54:42Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2007-03-09</introducedDate>
+    <congress>110</congress>
+    <committees>
+      <item>
+        <systemCode>hsvr00</systemCode>
+        <name>Veterans' Affairs Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsvr03</systemCode>
+            <name>Health Subcommittee</name>
+            <activities>
+              <item>
+                <name>Hearings by</name>
+                <date>2007-04-26T14:55:59Z</date>
+              </item>
+              <item>
+                <name>Referred to</name>
+                <date>2007-03-16T13:33:45Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2007-03-09T14:03:05Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2007-04-26</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsvr03</systemCode>
+            <name>Health Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Subcommittee Hearings Held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2007-03-16</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsvr03</systemCode>
+            <name>Health Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2007-03-09</actionDate>
+        <text>Referred to the House Committee on Veterans' Affairs.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsvr00</systemCode>
+            <name>Veterans' Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2007-03-09</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2007-03-09</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>L000111</bioguideId>
+        <fullName>Rep. Latham, Tom [R-IA-4]</fullName>
+        <firstName>TOM</firstName>
+        <lastName>LATHAM</lastName>
+        <party>R</party>
+        <state>IA</state>
+        <district>4</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>P000258</bioguideId>
+        <fullName>Rep. Peterson, Collin C. [D-MN-7]</fullName>
+        <firstName>COLLIN</firstName>
+        <lastName>PETERSON</lastName>
+        <party>D</party>
+        <state>MN</state>
+        <middleName>C.</middleName>
+        <district>7</district>
+        <sponsorshipDate>2007-03-09</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000588</bioguideId>
+        <fullName>Rep. Pearce, Stevan [R-NM-2]</fullName>
+        <firstName>Stevan</firstName>
+        <lastName>Pearce</lastName>
+        <party>R</party>
+        <state>NM</state>
+        <district>2</district>
+        <sponsorshipDate>2007-03-09</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001144</bioguideId>
+        <fullName>Rep. Miller, Jeff [R-FL-1]</fullName>
+        <firstName>Jeff</firstName>
+        <lastName>Miller</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>1</district>
+        <sponsorshipDate>2007-03-09</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001147</bioguideId>
+        <fullName>Rep. McCotter, Thaddeus G. [R-MI-11]</fullName>
+        <firstName>Thaddeus</firstName>
+        <lastName>McCotter</lastName>
+        <party>R</party>
+        <state>MI</state>
+        <middleName>G.</middleName>
+        <district>11</district>
+        <sponsorshipDate>2007-03-09</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001157</bioguideId>
+        <fullName>Rep. McCaul, Michael T. [R-TX-10]</fullName>
+        <firstName>Michael</firstName>
+        <lastName>McCaul</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <middleName>T.</middleName>
+        <district>10</district>
+        <sponsorshipDate>2007-03-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000149</bioguideId>
+        <fullName>Rep. Payne, Donald M. [D-NJ-10]</fullName>
+        <firstName>DONALD</firstName>
+        <lastName>PAYNE</lastName>
+        <party>D</party>
+        <state>NJ</state>
+        <middleName>M.</middleName>
+        <district>10</district>
+        <sponsorshipDate>2007-05-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000410</bioguideId>
+        <fullName>Rep. Green, Gene [D-TX-29]</fullName>
+        <firstName>GENE</firstName>
+        <lastName>GREEN</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>29</district>
+        <sponsorshipDate>2007-05-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000657</bioguideId>
+        <fullName>Rep. Boucher, Rick [D-VA-9]</fullName>
+        <firstName>RICK</firstName>
+        <lastName>BOUCHER</lastName>
+        <party>D</party>
+        <state>VA</state>
+        <district>9</district>
+        <sponsorshipDate>2007-05-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000377</bioguideId>
+        <fullName>Rep. Granger, Kay [R-TX-12]</fullName>
+        <firstName>KAY</firstName>
+        <lastName>GRANGER</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>12</district>
+        <sponsorshipDate>2007-06-06</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000555</bioguideId>
+        <fullName>Rep. Pryce, Deborah [R-OH-15]</fullName>
+        <firstName>DEBORAH</firstName>
+        <lastName>PRYCE</lastName>
+        <party>R</party>
+        <state>OH</state>
+        <district>15</district>
+        <sponsorshipDate>2007-06-12</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000676</bioguideId>
+        <fullName>Rep. Hoekstra, Peter [R-MI-2]</fullName>
+        <firstName>PETER</firstName>
+        <lastName>HOEKSTRA</lastName>
+        <party>R</party>
+        <state>MI</state>
+        <district>2</district>
+        <sponsorshipDate>2007-08-01</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001171</bioguideId>
+        <fullName>Rep. Shuler, Heath [D-NC-11]</fullName>
+        <firstName>Heath</firstName>
+        <lastName>Shuler</lastName>
+        <party>D</party>
+        <state>NC</state>
+        <district>11</district>
+        <sponsorshipDate>2007-12-04</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000605</bioguideId>
+        <fullName>Rep. Drake, Thelma D. [R-VA-2]</fullName>
+        <firstName>Thelma</firstName>
+        <lastName>Drake</lastName>
+        <party>R</party>
+        <state>VA</state>
+        <middleName>D.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2008-02-26</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Access to health care</name>
+        </item>
+        <item>
+          <name>Disabled</name>
+        </item>
+        <item>
+          <name>Drugs</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Government contractors</name>
+        </item>
+        <item>
+          <name>Health</name>
+        </item>
+        <item>
+          <name>Health facilities</name>
+        </item>
+        <item>
+          <name>Hospital care</name>
+        </item>
+        <item>
+          <name>Iraq compilation</name>
+        </item>
+        <item>
+          <name>Pharmacies</name>
+        </item>
+        <item>
+          <name>Preventive medicine</name>
+        </item>
+        <item>
+          <name>Rehabilitation of the disabled</name>
+        </item>
+        <item>
+          <name>Veterans' medical care</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Armed Forces and National Security</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2007-03-09</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2007-04-09T21:28:10Z</updateDate>
+        <text><![CDATA[ <p>Richard Helm Veterans' Access to Local Health Care Options and Resources Act - Allows a veteran enrolled in the Department of Veterans Affairs (VA) annual patient enrollment system to elect to receive covered health services through a non-VA facility. (Currently, the Secretary of Veterans Affairs may contract for such services when VA facilities are not capable of furnishing economic hospital care or medical services because of geographical inaccessibility or are not capable of furnishing the care or services required.) Directs the Secretary to authorize such services pursuant to a contract with such facility.</p> <p>Authorizes the Secretary to furnish to veterans through a VA health care facility drugs and medicines ordered on prescription of a duly licensed private physician under contract with the VA.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Richard Helm Veterans' Access to Local Health Care Options and Resources Act</title>
+    <titles>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend title 38, United States Code, to provide veterans enrolled in the health system of the Department of Veterans Affairs the option of receiving covered health services through facilities other than those of the Department.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Richard Helm Veterans' Access to Local Health Care Options and Resources Act</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Richard Helm Veterans' Access to Local Health Care Options and Resources Act</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2007-03-09T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-110hr1426ih/xml/BILLS-110hr1426ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2007-04-26</actionDate>
+      <text>Subcommittee Hearings Held.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

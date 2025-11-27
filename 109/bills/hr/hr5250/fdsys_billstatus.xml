@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>5250</number>
+    <updateDate>2023-01-13T04:48:41Z</updateDate>
+    <updateDateIncludingText>2023-01-13T04:48:41Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2006-04-27</introducedDate>
+    <congress>109</congress>
+    <committees>
+      <item>
+        <systemCode>hsif00</systemCode>
+        <name>Energy and Commerce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2006-05-15T16:45:46Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2006-04-27T13:06:00Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2006-05-15</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2006-04-27</actionDate>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2006-04-27</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2006-04-27</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>W000099</bioguideId>
+        <fullName>Rep. Walsh, James T. [R-NY-25]</fullName>
+        <firstName>JAMES</firstName>
+        <lastName>WALSH</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <middleName>T.</middleName>
+        <district>25</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>R000566</bioguideId>
+        <fullName>Rep. Ryun, Jim [R-KS-2]</fullName>
+        <firstName>JIM</firstName>
+        <lastName>RYUN</lastName>
+        <party>R</party>
+        <state>KS</state>
+        <district>2</district>
+        <sponsorshipDate>2006-04-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001036</bioguideId>
+        <fullName>Rep. Capps, Lois [D-CA-23]</fullName>
+        <firstName>LOIS</firstName>
+        <lastName>CAPPS</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>23</district>
+        <sponsorshipDate>2006-04-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000309</bioguideId>
+        <fullName>Rep. McCarthy, Carolyn [D-NY-4]</fullName>
+        <firstName>CAROLYN</firstName>
+        <lastName>MCCARTHY</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <district>4</district>
+        <sponsorshipDate>2006-04-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001145</bioguideId>
+        <fullName>Rep. Schakowsky, Janice D. [D-IL-9]</fullName>
+        <firstName>JANICE</firstName>
+        <lastName>SCHAKOWSKY</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>D.</middleName>
+        <district>9</district>
+        <sponsorshipDate>2006-04-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000404</bioguideId>
+        <fullName>Rep. McDermott, Jim [D-WA-7]</fullName>
+        <firstName>JIM</firstName>
+        <lastName>MCDERMOTT</lastName>
+        <party>D</party>
+        <state>WA</state>
+        <district>7</district>
+        <sponsorshipDate>2006-04-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>J000070</bioguideId>
+        <fullName>Rep. Jefferson, William J. [D-LA-2]</fullName>
+        <firstName>WILLIAM</firstName>
+        <lastName>JEFFERSON</lastName>
+        <party>D</party>
+        <state>LA</state>
+        <middleName>J.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2006-04-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000215</bioguideId>
+        <fullName>Rep. Waxman, Henry A. [D-CA-30]</fullName>
+        <firstName>HENRY</firstName>
+        <lastName>WAXMAN</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <middleName>A.</middleName>
+        <district>30</district>
+        <sponsorshipDate>2006-04-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000034</bioguideId>
+        <fullName>Rep. Pallone, Frank, Jr. [D-NJ-6]</fullName>
+        <firstName>FRANK</firstName>
+        <lastName>PALLONE</lastName>
+        <party>D</party>
+        <state>NJ</state>
+        <district>6</district>
+        <sponsorshipDate>2006-04-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000092</bioguideId>
+        <fullName>Rep. Ehlers, Vernon J. [R-MI-3]</fullName>
+        <firstName>VERNON</firstName>
+        <lastName>EHLERS</lastName>
+        <party>R</party>
+        <state>MI</state>
+        <middleName>J.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2006-04-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000472</bioguideId>
+        <fullName>Rep. McHugh, John M. [R-NY-23]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>MCHUGH</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <middleName>M.</middleName>
+        <district>23</district>
+        <sponsorshipDate>2006-04-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000210</bioguideId>
+        <fullName>Rep. King, Peter T. [R-NY-3]</fullName>
+        <firstName>PETER</firstName>
+        <lastName>KING</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <middleName>T.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2006-04-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000586</bioguideId>
+        <fullName>Rep. Boehlert, Sherwood [R-NY-24]</fullName>
+        <firstName>SHERWOOD</firstName>
+        <lastName>BOEHLERT</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <middleName>L.</middleName>
+        <district>24</district>
+        <sponsorshipDate>2006-04-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000099</bioguideId>
+        <fullName>Rep. Pastor, Ed [D-AZ-4]</fullName>
+        <firstName>ED</firstName>
+        <lastName>PASTOR</lastName>
+        <party>D</party>
+        <state>AZ</state>
+        <district>4</district>
+        <sponsorshipDate>2006-04-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000238</bioguideId>
+        <fullName>Rep. Foley, Mark [R-FL-16]</fullName>
+        <firstName>MARK</firstName>
+        <lastName>FOLEY</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>16</district>
+        <sponsorshipDate>2006-04-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000590</bioguideId>
+        <fullName>Rep. McNulty, Michael R. [D-NY-21]</fullName>
+        <firstName>MICHAEL</firstName>
+        <lastName>MCNULTY</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>R.</middleName>
+        <district>21</district>
+        <sponsorshipDate>2006-04-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000030</bioguideId>
+        <fullName>Rep. Farr, Sam [D-CA-17]</fullName>
+        <firstName>SAM</firstName>
+        <lastName>FARR</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>17</district>
+        <sponsorshipDate>2006-04-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000013</bioguideId>
+        <fullName>Rep. Bachus, Spencer [R-AL-6]</fullName>
+        <firstName>SPENCER</firstName>
+        <lastName>BACHUS</lastName>
+        <party>R</party>
+        <state>AL</state>
+        <district>6</district>
+        <sponsorshipDate>2006-04-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000714</bioguideId>
+        <fullName>Rep. Millender-McDonald, Juanita [D-CA-37]</fullName>
+        <firstName>JUANITA</firstName>
+        <lastName>MILLENDER-MCDONALD</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <middleName>M.</middleName>
+        <district>37</district>
+        <sponsorshipDate>2006-04-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000627</bioguideId>
+        <fullName>Rep. Hinchey, Maurice D. [D-NY-22]</fullName>
+        <firstName>MAURICE</firstName>
+        <lastName>HINCHEY</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>D.</middleName>
+        <district>22</district>
+        <sponsorshipDate>2006-04-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001149</bioguideId>
+        <fullName>Rep. Sweeney, John E. [R-NY-20]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>SWEENEY</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <middleName>E.</middleName>
+        <district>20</district>
+        <sponsorshipDate>2006-04-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000364</bioguideId>
+        <fullName>Rep. Kuhl, John R. "Randy", Jr. [R-NY-29]</fullName>
+        <firstName>John</firstName>
+        <lastName>Kuhl</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <middleName>R. "Randy"</middleName>
+        <district>29</district>
+        <sponsorshipDate>2006-04-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000009</bioguideId>
+        <fullName>Rep. Kaptur, Marcy [D-OH-9]</fullName>
+        <firstName>MARCY</firstName>
+        <lastName>KAPTUR</lastName>
+        <party>D</party>
+        <state>OH</state>
+        <district>9</district>
+        <sponsorshipDate>2006-04-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000784</bioguideId>
+        <fullName>Rep. Wynn, Albert Russell [D-MD-4]</fullName>
+        <firstName>ALBERT</firstName>
+        <lastName>WYNN</lastName>
+        <party>D</party>
+        <state>MD</state>
+        <middleName>R.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2006-04-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001004</bioguideId>
+        <fullName>Rep. Strickland, Ted [D-OH-6]</fullName>
+        <firstName>TED</firstName>
+        <lastName>STRICKLAND</lastName>
+        <party>D</party>
+        <state>OH</state>
+        <district>6</district>
+        <sponsorshipDate>2006-04-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000569</bioguideId>
+        <fullName>Rep. Reynolds, Thomas M. [R-NY-26]</fullName>
+        <firstName>THOMAS</firstName>
+        <lastName>REYNOLDS</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <middleName>M.</middleName>
+        <district>26</district>
+        <sponsorshipDate>2006-04-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000078</bioguideId>
+        <fullName>Rep. Kelly, Sue W. [R-NY-19]</fullName>
+        <firstName>SUE</firstName>
+        <lastName>KELLY</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <middleName>W.</middleName>
+        <district>19</district>
+        <sponsorshipDate>2006-04-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001143</bioguideId>
+        <fullName>Rep. McCollum, Betty [D-MN-4]</fullName>
+        <firstName>BETTY</firstName>
+        <lastName>MCCOLLUM</lastName>
+        <party>D</party>
+        <state>MN</state>
+        <district>4</district>
+        <sponsorshipDate>2006-04-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000410</bioguideId>
+        <fullName>Rep. Green, Gene [D-TX-29]</fullName>
+        <firstName>GENE</firstName>
+        <lastName>GREEN</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>29</district>
+        <sponsorshipDate>2006-04-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000440</bioguideId>
+        <fullName>Rep. Fossella, Vito [R-NY-13]</fullName>
+        <firstName>VITO</firstName>
+        <lastName>FOSSELLA</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <district>13</district>
+        <sponsorshipDate>2006-05-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000537</bioguideId>
+        <fullName>Rep. Clyburn, James E. [D-SC-6]</fullName>
+        <firstName>JAMES</firstName>
+        <lastName>CLYBURN</lastName>
+        <party>D</party>
+        <state>SC</state>
+        <middleName>E.</middleName>
+        <district>6</district>
+        <sponsorshipDate>2006-05-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000551</bioguideId>
+        <fullName>Rep. Grijalva, Raúl M. [D-AZ-7]</fullName>
+        <firstName>Raúl</firstName>
+        <lastName>Grijalva</lastName>
+        <party>D</party>
+        <state>AZ</state>
+        <middleName>M.</middleName>
+        <district>7</district>
+        <sponsorshipDate>2006-05-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001154</bioguideId>
+        <fullName>Rep. Miller, Brad [D-NC-13]</fullName>
+        <firstName>Brad</firstName>
+        <lastName>Miller</lastName>
+        <party>D</party>
+        <state>NC</state>
+        <district>13</district>
+        <sponsorshipDate>2006-05-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000358</bioguideId>
+        <fullName>Rep. Kennedy, Mark R. [R-MN-6]</fullName>
+        <firstName>MARK</firstName>
+        <lastName>KENNEDY</lastName>
+        <party>R</party>
+        <state>MN</state>
+        <middleName>R.</middleName>
+        <district>6</district>
+        <sponsorshipDate>2006-05-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000868</bioguideId>
+        <fullName>Rep. Cramer, Robert E. (Bud), Jr. [D-AL-5]</fullName>
+        <firstName>ROBERT</firstName>
+        <lastName>CRAMER</lastName>
+        <party>D</party>
+        <state>AL</state>
+        <middleName>E.</middleName>
+        <district>5</district>
+        <sponsorshipDate>2006-05-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000586</bioguideId>
+        <fullName>Rep. Putnam, Adam H. [R-FL-12]</fullName>
+        <firstName>ADAM</firstName>
+        <lastName>PUTNAM</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <middleName>H.</middleName>
+        <district>12</district>
+        <sponsorshipDate>2006-06-13</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000522</bioguideId>
+        <fullName>Rep. Smith, Christopher H. [R-NJ-4]</fullName>
+        <firstName>CHRISTOPHER</firstName>
+        <lastName>SMITH</lastName>
+        <party>R</party>
+        <state>NJ</state>
+        <middleName>H.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2006-06-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000413</bioguideId>
+        <fullName>Rep. Hayworth, J. D. [R-AZ-5]</fullName>
+        <firstName>J.</firstName>
+        <lastName>HAYWORTH</lastName>
+        <party>R</party>
+        <state>AZ</state>
+        <middleName>D.</middleName>
+        <district>5</district>
+        <sponsorshipDate>2006-07-13</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000535</bioguideId>
+        <fullName>Rep. Gutierrez, Luis V. [D-IL-4]</fullName>
+        <firstName>LUIS</firstName>
+        <lastName>GUTIERREZ</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>V.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2006-07-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000462</bioguideId>
+        <fullName>Rep. Rothman, Steven R. [D-NJ-9]</fullName>
+        <firstName>STEVEN</firstName>
+        <lastName>ROTHMAN</lastName>
+        <party>D</party>
+        <state>NJ</state>
+        <middleName>R.</middleName>
+        <district>9</district>
+        <sponsorshipDate>2006-09-06</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000576</bioguideId>
+        <fullName>Rep. Ruppersberger, C. A. Dutch [D-MD-2]</fullName>
+        <firstName>C. A.</firstName>
+        <lastName>Ruppersberger</lastName>
+        <party>D</party>
+        <state>MD</state>
+        <middleName>Dutch</middleName>
+        <district>2</district>
+        <sponsorshipDate>2006-09-13</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001037</bioguideId>
+        <fullName>Rep. Capuano, Michael E. [D-MA-8]</fullName>
+        <firstName>MICHAEL</firstName>
+        <lastName>CAPUANO</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>E.</middleName>
+        <district>8</district>
+        <sponsorshipDate>2006-09-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Access to health care</name>
+        </item>
+        <item>
+          <name>Authorization</name>
+        </item>
+        <item>
+          <name>Child health</name>
+        </item>
+        <item>
+          <name>Cost effectiveness</name>
+        </item>
+        <item>
+          <name>Data banks</name>
+        </item>
+        <item>
+          <name>Deaf</name>
+        </item>
+        <item>
+          <name>Department of Health and Human Services</name>
+        </item>
+        <item>
+          <name>Disabled</name>
+        </item>
+        <item>
+          <name>Economics and Public Finance</name>
+        </item>
+        <item>
+          <name>Families</name>
+        </item>
+        <item>
+          <name>Family services</name>
+        </item>
+        <item>
+          <name>Federal aid to research</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Grants-in-aid</name>
+        </item>
+        <item>
+          <name>Hearing</name>
+        </item>
+        <item>
+          <name>Language and languages</name>
+        </item>
+        <item>
+          <name>Medical personnel</name>
+        </item>
+        <item>
+          <name>Medical records</name>
+        </item>
+        <item>
+          <name>Medical research</name>
+        </item>
+        <item>
+          <name>Medical screening</name>
+        </item>
+        <item>
+          <name>Medical tests</name>
+        </item>
+        <item>
+          <name>Performance measurement</name>
+        </item>
+        <item>
+          <name>Policy sciences</name>
+        </item>
+        <item>
+          <name>Quality of care</name>
+        </item>
+        <item>
+          <name>Research and development</name>
+        </item>
+        <item>
+          <name>Research grants</name>
+        </item>
+        <item>
+          <name>Science, Technology, Communications</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Health</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2006-04-27</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2006-06-13T14:16:53Z</updateDate>
+        <text><![CDATA[ <p>Early Hearing Detection and Intervention Act of 2006 - Amends the Public Health Service Act to expand the newborns and infants hearing loss program to: (1) provide services for young children (currently, limited to infants and newborns); and (2) include diagnostic services among services provided.</p> <p>Requires the Secretary of Health and Human Services, acting through the Administrator of the Health Resources and Services Administration (HRSA), to assist in the recruitment, retention, education, and training of qualified personnel and health care providers.</p> <p>Includes within the purposes of such program: (1) developing efficient models to ensure that newborns, infants, and young children who are identified with a hearing loss through screening are not lost to follow-up by a qualified health care provider; and (2) ensuring an adequate supply of qualified personnel to meet the screening, evaluation, and early intervention needs of children.</p> <p>Requires the Director of the National Institutes of Health (NIH), acting through the Director of the National Institute on Deafness and Other Communication Disorders, to establish a postdoctoral fellowship program to foster research and development in the area of early hearing detection and intervention.</p> <p>Amends the definition of &quot;early intervention&quot; to require that families be given the opportunity to obtain the full range of early intervention services, educational and program placements, and other options for their child from highly qualified providers.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Early Hearing Detection and Intervention Act of 2006</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Early Hearing Detection and Intervention Act of 2006</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend the Public Health Service Act regarding early detection, diagnosis, and treatment of hearing loss.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Early Hearing Detection and Intervention Act of 2006</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2006-04-27T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-109hr5250ih/xml/BILLS-109hr5250ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2006-05-15</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

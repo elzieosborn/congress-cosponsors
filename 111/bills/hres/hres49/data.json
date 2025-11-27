@@ -1,0 +1,783 @@
+{
+  "actions": [
+    {
+      "acted_at": "2009-01-09",
+      "action_code": "Intro-H",
+      "references": [],
+      "text": "Introduced in House",
+      "type": "action"
+    },
+    {
+      "acted_at": "2009-01-09",
+      "action_code": "H11100",
+      "committees": [
+        "HSGO"
+      ],
+      "references": [],
+      "status": "REFERRED",
+      "text": "Referred to the House Committee on Oversight and Government Reform.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2009-05-19",
+      "action_code": "H12300",
+      "committees": [
+        "HSGO"
+      ],
+      "references": [],
+      "text": "Committee on Oversight and Government discharged.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2009-05-19T14:06:21-04:00",
+      "action_code": "H30200",
+      "references": [],
+      "text": "Mr. Frank (MA) asked unanimous consent to discharge from committee and consider.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2009-05-19T14:06:22-04:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H5765-5766",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered by unanimous consent.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2009-05-19T14:06:23-04:00",
+      "action_code": "H37100",
+      "how": "without objection",
+      "references": [
+        {
+          "reference": "CR H5765-5766",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "status": "PASSED:SIMPLERES",
+      "suspension": null,
+      "text": "On agreeing to the resolution Agreed to without objection.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "h"
+    },
+    {
+      "acted_at": "2009-05-19T14:06:24-04:00",
+      "action_code": "H38310",
+      "references": [],
+      "text": "Motion to reconsider laid on the table Agreed to without objection.",
+      "type": "action"
+    }
+  ],
+  "amendments": [],
+  "bill_id": "hres49-111",
+  "bill_type": "hres",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [
+    {
+      "activity": [
+        "discharged",
+        "referral"
+      ],
+      "committee": "House Oversight and Accountability",
+      "committee_id": "HSGO"
+    }
+  ],
+  "congress": "111",
+  "cosponsors": [
+    {
+      "bioguide_id": "B001234",
+      "district": "43",
+      "name": "Baca, Joe",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-01-16",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B000287",
+      "district": "31",
+      "name": "Becerra, Xavier",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-01-16",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B000410",
+      "district": "28",
+      "name": "Berman, Howard L.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-01-14",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001257",
+      "district": "9",
+      "name": "Bilirakis, Gus M.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-01-23",
+      "state": "FL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B000490",
+      "district": "2",
+      "name": "Bishop, Sanford D., Jr.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-02-04",
+      "state": "GA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001228",
+      "district": "45",
+      "name": "Bono Mack, Mary",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-02-03",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001227",
+      "district": "1",
+      "name": "Brady, Robert A.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-02-03",
+      "state": "PA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B000911",
+      "district": "3",
+      "name": "Brown, Corrine",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-01-26",
+      "state": "FL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C000059",
+      "district": "44",
+      "name": "Calvert, Ken",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-02-03",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001036",
+      "district": "23",
+      "name": "Capps, Lois",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-01-09",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001050",
+      "district": "18",
+      "name": "Cardoza, Dennis A.",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-01-09",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001072",
+      "district": "7",
+      "name": "Carson, Andre",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-02-04",
+      "state": "IN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C000537",
+      "district": "6",
+      "name": "Clyburn, James E.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-02-03",
+      "state": "SC",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001068",
+      "district": "9",
+      "name": "Cohen, Steve",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-01-16",
+      "state": "TN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001059",
+      "district": "20",
+      "name": "Costa, Jim",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-01-09",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001063",
+      "district": "28",
+      "name": "Cuellar, Henry",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-02-04",
+      "state": "TX",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000598",
+      "district": "53",
+      "name": "Davis, Susan A.",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-01-09",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000216",
+      "district": "3",
+      "name": "DeLauro, Rosa L.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-02-04",
+      "state": "CT",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000492",
+      "district": "26",
+      "name": "Dreier, David",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-01-23",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "E000290",
+      "district": "4",
+      "name": "Edwards, Donna F.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-02-04",
+      "state": "MD",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "E000215",
+      "district": "14",
+      "name": "Eshoo, Anna G.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-01-14",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "F000030",
+      "district": "17",
+      "name": "Farr, Sam",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-01-09",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "F000043",
+      "district": "2",
+      "name": "Fattah, Chaka",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-03-03",
+      "state": "PA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "F000116",
+      "district": "51",
+      "name": "Filner, Bob",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-01-09",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "F000455",
+      "district": "11",
+      "name": "Fudge, Marcia L.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-02-04",
+      "state": "OH",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "G000551",
+      "district": "7",
+      "name": "Grijalva, Ra\u00c3\u00bal M.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-01-14",
+      "state": "AZ",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H000213",
+      "district": "36",
+      "name": "Harman, Jane",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-01-26",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H000627",
+      "district": "22",
+      "name": "Hinchey, Maurice D.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-01-14",
+      "state": "NY",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H001034",
+      "district": "15",
+      "name": "Honda, Michael M.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-01-14",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "I000056",
+      "district": "49",
+      "name": "Issa, Darrell E.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-01-23",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "J000126",
+      "district": "30",
+      "name": "Johnson, Eddie Bernice",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-01-16",
+      "state": "TX",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "J000288",
+      "district": "4",
+      "name": "Johnson, Henry C. \"Hank,\" Jr.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-01-26",
+      "state": "GA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "K000180",
+      "district": "13",
+      "name": "Kilpatrick, Carolyn C.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-01-26",
+      "state": "MI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "L000551",
+      "district": "9",
+      "name": "Lee, Barbara",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-01-09",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "L000274",
+      "district": "41",
+      "name": "Lewis, Jerry",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-01-23",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "L000287",
+      "district": "5",
+      "name": "Lewis, John",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-01-14",
+      "state": "GA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "L000397",
+      "district": "16",
+      "name": "Lofgren, Zoe",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-01-09",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001163",
+      "district": "5",
+      "name": "Matsui, Doris O.",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-01-09",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M000312",
+      "district": "3",
+      "name": "McGovern, James P.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-01-16",
+      "state": "MA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M000508",
+      "district": "25",
+      "name": "McKeon, Howard P. \"Buck\"",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-02-04",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001166",
+      "district": "11",
+      "name": "McNerney, Jerry",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-01-26",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001148",
+      "district": "17",
+      "name": "Meek, Kendrick B.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-01-26",
+      "state": "FL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001139",
+      "district": "42",
+      "name": "Miller, Gary G.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-01-23",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M000725",
+      "district": "7",
+      "name": "Miller, George",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-01-09",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "N000179",
+      "district": "38",
+      "name": "Napolitano, Grace F.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-02-03",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000581",
+      "district": "37",
+      "name": "Richardson, Laura",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-01-16",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000409",
+      "district": "46",
+      "name": "Rohrabacher, Dana",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-01-26",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000486",
+      "district": "34",
+      "name": "Roybal-Allard, Lucille",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-01-09",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000487",
+      "district": "40",
+      "name": "Royce, Edward R.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-01-23",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S000030",
+      "district": "47",
+      "name": "Sanchez, Loretta",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-01-16",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001145",
+      "district": "9",
+      "name": "Schakowsky, Janice D.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-01-16",
+      "state": "IL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001150",
+      "district": "29",
+      "name": "Schiff, Adam B.",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-01-09",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S000344",
+      "district": "27",
+      "name": "Sherman, Brad",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-01-16",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001153",
+      "district": "32",
+      "name": "Solis, Hilda L.",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-01-09",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001175",
+      "district": "12",
+      "name": "Speier, Jackie",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-01-09",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S000810",
+      "district": "13",
+      "name": "Stark, Fortney Pete",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-01-16",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001156",
+      "district": "39",
+      "name": "S\u00c3\u00a1nchez, Linda T.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-01-14",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "T000057",
+      "district": "10",
+      "name": "Tauscher, Ellen O.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-01-16",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "T000460",
+      "district": "1",
+      "name": "Thompson, Mike",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-01-26",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "T000468",
+      "district": "3",
+      "name": "Titus, Dina",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-02-04",
+      "state": "NV",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000187",
+      "district": "35",
+      "name": "Waters, Maxine",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-01-09",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000215",
+      "district": "30",
+      "name": "Waxman, Henry A.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-01-14",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000738",
+      "district": "6",
+      "name": "Woolsey, Lynn C.",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-01-09",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    }
+  ],
+  "enacted_as": null,
+  "history": {
+    "active": true,
+    "active_at": "2009-05-19",
+    "awaiting_signature": false,
+    "enacted": false,
+    "house_passage_result": "pass",
+    "house_passage_result_at": "2009-05-19T14:06:23-04:00",
+    "vetoed": false
+  },
+  "introduced_at": "2009-01-09",
+  "number": "49",
+  "official_title": "Honoring Karen Bass for becoming the first African-American woman elected Speaker of the California State Assembly.",
+  "popular_title": null,
+  "related_bills": [],
+  "short_title": null,
+  "sponsor": {
+    "bioguide_id": "W000794",
+    "district": "33",
+    "name": "Watson, Diane E.",
+    "state": "CA",
+    "title": "Rep.",
+    "type": "person"
+  },
+  "status": "PASSED:SIMPLERES",
+  "status_at": "2009-05-19T14:06:23-04:00",
+  "subjects": [
+    "California",
+    "Congressional tributes",
+    "Government operations and politics",
+    "Racial and ethnic relations",
+    "State and local government operations",
+    "Women's rights"
+  ],
+  "subjects_top_term": "Government operations and politics",
+  "summary": {
+    "as": "Passed House without amendment",
+    "asOf": "2009-05-19",
+    "date": "2009-05-22T18:38:58Z",
+    "text": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.)\n\nHonors Karen Bass for becoming the first African-American woman Speaker of the California State Assembly."
+  },
+  "titles": [
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Honoring Karen Bass for becoming the first African-American woman elected Speaker of the California State Assembly.",
+      "type": "display"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Honoring Karen Bass for becoming the first African-American woman elected Speaker of the California State Assembly.",
+      "type": "official"
+    }
+  ],
+  "updated_at": "2023-01-11T13:19:03Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/111/hres/BILLSTATUS-111hres49.xml"
+}

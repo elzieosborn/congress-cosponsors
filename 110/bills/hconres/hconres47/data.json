@@ -1,0 +1,309 @@
+{
+  "actions": [
+    {
+      "acted_at": "2007-01-30",
+      "action_code": "Intro-H",
+      "references": [],
+      "text": "Introduced in House",
+      "type": "action"
+    },
+    {
+      "acted_at": "2007-01-30",
+      "action_code": "H11100",
+      "committees": [
+        "HSAS"
+      ],
+      "references": [],
+      "status": "REFERRED",
+      "text": "Referred to the House Committee on Armed Services.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2007-02-26",
+      "action_code": "",
+      "committees": [
+        "HSAS"
+      ],
+      "references": [],
+      "text": "Referred to the Subcommittee on Military Personnel.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2007-02-27T14:12:48-05:00",
+      "action_code": "H30300",
+      "references": [],
+      "text": "Mr. Skelton moved to suspend the rules and agree to the resolution.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2007-02-27T14:13:07-05:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H1900-1903",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered under suspension of the rules.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2007-02-27T14:13:09-05:00",
+      "action_code": "H8D000",
+      "bill_ids": [
+        "hcres47-110"
+      ],
+      "references": [],
+      "text": "DEBATE - The House proceeded with forty minutes of debate on H. Con. Res. 47.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2007-02-27T14:29:28-05:00",
+      "action_code": "H37220",
+      "references": [],
+      "text": "At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2007-02-27T18:33:03-05:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H1931",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered as unfinished business.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2007-02-27T19:02:37-05:00",
+      "action_code": "H37300",
+      "how": "roll",
+      "references": [
+        {
+          "reference": "CR H1900",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "roll": "103",
+      "status": "PASS_OVER:HOUSE",
+      "suspension": true,
+      "text": "On motion to suspend the rules and agree to the resolution Agreed to by the Yeas and Nays: (2/3 required): 411 - 0 (Roll no. 103).",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "h"
+    },
+    {
+      "acted_at": "2007-02-27T19:02:38-05:00",
+      "action_code": "H38310",
+      "references": [],
+      "text": "Motion to reconsider laid on the table Agreed to without objection.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2007-02-28",
+      "action_code": "",
+      "references": [],
+      "text": "Received in the Senate.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2007-03-01",
+      "action_code": "",
+      "how": "by Unanimous Consent",
+      "references": [
+        {
+          "reference": "CR S2541",
+          "type": "consideration"
+        }
+      ],
+      "result": "pass",
+      "status": "PASSED:CONCURRENTRES",
+      "text": "Resolution agreed to in Senate without amendment and with a preamble by Unanimous Consent.",
+      "type": "vote",
+      "vote_type": "vote2",
+      "where": "s"
+    },
+    {
+      "acted_at": "2007-03-02",
+      "action_code": "",
+      "references": [],
+      "text": "Message on Senate action sent to the House.",
+      "type": "action"
+    }
+  ],
+  "amendments": [],
+  "bill_id": "hconres47-110",
+  "bill_type": "hconres",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [
+    {
+      "activity": [
+        "referral"
+      ],
+      "committee": "House Armed Services",
+      "committee_id": "HSAS"
+    },
+    {
+      "activity": [
+        "referral"
+      ],
+      "committee": "House Armed Services",
+      "committee_id": "HSAS",
+      "subcommittee": "Subcommittee on Military Personnel",
+      "subcommittee_id": "02"
+    }
+  ],
+  "congress": "110",
+  "cosponsors": [
+    {
+      "bioguide_id": "B001248",
+      "district": "26",
+      "name": "Burgess, Michael C.",
+      "original_cosponsor": false,
+      "sponsored_at": "2007-02-27",
+      "state": "TX",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001203",
+      "district": "4",
+      "name": "Buyer, Steve",
+      "original_cosponsor": false,
+      "sponsored_at": "2007-02-27",
+      "state": "IN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000327",
+      "district": "6",
+      "name": "Dicks, Norman D.",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-30",
+      "state": "WA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "F000116",
+      "district": "51",
+      "name": "Filner, Bob",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-30",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H001029",
+      "district": "8",
+      "name": "Hayes, Robin",
+      "original_cosponsor": false,
+      "sponsored_at": "2007-02-27",
+      "state": "NC",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H000981",
+      "district": "52",
+      "name": "Hunter, Duncan",
+      "original_cosponsor": true,
+      "sponsored_at": "2007-01-30",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001158",
+      "district": "3",
+      "name": "Salazar, John T.",
+      "original_cosponsor": false,
+      "sponsored_at": "2007-02-27",
+      "state": "CO",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "Y000031",
+      "district": "10",
+      "name": "Young, C. W. Bill",
+      "original_cosponsor": false,
+      "sponsored_at": "2007-02-05",
+      "state": "FL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    }
+  ],
+  "enacted_as": null,
+  "history": {
+    "active": true,
+    "active_at": "2007-02-27T14:12:48-05:00",
+    "awaiting_signature": false,
+    "enacted": false,
+    "house_passage_result": "pass",
+    "house_passage_result_at": "2007-02-27T19:02:37-05:00",
+    "senate_passage_result": "pass",
+    "senate_passage_result_at": "2007-03-01",
+    "vetoed": false
+  },
+  "introduced_at": "2007-01-30",
+  "number": "47",
+  "official_title": "Supporting the goals and ideals of a National Medal of Honor Day to celebrate and honor the recipients of the Medal of Honor.",
+  "popular_title": null,
+  "related_bills": [
+    {
+      "bill_id": "sconres12-110",
+      "identified_by": "House",
+      "reason": "related",
+      "type": "bill"
+    }
+  ],
+  "short_title": null,
+  "sponsor": {
+    "bioguide_id": "S000465",
+    "district": "4",
+    "name": "Skelton, Ike",
+    "state": "MO",
+    "title": "Rep.",
+    "type": "person"
+  },
+  "status": "PASSED:CONCURRENTRES",
+  "status_at": "2007-03-01",
+  "subjects": [
+    "Commemorations",
+    "Congress",
+    "Congressional Medal of Honor",
+    "Special days"
+  ],
+  "subjects_top_term": "Commemorations",
+  "summary": {
+    "as": "Passed Senate without amendment",
+    "asOf": "2007-03-01",
+    "date": "2007-03-06T20:13:49Z",
+    "text": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.)\n\nRecognizes the: (1) heroism and sacrifice of Medal of Honor recipients; and (2) educational opportunity that a National Medal of Honor Day would present to the American public.\n\nSupports the goals and ideals of such a Day to celebrate and honor the contributions of such recipients."
+  },
+  "titles": [
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Supporting the goals and ideals of a National Medal of Honor Day to celebrate and honor the recipients of the Medal of Honor.",
+      "type": "display"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Supporting the goals and ideals of a National Medal of Honor Day to celebrate and honor the recipients of the Medal of Honor.",
+      "type": "official"
+    }
+  ],
+  "updated_at": "2023-01-11T14:50:41Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/110/hconres/BILLSTATUS-110hconres47.xml"
+}

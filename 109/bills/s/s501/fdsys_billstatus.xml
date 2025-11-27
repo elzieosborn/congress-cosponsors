@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>501</number>
+    <updateDate>2023-01-13T04:50:19Z</updateDate>
+    <updateDateIncludingText>2023-01-13T04:50:19Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <originChamberCode>S</originChamberCode>
+    <type>S</type>
+    <introducedDate>2005-03-03</introducedDate>
+    <congress>109</congress>
+    <committees>
+      <item>
+        <systemCode>hspw00</systemCode>
+        <name>Transportation and Infrastructure Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hspw13</systemCode>
+            <name>Economic Development, Public Buildings, and Emergency Management Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2005-09-07T15:28:25Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2005-09-06T23:24:54Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>ssga00</systemCode>
+        <name>Homeland Security and Governmental Affairs Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Reported by</name>
+            <date>2005-07-18T21:25:06Z</date>
+          </item>
+          <item>
+            <name>Markup by</name>
+            <date>2005-04-13T17:24:03Z</date>
+          </item>
+          <item>
+            <name>Referred to</name>
+            <date>2005-03-03T15:52:04Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <committeeReports>
+      <committeeReport>
+        <citation>S. Rept. 109-104</citation>
+      </committeeReport>
+    </committeeReports>
+    <actions>
+      <item>
+        <actionDate>2005-09-07</actionDate>
+        <committees>
+          <item>
+            <systemCode>hspw13</systemCode>
+            <name>Economic Development, Public Buildings, and Emergency Management Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Economic Development, Public Buildings and Emergency Management.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2005-09-06</actionDate>
+        <text>Referred to the House Committee on Transportation and Infrastructure.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hspw00</systemCode>
+            <name>Transportation and Infrastructure Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2005-09-06</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2005-09-06</actionDate>
+        <actionTime>14:06:30</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2005-07-29</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate with an amendment by Unanimous Consent.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2005-07-29</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate with an amendment by Unanimous Consent.</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2005-07-29</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Measure laid before Senate by unanimous consent. (consideration: CR S9584-9585)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2005-07-18</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 168.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2005-07-18</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssga00</systemCode>
+            <name>Homeland Security and Governmental Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Homeland Security and Governmental Affairs. Reported by Senator Collins without amendment. With written report No. 109-104.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2005-07-18</actionDate>
+        <text>Committee on Homeland Security and Governmental Affairs. Reported by Senator Collins without amendment. With written report No. 109-104.</text>
+        <type>Committee</type>
+        <actionCode>14000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>ssga00</systemCode>
+            <name>Homeland Security and Governmental Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2005-04-13</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssga00</systemCode>
+            <name>Homeland Security and Governmental Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Homeland Security and Governmental Affairs. Ordered to be reported without amendment favorably.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2005-03-03</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssga00</systemCode>
+            <name>Homeland Security and Governmental Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Homeland Security and Governmental Affairs.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2005-03-03</actionDate>
+        <text>Sponsor introductory remarks on measure. (CR S2005-2006)</text>
+        <type>IntroReferral</type>
+        <actionCode>B00100</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2005-03-03</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>C001035</bioguideId>
+        <fullName>Sen. Collins, Susan M. [R-ME]</fullName>
+        <firstName>Susan</firstName>
+        <lastName>Collins</lastName>
+        <party>R</party>
+        <state>ME</state>
+        <middleName>M.</middleName>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>L000550</bioguideId>
+        <fullName>Sen. Landrieu, Mary L. [D-LA]</fullName>
+        <firstName>MARY</firstName>
+        <lastName>LANDRIEU</lastName>
+        <party>D</party>
+        <state>LA</state>
+        <sponsorshipDate>2005-03-03</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000601</bioguideId>
+        <fullName>Sen. Dole, Elizabeth [R-NC]</fullName>
+        <firstName>Elizabeth</firstName>
+        <lastName>Dole</lastName>
+        <party>R</party>
+        <state>NC</state>
+        <middleName>H.</middleName>
+        <sponsorshipDate>2005-03-03</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000702</bioguideId>
+        <fullName>Sen. Mikulski, Barbara A. [D-MD]</fullName>
+        <firstName>BARBARA</firstName>
+        <lastName>MIKULSKI</lastName>
+        <party>D</party>
+        <state>MD</state>
+        <middleName>ANN</middleName>
+        <sponsorshipDate>2005-03-03</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001016</bioguideId>
+        <fullName>Sen. Hutchison, Kay Bailey [R-TX]</fullName>
+        <firstName>KAY</firstName>
+        <lastName>HUTCHISON</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <middleName>BAILEY</middleName>
+        <sponsorshipDate>2005-03-03</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000711</bioguideId>
+        <fullName>Sen. Boxer, Barbara [D-CA]</fullName>
+        <firstName>BARBARA</firstName>
+        <lastName>BOXER</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <sponsorshipDate>2005-03-03</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000663</bioguideId>
+        <fullName>Sen. Snowe, Olympia J. [R-ME]</fullName>
+        <firstName>Olympia</firstName>
+        <lastName>Snowe</lastName>
+        <party>R</party>
+        <state>ME</state>
+        <middleName>J.</middleName>
+        <sponsorshipDate>2005-03-03</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000127</bioguideId>
+        <fullName>Sen. Cantwell, Maria [D-WA]</fullName>
+        <firstName>Maria</firstName>
+        <lastName>Cantwell</lastName>
+        <party>D</party>
+        <state>WA</state>
+        <sponsorshipDate>2005-03-03</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001153</bioguideId>
+        <fullName>Sen. Murkowski, Lisa [R-AK]</fullName>
+        <firstName>Lisa</firstName>
+        <lastName>Murkowski</lastName>
+        <party>R</party>
+        <state>AK</state>
+        <sponsorshipDate>2005-03-03</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001041</bioguideId>
+        <fullName>Sen. Clinton, Hillary Rodham [D-NY]</fullName>
+        <firstName>HILLARY</firstName>
+        <lastName>CLINTON</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>R</middleName>
+        <sponsorshipDate>2005-03-03</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000062</bioguideId>
+        <fullName>Sen. Feinstein, Dianne [D-CA]</fullName>
+        <firstName>Dianne</firstName>
+        <lastName>Feinstein</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <sponsorshipDate>2005-03-03</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000035</bioguideId>
+        <fullName>Sen. Lincoln, Blanche L. [D-AR]</fullName>
+        <firstName>BLANCHE</firstName>
+        <lastName>LINCOLN</lastName>
+        <party>D</party>
+        <state>AR</state>
+        <middleName>LAMBERT</middleName>
+        <sponsorshipDate>2005-03-03</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001111</bioguideId>
+        <fullName>Sen. Murray, Patty [D-WA]</fullName>
+        <firstName>Patty</firstName>
+        <lastName>Murray</lastName>
+        <party>D</party>
+        <state>WA</state>
+        <sponsorshipDate>2005-03-03</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000770</bioguideId>
+        <fullName>Sen. Stabenow, Debbie [D-MI]</fullName>
+        <firstName>Debbie</firstName>
+        <lastName>Stabenow</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <sponsorshipDate>2005-03-03</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>V000126</bioguideId>
+        <fullName>Sen. Voinovich, George V. [R-OH]</fullName>
+        <firstName>GEORGE</firstName>
+        <lastName>VOINOVICH</lastName>
+        <party>R</party>
+        <state>OH</state>
+        <middleName>V.</middleName>
+        <sponsorshipDate>2005-03-03</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>A000069</bioguideId>
+        <fullName>Sen. Akaka, Daniel K. [D-HI]</fullName>
+        <firstName>DANIEL</firstName>
+        <lastName>AKAKA</lastName>
+        <party>D</party>
+        <state>HI</state>
+        <middleName>KOHIKINA</middleName>
+        <sponsorshipDate>2005-03-03</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000382</bioguideId>
+        <fullName>Sen. Bennett, Robert F. [R-UT]</fullName>
+        <firstName>ROBERT</firstName>
+        <lastName>BENNETT</lastName>
+        <party>R</party>
+        <state>UT</state>
+        <middleName>F.</middleName>
+        <sponsorshipDate>2005-03-03</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000563</bioguideId>
+        <fullName>Sen. Durbin, Richard J. [D-IL]</fullName>
+        <firstName>Richard</firstName>
+        <lastName>Durbin</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>J.</middleName>
+        <sponsorshipDate>2005-03-03</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000123</bioguideId>
+        <fullName>Sen. Lautenberg, Frank R. [D-NJ]</fullName>
+        <firstName>FRANK</firstName>
+        <lastName>LAUTENBERG</lastName>
+        <party>D</party>
+        <state>NJ</state>
+        <middleName>R.</middleName>
+        <sponsorshipDate>2005-03-03</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000064</bioguideId>
+        <fullName>Sen. Sarbanes, Paul S. [D-MD]</fullName>
+        <firstName>PAUL</firstName>
+        <lastName>SARBANES</lastName>
+        <party>D</party>
+        <state>MD</state>
+        <middleName>SPYROS</middleName>
+        <sponsorshipDate>2005-03-03</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000590</bioguideId>
+        <fullName>Sen. Pryor, Mark L. [D-AR]</fullName>
+        <firstName>Mark</firstName>
+        <lastName>Pryor</lastName>
+        <party>D</party>
+        <state>AR</state>
+        <middleName>Lunsford</middleName>
+        <sponsorshipDate>2005-03-03</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001040</bioguideId>
+        <fullName>Sen. Chafee, Lincoln [R-RI]</fullName>
+        <firstName>LINCOLN</firstName>
+        <lastName>CHAFEE</lastName>
+        <party>R</party>
+        <state>RI</state>
+        <middleName>D.</middleName>
+        <sponsorshipDate>2005-03-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000709</bioguideId>
+        <fullName>Sen. Specter, Arlen [R-PA]</fullName>
+        <firstName>ARLEN</firstName>
+        <lastName>SPECTER</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <sponsorshipDate>2005-04-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001042</bioguideId>
+        <fullName>Sen. Corzine, Jon S. [D-NJ]</fullName>
+        <firstName>JON</firstName>
+        <lastName>CORZINE</lastName>
+        <party>D</party>
+        <state>NJ</state>
+        <middleName>S.</middleName>
+        <sponsorshipDate>2005-06-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <cboCostEstimates>
+      <item>
+        <pubDate>2005-04-20T04:00:00Z</pubDate>
+        <title>S. 501, National Women's History Museum Act of 2005</title>
+        <url>http://www.cbo.gov/publication/16469</url>
+        <description>&lt;p&gt;Cost estimate for the bill as ordered reported by the Senate Committee on Homeland Security and Governmental Affairs on April 13, 2005&lt;/p&gt;</description>
+      </item>
+      <item>
+        <pubDate>2005-04-20T04:00:00Z</pubDate>
+        <title>S. 501, National Women's History Museum Act of 2005</title>
+        <url>https://www.cbo.gov/publication/16469</url>
+        <description>Cost estimate for the bill as ordered reported by the Senate Committee on Homeland Security and Governmental Affairs on April 13, 2005</description>
+      </item>
+    </cboCostEstimates>
+    <policyArea>
+      <name>Arts, Culture, Religion</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Congress</name>
+        </item>
+        <item>
+          <name>Congressional reporting requirements</name>
+        </item>
+        <item>
+          <name>Construction costs</name>
+        </item>
+        <item>
+          <name>District of Columbia</name>
+        </item>
+        <item>
+          <name>History</name>
+        </item>
+        <item>
+          <name>Museums</name>
+        </item>
+        <item>
+          <name>Rent</name>
+        </item>
+        <item>
+          <name>Women</name>
+        </item>
+        <item>
+          <name>Women's movement</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Arts, Culture, Religion</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2005-03-03</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2005-03-29T22:19:09Z</updateDate>
+        <text><![CDATA[ <p>National Women's History Museum Act of 2005 - Requires the Administrator of General Services to enter into an occupancy agreement to make the Pavilion Annex (the building and specified immediate surroundings, including any land unoccupied as of the enactment of this Act) in Washington, D.C. available to the National Women's History Museum, Inc. (Museum Sponsor) for a National Women's History Museum, for at least 99 years or any lesser term agreed to by the Museum Sponsor.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>80</versionCode>
+        <actionDate>2005-07-18</actionDate>
+        <actionDesc>Reported to Senate without amendment</actionDesc>
+        <updateDate>2005-07-19T18:45:49Z</updateDate>
+        <text><![CDATA[ <p><b>(This measure has not been amended since it was introduced. The summary of that version is repeated here.)</b></p><p>National Women's History Museum Act of 2005 - Requires the Administrator of General Services to enter into an occupancy agreement to make the Pavilion Annex (the building and specified immediate surroundings, including any land unoccupied as of the enactment of this Act) in Washington, D.C. available to the National Women's History Museum, Inc. (Museum Sponsor) for a National Women's History Museum, for at least 99 years or any lesser term agreed to by the Museum Sponsor.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>35</versionCode>
+        <actionDate>2005-07-29</actionDate>
+        <actionDesc>Passed Senate amended</actionDesc>
+        <updateDate>2005-08-01T20:05:53Z</updateDate>
+        <text><![CDATA[ <p>National Women's History Museum Act of 2005 - Requires the Administrator of General Services to enter into an occupancy agreement to make the Pavilion Annex (the building and specified immediate surroundings, including any land unoccupied as of the enactment of this Act) in Washington, D.C. available to the National Women's History Museum, Inc. (Museum Sponsor) for a National Women's History Museum, for at least 99 years or any lesser term agreed to by the Museum Sponsor.</p><p>Prohibits use of any federal funds to establish, construct or operate the Museum.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>National Women's History Museum Act of 2005</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>National Women's History Museum Act of 2005</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>National Women's History Museum Act of 2005</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Reported to Senate</titleType>
+        <title>National Women's History Museum Act of 2005</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+      <item>
+        <titleType>Short Titles as Passed Senate</titleType>
+        <title>National Women's History Museum Act of 2005</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to provide a site for the National Women's History Museum in the District of Columbia.</title>
+      </item>
+    </titles>
+    <amendments>
+      <amendment>
+        <number>1646</number>
+        <congress>109</congress>
+        <type>SAMDT</type>
+        <purpose>To specify that no Federal funds are to be used to establish, construct, or operate the National Women's History Museum.</purpose>
+        <updateDate>2022-02-03T05:30:30Z</updateDate>
+        <latestAction>
+          <actionDate>2005-07-29</actionDate>
+          <text>Amendment SA 1646 agreed to in Senate by Unanimous Consent.</text>
+          <links>
+            <link>
+              <name>SA 1646</name>
+              <url>https://www.congress.gov/amendment/109th-congress/senate-amendment/1646</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>C001035</bioguideId>
+            <fullName>Sen. Collins, Susan M. [R-ME]</fullName>
+            <firstName>Susan</firstName>
+            <lastName>Collins</lastName>
+            <party>R</party>
+            <state>ME</state>
+            <middleName>M.</middleName>
+          </item>
+        </sponsors>
+        <proposedDate>2005-07-29T04:00:00Z</proposedDate>
+        <submittedDate>2005-07-29T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>109</congress>
+          <type>S</type>
+          <originChamber>Senate</originChamber>
+          <originChamberCode>S</originChamberCode>
+          <number>501</number>
+          <title>National Women's History Museum Act of 2005</title>
+          <updateDateIncludingText>2023-01-13T04:50:19Z</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2005-07-29</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 1646 agreed to in Senate by Unanimous Consent.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2005-07-29</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 1646 proposed by Senator Frist for Senator Collins. (consideration: CR S9584-9585; text: CR S9585) To specify that no Federal funds are to be used to establish, construct, or operate the National Women's History Museum.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2005-07-29</actionDate>
+              <text>Senate amendment proposed (on the floor): Amendment SA 1646 proposed by Senator Frist for Senator Collins.(consideration: CR S9584-9585; text: CR S9585)</text>
+              <type>Floor</type>
+              <actionCode>93000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2005-07-29</actionDate>
+              <text>Senate amendment agreed to: Amendment SA 1646 agreed to in Senate by Unanimous Consent.</text>
+              <type>Floor</type>
+              <actionCode>94000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2005-07-29</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+    </amendments>
+    <textVersions>
+      <item>
+        <type>Referred in House</type>
+        <date>2005-09-06T04:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2005-07-29T04:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Reported to Senate</type>
+        <date>2005-07-18T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-109s501rs/xml/BILLS-109s501rs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2005-03-03T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-109s501is/xml/BILLS-109s501is.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2005-09-07</actionDate>
+      <text>Referred to the Subcommittee on Economic Development, Public Buildings and Emergency Management.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

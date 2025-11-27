@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>1651</number>
+    <updateDate>2022-02-03T05:27:19Z</updateDate>
+    <updateDateIncludingText>2022-02-03T05:27:19Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2005-04-14</introducedDate>
+    <congress>109</congress>
+    <committees>
+      <item>
+        <systemCode>hsba00</systemCode>
+        <name>Financial Services Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsba15</systemCode>
+            <name>Consumer Protection and Financial Institutions Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2005-05-19T16:00:15Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2005-04-14T13:57:35Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2005-05-19</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsba15</systemCode>
+            <name>Consumer Protection and Financial Institutions Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Financial Institutions and Consumer Credit.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2005-04-14</actionDate>
+        <text>Referred to the House Committee on Financial Services.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsba00</systemCode>
+            <name>Financial Services Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2005-04-14</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2005-04-14</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>J000255</bioguideId>
+        <fullName>Rep. Jones, Walter B., Jr. [R-NC-3]</fullName>
+        <firstName>WALTER</firstName>
+        <lastName>JONES</lastName>
+        <party>R</party>
+        <state>NC</state>
+        <middleName>B.</middleName>
+        <district>3</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>K000008</bioguideId>
+        <fullName>Rep. Kanjorski, Paul E. [D-PA-11]</fullName>
+        <firstName>PAUL</firstName>
+        <lastName>KANJORSKI</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <middleName>E.</middleName>
+        <district>11</district>
+        <sponsorshipDate>2005-04-14</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000762</bioguideId>
+        <fullName>Rep. Hooley, Darlene [D-OR-5]</fullName>
+        <firstName>DARLENE</firstName>
+        <lastName>HOOLEY</lastName>
+        <party>D</party>
+        <state>OR</state>
+        <district>5</district>
+        <sponsorshipDate>2005-04-14</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000078</bioguideId>
+        <fullName>Rep. Kelly, Sue W. [R-NY-19]</fullName>
+        <firstName>SUE</firstName>
+        <lastName>KELLY</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <middleName>W.</middleName>
+        <district>19</district>
+        <sponsorshipDate>2005-04-14</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001036</bioguideId>
+        <fullName>Rep. Hensarling, Jeb [R-TX-5]</fullName>
+        <firstName>Jeb</firstName>
+        <lastName>Hensarling</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>5</district>
+        <sponsorshipDate>2005-04-14</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>J000174</bioguideId>
+        <fullName>Rep. Johnson, Sam [R-TX-3]</fullName>
+        <firstName>SAM</firstName>
+        <lastName>JOHNSON</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>3</district>
+        <sponsorshipDate>2005-04-14</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000250</bioguideId>
+        <fullName>Rep. Sessions, Pete [R-TX-32]</fullName>
+        <firstName>PETE</firstName>
+        <lastName>SESSIONS</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>32</district>
+        <sponsorshipDate>2005-04-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000617</bioguideId>
+        <fullName>Rep. Bonilla, Henry [R-TX-23]</fullName>
+        <firstName>HENRY</firstName>
+        <lastName>BONILLA</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>23</district>
+        <sponsorshipDate>2005-04-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001063</bioguideId>
+        <fullName>Rep. Cuellar, Henry [D-TX-28]</fullName>
+        <firstName>Henry</firstName>
+        <lastName>Cuellar</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>28</district>
+        <sponsorshipDate>2005-04-28</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000170</bioguideId>
+        <fullName>Rep. Reyes, Silvestre [D-TX-16]</fullName>
+        <firstName>SILVESTRE</firstName>
+        <lastName>REYES</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>16</district>
+        <sponsorshipDate>2005-05-03</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000067</bioguideId>
+        <fullName>Rep. Hall, Ralph M. [R-TX-4]</fullName>
+        <firstName>RALPH</firstName>
+        <lastName>HALL</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <middleName>M.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2005-05-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000072</bioguideId>
+        <fullName>Rep. Baker, Richard H. [R-LA-6]</fullName>
+        <firstName>RICHARD</firstName>
+        <lastName>BAKER</lastName>
+        <party>R</party>
+        <state>LA</state>
+        <middleName>H.</middleName>
+        <district>6</district>
+        <sponsorshipDate>2005-05-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000465</bioguideId>
+        <fullName>Rep. Skelton, Ike [D-MO-4]</fullName>
+        <firstName>IKE</firstName>
+        <lastName>SKELTON</lastName>
+        <party>D</party>
+        <state>MO</state>
+        <district>4</district>
+        <sponsorshipDate>2005-05-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000459</bioguideId>
+        <fullName>Rep. Terry, Lee [R-NE-2]</fullName>
+        <firstName>LEE</firstName>
+        <lastName>TERRY</lastName>
+        <party>R</party>
+        <state>NE</state>
+        <district>2</district>
+        <sponsorshipDate>2005-05-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001049</bioguideId>
+        <fullName>Rep. Clay, Wm. Lacy [D-MO-1]</fullName>
+        <firstName>WM.</firstName>
+        <lastName>CLAY</lastName>
+        <party>D</party>
+        <state>MO</state>
+        <middleName>LACY</middleName>
+        <district>1</district>
+        <sponsorshipDate>2005-05-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000172</bioguideId>
+        <fullName>Rep. Emerson, Jo Ann [R-MO-8]</fullName>
+        <firstName>JO</firstName>
+        <lastName>EMERSON</lastName>
+        <party>R</party>
+        <state>MO</state>
+        <middleName>ANN</middleName>
+        <district>8</district>
+        <sponsorshipDate>2005-05-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000168</bioguideId>
+        <fullName>Rep. Deal, Nathan [R-GA-10]</fullName>
+        <firstName>NATHAN</firstName>
+        <lastName>DEAL</lastName>
+        <party>R</party>
+        <state>GA</state>
+        <district>10</district>
+        <sponsorshipDate>2005-05-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000566</bioguideId>
+        <fullName>Rep. Ryun, Jim [R-KS-2]</fullName>
+        <firstName>JIM</firstName>
+        <lastName>RYUN</lastName>
+        <party>R</party>
+        <state>KS</state>
+        <district>2</district>
+        <sponsorshipDate>2005-05-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000934</bioguideId>
+        <fullName>Rep. Moran, Jerry [R-KS-1]</fullName>
+        <firstName>Jerry</firstName>
+        <lastName>Moran</lastName>
+        <party>R</party>
+        <state>KS</state>
+        <district>1</district>
+        <sponsorshipDate>2005-05-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000948</bioguideId>
+        <fullName>Rep. Hulshof, Kenny C. [R-MO-9]</fullName>
+        <firstName>KENNY</firstName>
+        <lastName>HULSHOF</lastName>
+        <party>R</party>
+        <state>MO</state>
+        <middleName>C.</middleName>
+        <district>9</district>
+        <sponsorshipDate>2005-05-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000546</bioguideId>
+        <fullName>Rep. Graves, Sam [R-MO-6]</fullName>
+        <firstName>SAM</firstName>
+        <lastName>GRAVES</lastName>
+        <party>R</party>
+        <state>MO</state>
+        <district>6</district>
+        <sponsorshipDate>2005-05-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001244</bioguideId>
+        <fullName>Rep. Bonner, Jo [R-AL-1]</fullName>
+        <firstName>Jo</firstName>
+        <lastName>Bonner</lastName>
+        <party>R</party>
+        <state>AL</state>
+        <district>1</district>
+        <sponsorshipDate>2005-05-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001251</bioguideId>
+        <fullName>Rep. Butterfield, G. K. [D-NC-1]</fullName>
+        <firstName>G. K.</firstName>
+        <lastName>Butterfield</lastName>
+        <party>D</party>
+        <state>NC</state>
+        <district>1</district>
+        <sponsorshipDate>2005-05-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001149</bioguideId>
+        <fullName>Rep. Sweeney, John E. [R-NY-20]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>SWEENEY</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <middleName>E.</middleName>
+        <district>20</district>
+        <sponsorshipDate>2005-06-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000362</bioguideId>
+        <fullName>Rep. King, Steve [R-IA-5]</fullName>
+        <firstName>Steve</firstName>
+        <lastName>King</lastName>
+        <party>R</party>
+        <state>IA</state>
+        <district>5</district>
+        <sponsorshipDate>2005-06-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000807</bioguideId>
+        <fullName>Rep. Hostettler, John N. [R-IN-8]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>HOSTETTLER</lastName>
+        <party>R</party>
+        <state>IN</state>
+        <district>8</district>
+        <sponsorshipDate>2005-06-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000280</bioguideId>
+        <fullName>Rep. Goode, Virgil H., Jr. [R-VA-5]</fullName>
+        <firstName>VIRGIL</firstName>
+        <lastName>GOODE</lastName>
+        <party>R</party>
+        <state>VA</state>
+        <middleName>H.</middleName>
+        <district>5</district>
+        <sponsorshipDate>2005-06-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000536</bioguideId>
+        <fullName>Rep. Gutknecht, Gil [R-MN-1]</fullName>
+        <firstName>GIL</firstName>
+        <lastName>GUTKNECHT</lastName>
+        <party>R</party>
+        <state>MN</state>
+        <district>1</district>
+        <sponsorshipDate>2005-06-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>A000361</bioguideId>
+        <fullName>Rep. Alexander, Rodney [R-LA-5]</fullName>
+        <firstName>Rodney</firstName>
+        <lastName>Alexander</lastName>
+        <party>R</party>
+        <state>LA</state>
+        <district>5</district>
+        <sponsorshipDate>2005-06-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000364</bioguideId>
+        <fullName>Rep. Shimkus, John [R-IL-19]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>SHIMKUS</lastName>
+        <party>R</party>
+        <state>IL</state>
+        <middleName>M.</middleName>
+        <district>19</district>
+        <sponsorshipDate>2005-06-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>A000358</bioguideId>
+        <fullName>Rep. Akin, W. Todd [R-MO-2]</fullName>
+        <firstName>W.</firstName>
+        <lastName>AKIN</lastName>
+        <party>R</party>
+        <state>MO</state>
+        <middleName>TODD</middleName>
+        <district>2</district>
+        <sponsorshipDate>2005-06-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000652</bioguideId>
+        <fullName>Rep. Boswell, Leonard L. [D-IA-3]</fullName>
+        <firstName>LEONARD</firstName>
+        <lastName>BOSWELL</lastName>
+        <party>D</party>
+        <state>IA</state>
+        <middleName>L.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2005-06-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001248</bioguideId>
+        <fullName>Rep. Burgess, Michael C. [R-TX-26]</fullName>
+        <firstName>Michael</firstName>
+        <lastName>Burgess</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <middleName>C.</middleName>
+        <district>26</district>
+        <sponsorshipDate>2005-06-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001158</bioguideId>
+        <fullName>Rep. Marchant, Kenny [R-TX-24]</fullName>
+        <firstName>Kenny</firstName>
+        <lastName>Marchant</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>24</district>
+        <sponsorshipDate>2005-06-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000573</bioguideId>
+        <fullName>Rep. Ross, Mike [D-AR-4]</fullName>
+        <firstName>MIKE</firstName>
+        <lastName>ROSS</lastName>
+        <party>D</party>
+        <state>AR</state>
+        <district>4</district>
+        <sponsorshipDate>2005-06-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000605</bioguideId>
+        <fullName>Rep. Drake, Thelma D. [R-VA-2]</fullName>
+        <firstName>Thelma</firstName>
+        <lastName>Drake</lastName>
+        <party>R</party>
+        <state>VA</state>
+        <middleName>D.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2005-06-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000260</bioguideId>
+        <fullName>Rep. Tiahrt, Todd [R-KS-4]</fullName>
+        <firstName>TODD</firstName>
+        <lastName>TIAHRT</lastName>
+        <party>R</party>
+        <state>KS</state>
+        <district>4</district>
+        <sponsorshipDate>2005-07-28</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000262</bioguideId>
+        <fullName>Rep. Ford, Harold E., Jr. [D-TN-9]</fullName>
+        <firstName>HAROLD</firstName>
+        <lastName>FORD</lastName>
+        <party>D</party>
+        <state>TN</state>
+        <middleName>E.</middleName>
+        <district>9</district>
+        <sponsorshipDate>2005-09-07</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000119</bioguideId>
+        <fullName>Rep. Wamp, Zach [R-TN-3]</fullName>
+        <firstName>ZACH</firstName>
+        <lastName>WAMP</lastName>
+        <party>R</party>
+        <state>TN</state>
+        <district>3</district>
+        <sponsorshipDate>2005-09-07</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000210</bioguideId>
+        <fullName>Rep. Gillmor, Paul E. [R-OH-5]</fullName>
+        <firstName>PAUL</firstName>
+        <lastName>GILLMOR</lastName>
+        <party>R</party>
+        <state>OH</state>
+        <middleName>E.</middleName>
+        <district>5</district>
+        <sponsorshipDate>2005-09-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000447</bioguideId>
+        <fullName>Rep. Feeney, Tom [R-FL-24]</fullName>
+        <firstName>Tom</firstName>
+        <lastName>Feeney</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>24</district>
+        <sponsorshipDate>2005-10-07</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Commerce</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Administrative procedure</name>
+        </item>
+        <item>
+          <name>Advertising</name>
+        </item>
+        <item>
+          <name>Business records</name>
+        </item>
+        <item>
+          <name>Civil actions and liability</name>
+        </item>
+        <item>
+          <name>Consumer credit</name>
+        </item>
+        <item>
+          <name>Consumer education</name>
+        </item>
+        <item>
+          <name>Consumer protection</name>
+        </item>
+        <item>
+          <name>Contracts</name>
+        </item>
+        <item>
+          <name>Crime and Law Enforcement</name>
+        </item>
+        <item>
+          <name>Criminal liability</name>
+        </item>
+        <item>
+          <name>Damages</name>
+        </item>
+        <item>
+          <name>Deceptive advertising</name>
+        </item>
+        <item>
+          <name>District courts</name>
+        </item>
+        <item>
+          <name>Evidence (Law)</name>
+        </item>
+        <item>
+          <name>Federal Reserve System</name>
+        </item>
+        <item>
+          <name>Federal Trade Commission</name>
+        </item>
+        <item>
+          <name>Federal preemption</name>
+        </item>
+        <item>
+          <name>Fees</name>
+        </item>
+        <item>
+          <name>Finance and Financial Sector</name>
+        </item>
+        <item>
+          <name>Financial statements</name>
+        </item>
+        <item>
+          <name>Fines (Penalties)</name>
+        </item>
+        <item>
+          <name>Fraud</name>
+        </item>
+        <item>
+          <name>Garnishment</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Government liability</name>
+        </item>
+        <item>
+          <name>Government paperwork</name>
+        </item>
+        <item>
+          <name>Independent regulatory commissions</name>
+        </item>
+        <item>
+          <name>Injunctions</name>
+        </item>
+        <item>
+          <name>Insurance premiums</name>
+        </item>
+        <item>
+          <name>Labeling</name>
+        </item>
+        <item>
+          <name>Labor and Employment</name>
+        </item>
+        <item>
+          <name>Law</name>
+        </item>
+        <item>
+          <name>Lease and rental services</name>
+        </item>
+        <item>
+          <name>Leases</name>
+        </item>
+        <item>
+          <name>Liability (Law)</name>
+        </item>
+        <item>
+          <name>Liability insurance</name>
+        </item>
+        <item>
+          <name>Limitation of actions</name>
+        </item>
+        <item>
+          <name>Maintenance and repair</name>
+        </item>
+        <item>
+          <name>Negotiable instruments</name>
+        </item>
+        <item>
+          <name>Parties to actions</name>
+        </item>
+        <item>
+          <name>Prices</name>
+        </item>
+        <item>
+          <name>Property insurance</name>
+        </item>
+        <item>
+          <name>Rent</name>
+        </item>
+        <item>
+          <name>Restrictive trade practices</name>
+        </item>
+        <item>
+          <name>Small business</name>
+        </item>
+        <item>
+          <name>State laws</name>
+        </item>
+        <item>
+          <name>Surety and fidelity</name>
+        </item>
+        <item>
+          <name>Taxation</name>
+        </item>
+        <item>
+          <name>Warranties</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Commerce</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2005-04-14</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2005-06-07T15:15:06Z</updateDate>
+        <text><![CDATA[ <p> Consumer Rental Purchase Agreement Act - Amends the Consumer Credit Protection Act to prescribe consumer protection guidelines for rental-purchase transactions, including: (1) the determination of rental-purchase cost; (2) disclosure requirements; (3) prohibitions against confessions of judgment, wage assignments, and waiver of consumer claims or defenses; (4) furnishing of statements of account; (5) point-of-rental disclosures; and (6) rental-purchase advertising disclosures.</p> <p>Establishes civil and criminal liability for violations of this Act.</p> <p>Grants enforcement powers to the Federal Trade Commission and to state attorneys general. </p>]]></text>
+      </summary>
+    </summaries>
+    <title>Consumer Rental Purchase Agreement Act</title>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Consumer Rental Purchase Agreement Act</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Consumer Rental Purchase Agreement Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend the Consumer Credit Protection Act to assure meaningful disclosures of the terms of rental-purchase agreements, including disclosures of all costs to consumers under such agreements, to provide certain substantive rights to consumers under such agreements, and for other purposes.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2005-04-14T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-109hr1651ih/xml/BILLS-109hr1651ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2005-05-19</actionDate>
+      <text>Referred to the Subcommittee on Financial Institutions and Consumer Credit.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

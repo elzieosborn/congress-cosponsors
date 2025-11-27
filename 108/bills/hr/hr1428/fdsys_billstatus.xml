@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>1428</number>
+    <updateDate>2023-01-15T22:33:32Z</updateDate>
+    <updateDateIncludingText>2023-01-15T22:33:32Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2003-03-25</introducedDate>
+    <congress>108</congress>
+    <committees>
+      <item>
+        <systemCode>hsju00</systemCode>
+        <name>Judiciary Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsju09</systemCode>
+            <name>Commercial and Administrative Law Subcommittee</name>
+            <activities>
+              <item>
+                <name>Hearings by</name>
+                <date>2003-05-22T20:10:10Z</date>
+              </item>
+              <item>
+                <name>Referred to</name>
+                <date>2003-05-05T17:11:11Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2003-03-25T17:34:00Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <relatedBills>
+      <item>
+        <title>Bankruptcy Judgeship Act of 2003</title>
+        <congress>108</congress>
+        <number>1061</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2003-05-14</actionDate>
+          <text>Read twice and referred to the Committee on the Judiciary. (text of measure as introduced: CR S6261-6262)</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2003-05-22</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsju09</systemCode>
+            <name>Commercial and Administrative Law Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Subcommittee Hearings Held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2003-05-05</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsju09</systemCode>
+            <name>Commercial and Administrative Law Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Commercial and Administrative Law.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2003-03-25</actionDate>
+        <text>Referred to the House Committee on the Judiciary.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2003-03-25</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2003-03-25</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>K000220</bioguideId>
+        <fullName>Rep. Kingston, Jack [R-GA-1]</fullName>
+        <firstName>JACK</firstName>
+        <lastName>KINGSTON</lastName>
+        <party>R</party>
+        <state>GA</state>
+        <district>1</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>F000238</bioguideId>
+        <fullName>Rep. Foley, Mark [R-FL-16]</fullName>
+        <firstName>MARK</firstName>
+        <lastName>FOLEY</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>16</district>
+        <sponsorshipDate>2003-03-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000874</bioguideId>
+        <fullName>Rep. Hoyer, Steny H. [D-MD-5]</fullName>
+        <firstName>STENY</firstName>
+        <lastName>HOYER</lastName>
+        <party>D</party>
+        <state>MD</state>
+        <middleName>H.</middleName>
+        <district>5</district>
+        <sponsorshipDate>2003-03-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000275</bioguideId>
+        <fullName>Rep. Deutsch, Peter [D-FL-20]</fullName>
+        <firstName>PETER</firstName>
+        <lastName>DEUTSCH</lastName>
+        <party>D</party>
+        <state>FL</state>
+        <district>20</district>
+        <sponsorshipDate>2003-03-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000572</bioguideId>
+        <fullName>Rep. Rogers, Mike J. [R-MI-8]</fullName>
+        <firstName>Mike</firstName>
+        <lastName>Rogers</lastName>
+        <party>R</party>
+        <state>MI</state>
+        <district>8</district>
+        <sponsorshipDate>2003-03-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>J000082</bioguideId>
+        <fullName>Rep. Jenkins, William L. [R-TN-1]</fullName>
+        <firstName>WILLIAM</firstName>
+        <lastName>JENKINS</lastName>
+        <party>R</party>
+        <state>TN</state>
+        <middleName>L.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2003-03-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000243</bioguideId>
+        <fullName>Rep. Castle, Michael N. [R-DE-At Large]</fullName>
+        <firstName>MICHAEL</firstName>
+        <lastName>CASTLE</lastName>
+        <party>R</party>
+        <state>DE</state>
+        <middleName>N.</middleName>
+        <district>0</district>
+        <sponsorshipDate>2003-03-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000392</bioguideId>
+        <fullName>Rep. Frost, Martin [D-TX-24]</fullName>
+        <firstName>MARTIN</firstName>
+        <lastName>FROST</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>24</district>
+        <sponsorshipDate>2003-03-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>N000002</bioguideId>
+        <fullName>Rep. Nadler, Jerrold [D-NY-8]</fullName>
+        <firstName>JERROLD</firstName>
+        <lastName>NADLER</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <district>8</district>
+        <sponsorshipDate>2003-03-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000435</bioguideId>
+        <fullName>Rep. Ros-Lehtinen, Ileana [R-FL-18]</fullName>
+        <firstName>ILEANA</firstName>
+        <lastName>ROS-LEHTINEN</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>18</district>
+        <sponsorshipDate>2003-03-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000152</bioguideId>
+        <fullName>Rep. Gibbons, Jim [R-NV-2]</fullName>
+        <firstName>JIM</firstName>
+        <lastName>GIBBONS</lastName>
+        <party>R</party>
+        <state>NV</state>
+        <district>2</district>
+        <sponsorshipDate>2003-03-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000309</bioguideId>
+        <fullName>Rep. Gordon, Bart [D-TN-6]</fullName>
+        <firstName>BART</firstName>
+        <lastName>GORDON</lastName>
+        <party>D</party>
+        <state>TN</state>
+        <district>6</district>
+        <sponsorshipDate>2003-03-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001031</bioguideId>
+        <fullName>Rep. Hoeffel, Joseph M. [D-PA-13]</fullName>
+        <firstName>JOSEPH</firstName>
+        <lastName>HOEFFEL</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <middleName>M.</middleName>
+        <district>13</district>
+        <sponsorshipDate>2003-03-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001249</bioguideId>
+        <fullName>Rep. Burns, Max [R-GA-12]</fullName>
+        <firstName>Max</firstName>
+        <lastName>Burns</lastName>
+        <party>R</party>
+        <state>GA</state>
+        <district>12</district>
+        <sponsorshipDate>2003-03-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000550</bioguideId>
+        <fullName>Rep. Gingrey, Phil [R-GA-11]</fullName>
+        <firstName>Phil</firstName>
+        <lastName>Gingrey</lastName>
+        <party>R</party>
+        <state>GA</state>
+        <district>11</district>
+        <sponsorshipDate>2003-03-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001142</bioguideId>
+        <fullName>Rep. Matheson, Jim [D-UT-2]</fullName>
+        <firstName>JIM</firstName>
+        <lastName>MATHESON</lastName>
+        <party>D</party>
+        <state>UT</state>
+        <district>2</district>
+        <sponsorshipDate>2003-03-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001151</bioguideId>
+        <fullName>Rep. Schrock, Edward L. [R-VA-2]</fullName>
+        <firstName>EDWARD</firstName>
+        <lastName>SCHROCK</lastName>
+        <party>R</party>
+        <state>VA</state>
+        <middleName>L.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2003-03-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001250</bioguideId>
+        <fullName>Rep. Bishop, Rob [R-UT-1]</fullName>
+        <firstName>Rob</firstName>
+        <lastName>Bishop</lastName>
+        <party>R</party>
+        <state>UT</state>
+        <district>1</district>
+        <sponsorshipDate>2003-03-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000640</bioguideId>
+        <fullName>Rep. Collins, Mac [R-GA-8]</fullName>
+        <firstName>MAC</firstName>
+        <lastName>COLLINS</lastName>
+        <party>R</party>
+        <state>GA</state>
+        <district>8</district>
+        <sponsorshipDate>2003-03-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000299</bioguideId>
+        <fullName>Rep. Diaz-Balart, Lincoln [R-FL-21]</fullName>
+        <firstName>LINCOLN</firstName>
+        <lastName>DIAZ-BALART</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>21</district>
+        <sponsorshipDate>2003-03-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000437</bioguideId>
+        <fullName>Rep. Wicker, Roger F. [R-MS-1]</fullName>
+        <firstName>Roger</firstName>
+        <lastName>Wicker</lastName>
+        <party>R</party>
+        <state>MS</state>
+        <middleName>F.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2003-03-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>V000128</bioguideId>
+        <fullName>Rep. Van Hollen, Chris [D-MD-8]</fullName>
+        <firstName>Chris</firstName>
+        <lastName>Van Hollen</lastName>
+        <party>D</party>
+        <state>MD</state>
+        <district>8</district>
+        <sponsorshipDate>2003-03-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000485</bioguideId>
+        <fullName>Rep. McIntyre, Mike [D-NC-7]</fullName>
+        <firstName>MIKE</firstName>
+        <lastName>MCINTYRE</lastName>
+        <party>D</party>
+        <state>NC</state>
+        <district>7</district>
+        <sponsorshipDate>2003-03-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>A000210</bioguideId>
+        <fullName>Rep. Andrews, Robert E. [D-NJ-1]</fullName>
+        <firstName>ROBERT</firstName>
+        <lastName>ANDREWS</lastName>
+        <party>D</party>
+        <state>NJ</state>
+        <middleName>E.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2003-05-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000602</bioguideId>
+        <fullName>Rep. Davis, Artur [D-AL-7]</fullName>
+        <firstName>Artur</firstName>
+        <lastName>Davis</lastName>
+        <party>D</party>
+        <state>AL</state>
+        <district>7</district>
+        <sponsorshipDate>2003-05-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000795</bioguideId>
+        <fullName>Rep. Wilson, Joe [R-SC-2]</fullName>
+        <firstName>Joe</firstName>
+        <lastName>Wilson</lastName>
+        <party>R</party>
+        <state>SC</state>
+        <district>2</district>
+        <sponsorshipDate>2003-05-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000589</bioguideId>
+        <fullName>Rep. Porter, Jon C. [R-NV-3]</fullName>
+        <firstName>Jon</firstName>
+        <lastName>Porter</lastName>
+        <party>R</party>
+        <state>NV</state>
+        <middleName>C.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2003-06-02</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000034</bioguideId>
+        <fullName>Rep. Pallone, Frank, Jr. [D-NJ-6]</fullName>
+        <firstName>FRANK</firstName>
+        <lastName>PALLONE</lastName>
+        <party>D</party>
+        <state>NJ</state>
+        <district>6</district>
+        <sponsorshipDate>2003-06-02</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000672</bioguideId>
+        <fullName>Rep. Snyder, Vic [D-AR-2]</fullName>
+        <firstName>VICTOR</firstName>
+        <lastName>SNYDER</lastName>
+        <party>D</party>
+        <state>AR</state>
+        <middleName>F.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2003-06-03</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001231</bioguideId>
+        <fullName>Rep. Berkley, Shelley [D-NV-1]</fullName>
+        <firstName>SHELLEY</firstName>
+        <lastName>BERKLEY</lastName>
+        <party>D</party>
+        <state>NV</state>
+        <district>1</district>
+        <sponsorshipDate>2003-06-12</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000523</bioguideId>
+        <fullName>Rep. Price, David E. [D-NC-4]</fullName>
+        <firstName>DAVID</firstName>
+        <lastName>PRICE</lastName>
+        <party>D</party>
+        <state>NC</state>
+        <middleName>E.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2003-06-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000597</bioguideId>
+        <fullName>Rep. Davis, Jo Ann [R-VA-1]</fullName>
+        <firstName>JO ANN</firstName>
+        <lastName>DAVIS</lastName>
+        <party>R</party>
+        <state>VA</state>
+        <district>1</district>
+        <sponsorshipDate>2003-06-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000141</bioguideId>
+        <fullName>Rep. Cardin, Benjamin L. [D-MD-3]</fullName>
+        <firstName>Ben</firstName>
+        <lastName>Cardin</lastName>
+        <party>D</party>
+        <state>MD</state>
+        <district>3</district>
+        <sponsorshipDate>2003-07-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>I000055</bioguideId>
+        <fullName>Rep. Isakson, Johnny [R-GA-6]</fullName>
+        <firstName>Johnny</firstName>
+        <lastName>Isakson</lastName>
+        <party>R</party>
+        <state>GA</state>
+        <district>6</district>
+        <sponsorshipDate>2003-07-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>U000039</bioguideId>
+        <fullName>Rep. Udall, Tom [D-NM-3]</fullName>
+        <firstName>TOM</firstName>
+        <lastName>UDALL</lastName>
+        <party>D</party>
+        <state>NM</state>
+        <district>3</district>
+        <sponsorshipDate>2003-07-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000573</bioguideId>
+        <fullName>Rep. Ross, Mike [D-AR-4]</fullName>
+        <firstName>MIKE</firstName>
+        <lastName>ROSS</lastName>
+        <party>D</party>
+        <state>AR</state>
+        <district>4</district>
+        <sponsorshipDate>2003-09-24</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000576</bioguideId>
+        <fullName>Rep. Ruppersberger, C. A. Dutch [D-MD-2]</fullName>
+        <firstName>C. A.</firstName>
+        <lastName>Ruppersberger</lastName>
+        <party>D</party>
+        <state>MD</state>
+        <middleName>Dutch</middleName>
+        <district>2</district>
+        <sponsorshipDate>2003-10-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000168</bioguideId>
+        <fullName>Rep. Deal, Nathan [R-GA-10]</fullName>
+        <firstName>NATHAN</firstName>
+        <lastName>DEAL</lastName>
+        <party>R</party>
+        <state>GA</state>
+        <district>10</district>
+        <sponsorshipDate>2004-06-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000043</bioguideId>
+        <fullName>Rep. Fattah, Chaka [D-PA-2]</fullName>
+        <firstName>CHAKA</firstName>
+        <lastName>FATTAH</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <district>2</district>
+        <sponsorshipDate>2004-06-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000420</bioguideId>
+        <fullName>Rep. Berry, Marion [D-AR-1]</fullName>
+        <firstName>MARION</firstName>
+        <lastName>BERRY</lastName>
+        <party>D</party>
+        <state>AR</state>
+        <district>1</district>
+        <sponsorshipDate>2004-09-07</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000136</bioguideId>
+        <fullName>Rep. Davis, Tom [R-VA-11]</fullName>
+        <firstName>THOMAS</firstName>
+        <lastName>DAVIS</lastName>
+        <party>R</party>
+        <state>VA</state>
+        <middleName>M.</middleName>
+        <district>11</district>
+        <sponsorshipDate>2004-09-07</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000490</bioguideId>
+        <fullName>Rep. Bishop, Sanford D., Jr. [D-GA-2]</fullName>
+        <firstName>SANFORD</firstName>
+        <lastName>BISHOP</lastName>
+        <party>D</party>
+        <state>GA</state>
+        <middleName>D.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2004-09-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Law</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Arkansas</name>
+        </item>
+        <item>
+          <name>Bankruptcy courts</name>
+        </item>
+        <item>
+          <name>Delaware</name>
+        </item>
+        <item>
+          <name>Finance and Financial Sector</name>
+        </item>
+        <item>
+          <name>Florida</name>
+        </item>
+        <item>
+          <name>Georgia</name>
+        </item>
+        <item>
+          <name>Judges</name>
+        </item>
+        <item>
+          <name>Judicial districts</name>
+        </item>
+        <item>
+          <name>Judicial tenure</name>
+        </item>
+        <item>
+          <name>Maryland</name>
+        </item>
+        <item>
+          <name>Michigan</name>
+        </item>
+        <item>
+          <name>Mississippi</name>
+        </item>
+        <item>
+          <name>Nevada</name>
+        </item>
+        <item>
+          <name>New Jersey</name>
+        </item>
+        <item>
+          <name>New York State</name>
+        </item>
+        <item>
+          <name>North Carolina</name>
+        </item>
+        <item>
+          <name>Pennsylvania</name>
+        </item>
+        <item>
+          <name>Puerto Rico</name>
+        </item>
+        <item>
+          <name>South Carolina</name>
+        </item>
+        <item>
+          <name>Tennessee</name>
+        </item>
+        <item>
+          <name>Utah</name>
+        </item>
+        <item>
+          <name>Virginia</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Law</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2003-03-25</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2003-07-24T14:58:22Z</updateDate>
+        <text><![CDATA[ <p>Bankruptcy Judgeship Act of 2003 - Authorizes appointment of additional bankruptcy judgeships for designated States, including additional temporary bankruptcy judgeships for Puerto Rico, New York, Pennsylvania, Maryland, Mississippi, and Georgia.</p> <p>Extends certain existing temporary bankruptcy judgeships in Alabama and. Tennessee.</p> <p> Converts to a bankruptcy judgeship for the middle district of Georgia the bankruptcy judgeship presently shared by the southern district of Georgia and the middle district of Georgia.</p> <p>Converts to a permanent bankruptcy judgeship existing temporary bankruptcy judgeships for the districts of Delaware and Puerto Rico.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Bankruptcy Judgeship Act of 2003</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Bankruptcy Judgeship Act of 2003</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To authorize 36 additional bankruptcy judgeships, and for other purposes.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Bankruptcy Judgeship Act of 2003</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2003-03-25T05:00:00Z</date>
+        <formats/>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2003-05-22</actionDate>
+      <text>Subcommittee Hearings Held.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

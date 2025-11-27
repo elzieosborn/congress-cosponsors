@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>2035</number>
+    <updateDate>2022-11-01T13:50:06Z</updateDate>
+    <updateDateIncludingText>2022-11-01T13:50:06Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <type>S</type>
+    <introducedDate>2019-06-27</introducedDate>
+    <congress>116</congress>
+    <committees>
+      <item>
+        <systemCode>hshm00</systemCode>
+        <name>Homeland Security Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Markup by</name>
+            <date>2020-02-12T15:50:48Z</date>
+          </item>
+          <item>
+            <name>Referred to</name>
+            <date>2019-09-11T20:57:42Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>sscm00</systemCode>
+        <name>Commerce, Science, and Transportation Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Discharged from</name>
+            <date>2019-09-10T21:45:49Z</date>
+          </item>
+          <item>
+            <name>Markup by</name>
+            <date>2019-07-24T19:47:58Z</date>
+          </item>
+          <item>
+            <name>Referred to</name>
+            <date>2019-06-27T20:26:49Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2020-02-12</actionDate>
+        <committees>
+          <item>
+            <systemCode>hshm00</systemCode>
+            <name>Homeland Security Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Ordered to be Reported (Amended).</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2020-02-12</actionDate>
+        <committees>
+          <item>
+            <systemCode>hshm00</systemCode>
+            <name>Homeland Security Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Committee Consideration and Mark-up Session Held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2019-09-11</actionDate>
+        <text>Referred to the House Committee on Homeland Security.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hshm00</systemCode>
+            <name>Homeland Security Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2019-09-11</actionDate>
+        <actionTime>12:45:03</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2019-09-11</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2019-09-10</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate without amendment by Unanimous Consent. (text: CR S5411)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2019-09-10</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate without amendment by Unanimous Consent.(text: CR S5411)</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2019-09-10</actionDate>
+        <committees>
+          <item>
+            <systemCode>sscm00</systemCode>
+            <name>Commerce, Science, and Transportation Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Senate Committee on Commerce, Science, and Transportation discharged by Unanimous Consent. (consideration: CR S5411)</text>
+        <type>Discharge</type>
+      </item>
+      <item>
+        <actionDate>2019-09-10</actionDate>
+        <text>Senate Committee on Commerce, Science, and Transportation discharged by Unanimous Consent.(consideration: CR S5411)</text>
+        <type>Committee</type>
+        <actionCode>14500</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>sscm00</systemCode>
+            <name>Commerce, Science, and Transportation Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2019-07-24</actionDate>
+        <committees>
+          <item>
+            <systemCode>sscm00</systemCode>
+            <name>Commerce, Science, and Transportation Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Commerce, Science, and Transportation. Ordered to be reported without amendment favorably.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2019-06-27</actionDate>
+        <committees>
+          <item>
+            <systemCode>sscm00</systemCode>
+            <name>Commerce, Science, and Transportation Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Commerce, Science, and Transportation.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2019-06-27</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>D000622</bioguideId>
+        <fullName>Sen. Duckworth, Tammy [D-IL]</fullName>
+        <firstName>Tammy</firstName>
+        <lastName>Duckworth</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>Y000064</bioguideId>
+        <fullName>Sen. Young, Todd [R-IN]</fullName>
+        <firstName>Todd</firstName>
+        <lastName>Young</lastName>
+        <party>R</party>
+        <state>IN</state>
+        <middleName>C.</middleName>
+        <sponsorshipDate>2019-06-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <cboCostEstimates>
+      <item>
+        <pubDate>2019-08-07T19:50:07Z</pubDate>
+        <title>S. 2035, TSA Credential and Endorsement Harmonization Act of 2019</title>
+        <url>https://www.cbo.gov/publication/55531</url>
+        <description>As ordered reported by the Senate Committee on Commerce, Science, and Transportation on July 24, 2019</description>
+      </item>
+      <item>
+        <pubDate>2020-03-03T20:31:00Z</pubDate>
+        <title>S. 2035, TSA Credential and Endorsement Harmonization Act of 2019</title>
+        <url>https://www.cbo.gov/publication/56221</url>
+        <description>As ordered reported by the House Committee on Homeland Security on February 12, 2020</description>
+      </item>
+    </cboCostEstimates>
+    <policyArea>
+      <name>Transportation and Public Works</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Aviation and airports</name>
+        </item>
+        <item>
+          <name>Congressional oversight</name>
+        </item>
+        <item>
+          <name>Hazardous wastes and toxic substances</name>
+        </item>
+        <item>
+          <name>Transportation employees</name>
+        </item>
+        <item>
+          <name>Transportation safety and security</name>
+        </item>
+        <item>
+          <name>User charges and fees</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Transportation and Public Works</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2019-06-27</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2019-11-25T15:57:40Z</updateDate>
+        <text><![CDATA[ <p><b>TSA Credential and Endorsement Harmonization Act of 2019</b></p> <p>This bill expands the Transportation Security Administration's (TSA's) PreCheck Program. (The PreCheck Program allows pre-approved passengers to use expedited security lanes at passenger screening checkpoints in airports.)</p> <p>The TSA must develop a strategic plan to expand eligibility for the program to individuals with Transportation Worker Identification Credentials or Hazardous Materials Endorsements on their state-issued commercial driver's license.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>55</versionCode>
+        <actionDate>2019-09-10</actionDate>
+        <actionDesc>Passed Senate</actionDesc>
+        <updateDate>2019-11-27T19:58:39Z</updateDate>
+        <text><![CDATA[ <p><b>TSA Credential and Endorsement Harmonization Act of 2019</b></p> <p>This bill expands the Transportation Security Administration's (TSA's) PreCheck Program. (The PreCheck Program allows pre-approved passengers to use expedited security lanes at passenger screening checkpoints in airports.)</p> <p>The TSA must develop a strategic plan to expand eligibility for the program to individuals with Transportation Worker Identification Credentials or Hazardous Materials Endorsements on their state-issued commercial driver's license.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>TSA Credential and Endorsement Harmonization Act of 2019</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>TSA Credential and Endorsement Harmonization Act of 2019</title>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <title>TSA Credential and Endorsement Harmonization Act of 2019</title>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed Senate</titleType>
+        <title>TSA Credential and Endorsement Harmonization Act of 2019</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Engrossed in Senate</billTextVersionName>
+        <billTextVersionCode>ES</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Passed Senate</titleType>
+        <title>TSA Credential and Endorsement Harmonization Act of 2019</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to require the Transportation Security Administration to develop a strategic plan to expand eligibility for the PreCheck Program to individuals with Transportation Worker Identification Credentials or Hazardous Materials Endorsements.</title>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Referred in House</type>
+        <date>2019-09-11T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-116s2035rfh/xml/BILLS-116s2035rfh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2019-09-10T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-116s2035es/xml/BILLS-116s2035es.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2019-06-27T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-116s2035is/xml/BILLS-116s2035is.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2020-02-12</actionDate>
+      <text>Ordered to be Reported (Amended).</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>995</number>
+    <updateDate>2023-01-11T13:36:21Z</updateDate>
+    <updateDateIncludingText>2023-01-11T13:36:21Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <type>S</type>
+    <introducedDate>2017-05-01</introducedDate>
+    <congress>115</congress>
+    <committees>
+      <item>
+        <systemCode>hsii00</systemCode>
+        <name>Natural Resources Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsii13</systemCode>
+            <name>Water, Wildlife, and Fisheries Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2018-10-10T17:29:48Z</date>
+              </item>
+            </activities>
+          </item>
+          <item>
+            <systemCode>hsii24</systemCode>
+            <name>Indian and Insular Affairs Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2018-10-10T17:29:42Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2018-10-09T16:31:50Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>slia00</systemCode>
+        <name>Indian Affairs Committee</name>
+        <chamber>Senate</chamber>
+        <type>Other</type>
+        <activities>
+          <item>
+            <name>Reported by</name>
+            <date>2018-05-07T20:34:21Z</date>
+          </item>
+          <item>
+            <name>Markup by</name>
+            <date>2018-02-14T07:30:34Z</date>
+          </item>
+          <item>
+            <name>Referred to</name>
+            <date>2017-05-01T20:13:42Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <committeeReports>
+      <committeeReport>
+        <citation>S. Rept. 115-240</citation>
+      </committeeReport>
+    </committeeReports>
+    <actions>
+      <item>
+        <actionDate>2018-10-10</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii13</systemCode>
+            <name>Water, Wildlife, and Fisheries Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Water, Power and Oceans.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2018-10-10</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii24</systemCode>
+            <name>Indian and Insular Affairs Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Indian, Insular and Alaska Native Affairs.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2018-10-09</actionDate>
+        <text>Referred to the House Committee on Natural Resources.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2018-10-09</actionDate>
+        <actionTime>11:32:02</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2018-10-05</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2018-10-04</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate with amendments by Voice Vote. (consideration: CR S6546-6549; text: CR S6548-6549)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2018-10-04</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate with amendments by Voice Vote.(consideration: CR S6546-6549; text: CR S6548-6549)</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2018-05-07</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 397.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2018-05-07</actionDate>
+        <committees>
+          <item>
+            <systemCode>slia00</systemCode>
+            <name>Indian Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Indian Affairs. Reported by Senator Hoeven with amendments. With written report No. 115-240.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2018-05-07</actionDate>
+        <text>Committee on Indian Affairs. Reported by Senator Hoeven with amendments. With written report No. 115-240.</text>
+        <type>Committee</type>
+        <actionCode>14000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>slia00</systemCode>
+            <name>Indian Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2018-02-14</actionDate>
+        <committees>
+          <item>
+            <systemCode>slia00</systemCode>
+            <name>Indian Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Indian Affairs. Ordered to be reported with an amendment favorably.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2017-05-01</actionDate>
+        <committees>
+          <item>
+            <systemCode>slia00</systemCode>
+            <name>Indian Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Indian Affairs.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2017-05-01</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>C000127</bioguideId>
+        <fullName>Sen. Cantwell, Maria [D-WA]</fullName>
+        <firstName>Maria</firstName>
+        <lastName>Cantwell</lastName>
+        <party>D</party>
+        <state>WA</state>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>M001111</bioguideId>
+        <fullName>Sen. Murray, Patty [D-WA]</fullName>
+        <firstName>Patty</firstName>
+        <lastName>Murray</lastName>
+        <party>D</party>
+        <state>WA</state>
+        <sponsorshipDate>2017-05-01</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <cboCostEstimates>
+      <item>
+        <pubDate>2018-03-20T19:31:04Z</pubDate>
+        <title>S. 995, Spokane Tribe of Indians of the Spokane Reservation Equitable Compensation Act</title>
+        <url>https://www.cbo.gov/publication/53668</url>
+        <description>As ordered reported by the Senate Committee on Indian Affairs on February 14, 2018</description>
+      </item>
+    </cboCostEstimates>
+    <policyArea>
+      <name>Native Americans</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Alternative and renewable resources</name>
+        </item>
+        <item>
+          <name>Dams and canals</name>
+        </item>
+        <item>
+          <name>Electric power generation and transmission</name>
+        </item>
+        <item>
+          <name>Federal-Indian relations</name>
+        </item>
+        <item>
+          <name>Government trust funds</name>
+        </item>
+        <item>
+          <name>Indian claims</name>
+        </item>
+        <item>
+          <name>Indian lands and resources rights</name>
+        </item>
+        <item>
+          <name>Indian social and development programs</name>
+        </item>
+        <item>
+          <name>Washington State</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Native Americans</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2017-05-01</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2017-07-07T18:32:22Z</updateDate>
+        <text><![CDATA[ <p><b>Spokane Tribe of Indians of the Spokane Reservation Equitable Compensation Act</b></p> <p>This bill establishes the Spokane Tribe of Indians Recovery Trust Fund to compensate the Spokane Business Council for the use of tribal lands for the generation of hydropower from the Grand Coulee Dam.</p> <p>The council must prepare a plan for the use of those payments to promote any combination of: (1) economic development; (2) infrastructure development; or (3) educational, health, recreational, and social welfare objectives of the tribe and its members.</p> <p>The Bonneville Power Administration must make specified settlement payments to the tribe. </p> <p>Payments made to the council or tribe may be used or invested by the council in the same manner as other tribal governmental funds.</p> <p>Deposit of amounts in the fund extinguishes all monetary claims that the tribe may have against the United States to a fair share of the annual hydropower revenues generated by the Grand Coulee Dam.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Spokane Tribe of Indians of the Spokane Reservation Equitable Compensation Act</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Spokane Tribe of Indians of the Spokane Reservation Equitable Compensation Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to provide for equitable compensation to the Spokane Tribe of Indians of the Spokane Reservation for the use of tribal land for the production of hydropower by the Grand Coulee Dam, and for other purposes.</title>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Spokane Tribe of Indians of the Spokane Reservation Equitable Compensation Act</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Reported to Senate</titleType>
+        <title>Spokane Tribe of Indians of the Spokane Reservation Equitable Compensation Act</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+      <item>
+        <titleType>Short Titles as Passed Senate</titleType>
+        <title>Spokane Tribe of Indians of the Spokane Reservation Equitable Compensation Act</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Referred in House</type>
+        <date>2018-10-09T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-115s995rfh/xml/BILLS-115s995rfh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2018-10-04T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-115s995es/xml/BILLS-115s995es.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Reported to Senate</type>
+        <date>2018-05-07T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-115s995rs/xml/BILLS-115s995rs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2017-05-01T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-115s995is/xml/BILLS-115s995is.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2018-10-10</actionDate>
+      <text>Referred to the Subcommittee on Water, Power and Oceans.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

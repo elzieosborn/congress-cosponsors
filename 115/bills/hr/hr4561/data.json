@@ -1,0 +1,292 @@
+{
+  "actions": [
+    {
+      "acted_at": "2017-12-06",
+      "action_code": "Intro-H",
+      "references": [],
+      "text": "Introduced in House",
+      "type": "action"
+    },
+    {
+      "acted_at": "2017-12-06",
+      "action_code": "H11100",
+      "committees": [
+        "HSHM"
+      ],
+      "references": [],
+      "status": "REFERRED",
+      "text": "Referred to the House Committee on Homeland Security.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2017-12-13",
+      "action_code": "",
+      "committees": [
+        "HSHM"
+      ],
+      "references": [],
+      "text": "Committee Consideration and Mark-up Session Held.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2017-12-13",
+      "action_code": "",
+      "committees": [
+        "HSHM"
+      ],
+      "references": [],
+      "status": "REPORTED",
+      "text": "Ordered to be Reported (Amended) by Voice Vote.",
+      "type": "ordered-reported"
+    },
+    {
+      "acted_at": "2018-01-09",
+      "action_code": "H12200",
+      "committees": [
+        "HSHM"
+      ],
+      "references": [],
+      "text": "Reported (Amended) by the Committee on Homeland Security. H. Rept. 115-498.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2018-01-09",
+      "action_code": "H12410",
+      "calendar": "Union",
+      "number": "371",
+      "references": [],
+      "text": "Placed on the Union Calendar, Calendar No. 371.",
+      "type": "calendar",
+      "under": null
+    },
+    {
+      "acted_at": "2018-01-09T12:54:52-05:00",
+      "action_code": "H30300",
+      "references": [],
+      "text": "Mr. Katko moved to suspend the rules and pass the bill, as amended.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2018-01-09T12:55:01-05:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H36-38",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered under suspension of the rules.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2018-01-09T12:55:03-05:00",
+      "action_code": "H8D000",
+      "references": [],
+      "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 4561.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2018-01-09T13:07:50-05:00",
+      "action_code": "H37300",
+      "how": "by voice vote",
+      "references": [
+        {
+          "reference": "CR H36-37",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "status": "PASS_OVER:HOUSE",
+      "suspension": null,
+      "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "h"
+    },
+    {
+      "acted_at": "2018-01-09T13:07:52-05:00",
+      "action_code": "H38310",
+      "references": [],
+      "text": "Motion to reconsider laid on the table Agreed to without objection.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2018-01-10",
+      "action_code": "",
+      "committees": [
+        "SSCM"
+      ],
+      "references": [],
+      "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "type": "referral"
+    }
+  ],
+  "amendments": [],
+  "bill_id": "hr4561-115",
+  "bill_type": "hr",
+  "by_request": false,
+  "committee_reports": [
+    "H. Rept. 115-498"
+  ],
+  "committees": [
+    {
+      "activity": [
+        "referral"
+      ],
+      "committee": "Senate Commerce, Science, and Transportation",
+      "committee_id": "SSCM"
+    },
+    {
+      "activity": [
+        "reporting",
+        "markup",
+        "referral"
+      ],
+      "committee": "House Homeland Security",
+      "committee_id": "HSHM"
+    }
+  ],
+  "congress": "115",
+  "cosponsors": [
+    {
+      "bioguide_id": "D000628",
+      "district": "2",
+      "name": "Dunn, Neal P.",
+      "original_cosponsor": true,
+      "sponsored_at": "2017-12-06",
+      "state": "FL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "K000386",
+      "district": "24",
+      "name": "Katko, John",
+      "original_cosponsor": true,
+      "sponsored_at": "2017-12-06",
+      "state": "NY",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001157",
+      "district": "10",
+      "name": "McCaul, Michael T.",
+      "original_cosponsor": true,
+      "sponsored_at": "2017-12-06",
+      "state": "TX",
+      "title": "Rep.",
+      "withdrawn_at": null
+    }
+  ],
+  "enacted_as": null,
+  "history": {
+    "active": true,
+    "active_at": "2017-12-13",
+    "awaiting_signature": false,
+    "enacted": false,
+    "house_passage_result": "pass",
+    "house_passage_result_at": "2018-01-09T13:07:50-05:00",
+    "vetoed": false
+  },
+  "introduced_at": "2017-12-06",
+  "number": "4561",
+  "official_title": "To provide for third party testing of transportation security screening technology, and for other purposes.",
+  "popular_title": null,
+  "related_bills": [],
+  "short_title": "SAFE TECH Act",
+  "sponsor": {
+    "bioguide_id": "B001257",
+    "district": "12",
+    "name": "Bilirakis, Gus M.",
+    "state": "FL",
+    "title": "Rep.",
+    "type": "person"
+  },
+  "status": "PASS_OVER:HOUSE",
+  "status_at": "2018-01-09T13:07:50-05:00",
+  "subjects": [
+    "Advanced technology and technological innovations",
+    "Aviation and airports",
+    "Business ethics",
+    "Congressional oversight",
+    "Europe",
+    "Firearms and explosives",
+    "Foreign and international corporations",
+    "Government studies and investigations",
+    "International organizations and cooperation",
+    "Performance measurement",
+    "Public contracts and procurement",
+    "Technology assessment",
+    "Terrorism",
+    "Transportation and public works",
+    "Transportation safety and security"
+  ],
+  "subjects_top_term": "Transportation and public works",
+  "summary": {
+    "as": "Passed House amended",
+    "asOf": "2018-01-09",
+    "date": "2018-06-21T16:47:47Z",
+    "text": "Security Assessment Feasibility for Equipment Testing and Evaluation of Capabilities for our Homeland Act or the SAFE TECH Act\n\n(Sec. 3) This bill directs the Transportation Security Administration (TSA) to develop a program allowing a vendor to obtain performance testing of transportation security screening technology through a third party as an alternative to the TSA's regular testing process.\n\n(Sec. 4) The TSA must develop a process for reciprocal recognition of security standards in coordination with the European Civil Aviation Conference.\n\n(Sec. 5) The Government Accountability Office must report on the third-party testing program established by this bill."
+  },
+  "titles": [
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "SAFE TECH Act",
+      "type": "display"
+    },
+    {
+      "as": "passed house",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "SAFE TECH Act",
+      "type": "short"
+    },
+    {
+      "as": "passed house",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Security Assessment Feasibility for Equipment Testing and Evaluation of Capabilities for our Homeland Act",
+      "type": "short"
+    },
+    {
+      "as": "reported to house",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "SAFE TECH Act",
+      "type": "short"
+    },
+    {
+      "as": "reported to house",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Security Assessment Feasibility for Equipment Testing and Evaluation of Capabilities for our Homeland Act",
+      "type": "short"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "SAFE TECH Act",
+      "type": "short"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Security Assessment Feasibility for Equipment Testing and Evaluation of Capabilities for our Homeland Act",
+      "type": "short"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "To provide for third party testing of transportation security screening technology, and for other purposes.",
+      "type": "official"
+    }
+  ],
+  "updated_at": "2023-01-11T13:39:03Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/115/hr/BILLSTATUS-115hr4561.xml"
+}

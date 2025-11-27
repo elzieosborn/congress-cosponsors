@@ -1,0 +1,274 @@
+{
+  "actions": [
+    {
+      "acted_at": "2013-12-11",
+      "action_code": "10000",
+      "references": [],
+      "text": "Introduced in Senate",
+      "type": "action"
+    },
+    {
+      "acted_at": "2013-12-11",
+      "action_code": "",
+      "committees": [
+        "SSRA"
+      ],
+      "references": [],
+      "status": "REFERRED",
+      "text": "Read twice and referred to the Committee on Rules and Administration.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2014-01-29",
+      "action_code": "",
+      "committees": [
+        "SSRA"
+      ],
+      "references": [
+        {
+          "reference": "CR S607",
+          "type": "consideration"
+        }
+      ],
+      "text": "Senate Committee on Rules and Administration discharged by Unanimous Consent.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2014-01-29",
+      "action_code": "",
+      "how": "by Unanimous Consent",
+      "references": [
+        {
+          "reference": "CR S607",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "status": "PASS_OVER:SENATE",
+      "text": "Passed Senate without amendment by Unanimous Consent.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "s"
+    },
+    {
+      "acted_at": "2014-01-30",
+      "action_code": "",
+      "references": [],
+      "text": "Message on Senate action sent to the House.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2014-01-31T15:02:04-05:00",
+      "action_code": "H14000",
+      "references": [],
+      "text": "Received in the House.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2014-01-31",
+      "action_code": "H11100",
+      "committees": [
+        "HSHA"
+      ],
+      "references": [],
+      "text": "Referred to the House Committee on House Administration.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2014-02-11T17:39:21-05:00",
+      "action_code": "H30200",
+      "references": [],
+      "text": "Mr. Harper asked unanimous consent to discharge from committee and consider.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2014-02-11",
+      "action_code": "H12300",
+      "committees": [
+        "HSHA"
+      ],
+      "references": [],
+      "text": "Committee on House Administration discharged.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2014-02-11T17:39:30-05:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H1759",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered by unanimous consent.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2014-02-11T17:40:08-05:00",
+      "action_code": "H37100",
+      "how": "without objection",
+      "references": [
+        {
+          "reference": "CR H1759",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "status": "PASSED:BILL",
+      "suspension": null,
+      "text": "On passage Passed without objection.",
+      "type": "vote",
+      "vote_type": "vote2",
+      "where": "h"
+    },
+    {
+      "acted_at": "2014-02-11T17:40:09-05:00",
+      "action_code": "H38310",
+      "references": [],
+      "text": "Motion to reconsider laid on the table Agreed to without objection.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2014-02-14",
+      "action_code": "E20000",
+      "references": [],
+      "text": "Presented to President.",
+      "type": "topresident"
+    },
+    {
+      "acted_at": "2014-02-21",
+      "action_code": "E30000",
+      "references": [],
+      "status": "ENACTED:SIGNED",
+      "text": "Signed by President.",
+      "type": "signed"
+    },
+    {
+      "acted_at": "2014-02-21",
+      "action_code": "E40000",
+      "congress": "113",
+      "law": "public",
+      "number": "85",
+      "references": [],
+      "text": "Became Public Law No: 113-85.",
+      "type": "enacted"
+    }
+  ],
+  "amendments": [],
+  "bill_id": "sjres29-113",
+  "bill_type": "sjres",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [
+    {
+      "activity": [
+        "discharged",
+        "referral"
+      ],
+      "committee": "House Committee on House Administration",
+      "committee_id": "HSHA"
+    },
+    {
+      "activity": [
+        "discharged",
+        "referral"
+      ],
+      "committee": "Senate Rules and Administration",
+      "committee_id": "SSRA"
+    }
+  ],
+  "congress": "113",
+  "cosponsors": [
+    {
+      "bioguide_id": "C000567",
+      "district": null,
+      "name": "Cochran, Thad",
+      "original_cosponsor": true,
+      "sponsored_at": "2013-12-11",
+      "state": "MS",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000122",
+      "district": null,
+      "name": "Reed, Jack",
+      "original_cosponsor": true,
+      "sponsored_at": "2013-12-11",
+      "state": "RI",
+      "title": "Sen.",
+      "withdrawn_at": null
+    }
+  ],
+  "enacted_as": {
+    "congress": "113",
+    "law_type": "public",
+    "number": "85"
+  },
+  "history": {
+    "active": true,
+    "active_at": "2014-01-29",
+    "awaiting_signature": false,
+    "enacted": true,
+    "enacted_at": "2014-02-21",
+    "house_passage_result": "pass",
+    "house_passage_result_at": "2014-02-11T17:40:08-05:00",
+    "senate_passage_result": "pass",
+    "senate_passage_result_at": "2014-01-29",
+    "vetoed": false
+  },
+  "introduced_at": "2013-12-11",
+  "number": "29",
+  "official_title": "A joint resolution providing for the appointment of Risa Lavizzo-Mourey as a citizen regent of the Board of Regents of the Smithsonian Institution.",
+  "popular_title": null,
+  "related_bills": [
+    {
+      "bill_id": "hjres102-113",
+      "identified_by": "CRS",
+      "reason": "related",
+      "type": "bill"
+    }
+  ],
+  "short_title": null,
+  "sponsor": {
+    "bioguide_id": "L000174",
+    "district": null,
+    "name": "Leahy, Patrick J.",
+    "state": "VT",
+    "title": "Sen.",
+    "type": "person"
+  },
+  "status": "ENACTED:SIGNED",
+  "status_at": "2014-02-21",
+  "subjects": [
+    "Federal officials",
+    "Government operations and politics",
+    "Museums, exhibitions, cultural centers",
+    "Smithsonian Institution"
+  ],
+  "subjects_top_term": "Government operations and politics",
+  "summary": {
+    "as": "Public Law",
+    "asOf": "2014-02-21",
+    "date": "2014-02-26T16:10:27Z",
+    "text": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.)\n\nAppoints Risa Lavizzo-Mourey as a citizen regent of the Board of Regents of the Smithsonian Institution."
+  },
+  "titles": [
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "A joint resolution providing for the appointment of Risa Lavizzo-Mourey as a citizen regent of the Board of Regents of the Smithsonian Institution.",
+      "type": "display"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "A joint resolution providing for the appointment of Risa Lavizzo-Mourey as a citizen regent of the Board of Regents of the Smithsonian Institution.",
+      "type": "official"
+    }
+  ],
+  "updated_at": "2023-03-22T18:49:21Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/113/sjres/BILLSTATUS-113sjres29.xml"
+}

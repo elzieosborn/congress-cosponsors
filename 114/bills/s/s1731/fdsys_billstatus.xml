@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>1731</number>
+    <updateDate>2023-01-11T13:29:33Z</updateDate>
+    <updateDateIncludingText>2023-01-11T13:29:33Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <type>S</type>
+    <introducedDate>2015-07-09</introducedDate>
+    <congress>114</congress>
+    <committees>
+      <item>
+        <systemCode>hsvr00</systemCode>
+        <name>Veterans' Affairs Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsvr03</systemCode>
+            <name>Health Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2015-11-06T21:14:28Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2015-11-02T23:24:35Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>ssva00</systemCode>
+        <name>Veterans' Affairs Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Discharged from</name>
+            <date>2015-10-29T18:06:04Z</date>
+          </item>
+          <item>
+            <name>Referred to</name>
+            <date>2015-07-09T18:15:04Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <relatedBills>
+      <item>
+        <title>A bill to amend title 38, United States Code, to authorize per diem payments under comprehensive service programs for homeless veterans to furnish care to dependents of homeless veterans, and for other purposes.</title>
+        <congress>114</congress>
+        <number>1105</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2015-04-28</actionDate>
+          <text>Read twice and referred to the Committee on Veterans' Affairs.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Veterans First Act</title>
+        <congress>114</congress>
+        <number>2921</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2016-05-16</actionDate>
+          <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 467.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Jeff Miller and Richard Blumenthal Veterans Health Care and Benefits Improvement Act of 2016</title>
+        <congress>114</congress>
+        <number>6416</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2016-12-16</actionDate>
+          <text>Became Public Law No: 114-315.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Homeless Veterans Services Protection Act of 2016</title>
+        <congress>114</congress>
+        <number>6310</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2016-11-15</actionDate>
+          <text>Referred to the Subcommittee on Health.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2015-11-06</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsvr03</systemCode>
+            <name>Health Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-11-02</actionDate>
+        <text>Referred to the House Committee on Veterans' Affairs.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsvr00</systemCode>
+            <name>Veterans' Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2015-11-02</actionDate>
+        <actionTime>12:01:22</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2015-10-29</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2015-10-29</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate with an amendment by Unanimous Consent. (text: CR S7622)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2015-10-29</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate with an amendment by Unanimous Consent.(text: CR S7622)</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2015-10-29</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Measure laid before Senate by unanimous consent. (consideration: CR S7621-7622)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2015-10-29</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssva00</systemCode>
+            <name>Veterans' Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Senate Committee on Veterans' Affairs discharged by Unanimous Consent. (consideration: CR S7621)</text>
+        <type>Discharge</type>
+      </item>
+      <item>
+        <actionDate>2015-10-29</actionDate>
+        <text>Senate Committee on Veterans' Affairs discharged by Unanimous Consent.(consideration: CR S7621)</text>
+        <type>Committee</type>
+        <actionCode>14500</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>ssva00</systemCode>
+            <name>Veterans' Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2015-07-09</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssva00</systemCode>
+            <name>Veterans' Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Veterans' Affairs. (Sponsor introductory remarks on measure: CR S4956-4957)</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2015-07-09</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>M001111</bioguideId>
+        <fullName>Sen. Murray, Patty [D-WA]</fullName>
+        <firstName>Patty</firstName>
+        <lastName>Murray</lastName>
+        <party>D</party>
+        <state>WA</state>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>H001042</bioguideId>
+        <fullName>Sen. Hirono, Mazie K. [D-HI]</fullName>
+        <firstName>Mazie</firstName>
+        <lastName>Hirono</lastName>
+        <party>D</party>
+        <state>HI</state>
+        <middleName>K.</middleName>
+        <sponsorshipDate>2015-07-09</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001277</bioguideId>
+        <fullName>Sen. Blumenthal, Richard [D-CT]</fullName>
+        <firstName>Richard</firstName>
+        <lastName>Blumenthal</lastName>
+        <party>D</party>
+        <state>CT</state>
+        <sponsorshipDate>2015-07-30</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001041</bioguideId>
+        <fullName>Sen. Heller, Dean [R-NV]</fullName>
+        <firstName>Dean</firstName>
+        <lastName>Heller</lastName>
+        <party>R</party>
+        <state>NV</state>
+        <sponsorshipDate>2015-10-29</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Department of Veterans Affairs</name>
+        </item>
+        <item>
+          <name>Veterans' education, employment, rehabilitation</name>
+        </item>
+        <item>
+          <name>Veterans' loans, housing, homeless programs</name>
+        </item>
+        <item>
+          <name>Veterans' medical care</name>
+        </item>
+        <item>
+          <name>Vocational and technical education</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Armed Forces and National Security</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2015-07-09</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2015-11-04T15:46:35Z</updateDate>
+        <text><![CDATA[ <p><strong>Homeless Veterans Services Protection Act of 2015</strong></p> <p> This bill eliminates the minimum continuous active duty service requirement for homeless veterans to receive certain benefits, including: (1) outreach, (2) rehabilitative services, (3) vocational counseling and training, (4) transitional housing assistance, (5) supportive services for very low-income veteran families in permanent housing, and (6) health care for homeless veterans with special needs.</p> <p>Homeless veterans are exempted from disqualification for such benefits because of discharge or dismissal from the Armed Services under conditions other than honorable, except for discharge by reason of a general court-martial. </p> <p>Veteran is defined for purposes of such benefits as a person who served in the active military, naval, or air service, regardless of length of service, and who was discharged or released therefrom, except for a person who: (1) received a dishonorable discharge, or (2) was discharged or dismissed by reason of a general court-martial.</p> <p> The Department of Veterans Affairs (VA) shall conduct related training and education for appropriate VA and grant recipient personnel.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>35</versionCode>
+        <actionDate>2015-10-29</actionDate>
+        <actionDesc>Passed Senate amended</actionDesc>
+        <updateDate>2017-08-02T14:37:43Z</updateDate>
+        <text><![CDATA[ <p><strong>Homeless Veterans Services Protection Act of 2015</strong></p> <p> (Sec. 2) This bill eliminates the minimum continuous active duty service requirement for homeless veterans to receive certain benefits, including: (1) outreach, (2) rehabilitative services, (3) vocational counseling and training, (4) transitional housing assistance, (5) supportive services for very low-income veteran families in permanent housing, and (6) health care for homeless veterans with special needs.</p> <p>(Sec. 3) Homeless veterans are exempted from disqualification for such benefits because of discharge or dismissal from the Armed Forces under conditions other than honorable, except for discharge by reason of a general court-martial. </p> <p>(Sec. 4) Veteran is defined for purposes of such benefits as a person who served in the active military, naval, or air service, regardless of length of service, and who was discharged or released therefrom, except for a person who: (1) received a dishonorable discharge, or (2) was discharged or dismissed by reason of a general court-martial.</p> <p> (Sec. 5) The Department of Veterans Affairs (VA) shall conduct related training and education for appropriate VA and grant recipient personnel.</p> <p>(Sec. 6) The services for which a recipient of a grant under the VA comprehensive service program for homeless veterans may receive per diem payments may include furnishing care for a dependent under the care of a veteran who is receiving program services.</p> <p>(Sec. 7) The VA shall prescribe implementing regulations within 270 days. </p>]]></text>
+      </summary>
+    </summaries>
+    <title>Homeless Veterans Services Protection Act of 2015</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Homeless Veterans Services Protection Act of 2015</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to amend title 38, United States Code, to waive the minimum period of continuous active duty in the Armed Forces for receipt of certain benefits for homeless veterans, to authorize the Secretary of Veterans Affairs to furnish such benefits to homeless veterans with discharges or releases from service in the Armed Forces with other than dishonorable conditions, and for other purposes.</title>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Homeless Veterans Services Protection Act of 2015</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Passed Senate</titleType>
+        <title>Homeless Veterans Services Protection Act of 2015</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+    </titles>
+    <amendments>
+      <amendment>
+        <number>2760</number>
+        <congress>114</congress>
+        <type>SAMDT</type>
+        <purpose>To authorize per diem payments under comprehensive service programs for homeless veterans to furnish care to dependents of homeless veterans.</purpose>
+        <updateDate>2020-12-15T19:04:21Z</updateDate>
+        <latestAction>
+          <actionDate>2015-10-29</actionDate>
+          <text>Amendment SA 2760 agreed to in Senate by Unanimous Consent.</text>
+          <links>
+            <link>
+              <name>SA 2760</name>
+              <url>https://www.congress.gov/amendment/114th-congress/senate-amendment/2760</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>H001041</bioguideId>
+            <fullName>Sen. Heller, Dean [R-NV]</fullName>
+            <firstName>Dean</firstName>
+            <lastName>Heller</lastName>
+            <party>R</party>
+            <state>NV</state>
+          </item>
+        </sponsors>
+        <proposedDate>2015-10-29T04:00:00Z</proposedDate>
+        <submittedDate>2015-10-29T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>114</congress>
+          <type>S</type>
+          <originChamber>Senate</originChamber>
+          <originChamberCode>S</originChamberCode>
+          <number>1731</number>
+          <title>Homeless Veterans Services Protection Act of 2015</title>
+          <updateDateIncludingText>2023-01-11T13:29:33Z</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2015-10-29</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 2760 agreed to in Senate by Unanimous Consent.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2015-10-29</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 2760 proposed by Senator Murray for Senator Heller. (consideration: CR S7622; text: CR S7622) To authorize per diem payments under comprehensive service programs for homeless veterans to furnish care to dependents of homeless veterans.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2015-10-29</actionDate>
+              <text>Senate amendment proposed (on the floor): Amendment SA 2760 proposed by Senator Murray for Senator Heller.(consideration: CR S7622; text: CR S7622)</text>
+              <type>Floor</type>
+              <actionCode>93000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2015-10-29</actionDate>
+              <text>Senate amendment agreed to: Amendment SA 2760 agreed to in Senate by Unanimous Consent.</text>
+              <type>Floor</type>
+              <actionCode>94000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2015-10-29</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+    </amendments>
+    <textVersions>
+      <item>
+        <type>Referred in House</type>
+        <date>2015-11-02T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-114s1731rfh/xml/BILLS-114s1731rfh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2015-10-29T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-114s1731es/xml/BILLS-114s1731es.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2015-07-09T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-114s1731is/xml/BILLS-114s1731is.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2015-11-06</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

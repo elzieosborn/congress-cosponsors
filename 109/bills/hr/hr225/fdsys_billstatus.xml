@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>225</number>
+    <updateDate>2020-02-10T16:50:40Z</updateDate>
+    <updateDateIncludingText>2020-02-10T16:50:40Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2005-01-04</introducedDate>
+    <congress>109</congress>
+    <committees>
+      <item>
+        <systemCode>hsed00</systemCode>
+        <name>Education and the Workforce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsed13</systemCode>
+            <name>Higher Education and Workforce Development Subcomittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2005-02-09T15:22:48Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2005-01-04T16:55:40Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2005-02-09</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsed13</systemCode>
+            <name>Higher Education and Workforce Development Subcomittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on 21st Century Competitiveness.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2005-01-04</actionDate>
+        <text>Referred to the House Committee on Education and the Workforce.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsed00</systemCode>
+            <name>Education and the Workforce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2005-01-04</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2005-01-04</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>S001149</bioguideId>
+        <fullName>Rep. Sweeney, John E. [R-NY-20]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>SWEENEY</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <middleName>E.</middleName>
+        <district>20</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>M000590</bioguideId>
+        <fullName>Rep. McNulty, Michael R. [D-NY-21]</fullName>
+        <firstName>MICHAEL</firstName>
+        <lastName>MCNULTY</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>R.</middleName>
+        <district>21</district>
+        <sponsorshipDate>2005-01-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000087</bioguideId>
+        <fullName>Rep. Maloney, Carolyn B. [D-NY-14]</fullName>
+        <firstName>CAROLYN</firstName>
+        <lastName>MALONEY</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>B.</middleName>
+        <district>14</district>
+        <sponsorshipDate>2005-01-26</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000792</bioguideId>
+        <fullName>Rep. Weiner, Anthony D. [D-NY-9]</fullName>
+        <firstName>ANTHONY</firstName>
+        <lastName>WEINER</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>D.</middleName>
+        <district>9</district>
+        <sponsorshipDate>2005-02-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000326</bioguideId>
+        <fullName>Rep. Towns, Edolphus [D-NY-10]</fullName>
+        <firstName>EDOLPHUS</firstName>
+        <lastName>TOWNS</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <district>10</district>
+        <sponsorshipDate>2005-03-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000364</bioguideId>
+        <fullName>Rep. Kuhl, John R. "Randy", Jr. [R-NY-29]</fullName>
+        <firstName>John</firstName>
+        <lastName>Kuhl</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <middleName>R. "Randy"</middleName>
+        <district>29</district>
+        <sponsorshipDate>2005-04-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>J000284</bioguideId>
+        <fullName>Rep. Jones, Stephanie Tubbs [D-OH-11]</fullName>
+        <firstName>STEPHANIE</firstName>
+        <lastName>JONES</lastName>
+        <party>D</party>
+        <state>OH</state>
+        <middleName>TUBBS</middleName>
+        <district>11</district>
+        <sponsorshipDate>2005-04-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000149</bioguideId>
+        <fullName>Rep. Payne, Donald M. [D-NJ-10]</fullName>
+        <firstName>DONALD</firstName>
+        <lastName>PAYNE</lastName>
+        <party>D</party>
+        <state>NJ</state>
+        <middleName>M.</middleName>
+        <district>10</district>
+        <sponsorshipDate>2005-04-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000358</bioguideId>
+        <fullName>Rep. Kennedy, Mark R. [R-MN-6]</fullName>
+        <firstName>MARK</firstName>
+        <lastName>KENNEDY</lastName>
+        <party>R</party>
+        <state>MN</state>
+        <middleName>R.</middleName>
+        <district>6</district>
+        <sponsorshipDate>2005-07-12</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001234</bioguideId>
+        <fullName>Rep. Baca, Joe [D-CA-43]</fullName>
+        <firstName>JOE</firstName>
+        <lastName>BACA</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>43</district>
+        <sponsorshipDate>2005-10-06</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Education</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Air piracy</name>
+        </item>
+        <item>
+          <name>Arson</name>
+        </item>
+        <item>
+          <name>Assault</name>
+        </item>
+        <item>
+          <name>Automobile theft</name>
+        </item>
+        <item>
+          <name>College administration</name>
+        </item>
+        <item>
+          <name>Colleges</name>
+        </item>
+        <item>
+          <name>Community and school</name>
+        </item>
+        <item>
+          <name>Conspiracy</name>
+        </item>
+        <item>
+          <name>Crime and Law Enforcement</name>
+        </item>
+        <item>
+          <name>Criminal investigation</name>
+        </item>
+        <item>
+          <name>Economics and Public Finance</name>
+        </item>
+        <item>
+          <name>Extortion</name>
+        </item>
+        <item>
+          <name>Federal aid to education</name>
+        </item>
+        <item>
+          <name>Firearms</name>
+        </item>
+        <item>
+          <name>Higher education</name>
+        </item>
+        <item>
+          <name>Homicide</name>
+        </item>
+        <item>
+          <name>Kidnapping</name>
+        </item>
+        <item>
+          <name>Larceny</name>
+        </item>
+        <item>
+          <name>Missing persons</name>
+        </item>
+        <item>
+          <name>Murder</name>
+        </item>
+        <item>
+          <name>Planning</name>
+        </item>
+        <item>
+          <name>Police</name>
+        </item>
+        <item>
+          <name>Rape</name>
+        </item>
+        <item>
+          <name>School security</name>
+        </item>
+        <item>
+          <name>Sex crimes</name>
+        </item>
+        <item>
+          <name>Students</name>
+        </item>
+        <item>
+          <name>Transportation and Public Works</name>
+        </item>
+        <item>
+          <name>Violence</name>
+        </item>
+        <item>
+          <name>Women</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Education</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2005-01-04</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2005-01-24T21:20:33Z</updateDate>
+        <text><![CDATA[ <p>Suzanne Lyall Campus Safety Act - Amends the Higher Education Act of 1965 to require institutions of higher education to adopt and implement plans providing for prompt and coordinated investigations with local law enforcement agencies of: (1) serious violent felonies occurring at the institutions or on their grounds; and (2) reports of missing students.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Suzanne Lyall Campus Safety Act</title>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Suzanne Lyall Campus Safety Act</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Suzanne Lyall Campus Safety Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To require investigations by institutions of higher education of violent felonies occurring on campus.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2005-01-04T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-109hr225ih/xml/BILLS-109hr225ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2005-02-09</actionDate>
+      <text>Referred to the Subcommittee on 21st Century Competitiveness.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

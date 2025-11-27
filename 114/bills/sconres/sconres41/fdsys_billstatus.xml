@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>41</number>
+    <updateDate>2023-01-11T13:32:36Z</updateDate>
+    <updateDateIncludingText>2023-01-11T13:32:36Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <type>SCONRES</type>
+    <introducedDate>2016-06-16</introducedDate>
+    <congress>114</congress>
+    <committees>
+      <item>
+        <systemCode>hsfa00</systemCode>
+        <name>Foreign Affairs Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2016-07-18T20:42:27Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>ssfr00</systemCode>
+        <name>Foreign Relations Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Reported by</name>
+            <date>2016-07-14T18:59:13Z</date>
+          </item>
+          <item>
+            <name>Markup by</name>
+            <date>2016-07-14T14:00:08Z</date>
+          </item>
+          <item>
+            <name>Referred to</name>
+            <date>2016-06-16T18:05:47Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2016-07-18</actionDate>
+        <text>Referred to the House Committee on Foreign Affairs.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsfa00</systemCode>
+            <name>Foreign Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2016-07-18</actionDate>
+        <actionTime>14:35:25</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2016-07-15</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2016-07-14</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Resolution agreed to in Senate with amendments by Unanimous Consent. (consideration: CR S5186-5187; text as passed Senate: CR S5186-5187)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2016-07-14</actionDate>
+        <text>Passed/agreed to in Senate: Resolution agreed to in Senate with amendments by Unanimous Consent.(consideration: CR S5186-5187; text as passed Senate: CR S5186-5187)</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2016-07-14</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 566.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2016-07-14</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssfr00</systemCode>
+            <name>Foreign Relations Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Foreign Relations. Reported by Senator Corker with amendments. Without written report.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2016-07-14</actionDate>
+        <text>Committee on Foreign Relations. Reported by Senator Corker with amendments. Without written report.</text>
+        <type>Committee</type>
+        <actionCode>14000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>ssfr00</systemCode>
+            <name>Foreign Relations Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2016-07-14</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssfr00</systemCode>
+            <name>Foreign Relations Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Foreign Relations. Ordered to be reported with amendments favorably.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2016-06-16</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssfr00</systemCode>
+            <name>Foreign Relations Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Referred to the Committee on Foreign Relations. (text of measure as introduced: CR S4306)</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2016-06-16</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>E000295</bioguideId>
+        <fullName>Sen. Ernst, Joni [R-IA]</fullName>
+        <firstName>Joni</firstName>
+        <lastName>Ernst</lastName>
+        <party>R</party>
+        <state>IA</state>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>B000711</bioguideId>
+        <fullName>Sen. Boxer, Barbara [D-CA]</fullName>
+        <firstName>BARBARA</firstName>
+        <lastName>BOXER</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <sponsorshipDate>2016-06-16</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000595</bioguideId>
+        <fullName>Sen. Rubio, Marco [R-FL]</fullName>
+        <firstName>Marco</firstName>
+        <lastName>Rubio</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>International Affairs</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Conflicts and wars</name>
+        </item>
+        <item>
+          <name>Iraq</name>
+        </item>
+        <item>
+          <name>Middle East</name>
+        </item>
+        <item>
+          <name>Military assistance, sales, and agreements</name>
+        </item>
+        <item>
+          <name>Racial and ethnic relations</name>
+        </item>
+        <item>
+          <name>Refugees, asylum, displaced persons</name>
+        </item>
+        <item>
+          <name>Religion</name>
+        </item>
+        <item>
+          <name>Sovereignty, recognition, national governance and status</name>
+        </item>
+        <item>
+          <name>Terrorism</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>International Affairs</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2016-06-16</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2016-08-01T18:59:48Z</updateDate>
+        <text><![CDATA[ <p>Expresses the sense of Congress that:</p> <ul> <li> the Peshmerga of the Kurdistan Region of Iraq have been one of the most effective fighting forces in the military campaign against the Islamic State of Iraq and al-Sham (ISIS); </li> <li>ISIS poses an acute threat to the Iraqi people and territorial integrity of Iraq and the security and stability of the Middle East; </li> <li> the severe budget shortfalls faced by the government of Iraq and the Kurdistan regional government are hindering the stability of Iraq and have the potential to undermine long-term efforts to bring about the sustainable defeat of ISIS;</li> <li> specified funds pledged by the U.S. government to the Peshmerga in April 2016 should remain a priority for the United States as part of continued support for Iraqi Security Forces;</li> <li> the Peshmerga should receive all weapons and equipment that the United States agrees to provide in an expeditious and timely manner;</li> <li> the Peshmerga require equipment that will allow them to defend themselves and their coalition advisers against the increased use of vehicle-borne improvised explosive devices;</li> <li> the Peshmerga are vital partners in the fight against ISIS; and </li> <li>the United States, in coordination with the Iraqi government, will endeavor to increase assistance to Iraqi Kurdish Forces to enhance their combat medicine and logistical capabilities, defend internally displaced persons and refugees, and defend the Peshmerga and their coalition advisers.</li> </ul>]]></text>
+      </summary>
+      <summary>
+        <versionCode>35</versionCode>
+        <actionDate>2016-07-14</actionDate>
+        <actionDesc>Passed Senate amended</actionDesc>
+        <updateDate>2016-08-01T19:05:17Z</updateDate>
+        <text><![CDATA[ <p>Expresses the sense of Congress that:</p> <ul> <li> the Peshmerga of the Kurdistan Region of Iraq have been one of the most effective fighting forces in the military campaign against the Islamic State of Iraq and al-Sham (ISIS); </li> <li>ISIS poses an acute threat to the Iraqi people and territorial integrity of Iraq, including the Kurdistan Region, and the security and stability of the Middle East; </li> <li> the severe budget shortfalls faced by the government of Iraq and the Kurdistan regional government are hindering the stability of Iraq and have the potential to undermine long-term efforts to bring about the sustainable defeat of ISIS;</li> <li> specified funds pledged by the U.S. government to the Kurdish Peshmerga in April 2016 should remain a priority for the United States as part of continued support for Iraqi Security Forces;</li> <li> the Peshmerga should receive all weapons and equipment that the United States agrees to provide in an expeditious and timely manner;</li> <li>it should be the policy of the United States to support, within the framework of the Iraq Constitution, Iraqi Security Forces, the Kurdish Peshmerga in Iraq, Sunni tribal forces, and other local security forces in the campaign against ISIS; </li> <li> ensuring the safe resettlement and reintegration of ethnic and religious minorities into their homelands in Iraq is a critical component toward achieving a safe, secure, and sovereign Iraq; </li> <li> the Peshmerga require equipment that will allow them to defend themselves and their coalition advisers against the increased use of vehicle-borne improvised explosive devices;</li> <li> the Peshmerga are vital partners in the fight against ISIS; and </li> <li>the United States, in coordination with the Iraqi government, will endeavor to increase assistance to Iraqi Kurdish Forces to enhance their combat medicine and logistical capabilities, defend internally displaced persons and refugees, and defend the Peshmerga and their coalition advisers.</li> </ul>]]></text>
+      </summary>
+    </summaries>
+    <title>A concurrent resolution expressing the sense of Congress on the Peshmerga of the Kurdistan Region of Iraq.</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>A concurrent resolution expressing the sense of Congress on the Peshmerga of the Kurdistan Region of Iraq.</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A concurrent resolution expressing the sense of Congress on the Peshmerga of the Kurdistan Region of Iraq.</title>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Referred in House</type>
+        <date>2016-07-18T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-114sconres41rfh/xml/BILLS-114sconres41rfh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2016-07-14T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-114sconres41es/xml/BILLS-114sconres41es.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Reported to Senate</type>
+        <date>2016-07-14T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-114sconres41rs/xml/BILLS-114sconres41rs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2016-06-16T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-114sconres41is/xml/BILLS-114sconres41is.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2016-07-18</actionDate>
+      <text>Referred to the House Committee on Foreign Affairs.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

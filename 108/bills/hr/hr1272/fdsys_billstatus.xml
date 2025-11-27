@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>1272</number>
+    <updateDate>2023-01-15T22:33:37Z</updateDate>
+    <updateDateIncludingText>2023-01-15T22:33:37Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2003-03-13</introducedDate>
+    <congress>108</congress>
+    <committees>
+      <item>
+        <systemCode>hsif00</systemCode>
+        <name>Energy and Commerce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsif03</systemCode>
+            <name>Energy, Climate and Grid Security Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2003-03-24T17:18:42Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2003-03-13T15:03:40Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2003-03-24</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif03</systemCode>
+            <name>Energy, Climate and Grid Security Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Energy and Air Quality.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2003-03-13</actionDate>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2003-03-13</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2003-03-13</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>D000355</bioguideId>
+        <fullName>Rep. Dingell, John D. [D-MI-15]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>DINGELL</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <middleName>D.</middleName>
+        <district>15</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>W000215</bioguideId>
+        <fullName>Rep. Waxman, Henry A. [D-CA-30]</fullName>
+        <firstName>HENRY</firstName>
+        <lastName>WAXMAN</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <middleName>A.</middleName>
+        <district>30</district>
+        <sponsorshipDate>2003-03-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000133</bioguideId>
+        <fullName>Rep. Markey, Edward J. [D-MA-7]</fullName>
+        <firstName>Edward</firstName>
+        <lastName>Markey</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>J.</middleName>
+        <district>7</district>
+        <sponsorshipDate>2003-03-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000657</bioguideId>
+        <fullName>Rep. Boucher, Rick [D-VA-9]</fullName>
+        <firstName>RICK</firstName>
+        <lastName>BOUCHER</lastName>
+        <party>D</party>
+        <state>VA</state>
+        <district>9</district>
+        <sponsorshipDate>2003-03-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000326</bioguideId>
+        <fullName>Rep. Towns, Edolphus [D-NY-10]</fullName>
+        <firstName>EDOLPHUS</firstName>
+        <lastName>TOWNS</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <district>10</district>
+        <sponsorshipDate>2003-03-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000034</bioguideId>
+        <fullName>Rep. Pallone, Frank, Jr. [D-NJ-6]</fullName>
+        <firstName>FRANK</firstName>
+        <lastName>PALLONE</lastName>
+        <party>D</party>
+        <state>NJ</state>
+        <district>6</district>
+        <sponsorshipDate>2003-03-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000515</bioguideId>
+        <fullName>Rep. Rush, Bobby L. [D-IL-1]</fullName>
+        <firstName>BOBBY</firstName>
+        <lastName>RUSH</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>L.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2003-03-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000179</bioguideId>
+        <fullName>Rep. Engel, Eliot L. [D-NY-17]</fullName>
+        <firstName>ELIOT</firstName>
+        <lastName>ENGEL</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>L.</middleName>
+        <district>17</district>
+        <sponsorshipDate>2003-03-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000197</bioguideId>
+        <fullName>Rep. DeGette, Diana [D-CO-1]</fullName>
+        <firstName>DIANA</firstName>
+        <lastName>DEGETTE</lastName>
+        <party>D</party>
+        <state>CO</state>
+        <district>1</district>
+        <sponsorshipDate>2003-03-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001036</bioguideId>
+        <fullName>Rep. Capps, Lois [D-CA-23]</fullName>
+        <firstName>LOIS</firstName>
+        <lastName>CAPPS</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>23</district>
+        <sponsorshipDate>2003-03-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001145</bioguideId>
+        <fullName>Rep. Schakowsky, Janice D. [D-IL-9]</fullName>
+        <firstName>JANICE</firstName>
+        <lastName>SCHAKOWSKY</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>D.</middleName>
+        <district>9</district>
+        <sponsorshipDate>2003-03-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001153</bioguideId>
+        <fullName>Rep. Solis, Hilda L. [D-CA-32]</fullName>
+        <firstName>HILDA</firstName>
+        <lastName>SOLIS</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <middleName>L.</middleName>
+        <district>32</district>
+        <sponsorshipDate>2003-03-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>I000026</bioguideId>
+        <fullName>Rep. Inslee, Jay [D-WA-1]</fullName>
+        <firstName>JAY</firstName>
+        <lastName>INSLEE</lastName>
+        <party>D</party>
+        <state>WA</state>
+        <district>1</district>
+        <sponsorshipDate>2003-03-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001143</bioguideId>
+        <fullName>Rep. McCollum, Betty [D-MN-4]</fullName>
+        <firstName>BETTY</firstName>
+        <lastName>MCCOLLUM</lastName>
+        <party>D</party>
+        <state>MN</state>
+        <district>4</district>
+        <sponsorshipDate>2003-03-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000551</bioguideId>
+        <fullName>Rep. Lee, Barbara [D-CA-9]</fullName>
+        <firstName>BARBARA</firstName>
+        <lastName>LEE</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>9</district>
+        <sponsorshipDate>2003-03-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>N000147</bioguideId>
+        <fullName>Del. Norton, Eleanor Holmes [D-DC-At Large]</fullName>
+        <firstName>ELEANOR</firstName>
+        <lastName>NORTON</lastName>
+        <party>D</party>
+        <state>DC</state>
+        <middleName>HOLMES</middleName>
+        <district>0</district>
+        <sponsorshipDate>2003-03-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000180</bioguideId>
+        <fullName>Rep. Kilpatrick, Carolyn C. [D-MI-13]</fullName>
+        <firstName>CAROLYN</firstName>
+        <lastName>KILPATRICK</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <middleName>CHEEKS</middleName>
+        <district>13</district>
+        <sponsorshipDate>2003-03-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001004</bioguideId>
+        <fullName>Rep. Strickland, Ted [D-OH-6]</fullName>
+        <firstName>TED</firstName>
+        <lastName>STRICKLAND</lastName>
+        <party>D</party>
+        <state>OH</state>
+        <district>6</district>
+        <sponsorshipDate>2003-03-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>A000357</bioguideId>
+        <fullName>Rep. Allen, Thomas H. [D-ME-1]</fullName>
+        <firstName>THOMAS</firstName>
+        <lastName>ALLEN</lastName>
+        <party>D</party>
+        <state>ME</state>
+        <middleName>H.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2003-03-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000339</bioguideId>
+        <fullName>Rep. Frank, Barney [D-MA-4]</fullName>
+        <firstName>BARNEY</firstName>
+        <lastName>FRANK</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <district>4</district>
+        <sponsorshipDate>2003-03-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000316</bioguideId>
+        <fullName>Rep. McCarthy, Karen [D-MO-5]</fullName>
+        <firstName>KAREN</firstName>
+        <lastName>MCCARTHY</lastName>
+        <party>D</party>
+        <state>MO</state>
+        <district>5</district>
+        <sponsorshipDate>2003-03-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000944</bioguideId>
+        <fullName>Rep. Brown, Sherrod [D-OH-13]</fullName>
+        <firstName>Sherrod</firstName>
+        <lastName>Brown</lastName>
+        <party>D</party>
+        <state>OH</state>
+        <district>13</district>
+        <sponsorshipDate>2003-03-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000259</bioguideId>
+        <fullName>Rep. Kleczka, Gerald D. [D-WI-4]</fullName>
+        <firstName>GERALD</firstName>
+        <lastName>KLECZKA</lastName>
+        <party>D</party>
+        <state>WI</state>
+        <middleName>D.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2003-03-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000598</bioguideId>
+        <fullName>Rep. Davis, Susan A. [D-CA-53]</fullName>
+        <firstName>SUSAN</firstName>
+        <lastName>DAVIS</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <middleName>A.</middleName>
+        <district>53</district>
+        <sponsorshipDate>2003-03-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000410</bioguideId>
+        <fullName>Rep. Berman, Howard L. [D-CA-28]</fullName>
+        <firstName>HOWARD</firstName>
+        <lastName>BERMAN</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <middleName>L.</middleName>
+        <district>28</district>
+        <sponsorshipDate>2003-03-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000116</bioguideId>
+        <fullName>Rep. Filner, Bob [D-CA-51]</fullName>
+        <firstName>BOB</firstName>
+        <lastName>FILNER</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>51</district>
+        <sponsorshipDate>2003-03-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000810</bioguideId>
+        <fullName>Rep. Stark, Fortney Pete [D-CA-13]</fullName>
+        <firstName>PETE</firstName>
+        <lastName>STARK</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>13</district>
+        <sponsorshipDate>2003-03-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000590</bioguideId>
+        <fullName>Rep. McNulty, Michael R. [D-NY-21]</fullName>
+        <firstName>MICHAEL</firstName>
+        <lastName>MCNULTY</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>R.</middleName>
+        <district>21</district>
+        <sponsorshipDate>2003-03-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000215</bioguideId>
+        <fullName>Rep. Eshoo, Anna G. [D-CA-14]</fullName>
+        <firstName>ANNA</firstName>
+        <lastName>ESHOO</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <middleName>G.</middleName>
+        <district>14</district>
+        <sponsorshipDate>2003-03-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000794</bioguideId>
+        <fullName>Rep. Watson, Diane E. [D-CA-33]</fullName>
+        <firstName>Diane</firstName>
+        <lastName>Watson</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <middleName>E.</middleName>
+        <district>33</district>
+        <sponsorshipDate>2003-04-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Energy</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Accounting</name>
+        </item>
+        <item>
+          <name>Administrative procedure</name>
+        </item>
+        <item>
+          <name>Affiliated corporations</name>
+        </item>
+        <item>
+          <name>Auditing</name>
+        </item>
+        <item>
+          <name>Bankruptcy</name>
+        </item>
+        <item>
+          <name>Bribery</name>
+        </item>
+        <item>
+          <name>Brokers</name>
+        </item>
+        <item>
+          <name>Burglary</name>
+        </item>
+        <item>
+          <name>Business records</name>
+        </item>
+        <item>
+          <name>Commerce</name>
+        </item>
+        <item>
+          <name>Computer networks</name>
+        </item>
+        <item>
+          <name>Conspiracy</name>
+        </item>
+        <item>
+          <name>Consumer discounts</name>
+        </item>
+        <item>
+          <name>Consumer protection</name>
+        </item>
+        <item>
+          <name>Contracts</name>
+        </item>
+        <item>
+          <name>Counterfeiting</name>
+        </item>
+        <item>
+          <name>Crime and Law Enforcement</name>
+        </item>
+        <item>
+          <name>Department of Energy</name>
+        </item>
+        <item>
+          <name>Electric power</name>
+        </item>
+        <item>
+          <name>Electric power transmission</name>
+        </item>
+        <item>
+          <name>Electric utilities</name>
+        </item>
+        <item>
+          <name>Electric utility rates</name>
+        </item>
+        <item>
+          <name>Electronic data interchange</name>
+        </item>
+        <item>
+          <name>Electronic government information</name>
+        </item>
+        <item>
+          <name>Embezzlement</name>
+        </item>
+        <item>
+          <name>Energy transportation</name>
+        </item>
+        <item>
+          <name>Extortion</name>
+        </item>
+        <item>
+          <name>Federal Energy Regulatory Commission</name>
+        </item>
+        <item>
+          <name>Finance and Financial Sector</name>
+        </item>
+        <item>
+          <name>Fines (Penalties)</name>
+        </item>
+        <item>
+          <name>Forgery</name>
+        </item>
+        <item>
+          <name>Fraud</name>
+        </item>
+        <item>
+          <name>Futures trading</name>
+        </item>
+        <item>
+          <name>Gas companies</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Government paperwork</name>
+        </item>
+        <item>
+          <name>Holding companies</name>
+        </item>
+        <item>
+          <name>Independent regulatory commissions</name>
+        </item>
+        <item>
+          <name>Information disclosure (Securities law)</name>
+        </item>
+        <item>
+          <name>Injunctions</name>
+        </item>
+        <item>
+          <name>Interstate commerce</name>
+        </item>
+        <item>
+          <name>Larceny</name>
+        </item>
+        <item>
+          <name>Law</name>
+        </item>
+        <item>
+          <name>Natural gas</name>
+        </item>
+        <item>
+          <name>Perjury</name>
+        </item>
+        <item>
+          <name>Postal service</name>
+        </item>
+        <item>
+          <name>Power marketing administrations</name>
+        </item>
+        <item>
+          <name>Public utilities</name>
+        </item>
+        <item>
+          <name>Restrictive trade practices</name>
+        </item>
+        <item>
+          <name>Science, Technology, Communications</name>
+        </item>
+        <item>
+          <name>Securities fraud</name>
+        </item>
+        <item>
+          <name>Securities regulation</name>
+        </item>
+        <item>
+          <name>Subsidiary corporations</name>
+        </item>
+        <item>
+          <name>Surety and fidelity</name>
+        </item>
+        <item>
+          <name>Wholesale trade</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Energy</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2003-03-13</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2003-07-17T15:13:54Z</updateDate>
+        <text><![CDATA[ <p>Energy Markets Fraud Prevention and Consumer Protection Act of 2003 - Declares unlawful any practices that are fraudulent, manipulative, deceptive, or a contrivance in contravention of Federal Energy Regulatory Commission (FERC) regulations governing: (1) transmission and sales of electric energy; or (2) transportation and sales of natural gas. Subjects such practices to certain Federal Power Act (FPA) sanctions.</p> <p>Amends the FPA to require FERC to promulgate criteria governing waivers and exemptions from requirements regarding: (1) issuance of securities; (2) accounts and recordkeeping; and (3) officials dealing in securities (including any prospective blanket order).</p> <p>Places a moratorium upon such waivers and exemptions until the criteria required for promulgation become effective. Directs FERC to review previously issued waivers. Vitiates such waivers after a specified deadline unless they are found to comply with such criteria.</p> <p>Amends the FPA and the Natural Gas Act to revise reporting requirements for transactions regarding transmission or sales of electric energy and of natural gas.</p> <p>Sets forth prohibitions on the distribution or publication by an electric power or natural gas information processor of quotations and transactions of electric energy and natural gas in contravention of FERC rules.</p> <p>Prohibits any person who owns, controls, or is under the control or ownership of a public utility, a natural gas company, or a public utility holding company from owning, controlling, or operating any electronic computer network or other multilateral trading facility utilized to trade electricity or natural gas.</p> <p>Sets forth civil and criminal penalties for violations of this Act.</p> <p>Requires review by: (1) the Securities and Exchange Commission of certain exemptions granted under the Public Utility Holding Company Act of 1935 to determine if they should continue in force and effect; and (2) the Financial Accounting Standards Board of accounting for contracts in energy trading and risk management activities.</p> <p>Instructs FERC to adopt rules and procedures to protect electric consumers from self-dealing, interaffiliate abuse, and other harmful actions taken by persons owning or controlling public utilities.</p> <p>Mandates annual FERC review of the activities and characteristics of any public utility authorized to sell electric energy at market-based rates to determine whether such rates are just and reasonable. Requires FERC to modify or revoke the authority of such a utility to sell at market-based rates for violations of law or for rates found to be unjust, unreasonable, unduly discriminatory, or preferential.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Energy Markets Fraud Prevention and Consumer Protection Act of 2003</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Energy Markets Fraud Prevention and Consumer Protection Act of 2003</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To prohibit fraudulent, manipulative, or deceptive acts in electric and natural gas markets, to provide for audit trails and transparency in those markets, to increase penalties for illegal acts under the Federal Power Act and Natural Gas Act, to reexamine certain exemptions under the Federal Power Act and the Public Utility Holding Company Act of 1935, to expand the authority of the Federal Energy Regulatory Commission to order refunds of unjust and discriminatory rates, and for other purposes.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Energy Markets Fraud Prevention and Consumer Protection Act of 2003</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2003-03-13T05:00:00Z</date>
+        <formats/>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2003-03-24</actionDate>
+      <text>Referred to the Subcommittee on Energy and Air Quality.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

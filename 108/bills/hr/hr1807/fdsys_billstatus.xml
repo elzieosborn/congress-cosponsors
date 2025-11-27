@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>1807</number>
+    <updateDate>2023-01-15T23:18:03Z</updateDate>
+    <updateDateIncludingText>2023-01-15T23:18:03Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2003-04-11</introducedDate>
+    <congress>108</congress>
+    <committees>
+      <item>
+        <systemCode>hswm00</systemCode>
+        <name>Ways and Means Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hswm04</systemCode>
+            <name>Trade Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2003-04-22T14:40:31Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2003-04-11T14:06:35Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2003-04-22</actionDate>
+        <committees>
+          <item>
+            <systemCode>hswm04</systemCode>
+            <name>Trade Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Trade.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2003-04-11</actionDate>
+        <text>Referred to the House Committee on Ways and Means.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hswm00</systemCode>
+            <name>Ways and Means Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2003-04-11</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2003-04-11</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>R000569</bioguideId>
+        <fullName>Rep. Reynolds, Thomas M. [R-NY-26]</fullName>
+        <firstName>THOMAS</firstName>
+        <lastName>REYNOLDS</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <middleName>M.</middleName>
+        <district>26</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>G000280</bioguideId>
+        <fullName>Rep. Goode, Virgil H., Jr. [R-VA-5]</fullName>
+        <firstName>VIRGIL</firstName>
+        <lastName>GOODE</lastName>
+        <party>R</party>
+        <state>VA</state>
+        <middleName>H.</middleName>
+        <district>5</district>
+        <sponsorshipDate>2003-05-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000187</bioguideId>
+        <fullName>Rep. English, Phil [R-PA-3]</fullName>
+        <firstName>PHIL</firstName>
+        <lastName>ENGLISH</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <district>3</district>
+        <sponsorshipDate>2003-05-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000210</bioguideId>
+        <fullName>Rep. Gillmor, Paul E. [R-OH-5]</fullName>
+        <firstName>PAUL</firstName>
+        <lastName>GILLMOR</lastName>
+        <party>R</party>
+        <state>OH</state>
+        <middleName>E.</middleName>
+        <district>5</district>
+        <sponsorshipDate>2003-05-13</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001149</bioguideId>
+        <fullName>Rep. Michaud, Michael H. [D-ME-2]</fullName>
+        <firstName>Michael</firstName>
+        <lastName>Michaud</lastName>
+        <party>D</party>
+        <state>ME</state>
+        <middleName>H.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2003-05-13</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000545</bioguideId>
+        <fullName>Rep. Green, Mark [R-WI-8]</fullName>
+        <firstName>MARK</firstName>
+        <lastName>GREEN</lastName>
+        <party>R</party>
+        <state>WI</state>
+        <district>8</district>
+        <sponsorshipDate>2003-06-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000033</bioguideId>
+        <fullName>Rep. Sanders, Bernard [I-VT-At Large]</fullName>
+        <firstName>Bernard</firstName>
+        <lastName>Sanders</lastName>
+        <party>I</party>
+        <state>VT</state>
+        <district>0</district>
+        <sponsorshipDate>2003-07-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Foreign Trade and International Finance</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Business education</name>
+        </item>
+        <item>
+          <name>Commerce</name>
+        </item>
+        <item>
+          <name>Economics and Public Finance</name>
+        </item>
+        <item>
+          <name>Entrepreneurs</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Government publicity</name>
+        </item>
+        <item>
+          <name>Labor and Employment</name>
+        </item>
+        <item>
+          <name>Self-employed</name>
+        </item>
+        <item>
+          <name>Subsidies</name>
+        </item>
+        <item>
+          <name>Trade adjustment assistance</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Foreign Trade and International Finance</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2003-04-11</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2003-11-18T19:28:03Z</updateDate>
+        <text><![CDATA[ <p>Trade Adjustment Assistance for Self-Employment Act of 2003 - Amends the Trade Act of 1974 to direct the Secretary of Labor to establish an alternative trade adjustment assistance program for workers that provides for self-employment training and funds to pay, in whole or in part, the start up costs attributable to the individual's business enterprise.</p> <p>Requires the Secretary to provide the opportunity for one or more workers in a group of workers on whose behalf a petition is filed for a trade adjustment assistance application eligibility to request that the individual workers be certified for the alternative trade adjustment assistance program. </p> <p>Requires a worker covered by an group trade adjustment assistance eligibility certification who elects to receive alternative trade adjustment assistance program benefits to: (1) submit a self-employment business plan to the appropriate State agency for approval; (2) be likely to obtain self-employment in accordance with such plan within 26 weeks after separation from the adversely affected employment; (3) be likely to engage in self-employment on a full-time basis; and (4) be likely not to return to the employment from which the worker was separated.</p> <p>Limits the total amount of payments made on behalf of a worker during the two-year eligibility period to: (1) $2,500 per worker for training costs; and (2) $10,000 per worker for start-up costs. Prohibits any other trade adjustment assistance benefits for a worker accepting alternative benefits under this Act.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Trade Adjustment Assistance for Self-Employment Act of 2003</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Trade Adjustment Assistance for Self-Employment Act of 2003</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend the trade adjustment assistance program under the Trade Act of 1974 to establish a demonstration project to provide self-employment training and assistance to eligible adversely affected workers.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Trade Adjustment Assistance for Self-Employment Act of 2003</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2003-04-11T04:00:00Z</date>
+        <formats/>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2003-04-22</actionDate>
+      <text>Referred to the Subcommittee on Trade.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

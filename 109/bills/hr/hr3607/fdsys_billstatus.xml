@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>3607</number>
+    <updateDate>2023-01-13T04:50:30Z</updateDate>
+    <updateDateIncludingText>2023-01-13T04:50:30Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2005-07-28</introducedDate>
+    <congress>109</congress>
+    <committees>
+      <item>
+        <systemCode>hsif00</systemCode>
+        <name>Energy and Commerce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2005-08-05T18:54:46Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2005-07-28T14:02:50Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2005-08-05</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2005-07-28</actionDate>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2005-07-28</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2005-07-28</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>S001149</bioguideId>
+        <fullName>Rep. Sweeney, John E. [R-NY-20]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>SWEENEY</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <middleName>E.</middleName>
+        <district>20</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>M000472</bioguideId>
+        <fullName>Rep. McHugh, John M. [R-NY-23]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>MCHUGH</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <middleName>M.</middleName>
+        <district>23</district>
+        <sponsorshipDate>2005-11-01</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000590</bioguideId>
+        <fullName>Rep. McNulty, Michael R. [D-NY-21]</fullName>
+        <firstName>MICHAEL</firstName>
+        <lastName>MCNULTY</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>R.</middleName>
+        <district>21</district>
+        <sponsorshipDate>2005-11-02</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000364</bioguideId>
+        <fullName>Rep. Kuhl, John R. "Randy", Jr. [R-NY-29]</fullName>
+        <firstName>John</firstName>
+        <lastName>Kuhl</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <middleName>R. "Randy"</middleName>
+        <district>29</district>
+        <sponsorshipDate>2005-11-03</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000043</bioguideId>
+        <fullName>Rep. Fattah, Chaka [D-PA-2]</fullName>
+        <firstName>CHAKA</firstName>
+        <lastName>FATTAH</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <district>2</district>
+        <sponsorshipDate>2005-11-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000627</bioguideId>
+        <fullName>Rep. Hinchey, Maurice D. [D-NY-22]</fullName>
+        <firstName>MAURICE</firstName>
+        <lastName>HINCHEY</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>D.</middleName>
+        <district>22</district>
+        <sponsorshipDate>2005-12-13</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Allergies</name>
+        </item>
+        <item>
+          <name>Communication in medicine</name>
+        </item>
+        <item>
+          <name>Computer software</name>
+        </item>
+        <item>
+          <name>Computers</name>
+        </item>
+        <item>
+          <name>Congress</name>
+        </item>
+        <item>
+          <name>Congressional reporting requirements</name>
+        </item>
+        <item>
+          <name>Cost control</name>
+        </item>
+        <item>
+          <name>Drug interactions</name>
+        </item>
+        <item>
+          <name>Drugs</name>
+        </item>
+        <item>
+          <name>Economics and Public Finance</name>
+        </item>
+        <item>
+          <name>Electronic data interchange</name>
+        </item>
+        <item>
+          <name>Federal aid to health facilities</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Government paperwork</name>
+        </item>
+        <item>
+          <name>Hospitals</name>
+        </item>
+        <item>
+          <name>Housing and Community Development</name>
+        </item>
+        <item>
+          <name>Identification devices</name>
+        </item>
+        <item>
+          <name>Medical economics</name>
+        </item>
+        <item>
+          <name>Medical malpractice</name>
+        </item>
+        <item>
+          <name>Medical records</name>
+        </item>
+        <item>
+          <name>Medical tests</name>
+        </item>
+        <item>
+          <name>Nursing homes</name>
+        </item>
+        <item>
+          <name>Patient satisfaction</name>
+        </item>
+        <item>
+          <name>Pharmacies</name>
+        </item>
+        <item>
+          <name>Physicians</name>
+        </item>
+        <item>
+          <name>Quality of care</name>
+        </item>
+        <item>
+          <name>Rural health</name>
+        </item>
+        <item>
+          <name>Science, Technology, Communications</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Health</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2005-07-28</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2005-11-22T21:41:31Z</updateDate>
+        <text><![CDATA[ <p>The Future of Healthcare-- Granting Access to Innovation in America Act (GAIA Act) - Authorizes the Secretary of Health and Human Services to make grants to hospitals and skilled nursing facilities to carry out demonstration projects aimed at reducing the rate of medication errors and improving the quality of care by installing or upgrading computerized technology that: (1) provides information on drug-allergy contraindications and drug interactions; (2) ensures that all drug orders are legible; and (3) provides physicians and other clinicians with a menu of medications, complete with default doses and a range of potential doses for each medication.</p> <p>Requires grant applicants to agree to provide for technology including software that assists clinicians who order prescription drugs and tests in making medication-related decisions and that provides for an electronic medication administration record. Authorizes grant expenditures to purchase, install, and update such technology. Sets forth matching requirements.</p> <p>Requires each applicant to agree to submit to the Secretary, acting through the National Health Information Technology Coordinator, a report detailing: (1) quantitative reductions in medication errors; (2) the level of staff compliance; (3) the difference between administrative and clinical workflows before and after implementation of the technology; (4) alterations and improvements regarding the workflow in facilities that have the technology; (5) an analysis of the improvement of the quality of care and patient satisfaction within the hospital or skilled nursing facility involved; and (6) the overall economic savings associated with usage of the technology.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Future of Healthcare--Granting Access to Innovation in America Act (GAIA Act)</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Future of Healthcare--Granting Access to Innovation in America Act (GAIA Act)</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To improve the quality of health care through the implementation of computerized provider order entry systems in hospitals and skilled nursing facilities that will result in a reduction in the rate of medication errors and in redundancies and will create more efficiency.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Future of Healthcare--Granting Access to Innovation in America Act (GAIA Act)</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2005-07-28T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-109hr3607ih/xml/BILLS-109hr3607ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2005-08-05</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

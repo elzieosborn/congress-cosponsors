@@ -1,0 +1,241 @@
+{
+  "actions": [
+    {
+      "acted_at": "2004-11-20",
+      "action_code": "Intro-H",
+      "references": [],
+      "text": "Introduced in House",
+      "type": "action"
+    },
+    {
+      "acted_at": "2004-11-20T14:17:23-05:00",
+      "action_code": "H1B000",
+      "bill_ids": [
+        "hres866-108",
+        "hcres528-108"
+      ],
+      "how": "by special rule",
+      "references": [
+        {
+          "reference": "CR H10097-10098",
+          "type": "text as passed House"
+        }
+      ],
+      "result": "pass",
+      "status": "PASS_OVER:HOUSE",
+      "text": "Pursuant to the provisions of H. Res. 866, H. Con. Res. 528 is considered passed House.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "h"
+    },
+    {
+      "acted_at": "2004-11-20",
+      "action_code": "",
+      "references": [],
+      "text": "Received in the Senate.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2004-11-20",
+      "action_code": "",
+      "references": [
+        {
+          "reference": "CR S11767",
+          "type": "consideration"
+        }
+      ],
+      "text": "Measure laid before Senate by unanimous consent.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2004-11-20",
+      "action_code": "",
+      "how": "by Unanimous Consent",
+      "references": [],
+      "result": "pass",
+      "status": "PASS_BACK:SENATE",
+      "text": "Resolution agreed to in Senate with an amendment by Unanimous Consent.",
+      "type": "vote",
+      "vote_type": "vote2",
+      "where": "s"
+    },
+    {
+      "acted_at": "2004-11-24",
+      "action_code": "",
+      "references": [],
+      "text": "Message on Senate action sent to the House.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2004-12-06T14:15:20-05:00",
+      "action_code": "H40140",
+      "references": [
+        {
+          "reference": "CR H10899-10906, H10918",
+          "type": "consideration"
+        }
+      ],
+      "text": "Mr. Young (FL) moved that the House suspend the rules and agree to the Senate amendment.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2004-12-06T14:15:54-05:00",
+      "action_code": "H8D000",
+      "bill_ids": [
+        "hcres528-108"
+      ],
+      "references": [],
+      "text": "DEBATE - The House proceeded with forty minutes of debate on the motion to suspend the rules and agree to the Senate amendment to H. Con. Res. 528.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2004-12-06T14:50:55-05:00",
+      "action_code": "H8D000",
+      "references": [],
+      "text": "POSTPONED ROLL CALL VOTE - At the conclusion of debate,the Chair put the question on adoption of the motion and by voice vote, announced that the ayes had prevailed. Mr. Obey demanded the yeas and nays and the Chair postponed further proceedings on the question of adoption of the motion until later in the legislative day.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2004-12-06T18:54:09-05:00",
+      "action_code": "H41610",
+      "how": "roll",
+      "references": [
+        {
+          "reference": "CR H10899",
+          "type": "text as House agreed to Senate amendment"
+        }
+      ],
+      "result": "pass",
+      "roll": "543",
+      "status": "PASSED:CONCURRENTRES",
+      "suspension": null,
+      "text": "On motion that the House suspend the rules and agree to the Senate amendment Agreed to by the Yeas and Nays (2/3 required): 381 - 0 (Roll No. 543).",
+      "type": "vote",
+      "vote_type": "pingpong",
+      "where": "h"
+    },
+    {
+      "acted_at": "2004-12-06T18:54:11-05:00",
+      "action_code": "H41931",
+      "references": [],
+      "text": "Motion to reconsider laid on the table Agreed to without objection.",
+      "type": "action"
+    }
+  ],
+  "amendments": [
+    {
+      "amendment_id": "samdt4076-108",
+      "amendment_type": "samdt",
+      "chamber": "s",
+      "number": "4076"
+    }
+  ],
+  "bill_id": "hconres528-108",
+  "bill_type": "hconres",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [],
+  "congress": "108",
+  "cosponsors": [],
+  "enacted_as": null,
+  "history": {
+    "active": true,
+    "active_at": "2004-11-20T14:17:23-05:00",
+    "awaiting_signature": false,
+    "enacted": false,
+    "house_passage_result": "pass",
+    "house_passage_result_at": "2004-12-06T18:54:09-05:00",
+    "senate_passage_result": "pass",
+    "senate_passage_result_at": "2004-11-20",
+    "vetoed": false
+  },
+  "introduced_at": "2004-11-20",
+  "number": "528",
+  "official_title": "Directing the Clerk of the House of Representatives to make corrections in the enrollment of H.R. 4818.",
+  "popular_title": null,
+  "related_bills": [
+    {
+      "bill_id": "hres866-108",
+      "identified_by": "House",
+      "reason": "related",
+      "type": "bill"
+    },
+    {
+      "bill_id": "hr4818-108",
+      "identified_by": "House",
+      "reason": "related",
+      "type": "bill"
+    }
+  ],
+  "short_title": null,
+  "sponsor": {
+    "bioguide_id": "Y000031",
+    "district": "10",
+    "name": "Young, C. W. Bill",
+    "state": "FL",
+    "title": "Rep.",
+    "type": "person"
+  },
+  "status": "PASSED:CONCURRENTRES",
+  "status_at": "2004-12-06T18:54:09-05:00",
+  "subjects": [
+    "Aid to dependent children",
+    "Appropriations",
+    "Child support",
+    "Collection of accounts",
+    "Computer matching",
+    "Congress",
+    "Congressional committee chairmen",
+    "Congressional committees (House)",
+    "Congressional committees (Senate)",
+    "Cost effectiveness",
+    "Data banks",
+    "Department of the Treasury",
+    "Directories",
+    "Economics and Public Finance",
+    "Families",
+    "Finance and Financial Sector",
+    "Government Operations and Politics",
+    "Government paperwork",
+    "House Appropriations",
+    "Income tax",
+    "Internal Revenue Service (IRS)",
+    "Labor and Employment",
+    "Legislation",
+    "Personnel records",
+    "Rescission of appropriated funds",
+    "Science, Technology, Communications",
+    "Senate",
+    "Senate Appropriations",
+    "Social Welfare",
+    "Tax administration",
+    "Tax returns",
+    "Taxation",
+    "Unemployment insurance"
+  ],
+  "subjects_top_term": "Congress",
+  "summary": {
+    "as": "Introduced in House",
+    "asOf": "2004-11-20",
+    "date": "2004-12-08T21:10:21Z",
+    "text": "Directs the Clerk of the House of Representatives to make specified corrections in the enrollment of H.R. 4818 (Consolidated Appropriations Act, 2005)."
+  },
+  "titles": [
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Directing the Clerk of the House of Representatives to make corrections in the enrollment of H.R. 4818.",
+      "type": "display"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Directing the Clerk of the House of Representatives to make corrections in the enrollment of H.R. 4818.",
+      "type": "official"
+    }
+  ],
+  "updated_at": "2023-01-14T22:48:33Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/108/hconres/BILLSTATUS-108hconres528.xml"
+}

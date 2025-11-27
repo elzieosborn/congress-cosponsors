@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>716</number>
+    <updateDate>2023-01-13T04:49:16Z</updateDate>
+    <updateDateIncludingText>2023-01-13T04:49:16Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <originChamberCode>S</originChamberCode>
+    <type>S</type>
+    <introducedDate>2005-04-06</introducedDate>
+    <congress>109</congress>
+    <committees>
+      <item>
+        <systemCode>hsvr00</systemCode>
+        <name>Veterans' Affairs Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsvr03</systemCode>
+            <name>Health Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2006-01-19T15:25:34Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2005-12-22T22:09:56Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>ssva00</systemCode>
+        <name>Veterans' Affairs Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Reported by</name>
+            <date>2005-11-17T00:04:34Z</date>
+          </item>
+          <item>
+            <name>Markup by</name>
+            <date>2005-09-15T20:27:31Z</date>
+          </item>
+          <item>
+            <name>Hearings by</name>
+            <date>2005-06-09T19:33:40Z</date>
+          </item>
+          <item>
+            <name>Referred to</name>
+            <date>2005-04-06T17:28:17Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <committeeReports>
+      <committeeReport>
+        <citation>S. Rept. 109-180</citation>
+      </committeeReport>
+    </committeeReports>
+    <relatedBills>
+      <item>
+        <title>Vet Center Enhancement Act of 2006</title>
+        <congress>109</congress>
+        <number>5221</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2006-05-04</actionDate>
+          <text>Referred to the Subcommittee on Health.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2006-01-19</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsvr03</systemCode>
+            <name>Health Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2005-12-22</actionDate>
+        <text>Referred to the House Committee on Veterans' Affairs.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsvr00</systemCode>
+            <name>Veterans' Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2005-12-22</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2005-12-22</actionDate>
+        <actionTime>16:03:23</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2005-12-22</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate without amendment by Unanimous Consent. (consideration: CR S14410-14411; text as passed Senate: CR S14410-14411)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2005-12-22</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate without amendment by Unanimous Consent.(consideration: CR S14410-14411; text as passed Senate: CR S14410-14411)</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2005-11-16</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 290.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2005-11-16</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssva00</systemCode>
+            <name>Veterans' Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Veterans' Affairs. Reported by Senator Craig without amendment. With written report No. 109-180.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2005-11-16</actionDate>
+        <text>Committee on Veterans' Affairs. Reported by Senator Craig without amendment. With written report No. 109-180.</text>
+        <type>Committee</type>
+        <actionCode>14000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>ssva00</systemCode>
+            <name>Veterans' Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2005-09-15</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssva00</systemCode>
+            <name>Veterans' Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Veterans' Affairs. Ordered to be reported without amendment favorably.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2005-06-09</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssva00</systemCode>
+            <name>Veterans' Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Veterans' Affairs. Hearings held. Hearings printed: S.Hrg. 109-217.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2005-04-06</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssva00</systemCode>
+            <name>Veterans' Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Veterans' Affairs.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2005-04-06</actionDate>
+        <text>Sponsor introductory remarks on measure. (CR S3282-3283)</text>
+        <type>IntroReferral</type>
+        <actionCode>B00100</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2005-04-06</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>A000069</bioguideId>
+        <fullName>Sen. Akaka, Daniel K. [D-HI]</fullName>
+        <firstName>DANIEL</firstName>
+        <lastName>AKAKA</lastName>
+        <party>D</party>
+        <state>HI</state>
+        <middleName>KOHIKINA</middleName>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>R000361</bioguideId>
+        <fullName>Sen. Rockefeller, John D., IV [D-WV]</fullName>
+        <firstName>JAY</firstName>
+        <lastName>ROCKEFELLER</lastName>
+        <party>D</party>
+        <state>WV</state>
+        <sponsorshipDate>2005-04-06</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000705</bioguideId>
+        <fullName>Sen. Conrad, Kent [D-ND]</fullName>
+        <firstName>KENT</firstName>
+        <lastName>CONRAD</lastName>
+        <party>D</party>
+        <state>ND</state>
+        <sponsorshipDate>2005-04-06</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001163</bioguideId>
+        <fullName>Sen. Salazar, Ken [D-CO]</fullName>
+        <firstName>Ken</firstName>
+        <lastName>Salazar</lastName>
+        <party>D</party>
+        <state>CO</state>
+        <sponsorshipDate>2005-12-13</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000563</bioguideId>
+        <fullName>Sen. Durbin, Richard J. [D-IL]</fullName>
+        <firstName>Richard</firstName>
+        <lastName>Durbin</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>J.</middleName>
+        <sponsorshipDate>2005-12-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000468</bioguideId>
+        <fullName>Sen. Bingaman, Jeff [D-NM]</fullName>
+        <firstName>JESSE</firstName>
+        <lastName>BINGAMAN</lastName>
+        <party>D</party>
+        <state>NM</state>
+        <middleName>FRANCIS</middleName>
+        <sponsorshipDate>2005-12-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <cboCostEstimates>
+      <item>
+        <pubDate>2005-09-28T04:00:00Z</pubDate>
+        <title>S. 716, Vet Center Enhancement Act of 2005</title>
+        <url>http://www.cbo.gov/publication/17202</url>
+        <description>&lt;p&gt;Cost estimate for the bill as ordered reported by the Senate Committee on Veterans' Affairs on September 15, 2005&lt;/p&gt;</description>
+      </item>
+      <item>
+        <pubDate>2005-09-28T04:00:00Z</pubDate>
+        <title>S. 716, Vet Center Enhancement Act of 2005</title>
+        <url>https://www.cbo.gov/publication/17202</url>
+        <description>Cost estimate for the bill as ordered reported by the Senate Committee on Veterans' Affairs on September 15, 2005</description>
+      </item>
+    </cboCostEstimates>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Afghanistan</name>
+        </item>
+        <item>
+          <name>Counseling</name>
+        </item>
+        <item>
+          <name>Department of Veterans Affairs</name>
+        </item>
+        <item>
+          <name>Families</name>
+        </item>
+        <item>
+          <name>Federal employees</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Health</name>
+        </item>
+        <item>
+          <name>Iraq</name>
+        </item>
+        <item>
+          <name>Iraq compilation</name>
+        </item>
+        <item>
+          <name>Labor and Employment</name>
+        </item>
+        <item>
+          <name>Mental health services</name>
+        </item>
+        <item>
+          <name>Middle East and North Africa</name>
+        </item>
+        <item>
+          <name>Military dependents</name>
+        </item>
+        <item>
+          <name>Military operations</name>
+        </item>
+        <item>
+          <name>Parents</name>
+        </item>
+        <item>
+          <name>Social Welfare</name>
+        </item>
+        <item>
+          <name>South Asia</name>
+        </item>
+        <item>
+          <name>Veterans' employment</name>
+        </item>
+        <item>
+          <name>Veterans' medical care</name>
+        </item>
+        <item>
+          <name>Veterans' rehabilitation</name>
+        </item>
+        <item>
+          <name>War casualties</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Armed Forces and National Security</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2005-04-06</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2005-05-04T21:33:25Z</updateDate>
+        <text><![CDATA[ <p>Vet Center Enhancement Act of 2005 - Directs the Secretary of Veterans Affairs to employ up to 50 veterans of Operations Enduring Freedom or Iraqi Freedom to provide outreach to veterans on the availability of readjustment counseling and related mental health services at vet centers operated through the Department of Veterans Affairs.</p> <p>Revises provisions concerning the provision of bereavement counseling to the family of members of the Armed Forces who die while serving on active military duty to: (1) include the parents of such members within such authority; and (2) allow such counseling to be provided through vet centers.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>80</versionCode>
+        <actionDate>2005-11-16</actionDate>
+        <actionDesc>Reported to Senate without amendment</actionDesc>
+        <updateDate>2005-12-13T22:09:27Z</updateDate>
+        <text><![CDATA[ <p><b>(This measure has not been amended since it was introduced. The summary has been expanded because action occurred on the measure.)</b></p> <p>Vet Center Enhancement Act of 2005 - Directs the Secretary of Veterans Affairs to employ up to 50 veterans of Operations Enduring Freedom or Iraqi Freedom to provide outreach to veterans on the availability of readjustment counseling and related mental health services at vet centers operated through the Department of Veterans Affairs.</p> <p>Revises provisions concerning the provision of bereavement counseling to the family of members of the Armed Forces who die while serving on active military duty to: (1) include the parents of such members within such authority; and (2) allow such counseling to be provided through vet centers.</p> <p>Authorizes appropriations for FY2006 for the provision of readjustment counseling and related mental health services through vet centers.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>82</versionCode>
+        <actionDate>2005-12-22</actionDate>
+        <actionDesc>Passed Senate without amendment</actionDesc>
+        <updateDate>2007-05-09T14:22:22Z</updateDate>
+        <text><![CDATA[ <p><b>(This measure has not been amended since it was introduced. The expanded summary of the Senate reported version is repeated here.) </b></p> <p>Vet Center Enhancement Act of 2005 - Directs the Secretary of Veterans Affairs to employ up to 50 veterans of Operations Enduring Freedom or Iraqi Freedom to provide outreach to veterans on the availability of readjustment counseling and related mental health services at vet centers operated through the Department of Veterans Affairs.</p> <p>Revises provisions concerning the provision of bereavement counseling to the family of members of the Armed Forces who die while serving on active military duty to: (1) include the parents of such members within such authority; and (2) allow such counseling to be provided through vet centers.</p> <p>Authorizes appropriations for FY2006 for the provision of readjustment counseling and related mental health services through vet centers.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Vet Center Enhancement Act of 2005</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Vet Center Enhancement Act of 2005</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Vet Center Enhancement Act of 2005</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Reported to Senate</titleType>
+        <title>Vet Center Enhancement Act of 2005</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+      <item>
+        <titleType>Short Titles as Passed Senate</titleType>
+        <title>Vet Center Enhancement Act of 2005</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to amend title 38, United States Code, to enhance services provided by vet centers, to clarify and improve the provision of bereavement counseling by the Department of Veterans Affairs, and for other purposes.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Referred in House</type>
+        <date>2005-12-22T05:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2005-12-22T05:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Reported to Senate</type>
+        <date>2005-11-16T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-109s716rs/xml/BILLS-109s716rs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2005-04-06T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-109s716is/xml/BILLS-109s716is.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2006-01-19</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

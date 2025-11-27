@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>1741</number>
+    <updateDate>2019-11-15T21:41:20Z</updateDate>
+    <updateDateIncludingText>2019-11-15T21:41:20Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2005-04-20</introducedDate>
+    <congress>109</congress>
+    <committees>
+      <item>
+        <systemCode>hsvr00</systemCode>
+        <name>Veterans' Affairs Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsvr03</systemCode>
+            <name>Health Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2005-04-25T16:10:04Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2005-04-20T14:02:45Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2005-04-25</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsvr03</systemCode>
+            <name>Health Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2005-04-20</actionDate>
+        <text>Referred to the House Committee on Veterans' Affairs.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsvr00</systemCode>
+            <name>Veterans' Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2005-04-20</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2005-04-20</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>O000165</bioguideId>
+        <fullName>Rep. Osborne, Tom [R-NE-3]</fullName>
+        <firstName>TOM</firstName>
+        <lastName>OSBORNE</lastName>
+        <party>R</party>
+        <state>NE</state>
+        <district>3</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>K000188</bioguideId>
+        <fullName>Rep. Kind, Ron [D-WI-3]</fullName>
+        <firstName>RON</firstName>
+        <lastName>KIND</lastName>
+        <party>D</party>
+        <state>WI</state>
+        <district>3</district>
+        <sponsorshipDate>2005-04-20</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001140</bioguideId>
+        <fullName>Rep. Moore, Dennis [D-KS-3]</fullName>
+        <firstName>DENNIS</firstName>
+        <lastName>MOORE</lastName>
+        <party>D</party>
+        <state>KS</state>
+        <district>3</district>
+        <sponsorshipDate>2005-04-20</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000573</bioguideId>
+        <fullName>Rep. Ross, Mike [D-AR-4]</fullName>
+        <firstName>MIKE</firstName>
+        <lastName>ROSS</lastName>
+        <party>D</party>
+        <state>AR</state>
+        <district>4</district>
+        <sponsorshipDate>2005-04-20</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000583</bioguideId>
+        <fullName>Rep. Paul, Ron [R-TX-14]</fullName>
+        <firstName>RON</firstName>
+        <lastName>PAUL</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>14</district>
+        <sponsorshipDate>2005-04-20</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>O000166</bioguideId>
+        <fullName>Rep. Otter, C. L. (Butch) [R-ID-1]</fullName>
+        <firstName>C. L.</firstName>
+        <lastName>OTTER</lastName>
+        <party>R</party>
+        <state>ID</state>
+        <district>1</district>
+        <sponsorshipDate>2005-04-20</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001055</bioguideId>
+        <fullName>Rep. Case, Ed [D-HI-2]</fullName>
+        <firstName>Ed</firstName>
+        <lastName>Case</lastName>
+        <party>D</party>
+        <state>HI</state>
+        <district>2</district>
+        <sponsorshipDate>2005-04-20</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000437</bioguideId>
+        <fullName>Rep. Wicker, Roger F. [R-MS-1]</fullName>
+        <firstName>Roger</firstName>
+        <lastName>Wicker</lastName>
+        <party>R</party>
+        <state>MS</state>
+        <middleName>F.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2005-04-20</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>A000361</bioguideId>
+        <fullName>Rep. Alexander, Rodney [R-LA-5]</fullName>
+        <firstName>Rodney</firstName>
+        <lastName>Alexander</lastName>
+        <party>R</party>
+        <state>LA</state>
+        <district>5</district>
+        <sponsorshipDate>2005-04-20</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000364</bioguideId>
+        <fullName>Rep. Shimkus, John [R-IL-19]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>SHIMKUS</lastName>
+        <party>R</party>
+        <state>IL</state>
+        <middleName>M.</middleName>
+        <district>19</district>
+        <sponsorshipDate>2005-04-20</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000795</bioguideId>
+        <fullName>Rep. Wilson, Joe [R-SC-2]</fullName>
+        <firstName>Joe</firstName>
+        <lastName>Wilson</lastName>
+        <party>R</party>
+        <state>SC</state>
+        <district>2</district>
+        <sponsorshipDate>2005-04-20</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000260</bioguideId>
+        <fullName>Rep. Tiahrt, Todd [R-KS-4]</fullName>
+        <firstName>TODD</firstName>
+        <lastName>TIAHRT</lastName>
+        <party>R</party>
+        <state>KS</state>
+        <district>4</district>
+        <sponsorshipDate>2005-04-20</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000263</bioguideId>
+        <fullName>Rep. Peterson, John E. [R-PA-5]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>PETERSON</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <middleName>E.</middleName>
+        <district>5</district>
+        <sponsorshipDate>2005-04-20</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000589</bioguideId>
+        <fullName>Rep. Porter, Jon C. [R-NV-3]</fullName>
+        <firstName>Jon</firstName>
+        <lastName>Porter</lastName>
+        <party>R</party>
+        <state>NV</state>
+        <middleName>C.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2005-04-20</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>A000055</bioguideId>
+        <fullName>Rep. Aderholt, Robert B. [R-AL-4]</fullName>
+        <firstName>ROBERT</firstName>
+        <lastName>ADERHOLT</lastName>
+        <party>R</party>
+        <state>AL</state>
+        <middleName>B.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2005-04-20</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000119</bioguideId>
+        <fullName>Rep. Wamp, Zach [R-TN-3]</fullName>
+        <firstName>ZACH</firstName>
+        <lastName>WAMP</lastName>
+        <party>R</party>
+        <state>TN</state>
+        <district>3</district>
+        <sponsorshipDate>2005-04-20</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001036</bioguideId>
+        <fullName>Rep. Capps, Lois [D-CA-23]</fullName>
+        <firstName>LOIS</firstName>
+        <lastName>CAPPS</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>23</district>
+        <sponsorshipDate>2005-04-20</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000545</bioguideId>
+        <fullName>Rep. Green, Mark [R-WI-8]</fullName>
+        <firstName>MARK</firstName>
+        <lastName>GREEN</lastName>
+        <party>R</party>
+        <state>WI</state>
+        <district>8</district>
+        <sponsorshipDate>2005-04-20</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000485</bioguideId>
+        <fullName>Rep. McIntyre, Mike [D-NC-7]</fullName>
+        <firstName>MIKE</firstName>
+        <lastName>MCINTYRE</lastName>
+        <party>D</party>
+        <state>NC</state>
+        <district>7</district>
+        <sponsorshipDate>2005-04-20</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000329</bioguideId>
+        <fullName>Rep. Hastings, Doc [R-WA-4]</fullName>
+        <firstName>DOC</firstName>
+        <lastName>HASTINGS</lastName>
+        <party>R</party>
+        <state>WA</state>
+        <district>4</district>
+        <sponsorshipDate>2005-04-20</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>N000159</bioguideId>
+        <fullName>Rep. Norwood, Charles W. [R-GA-9]</fullName>
+        <firstName>CHARLES</firstName>
+        <lastName>NORWOOD</lastName>
+        <party>R</party>
+        <state>GA</state>
+        <middleName>W.</middleName>
+        <district>9</district>
+        <sponsorshipDate>2005-04-20</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000172</bioguideId>
+        <fullName>Rep. Emerson, Jo Ann [R-MO-8]</fullName>
+        <firstName>JO</firstName>
+        <lastName>EMERSON</lastName>
+        <party>R</party>
+        <state>MO</state>
+        <middleName>ANN</middleName>
+        <district>8</district>
+        <sponsorshipDate>2005-04-20</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001152</bioguideId>
+        <fullName>Rep. Musgrave, Marilyn N. [R-CO-4]</fullName>
+        <firstName>Marilyn</firstName>
+        <lastName>Musgrave</lastName>
+        <party>R</party>
+        <state>CO</state>
+        <middleName>N.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2005-04-20</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001150</bioguideId>
+        <fullName>Rep. Miller, Candice S. [R-MI-10]</fullName>
+        <firstName>Candice</firstName>
+        <lastName>Miller</lastName>
+        <party>R</party>
+        <state>MI</state>
+        <middleName>S.</middleName>
+        <district>10</district>
+        <sponsorshipDate>2005-04-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000071</bioguideId>
+        <fullName>Rep. Camp, Dave [R-MI-4]</fullName>
+        <firstName>DAVE</firstName>
+        <lastName>CAMP</lastName>
+        <party>R</party>
+        <state>MI</state>
+        <district>4</district>
+        <sponsorshipDate>2005-05-03</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000676</bioguideId>
+        <fullName>Rep. Hoekstra, Peter [R-MI-2]</fullName>
+        <firstName>PETER</firstName>
+        <lastName>HOEKSTRA</lastName>
+        <party>R</party>
+        <state>MI</state>
+        <district>2</district>
+        <sponsorshipDate>2005-05-12</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001045</bioguideId>
+        <fullName>Rep. Stupak, Bart [D-MI-1]</fullName>
+        <firstName>BART</firstName>
+        <lastName>STUPAK</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <district>1</district>
+        <sponsorshipDate>2005-05-24</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001047</bioguideId>
+        <fullName>Rep. Capito, Shelley Moore [R-WV-2]</fullName>
+        <firstName>Shelley</firstName>
+        <lastName>Capito</lastName>
+        <party>R</party>
+        <state>WV</state>
+        <middleName>Moore</middleName>
+        <district>2</district>
+        <sponsorshipDate>2005-07-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000472</bioguideId>
+        <fullName>Rep. McHugh, John M. [R-NY-23]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>MCHUGH</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <middleName>M.</middleName>
+        <district>23</district>
+        <sponsorshipDate>2005-10-26</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000588</bioguideId>
+        <fullName>Rep. Pearce, Stevan [R-NM-2]</fullName>
+        <firstName>Stevan</firstName>
+        <lastName>Pearce</lastName>
+        <party>R</party>
+        <state>NM</state>
+        <district>2</district>
+        <sponsorshipDate>2006-09-12</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Access to health care</name>
+        </item>
+        <item>
+          <name>Administrative procedure</name>
+        </item>
+        <item>
+          <name>Appropriations</name>
+        </item>
+        <item>
+          <name>Chronically ill</name>
+        </item>
+        <item>
+          <name>Department of Veterans Affairs</name>
+        </item>
+        <item>
+          <name>Economics and Public Finance</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Government contractors</name>
+        </item>
+        <item>
+          <name>Government procurement</name>
+        </item>
+        <item>
+          <name>Health</name>
+        </item>
+        <item>
+          <name>Housing and Community Development</name>
+        </item>
+        <item>
+          <name>Law</name>
+        </item>
+        <item>
+          <name>Rural health</name>
+        </item>
+        <item>
+          <name>Veterans' hospitals</name>
+        </item>
+        <item>
+          <name>Veterans' medical care</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Armed Forces and National Security</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2005-04-20</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2005-05-20T21:12:20Z</updateDate>
+        <text><![CDATA[ <p>Rural Veterans Access to Care Act of 2005 - Directs the Secretary of Veterans Affairs to conduct a FY 2006 through 2008 pilot program to improve health care access for rural veterans. </p> <p>States that: (1) the program shall be conducted in three geographic service regions (Veterans Integrated Service Networks) of the Veterans Health Administration; and (2) medical services shall be provided by non-Department of Veterans Affairs (VA) providers for acute or chronic symptom management, non-therapeutic medical services, and other medical services as determined by the director of the appropriate geographic service region. </p> <p>Obligates program funds.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Rural Veterans Access to Care Act of 2005</title>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Rural Veterans Access to Care Act of 2005</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Rural Veterans Access to Care Act of 2005</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To direct the Secretary of Veterans Affairs to conduct a pilot program to improve access to health care for rural veterans, and for other purposes.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2005-04-20T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-109hr1741ih/xml/BILLS-109hr1741ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2005-04-25</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

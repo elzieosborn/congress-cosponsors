@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>777</number>
+    <updateDate>2023-01-13T04:49:31Z</updateDate>
+    <updateDateIncludingText>2023-01-13T04:49:31Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <originChamberCode>S</originChamberCode>
+    <type>S</type>
+    <introducedDate>2005-04-13</introducedDate>
+    <congress>109</congress>
+    <committees>
+      <item>
+        <systemCode>hsii00</systemCode>
+        <name>Natural Resources Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsii10</systemCode>
+            <name>Federal Lands Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2005-12-02T17:51:28Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2005-11-17T18:24:16Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>sseg00</systemCode>
+        <name>Energy and Natural Resources Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>sseg04</systemCode>
+            <name>National Parks Subcommittee</name>
+            <activities>
+              <item>
+                <name>Hearings by</name>
+                <date>2005-04-28T15:35:25Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Reported by</name>
+            <date>2005-10-27T18:56:00Z</date>
+          </item>
+          <item>
+            <name>Markup by</name>
+            <date>2005-09-28T17:40:43Z</date>
+          </item>
+          <item>
+            <name>Referred to</name>
+            <date>2005-04-13T21:53:12Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <committeeReports>
+      <committeeReport>
+        <citation>S. Rept. 109-171</citation>
+      </committeeReport>
+    </committeeReports>
+    <actions>
+      <item>
+        <actionDate>2005-12-02</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii10</systemCode>
+            <name>Federal Lands Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on National Parks.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2005-11-17</actionDate>
+        <text>Referred to the House Committee on Resources.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2005-11-17</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2005-11-17</actionDate>
+        <actionTime>10:02:09</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2005-11-16</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate with amendments by Unanimous Consent. (consideration: CR S13062; text of measure as reported in Senate: CR S13062; text as passed Senate: CR S13062)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2005-11-16</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate with amendments by Unanimous Consent.(consideration: CR S13062; text of measure as reported in Senate: CR S13062; text as passed Senate: CR S13062)</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2005-10-27</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 272.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2005-10-27</actionDate>
+        <committees>
+          <item>
+            <systemCode>sseg00</systemCode>
+            <name>Energy and Natural Resources Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Energy and Natural Resources. Reported by Senator Domenici with amendments. With written report No. 109-171.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2005-10-27</actionDate>
+        <text>Committee on Energy and Natural Resources. Reported by Senator Domenici with amendments. With written report No. 109-171.</text>
+        <type>Committee</type>
+        <actionCode>14000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>sseg00</systemCode>
+            <name>Energy and Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2005-09-28</actionDate>
+        <committees>
+          <item>
+            <systemCode>sseg00</systemCode>
+            <name>Energy and Natural Resources Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Energy and Natural Resources. Ordered to be reported with amendments favorably.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2005-04-28</actionDate>
+        <committees>
+          <item>
+            <systemCode>sseg04</systemCode>
+            <name>National Parks Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Energy and Natural Resources Subcommittee on National Parks. Hearings held. With printed Hearing: S.Hrg. 109-74.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2005-04-13</actionDate>
+        <committees>
+          <item>
+            <systemCode>sseg00</systemCode>
+            <name>Energy and Natural Resources Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Energy and Natural Resources. (text of measure as introduced: CR S3564)</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2005-04-13</actionDate>
+        <text>Sponsor introductory remarks on measure. (CR S3563-3564)</text>
+        <type>IntroReferral</type>
+        <actionCode>B00100</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2005-04-13</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>S000064</bioguideId>
+        <fullName>Sen. Sarbanes, Paul S. [D-MD]</fullName>
+        <firstName>PAUL</firstName>
+        <lastName>SARBANES</lastName>
+        <party>D</party>
+        <state>MD</state>
+        <middleName>SPYROS</middleName>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cboCostEstimates>
+      <item>
+        <pubDate>2005-10-04T04:00:00Z</pubDate>
+        <title>S. 777, Catoctin Mountain National Recreation Area Designation Act</title>
+        <url>http://www.cbo.gov/publication/17249</url>
+        <description>&lt;p&gt;Cost estimate for the bill as ordered reported by the Senate Committee on Energy and Natural Resources on September 28, 2005&lt;/p&gt;</description>
+      </item>
+      <item>
+        <pubDate>2005-10-04T04:00:00Z</pubDate>
+        <title>S. 777, Catoctin Mountain National Recreation Area Designation Act</title>
+        <url>https://www.cbo.gov/publication/17249</url>
+        <description>Cost estimate for the bill as ordered reported by the Senate Committee on Energy and Natural Resources on September 28, 2005</description>
+      </item>
+    </cboCostEstimates>
+    <policyArea>
+      <name>Public Lands and Natural Resources</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Commemorations</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Land transfers</name>
+        </item>
+        <item>
+          <name>Maryland</name>
+        </item>
+        <item>
+          <name>Mountains</name>
+        </item>
+        <item>
+          <name>Names</name>
+        </item>
+        <item>
+          <name>National parks</name>
+        </item>
+        <item>
+          <name>National recreation areas</name>
+        </item>
+        <item>
+          <name>Presidential residences</name>
+        </item>
+        <item>
+          <name>Real property</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Public Lands and Natural Resources</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2005-04-13</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2005-05-04T21:44:19Z</updateDate>
+        <text><![CDATA[ Catoctin Mountain National Recreation Area Designation Act - Designates Catoctin Mountain Park in Maryland as the Catoctin Mountain National Recreation Area.]]></text>
+      </summary>
+      <summary>
+        <versionCode>01</versionCode>
+        <actionDate>2005-10-27</actionDate>
+        <actionDesc>Reported to Senate with amendment(s)</actionDesc>
+        <updateDate>2006-01-06T16:07:02Z</updateDate>
+        <text><![CDATA[ <p>Catoctin Mountain National Recreation Area Designation Act - Designates Catoctin Mountain Park in Maryland as the Catoctin Mountain National Recreation Area. </p> <p>Authorizes the Secretary of the Interior to acquire any land, interest in land, or improvement to land within the boundary of the Recreation Area by donation, purchase with donated or appropriated funds, or exchange. </p> <p>Requires the Secretary to administer the Recreation Area: (1) in accordance with this Act and the laws generally applicable to units of the National Park System, including specified Acts; and (2) in a manner that protects and enhances the scenic, natural, cultural, historical, and recreational resources of the Recreation Area.</p> <p>Authorizes appropriations. </p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>35</versionCode>
+        <actionDate>2005-11-16</actionDate>
+        <actionDesc>Passed Senate amended</actionDesc>
+        <updateDate>2006-01-24T18:04:10Z</updateDate>
+        <text><![CDATA[ <p><b>(This measure has not been amended since it was reported to the Senate on October 27, 2005. The summary of that version is repeated here.)</b></p> <p>Catoctin Mountain National Recreation Area Designation Act - Designates Catoctin Mountain Park in Maryland as the Catoctin Mountain National Recreation Area. </p> <p>Authorizes the Secretary of the Interior to acquire any land, interest in land, or improvement to land within the boundary of the Recreation Area by donation, purchase with donated or appropriated funds, or exchange. </p> <p>Requires the Secretary to administer the Recreation Area: (1) in accordance with this Act and the laws generally applicable to units of the National Park System, including specified Acts; and (2) in a manner that protects and enhances the scenic, natural, cultural, historical, and recreational resources of the Recreation Area.</p> <p>Authorizes appropriations. </p>]]></text>
+      </summary>
+    </summaries>
+    <title>Catoctin Mountain National Recreation Area Designation Act</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Catoctin Mountain National Recreation Area Designation Act</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Catoctin Mountain National Recreation Area Designation Act</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Reported to Senate</titleType>
+        <title>Catoctin Mountain National Recreation Area Designation Act</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+      <item>
+        <titleType>Short Titles as Passed Senate</titleType>
+        <title>Catoctin Mountain National Recreation Area Designation Act</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to designate Catoctin Mountain Park in the State of Maryland as the "Catoctin Mountain National Recreation Area", and for other purposes.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Referred in House</type>
+        <date>2005-11-17T05:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2005-11-16T05:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Reported to Senate</type>
+        <date>2005-10-27T04:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2005-04-13T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-109s777is/xml/BILLS-109s777is.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2005-12-02</actionDate>
+      <text>Referred to the Subcommittee on National Parks.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

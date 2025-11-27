@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>5343</number>
+    <updateDate>2023-01-14T22:48:39Z</updateDate>
+    <updateDateIncludingText>2023-01-14T22:48:39Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2004-10-08</introducedDate>
+    <congress>108</congress>
+    <committees>
+      <item>
+        <systemCode>hsii00</systemCode>
+        <name>Natural Resources Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsii10</systemCode>
+            <name>Federal Lands Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2004-11-08T20:47:18Z</date>
+              </item>
+            </activities>
+          </item>
+          <item>
+            <systemCode>hsii20</systemCode>
+            <name>Forests and Forest Health Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2004-11-08T20:47:13Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2004-10-08T13:00:35Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2004-11-08</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii10</systemCode>
+            <name>Federal Lands Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on National Parks, Recreation and Public Lands.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2004-11-08</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii20</systemCode>
+            <name>Forests and Forest Health Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Forests and Forest Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2004-10-08</actionDate>
+        <text>Referred to the House Committee on Resources.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2004-10-08</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2004-10-08</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>S001148</bioguideId>
+        <fullName>Rep. Simpson, Michael K. [R-ID-2]</fullName>
+        <firstName>MICHAEL</firstName>
+        <lastName>SIMPSON</lastName>
+        <party>R</party>
+        <state>ID</state>
+        <middleName>K.</middleName>
+        <district>2</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Public Lands and Natural Resources</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Agricultural research</name>
+        </item>
+        <item>
+          <name>Agriculture and Food</name>
+        </item>
+        <item>
+          <name>Air routes</name>
+        </item>
+        <item>
+          <name>Airspace (Law)</name>
+        </item>
+        <item>
+          <name>All terrain vehicles</name>
+        </item>
+        <item>
+          <name>Animals</name>
+        </item>
+        <item>
+          <name>Architecture and the disabled</name>
+        </item>
+        <item>
+          <name>Bears</name>
+        </item>
+        <item>
+          <name>Bikeways</name>
+        </item>
+        <item>
+          <name>Bridges</name>
+        </item>
+        <item>
+          <name>Camping</name>
+        </item>
+        <item>
+          <name>Collection of accounts</name>
+        </item>
+        <item>
+          <name>Commerce</name>
+        </item>
+        <item>
+          <name>Compensation (Law)</name>
+        </item>
+        <item>
+          <name>Congress</name>
+        </item>
+        <item>
+          <name>Congressional reporting requirements</name>
+        </item>
+        <item>
+          <name>Disabled</name>
+        </item>
+        <item>
+          <name>Economics and Public Finance</name>
+        </item>
+        <item>
+          <name>Emergency Management</name>
+        </item>
+        <item>
+          <name>Environmental Protection</name>
+        </item>
+        <item>
+          <name>Federal-Indian relations</name>
+        </item>
+        <item>
+          <name>Fire prevention</name>
+        </item>
+        <item>
+          <name>Fishing</name>
+        </item>
+        <item>
+          <name>Forest conservation</name>
+        </item>
+        <item>
+          <name>Forest fires</name>
+        </item>
+        <item>
+          <name>Forest health</name>
+        </item>
+        <item>
+          <name>Forest management</name>
+        </item>
+        <item>
+          <name>Forest products</name>
+        </item>
+        <item>
+          <name>Forest roads</name>
+        </item>
+        <item>
+          <name>Goats</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Government aircraft</name>
+        </item>
+        <item>
+          <name>Governmental investigations</name>
+        </item>
+        <item>
+          <name>Grants-in-aid</name>
+        </item>
+        <item>
+          <name>Grazing</name>
+        </item>
+        <item>
+          <name>Habitat conservation</name>
+        </item>
+        <item>
+          <name>Horses</name>
+        </item>
+        <item>
+          <name>Hunting</name>
+        </item>
+        <item>
+          <name>Idaho</name>
+        </item>
+        <item>
+          <name>Infrastructure</name>
+        </item>
+        <item>
+          <name>Insect control</name>
+        </item>
+        <item>
+          <name>Land transfers</name>
+        </item>
+        <item>
+          <name>Land use</name>
+        </item>
+        <item>
+          <name>Landscape protection</name>
+        </item>
+        <item>
+          <name>Law</name>
+        </item>
+        <item>
+          <name>Licenses</name>
+        </item>
+        <item>
+          <name>Logging</name>
+        </item>
+        <item>
+          <name>Lumber trade</name>
+        </item>
+        <item>
+          <name>Maintenance and repair</name>
+        </item>
+        <item>
+          <name>Maps</name>
+        </item>
+        <item>
+          <name>Military aviation</name>
+        </item>
+        <item>
+          <name>Mining claims</name>
+        </item>
+        <item>
+          <name>Minorities</name>
+        </item>
+        <item>
+          <name>Motor vehicles</name>
+        </item>
+        <item>
+          <name>Motorcycles</name>
+        </item>
+        <item>
+          <name>National forests</name>
+        </item>
+        <item>
+          <name>National recreation areas</name>
+        </item>
+        <item>
+          <name>Native Americans</name>
+        </item>
+        <item>
+          <name>Nature conservation</name>
+        </item>
+        <item>
+          <name>Outdoor recreation</name>
+        </item>
+        <item>
+          <name>Pedestrians</name>
+        </item>
+        <item>
+          <name>Planning</name>
+        </item>
+        <item>
+          <name>Recreation areas</name>
+        </item>
+        <item>
+          <name>Restoration ecology</name>
+        </item>
+        <item>
+          <name>Risk</name>
+        </item>
+        <item>
+          <name>Road construction</name>
+        </item>
+        <item>
+          <name>Science, Technology, Communications</name>
+        </item>
+        <item>
+          <name>Sheep</name>
+        </item>
+        <item>
+          <name>Snowmobiles</name>
+        </item>
+        <item>
+          <name>Soil conservation</name>
+        </item>
+        <item>
+          <name>Sports and Recreation</name>
+        </item>
+        <item>
+          <name>State laws</name>
+        </item>
+        <item>
+          <name>State parks</name>
+        </item>
+        <item>
+          <name>Sustainable development</name>
+        </item>
+        <item>
+          <name>Tourism</name>
+        </item>
+        <item>
+          <name>Trails</name>
+        </item>
+        <item>
+          <name>Transportation and Public Works</name>
+        </item>
+        <item>
+          <name>Trapping</name>
+        </item>
+        <item>
+          <name>Tree diseases</name>
+        </item>
+        <item>
+          <name>User charges</name>
+        </item>
+        <item>
+          <name>Water Resources Development</name>
+        </item>
+        <item>
+          <name>Water conservation</name>
+        </item>
+        <item>
+          <name>Water rights</name>
+        </item>
+        <item>
+          <name>Wilderness areas</name>
+        </item>
+        <item>
+          <name>Wildlife conservation</name>
+        </item>
+        <item>
+          <name>Wildlife management</name>
+        </item>
+        <item>
+          <name>Wolves</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Public Lands and Natural Resources</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2004-10-08</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2004-12-07T21:30:44Z</updateDate>
+        <text><![CDATA[ <p>Central Idaho Economic Development and Recreation Act of 2004 - Requires the Secretary of Agriculture, acting through the Chief of the Forest Service, and the Secretary of the Interior, acting through the Director of the Bureau of Land Management (BLM), to convey specified parcels of Federal land to certain counties and cities in central Idaho.</p> <p>Authorizes the conveyance of specified National Forest System land or public land to Custer County or the State of Idaho for public campgrounds, tourism and recreation, and access to trails in or near the Boulder-White Cloud Management Area (BWCMA) established by this Act.</p> <p>Requires the Secretary of the Interior to convey to the State of Idaho specified parcels of BLM land for motorized recreation parks.</p> <p>Directs the Secretary of Agriculture to construct a trail for use by pedestrians and non-motorized vehicles and as a snowmobile route.</p> <p>Addresses the extension of guide and outfitter operating permits authorizing activities in the BWCMA or wilderness areas designated under this Act.</p> <p>Directs the Secretary of Agriculture to submit to Congress a specified study addressing fire risk mitigation measures in the Sawtooth National Recreation Area (SNRA).</p> <p>Establishes the BWCMA on Federal lands in the Challis National Forest, SNRA, and Challis District of the BLM. Limits activities within the BWCMA.</p> <p>Authorizes appropriations for a grant to Idaho's Off Road Motor Vehicle Program.</p> <p>Designates specified parcels of Federal land in Idaho as wilderness areas and components of the National Wilderness Preservation System (NWPS).</p> <p>Repeals existing law requiring review of portions of the SNRA for possible inclusion in the NWPS.</p> <p>Establishes a voluntary grazing permit waiver program.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Central Idaho Economic Development and Recreation Act of 2004</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Central Idaho Economic Development and Recreation Act of 2004</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To promote the economic development and recreational use of National Forest System lands and other public lands in central Idaho, to designate certain lands in the Challis National Forest, the Sawtooth National Recreation Area, and the Challis District of the Bureau of Land Management as the Boulder-White Cloud Management Area to ensure the continued management of these lands for recreational use as well as for conservation and resource protection, to add certain National Forest System lands and Bureau of Land Management lands in central Idaho to the National Wilderness Preservation System, and for other purposes.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Central Idaho Economic Development and Recreation Act of 2004</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2004-10-08T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-108hr5343ih/xml/BILLS-108hr5343ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2004-11-08</actionDate>
+      <text>Referred to the Subcommittee on National Parks, Recreation and Public Lands.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

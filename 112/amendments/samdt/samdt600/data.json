@@ -1,0 +1,87 @@
+{
+  "actions": [
+    {
+      "acted_at": "2011-09-08",
+      "action_code": "",
+      "how": "roll",
+      "references": [],
+      "result": "fail",
+      "roll": 126,
+      "text": "Amendment SA 600 not agreed to in Senate by Yea-Nay. 47 - 51. Record Vote Number: 126.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "s"
+    },
+    {
+      "acted_at": "2011-09-08",
+      "action_code": "",
+      "references": [],
+      "text": "Amendment SA 600 proposed by Senator Sessions. (consideration: CR S5402-5407, S5425-5436; text: CR S5402) To strike the provision relating to the calculation of the 60-day period for application of patent term extension.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2011-09-08",
+      "action_code": "97000",
+      "references": [],
+      "text": "Roll call votes on amendments in Senate: Amendment SA 600 not agreed to in Senate by Yea-Nay. 47 - 51. Record Vote Number: 126.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2011-09-08",
+      "action_code": "95000",
+      "references": [],
+      "text": "Senate amendment not agreed to: Amendment SA 600 not agreed to in Senate by Yea-Nay. 47 - 51. Record Vote Number: 126.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2011-09-08",
+      "action_code": "93000",
+      "references": [
+        {
+          "reference": "CR S5402-5407, S5425-5436",
+          "type": "consideration"
+        },
+        {
+          "reference": "CR S5402",
+          "type": "text"
+        }
+      ],
+      "text": "Senate amendment proposed (on the floor): Amendment SA 600 proposed by Senator Sessions.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2011-09-07",
+      "action_code": "91000",
+      "references": [],
+      "text": "Senate amendment submitted",
+      "type": "action"
+    }
+  ],
+  "amendment_id": "samdt600-112",
+  "amendment_type": "samdt",
+  "amends_amendment": null,
+  "amends_bill": {
+    "bill_id": "hr1249-112",
+    "bill_type": "hr",
+    "congress": 112,
+    "number": 1249
+  },
+  "amends_treaty": null,
+  "chamber": "s",
+  "congress": "112",
+  "introduced_at": "2011-09-07",
+  "number": 600,
+  "proposed_at": "2011-09-08T04:00:00Z",
+  "purpose": "To strike the provision relating to the calculation of the 60-day period for application of patent term extension.",
+  "sponsor": {
+    "bioguide_id": "S001141",
+    "district": null,
+    "name": "Sessions, Jeff",
+    "state": "AL",
+    "title": "Sen.",
+    "type": "person"
+  },
+  "status": "fail",
+  "status_at": "2011-09-08",
+  "updated_at": "2022-02-25T17:33:24Z"
+}

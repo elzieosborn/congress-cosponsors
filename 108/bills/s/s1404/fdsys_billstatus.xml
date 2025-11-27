@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>1404</number>
+    <updateDate>2023-01-15T09:32:49Z</updateDate>
+    <updateDateIncludingText>2023-01-15T09:32:49Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <originChamberCode>S</originChamberCode>
+    <type>S</type>
+    <introducedDate>2003-07-15</introducedDate>
+    <congress>108</congress>
+    <committees>
+      <item>
+        <systemCode>hsju00</systemCode>
+        <name>Judiciary Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsju01</systemCode>
+            <name>Immigration Integrity, Security, and Enforcement Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2003-12-10T17:46:20Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2003-09-24T23:24:48Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>sscm00</systemCode>
+        <name>Commerce, Science, and Transportation Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Reported by</name>
+            <date>2003-07-28T17:01:30Z</date>
+          </item>
+          <item>
+            <name>Markup by</name>
+            <date>2003-07-17T16:18:02Z</date>
+          </item>
+          <item>
+            <name>Referred to</name>
+            <date>2003-07-15T14:53:58Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <committeeReports>
+      <committeeReport>
+        <citation>S. Rept. 108-114</citation>
+      </committeeReport>
+    </committeeReports>
+    <actions>
+      <item>
+        <actionDate>2003-12-10</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsju01</systemCode>
+            <name>Immigration Integrity, Security, and Enforcement Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Immigration, Border Security, and Claims.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2003-09-24</actionDate>
+        <text>Referred to the House Committee on the Judiciary.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2003-09-24</actionDate>
+        <actionTime>10:02:01</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2003-09-24</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2003-09-23</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate with amendments by Unanimous Consent. (text: CR S11870)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2003-09-23</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate with amendments by Unanimous Consent.(text: CR S11870)</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2003-09-23</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Measure laid before Senate by unanimous consent. (consideration: CR S11867-11873)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2003-07-28</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 237.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2003-07-28</actionDate>
+        <committees>
+          <item>
+            <systemCode>sscm00</systemCode>
+            <name>Commerce, Science, and Transportation Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Commerce, Science, and Transportation. Reported by Senator McCain with amendments. With written report No. 108-114.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2003-07-28</actionDate>
+        <text>Committee on Commerce, Science, and Transportation. Reported by Senator McCain with amendments. With written report No. 108-114.</text>
+        <type>Committee</type>
+        <actionCode>14000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>sscm00</systemCode>
+            <name>Commerce, Science, and Transportation Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2003-07-17</actionDate>
+        <committees>
+          <item>
+            <systemCode>sscm00</systemCode>
+            <name>Commerce, Science, and Transportation Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Commerce, Science, and Transportation. Ordered to be reported with amendments favorably.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2003-07-15</actionDate>
+        <committees>
+          <item>
+            <systemCode>sscm00</systemCode>
+            <name>Commerce, Science, and Transportation Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Commerce, Science, and Transportation. (text of measure as introduced: CR S9417-9418)</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2003-07-15</actionDate>
+        <text>Sponsor introductory remarks on measure. (CR S9416-9417)</text>
+        <type>IntroReferral</type>
+        <actionCode>B00100</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2003-07-15</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>M000303</bioguideId>
+        <fullName>Sen. McCain, John [R-AZ]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>MCCAIN</lastName>
+        <party>R</party>
+        <state>AZ</state>
+        <middleName>SIDNEY</middleName>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>S000888</bioguideId>
+        <fullName>Sen. Stevens, Ted [R-AK]</fullName>
+        <firstName>THEODORE</firstName>
+        <lastName>STEVENS</lastName>
+        <party>R</party>
+        <state>AK</state>
+        <middleName>F.</middleName>
+        <sponsorshipDate>2003-07-15</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000077</bioguideId>
+        <fullName>Sen. Campbell, Ben Nighthorse [R-CO]</fullName>
+        <firstName>BEN</firstName>
+        <lastName>CAMPBELL</lastName>
+        <party>R</party>
+        <state>CO</state>
+        <middleName>NIGHTHORSE</middleName>
+        <sponsorshipDate>2003-09-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <cboCostEstimates>
+      <item>
+        <pubDate>2003-09-08T04:00:00Z</pubDate>
+        <title>S. 1404, United States Olympic Committee Reform Act</title>
+        <url>http://www.cbo.gov/publication/14740</url>
+        <description>&lt;p&gt;Cost estimate for the bill as reported by the Senate Committee on Commerce, Science, and Transportation on July 28, 2003&lt;/p&gt;</description>
+      </item>
+      <item>
+        <pubDate>2003-09-08T04:00:00Z</pubDate>
+        <title>S. 1404, United States Olympic Committee Reform Act</title>
+        <url>https://www.cbo.gov/publication/14740</url>
+        <description>Cost estimate for the bill as reported by the Senate Committee on Commerce, Science, and Transportation on July 28, 2003</description>
+      </item>
+    </cboCostEstimates>
+    <policyArea>
+      <name>Sports and Recreation</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Auditing</name>
+        </item>
+        <item>
+          <name>Civil Rights and Liberties, Minority Issues</name>
+        </item>
+        <item>
+          <name>Commerce</name>
+        </item>
+        <item>
+          <name>Conflict of interests</name>
+        </item>
+        <item>
+          <name>Congress</name>
+        </item>
+        <item>
+          <name>Congressional reporting requirements</name>
+        </item>
+        <item>
+          <name>Corporate accountability</name>
+        </item>
+        <item>
+          <name>Corporate management</name>
+        </item>
+        <item>
+          <name>Discrimination</name>
+        </item>
+        <item>
+          <name>Due process of law</name>
+        </item>
+        <item>
+          <name>Employee rights</name>
+        </item>
+        <item>
+          <name>Ethics</name>
+        </item>
+        <item>
+          <name>Executives</name>
+        </item>
+        <item>
+          <name>Finance and Financial Sector</name>
+        </item>
+        <item>
+          <name>Financial statements</name>
+        </item>
+        <item>
+          <name>Gifts</name>
+        </item>
+        <item>
+          <name>Honoraria</name>
+        </item>
+        <item>
+          <name>Labor and Employment</name>
+        </item>
+        <item>
+          <name>Law</name>
+        </item>
+        <item>
+          <name>Louisiana</name>
+        </item>
+        <item>
+          <name>Management</name>
+        </item>
+        <item>
+          <name>Misconduct in office</name>
+        </item>
+        <item>
+          <name>Names</name>
+        </item>
+        <item>
+          <name>Nonprofit organizations</name>
+        </item>
+        <item>
+          <name>Olympic games</name>
+        </item>
+        <item>
+          <name>Relocation</name>
+        </item>
+        <item>
+          <name>Social Welfare</name>
+        </item>
+        <item>
+          <name>Transportation and Public Works</name>
+        </item>
+        <item>
+          <name>Travel costs</name>
+        </item>
+        <item>
+          <name>Urban affairs</name>
+        </item>
+        <item>
+          <name>Urban areas</name>
+        </item>
+        <item>
+          <name>Whistle blowing</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Sports and Recreation</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2003-07-15</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2003-12-10T19:28:30Z</updateDate>
+        <text><![CDATA[ <p>United States Olympic Committee Reform Act - Amends the Ted Stevens Olympic and Amateur Sports Act to designate the board of directors of the United States Olympic Committee (USOC) as its governing body, to be responsible for establishing its policies and priorities and to have full authority to manage its affairs. Requires the board to: (1) consist of nine elected members (five independent directors, two directors elected from Athletes' Advisory Council nominees, and two directors elected from the National Governing Bodies' Council nominees) and, as ex officio members, the speaker of the assembly (established by this Act) and the U.S. members of the International Olympic Committee; and (2) establish audit, compensation, ethics, and nominating and governance committees. </p> <p>Establishes an assembly to be a forum for all USOC stakeholders. Grants the assembly the right to vote on, and to have ultimate authority to decide, matters relating to the Olympic Games. Requires the assembly to convene annually.</p> <p>Prohibits the chief executive officer of the USOC from being a member of the board. Requires such officer to: (1) be selected by, and to report to, the board; (2) manage all staff functions and day-to-day affairs and business operations of the USOC; and (3) implement the USOC's mission and policies.</p> <p>Instructs the USOC to establish specified whistleblower procedures and protections. </p> <p>Requires biennial (currently, quadrennial) reports to the President and Congress.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>01</versionCode>
+        <actionDate>2003-07-28</actionDate>
+        <actionDesc>Reported to Senate with amendment(s)</actionDesc>
+        <updateDate>2004-04-09T18:49:45Z</updateDate>
+        <text><![CDATA[ <p>United States Olympic Committee Reform Act - Amends the Ted Stevens Olympic and Amateur Sports Act to designate the board of directors of the United States Olympic Committee (USOC) as its governing body, to be responsible for establishing its policies and priorities, and to have full authority to manage its affairs. Requires the board to: (1) consist of nine elected members (five independent directors, two directors elected from Athletes' Advisory Council nominees, and two directors elected from the National Governing Bodies' Council nominees) and, as ex officio members, the speaker of the assembly (established by this Act) and the U.S. members of the International Olympic Committee; and (2) establish audit, compensation, ethics, and nominating and governance committees. </p> <p>Establishes an assembly to be a forum for all USOC stakeholders. Grants the assembly the right to vote on, and to have ultimate authority to decide, matters relating to the Olympic Games. Requires the assembly to convene annually.</p> <p>Prohibits the chief executive officer of the USOC from being a member of the board. Requires such officer to: (1) be selected by, and to report to, the board; (2) manage all staff functions and day-to-day affairs and business operations of the USOC; and (3) implement the USOC's mission and policies.</p> <p>Instructs the USOC to establish whistleblower procedures for the treatment of complaints received by the USOC, as well as procedures to protect employees from retaliation for submitting complaints.</p> <p>Requires the ethics committee created by this Act to establish an ethics policy for the USOC modeled upon the best practices used in corporate and government offices, and a procedure for the prompt review and investigation of ethics violations. Specifies that such policy include: (1) a conflict of interest policy; (2) an anti-discrimination policy; (3) a workplace harassment policy; (4) a gift, travel reimbursement, honorarium, and outside income policy; (5) a financial propriety policy; (6) a bid-city policy that publishes in advance an objective criteria for choosing a U.S. city to submit a bid to the International Olympic Committee; (7) potential sanctions and penalties for violations of the ethics policy; (8) a procedure for reporting and investigating potential ethics violations; and (9) procedures to assure due process for any individual accused of an ethics violation. </p> <p>Requires biennial (currently, quadrennial) detailed reports to the President and Congress of USOC operations, including annual financial statements audited by a certified public accountant and certified as accurate by the chief executive officer and chief financial officer of the USOC. Requires the USOC to make such reports available to the public free of charge on its website.</p> <p>Authorizes the National Senior Games Association of Baton Rouge, Louisiana, to use the words &quot;Senior Olympics.&quot;</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>35</versionCode>
+        <actionDate>2003-09-23</actionDate>
+        <actionDesc>Passed Senate amended</actionDesc>
+        <updateDate>2004-04-10T19:47:12Z</updateDate>
+        <text><![CDATA[ <p>United States Olympic Committee Reform Act - Amends the Ted Stevens Olympic and Amateur Sports Act to designate the board of directors of the United States Olympic Committee (USOC) as its governing body, to be responsible for establishing its policies and priorities and to have full authority to manage its affairs. Requires the board to: (1) consist of nine elected members (five independent directors, two directors elected from Athletes' Advisory Council nominees, and two directors elected from the National Governing Bodies' Council nominees) and, as ex officio members, the speaker of the assembly (established by this Act) and the U.S. members of the International Olympic Committee; and (2) establish audit, compensation, ethics, and nominating and governance committees. </p> <p>Establishes an assembly to be a forum for all USOC stakeholders. Grants the assembly the right to vote on, and to have ultimate authority to decide, matters relating to the Olympic Games. Requires the assembly to convene annually.</p> <p>Prohibits the chief executive officer of the USOC from being a member of the board. Requires such officer to: (1) be selected by, and to report to, the board; (2) manage all staff functions and day-to-day affairs and business operations of the USOC; and (3) implement the USOC's mission and policies.</p> <p>Instructs the USOC to establish whistleblower procedures for the treatment of complaints received by the USOC, as well as procedures to protect employees from retaliation for submitting complaints.</p> <p>Requires the ethics committee created by this Act to establish an ethics policy for the USOC modeled upon the best practices used in corporate and government offices, and a procedure for the prompt review and investigation of ethics violations. Requires the policy to include: (1) a conflict of interest policy; (2) an anti-discrimination policy; (3) a workplace harassment policy; (4) a gift, travel reimbursement, honorarium, and outside income policy; (5) a financial propriety policy; (6) a bid-city policy that publishes in advance an objective criteria for choosing a U.S. city to submit a bid to the International Olympic Committee; (7) potential sanctions and penalties for violations of the ethics policy; (8) a procedure for reporting and investigating potential ethics violations; and (9) procedures to assure due process for any individual accused of an ethics violation. </p> <p>Requires biennial (currently, quadrennial) detailed reports to the President and Congress of USOC operations, including annual financial statements audited by a certified public accountant and certified as accurate by the chief executive officer and chief financial officer of the USOC. Requires the USOC to make such reports available to the public free of charge on its website.</p> <p>Prohibits the USOC from relocating its principal office and national headquarters unless: (1) the board of directors determines that relocation is in the best interests of the USOC; (2) the board, by rollcall vote, agrees unanimously to refer the proposed relocation to the assembly for its concurrence; and (3) the assembly, by a vote of not less than three-fifths of its members, concurs in the determination of the board. </p> <p>Authorizes the National Senior Games Association of Baton Rouge, Louisiana, to use the words &quot;Senior Olympics.&quot;</p>]]></text>
+      </summary>
+    </summaries>
+    <title>United States Olympic Committee Reform Act</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>United States Olympic Committee Reform Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to amend the Ted Stevens Olympic and Amateur Sports Act.</title>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>United States Olympic Committee Reform Act</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Reported to Senate</titleType>
+        <title>United States Olympic Committee Reform Act</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+      <item>
+        <titleType>Short Titles as Passed Senate</titleType>
+        <title>United States Olympic Committee Reform Act</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+    </titles>
+    <amendments>
+      <amendment>
+        <number>1767</number>
+        <congress>108</congress>
+        <type>SAMDT</type>
+        <purpose>Relative to the relocation of the U.S. Olympic Committee's principal office and national headquarters.</purpose>
+        <updateDate>2021-09-30T00:38:22Z</updateDate>
+        <latestAction>
+          <actionDate>2003-09-23</actionDate>
+          <text>Amendment SA 1767 agreed to in Senate by Unanimous Consent.</text>
+          <links>
+            <link>
+              <name>SA 1767</name>
+              <url>https://www.congress.gov/amendment/108th-congress/senate-amendment/1767</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>C000077</bioguideId>
+            <fullName>Sen. Campbell, Ben Nighthorse [R-CO]</fullName>
+            <firstName>BEN</firstName>
+            <lastName>CAMPBELL</lastName>
+            <party>R</party>
+            <state>CO</state>
+            <middleName>NIGHTHORSE</middleName>
+          </item>
+        </sponsors>
+        <proposedDate>2003-09-23T04:00:00Z</proposedDate>
+        <submittedDate>2003-09-23T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>108</congress>
+          <type>S</type>
+          <originChamber>Senate</originChamber>
+          <originChamberCode>S</originChamberCode>
+          <number>1404</number>
+          <title>United States Olympic Committee Reform Act</title>
+          <updateDateIncludingText>2023-01-15T09:32:49Z</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2003-09-23</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 1767 agreed to in Senate by Unanimous Consent.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2003-09-23</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 1767 proposed by Senator Burns for Senator Campbell. (consideration: CR S11870; text: CR S11870) Relative to the relocation of the U.S. Olympic Committee's principal office and national headquarters.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2003-09-23</actionDate>
+              <text>Senate amendment proposed (on the floor): Amendment SA 1767 proposed by Senator Burns for Senator Campbell.(consideration: CR S11870; text: CR S11870)</text>
+              <type>Floor</type>
+              <actionCode>93000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2003-09-23</actionDate>
+              <text>Senate amendment agreed to: Amendment SA 1767 agreed to in Senate by Unanimous Consent.</text>
+              <type>Floor</type>
+              <actionCode>94000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2003-09-23</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+    </amendments>
+    <textVersions>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2004-01-01T05:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Referred in House</type>
+        <date>2003-09-24T04:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2003-09-23T04:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Reported to Senate</type>
+        <date>2003-07-28T04:00:00Z</date>
+        <formats/>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2003-12-10</actionDate>
+      <text>Referred to the Subcommittee on Immigration, Border Security, and Claims.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

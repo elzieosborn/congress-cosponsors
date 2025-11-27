@@ -1,0 +1,94 @@
+{
+  "actions": [
+    {
+      "acted_at": "2018-07-25",
+      "action_code": "",
+      "how": "roll",
+      "references": [],
+      "result": "fail",
+      "roll": 171,
+      "text": "Amendment SA 3543 not agreed to in Senate by Yea-Nay Vote. 25 - 74. Record Vote Number: 171.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "s"
+    },
+    {
+      "acted_at": "2018-07-25",
+      "action_code": "",
+      "references": [],
+      "text": "Amendment SA 3543 proposed by Senator Collins for Senator Paul to Amendment SA 3399. (consideration: CR S5347-5352; text: CR S5347) To reduce the amounts appropriated to comply with the spending limits under the Budget Control Act of 2011.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2018-07-25",
+      "action_code": "95000",
+      "references": [],
+      "text": "Senate amendment not agreed to: Amendment SA 3543 not agreed to in Senate by Yea-Nay Vote. 25 - 74. Record Vote Number: 171.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2018-07-25",
+      "action_code": "93000",
+      "references": [
+        {
+          "reference": "CR S5347-5352",
+          "type": "consideration"
+        },
+        {
+          "reference": "CR S5347",
+          "type": "text"
+        }
+      ],
+      "text": "Senate amendment proposed (on the floor): Amendment SA 3543 proposed by Senator Collins for Senator Paul to Amendment SA 3399.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2018-07-25",
+      "action_code": "97000",
+      "references": [],
+      "text": "Roll call votes on amendments in Senate: Amendment SA 3543 not agreed to in Senate by Yea-Nay Vote. 25 - 74. Record Vote Number: 171.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2018-07-25",
+      "action_code": "91000",
+      "references": [],
+      "text": "Senate amendment submitted",
+      "type": "action"
+    }
+  ],
+  "amendment_id": "samdt3543-115",
+  "amendment_type": "samdt",
+  "amends_amendment": {
+    "amendment_id": "samdt3399-115",
+    "amendment_type": "samdt",
+    "congress": 115,
+    "description": "",
+    "number": 3399,
+    "purpose": "In the nature of a substitute."
+  },
+  "amends_bill": {
+    "bill_id": "hr6147-115",
+    "bill_type": "hr",
+    "congress": 115,
+    "number": 6147
+  },
+  "amends_treaty": null,
+  "chamber": "s",
+  "congress": "115",
+  "introduced_at": "2018-07-25",
+  "number": 3543,
+  "proposed_at": "2018-07-25T04:00:00Z",
+  "purpose": "To reduce the amounts appropriated to comply with the spending limits under the Budget Control Act of 2011.",
+  "sponsor": {
+    "bioguide_id": "P000603",
+    "district": null,
+    "name": "Paul, Rand",
+    "state": "KY",
+    "title": "Sen.",
+    "type": "person"
+  },
+  "status": "fail",
+  "status_at": "2018-07-25",
+  "updated_at": "2020-12-15T17:53:45Z"
+}

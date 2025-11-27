@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>538</number>
+    <updateDate>2023-01-15T23:33:15Z</updateDate>
+    <updateDateIncludingText>2023-01-15T23:33:15Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <originChamberCode>S</originChamberCode>
+    <type>S</type>
+    <introducedDate>2003-03-05</introducedDate>
+    <congress>108</congress>
+    <committees>
+      <item>
+        <systemCode>hsif00</systemCode>
+        <name>Energy and Commerce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2003-04-24T18:09:46Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2003-04-11T15:41:23Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>sshr00</systemCode>
+        <name>Health, Education, Labor, and Pensions Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Reported by</name>
+            <date>2003-04-10T19:55:34Z</date>
+          </item>
+          <item>
+            <name>Markup by</name>
+            <date>2003-03-19T15:16:51Z</date>
+          </item>
+          <item>
+            <name>Referred to</name>
+            <date>2003-03-05T22:40:46Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2003-04-24</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2003-04-11</actionDate>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2003-04-11</actionDate>
+        <actionTime>10:09:53</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2003-04-11</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2003-04-10</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate without amendment by Unanimous Consent. (consideration: CR S5254-5256; text as passed Senate: CR S5254-5256)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2003-04-10</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate without amendment by Unanimous Consent.(consideration: CR S5254-5256; text as passed Senate: CR S5254-5256)</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2003-04-10</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 69.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2003-04-10</actionDate>
+        <committees>
+          <item>
+            <systemCode>sshr00</systemCode>
+            <name>Health, Education, Labor, and Pensions Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Health, Education, Labor, and Pensions. Reported by Senator Gregg without amendment. Without written report.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2003-04-10</actionDate>
+        <text>Committee on Health, Education, Labor, and Pensions. Reported by Senator Gregg without amendment. Without written report.</text>
+        <type>Committee</type>
+        <actionCode>14000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>sshr00</systemCode>
+            <name>Health, Education, Labor, and Pensions Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2003-03-19</actionDate>
+        <committees>
+          <item>
+            <systemCode>sshr00</systemCode>
+            <name>Health, Education, Labor, and Pensions Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Health, Education, Labor, and Pensions. Ordered to be reported without amendment favorably.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2003-03-05</actionDate>
+        <committees>
+          <item>
+            <systemCode>sshr00</systemCode>
+            <name>Health, Education, Labor, and Pensions Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Health, Education, Labor, and Pensions.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2003-03-05</actionDate>
+        <text>Sponsor introductory remarks on measure. (CR S3190-3191)</text>
+        <type>IntroReferral</type>
+        <actionCode>B00100</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2003-03-05</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>C001041</bioguideId>
+        <fullName>Sen. Clinton, Hillary Rodham [D-NY]</fullName>
+        <firstName>HILLARY</firstName>
+        <lastName>CLINTON</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>R</middleName>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>W000154</bioguideId>
+        <fullName>Sen. Warner, John [R-VA]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>WARNER</lastName>
+        <party>R</party>
+        <state>VA</state>
+        <middleName>WILLIAM</middleName>
+        <sponsorshipDate>2003-03-05</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000702</bioguideId>
+        <fullName>Sen. Mikulski, Barbara A. [D-MD]</fullName>
+        <firstName>BARBARA</firstName>
+        <lastName>MIKULSKI</lastName>
+        <party>D</party>
+        <state>MD</state>
+        <middleName>ANN</middleName>
+        <sponsorshipDate>2003-03-05</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000663</bioguideId>
+        <fullName>Sen. Snowe, Olympia J. [R-ME]</fullName>
+        <firstName>Olympia</firstName>
+        <lastName>Snowe</lastName>
+        <party>R</party>
+        <state>ME</state>
+        <middleName>J.</middleName>
+        <sponsorshipDate>2003-03-05</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000780</bioguideId>
+        <fullName>Sen. Breaux, John B. [D-LA]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>BREAUX</lastName>
+        <party>D</party>
+        <state>LA</state>
+        <middleName>BERLINGER</middleName>
+        <sponsorshipDate>2003-03-05</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>J000072</bioguideId>
+        <fullName>Sen. Jeffords, James M. [I-VT]</fullName>
+        <firstName>JAMES</firstName>
+        <lastName>JEFFORDS</lastName>
+        <party>I</party>
+        <state>VT</state>
+        <middleName>MERRILL</middleName>
+        <sponsorshipDate>2003-03-05</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001111</bioguideId>
+        <fullName>Sen. Murray, Patty [D-WA]</fullName>
+        <firstName>Patty</firstName>
+        <lastName>Murray</lastName>
+        <party>D</party>
+        <state>WA</state>
+        <sponsorshipDate>2003-03-05</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001035</bioguideId>
+        <fullName>Sen. Collins, Susan M. [R-ME]</fullName>
+        <firstName>Susan</firstName>
+        <lastName>Collins</lastName>
+        <party>R</party>
+        <state>ME</state>
+        <middleName>M.</middleName>
+        <sponsorshipDate>2003-03-05</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000105</bioguideId>
+        <fullName>Sen. Kennedy, Edward M. [D-MA]</fullName>
+        <firstName>EDWARD</firstName>
+        <lastName>KENNEDY</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>MOORE</middleName>
+        <sponsorshipDate>2003-03-05</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001142</bioguideId>
+        <fullName>Sen. Smith, Gordon H. [R-OR]</fullName>
+        <firstName>GORDON</firstName>
+        <lastName>SMITH</lastName>
+        <party>R</party>
+        <state>OR</state>
+        <middleName>H.</middleName>
+        <sponsorshipDate>2003-03-05</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000388</bioguideId>
+        <fullName>Sen. Dodd, Christopher J. [D-CT]</fullName>
+        <firstName>CHRISTOPHER</firstName>
+        <lastName>DODD</lastName>
+        <party>D</party>
+        <state>CT</state>
+        <middleName>JOHN</middleName>
+        <sponsorshipDate>2003-03-18</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>N000180</bioguideId>
+        <fullName>Sen. Nelson, Ben [D-NE]</fullName>
+        <firstName>E.</firstName>
+        <lastName>Nelson</lastName>
+        <party>D</party>
+        <state>NE</state>
+        <middleName>Benjamin</middleName>
+        <sponsorshipDate>2003-04-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000148</bioguideId>
+        <fullName>Sen. Kerry, John F. [D-MA]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>KERRY</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>FORBES</middleName>
+        <sponsorshipDate>2003-09-03</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000711</bioguideId>
+        <fullName>Sen. Boxer, Barbara [D-CA]</fullName>
+        <firstName>BARBARA</firstName>
+        <lastName>BOXER</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <sponsorshipDate>2004-04-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Access to health care</name>
+        </item>
+        <item>
+          <name>Cancer</name>
+        </item>
+        <item>
+          <name>Caregivers</name>
+        </item>
+        <item>
+          <name>Chronically ill</name>
+        </item>
+        <item>
+          <name>Community health services</name>
+        </item>
+        <item>
+          <name>Data banks</name>
+        </item>
+        <item>
+          <name>Disabled</name>
+        </item>
+        <item>
+          <name>Economics and Public Finance</name>
+        </item>
+        <item>
+          <name>Employee training</name>
+        </item>
+        <item>
+          <name>Families</name>
+        </item>
+        <item>
+          <name>Federal aid to child health services</name>
+        </item>
+        <item>
+          <name>Federal aid to health facilities</name>
+        </item>
+        <item>
+          <name>Foster home care</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Health information systems</name>
+        </item>
+        <item>
+          <name>Labor and Employment</name>
+        </item>
+        <item>
+          <name>Mentally disabled</name>
+        </item>
+        <item>
+          <name>Parent and child</name>
+        </item>
+        <item>
+          <name>Quality of care</name>
+        </item>
+        <item>
+          <name>Respite care</name>
+        </item>
+        <item>
+          <name>Science, Technology, Communications</name>
+        </item>
+        <item>
+          <name>Social Welfare</name>
+        </item>
+        <item>
+          <name>Volunteer workers</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Health</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2003-03-05</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2006-11-28T17:35:40Z</updateDate>
+        <text><![CDATA[Lifespan Respite Care Act of 2003 - Amends the Public Health Service Act to authorize the Secretary of Health and Human Services to award grants or cooperative agreements to an agency or organization capable of operating on a statewide basis to develop coordinated respite care programs. Defines "respite care" to mean planned or emergency care provided to a child or adult with a special need in order to provide temporary relief to the family caregiver of such child or adult.<p>Instructs the Secretary to work cooperatively with existing Federal respite program officers to ensure coordination of services for family caregivers.<p>Directs the Secretary to establish a review panel to make recommendations on applicants. Gives priority to applicants with the greatest likelihood of implementing or enhancing lifespan respite care statewide.<p>Permits the use of funds for respite care services and training programs once a statewide program is in place and evaluated. Limits grants to five years. Requires funding to supplement, not supplant, existing government funds. Authorizes appropriations.<p>Directs the Secretary to provide for the establishment of a National Resource Center on Lifespan Respite Care to maintain a national database and provide training, technical assistance, and information. Authorizes appropriations.]]></text>
+      </summary>
+      <summary>
+        <versionCode>82</versionCode>
+        <actionDate>2003-04-10</actionDate>
+        <actionDesc>Passed Senate without amendment</actionDesc>
+        <updateDate>2006-11-28T17:35:40Z</updateDate>
+        <text><![CDATA[<b>(This measure has not been amended since it was reported to the Senate on April 10, 2003. The summary of that version is repeated here.)</b><p>Lifespan Respite Care Act of 2003 - (Sec. 2) Amends the Public Health Service Act to authorize the Secretary of Health and Human Services to award grants or cooperative agreements to an agency or organization capable of operating on a statewide basis (an eligible recipient) to develop coordinated respite care programs. Defines respite care to mean planned or emergency care provided to a child or adult with a special need in order to provide temporary relief to the family caregiver of such child or adult.<p>Instructs the Secretary to work cooperatively with existing Federal respite program officers to ensure coordination of services for family caregivers. Authorizes the Secretary to award grants or cooperative agreements to eligible recipients who submit an application containing certain information, including: (1) the extent and nature of the respite care needs of the population; and (2) how the proposed respite care activities will make use of other Federal, State, and local funds, programs, and other resources.<p>Directs the Secretary to establish a review panel to make recommendations on applicants. Gives priority to applicants with the greatest likelihood of implementing or enhancing lifespan respite care statewide.<p>Requires grant funds to be used for the development of lifespan respite care at the State and local levels (unless such a program is already in existence). Defines lifespan respite care as a system of accessible, community-based respite care services. Permits the use of funds for respite care services and training programs once a statewide program is in place and evaluated. Limits grants to five years. Permits a grant to be renewed. Requires funding to supplement, not supplant, existing government funds. Authorizes appropriations.<p>Directs the Secretary to provide for the establishment of a National Resource Center on Lifespan Respite Care to maintain a national database and provide training, technical assistance, and information. Authorizes appropriations.]]></text>
+      </summary>
+      <summary>
+        <versionCode>80</versionCode>
+        <actionDate>2003-04-10</actionDate>
+        <actionDesc>Reported to Senate without amendment</actionDesc>
+        <updateDate>2006-11-28T17:35:40Z</updateDate>
+        <text><![CDATA[<b>(This measure has not been amended since it was introduced in the Senate on March 5, 2003. However, because action occurred on the measure, the summary has been expanded.)</b><p>Lifespan Respite Care Act of 2003 - (Sec. 2) Amends the Public Health Service Act to authorize the Secretary of Health and Human Services to award grants or cooperative agreements to an agency or organization capable of operating on a statewide basis (an eligible recipient) to develop coordinated respite care programs. Defines respite care to mean planned or emergency care provided to a child or adult with a special need in order to provide temporary relief to the family caregiver of such child or adult.<p>Instructs the Secretary to work cooperatively with existing Federal respite program officers to ensure coordination of services for family caregivers. Authorizes the Secretary to award grants or cooperative agreements to eligible recipients who submit an application containing certain information, including: (1) the extent and nature of the respite care needs of the population; and (2) how the proposed respite care activities will make use of other Federal, State, and local funds, programs, and other resources.<p>Directs the Secretary to establish a review panel to make recommendations on applicants. Gives priority to applicants with the greatest likelihood of implementing or enhancing lifespan respite care statewide.<p>Requires grant funds to be used for the development of lifespan respite care at the State and local levels (unless such a program already exists). Defines lifespan respite care as a system of accessible, community-based respite care services. Permits the use of funds for respite care services and training programs once a statewide program is in place and evaluated. Limits grants to five years. Permits a grant to be renewed. Requires funding to supplement, not supplant, existing government funds. Authorizes appropriations.<p>Directs the Secretary to provide for the establishment of a National Resource Center on Lifespan Respite Care to maintain a national database and provide training, technical assistance, and information. Authorizes appropriations.]]></text>
+      </summary>
+    </summaries>
+    <title>Lifespan Respite Care Act of 2003</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Lifespan Respite Care Act of 2003</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to amend the Public Health Service Act to establish a program to assist family caregivers in accessing affordable and high-quality respite care, and for other purposes.</title>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Lifespan Respite Care Act of 2003</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Reported to Senate</titleType>
+        <title>Lifespan Respite Care Act of 2003</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+      <item>
+        <titleType>Short Titles as Passed Senate</titleType>
+        <title>Lifespan Respite Care Act of 2003</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Referred in House</type>
+        <date>2003-04-11T04:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2003-04-10T04:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Reported to Senate</type>
+        <date>2003-04-10T04:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2003-03-05T05:00:00Z</date>
+        <formats/>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2003-04-24</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

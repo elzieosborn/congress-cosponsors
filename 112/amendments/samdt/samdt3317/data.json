@@ -1,0 +1,87 @@
+{
+  "actions": [
+    {
+      "acted_at": "2012-12-13",
+      "action_code": "",
+      "references": [],
+      "text": "SA 3317 fell when SA 3316 fell.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2012-12-13",
+      "action_code": "",
+      "references": [
+        {
+          "reference": "CR S8001",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered by Senate.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2012-12-11",
+      "action_code": "",
+      "references": [],
+      "text": "Amendment SA 3317 proposed by Senator Reid to Amendment SA 3316. (consideration: CR S7724; text: CR S7724) Of a perfecting nature.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2012-12-11",
+      "action_code": "93000",
+      "references": [
+        {
+          "reference": "CR S7724",
+          "type": "consideration"
+        },
+        {
+          "reference": "CR S7724",
+          "type": "text"
+        }
+      ],
+      "text": "Senate amendment proposed (on the floor): Amendment SA 3317 proposed by Senator Reid to Amendment SA 3316.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2012-12-11",
+      "action_code": "91000",
+      "references": [],
+      "text": "Senate amendment submitted",
+      "type": "action"
+    }
+  ],
+  "amendment_id": "samdt3317-112",
+  "amendment_type": "samdt",
+  "amends_amendment": {
+    "amendment_id": "samdt3316-112",
+    "amendment_type": "samdt",
+    "congress": 112,
+    "description": "",
+    "number": 3316,
+    "purpose": "To change the enactment date."
+  },
+  "amends_bill": {
+    "bill_id": "s3637-112",
+    "bill_type": "s",
+    "congress": 112,
+    "number": 3637
+  },
+  "amends_treaty": null,
+  "chamber": "s",
+  "congress": "112",
+  "introduced_at": "2012-12-11",
+  "number": 3317,
+  "proposed_at": "2012-12-11T05:00:00Z",
+  "purpose": "Of a perfecting nature.",
+  "sponsor": {
+    "bioguide_id": "R000146",
+    "district": null,
+    "name": "Reid, Harry",
+    "state": "NV",
+    "title": "Sen.",
+    "type": "person"
+  },
+  "status": "offered",
+  "status_at": "2012-12-11",
+  "updated_at": "2022-02-03T05:53:08Z"
+}

@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>46</number>
+    <updateDate>2022-11-01T17:47:15Z</updateDate>
+    <updateDateIncludingText>2022-11-01T17:47:15Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <type>S</type>
+    <introducedDate>2019-01-08</introducedDate>
+    <congress>116</congress>
+    <committees>
+      <item>
+        <systemCode>hsii00</systemCode>
+        <name>Natural Resources Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsii24</systemCode>
+            <name>Indian and Insular Affairs Subcommittee</name>
+            <activities>
+              <item>
+                <name>Hearings by</name>
+                <date>2019-10-16T14:48:46Z</date>
+              </item>
+              <item>
+                <name>Referred to</name>
+                <date>2019-07-03T15:51:26Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2019-06-28T20:05:27Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>slia00</systemCode>
+        <name>Indian Affairs Committee</name>
+        <chamber>Senate</chamber>
+        <type>Other</type>
+        <activities>
+          <item>
+            <name>Reported by</name>
+            <date>2019-03-13T18:30:18Z</date>
+          </item>
+          <item>
+            <name>Markup by</name>
+            <date>2019-01-29T19:30:52Z</date>
+          </item>
+          <item>
+            <name>Referred to</name>
+            <date>2019-01-08T23:35:50Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <committeeReports>
+      <committeeReport>
+        <citation>S. Rept. 116-6</citation>
+      </committeeReport>
+    </committeeReports>
+    <actions>
+      <item>
+        <actionDate>2019-10-16</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii24</systemCode>
+            <name>Indian and Insular Affairs Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Subcommittee Hearings Held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2019-07-03</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii24</systemCode>
+            <name>Indian and Insular Affairs Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee for Indigenous Peoples of the United States.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2019-06-28</actionDate>
+        <text>Referred to the House Committee on Natural Resources.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2019-06-28</actionDate>
+        <actionTime>15:32:43</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2019-06-28</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2019-06-27</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate without amendment by Voice Vote. (consideration: CR S4652-4664; text: CR S4664)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2019-06-27</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate without amendment by Voice Vote.(consideration: CR S4652-4664; text: CR S4664)</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2019-03-13</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 37.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2019-03-13</actionDate>
+        <committees>
+          <item>
+            <systemCode>slia00</systemCode>
+            <name>Indian Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Indian Affairs. Reported by Senator Hoeven without amendment. With written report No. 116-6.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2019-03-13</actionDate>
+        <text>Committee on Indian Affairs. Reported by Senator Hoeven without amendment. With written report No. 116-6.</text>
+        <type>Committee</type>
+        <actionCode>14000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>slia00</systemCode>
+            <name>Indian Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2019-01-29</actionDate>
+        <committees>
+          <item>
+            <systemCode>slia00</systemCode>
+            <name>Indian Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Indian Affairs. Ordered to be reported without amendment favorably.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2019-01-08</actionDate>
+        <committees>
+          <item>
+            <systemCode>slia00</systemCode>
+            <name>Indian Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Indian Affairs.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2019-01-08</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>M001176</bioguideId>
+        <fullName>Sen. Merkley, Jeff [D-OR]</fullName>
+        <firstName>Jeff</firstName>
+        <lastName>Merkley</lastName>
+        <party>D</party>
+        <state>OR</state>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>W000779</bioguideId>
+        <fullName>Sen. Wyden, Ron [D-OR]</fullName>
+        <firstName>Ron</firstName>
+        <lastName>Wyden</lastName>
+        <party>D</party>
+        <state>OR</state>
+        <sponsorshipDate>2019-01-08</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <cboCostEstimates>
+      <item>
+        <pubDate>2019-02-08T22:21:00Z</pubDate>
+        <title>S. 46, Klamath Tribe Judgement Fund Repeal Act</title>
+        <url>https://www.cbo.gov/publication/54967</url>
+        <description>As ordered reported by the Senate Committee on Indian Affairs on January 29, 2019</description>
+      </item>
+    </cboCostEstimates>
+    <policyArea>
+      <name>Native Americans</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Indian claims</name>
+        </item>
+        <item>
+          <name>Legal fees and court costs</name>
+        </item>
+        <item>
+          <name>Oregon</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Native Americans</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2019-01-08</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2019-02-08T16:40:08Z</updateDate>
+        <text><![CDATA[ <p><b>Klamath Tribe Judgment Fund Repeal Act</b></p> <p>This bill repeals the Klamath Tribe Judgment Fund Act, which sets forth how funds credited to the Klamath Tribe must be distributed.</p> <p>The Department of the Interior must disburse to the tribe the balance of funds that were appropriated or deposited into per capita trust accounts and trust accounts for remaining legal fees and administration.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>25</versionCode>
+        <actionDate>2019-03-13</actionDate>
+        <actionDesc>Reported to Senate</actionDesc>
+        <updateDate>2019-04-11T21:09:41Z</updateDate>
+        <text><![CDATA[ <p><b>Klamath Tribe Judgment Fund Repeal Act</b></p> <p>This bill repeals the Klamath Tribe Judgment Fund Act, which sets forth how funds credited to the Klamath Tribe must be distributed.</p> <p>The Department of the Interior must disburse to the tribe the balance of funds that were appropriated or deposited into per capita trust accounts and trust accounts for remaining legal fees and administration.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>55</versionCode>
+        <actionDate>2019-06-27</actionDate>
+        <actionDesc>Passed Senate</actionDesc>
+        <updateDate>2019-09-11T21:37:26Z</updateDate>
+        <text><![CDATA[ <p><b>Klamath Tribe Judgment Fund Repeal Act</b></p> <p>This bill repeals the Klamath Tribe Judgment Fund Act, which sets forth how funds credited to the Klamath Tribe must be distributed.</p> <p>The Department of the Interior must disburse to the tribe the balance of funds that were appropriated or deposited into per capita trust accounts and trust accounts for remaining legal fees and administration.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Klamath Tribe Judgment Fund Repeal Act</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Klamath Tribe Judgment Fund Repeal Act</title>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Reported to Senate</titleType>
+        <title>Klamath Tribe Judgment Fund Repeal Act</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Reported to Senate</billTextVersionName>
+        <billTextVersionCode>RS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed Senate</titleType>
+        <title>Klamath Tribe Judgment Fund Repeal Act</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Engrossed in Senate</billTextVersionName>
+        <billTextVersionCode>ES</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <title>Klamath Tribe Judgment Fund Repeal Act</title>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Passed Senate</titleType>
+        <title>Klamath Tribe Judgment Fund Repeal Act</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to repeal the Klamath Tribe Judgment Fund Act.</title>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Referred in House</type>
+        <date>2019-06-28T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-116s46rfh/xml/BILLS-116s46rfh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2019-06-27T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-116s46es/xml/BILLS-116s46es.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Reported to Senate</type>
+        <date>2019-03-13T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-116s46rs/xml/BILLS-116s46rs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2019-01-08T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-116s46is/xml/BILLS-116s46is.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2019-10-16</actionDate>
+      <text>Subcommittee Hearings Held.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

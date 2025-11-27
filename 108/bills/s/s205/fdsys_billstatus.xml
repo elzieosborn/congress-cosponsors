@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>205</number>
+    <updateDate>2023-01-15T22:48:22Z</updateDate>
+    <updateDateIncludingText>2023-01-15T22:48:22Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <originChamberCode>S</originChamberCode>
+    <type>S</type>
+    <introducedDate>2003-01-23</introducedDate>
+    <congress>108</congress>
+    <committees>
+      <item>
+        <systemCode>hsju00</systemCode>
+        <name>Judiciary Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsju01</systemCode>
+            <name>Immigration Integrity, Security, and Enforcement Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2003-05-05T17:55:10Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2003-03-24T20:28:15Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>ssju00</systemCode>
+        <name>Judiciary Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Reported by</name>
+            <date>2003-01-30T21:54:50Z</date>
+          </item>
+          <item>
+            <name>Markup by</name>
+            <date>2003-01-30T20:51:56Z</date>
+          </item>
+          <item>
+            <name>Referred to</name>
+            <date>2003-01-23T17:44:13Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2003-05-05</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsju01</systemCode>
+            <name>Immigration Integrity, Security, and Enforcement Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Immigration, Border Security, and Claims.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2003-03-24</actionDate>
+        <text>Referred to the House Committee on the Judiciary.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2003-03-24</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2003-03-24</actionDate>
+        <actionTime>14:02:09</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2003-03-20</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate without amendment by Unanimous Consent. (consideration: CR S4222-4223; text as passed Senate: CR S4222-4223)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2003-03-20</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate without amendment by Unanimous Consent.(consideration: CR S4222-4223; text as passed Senate: CR S4222-4223)</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2003-01-30</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 9.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2003-01-30</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on the Judiciary. Reported by Senator Hatch without amendment. Without written report.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2003-01-30</actionDate>
+        <text>Committee on the Judiciary. Reported by Senator Hatch without amendment. Without written report.</text>
+        <type>Committee</type>
+        <actionCode>14000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>ssju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2003-01-30</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on the Judiciary. Ordered to be reported without amendment favorably.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2003-01-23</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on the Judiciary. (text of measure as introduced: CR S1482-1483)</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2003-01-23</actionDate>
+        <text>Sponsor introductory remarks on measure. (CR S1481-1482)</text>
+        <type>IntroReferral</type>
+        <actionCode>B00100</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2003-01-23</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>B000444</bioguideId>
+        <fullName>Sen. Biden, Joseph R., Jr. [D-DE]</fullName>
+        <firstName>JOSEPH</firstName>
+        <lastName>BIDEN</lastName>
+        <party>D</party>
+        <state>DE</state>
+        <middleName>ROBINETTE</middleName>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>S000709</bioguideId>
+        <fullName>Sen. Specter, Arlen [R-PA]</fullName>
+        <firstName>ARLEN</firstName>
+        <lastName>SPECTER</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <sponsorshipDate>2003-01-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000504</bioguideId>
+        <fullName>Sen. Lugar, Richard G. [R-IN]</fullName>
+        <firstName>RICHARD</firstName>
+        <lastName>LUGAR</lastName>
+        <party>R</party>
+        <state>IN</state>
+        <middleName>GREEN</middleName>
+        <sponsorshipDate>2003-01-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000338</bioguideId>
+        <fullName>Sen. Hatch, Orrin G. [R-UT]</fullName>
+        <firstName>ORRIN</firstName>
+        <lastName>HATCH</lastName>
+        <party>R</party>
+        <state>UT</state>
+        <middleName>GRANT</middleName>
+        <sponsorshipDate>2003-01-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000174</bioguideId>
+        <fullName>Sen. Leahy, Patrick J. [D-VT]</fullName>
+        <firstName>Patrick</firstName>
+        <lastName>Leahy</lastName>
+        <party>D</party>
+        <state>VT</state>
+        <sponsorshipDate>2003-01-28</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000261</bioguideId>
+        <fullName>Sen. Levin, Carl [D-MI]</fullName>
+        <firstName>CARL</firstName>
+        <lastName>LEVIN</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <middleName>MILTON</middleName>
+        <sponsorshipDate>2003-02-06</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <cboCostEstimates>
+      <item>
+        <pubDate>2003-02-06T06:00:00Z</pubDate>
+        <title>S. 205, Iraqi Scientists Immigration Act of 2003</title>
+        <url>http://www.cbo.gov/publication/14269</url>
+        <description>&lt;p&gt;Cost estimate for the bill as reported by the Senate Committee on the Judiciary on January 30, 2003&lt;/p&gt;</description>
+      </item>
+      <item>
+        <pubDate>2003-02-06T06:00:00Z</pubDate>
+        <title>S. 205, Iraqi Scientists Immigration Act of 2003</title>
+        <url>https://www.cbo.gov/publication/14269</url>
+        <description>Cost estimate for the bill as reported by the Senate Committee on the Judiciary on January 30, 2003</description>
+      </item>
+    </cboCostEstimates>
+    <policyArea>
+      <name>Immigration</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Admission of nonimmigrants</name>
+        </item>
+        <item>
+          <name>Armed Forces and National Security</name>
+        </item>
+        <item>
+          <name>Arms control verification</name>
+        </item>
+        <item>
+          <name>Biological warfare</name>
+        </item>
+        <item>
+          <name>Civil Rights and Liberties, Minority Issues</name>
+        </item>
+        <item>
+          <name>Deportation</name>
+        </item>
+        <item>
+          <name>Energy</name>
+        </item>
+        <item>
+          <name>Engineers</name>
+        </item>
+        <item>
+          <name>Families</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Government paperwork</name>
+        </item>
+        <item>
+          <name>Human rights</name>
+        </item>
+        <item>
+          <name>Immigrants</name>
+        </item>
+        <item>
+          <name>Infrastructure</name>
+        </item>
+        <item>
+          <name>International Affairs</name>
+        </item>
+        <item>
+          <name>International control of nuclear power</name>
+        </item>
+        <item>
+          <name>International law</name>
+        </item>
+        <item>
+          <name>Iraq</name>
+        </item>
+        <item>
+          <name>Iraq compilation</name>
+        </item>
+        <item>
+          <name>Middle East and North Africa</name>
+        </item>
+        <item>
+          <name>Negotiations</name>
+        </item>
+        <item>
+          <name>Nuclear engineering</name>
+        </item>
+        <item>
+          <name>Political persecution</name>
+        </item>
+        <item>
+          <name>Science, Technology, Communications</name>
+        </item>
+        <item>
+          <name>Scientists</name>
+        </item>
+        <item>
+          <name>Scientists in government</name>
+        </item>
+        <item>
+          <name>United Nations</name>
+        </item>
+        <item>
+          <name>Visas</name>
+        </item>
+        <item>
+          <name>Weapons of mass destruction</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Immigration</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2003-01-23</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2006-11-28T17:35:40Z</updateDate>
+        <text><![CDATA[Iraqi Scientists Immigration Act of 2003 - Amends the Immigration and Nationality Act to provide for the nonimmigrant admission of an alien (and accompanying family members or relatives) who the Attorney General determines, in coordination with the Secretary of State, the Director of Central Intelligence and other appropriate officials, and in the Attorney General's unreviewable discretion, is an individual: (1) who has worked at any time in an Iraqi weapons of mass destruction program; (2) who is in possession of critical and reliable information concerning any such Iraqi program; (3) who is willing to provide, or has provided, such information to the United States or to United Nations or International Atomic Energy Agency inspectors; (4) who will be or has been placed in danger as a result of providing such information; and (5) whose admission would be in the public interest or in the interest of national security.<p>Limits such entrants to 500 aliens.<p>Requires such an alien, in order to be admitted and remain in the United States, to: (1) report to the Attorney General concerning his or her whereabouts and activities; (2) not be convicted of any criminal offense punishable by a term of imprisonment of one year or more after the date of admission or grant of status; (3) have waived rights to contest, other than on the basis of an application for withholding of removal or for protection under the Convention Against Torture, any action for removal instituted before the alien obtains lawful permanent resident status; and (4) cooperate fully with all information requests, including information concerning any Iraqi program to produce or deliver weapons of mass destruction.<p>Authorizes the Attorney General, in coordination with the Secretary of State and the Director of Central Intelligence, to adjust the status of such an alien (and family members) to permanent resident status.<p>Authorizes the Attorney General to waive the inadmissability of such an alien for reasons of public interest or national security.<p>Amends the Defense Against Weapons of Mass Destruction Act of 1996 to revise the definition of "weapon of mass destruction" to replace "disease organism" with "biological agent, toxin, or vector."]]></text>
+      </summary>
+      <summary>
+        <versionCode>80</versionCode>
+        <actionDate>2003-01-30</actionDate>
+        <actionDesc>Reported to Senate without amendment</actionDesc>
+        <updateDate>2006-11-28T17:35:40Z</updateDate>
+        <text><![CDATA[(<b>This measure has not been amended since being introduced in the Senate on January 23, 2003. The summary of that version is repeated here.)</b><p>Iraqi Scientists Immigration Act of 2003 - Amends the Immigration and Nationality Act to provide for the nonimmigrant admission of an alien (and accompanying family members or relatives) who the Attorney General determines, in coordination with the Secretary of State, the Director of Central Intelligence and other appropriate officials, and in the Attorney General's unreviewable discretion, is an individual: (1) who has worked at any time in an Iraqi weapons of mass destruction program; (2) who is in possession of critical and reliable information concerning any such Iraqi program; (3) who is willing to provide, or has provided, such information to the United States or to United Nations or International Atomic Energy Agency inspectors; (4) who will be or has been placed in danger as a result of providing such information; and (5) whose admission would be in the public interest or in the interest of national security.<p>Limits such entrants to 500 aliens.<p>Requires such an alien, in order to be admitted and remain in the United States, to: (1) report to the Attorney General concerning his or her whereabouts and activities; (2) not be convicted of any criminal offense punishable by a term of imprisonment of one year or more after the date of admission or grant of status; (3) have waived rights to contest, other than on the basis of an application for withholding of removal or for protection under the Convention Against Torture, any action for removal instituted before the alien obtains lawful permanent resident status; and (4) cooperate fully with all information requests, including information concerning any Iraqi program to produce or deliver weapons of mass destruction.<p>Authorizes the Attorney General, in coordination with the Secretary of State and the Director of Central Intelligence, to adjust the status of such an alien (and family members) to permanent resident status.<p>Authorizes the Attorney General to waive the inadmissability of such an alien for reasons of public interest or national security.<p>Amends the Defense Against Weapons of Mass Destruction Act of 1996 to revise the definition of "weapon of mass destruction" to replace "disease organism" with "biological agent, toxin, or vector."]]></text>
+      </summary>
+      <summary>
+        <versionCode>82</versionCode>
+        <actionDate>2003-03-20</actionDate>
+        <actionDesc>Passed Senate without amendment</actionDesc>
+        <updateDate>2006-11-28T17:35:40Z</updateDate>
+        <text><![CDATA[<b>(This measure has not been amended since it was introduced in the Senate on January 23, 2003. The summary of that version is repeated here.)</b><p>Iraqi Scientists Immigration Act of 2003 - Amends the Immigration and Nationality Act to provide for the nonimmigrant admission of an alien (and accompanying family members or relatives) who the Attorney General determines, in coordination with the Secretary of State, the Director of Central Intelligence and other appropriate officials, and in the Attorney General's unreviewable discretion, is an individual: (1) who has worked at any time in an Iraqi weapons of mass destruction program; (2) who is in possession of critical and reliable information concerning any such Iraqi program; (3) who is willing to provide, or has provided, such information to the United States or to United Nations or International Atomic Energy Agency inspectors; (4) who will be or has been placed in danger as a result of providing such information; and (5) whose admission would be in the public interest or in the interest of national security.<p>Limits such entrants to 500 aliens.<p>Requires such an alien, in order to be admitted and remain in the United States, to: (1) report to the Attorney General concerning his or her whereabouts and activities; (2) not be convicted of any criminal offense punishable by a term of imprisonment of one year or more after the date of admission or grant of status; (3) have waived rights to contest, other than on the basis of an application for withholding of removal or for protection under the Convention Against Torture, any action for removal instituted before the alien obtains lawful permanent resident status; and (4) cooperate fully with all information requests, including information concerning any Iraqi program to produce or deliver weapons of mass destruction.<p>Authorizes the Attorney General, in coordination with the Secretary of State and the Director of Central Intelligence, to adjust the status of such an alien (and family members) to permanent resident status.<p>Authorizes the Attorney General to waive the inadmissability of such an alien for reasons of public interest or national security.<p>Amends the Defense Against Weapons of Mass Destruction Act of 1996 to revise the definition of "weapon of mass destruction" to replace "disease organism" with "biological agent, toxin, or vector."]]></text>
+      </summary>
+    </summaries>
+    <title>Iraqi Scientists Immigration Act of 2003</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Iraqi Scientists Immigration Act of 2003</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to authorize the issuance of immigrant visas to, and the admission to the United States for permanent residence of, certain scientists, engineers, and technicians who have worked in Iraqi weapons of mass destruction programs.</title>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Iraqi Scientists Immigration Act of 2003</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Reported to Senate</titleType>
+        <title>Iraqi Scientists Immigration Act of 2003</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+      <item>
+        <titleType>Short Titles as Passed Senate</titleType>
+        <title>Iraqi Scientists Immigration Act of 2003</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Referred in House</type>
+        <date>2003-03-24T05:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2003-03-20T05:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Reported to Senate</type>
+        <date>2003-01-30T05:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2003-01-23T05:00:00Z</date>
+        <formats/>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2003-05-05</actionDate>
+      <text>Referred to the Subcommittee on Immigration, Border Security, and Claims.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

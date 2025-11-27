@@ -1,0 +1,279 @@
+{
+  "actions": [
+    {
+      "acted_at": "2012-12-05",
+      "action_code": "10000",
+      "references": [],
+      "text": "Introduced in Senate",
+      "type": "action"
+    },
+    {
+      "acted_at": "2012-12-05",
+      "action_code": "",
+      "committees": [
+        "SSGA"
+      ],
+      "references": [],
+      "status": "REFERRED",
+      "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2012-12-19",
+      "action_code": "",
+      "committees": [
+        "SSGA"
+      ],
+      "references": [
+        {
+          "reference": "CR S8230",
+          "type": "consideration"
+        }
+      ],
+      "text": "Senate Committee on Homeland Security and Governmental Affairs discharged by Unanimous Consent.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2012-12-19",
+      "action_code": "",
+      "how": "by Unanimous Consent",
+      "references": [
+        {
+          "reference": "CR S8230",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "status": "PASS_OVER:SENATE",
+      "text": "Passed Senate without amendment by Unanimous Consent.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "s"
+    },
+    {
+      "acted_at": "2012-12-20",
+      "action_code": "",
+      "references": [],
+      "text": "Message on Senate action sent to the House.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2012-12-20T12:02:37-05:00",
+      "action_code": "H14000",
+      "references": [],
+      "text": "Received in the House.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2012-12-20",
+      "action_code": "H11100",
+      "committees": [
+        "HSGO"
+      ],
+      "references": [],
+      "text": "Referred to the House Committee on Oversight and Government Reform.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2013-01-01T13:14:13-05:00",
+      "action_code": "H30300",
+      "references": [],
+      "text": "Mr. Issa moved to suspend the rules and pass the bill.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2013-01-01T13:14:28-05:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H7527-7528",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered under suspension of the rules.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2013-01-01T13:14:30-05:00",
+      "action_code": "H8D000",
+      "references": [],
+      "text": "DEBATE - The House proceeded with forty minutes of debate on S. 3662.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2013-01-01T13:18:32-05:00",
+      "action_code": "H37300",
+      "how": "by voice vote",
+      "references": [
+        {
+          "reference": "CR H7527",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "status": "PASSED:BILL",
+      "suspension": null,
+      "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote.",
+      "type": "vote",
+      "vote_type": "vote2",
+      "where": "h"
+    },
+    {
+      "acted_at": "2013-01-01T13:18:35-05:00",
+      "action_code": "H38310",
+      "references": [],
+      "text": "Motion to reconsider laid on the table Agreed to without objection.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2013-01-02",
+      "action_code": "E20000",
+      "references": [],
+      "text": "Presented to President.",
+      "type": "topresident"
+    },
+    {
+      "acted_at": "2013-01-14",
+      "action_code": "E30000",
+      "references": [],
+      "status": "ENACTED:SIGNED",
+      "text": "Signed by President.",
+      "type": "signed"
+    },
+    {
+      "acted_at": "2013-01-14",
+      "action_code": "E40000",
+      "congress": "112",
+      "law": "public",
+      "number": "280",
+      "references": [],
+      "text": "Became Public Law No: 112-280.",
+      "type": "enacted"
+    }
+  ],
+  "amendments": [],
+  "bill_id": "s3662-112",
+  "bill_type": "s",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [
+    {
+      "activity": [
+        "referral"
+      ],
+      "committee": "House Oversight and Accountability",
+      "committee_id": "HSGO"
+    },
+    {
+      "activity": [
+        "discharged",
+        "referral"
+      ],
+      "committee": "Senate Homeland Security and Governmental Affairs",
+      "committee_id": "SSGA"
+    }
+  ],
+  "congress": "112",
+  "cosponsors": [
+    {
+      "bioguide_id": "K000148",
+      "district": null,
+      "name": "Kerry, John F.",
+      "original_cosponsor": true,
+      "sponsored_at": "2012-12-05",
+      "state": "MA",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M000934",
+      "district": null,
+      "name": "Moran, Jerry",
+      "original_cosponsor": true,
+      "sponsored_at": "2012-12-05",
+      "state": "KS",
+      "title": "Sen.",
+      "withdrawn_at": null
+    }
+  ],
+  "enacted_as": {
+    "congress": "112",
+    "law_type": "public",
+    "number": "280"
+  },
+  "history": {
+    "active": true,
+    "active_at": "2012-12-19",
+    "awaiting_signature": false,
+    "enacted": true,
+    "enacted_at": "2013-01-14",
+    "house_passage_result": "pass",
+    "house_passage_result_at": "2013-01-01T13:18:32-05:00",
+    "senate_passage_result": "pass",
+    "senate_passage_result_at": "2012-12-19",
+    "vetoed": false
+  },
+  "introduced_at": "2012-12-05",
+  "number": "3662",
+  "official_title": "A bill to designate the facility of the United States Postal Service located at 6 Nichols Street in Westminster, Massachusetts, as the \"Lieutenant Ryan Patrick Jones Post Office Building\".",
+  "popular_title": null,
+  "related_bills": [],
+  "short_title": "Lieutenant Ryan Patrick Jones Post Office Designation Act",
+  "sponsor": {
+    "bioguide_id": "B001268",
+    "district": null,
+    "name": "Brown, Scott P.",
+    "state": "MA",
+    "title": "Sen.",
+    "type": "person"
+  },
+  "status": "ENACTED:SIGNED",
+  "status_at": "2013-01-14",
+  "subjects": [
+    "Congressional tributes",
+    "Government buildings, facilities, and property",
+    "Government operations and politics",
+    "Massachusetts",
+    "Military personnel and dependents",
+    "Postal service"
+  ],
+  "subjects_top_term": "Government operations and politics",
+  "summary": {
+    "as": "Introduced in Senate",
+    "asOf": "2012-12-05",
+    "date": "2013-04-22T18:28:59Z",
+    "text": "Lieutenant Ryan Patrick Jones Post Office Designation Act - Designates the facility of the United States Postal Service located at 6 Nichols Street in Westminster, Massachusetts, as the \"Lieutenant Ryan Patrick Jones Post Office Building.\""
+  },
+  "titles": [
+    {
+      "as": "enacted",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Lieutenant Ryan Patrick Jones Post Office Designation Act",
+      "type": "short"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Lieutenant Ryan Patrick Jones Post Office Designation Act",
+      "type": "short"
+    },
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Lieutenant Ryan Patrick Jones Post Office Designation Act",
+      "type": "display"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "A bill to designate the facility of the United States Postal Service located at 6 Nichols Street in Westminster, Massachusetts, as the \"Lieutenant Ryan Patrick Jones Post Office Building\".",
+      "type": "official"
+    }
+  ],
+  "updated_at": "2023-03-22T18:24:53Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/112/s/BILLSTATUS-112s3662.xml"
+}

@@ -1,0 +1,864 @@
+{
+  "actions": [
+    {
+      "acted_at": "2015-11-03",
+      "action_code": "10000",
+      "references": [],
+      "text": "Introduced in Senate",
+      "type": "action"
+    },
+    {
+      "acted_at": "2015-11-03",
+      "action_code": "",
+      "committees": [
+        "SSFR"
+      ],
+      "references": [
+        {
+          "reference": "CR S7725-7726",
+          "type": "text of measure as introduced"
+        }
+      ],
+      "status": "REFERRED",
+      "text": "Referred to the Committee on Foreign Relations.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2015-11-10",
+      "action_code": "",
+      "committee": "Foreign Relations",
+      "committees": [
+        "SSFR"
+      ],
+      "references": [],
+      "status": "REPORTED",
+      "text": "Committee on Foreign Relations. Reported by Senator Corker without amendment and with a preamble. Without written report.",
+      "type": "reported"
+    },
+    {
+      "acted_at": "2015-11-10",
+      "action_code": "",
+      "calendar": "Senate Legislative",
+      "number": "292",
+      "references": [
+        {
+          "reference": "CR S7955-7956",
+          "type": "consideration"
+        },
+        {
+          "reference": "CR S7956",
+          "type": "text"
+        }
+      ],
+      "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 292.",
+      "type": "calendar",
+      "under": "General Orders"
+    },
+    {
+      "acted_at": "2015-11-10",
+      "action_code": "",
+      "references": [],
+      "text": "Measure laid before Senate by unanimous consent.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2015-11-10",
+      "action_code": "",
+      "how": "by Unanimous Consent",
+      "references": [
+        {
+          "reference": "CR S7956",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "status": "PASSED:SIMPLERES",
+      "text": "Resolution agreed to in Senate with an amendment and an amended preamble by Unanimous Consent.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "s"
+    },
+    {
+      "acted_at": "2015-11-10",
+      "action_code": "",
+      "committees": [
+        "SSFR"
+      ],
+      "references": [],
+      "text": "Committee on Foreign Relations. Ordered to be reported without amendment favorably.",
+      "type": "ordered-reported"
+    }
+  ],
+  "amendments": [
+    {
+      "amendment_id": "samdt2808-114",
+      "amendment_type": "samdt",
+      "chamber": "s",
+      "number": "2808"
+    },
+    {
+      "amendment_id": "samdt2807-114",
+      "amendment_type": "samdt",
+      "chamber": "s",
+      "number": "2807"
+    }
+  ],
+  "bill_id": "sres302-114",
+  "bill_type": "sres",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [
+    {
+      "activity": [
+        "markup",
+        "reporting",
+        "referral"
+      ],
+      "committee": "Senate Foreign Relations",
+      "committee_id": "SSFR"
+    }
+  ],
+  "congress": "114",
+  "cosponsors": [
+    {
+      "bioguide_id": "A000360",
+      "district": null,
+      "name": "Alexander, Lamar",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-10",
+      "state": "TN",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "A000368",
+      "district": null,
+      "name": "Ayotte, Kelly",
+      "original_cosponsor": true,
+      "sponsored_at": "2015-11-03",
+      "state": "NH",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001267",
+      "district": null,
+      "name": "Bennet, Michael F.",
+      "original_cosponsor": true,
+      "sponsored_at": "2015-11-03",
+      "state": "CO",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B000575",
+      "district": null,
+      "name": "Blunt, Roy",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-04",
+      "state": "MO",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001288",
+      "district": null,
+      "name": "Booker, Cory A.",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-05",
+      "state": "NJ",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001236",
+      "district": null,
+      "name": "Boozman, John",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-04",
+      "state": "AR",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B000944",
+      "district": null,
+      "name": "Brown, Sherrod",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-10",
+      "state": "OH",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001135",
+      "district": null,
+      "name": "Burr, Richard",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-09",
+      "state": "NC",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C000127",
+      "district": null,
+      "name": "Cantwell, Maria",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-04",
+      "state": "WA",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001047",
+      "district": null,
+      "name": "Capito, Shelley Moore",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-09",
+      "state": "WV",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C000141",
+      "district": null,
+      "name": "Cardin, Benjamin L.",
+      "original_cosponsor": true,
+      "sponsored_at": "2015-11-03",
+      "state": "MD",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001070",
+      "district": null,
+      "name": "Casey, Robert P., Jr.",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-09",
+      "state": "PA",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C000542",
+      "district": null,
+      "name": "Coats, Daniel",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-04",
+      "state": "IN",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001035",
+      "district": null,
+      "name": "Collins, Susan M.",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-04",
+      "state": "ME",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001088",
+      "district": null,
+      "name": "Coons, Christopher A.",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-05",
+      "state": "DE",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001056",
+      "district": null,
+      "name": "Cornyn, John",
+      "original_cosponsor": true,
+      "sponsored_at": "2015-11-03",
+      "state": "TX",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001095",
+      "district": null,
+      "name": "Cotton, Tom",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-04",
+      "state": "AR",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C000880",
+      "district": null,
+      "name": "Crapo, Mike",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-04",
+      "state": "ID",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001098",
+      "district": null,
+      "name": "Cruz, Ted",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-05",
+      "state": "TX",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000607",
+      "district": null,
+      "name": "Donnelly, Joe",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-05",
+      "state": "IN",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000563",
+      "district": null,
+      "name": "Durbin, Richard J.",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-10",
+      "state": "IL",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "F000444",
+      "district": null,
+      "name": "Flake, Jeff",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-09",
+      "state": "AZ",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "G000562",
+      "district": null,
+      "name": "Gardner, Cory",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-04",
+      "state": "CO",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "G000555",
+      "district": null,
+      "name": "Gillibrand, Kirsten E.",
+      "original_cosponsor": true,
+      "sponsored_at": "2015-11-03",
+      "state": "NY",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "G000359",
+      "district": null,
+      "name": "Graham, Lindsey",
+      "original_cosponsor": true,
+      "sponsored_at": "2015-11-03",
+      "state": "SC",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "G000386",
+      "district": null,
+      "name": "Grassley, Chuck",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-04",
+      "state": "IA",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H000338",
+      "district": null,
+      "name": "Hatch, Orrin G.",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-04",
+      "state": "UT",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H001046",
+      "district": null,
+      "name": "Heinrich, Martin",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-10",
+      "state": "NM",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H001041",
+      "district": null,
+      "name": "Heller, Dean",
+      "original_cosponsor": true,
+      "sponsored_at": "2015-11-03",
+      "state": "NV",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H001042",
+      "district": null,
+      "name": "Hirono, Mazie K.",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-05",
+      "state": "HI",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H001061",
+      "district": null,
+      "name": "Hoeven, John",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-05",
+      "state": "ND",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "I000024",
+      "district": null,
+      "name": "Inhofe, James M.",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-04",
+      "state": "OK",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "I000055",
+      "district": null,
+      "name": "Isakson, Johnny",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-05",
+      "state": "GA",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "J000293",
+      "district": null,
+      "name": "Johnson, Ron",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-10",
+      "state": "WI",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "K000360",
+      "district": null,
+      "name": "Kirk, Mark Steven",
+      "original_cosponsor": true,
+      "sponsored_at": "2015-11-03",
+      "state": "IL",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "K000367",
+      "district": null,
+      "name": "Klobuchar, Amy",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-09",
+      "state": "MN",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "L000575",
+      "district": null,
+      "name": "Lankford, James",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-09",
+      "state": "OK",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001183",
+      "district": null,
+      "name": "Manchin, Joe, III",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-05",
+      "state": "WV",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M000133",
+      "district": null,
+      "name": "Markey, Edward J.",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-09",
+      "state": "MA",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M000303",
+      "district": null,
+      "name": "McCain, John",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-04",
+      "state": "AZ",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001170",
+      "district": null,
+      "name": "McCaskill, Claire",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-10",
+      "state": "MO",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M000639",
+      "district": null,
+      "name": "Menendez, Robert",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-09",
+      "state": "NJ",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M000702",
+      "district": null,
+      "name": "Mikulski, Barbara A.",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-04",
+      "state": "MD",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M000934",
+      "district": null,
+      "name": "Moran, Jerry",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-04",
+      "state": "KS",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001153",
+      "district": null,
+      "name": "Murkowski, Lisa",
+      "original_cosponsor": true,
+      "sponsored_at": "2015-11-03",
+      "state": "AK",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001111",
+      "district": null,
+      "name": "Murray, Patty",
+      "original_cosponsor": true,
+      "sponsored_at": "2015-11-03",
+      "state": "WA",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "N000032",
+      "district": null,
+      "name": "Nelson, Bill",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-10",
+      "state": "FL",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "P000612",
+      "district": null,
+      "name": "Perdue, David",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-10",
+      "state": "GA",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "P000595",
+      "district": null,
+      "name": "Peters, Gary C.",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-04",
+      "state": "MI",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "P000449",
+      "district": null,
+      "name": "Portman, Rob",
+      "original_cosponsor": true,
+      "sponsored_at": "2015-11-03",
+      "state": "OH",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000584",
+      "district": null,
+      "name": "Risch, James E.",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-04",
+      "state": "ID",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000307",
+      "district": null,
+      "name": "Roberts, Pat",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-05",
+      "state": "KS",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000605",
+      "district": null,
+      "name": "Rounds, Mike",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-05",
+      "state": "SD",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000595",
+      "district": null,
+      "name": "Rubio, Marco",
+      "original_cosponsor": true,
+      "sponsored_at": "2015-11-03",
+      "state": "FL",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001194",
+      "district": null,
+      "name": "Schatz, Brian",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-05",
+      "state": "HI",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S000148",
+      "district": null,
+      "name": "Schumer, Charles E.",
+      "original_cosponsor": true,
+      "sponsored_at": "2015-11-03",
+      "state": "NY",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001184",
+      "district": null,
+      "name": "Scott, Tim",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-05",
+      "state": "SC",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S000320",
+      "district": null,
+      "name": "Shelby, Richard C.",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-09",
+      "state": "AL",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S000770",
+      "district": null,
+      "name": "Stabenow, Debbie",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-05",
+      "state": "MI",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001198",
+      "district": null,
+      "name": "Sullivan, Dan",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-05",
+      "state": "AK",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "T000250",
+      "district": null,
+      "name": "Thune, John",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-10",
+      "state": "SD",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "T000476",
+      "district": null,
+      "name": "Tillis, Thomas",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-09",
+      "state": "NC",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "T000461",
+      "district": null,
+      "name": "Toomey, Patrick",
+      "original_cosponsor": true,
+      "sponsored_at": "2015-11-03",
+      "state": "PA",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "V000127",
+      "district": null,
+      "name": "Vitter, David",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-10",
+      "state": "LA",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000805",
+      "district": null,
+      "name": "Warner, Mark R.",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-05",
+      "state": "VA",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000802",
+      "district": null,
+      "name": "Whitehouse, Sheldon",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-17",
+      "state": "RI",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000437",
+      "district": null,
+      "name": "Wicker, Roger F.",
+      "original_cosponsor": false,
+      "sponsored_at": "2015-11-10",
+      "state": "MS",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000779",
+      "district": null,
+      "name": "Wyden, Ron",
+      "original_cosponsor": true,
+      "sponsored_at": "2015-11-03",
+      "state": "OR",
+      "title": "Sen.",
+      "withdrawn_at": null
+    }
+  ],
+  "enacted_as": null,
+  "history": {
+    "active": true,
+    "active_at": "2015-11-10",
+    "awaiting_signature": false,
+    "enacted": false,
+    "senate_passage_result": "pass",
+    "senate_passage_result_at": "2015-11-10",
+    "vetoed": false
+  },
+  "introduced_at": "2015-11-03",
+  "number": "302",
+  "official_title": "A resolution expressing the sense of the Senate in support of Israel and in condemnation of Palestinian terror attacks.",
+  "popular_title": null,
+  "related_bills": [],
+  "short_title": null,
+  "sponsor": {
+    "bioguide_id": "B001277",
+    "district": null,
+    "name": "Blumenthal, Richard",
+    "state": "CT",
+    "title": "Sen.",
+    "type": "person"
+  },
+  "status": "PASSED:SIMPLERES",
+  "status_at": "2015-11-10",
+  "subjects": [
+    "Arab-Israeli relations",
+    "International affairs",
+    "International organizations and cooperation",
+    "Israel",
+    "Middle East",
+    "Palestinians",
+    "Terrorism"
+  ],
+  "subjects_top_term": "International affairs",
+  "summary": {
+    "as": "Passed Senate amended",
+    "asOf": "2015-11-10",
+    "date": "2015-11-12T21:26:04Z",
+    "text": "Condemns Palestinian terror attacks against Israelis.\n\nWelcomes Israel's commitment to maintaining the status quo on the Temple Mount.\n\nUrges the international community to join in condemning these Palestinian terror attacks.\n\nDeclares that there is no justification for these attacks and that there is a direct correlation between the recent upsurge in violence and Arab incitement regarding the Temple Mount.\n\nStands with the people of Israel.\n\n Supports Israel's right to self-defense and rejects any suggestion of the moral equivalence of Israeli security personnel protecting its citizens from violence and terrorists intent on taking innocent lives.\n\nSupports the agreement to install surveillance cameras on the Temple Mount.\n\nCalls upon President Abbas to stop incitement by Palestinian officials and media and to take all steps necessary to halt these attacks.\n\nSupports individuals and organizations working to encourage cooperation between Israelis and Palestinians.\n\nEncourages President Abbas to continue strengthening and maintaining security cooperation with Israel.\n\nReiterates that Palestinian political goals will never be achieved through violence, and calls on all parties to return to the negotiating table."
+  },
+  "titles": [
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "A resolution expressing the sense of the Senate in support of Israel and in condemnation of Palestinian terror attacks.",
+      "type": "display"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "A resolution expressing the sense of the Senate in support of Israel and in condemnation of Palestinian terror attacks.",
+      "type": "official"
+    }
+  ],
+  "updated_at": "2023-01-11T13:32:32Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/114/sres/BILLSTATUS-114sres302.xml"
+}

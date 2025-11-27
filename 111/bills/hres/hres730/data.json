@@ -1,0 +1,426 @@
+{
+  "actions": [
+    {
+      "acted_at": "2009-09-10",
+      "action_code": "Intro-H",
+      "references": [],
+      "text": "Introduced in House",
+      "type": "action"
+    },
+    {
+      "acted_at": "2009-09-10",
+      "action_code": "H11100",
+      "committees": [
+        "HSED"
+      ],
+      "references": [],
+      "status": "REFERRED",
+      "text": "Referred to the House Committee on Education and Labor.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2009-10-13T15:09:16-04:00",
+      "action_code": "H30300",
+      "references": [],
+      "text": "Mr. Sablan moved to suspend the rules and agree to the resolution, as amended.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2009-10-13T15:09:17-04:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H11187-11189",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered under suspension of the rules.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2009-10-13T15:09:18-04:00",
+      "action_code": "H8D000",
+      "references": [],
+      "text": "DEBATE - The House proceeded with forty minutes of debate on H. Res. 730.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2009-10-13T15:19:33-04:00",
+      "action_code": "H37300",
+      "how": "by voice vote",
+      "references": [
+        {
+          "reference": "CR H11187-11188",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "status": "PASSED:SIMPLERES",
+      "suspension": null,
+      "text": "On motion to suspend the rules and agree to the resolution, as amended Agreed to by voice vote.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "h"
+    },
+    {
+      "acted_at": "2009-10-13T15:19:34-04:00",
+      "action_code": "H38310",
+      "references": [],
+      "text": "Motion to reconsider laid on the table Agreed to without objection.",
+      "type": "action"
+    }
+  ],
+  "amendments": [],
+  "bill_id": "hres730-111",
+  "bill_type": "hres",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [
+    {
+      "activity": [
+        "referral"
+      ],
+      "committee": "House Education and the Workforce",
+      "committee_id": "HSED"
+    }
+  ],
+  "congress": "111",
+  "cosponsors": [
+    {
+      "bioguide_id": "B001256",
+      "district": "6",
+      "name": "Bachmann, Michele",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-09-10",
+      "state": "MN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001230",
+      "district": "2",
+      "name": "Baldwin, Tammy",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-09-10",
+      "state": "WI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001253",
+      "district": "8",
+      "name": "Bean, Melissa L.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-09-23",
+      "state": "IL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C000714",
+      "district": "14",
+      "name": "Conyers, John, Jr.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-09-23",
+      "state": "MI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C000754",
+      "district": "5",
+      "name": "Cooper, Jim",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-09-25",
+      "state": "TN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001038",
+      "district": "7",
+      "name": "Crowley, Joseph",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-09-25",
+      "state": "NY",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000602",
+      "district": "7",
+      "name": "Davis, Artur",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-09-25",
+      "state": "AL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000096",
+      "district": "7",
+      "name": "Davis, Danny K.",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-09-10",
+      "state": "IL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H001040",
+      "district": "17",
+      "name": "Hare, Phil",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-09-23",
+      "state": "IL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "K000365",
+      "district": "8",
+      "name": "Kagen, Steve",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-09-10",
+      "state": "WI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "K000363",
+      "district": "2",
+      "name": "Kline, John",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-09-25",
+      "state": "MN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001142",
+      "district": "2",
+      "name": "Matheson, Jim",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-09-25",
+      "state": "UT",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001160",
+      "district": "4",
+      "name": "Moore, Gwen",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-09-10",
+      "state": "WI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001169",
+      "district": "5",
+      "name": "Murphy, Christopher",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-09-29",
+      "state": "CT",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "O000007",
+      "district": "7",
+      "name": "Obey, David R.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-09-23",
+      "state": "WI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "P000595",
+      "district": "9",
+      "name": "Peters, Gary C.",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-09-10",
+      "state": "MI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "P000258",
+      "district": "7",
+      "name": "Peterson, Collin C.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-09-25",
+      "state": "MN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "P000265",
+      "district": "6",
+      "name": "Petri, Thomas E.",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-09-10",
+      "state": "WI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000572",
+      "district": "8",
+      "name": "Rogers, Mike J.",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-09-10",
+      "state": "MI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000570",
+      "district": "1",
+      "name": "Ryan, Paul",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-09-10",
+      "state": "WI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000577",
+      "district": "17",
+      "name": "Ryan, Tim",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-09-25",
+      "state": "OH",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001162",
+      "district": "13",
+      "name": "Schwartz, Allyson Y.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-09-29",
+      "state": "PA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S000244",
+      "district": "5",
+      "name": "Sensenbrenner, F. James, Jr.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-09-29",
+      "state": "WI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "T000038",
+      "district": "8",
+      "name": "Tanner, John S.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-09-25",
+      "state": "TN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "T000460",
+      "district": "1",
+      "name": "Thompson, Mike",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-09-29",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000799",
+      "district": "1",
+      "name": "Walz, Timothy J.",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-09-10",
+      "state": "MN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000800",
+      "district": "0",
+      "name": "Welch, Peter",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-09-10",
+      "state": "VT",
+      "title": "Rep.",
+      "withdrawn_at": null
+    }
+  ],
+  "enacted_as": null,
+  "history": {
+    "active": true,
+    "active_at": "2009-10-13T15:09:16-04:00",
+    "awaiting_signature": false,
+    "enacted": false,
+    "house_passage_result": "pass",
+    "house_passage_result_at": "2009-10-13T15:19:33-04:00",
+    "vetoed": false
+  },
+  "introduced_at": "2009-09-10",
+  "number": "730",
+  "official_title": "Honoring the 100th anniversary of the University of Wisconsin-La Crosse.",
+  "popular_title": null,
+  "related_bills": [
+    {
+      "bill_id": "sres258-111",
+      "identified_by": "CRS",
+      "reason": "related",
+      "type": "bill"
+    }
+  ],
+  "short_title": null,
+  "sponsor": {
+    "bioguide_id": "K000188",
+    "district": "3",
+    "name": "Kind, Ron",
+    "state": "WI",
+    "title": "Rep.",
+    "type": "person"
+  },
+  "status": "PASSED:SIMPLERES",
+  "status_at": "2009-10-13T15:19:33-04:00",
+  "subjects": [
+    "Commemorative events and holidays",
+    "Congressional tributes",
+    "Education",
+    "Educational facilities and institutions",
+    "Higher education",
+    "Wisconsin"
+  ],
+  "subjects_top_term": "Education",
+  "summary": {
+    "as": "Passed House amended",
+    "asOf": "2009-10-13",
+    "date": "2009-10-19T20:12:49Z",
+    "text": "Honors the University of Wisconsin-La Crosse on its 100th anniversary.\n\nCommends the school's status as a leading public university that excels in academics, athletics, and its students' quality of life."
+  },
+  "titles": [
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Honoring the 100th anniversary of the University of Wisconsin-La Crosse.",
+      "type": "display"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Honoring the 100th anniversary of the University of Wisconsin-La Crosse.",
+      "type": "official"
+    }
+  ],
+  "updated_at": "2023-01-11T13:17:47Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/111/hres/BILLSTATUS-111hres730.xml"
+}

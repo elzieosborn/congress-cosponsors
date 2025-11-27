@@ -1,0 +1,806 @@
+{
+  "actions": [
+    {
+      "acted_at": "2008-06-12",
+      "action_code": "Intro-H",
+      "references": [],
+      "text": "Introduced in House",
+      "type": "action"
+    },
+    {
+      "acted_at": "2008-06-12",
+      "action_code": "H11100",
+      "committees": [
+        "HSII"
+      ],
+      "references": [],
+      "status": "REFERRED",
+      "text": "Referred to the House Committee on Natural Resources.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2008-06-26T13:03:10-04:00",
+      "action_code": "H30300",
+      "references": [],
+      "text": "Mr. Rahall moved to suspend the rules and pass the bill, as amended.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2008-06-26T13:03:35-04:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H6110-6121",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered under suspension of the rules.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2008-06-26T13:03:52-04:00",
+      "action_code": "H8D000",
+      "references": [],
+      "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 6251.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2008-06-26T13:15:00-04:00",
+      "action_code": "H8D000",
+      "references": [],
+      "text": "DEBATE - Ms. Fallin asked unanimous consent that debate on the motion to suspend the rules and pass H.R. 6251 be extended by 10 minutes, equally divided and controlled. Agreed to without objection.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2008-06-26T14:03:55-04:00",
+      "action_code": "H37220",
+      "references": [],
+      "text": "At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2008-06-26T17:37:39-04:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H6144-6145",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered as unfinished business.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2008-06-26T17:44:48-04:00",
+      "action_code": "H37300",
+      "how": "roll",
+      "references": [
+        {
+          "reference": "CR H6110",
+          "type": "text"
+        }
+      ],
+      "result": "fail",
+      "roll": "469",
+      "status": "PROV_KILL:SUSPENSIONFAILED",
+      "suspension": true,
+      "text": "On motion to suspend the rules and pass the bill, as amended Failed by the Yeas and Nays: (2/3 required): 223 - 195 (Roll no. 469).",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "h"
+    }
+  ],
+  "amendments": [],
+  "bill_id": "hr6251-110",
+  "bill_type": "hr",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [
+    {
+      "activity": [
+        "referral"
+      ],
+      "committee": "House Natural Resources",
+      "committee_id": "HSII"
+    }
+  ],
+  "congress": "110",
+  "cosponsors": [
+    {
+      "bioguide_id": "A000362",
+      "district": "4",
+      "name": "Altmire, Jason",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-24",
+      "state": "PA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "A000363",
+      "district": "24",
+      "name": "Arcuri, Michael A.",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-19",
+      "state": "NY",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B000574",
+      "district": "3",
+      "name": "Blumenauer, Earl",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-19",
+      "state": "OR",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001258",
+      "district": "2",
+      "name": "Boyda, Nancy E.",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-23",
+      "state": "KS",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001259",
+      "district": "1",
+      "name": "Braley, Bruce L.",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-24",
+      "state": "IA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001251",
+      "district": "1",
+      "name": "Butterfield, G. K.",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-24",
+      "state": "NC",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001036",
+      "district": "23",
+      "name": "Capps, Lois",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-06-12",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001065",
+      "district": "10",
+      "name": "Carney, Christopher P.",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-26",
+      "state": "PA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001072",
+      "district": "7",
+      "name": "Carson, Andre",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-17",
+      "state": "IN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001066",
+      "district": "11",
+      "name": "Castor, Kathy",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-17",
+      "state": "FL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001058",
+      "district": "6",
+      "name": "Chandler, Ben",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-23",
+      "state": "KY",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C000794",
+      "district": "12",
+      "name": "Costello, Jerry F.",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-23",
+      "state": "IL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001069",
+      "district": "2",
+      "name": "Courtney, Joe",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-18",
+      "state": "CT",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000191",
+      "district": "4",
+      "name": "DeFazio, Peter A.",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-06-12",
+      "state": "OR",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000210",
+      "district": "10",
+      "name": "Delahunt, William D.",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-18",
+      "state": "MA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000355",
+      "district": "15",
+      "name": "Dingell, John D.",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-23",
+      "state": "MI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "E000287",
+      "district": "5",
+      "name": "Emanuel, Rahm",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-06-12",
+      "state": "IL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "F000030",
+      "district": "17",
+      "name": "Farr, Sam",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-18",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "F000454",
+      "district": "14",
+      "name": "Foster, Bill",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-17",
+      "state": "IL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "G000554",
+      "district": "8",
+      "name": "Giffords, Gabrielle",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-17",
+      "state": "AZ",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "G000309",
+      "district": "6",
+      "name": "Gordon, Bart",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-24",
+      "state": "TN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "G000551",
+      "district": "7",
+      "name": "Grijalva, Ra\u00c3\u00bal M.",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-06-12",
+      "state": "AZ",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H001039",
+      "district": "19",
+      "name": "Hall, John J.",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-06-12",
+      "state": "NY",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H000324",
+      "district": "23",
+      "name": "Hastings, Alcee L.",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-26",
+      "state": "FL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H001030",
+      "district": "9",
+      "name": "Hill, Baron P.",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-23",
+      "state": "IN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H000627",
+      "district": "22",
+      "name": "Hinchey, Maurice D.",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-06-12",
+      "state": "NY",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H001042",
+      "district": "2",
+      "name": "Hirono, Mazie K.",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-17",
+      "state": "HI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H001043",
+      "district": "2",
+      "name": "Hodes, Paul W.",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-24",
+      "state": "NH",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "K000365",
+      "district": "8",
+      "name": "Kagen, Steve",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-17",
+      "state": "WI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "K000172",
+      "district": "5",
+      "name": "Kildee, Dale E.",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-24",
+      "state": "MI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "K000366",
+      "district": "22",
+      "name": "Klein, Ron",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-18",
+      "state": "FL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "L000557",
+      "district": "1",
+      "name": "Larson, John B.",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-06-12",
+      "state": "CT",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "L000263",
+      "district": "12",
+      "name": "Levin, Sander M.",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-23",
+      "state": "MI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "L000287",
+      "district": "5",
+      "name": "Lewis, John",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-17",
+      "state": "GA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "L000480",
+      "district": "18",
+      "name": "Lowey, Nita M.",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-23",
+      "state": "NY",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001164",
+      "district": "16",
+      "name": "Mahoney, Tim",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-18",
+      "state": "FL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M000087",
+      "district": "14",
+      "name": "Maloney, Carolyn B.",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-17",
+      "state": "NY",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M000133",
+      "district": "7",
+      "name": "Markey, Edward J.",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-06-12",
+      "state": "MA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M000309",
+      "district": "4",
+      "name": "McCarthy, Carolyn",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-23",
+      "state": "NY",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001143",
+      "district": "4",
+      "name": "McCollum, Betty",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-17",
+      "state": "MN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M000312",
+      "district": "3",
+      "name": "McGovern, James P.",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-18",
+      "state": "MA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M000590",
+      "district": "21",
+      "name": "McNulty, Michael R.",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-23",
+      "state": "NY",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M000725",
+      "district": "7",
+      "name": "Miller, George",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-06-12",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001167",
+      "district": "5",
+      "name": "Mitchell, Harry E.",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-23",
+      "state": "AZ",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001169",
+      "district": "5",
+      "name": "Murphy, Christopher",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-24",
+      "state": "CT",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "P000096",
+      "district": "8",
+      "name": "Pascrell, Bill, Jr.",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-17",
+      "state": "NJ",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000577",
+      "district": "17",
+      "name": "Ryan, Tim",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-23",
+      "state": "OH",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001145",
+      "district": "9",
+      "name": "Schakowsky, Janice D.",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-17",
+      "state": "IL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001169",
+      "district": "7",
+      "name": "Sestak, Joe",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-23",
+      "state": "PA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001165",
+      "district": "13",
+      "name": "Sires, Albio",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-17",
+      "state": "NJ",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S000480",
+      "district": "28",
+      "name": "Slaughter, Louise McIntosh",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-17",
+      "state": "NY",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001173",
+      "district": "18",
+      "name": "Space, Zachary T.",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-26",
+      "state": "OH",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001174",
+      "district": "13",
+      "name": "Sutton, Betty",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-24",
+      "state": "OH",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "T000460",
+      "district": "1",
+      "name": "Thompson, Mike",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-23",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "V000128",
+      "district": "8",
+      "name": "Van Hollen, Chris",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-24",
+      "state": "MD",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "V000108",
+      "district": "1",
+      "name": "Visclosky, Peter J.",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-17",
+      "state": "IN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000799",
+      "district": "1",
+      "name": "Walz, Timothy J.",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-23",
+      "state": "MN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000215",
+      "district": "30",
+      "name": "Waxman, Henry A.",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-17",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000800",
+      "district": "0",
+      "name": "Welch, Peter",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-19",
+      "state": "VT",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000801",
+      "district": "6",
+      "name": "Wilson, Charles A.",
+      "original_cosponsor": false,
+      "sponsored_at": "2008-06-18",
+      "state": "OH",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "Y000062",
+      "district": "3",
+      "name": "Yarmuth, John A.",
+      "original_cosponsor": true,
+      "sponsored_at": "2008-06-12",
+      "state": "KY",
+      "title": "Rep.",
+      "withdrawn_at": null
+    }
+  ],
+  "enacted_as": null,
+  "history": {
+    "active": true,
+    "active_at": "2008-06-26T13:03:10-04:00",
+    "awaiting_signature": false,
+    "enacted": false,
+    "house_passage_result": "fail",
+    "house_passage_result_at": "2008-06-26T17:44:48-04:00",
+    "vetoed": false
+  },
+  "introduced_at": "2008-06-12",
+  "number": "6251",
+  "official_title": "To prohibit the Secretary of the Interior from issuing new Federal oil and gas leases to holders of existing leases who do not diligently develop the lands subject to such existing leases or relinquish such leases, and for other purposes.",
+  "popular_title": null,
+  "related_bills": [
+    {
+      "bill_id": "s3239-110",
+      "identified_by": "CRS",
+      "reason": "related",
+      "type": "bill"
+    }
+  ],
+  "short_title": "Responsible Federal Oil and Gas Lease Act",
+  "sponsor": {
+    "bioguide_id": "R000011",
+    "district": "3",
+    "name": "Rahall, Nick J., II",
+    "state": "WV",
+    "title": "Rep.",
+    "type": "person"
+  },
+  "status": "PROV_KILL:SUSPENSIONFAILED",
+  "status_at": "2008-06-26T17:44:48-04:00",
+  "subjects": [
+    "Administrative procedure",
+    "Commerce",
+    "Continental shelf",
+    "Department of the Interior",
+    "Energy",
+    "Energy development",
+    "Fines (Penalties)",
+    "Gas in submerged lands",
+    "Gas industry",
+    "Government Operations and Politics",
+    "Law",
+    "Marine and coastal resources, fisheries",
+    "Oil and gas leases",
+    "Oil well drilling",
+    "Petroleum in submerged lands",
+    "Petroleum industry",
+    "Prospecting",
+    "Public Lands and Natural Resources",
+    "Rent"
+  ],
+  "subjects_top_term": "Energy",
+  "summary": {
+    "as": "Introduced in House",
+    "asOf": "2008-06-12",
+    "date": "2008-06-27T18:18:04Z",
+    "text": "Responsible Federal Oil and Gas Lease Act - Prohibits the Secretary of the Interior from authorizing any new lease for exploration or production of oil or natural gas unless the lessee: (1) certifies for each existing lease that the lessee has diligently developed the lands in order to produce oil or natural gas, or is producing oil or natural gas from such lands; or (2) has relinquished all federal oil and gas leases that are not being diligently developed.\n\nInstructs the Secretary to promulgate diligent development regulations that: (1) include benchmarks for oil and gas development to ensure that leaseholders produce oil and gas from each lease within the five-year original term of the lease; and (2) require each leaseholder to submit a diligent development plan showing how the lessee will meet the benchmarks.\n\nEstablishes a civil penalty for noncompliance with this Act.\n\nAmends the Outer Continental Shelf Lands Act, the Mineral Leasing Act, and the Mineral Leasing Act for Acquired Lands Act to set forth lease terms for an initial period of five years, renewable for additional one-year periods, subject to specified conditions."
+  },
+  "titles": [
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Responsible Federal Oil and Gas Lease Act",
+      "type": "short"
+    },
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Responsible Federal Oil and Gas Lease Act",
+      "type": "display"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "To prohibit the Secretary of the Interior from issuing new Federal oil and gas leases to holders of existing leases who do not diligently develop the lands subject to such existing leases or relinquish such leases, and for other purposes.",
+      "type": "official"
+    }
+  ],
+  "updated_at": "2022-02-03T05:18:17Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/110/hr/BILLSTATUS-110hr6251.xml"
+}

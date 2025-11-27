@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>298</number>
+    <updateDate>2022-11-15T16:32:27Z</updateDate>
+    <updateDateIncludingText>2022-11-15T16:32:27Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <originChamberCode>S</originChamberCode>
+    <type>S</type>
+    <introducedDate>2013-02-13</introducedDate>
+    <congress>113</congress>
+    <committees>
+      <item>
+        <systemCode>hsfa00</systemCode>
+        <name>Foreign Affairs Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2013-02-27T00:27:01Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>ssfr00</systemCode>
+        <name>Foreign Relations Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Reported by</name>
+            <date>2013-02-14T20:03:34Z</date>
+          </item>
+          <item>
+            <name>Markup by</name>
+            <date>2013-02-14T19:32:56Z</date>
+          </item>
+          <item>
+            <name>Referred to</name>
+            <date>2013-02-13T17:24:18Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2013-02-26</actionDate>
+        <text>Referred to the House Committee on Foreign Affairs.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsfa00</systemCode>
+            <name>Foreign Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2013-02-26</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2013-02-26</actionDate>
+        <actionTime>10:02:05</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2013-02-25</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate with amendments by Unanimous Consent. (consideration: CR S816-817; text as passed Senate: CR S816-817)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2013-02-25</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate with amendments by Unanimous Consent.(consideration: CR S816-817; text as passed Senate: CR S816-817)</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2013-02-14</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 16.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2013-02-14</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssfr00</systemCode>
+            <name>Foreign Relations Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Foreign Relations. Reported by Senator Menendez with amendments. Without written report.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2013-02-14</actionDate>
+        <text>Committee on Foreign Relations. Reported by Senator Menendez with amendments. Without written report.</text>
+        <type>Committee</type>
+        <actionCode>14000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>ssfr00</systemCode>
+            <name>Foreign Relations Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2013-02-14</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssfr00</systemCode>
+            <name>Foreign Relations Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Foreign Relations. Ordered to be reported with amendments favorably.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2013-02-13</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssfr00</systemCode>
+            <name>Foreign Relations Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Foreign Relations.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2013-02-13</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>M000639</bioguideId>
+        <fullName>Sen. Menendez, Robert [D-NJ]</fullName>
+        <firstName>Robert</firstName>
+        <lastName>Menendez</lastName>
+        <party>D</party>
+        <state>NJ</state>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>C001071</bioguideId>
+        <fullName>Sen. Corker, Bob [R-TN]</fullName>
+        <firstName>Bob</firstName>
+        <lastName>Corker</lastName>
+        <party>R</party>
+        <state>TN</state>
+        <sponsorshipDate>2013-02-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000141</bioguideId>
+        <fullName>Sen. Cardin, Benjamin L. [D-MD]</fullName>
+        <firstName>Ben</firstName>
+        <lastName>Cardin</lastName>
+        <party>D</party>
+        <state>MD</state>
+        <sponsorshipDate>2013-02-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000595</bioguideId>
+        <fullName>Sen. Rubio, Marco [R-FL]</fullName>
+        <firstName>Marco</firstName>
+        <lastName>Rubio</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <sponsorshipDate>2013-02-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000062</bioguideId>
+        <fullName>Sen. Feinstein, Dianne [D-CA]</fullName>
+        <firstName>Dianne</firstName>
+        <lastName>Feinstein</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <sponsorshipDate>2013-02-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000711</bioguideId>
+        <fullName>Sen. Boxer, Barbara [D-CA]</fullName>
+        <firstName>BARBARA</firstName>
+        <lastName>BOXER</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <sponsorshipDate>2013-02-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>I000024</bioguideId>
+        <fullName>Sen. Inhofe, James M. [R-OK]</fullName>
+        <firstName>Jim</firstName>
+        <lastName>Inhofe</lastName>
+        <party>R</party>
+        <state>OK</state>
+        <sponsorshipDate>2013-02-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000607</bioguideId>
+        <fullName>Sen. Donnelly, Joe [D-IN]</fullName>
+        <firstName>Joe</firstName>
+        <lastName>Donnelly</lastName>
+        <party>D</party>
+        <state>IN</state>
+        <sponsorshipDate>2013-02-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001169</bioguideId>
+        <fullName>Sen. Murphy, Christopher [D-CT]</fullName>
+        <firstName>Christopher</firstName>
+        <lastName>Murphy</lastName>
+        <party>D</party>
+        <state>CT</state>
+        <middleName>S.</middleName>
+        <sponsorshipDate>2013-02-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000261</bioguideId>
+        <fullName>Sen. Levin, Carl [D-MI]</fullName>
+        <firstName>CARL</firstName>
+        <lastName>LEVIN</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <middleName>MILTON</middleName>
+        <sponsorshipDate>2013-02-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>International Affairs</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Alliances</name>
+        </item>
+        <item>
+          <name>Arms control and nonproliferation</name>
+        </item>
+        <item>
+          <name>Asia</name>
+        </item>
+        <item>
+          <name>Congressional oversight</name>
+        </item>
+        <item>
+          <name>Foreign and international banking</name>
+        </item>
+        <item>
+          <name>Human rights</name>
+        </item>
+        <item>
+          <name>International law and treaties</name>
+        </item>
+        <item>
+          <name>Military operations and strategy</name>
+        </item>
+        <item>
+          <name>North Korea</name>
+        </item>
+        <item>
+          <name>Nuclear weapons</name>
+        </item>
+        <item>
+          <name>Sanctions</name>
+        </item>
+        <item>
+          <name>Technology transfer and commercialization</name>
+        </item>
+        <item>
+          <name>Trade restrictions</name>
+        </item>
+        <item>
+          <name>United Nations</name>
+        </item>
+        <item>
+          <name>War crimes, genocide, crimes against humanity</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>International Affairs</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2013-02-13</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2013-03-08T17:49:01Z</updateDate>
+        <text><![CDATA[ <p>North Korea Nonproliferation and Accountability Act of 2013 - Expresses the sense of Congress that:</p> <ul> <li>the test of a nuclear device by North Korea on February 12, 2013, and the missile launch of December 12, 2012, represent flagrant violations of the sanctions regime created by United Nations (U.N.) Security Council Resolutions 1695, 1718, and 1874;</li> <li>the February 12, 2013 test of the nuclear device is a clear and provocative violation of Security Resolution 2087;</li> <li>North Korea continues to defy the U.N., its Six-Party partners, and the international community;</li> <li>U.N. member states should implement and enforce sanctions imposed by these resolutions and censure North Korea;</li> <li>North Korea should dismantle its ballistic missile and nuclear weapons programs, cease its proliferation activities, and comply with all relevant resolutions and its commitments;</li> <li>restrictions against North Korea should remain in effect until it no longer threatens the United States, our allies, and global peace;</li> <li>the United States should seek a new round of Security Council sanctions;</li> <li>U.N. member states should strengthen efforts to prevent the transfer of military and dual-use technologies to North Korea, monitor the activities of their nationals, financial institutions, and other entities with or on behalf of North Korean financial institutions, and prevent transshipments that relate to North Korean military, missile, and nuclear programs and proliferation activities;</li> <li>the United States should explore all appropriate measures for enhanced military operations by the U.S. Armed Forces in the Asia-Pacific region in order to safeguard U.S. national interests; and</li> <li>the United States should secure the agreement of the United Nations Human Rights Council (UNHRC) and General Assembly to adopt the recommendations made in the February 2013 report of Marzuki Darusman, Special Rapporteur on the situation of human rights in the Democratic People's Republic of Korea, that an inquiry mechanism should be established to investigate North Korea's systematic violations of human rights, as well as to analyze whether crimes against humanity are being perpetrated in North Korea. </li> </ul> <p>Directs the Secretary of State to conduct and submit to Congress a comprehensive report on U.S. policy towards North Korea.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>01</versionCode>
+        <actionDate>2013-02-14</actionDate>
+        <actionDesc>Reported to Senate with amendment(s)</actionDesc>
+        <updateDate>2013-03-08T17:53:39Z</updateDate>
+        <text><![CDATA[ <p>North Korea Nonproliferation and Accountability Act of 2013 - Expresses the sense of Congress that:</p> <ul> <li>the test of a nuclear device by North Korea on February 12, 2013, and the missile launch of December 12, 2012, represent flagrant violations of the sanctions regime created by United Nations (U.N.) Security Council Resolutions 1695, 1718, and 1874;</li> <li>the February 12, 2013 test of the nuclear device is a clear and provocative violation of Security Resolution 2087;</li> <li>North Korea continues to defy the U.N., its Six-Party partners, and the international community;</li> <li>U.N. member states should implement and enforce sanctions imposed by these resolutions and censure North Korea;</li> <li>North Korea should dismantle its ballistic missile and nuclear weapons programs, cease its proliferation activities, and comply with all relevant resolutions and its commitments;</li> <li>restrictions against North Korea should remain in effect until it no longer threatens the United States, our allies, and global peace;</li> <li>the United States should seek a new round of Security Council sanctions;</li> <li>U.N. member states should strengthen efforts to prevent the transfer of military and dual-use technologies to North Korea, monitor the activities of their nationals, financial institutions, and other entities with or on behalf of North Korean financial institutions, and prevent transshipments that relate to North Korean military, missile, and nuclear programs and proliferation activities;</li> <li>the United States should explore all appropriate measures for enhanced military operations by the U.S. Armed Forces in the Asia-Pacific region in order to safeguard U.S. national interests; and</li> <li>the United States should secure the agreement of the United Nations Human Rights Council (UNHRC) and General Assembly to adopt the recommendations made in the February 2013 report of Marzuki Darusman, Special Rapporteur on the situation of human rights in the Democratic People's Republic of Korea, that an inquiry mechanism should be established to investigate North Korea's systematic violations of human rights, as well as to analyze whether crimes against humanity are being perpetrated in North Korea. </li> </ul> <p>Directs the Secretary of State to conduct and submit to Congress a comprehensive report on U.S. policy towards North Korea.</p> <p>States that nothing in this Act shall be construed as a declaration of war or an authorization for the use of force against North Korea.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>35</versionCode>
+        <actionDate>2013-02-25</actionDate>
+        <actionDesc>Passed Senate amended</actionDesc>
+        <updateDate>2013-03-08T17:56:50Z</updateDate>
+        <text><![CDATA[ <p><b>(This measure has not been amended since it was reported to the Senate on February 14, 2013. The summary of that version is repeated here.)</b></p> <p>North Korea Nonproliferation and Accountability Act of 2013 - Expresses the sense of Congress that:</p> <ul> <li>the test of a nuclear device by North Korea on February 12, 2013, and the missile launch of December 12, 2012, represent flagrant violations of the sanctions regime created by United Nations (U.N.) Security Council Resolutions 1695, 1718, and 1874;</li> <li>the February 12, 2013 test of the nuclear device is a clear and provocative violation of Security Resolution 2087;</li> <li>North Korea continues to defy the U.N., its Six-Party partners, and the international community;</li> <li>U.N. member states should implement and enforce sanctions imposed by these resolutions and censure North Korea;</li> <li>North Korea should dismantle its ballistic missile and nuclear weapons programs, cease its proliferation activities, and comply with all relevant resolutions and its commitments;</li> <li>restrictions against North Korea should remain in effect until it no longer threatens the United States, our allies, and global peace;</li> <li>the United States should seek a new round of Security Council sanctions;</li> <li>U.N. member states should strengthen efforts to prevent the transfer of military and dual-use technologies to North Korea, monitor the activities of their nationals, financial institutions, and other entities with or on behalf of North Korean financial institutions, and prevent transshipments that relate to North Korean military, missile, and nuclear programs and proliferation activities;</li> <li>the United States should explore all appropriate measures for enhanced military operations by the U.S. Armed Forces in the Asia-Pacific region in order to safeguard U.S. national interests; and</li> <li>the United States should secure the agreement of the United Nations Human Rights Council (UNHRC) and General Assembly to adopt the recommendations made in the February 2013 report of Marzuki Darusman, Special Rapporteur on the situation of human rights in the Democratic People's Republic of Korea, that an inquiry mechanism should be established to investigate North Korea's systematic violations of human rights, as well as to analyze whether crimes against humanity are being perpetrated in North Korea. </li> </ul> <p>Directs the Secretary of State to conduct and submit to Congress a comprehensive report on U.S. policy towards North Korea.</p> <p>States that nothing in this Act shall be construed as a declaration of war or an authorization for the use of force against North Korea.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>North Korea Nonproliferation and Accountability Act of 2013</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>North Korea Nonproliferation and Accountability Act of 2013</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Reported to Senate</titleType>
+        <title>North Korea Nonproliferation and Accountability Act of 2013</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+      <item>
+        <titleType>Short Titles as Passed Senate</titleType>
+        <title>North Korea Nonproliferation and Accountability Act of 2013</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>North Korea Nonproliferation and Accountability Act of 2013</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to prevent nuclear proliferation in North Korea, and for other purposes.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Referred in House</type>
+        <date>2013-02-26T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-113s298rfh/xml/BILLS-113s298rfh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2013-02-25T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-113s298es/xml/BILLS-113s298es.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Reported to Senate</type>
+        <date>2013-02-14T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-113s298rs/xml/BILLS-113s298rs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2013-02-13T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-113s298is/xml/BILLS-113s298is.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2013-02-26</actionDate>
+      <text>Referred to the House Committee on Foreign Affairs.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>777</number>
+    <updateDate>2021-04-19T17:45:28Z</updateDate>
+    <updateDateIncludingText>2021-04-19T17:45:28Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HRES</type>
+    <introducedDate>2012-09-11</introducedDate>
+    <congress>112</congress>
+    <cdata/>
+    <committees>
+      <item>
+        <systemCode>hsas00</systemCode>
+        <name>Armed Services Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsas02</systemCode>
+            <name>Military Personnel Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2012-10-05T19:25:25Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2012-09-11T14:01:35Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <relatedBills>
+      <item>
+        <title>Commemorating the 70th anniversary and commending the brave men of the 17th Bombardment Group (Medium) who became known as the "Doolittle Tokyo Raiders" for outstanding heroism, valor, skill, and service to the United States in conducting the bombing of Tokyo on April 18, 1942.</title>
+        <congress>112</congress>
+        <number>418</number>
+        <type>SRES</type>
+        <latestAction>
+          <actionDate>2012-08-02</actionDate>
+          <text>Resolution agreed to in Senate with an amendment and an amendment to the Title and an amended preamble by Unanimous Consent. (text: CR S6011)</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2012-10-05</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsas02</systemCode>
+            <name>Military Personnel Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Military Personnel.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2012-09-11</actionDate>
+        <text>Referred to the House Committee on Armed Services.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsas00</systemCode>
+            <name>Armed Services Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2012-09-11</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2012-09-11</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>O000168</bioguideId>
+        <fullName>Rep. Olson, Pete [R-TX-22]</fullName>
+        <firstName>Pete</firstName>
+        <lastName>Olson</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>22</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>T000463</bioguideId>
+        <fullName>Rep. Turner, Michael R. [R-OH-3]</fullName>
+        <firstName>Michael</firstName>
+        <lastName>Turner</lastName>
+        <party>R</party>
+        <state>OH</state>
+        <middleName>R.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2012-09-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000220</bioguideId>
+        <fullName>Rep. Bass, Charles F. [R-NH-2]</fullName>
+        <firstName>CHARLES</firstName>
+        <lastName>BASS</lastName>
+        <party>R</party>
+        <state>NH</state>
+        <middleName>F.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2012-09-13</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>A000365</bioguideId>
+        <fullName>Rep. Austria, Steve [R-OH-7]</fullName>
+        <firstName>Steve</firstName>
+        <lastName>Austria</lastName>
+        <party>R</party>
+        <state>OH</state>
+        <district>7</district>
+        <sponsorshipDate>2012-09-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001245</bioguideId>
+        <fullName>Del. Bordallo, Madeleine Z. [D-GU-At Large]</fullName>
+        <firstName>Madeleine</firstName>
+        <lastName>Bordallo</lastName>
+        <party>D</party>
+        <state>GU</state>
+        <middleName>Z.</middleName>
+        <district>0</district>
+        <sponsorshipDate>2012-09-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Asia</name>
+        </item>
+        <item>
+          <name>Conflicts and wars</name>
+        </item>
+        <item>
+          <name>Congressional tributes</name>
+        </item>
+        <item>
+          <name>Japan</name>
+        </item>
+        <item>
+          <name>Military history</name>
+        </item>
+        <item>
+          <name>Military personnel and dependents</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Armed Forces and National Security</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2012-09-11</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2012-10-11T20:02:05Z</updateDate>
+        <text><![CDATA[ <p>Commends the 5 living and 80 original members of the Doolittle Tokyo Raiders for their participation in the Tokyo, Japan, bombing raid of April 18, 1942.</p> <p> Recognizes the valor, skill, and courage of the Raiders that proved invaluable to the eventual defeat of Japan during the Second World War. </p> <p>Acknowledges that the actions of the Raiders helped to forge an enduring example of heroism in the face of uncertainty for the Army Air Corps of the Second World War, the future of the Air Force, and the United States as a whole. </p> <ul> </ul>]]></text>
+      </summary>
+    </summaries>
+    <title>Commemorating the 70th anniversary and commending the brave men of the 17th Bombardment Group (Medium) who became known as the "Doolittle Tokyo Raiders" for outstanding heroism, valor, skill, and service to the United States in conducting the bombing of Tokyo on April 18, 1942.</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Commemorating the 70th anniversary and commending the brave men of the 17th Bombardment Group (Medium) who became known as the "Doolittle Tokyo Raiders" for outstanding heroism, valor, skill, and service to the United States in conducting the bombing of Tokyo on April 18, 1942.</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>Commemorating the 70th anniversary and commending the brave men of the 17th Bombardment Group (Medium) who became known as the "Doolittle Tokyo Raiders" for outstanding heroism, valor, skill, and service to the United States in conducting the bombing of Tokyo on April 18, 1942.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2012-09-11T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-112hres777ih/xml/BILLS-112hres777ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2012-10-05</actionDate>
+      <text>Referred to the Subcommittee on Military Personnel.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>2885</number>
+    <updateDate>2023-01-12T17:52:56Z</updateDate>
+    <updateDateIncludingText>2023-01-12T17:52:56Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2007-06-27</introducedDate>
+    <congress>110</congress>
+    <committees>
+      <item>
+        <systemCode>hsba00</systemCode>
+        <name>Financial Services Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Hearings by</name>
+            <date>2008-05-20T13:56:31Z</date>
+          </item>
+          <item>
+            <name>Referred to</name>
+            <date>2007-06-27T14:04:10Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>sscm00</systemCode>
+        <name>Commerce, Science, and Transportation Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Hearings by</name>
+            <date>2007-07-31T21:34:09Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2008-05-20</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsba00</systemCode>
+            <name>Financial Services Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Committee Hearings Held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2007-07-31</actionDate>
+        <committees>
+          <item>
+            <systemCode>sscm00</systemCode>
+            <name>Commerce, Science, and Transportation Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Commerce, Science, and Transportation. Hearings held. Hearings printed: S.Hrg. 110-1170.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2007-06-27</actionDate>
+        <text>Referred to the House Committee on Financial Services.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsba00</systemCode>
+            <name>Financial Services Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2007-06-27</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2007-06-27</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>K000008</bioguideId>
+        <fullName>Rep. Kanjorski, Paul E. [D-PA-11]</fullName>
+        <firstName>PAUL</firstName>
+        <lastName>KANJORSKI</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <middleName>E.</middleName>
+        <district>11</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>R000487</bioguideId>
+        <fullName>Rep. Royce, Edward R. [R-CA-40]</fullName>
+        <firstName>ED</firstName>
+        <lastName>ROYCE</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <district>40</district>
+        <sponsorshipDate>2007-06-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000591</bioguideId>
+        <fullName>Rep. Price, Tom [R-GA-6]</fullName>
+        <firstName>Tom</firstName>
+        <lastName>Price</lastName>
+        <party>R</party>
+        <state>GA</state>
+        <district>6</district>
+        <sponsorshipDate>2007-06-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000013</bioguideId>
+        <fullName>Rep. Bachus, Spencer [R-AL-6]</fullName>
+        <firstName>SPENCER</firstName>
+        <lastName>BACHUS</lastName>
+        <party>R</party>
+        <state>AL</state>
+        <district>6</district>
+        <sponsorshipDate>2007-06-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001253</bioguideId>
+        <fullName>Rep. Bean, Melissa L. [D-IL-8]</fullName>
+        <firstName>Melissa</firstName>
+        <lastName>Bean</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>L.</middleName>
+        <district>8</district>
+        <sponsorshipDate>2007-06-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001247</bioguideId>
+        <fullName>Rep. Brown-Waite, Ginny [R-FL-5]</fullName>
+        <firstName>Ginny</firstName>
+        <lastName>Brown-Waite</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>5</district>
+        <sponsorshipDate>2007-06-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001157</bioguideId>
+        <fullName>Rep. Scott, David [D-GA-13]</fullName>
+        <firstName>David</firstName>
+        <lastName>Scott</lastName>
+        <party>D</party>
+        <state>GA</state>
+        <district>13</district>
+        <sponsorshipDate>2007-06-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000250</bioguideId>
+        <fullName>Rep. Sessions, Pete [R-TX-32]</fullName>
+        <firstName>PETE</firstName>
+        <lastName>SESSIONS</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>32</district>
+        <sponsorshipDate>2007-06-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001064</bioguideId>
+        <fullName>Rep. Campbell, John [R-CA-48]</fullName>
+        <firstName>John</firstName>
+        <lastName>Campbell</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <district>48</district>
+        <sponsorshipDate>2007-06-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001036</bioguideId>
+        <fullName>Rep. Hensarling, Jeb [R-TX-5]</fullName>
+        <firstName>Jeb</firstName>
+        <lastName>Hensarling</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>5</district>
+        <sponsorshipDate>2007-07-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000021</bioguideId>
+        <fullName>Rep. Gallegly, Elton [R-CA-24]</fullName>
+        <firstName>ELTON</firstName>
+        <lastName>GALLEGLY</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <district>24</district>
+        <sponsorshipDate>2007-07-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001049</bioguideId>
+        <fullName>Rep. Clay, Wm. Lacy [D-MO-1]</fullName>
+        <firstName>WM.</firstName>
+        <lastName>CLAY</lastName>
+        <party>D</party>
+        <state>MO</state>
+        <middleName>LACY</middleName>
+        <district>1</district>
+        <sponsorshipDate>2007-07-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001140</bioguideId>
+        <fullName>Rep. Moore, Dennis [D-KS-3]</fullName>
+        <firstName>DENNIS</firstName>
+        <lastName>MOORE</lastName>
+        <party>D</party>
+        <state>KS</state>
+        <district>3</district>
+        <sponsorshipDate>2007-07-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001158</bioguideId>
+        <fullName>Rep. Marchant, Kenny [R-TX-24]</fullName>
+        <firstName>Kenny</firstName>
+        <lastName>Marchant</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>24</district>
+        <sponsorshipDate>2007-07-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000762</bioguideId>
+        <fullName>Rep. Hooley, Darlene [D-OR-5]</fullName>
+        <firstName>DARLENE</firstName>
+        <lastName>HOOLEY</lastName>
+        <party>D</party>
+        <state>OR</state>
+        <district>5</district>
+        <sponsorshipDate>2007-07-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000447</bioguideId>
+        <fullName>Rep. Feeney, Tom [R-FL-24]</fullName>
+        <firstName>Tom</firstName>
+        <lastName>Feeney</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>24</district>
+        <sponsorshipDate>2007-07-30</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>J000255</bioguideId>
+        <fullName>Rep. Jones, Walter B., Jr. [R-NC-3]</fullName>
+        <firstName>WALTER</firstName>
+        <lastName>JONES</lastName>
+        <party>R</party>
+        <state>NC</state>
+        <middleName>B.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2007-09-07</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001164</bioguideId>
+        <fullName>Rep. Mahoney, Tim [D-FL-16]</fullName>
+        <firstName>Tim</firstName>
+        <lastName>Mahoney</lastName>
+        <party>D</party>
+        <state>FL</state>
+        <district>16</district>
+        <sponsorshipDate>2007-10-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001232</bioguideId>
+        <fullName>Rep. Biggert, Judy [R-IL-13]</fullName>
+        <firstName>JUDY</firstName>
+        <lastName>BIGGERT</lastName>
+        <party>R</party>
+        <state>IL</state>
+        <district>13</district>
+        <sponsorshipDate>2007-11-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000243</bioguideId>
+        <fullName>Rep. Castle, Michael N. [R-DE-At Large]</fullName>
+        <firstName>MICHAEL</firstName>
+        <lastName>CASTLE</lastName>
+        <party>R</party>
+        <state>DE</state>
+        <middleName>N.</middleName>
+        <district>0</district>
+        <sponsorshipDate>2007-12-11</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000580</bioguideId>
+        <fullName>Rep. Roskam, Peter J. [R-IL-6]</fullName>
+        <firstName>Peter</firstName>
+        <lastName>Roskam</lastName>
+        <party>R</party>
+        <state>IL</state>
+        <middleName>J.</middleName>
+        <district>6</district>
+        <sponsorshipDate>2008-02-06</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001239</bioguideId>
+        <fullName>Rep. Barrett, J. Gresham [R-SC-3]</fullName>
+        <firstName>J.</firstName>
+        <lastName>Barrett</lastName>
+        <party>R</party>
+        <state>SC</state>
+        <middleName>Gresham</middleName>
+        <district>3</district>
+        <sponsorshipDate>2008-02-06</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000461</bioguideId>
+        <fullName>Rep. Bilbray, Brian P. [R-CA-50]</fullName>
+        <firstName>BRIAN</firstName>
+        <lastName>BILBRAY</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <middleName>P.</middleName>
+        <district>50</district>
+        <sponsorshipDate>2008-02-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001167</bioguideId>
+        <fullName>Rep. Sali, Bill [R-ID-1]</fullName>
+        <firstName>Bill</firstName>
+        <lastName>Sali</lastName>
+        <party>R</party>
+        <state>ID</state>
+        <district>1</district>
+        <sponsorshipDate>2008-02-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000448</bioguideId>
+        <fullName>Rep. Franks, Trent [R-AZ-2]</fullName>
+        <firstName>Trent</firstName>
+        <lastName>Franks</lastName>
+        <party>R</party>
+        <state>AZ</state>
+        <district>2</district>
+        <sponsorshipDate>2008-02-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000798</bioguideId>
+        <fullName>Rep. Walberg, Timothy [R-MI-7]</fullName>
+        <firstName>Timothy</firstName>
+        <lastName>Walberg</lastName>
+        <party>R</party>
+        <state>MI</state>
+        <district>7</district>
+        <sponsorshipDate>2008-02-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001256</bioguideId>
+        <fullName>Rep. Bachmann, Michele [R-MN-6]</fullName>
+        <firstName>Michele</firstName>
+        <lastName>Bachmann</lastName>
+        <party>R</party>
+        <state>MN</state>
+        <district>6</district>
+        <sponsorshipDate>2008-04-02</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001156</bioguideId>
+        <fullName>Rep. McHenry, Patrick T. [R-NC-10]</fullName>
+        <firstName>Patrick</firstName>
+        <lastName>McHenry</lastName>
+        <party>R</party>
+        <state>NC</state>
+        <district>10</district>
+        <sponsorshipDate>2008-05-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000636</bioguideId>
+        <fullName>Rep. Hinojosa, Ruben [D-TX-15]</fullName>
+        <firstName>RUBEN</firstName>
+        <lastName>HINOJOSA</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>15</district>
+        <sponsorshipDate>2008-05-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Finance and Financial Sector</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Commerce</name>
+        </item>
+        <item>
+          <name>Consumer complaints</name>
+        </item>
+        <item>
+          <name>Consumer credit</name>
+        </item>
+        <item>
+          <name>Consumer education</name>
+        </item>
+        <item>
+          <name>Consumer protection</name>
+        </item>
+        <item>
+          <name>Contracts</name>
+        </item>
+        <item>
+          <name>Crime and Law Enforcement</name>
+        </item>
+        <item>
+          <name>Fees</name>
+        </item>
+        <item>
+          <name>Fraud</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Government paperwork</name>
+        </item>
+        <item>
+          <name>Identity theft</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Finance and Financial Sector</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2007-06-27</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2007-08-27T19:39:16Z</updateDate>
+        <text><![CDATA[ <p>Credit Monitoring Clarification Act - Amends the Credit Repair Organizations Act to cite conditions under which provision to a consumer of credit reports, credit score analysis, and assistance in a case of identity theft shall not be considered as an activity to improve a consumer's credit status, which is subject to regulation under such Act.</p> <p>Exempts from regulation under such Act any person (credit repair organization, or CRO) representing that it can modify or remove, or assist the consumer in modifying or removing, any information in the consumer's credit report if the CRO gives clear and conspicuous notice, before the consumer pays or agrees to pay it, that: (1) neither the consumer nor anyone else has the right to have accurate and current information removed from a credit report; and (2) the consumer has the right to dispute any inaccurate information by contacting the credit bureau directly. Requires a CRO, to qualify for this exemption from regulation, also to give the consumer, before payment or agreement to pay, a specified disclosure entitled &quot;Your Rights Concerning Your Consumer Credit File.&quot;</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Credit Monitoring Clarification Act</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Credit Monitoring Clarification Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend the Credit Repair Organizations Act to clarify the applicability of certain provisions to credit monitoring services, and for other purposes.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Credit Monitoring Clarification Act</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2007-06-27T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-110hr2885ih/xml/BILLS-110hr2885ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2008-05-20</actionDate>
+      <text>Committee Hearings Held.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

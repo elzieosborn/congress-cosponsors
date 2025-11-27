@@ -1,0 +1,262 @@
+{
+  "actions": [
+    {
+      "acted_at": "2016-12-08",
+      "action_code": "Intro-H",
+      "references": [],
+      "text": "Introduced in House",
+      "type": "action"
+    },
+    {
+      "acted_at": "2016-12-08T14:32:26-05:00",
+      "action_code": "H30200",
+      "references": [],
+      "text": "Mr. Goodlatte asked unanimous consent to take from the Speaker's table and consider.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2016-12-08T14:32:30-05:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H7551-7552",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered by unanimous consent.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2016-12-08T14:32:35-05:00",
+      "action_code": "H37100",
+      "how": "without objection",
+      "references": [
+        {
+          "reference": "CR H7551-7552",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "status": "PASS_OVER:HOUSE",
+      "suspension": null,
+      "text": "On passage Passed without objection.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "h"
+    },
+    {
+      "acted_at": "2016-12-08T14:32:43-05:00",
+      "action_code": "H38310",
+      "references": [],
+      "text": "Motion to reconsider laid on the table Agreed to without objection.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2016-12-08",
+      "action_code": "",
+      "references": [],
+      "text": "Received in the Senate, read twice.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2016-12-10",
+      "action_code": "",
+      "how": "by Voice Vote",
+      "references": [
+        {
+          "reference": "CR S7128-7131",
+          "type": "consideration"
+        }
+      ],
+      "result": "pass",
+      "status": "PASSED:BILL",
+      "text": "Passed Senate without amendment by Voice Vote.",
+      "type": "vote",
+      "vote_type": "vote2",
+      "where": "s"
+    },
+    {
+      "acted_at": "2016-12-12",
+      "action_code": "",
+      "references": [],
+      "text": "Message on Senate action sent to the House.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2016-12-15",
+      "action_code": "E20000",
+      "references": [],
+      "text": "Presented to President.",
+      "type": "topresident"
+    },
+    {
+      "acted_at": "2016-12-16",
+      "action_code": "E30000",
+      "references": [],
+      "status": "ENACTED:SIGNED",
+      "text": "Signed by President.",
+      "type": "signed"
+    },
+    {
+      "acted_at": "2016-12-16",
+      "action_code": "E40000",
+      "congress": "114",
+      "law": "public",
+      "number": "319",
+      "references": [],
+      "text": "Became Public Law No: 114-319.",
+      "type": "enacted"
+    }
+  ],
+  "amendments": [],
+  "bill_id": "hr6477-114",
+  "bill_type": "hr",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [],
+  "congress": "114",
+  "cosponsors": [
+    {
+      "bioguide_id": "C001068",
+      "district": "9",
+      "name": "Cohen, Steve",
+      "original_cosponsor": true,
+      "sponsored_at": "2016-12-08",
+      "state": "TN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C000714",
+      "district": "13",
+      "name": "Conyers, John, Jr.",
+      "original_cosponsor": true,
+      "sponsored_at": "2016-12-08",
+      "state": "MI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "G000289",
+      "district": "6",
+      "name": "Goodlatte, Bob",
+      "original_cosponsor": true,
+      "sponsored_at": "2016-12-08",
+      "state": "VA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    }
+  ],
+  "enacted_as": {
+    "congress": "114",
+    "law_type": "public",
+    "number": "319"
+  },
+  "history": {
+    "active": true,
+    "active_at": "2016-12-08T14:32:26-05:00",
+    "awaiting_signature": false,
+    "enacted": true,
+    "enacted_at": "2016-12-16",
+    "house_passage_result": "pass",
+    "house_passage_result_at": "2016-12-08T14:32:35-05:00",
+    "senate_passage_result": "pass",
+    "senate_passage_result_at": "2016-12-10",
+    "vetoed": false
+  },
+  "introduced_at": "2016-12-08",
+  "number": "6477",
+  "official_title": "To amend chapter 97 of title 28, United States Code, to clarify the exception to foreign sovereign immunity set forth in section 1605(a)(3) of such title.",
+  "popular_title": null,
+  "related_bills": [
+    {
+      "bill_id": "hr889-114",
+      "identified_by": "CRS",
+      "reason": "related",
+      "type": "bill"
+    },
+    {
+      "bill_id": "s2648-114",
+      "identified_by": "CRS",
+      "reason": "related",
+      "type": "bill"
+    },
+    {
+      "bill_id": "s3155-114",
+      "identified_by": "CRS",
+      "reason": "related",
+      "type": "bill"
+    }
+  ],
+  "short_title": "Foreign Cultural Exchange Jurisdictional Immunity Clarification Act",
+  "sponsor": {
+    "bioguide_id": "C000266",
+    "district": "1",
+    "name": "Chabot, Steve",
+    "state": "OH",
+    "title": "Rep.",
+    "type": "person"
+  },
+  "status": "ENACTED:SIGNED",
+  "status_at": "2016-12-16",
+  "subjects": [
+    "Art, artists, authorship",
+    "Cultural exchanges and relations",
+    "Europe",
+    "Germany",
+    "Government liability",
+    "Historical and cultural resources",
+    "International law and treaties",
+    "Jurisdiction and venue",
+    "Law",
+    "Museums, exhibitions, cultural centers",
+    "Property rights",
+    "War crimes, genocide, crimes against humanity"
+  ],
+  "subjects_top_term": "Law",
+  "summary": {
+    "as": "Public Law",
+    "asOf": "2016-12-16",
+    "date": "2016-12-22T16:57:21Z",
+    "text": "(This measure has not been amended since it was introduced. The expanded summary of the House passed version is repeated here.)\n\nForeign Cultural Exchange Jurisdictional Immunity Clarification Act\n\n(Sec. 2) This bill amends the federal judicial code with respect to denial of a foreign state's sovereign immunity from the jurisdiction of U.S. or state courts in commercial activity cases where rights in property taken in violation of international law are in issue and that property, or any property exchanged for it, is: (1) present in the United States in connection with a commercial activity carried on by the foreign state in the United States, or (2) owned by an agency or instrumentality of the foreign state and that agency or instrumentality is engaged in a commercial activity in the United States.\n\nThe bill grants a foreign state or certain carriers immunity from federal or state court jurisdiction for any activity in the United States associated with a temporary exhibition or display of a work of art or other object of cultural significance if:\n\n the work of art or other object of cultural significance is imported into the United States from any foreign country pursuant to an agreement for its temporary exhibition or display between a foreign state that is its owner or custodian and the United States or U.S. cultural or educational institutions; and the President has determined that such work is culturally significant and its temporary exhibition or display is in the national interest. The bill denies immunity, however, in cases concerning rights in property taken in violation of international law in which the action is based upon a claim that the work was taken: (1) between January 30, 1933, and May 8, 1945, by the government of Germany or any government in Europe occupied, assisted, or allied by the German government; or (2) after 1900 in connection with the acts of a foreign government as part of a systematic campaign of coercive confiscation or misappropriation of works from members of a targeted and vulnerable group. For purposes of these denials of immunity, the court must determine that the activity associated with the exhibition or display is commercial and that determination must be necessary for the court to exercise jurisdiction over the foreign state.\n\n(Sec. 3) The Department of State must ensure that foreign states that apply for such temporary exhibition immunity are notified of the amendments made by this bill."
+  },
+  "titles": [
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Foreign Cultural Exchange Jurisdictional Immunity Clarification Act",
+      "type": "display"
+    },
+    {
+      "as": "enacted",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Foreign Cultural Exchange Jurisdictional Immunity Clarification Act",
+      "type": "short"
+    },
+    {
+      "as": "passed senate",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Foreign Cultural Exchange Jurisdictional Immunity Clarification Act",
+      "type": "short"
+    },
+    {
+      "as": "passed house",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Foreign Cultural Exchange Jurisdictional Immunity Clarification Act",
+      "type": "short"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "To amend chapter 97 of title 28, United States Code, to clarify the exception to foreign sovereign immunity set forth in section 1605(a)(3) of such title.",
+      "type": "official"
+    }
+  ],
+  "updated_at": "2023-04-24T20:39:47Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/114/hr/BILLSTATUS-114hr6477.xml"
+}

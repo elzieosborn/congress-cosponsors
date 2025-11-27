@@ -1,0 +1,273 @@
+{
+  "actions": [
+    {
+      "acted_at": "2018-06-07",
+      "action_code": "Intro-H",
+      "references": [],
+      "text": "Introduced in House",
+      "type": "action"
+    },
+    {
+      "acted_at": "2018-06-07",
+      "action_code": "H11100",
+      "committees": [
+        "HSIF"
+      ],
+      "references": [],
+      "status": "REFERRED",
+      "text": "Referred to the House Committee on Energy and Commerce.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2018-06-19T15:16:12-04:00",
+      "action_code": "H30300",
+      "references": [],
+      "text": "Mr. Guthrie moved to suspend the rules and pass the bill, as amended.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2018-06-19T15:16:41-04:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H5244-5245",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered under suspension of the rules.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2018-06-19T15:16:43-04:00",
+      "action_code": "H8D000",
+      "references": [],
+      "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 6042.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2018-06-19T15:23:27-04:00",
+      "action_code": "H37300",
+      "how": "by voice vote",
+      "references": [
+        {
+          "reference": "CR H5244",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "status": "PASS_OVER:HOUSE",
+      "suspension": null,
+      "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "h"
+    },
+    {
+      "acted_at": "2018-06-19T15:23:29-04:00",
+      "action_code": "H38310",
+      "references": [],
+      "text": "Motion to reconsider laid on the table Agreed to without objection.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2018-06-20",
+      "action_code": "",
+      "committees": [
+        "SSFI"
+      ],
+      "references": [],
+      "text": "Received in the Senate and Read twice and referred to the Committee on Finance.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2018-07-17",
+      "action_code": "",
+      "committees": [
+        "SSFI"
+      ],
+      "references": [
+        {
+          "reference": "CR S5006",
+          "type": "consideration"
+        }
+      ],
+      "text": "Senate Committee on Finance discharged by Unanimous Consent.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2018-07-17",
+      "action_code": "",
+      "how": "by Unanimous Consent",
+      "references": [],
+      "result": "pass",
+      "status": "PASSED:BILL",
+      "text": "Passed Senate without amendment by Unanimous Consent.",
+      "type": "vote",
+      "vote_type": "vote2",
+      "where": "s"
+    },
+    {
+      "acted_at": "2018-07-18",
+      "action_code": "",
+      "references": [],
+      "text": "Message on Senate action sent to the House.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2018-07-19",
+      "action_code": "E20000",
+      "references": [],
+      "text": "Presented to President.",
+      "type": "topresident"
+    },
+    {
+      "acted_at": "2018-07-30",
+      "action_code": "E30000",
+      "references": [],
+      "status": "ENACTED:SIGNED",
+      "text": "Signed by President.",
+      "type": "signed"
+    },
+    {
+      "acted_at": "2018-07-30",
+      "action_code": "E40000",
+      "congress": "115",
+      "law": "public",
+      "number": "222",
+      "references": [],
+      "text": "Became Public Law No: 115-222.",
+      "type": "enacted"
+    }
+  ],
+  "amendments": [],
+  "bill_id": "hr6042-115",
+  "bill_type": "hr",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [
+    {
+      "activity": [
+        "discharged",
+        "referral"
+      ],
+      "committee": "Senate Finance",
+      "committee_id": "SSFI"
+    },
+    {
+      "activity": [
+        "referral"
+      ],
+      "committee": "House Energy and Commerce",
+      "committee_id": "HSIF"
+    }
+  ],
+  "congress": "115",
+  "cosponsors": [
+    {
+      "bioguide_id": "D000197",
+      "district": "1",
+      "name": "DeGette, Diana",
+      "original_cosponsor": false,
+      "sponsored_at": "2018-06-15",
+      "state": "CO",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "L000559",
+      "district": "2",
+      "name": "Langevin, James R.",
+      "original_cosponsor": false,
+      "sponsored_at": "2018-06-15",
+      "state": "RI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000791",
+      "district": "2",
+      "name": "Walden, Greg",
+      "original_cosponsor": false,
+      "sponsored_at": "2018-06-19",
+      "state": "OR",
+      "title": "Rep.",
+      "withdrawn_at": null
+    }
+  ],
+  "enacted_as": {
+    "congress": "115",
+    "law_type": "public",
+    "number": "222"
+  },
+  "history": {
+    "active": true,
+    "active_at": "2018-06-19T15:16:12-04:00",
+    "awaiting_signature": false,
+    "enacted": true,
+    "enacted_at": "2018-07-30",
+    "house_passage_result": "pass",
+    "house_passage_result_at": "2018-06-19T15:23:27-04:00",
+    "senate_passage_result": "pass",
+    "senate_passage_result_at": "2018-07-17",
+    "vetoed": false
+  },
+  "introduced_at": "2018-06-07",
+  "number": "6042",
+  "official_title": "To amend title XIX of the Social Security Act to delay the reduction in Federal medical assistance percentage for Medicaid personal care services furnished without an electronic visit verification system, and for other purposes.",
+  "popular_title": null,
+  "related_bills": [
+    {
+      "bill_id": "hr5912-115",
+      "identified_by": "CRS",
+      "reason": "related",
+      "type": "bill"
+    }
+  ],
+  "short_title": null,
+  "sponsor": {
+    "bioguide_id": "G000558",
+    "district": "2",
+    "name": "Guthrie, Brett",
+    "state": "KY",
+    "title": "Rep.",
+    "type": "person"
+  },
+  "status": "ENACTED:SIGNED",
+  "status_at": "2018-07-30",
+  "subjects": [
+    "Disability and paralysis",
+    "Health",
+    "Health information and medical records",
+    "Home and outpatient care",
+    "Intergovernmental relations",
+    "Medicaid",
+    "Public participation and lobbying",
+    "State and local finance",
+    "State and local government operations"
+  ],
+  "subjects_top_term": "Health",
+  "summary": {
+    "as": "Public Law",
+    "asOf": "2018-07-30",
+    "date": "2018-10-15T17:32:59Z",
+    "text": "(Sec. 1) This bill delays by one year (to January 1, 2020) the Medicaid federal matching rate reduction that is scheduled to take effect for states that fail to require an electronic visit verification system for personal care services (services that help certain individuals with basic needs of daily life)."
+  },
+  "titles": [
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "To amend title XIX of the Social Security Act to delay the reduction in Federal medical assistance percentage for Medicaid personal care services furnished without an electronic visit verification system, and for other purposes.",
+      "type": "display"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "To amend title XIX of the Social Security Act to delay the reduction in Federal medical assistance percentage for Medicaid personal care services furnished without an electronic visit verification system, and for other purposes.",
+      "type": "official"
+    }
+  ],
+  "updated_at": "2023-03-22T19:50:56Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/115/hr/BILLSTATUS-115hr6042.xml"
+}

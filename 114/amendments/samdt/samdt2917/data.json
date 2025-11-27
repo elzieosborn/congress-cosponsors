@@ -1,0 +1,86 @@
+{
+  "actions": [
+    {
+      "acted_at": "2015-12-03",
+      "action_code": "",
+      "how": "Voice Vote",
+      "references": [],
+      "result": "pass",
+      "text": "Amendment SA 2917 agreed to in Senate by Voice Vote.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "s"
+    },
+    {
+      "acted_at": "2015-12-03",
+      "action_code": "",
+      "references": [],
+      "text": "Amendment SA 2917 proposed by Senator Reid to Amendment SA 2916. (consideration: CR S8354; text: CR S8354) To strike the reinstatement of the tax on employee health insurance premiums and health plan benefits.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2015-12-03",
+      "action_code": "94000",
+      "references": [],
+      "text": "Senate amendment agreed to: Amendment SA 2917 agreed to in Senate by Voice Vote.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2015-12-03",
+      "action_code": "93000",
+      "references": [
+        {
+          "reference": "CR S8354",
+          "type": "consideration"
+        },
+        {
+          "reference": "CR S8354",
+          "type": "text"
+        }
+      ],
+      "text": "Senate amendment proposed (on the floor): Amendment SA 2917 proposed by Senator Reid to Amendment SA 2916.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2015-12-03",
+      "action_code": "91000",
+      "references": [],
+      "text": "Senate amendment submitted",
+      "type": "action"
+    }
+  ],
+  "amendment_id": "samdt2917-114",
+  "amendment_type": "samdt",
+  "amends_amendment": {
+    "amendment_id": "samdt2916-114",
+    "amendment_type": "samdt",
+    "congress": 114,
+    "description": "",
+    "number": 2916,
+    "purpose": "In the nature of a substitute."
+  },
+  "amends_bill": {
+    "bill_id": "hr3762-114",
+    "bill_type": "hr",
+    "congress": 114,
+    "number": 3762
+  },
+  "amends_treaty": null,
+  "chamber": "s",
+  "congress": "114",
+  "introduced_at": "2015-12-03",
+  "number": 2917,
+  "proposed_at": "2015-12-03T05:00:00Z",
+  "purpose": "To strike the reinstatement of the tax on employee health insurance premiums and health plan benefits.",
+  "sponsor": {
+    "bioguide_id": "R000146",
+    "district": null,
+    "name": "Reid, Harry",
+    "state": "NV",
+    "title": "Sen.",
+    "type": "person"
+  },
+  "status": "pass",
+  "status_at": "2015-12-03",
+  "updated_at": "2022-02-01T11:56:55Z"
+}

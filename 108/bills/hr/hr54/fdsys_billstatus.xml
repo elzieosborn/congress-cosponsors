@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>54</number>
+    <updateDate>2023-01-15T21:19:35Z</updateDate>
+    <updateDateIncludingText>2023-01-15T21:19:35Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2003-01-07</introducedDate>
+    <congress>108</congress>
+    <committees>
+      <item>
+        <systemCode>hsju00</systemCode>
+        <name>Judiciary Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsju08</systemCode>
+            <name>Crime and Federal Government Surveillance Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2003-03-06T19:38:40Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2003-01-07T17:13:45Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2003-03-06</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsju08</systemCode>
+            <name>Crime and Federal Government Surveillance Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2003-01-07</actionDate>
+        <text>Referred to the House Committee on the Judiciary.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2003-01-07</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2003-01-07</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>C001045</bioguideId>
+        <fullName>Rep. Crenshaw, Ander [R-FL-4]</fullName>
+        <firstName>ANDER</firstName>
+        <lastName>CRENSHAW</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>4</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>M000689</bioguideId>
+        <fullName>Rep. Mica, John L. [R-FL-7]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>MICA</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <middleName>L.</middleName>
+        <district>7</district>
+        <sponsorshipDate>2003-01-07</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000586</bioguideId>
+        <fullName>Rep. Putnam, Adam H. [R-FL-12]</fullName>
+        <firstName>ADAM</firstName>
+        <lastName>PUTNAM</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <middleName>H.</middleName>
+        <district>12</district>
+        <sponsorshipDate>2003-01-07</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>O000163</bioguideId>
+        <fullName>Rep. Oxley, Michael G. [R-OH-4]</fullName>
+        <firstName>MICHAEL</firstName>
+        <lastName>OXLEY</lastName>
+        <party>R</party>
+        <state>OH</state>
+        <middleName>G.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2003-01-07</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000445</bioguideId>
+        <fullName>Rep. Forbes, J. Randy [R-VA-4]</fullName>
+        <firstName>J.</firstName>
+        <lastName>Forbes</lastName>
+        <party>R</party>
+        <state>VA</state>
+        <middleName>Randy</middleName>
+        <district>4</district>
+        <sponsorshipDate>2003-01-07</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000358</bioguideId>
+        <fullName>Rep. Kennedy, Mark R. [R-MN-6]</fullName>
+        <firstName>MARK</firstName>
+        <lastName>KENNEDY</lastName>
+        <party>R</party>
+        <state>MN</state>
+        <middleName>R.</middleName>
+        <district>6</district>
+        <sponsorshipDate>2003-01-07</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000575</bioguideId>
+        <fullName>Rep. Blunt, Roy [R-MO-7]</fullName>
+        <firstName>ROY</firstName>
+        <lastName>BLUNT</lastName>
+        <party>R</party>
+        <state>MO</state>
+        <district>7</district>
+        <sponsorshipDate>2003-05-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000187</bioguideId>
+        <fullName>Rep. English, Phil [R-PA-3]</fullName>
+        <firstName>PHIL</firstName>
+        <lastName>ENGLISH</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <district>3</district>
+        <sponsorshipDate>2003-05-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000572</bioguideId>
+        <fullName>Rep. Rogers, Mike J. [R-MI-8]</fullName>
+        <firstName>Mike</firstName>
+        <lastName>Rogers</lastName>
+        <party>R</party>
+        <state>MI</state>
+        <district>8</district>
+        <sponsorshipDate>2003-05-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000273</bioguideId>
+        <fullName>Rep. Weller, Jerry [R-IL-11]</fullName>
+        <firstName>GERALD</firstName>
+        <lastName>WELLER</lastName>
+        <party>R</party>
+        <state>IL</state>
+        <middleName>C.</middleName>
+        <district>11</district>
+        <sponsorshipDate>2003-05-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000472</bioguideId>
+        <fullName>Rep. McHugh, John M. [R-NY-23]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>MCHUGH</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <middleName>M.</middleName>
+        <district>23</district>
+        <sponsorshipDate>2003-05-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000528</bioguideId>
+        <fullName>Rep. Herger, Wally [R-CA-2]</fullName>
+        <firstName>WALLY</firstName>
+        <lastName>HERGER</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <district>2</district>
+        <sponsorshipDate>2003-05-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000410</bioguideId>
+        <fullName>Rep. Green, Gene [D-TX-29]</fullName>
+        <firstName>GENE</firstName>
+        <lastName>GREEN</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>29</district>
+        <sponsorshipDate>2003-06-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000119</bioguideId>
+        <fullName>Rep. Wamp, Zach [R-TN-3]</fullName>
+        <firstName>ZACH</firstName>
+        <lastName>WAMP</lastName>
+        <party>R</party>
+        <state>TN</state>
+        <district>3</district>
+        <sponsorshipDate>2003-06-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>N000051</bioguideId>
+        <fullName>Rep. Nethercutt, George R., Jr. [R-WA-5]</fullName>
+        <firstName>GEORGE</firstName>
+        <lastName>NETHERCUTT</lastName>
+        <party>R</party>
+        <state>WA</state>
+        <district>5</district>
+        <sponsorshipDate>2003-06-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000299</bioguideId>
+        <fullName>Rep. Diaz-Balart, Lincoln [R-FL-21]</fullName>
+        <firstName>LINCOLN</firstName>
+        <lastName>DIAZ-BALART</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>21</district>
+        <sponsorshipDate>2003-06-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000822</bioguideId>
+        <fullName>Rep. Stearns, Cliff [R-FL-6]</fullName>
+        <firstName>CLIFF</firstName>
+        <lastName>STEARNS</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>6</district>
+        <sponsorshipDate>2003-06-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000413</bioguideId>
+        <fullName>Rep. Hayworth, J. D. [R-AZ-5]</fullName>
+        <firstName>J.</firstName>
+        <lastName>HAYWORTH</lastName>
+        <party>R</party>
+        <state>AZ</state>
+        <middleName>D.</middleName>
+        <district>5</district>
+        <sponsorshipDate>2003-06-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000260</bioguideId>
+        <fullName>Rep. Tiahrt, Todd [R-KS-4]</fullName>
+        <firstName>TODD</firstName>
+        <lastName>TIAHRT</lastName>
+        <party>R</party>
+        <state>KS</state>
+        <district>4</district>
+        <sponsorshipDate>2003-06-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000587</bioguideId>
+        <fullName>Rep. Pence, Mike [R-IN-6]</fullName>
+        <firstName>MIKE</firstName>
+        <lastName>PENCE</lastName>
+        <party>R</party>
+        <state>IN</state>
+        <district>6</district>
+        <sponsorshipDate>2003-06-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000911</bioguideId>
+        <fullName>Rep. Brown, Corrine [D-FL-3]</fullName>
+        <firstName>CORRINE</firstName>
+        <lastName>BROWN</lastName>
+        <party>D</party>
+        <state>FL</state>
+        <district>3</district>
+        <sponsorshipDate>2003-06-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000560</bioguideId>
+        <fullName>Rep. Larsen, Rick [D-WA-2]</fullName>
+        <firstName>RICK</firstName>
+        <lastName>LARSEN</lastName>
+        <party>D</party>
+        <state>WA</state>
+        <district>2</district>
+        <sponsorshipDate>2003-06-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000437</bioguideId>
+        <fullName>Rep. Wicker, Roger F. [R-MS-1]</fullName>
+        <firstName>Roger</firstName>
+        <lastName>Wicker</lastName>
+        <party>R</party>
+        <state>MS</state>
+        <middleName>F.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2003-06-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000487</bioguideId>
+        <fullName>Rep. Royce, Edward R. [R-CA-40]</fullName>
+        <firstName>ED</firstName>
+        <lastName>ROYCE</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <district>40</district>
+        <sponsorshipDate>2003-06-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000755</bioguideId>
+        <fullName>Rep. Brady, Kevin [R-TX-8]</fullName>
+        <firstName>KEVIN</firstName>
+        <lastName>BRADY</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>8</district>
+        <sponsorshipDate>2003-06-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000072</bioguideId>
+        <fullName>Rep. Baker, Richard H. [R-LA-6]</fullName>
+        <firstName>RICHARD</firstName>
+        <lastName>BAKER</lastName>
+        <party>R</party>
+        <state>LA</state>
+        <middleName>H.</middleName>
+        <district>6</district>
+        <sponsorshipDate>2003-06-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001151</bioguideId>
+        <fullName>Rep. Schrock, Edward L. [R-VA-2]</fullName>
+        <firstName>EDWARD</firstName>
+        <lastName>SCHROCK</lastName>
+        <party>R</party>
+        <state>VA</state>
+        <middleName>L.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2003-06-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000403</bioguideId>
+        <fullName>Rep. Bereuter, Doug [R-NE-1]</fullName>
+        <firstName>DOUGLAS</firstName>
+        <lastName>BEREUTER</lastName>
+        <party>R</party>
+        <state>NE</state>
+        <middleName>K.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2003-06-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001035</bioguideId>
+        <fullName>Rep. Harris, Katherine [R-FL-13]</fullName>
+        <firstName>Katherine</firstName>
+        <lastName>Harris</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>13</district>
+        <sponsorshipDate>2003-09-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000429</bioguideId>
+        <fullName>Rep. Doolittle, John T. [R-CA-4]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>DOOLITTLE</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <middleName>T.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2003-10-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000044</bioguideId>
+        <fullName>Rep. Sandlin, Max [D-TX-1]</fullName>
+        <firstName>MAX</firstName>
+        <lastName>SANDLIN</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>1</district>
+        <sponsorshipDate>2003-10-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000795</bioguideId>
+        <fullName>Rep. Wilson, Joe [R-SC-2]</fullName>
+        <firstName>Joe</firstName>
+        <lastName>Wilson</lastName>
+        <party>R</party>
+        <state>SC</state>
+        <district>2</district>
+        <sponsorshipDate>2003-10-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000789</bioguideId>
+        <fullName>Rep. Wilson, Heather [R-NM-1]</fullName>
+        <firstName>HEATHER</firstName>
+        <lastName>WILSON</lastName>
+        <party>R</party>
+        <state>NM</state>
+        <district>1</district>
+        <sponsorshipDate>2003-10-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001143</bioguideId>
+        <fullName>Rep. Souder, Mark E. [R-IN-3]</fullName>
+        <firstName>MARK</firstName>
+        <lastName>SOUDER</lastName>
+        <party>R</party>
+        <state>IN</state>
+        <middleName>EDWARD</middleName>
+        <district>3</district>
+        <sponsorshipDate>2003-10-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000948</bioguideId>
+        <fullName>Rep. Hulshof, Kenny C. [R-MO-9]</fullName>
+        <firstName>KENNY</firstName>
+        <lastName>HULSHOF</lastName>
+        <party>R</party>
+        <state>MO</state>
+        <middleName>C.</middleName>
+        <district>9</district>
+        <sponsorshipDate>2003-11-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>V000127</bioguideId>
+        <fullName>Rep. Vitter, David [R-LA-1]</fullName>
+        <firstName>David</firstName>
+        <lastName>Vitter</lastName>
+        <party>R</party>
+        <state>LA</state>
+        <district>1</district>
+        <sponsorshipDate>2004-07-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Crime and Law Enforcement</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Administration of justice</name>
+        </item>
+        <item>
+          <name>Assault</name>
+        </item>
+        <item>
+          <name>Citizen participation</name>
+        </item>
+        <item>
+          <name>Congress</name>
+        </item>
+        <item>
+          <name>Congressional reporting requirements</name>
+        </item>
+        <item>
+          <name>Correctional institutions</name>
+        </item>
+        <item>
+          <name>Correctional personnel</name>
+        </item>
+        <item>
+          <name>Crime prevention</name>
+        </item>
+        <item>
+          <name>Criminal justice information</name>
+        </item>
+        <item>
+          <name>Criminal statistics</name>
+        </item>
+        <item>
+          <name>Drug abuse</name>
+        </item>
+        <item>
+          <name>Drug law enforcement</name>
+        </item>
+        <item>
+          <name>Drug traffic</name>
+        </item>
+        <item>
+          <name>Economics and Public Finance</name>
+        </item>
+        <item>
+          <name>Families</name>
+        </item>
+        <item>
+          <name>Federal aid to law enforcement</name>
+        </item>
+        <item>
+          <name>Federal-state relations</name>
+        </item>
+        <item>
+          <name>Firearms</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Homicide</name>
+        </item>
+        <item>
+          <name>Juvenile delinquency</name>
+        </item>
+        <item>
+          <name>Larceny</name>
+        </item>
+        <item>
+          <name>Mandatory sentences</name>
+        </item>
+        <item>
+          <name>Murder</name>
+        </item>
+        <item>
+          <name>Parole</name>
+        </item>
+        <item>
+          <name>Prosecution</name>
+        </item>
+        <item>
+          <name>Rape</name>
+        </item>
+        <item>
+          <name>Recidivists</name>
+        </item>
+        <item>
+          <name>State laws</name>
+        </item>
+        <item>
+          <name>Violence</name>
+        </item>
+        <item>
+          <name>Women</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Crime and Law Enforcement</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2003-01-07</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2006-11-28T17:35:39Z</updateDate>
+        <text><![CDATA[Project Exile Safe Streets and Neighborhoods Act of 2003- Amends the Violent Crime Control and Law Enforcement Act of 1994 to direct the Attorney General to provide firearms sentencing incentive grants to eligible States that: (1) demonstrate that they have implemented laws requiring that any person who uses or carries a firearm in any violent crime or serious drug trafficking crime be sentenced to not less than five years in prison (without the possibility of parole) in addition to the punishment provided for such crime, or requiring that any person who possesses a firearm, having at least one prior conviction for a violent crime, be sentenced to five years' imprisonment (without the possibility of parole); or (2) can demonstrate that they have in effect an equivalent Federal prosecution agreement; and (3) demonstrate that they have or will implement a public awareness and community support program that seeks to build support for, and warns potential violators of, such firearms sentencing laws; and (4) provide assurances that they will coordinate with Federal prosecutors and Federal law enforcement agencies and will allocate resources to reduce crime in high-crime areas.<p>Sets forth allowable uses for such grants, including to: (1) support law enforcement agencies, prosecutors, courts, probation officers, correctional officers, the juvenile justice system, the improvement of criminal history records, or case management programs involving the sharing of information about serious offenders; (2) carry out such a public awareness and community support program; and (3) build or expand correctional facilities.]]></text>
+      </summary>
+    </summaries>
+    <title>Project Exile Safe Streets and Neighborhoods Act of 2003</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Project Exile Safe Streets and Neighborhoods Act of 2003</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To establish a grant program that provides incentives for States to enact mandatory minimum sentences for certain firearms offenses, and for other purposes.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Project Exile Safe Streets and Neighborhoods Act of 2003</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2003-01-07T05:00:00Z</date>
+        <formats/>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2003-03-06</actionDate>
+      <text>Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

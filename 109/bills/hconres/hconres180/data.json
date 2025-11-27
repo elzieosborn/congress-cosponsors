@@ -1,0 +1,243 @@
+{
+  "actions": [
+    {
+      "acted_at": "2005-06-16",
+      "action_code": "Intro-H",
+      "references": [],
+      "text": "Introduced in House",
+      "type": "action"
+    },
+    {
+      "acted_at": "2005-06-16",
+      "action_code": "H11100",
+      "committees": [
+        "HSSY"
+      ],
+      "references": [],
+      "status": "REFERRED",
+      "text": "Referred to the House Committee on Science.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2005-06-21T11:33:14-04:00",
+      "action_code": "H30300",
+      "references": [],
+      "text": "Mr. Boehlert moved to suspend the rules and agree to the resolution.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2005-06-21T11:33:31-04:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H4820-4823",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered under suspension of the rules.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2005-06-21T11:33:33-04:00",
+      "action_code": "H8D000",
+      "bill_ids": [
+        "hcres180-109"
+      ],
+      "references": [],
+      "text": "DEBATE - The House proceeded with forty minutes of debate on H. Con. Res. 180.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2005-06-21T11:51:21-04:00",
+      "action_code": "H37220",
+      "references": [],
+      "text": "At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2005-06-21T17:03:44-04:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H4860",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered as unfinished business.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2005-06-21T17:04:52-04:00",
+      "action_code": "H37300",
+      "how": "by voice vote",
+      "references": [
+        {
+          "reference": "CR H4820",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "status": "PASS_OVER:HOUSE",
+      "suspension": null,
+      "text": "On motion to suspend the rules and agree to the resolution Agreed to by voice vote.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "h"
+    },
+    {
+      "acted_at": "2005-06-21T17:05:01-04:00",
+      "action_code": "H38310",
+      "references": [],
+      "text": "Motion to reconsider laid on the table Agreed to without objection.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2005-06-22",
+      "action_code": "",
+      "committees": [
+        "SSCM"
+      ],
+      "references": [],
+      "text": "Received in the Senate and referred to the Committee on Commerce, Science, and Transportation.",
+      "type": "referral"
+    }
+  ],
+  "amendments": [],
+  "bill_id": "hconres180-109",
+  "bill_type": "hconres",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [
+    {
+      "activity": [
+        "referral"
+      ],
+      "committee": "Senate Commerce, Science, and Transportation",
+      "committee_id": "SSCM"
+    },
+    {
+      "activity": [
+        "referral"
+      ],
+      "committee": "House Science, Space, and Technology",
+      "committee_id": "HSSY"
+    }
+  ],
+  "congress": "109",
+  "cosponsors": [
+    {
+      "bioguide_id": "A000210",
+      "district": "1",
+      "name": "Andrews, Robert E.",
+      "original_cosponsor": true,
+      "sponsored_at": "2005-06-16",
+      "state": "NJ",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B000586",
+      "district": "24",
+      "name": "Boehlert, Sherwood",
+      "original_cosponsor": true,
+      "sponsored_at": "2005-06-16",
+      "state": "NY",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "G000309",
+      "district": "6",
+      "name": "Gordon, Bart",
+      "original_cosponsor": false,
+      "sponsored_at": "2005-06-20",
+      "state": "TN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "T000193",
+      "district": "2",
+      "name": "Thompson, Bennie G.",
+      "original_cosponsor": true,
+      "sponsored_at": "2005-06-16",
+      "state": "MS",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000268",
+      "district": "7",
+      "name": "Weldon, Curt",
+      "original_cosponsor": true,
+      "sponsored_at": "2005-06-16",
+      "state": "PA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    }
+  ],
+  "enacted_as": null,
+  "history": {
+    "active": true,
+    "active_at": "2005-06-21T11:33:14-04:00",
+    "awaiting_signature": false,
+    "enacted": false,
+    "house_passage_result": "pass",
+    "house_passage_result_at": "2005-06-21T17:04:52-04:00",
+    "vetoed": false
+  },
+  "introduced_at": "2005-06-16",
+  "number": "180",
+  "official_title": "To support initiatives developed by the Firefighter Life Safety Summit and the mission of the National Fallen Firefighters Foundation and the United States Fire Administration to reduce firefighter fatalities and injuries, to encourage implementation of the new \"Everyone Goes Home\" campaign to make firefighter safety a national priority, and to support the goals of the national \"stand down\" called by fire organizations.",
+  "popular_title": null,
+  "related_bills": [],
+  "short_title": null,
+  "sponsor": {
+    "bioguide_id": "H000874",
+    "district": "5",
+    "name": "Hoyer, Steny H.",
+    "state": "MD",
+    "title": "Rep.",
+    "type": "person"
+  },
+  "status": "PASS_OVER:HOUSE",
+  "status_at": "2005-06-21T17:04:52-04:00",
+  "subjects": [
+    "Conferences",
+    "Emergency management",
+    "Fire departments",
+    "Fire fighters",
+    "Foundations",
+    "Government Operations and Politics",
+    "Health",
+    "Labor and Employment",
+    "Occupational health and safety",
+    "Social Welfare",
+    "Volunteer workers"
+  ],
+  "subjects_top_term": "Emergency management",
+  "summary": {
+    "as": "Passed House without amendment",
+    "asOf": "2005-06-21",
+    "date": "2005-07-11T18:42:18Z",
+    "text": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.)\n\nSupports: (1) initiatives developed by the Firefighter Life Safety Summit and the mission of the National Fallen Firefighters Foundation and the United States Fire Administration to reduce firefighter fatalities and injuries; and (2) the goals of the national \"stand down\" called by fire organizations beginning on June 21, 2005, and encourages all fire departments to participate in this effort.\n\nEncourages implementation of the new \"Everyone Goes Home\" campaign to make firefighter safety a national priority."
+  },
+  "titles": [
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "To support initiatives developed by the Firefighter Life Safety Summit and the mission of the National Fallen Firefighters Foundation and the United States Fire Administration to reduce firefighter fatalities and injuries, to encourage implementation of the new \"Everyone Goes Home\" campaign to make firefighter safety a national priority, and to support the goals of the national \"stand down\" called by fire organizations.",
+      "type": "display"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "To support initiatives developed by the Firefighter Life Safety Summit and the mission of the National Fallen Firefighters Foundation and the United States Fire Administration to reduce firefighter fatalities and injuries, to encourage implementation of the new \"Everyone Goes Home\" campaign to make firefighter safety a national priority, and to support the goals of the national \"stand down\" called by fire organizations.",
+      "type": "official"
+    }
+  ],
+  "updated_at": "2023-01-13T04:48:02Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/109/hconres/BILLSTATUS-109hconres180.xml"
+}

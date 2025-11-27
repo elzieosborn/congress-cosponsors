@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>983</number>
+    <updateDate>2019-11-15T21:10:37Z</updateDate>
+    <updateDateIncludingText>2019-11-15T21:10:37Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2009-02-11</introducedDate>
+    <congress>111</congress>
+    <committees>
+      <item>
+        <systemCode>hsgo00</systemCode>
+        <name>Oversight and Accountability Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsgo24</systemCode>
+            <name>Government Operations and the Federal Workforce Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2009-02-24T16:15:01Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2009-02-11T15:04:49Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <relatedBills>
+      <item>
+        <title>Government Neutrality in Contracting Act</title>
+        <congress>111</congress>
+        <number>90</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2009-01-06</actionDate>
+          <text>Read twice and referred to the Committee on Homeland Security and Governmental Affairs.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2009-02-24</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsgo24</systemCode>
+            <name>Government Operations and the Federal Workforce Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Government Management, Organization, and Procurement.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2009-02-11</actionDate>
+        <text>Referred to the House Committee on Oversight and Government Reform.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsgo00</systemCode>
+            <name>Oversight and Accountability Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2009-02-11</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2009-02-11</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>S001155</bioguideId>
+        <fullName>Rep. Sullivan, John [R-OK-1]</fullName>
+        <firstName>John</firstName>
+        <lastName>Sullivan</lastName>
+        <party>R</party>
+        <state>OK</state>
+        <district>1</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>B001255</bioguideId>
+        <fullName>Rep. Boustany, Charles W., Jr. [R-LA-7]</fullName>
+        <firstName>Charles</firstName>
+        <lastName>Boustany</lastName>
+        <party>R</party>
+        <state>LA</state>
+        <middleName>W.</middleName>
+        <district>7</district>
+        <sponsorshipDate>2009-02-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000795</bioguideId>
+        <fullName>Rep. Wilson, Joe [R-SC-2]</fullName>
+        <firstName>Joe</firstName>
+        <lastName>Wilson</lastName>
+        <party>R</party>
+        <state>SC</state>
+        <district>2</district>
+        <sponsorshipDate>2009-02-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000583</bioguideId>
+        <fullName>Rep. Paul, Ron [R-TX-14]</fullName>
+        <firstName>RON</firstName>
+        <lastName>PAUL</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>14</district>
+        <sponsorshipDate>2009-02-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000250</bioguideId>
+        <fullName>Rep. Sessions, Pete [R-TX-32]</fullName>
+        <firstName>PETE</firstName>
+        <lastName>SESSIONS</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>32</district>
+        <sponsorshipDate>2009-02-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001156</bioguideId>
+        <fullName>Rep. McHenry, Patrick T. [R-NC-10]</fullName>
+        <firstName>Patrick</firstName>
+        <lastName>McHenry</lastName>
+        <party>R</party>
+        <state>NC</state>
+        <district>10</district>
+        <sponsorshipDate>2009-02-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001045</bioguideId>
+        <fullName>Rep. Harper, Gregg [R-MS-3]</fullName>
+        <firstName>Gregg</firstName>
+        <lastName>Harper</lastName>
+        <party>R</party>
+        <state>MS</state>
+        <district>3</district>
+        <sponsorshipDate>2009-02-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001176</bioguideId>
+        <fullName>Rep. Scalise, Steve [R-LA-1]</fullName>
+        <firstName>Steve</firstName>
+        <lastName>Scalise</lastName>
+        <party>R</party>
+        <state>LA</state>
+        <district>1</district>
+        <sponsorshipDate>2009-02-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001048</bioguideId>
+        <fullName>Rep. Culberson, John Abney [R-TX-7]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>CULBERSON</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <middleName>ABNEY</middleName>
+        <district>7</district>
+        <sponsorshipDate>2009-02-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001158</bioguideId>
+        <fullName>Rep. Marchant, Kenny [R-TX-24]</fullName>
+        <firstName>Kenny</firstName>
+        <lastName>Marchant</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>24</district>
+        <sponsorshipDate>2009-02-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000583</bioguideId>
+        <fullName>Rep. Rooney, Thomas J. [R-FL-16]</fullName>
+        <firstName>Thomas</firstName>
+        <lastName>Rooney</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <middleName>J.</middleName>
+        <district>16</district>
+        <sponsorshipDate>2009-02-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001243</bioguideId>
+        <fullName>Rep. Blackburn, Marsha [R-TN-7]</fullName>
+        <firstName>Marsha</firstName>
+        <lastName>Blackburn</lastName>
+        <party>R</party>
+        <state>TN</state>
+        <district>7</district>
+        <sponsorshipDate>2009-02-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001134</bioguideId>
+        <fullName>Rep. Myrick, Sue Wilkins [R-NC-9]</fullName>
+        <firstName>SUE</firstName>
+        <lastName>MYRICK</lastName>
+        <party>R</party>
+        <state>NC</state>
+        <middleName>WILKINS</middleName>
+        <district>9</district>
+        <sponsorshipDate>2009-02-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001075</bioguideId>
+        <fullName>Rep. Cassidy, Bill [R-LA-6]</fullName>
+        <firstName>Bill</firstName>
+        <lastName>Cassidy</lastName>
+        <party>R</party>
+        <state>LA</state>
+        <district>6</district>
+        <sponsorshipDate>2009-02-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000363</bioguideId>
+        <fullName>Rep. Kline, John [R-MN-2]</fullName>
+        <firstName>John</firstName>
+        <lastName>Kline</lastName>
+        <party>R</party>
+        <state>MN</state>
+        <district>2</district>
+        <sponsorshipDate>2009-02-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000796</bioguideId>
+        <fullName>Rep. Westmoreland, Lynn A. [R-GA-3]</fullName>
+        <firstName>Lynn</firstName>
+        <lastName>Westmoreland</lastName>
+        <party>R</party>
+        <state>GA</state>
+        <middleName>A.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2009-02-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000550</bioguideId>
+        <fullName>Rep. Gingrey, Phil [R-GA-11]</fullName>
+        <firstName>Phil</firstName>
+        <lastName>Gingrey</lastName>
+        <party>R</party>
+        <state>GA</state>
+        <district>11</district>
+        <sponsorshipDate>2009-02-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001203</bioguideId>
+        <fullName>Rep. Buyer, Steve [R-IN-4]</fullName>
+        <firstName>STEPHEN</firstName>
+        <lastName>BUYER</lastName>
+        <party>R</party>
+        <state>IN</state>
+        <middleName>E.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2009-02-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000456</bioguideId>
+        <fullName>Rep. Fleming, John [R-LA-4]</fullName>
+        <firstName>John</firstName>
+        <lastName>Fleming</lastName>
+        <party>R</party>
+        <state>LA</state>
+        <district>4</district>
+        <sponsorshipDate>2009-02-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000453</bioguideId>
+        <fullName>Rep. Fallin, Mary [R-OK-5]</fullName>
+        <firstName>Mary</firstName>
+        <lastName>Fallin</lastName>
+        <party>R</party>
+        <state>OK</state>
+        <district>5</district>
+        <sponsorshipDate>2009-02-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001239</bioguideId>
+        <fullName>Rep. Barrett, J. Gresham [R-SC-3]</fullName>
+        <firstName>J.</firstName>
+        <lastName>Barrett</lastName>
+        <party>R</party>
+        <state>SC</state>
+        <middleName>Gresham</middleName>
+        <district>3</district>
+        <sponsorshipDate>2009-02-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001256</bioguideId>
+        <fullName>Rep. Bachmann, Michele [R-MN-6]</fullName>
+        <firstName>Michele</firstName>
+        <lastName>Bachmann</lastName>
+        <party>R</party>
+        <state>MN</state>
+        <district>6</district>
+        <sponsorshipDate>2009-02-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>A000361</bioguideId>
+        <fullName>Rep. Alexander, Rodney [R-LA-5]</fullName>
+        <firstName>Rodney</firstName>
+        <lastName>Alexander</lastName>
+        <party>R</party>
+        <state>LA</state>
+        <district>5</district>
+        <sponsorshipDate>2009-02-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000528</bioguideId>
+        <fullName>Rep. Herger, Wally [R-CA-2]</fullName>
+        <firstName>WALLY</firstName>
+        <lastName>HERGER</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <district>2</district>
+        <sponsorshipDate>2009-02-12</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000556</bioguideId>
+        <fullName>Rep. Coble, Howard [R-NC-6]</fullName>
+        <firstName>HOWARD</firstName>
+        <lastName>COBLE</lastName>
+        <party>R</party>
+        <state>NC</state>
+        <district>6</district>
+        <sponsorshipDate>2009-02-12</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001076</bioguideId>
+        <fullName>Rep. Chaffetz, Jason [R-UT-3]</fullName>
+        <firstName>Jason</firstName>
+        <lastName>Chaffetz</lastName>
+        <party>R</party>
+        <state>UT</state>
+        <district>3</district>
+        <sponsorshipDate>2009-02-12</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000564</bioguideId>
+        <fullName>Rep. Lamborn, Doug [R-CO-5]</fullName>
+        <firstName>Doug</firstName>
+        <lastName>Lamborn</lastName>
+        <party>R</party>
+        <state>CO</state>
+        <district>5</district>
+        <sponsorshipDate>2009-02-12</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000409</bioguideId>
+        <fullName>Rep. Rohrabacher, Dana [R-CA-46]</fullName>
+        <firstName>DANA</firstName>
+        <lastName>ROHRABACHER</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <district>46</district>
+        <sponsorshipDate>2009-02-12</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000220</bioguideId>
+        <fullName>Rep. Kingston, Jack [R-GA-1]</fullName>
+        <firstName>JACK</firstName>
+        <lastName>KINGSTON</lastName>
+        <party>R</party>
+        <state>GA</state>
+        <district>1</district>
+        <sponsorshipDate>2009-03-03</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000582</bioguideId>
+        <fullName>Rep. Roe, David P. [R-TN-1]</fullName>
+        <firstName>David</firstName>
+        <lastName>Roe</lastName>
+        <party>R</party>
+        <state>TN</state>
+        <middleName>P.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2009-03-03</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001236</bioguideId>
+        <fullName>Rep. Boozman, John [R-AR-3]</fullName>
+        <firstName>John</firstName>
+        <lastName>Boozman</lastName>
+        <party>R</party>
+        <state>AR</state>
+        <district>3</district>
+        <sponsorshipDate>2009-03-03</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>N000182</bioguideId>
+        <fullName>Rep. Neugebauer, Randy [R-TX-19]</fullName>
+        <firstName>Randy</firstName>
+        <lastName>Neugebauer</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>19</district>
+        <sponsorshipDate>2009-03-04</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001053</bioguideId>
+        <fullName>Rep. Cole, Tom [R-OK-4]</fullName>
+        <firstName>Tom</firstName>
+        <lastName>Cole</lastName>
+        <party>R</party>
+        <state>OK</state>
+        <district>4</district>
+        <sponsorshipDate>2009-03-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000461</bioguideId>
+        <fullName>Rep. Bilbray, Brian P. [R-CA-50]</fullName>
+        <firstName>BRIAN</firstName>
+        <lastName>BILBRAY</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <middleName>P.</middleName>
+        <district>50</district>
+        <sponsorshipDate>2009-03-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000594</bioguideId>
+        <fullName>Rep. Paulsen, Erik [R-MN-3]</fullName>
+        <firstName>Erik</firstName>
+        <lastName>Paulsen</lastName>
+        <party>R</party>
+        <state>MN</state>
+        <district>3</district>
+        <sponsorshipDate>2009-05-13</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000373</bioguideId>
+        <fullName>Rep. Pitts, Joseph R. [R-PA-16]</fullName>
+        <firstName>JOSEPH</firstName>
+        <lastName>PITTS</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <middleName>R.</middleName>
+        <district>16</district>
+        <sponsorshipDate>2009-06-18</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000275</bioguideId>
+        <fullName>Rep. Shadegg, John B. [R-AZ-3]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>SHADEGG</lastName>
+        <party>R</party>
+        <state>AZ</state>
+        <district>3</district>
+        <sponsorshipDate>2009-06-18</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001139</bioguideId>
+        <fullName>Rep. Miller, Gary G. [R-CA-42]</fullName>
+        <firstName>GARY</firstName>
+        <lastName>MILLER</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <district>42</district>
+        <sponsorshipDate>2009-06-24</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000822</bioguideId>
+        <fullName>Rep. Stearns, Cliff [R-FL-6]</fullName>
+        <firstName>CLIFF</firstName>
+        <lastName>STEARNS</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>6</district>
+        <sponsorshipDate>2009-06-26</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000804</bioguideId>
+        <fullName>Rep. Wittman, Robert J. [R-VA-1]</fullName>
+        <firstName>Robert</firstName>
+        <lastName>Wittman</lastName>
+        <party>R</party>
+        <state>VA</state>
+        <middleName>J.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2009-07-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001143</bioguideId>
+        <fullName>Rep. Souder, Mark E. [R-IN-3]</fullName>
+        <firstName>MARK</firstName>
+        <lastName>SOUDER</lastName>
+        <party>R</party>
+        <state>IN</state>
+        <middleName>EDWARD</middleName>
+        <district>3</district>
+        <sponsorshipDate>2009-07-28</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001154</bioguideId>
+        <fullName>Rep. Shuster, Bill [R-PA-9]</fullName>
+        <firstName>Bill</firstName>
+        <lastName>Shuster</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <district>9</district>
+        <sponsorshipDate>2009-09-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000585</bioguideId>
+        <fullName>Rep. Platts, Todd Russell [R-PA-19]</fullName>
+        <firstName>TODD</firstName>
+        <lastName>PLATTS</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <middleName>RUSSELL</middleName>
+        <district>19</district>
+        <sponsorshipDate>2010-09-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Government Operations and Politics</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Administrative law and regulatory procedures</name>
+        </item>
+        <item>
+          <name>Labor-management relations</name>
+        </item>
+        <item>
+          <name>Public contracts and procurement</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Government Operations and Politics</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2009-02-11</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2009-03-27T21:28:12Z</updateDate>
+        <text><![CDATA[ <p>Government Neutrality in Contracting Act - Directs the head of any federal agency that awards or obligates funds for any construction contract, or that awards grants, provides financial assistance, or enters into cooperative agreements for construction projects, to ensure that bid specifications, project agreements, or other controlling documents do not: (1) require or prohibit a bidder, offeror, contractor, or subcontractor from entering into, or adhering to, agreements with a labor organization, with respect to that construction project or another related construction project; or (2) otherwise discriminate against such a party because it did or did not become a signatory or otherwise adhere to such an agreement. </p> <p>Allows exemptions to avert an imminent threat to public health or safety or to serve national security. Allows additional exemptions for certain projects. <p>Directs the Federal Acquisition Regulatory Council to amend the Federal Acquisition Regulation to implement this Act with respect to the applicable federal contracts.]]></text>
+      </summary>
+    </summaries>
+    <title>Government Neutrality in Contracting Act</title>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Government Neutrality in Contracting Act</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Government Neutrality in Contracting Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To preserve open competition and Federal Government neutrality towards the labor relations of Federal Government contractors on Federal and federally funded construction projects.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2009-02-11T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-111hr983ih/xml/BILLS-111hr983ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2009-02-24</actionDate>
+      <text>Referred to the Subcommittee on Government Management, Organization, and Procurement.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

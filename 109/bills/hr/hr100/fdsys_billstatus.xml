@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>100</number>
+    <updateDate>2022-02-03T05:25:35Z</updateDate>
+    <updateDateIncludingText>2022-02-03T05:25:35Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2005-01-04</introducedDate>
+    <congress>109</congress>
+    <committees>
+      <item>
+        <systemCode>hsju00</systemCode>
+        <name>Judiciary Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsju01</systemCode>
+            <name>Immigration Integrity, Security, and Enforcement Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2005-03-02T17:42:55Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2005-01-04T16:55:30Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2005-03-02</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsju01</systemCode>
+            <name>Immigration Integrity, Security, and Enforcement Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Immigration, Border Security, and Claims.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2005-01-04</actionDate>
+        <text>Referred to the House Committee on the Judiciary.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2005-01-04</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2005-01-04</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>D000492</bioguideId>
+        <fullName>Rep. Dreier, David [R-CA-26]</fullName>
+        <firstName>DAVID</firstName>
+        <lastName>DREIER</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <district>26</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>S000244</bioguideId>
+        <fullName>Rep. Sensenbrenner, F. James, Jr. [R-WI-5]</fullName>
+        <firstName>F.</firstName>
+        <lastName>SENSENBRENNER</lastName>
+        <party>R</party>
+        <state>WI</state>
+        <middleName>JAMES</middleName>
+        <district>5</district>
+        <sponsorshipDate>2005-01-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Immigration</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Aliens</name>
+        </item>
+        <item>
+          <name>Appellate courts</name>
+        </item>
+        <item>
+          <name>Appellate procedure</name>
+        </item>
+        <item>
+          <name>Civil Rights and Liberties, Minority Issues</name>
+        </item>
+        <item>
+          <name>Crime and Law Enforcement</name>
+        </item>
+        <item>
+          <name>Deportation</name>
+        </item>
+        <item>
+          <name>Habeas corpus</name>
+        </item>
+        <item>
+          <name>International Affairs</name>
+        </item>
+        <item>
+          <name>Judicial review</name>
+        </item>
+        <item>
+          <name>Jurisdiction</name>
+        </item>
+        <item>
+          <name>Law</name>
+        </item>
+        <item>
+          <name>Punishment</name>
+        </item>
+        <item>
+          <name>Torture</name>
+        </item>
+        <item>
+          <name>Treaties</name>
+        </item>
+        <item>
+          <name>United Nations</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Immigration</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2005-01-04</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2005-01-28T21:32:58Z</updateDate>
+        <text><![CDATA[ <p>Citizens and Legal Immigration Act - Amends the Immigration and Nationality Act (INA) to bar inadmissible arriving aliens from seeking judicial review of removal orders through habeas corpus, mandamus, or other extraordinary petitions. </p> <p>Imposes a similar bar on denials of discretionary relief and orders against criminal aliens with an exception for petitions for review concerning constitutional claims or pure questions of law. </p> <p>Establishes the INA's judicial review provisions as the sole avenue for challenging removal orders and reviewing claims arising under the United Nations Convention Against Torture and Other Forms of Cruel, Inhuman, or Degrading Treatment or Punishment.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Citizens and Legal Immigration Act</title>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Citizens and Legal Immigration Act</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Citizens and Legal Immigration Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend the Immigration and Nationality Act to modify provisions relating to judicial review of orders of removal.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2005-01-04T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-109hr100ih/xml/BILLS-109hr100ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2005-03-02</actionDate>
+      <text>Referred to the Subcommittee on Immigration, Border Security, and Claims.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

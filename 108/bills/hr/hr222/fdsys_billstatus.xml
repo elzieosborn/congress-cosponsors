@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>222</number>
+    <updateDate>2023-01-15T21:04:28Z</updateDate>
+    <updateDateIncludingText>2023-01-15T21:04:28Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2003-01-07</introducedDate>
+    <congress>108</congress>
+    <committees>
+      <item>
+        <systemCode>hsii00</systemCode>
+        <name>Natural Resources Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsii20</systemCode>
+            <name>Forests and Forest Health Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2003-02-12T20:27:55Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2003-01-07T17:15:10Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2003-02-12</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii20</systemCode>
+            <name>Forests and Forest Health Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Forests and Forest Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2003-01-07</actionDate>
+        <text>Referred to the House Committee on Resources.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2003-01-07</actionDate>
+        <text>Sponsor introductory remarks on measure. (CR E1)</text>
+        <type>IntroReferral</type>
+        <actionCode>B00100</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2003-01-07</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2003-01-07</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>W000789</bioguideId>
+        <fullName>Rep. Wilson, Heather [R-NM-1]</fullName>
+        <firstName>HEATHER</firstName>
+        <lastName>WILSON</lastName>
+        <party>R</party>
+        <state>NM</state>
+        <district>1</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>P000588</bioguideId>
+        <fullName>Rep. Pearce, Stevan [R-NM-2]</fullName>
+        <firstName>Stevan</firstName>
+        <lastName>Pearce</lastName>
+        <party>R</party>
+        <state>NM</state>
+        <district>2</district>
+        <sponsorshipDate>2003-01-07</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>U000039</bioguideId>
+        <fullName>Rep. Udall, Tom [D-NM-3]</fullName>
+        <firstName>TOM</firstName>
+        <lastName>UDALL</lastName>
+        <party>D</party>
+        <state>NM</state>
+        <district>3</district>
+        <sponsorshipDate>2003-01-07</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Public Lands and Natural Resources</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Administrative remedies</name>
+        </item>
+        <item>
+          <name>Animals</name>
+        </item>
+        <item>
+          <name>Arts, Culture, Religion</name>
+        </item>
+        <item>
+          <name>Cable television</name>
+        </item>
+        <item>
+          <name>Civil Rights and Liberties, Minority Issues</name>
+        </item>
+        <item>
+          <name>Civil actions and liability</name>
+        </item>
+        <item>
+          <name>Compensation (Law)</name>
+        </item>
+        <item>
+          <name>Congress</name>
+        </item>
+        <item>
+          <name>Congressional reporting requirements</name>
+        </item>
+        <item>
+          <name>Conservation easements</name>
+        </item>
+        <item>
+          <name>Crime and Law Enforcement</name>
+        </item>
+        <item>
+          <name>Easements</name>
+        </item>
+        <item>
+          <name>Eminent domain</name>
+        </item>
+        <item>
+          <name>Energy</name>
+        </item>
+        <item>
+          <name>Environmental Protection</name>
+        </item>
+        <item>
+          <name>Federal-Indian relations</name>
+        </item>
+        <item>
+          <name>Federal-city relations</name>
+        </item>
+        <item>
+          <name>Fishing</name>
+        </item>
+        <item>
+          <name>Forest roads</name>
+        </item>
+        <item>
+          <name>Gas companies</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Highway maintenance</name>
+        </item>
+        <item>
+          <name>Homeowners' associations</name>
+        </item>
+        <item>
+          <name>Hunting</name>
+        </item>
+        <item>
+          <name>Indian claims</name>
+        </item>
+        <item>
+          <name>Indian lands</name>
+        </item>
+        <item>
+          <name>Indian law enforcement</name>
+        </item>
+        <item>
+          <name>Injunctions</name>
+        </item>
+        <item>
+          <name>Judicial review</name>
+        </item>
+        <item>
+          <name>Jurisdiction</name>
+        </item>
+        <item>
+          <name>Land subdivision</name>
+        </item>
+        <item>
+          <name>Land transfers</name>
+        </item>
+        <item>
+          <name>Land use</name>
+        </item>
+        <item>
+          <name>Law</name>
+        </item>
+        <item>
+          <name>Legal fees</name>
+        </item>
+        <item>
+          <name>Legislation</name>
+        </item>
+        <item>
+          <name>Licenses</name>
+        </item>
+        <item>
+          <name>Local taxation</name>
+        </item>
+        <item>
+          <name>Maps</name>
+        </item>
+        <item>
+          <name>Minorities</name>
+        </item>
+        <item>
+          <name>National forests</name>
+        </item>
+        <item>
+          <name>Natural areas</name>
+        </item>
+        <item>
+          <name>New Mexico</name>
+        </item>
+        <item>
+          <name>Public utilities</name>
+        </item>
+        <item>
+          <name>Religion</name>
+        </item>
+        <item>
+          <name>Right-of-way</name>
+        </item>
+        <item>
+          <name>Roads and highways</name>
+        </item>
+        <item>
+          <name>Science, Technology, Communications</name>
+        </item>
+        <item>
+          <name>Sports and Recreation</name>
+        </item>
+        <item>
+          <name>Sports facilities</name>
+        </item>
+        <item>
+          <name>State government-Indian relations</name>
+        </item>
+        <item>
+          <name>State taxation</name>
+        </item>
+        <item>
+          <name>Taxation</name>
+        </item>
+        <item>
+          <name>Trails</name>
+        </item>
+        <item>
+          <name>Transportation and Public Works</name>
+        </item>
+        <item>
+          <name>Underground construction</name>
+        </item>
+        <item>
+          <name>Wilderness areas</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Public Lands and Natural Resources</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2003-01-07</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2006-11-28T17:35:40Z</updateDate>
+        <text><![CDATA[T'uf Shur Bien Preservation Trust Area Act - Establishes the T'uf Shur Bien Preservation Trust Area (the "Area") within the Cibola National Forest and the Sandia Mountain Wilderness in New Mexico. Recognizes and protects in perpetuity the Pueblo of Sandia's rights and interests in such Area.<p>Directs the Secretary of Agriculture (Secretary), acting through the Forest Service, to continue to administer the Area as National Forest System lands.<p>Sets forth the rights and interests of the Pueblo in such Area, including free and unrestricted access for traditional and cultural uses (except as they conflict with the Wilderness Act and Federal wildlife protection laws).<p>Requires the United States to compensate the Pueblo as if it held fee title interest in the affected portion if Congress: (1) diminishes the Wilderness and National Forest designation of the Area by authorizing a prohibited use in all or any portion of it; or (2) permanently denies the Pueblo access for any traditional and cultural uses in all or any portion of the Area.<p>Limits the Pueblo's rights and interest in the Area to exclude certain activities, including any right to sell, grant, lease, convey, encumber or exchange lands in the Area.<p>Specifies allocation of criminal and civil jurisdiction over such Area among the Pueblo, New Mexico, and the United States.<p>Extinguishes all Pueblo claims not specifically recognized within this Act.<p>Declares that the Pueblo, the County of Bernalillo, New Mexico, and any person who owns or has owned property inside the exterior boundaries of the Area, and incurred cost as a result of participating in the case of Pueblo of Sandia v. Babbitt, may apply for reimbursement.]]></text>
+      </summary>
+    </summaries>
+    <title>T'uf Shur Bien Preservation Trust Area Act</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>T'uf Shur Bien Preservation Trust Area Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To establish the T'uf Shur Bien Preservation Trust Area in the Cibola National Forest, and for other purposes.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>T'uf Shur Bien Preservation Trust Area Act</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2003-01-07T05:00:00Z</date>
+        <formats/>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2003-02-12</actionDate>
+      <text>Referred to the Subcommittee on Forests and Forest Health.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

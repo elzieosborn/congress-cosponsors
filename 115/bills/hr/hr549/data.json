@@ -1,0 +1,230 @@
+{
+  "actions": [
+    {
+      "acted_at": "2017-01-13",
+      "action_code": "Intro-H",
+      "references": [],
+      "text": "Introduced in House",
+      "type": "action"
+    },
+    {
+      "acted_at": "2017-01-13",
+      "action_code": "H11100",
+      "committees": [
+        "HSHM"
+      ],
+      "references": [],
+      "status": "REFERRED",
+      "text": "Referred to the House Committee on Homeland Security.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2017-01-31T15:45:38-05:00",
+      "action_code": "H30300",
+      "references": [],
+      "text": "Mr. Donovan moved to suspend the rules and pass the bill.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2017-01-31T15:45:53-05:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H791-792",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered under suspension of the rules.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2017-01-31T15:45:55-05:00",
+      "action_code": "H8D000",
+      "references": [],
+      "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 549.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2017-01-31T15:53:32-05:00",
+      "action_code": "H37300",
+      "how": "by voice vote",
+      "references": [
+        {
+          "reference": "CR H791",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "status": "PASS_OVER:HOUSE",
+      "suspension": null,
+      "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "h"
+    },
+    {
+      "acted_at": "2017-01-31T15:53:33-05:00",
+      "action_code": "H38310",
+      "references": [],
+      "text": "Motion to reconsider laid on the table Agreed to without objection.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2017-02-01",
+      "action_code": "",
+      "committees": [
+        "SSGA"
+      ],
+      "references": [],
+      "text": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+      "type": "referral"
+    }
+  ],
+  "amendments": [],
+  "bill_id": "hr549-115",
+  "bill_type": "hr",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [
+    {
+      "activity": [
+        "referral"
+      ],
+      "committee": "Senate Homeland Security and Governmental Affairs",
+      "committee_id": "SSGA"
+    },
+    {
+      "activity": [
+        "referral"
+      ],
+      "committee": "House Homeland Security",
+      "committee_id": "HSHM"
+    }
+  ],
+  "congress": "115",
+  "cosponsors": [
+    {
+      "bioguide_id": "K000386",
+      "district": "24",
+      "name": "Katko, John",
+      "original_cosponsor": true,
+      "sponsored_at": "2017-01-13",
+      "state": "NY",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "K000210",
+      "district": "2",
+      "name": "King, Peter T.",
+      "original_cosponsor": true,
+      "sponsored_at": "2017-01-13",
+      "state": "NY",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001157",
+      "district": "10",
+      "name": "McCaul, Michael T.",
+      "original_cosponsor": true,
+      "sponsored_at": "2017-01-13",
+      "state": "TX",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "P000604",
+      "district": "10",
+      "name": "Payne, Donald M., Jr.",
+      "original_cosponsor": true,
+      "sponsored_at": "2017-01-13",
+      "state": "NJ",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000602",
+      "district": "4",
+      "name": "Rice, Kathleen M.",
+      "original_cosponsor": true,
+      "sponsored_at": "2017-01-13",
+      "state": "NY",
+      "title": "Rep.",
+      "withdrawn_at": null
+    }
+  ],
+  "enacted_as": null,
+  "history": {
+    "active": true,
+    "active_at": "2017-01-31T15:45:38-05:00",
+    "awaiting_signature": false,
+    "enacted": false,
+    "house_passage_result": "pass",
+    "house_passage_result_at": "2017-01-31T15:53:32-05:00",
+    "vetoed": false
+  },
+  "introduced_at": "2017-01-13",
+  "number": "549",
+  "official_title": "To amend the Implementing Recommendations of the 9/11 Commission Act of 2007 to clarify certain allowable uses of funds for public transportation security assistance grants and establish periods of performance for such grants, and for other purposes.",
+  "popular_title": null,
+  "related_bills": [],
+  "short_title": "Transit Security Grant Program Flexibility Act",
+  "sponsor": {
+    "bioguide_id": "D000625",
+    "district": "11",
+    "name": "Donovan, Daniel M., Jr.",
+    "state": "NY",
+    "title": "Rep.",
+    "type": "person"
+  },
+  "status": "PASS_OVER:HOUSE",
+  "status_at": "2017-01-31T15:53:32-05:00",
+  "subjects": [
+    "Congressional oversight",
+    "Government studies and investigations",
+    "Public transit",
+    "Transportation and public works",
+    "Transportation programs funding",
+    "Transportation safety and security"
+  ],
+  "subjects_top_term": "Transportation and public works",
+  "summary": {
+    "as": "Passed House without amendment",
+    "asOf": "2017-01-31",
+    "date": "2017-02-09T19:23:33Z",
+    "text": "(This measure has not been amended since it was introduced. The summary has been expanded because action occurred on the measure.)\n\nTransit Security Grant Program Flexibility Act\n\n(Sec. 2) This bill amends the Implementing Recommendations of the 9/11 Commission Act of 2007 to permit the use of public transportation security assistance grant funds for backfill associated with security training.\n\n(Sec. 3) Funds provided pursuant to such a grant for a specified authorized use shall, with two exceptions, remain available for use by a grant recipient for at least 36 months.\n\n Any such funds used for security improvements for public transportation systems or security improvements for stations and other public transportation infrastructure, including those owned by state or local governments, shall remain available for at least 55 months.\n\n(Sec. 4) The Government Accountability Office shall review the public transportation security assistance grant program."
+  },
+  "titles": [
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Transit Security Grant Program Flexibility Act",
+      "type": "display"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "To amend the Implementing Recommendations of the 9/11 Commission Act of 2007 to clarify certain allowable uses of funds for public transportation security assistance grants and establish periods of performance for such grants, and for other purposes.",
+      "type": "official"
+    },
+    {
+      "as": "passed house",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Transit Security Grant Program Flexibility Act",
+      "type": "short"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Transit Security Grant Program Flexibility Act",
+      "type": "short"
+    }
+  ],
+  "updated_at": "2023-01-11T13:34:22Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/115/hr/BILLSTATUS-115hr549.xml"
+}

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>30</number>
+    <updateDate>2023-01-11T15:17:50Z</updateDate>
+    <updateDateIncludingText>2023-01-11T19:47:29Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <originChamberCode>S</originChamberCode>
+    <type>S</type>
+    <introducedDate>2007-03-29</introducedDate>
+    <congress>110</congress>
+    <committees>
+      <item>
+        <systemCode>hsif00</systemCode>
+        <name>Energy and Commerce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2007-04-16T20:58:57Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2007-04-16</actionDate>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2007-04-16</actionDate>
+        <actionTime>14:05:19</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2007-04-12</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2007-04-11</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate, having acquired the 60 votes required under unanimous consent, without amendment by Yea-Nay Vote. 70 - 28. Record Vote Number: 128. (text as passed Senate: CR S4390-4391)</text>
+        <type>Floor</type>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>128</rollNumber>
+            <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1101/vote_110_1_00128.xml</url>
+            <chamber>Senate</chamber>
+            <congress>110</congress>
+            <date>2007-04-11T22:46:13Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2007-04-11</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate, having acquired the 60 votes required under unanimous consent, without amendment by Yea-Nay Vote. 70 - 28. Record Vote Number: 128.(text as passed Senate: CR S4390-4391)</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>128</rollNumber>
+            <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1101/vote_110_1_00128.xml</url>
+            <chamber>Senate</chamber>
+            <congress>110</congress>
+            <date>2007-04-11T22:46:13Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2007-04-11</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Considered by Senate. (consideration: CR S4319-4371, S4386-4391)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2007-04-10</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Measure laid before Senate by unanimous consent. (consideration: CR S4237-4294)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2007-03-29</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Introduced in the Senate and read twice and ordered held at desk.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2007-03-29</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>C001057</bioguideId>
+        <fullName>Sen. Coleman, Norm [R-MN]</fullName>
+        <firstName>Norm</firstName>
+        <lastName>Coleman</lastName>
+        <party>R</party>
+        <state>MN</state>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>I000055</bioguideId>
+        <fullName>Sen. Isakson, Johnny [R-GA]</fullName>
+        <firstName>Johnny</firstName>
+        <lastName>Isakson</lastName>
+        <party>R</party>
+        <state>GA</state>
+        <sponsorshipDate>2007-03-29</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001135</bioguideId>
+        <fullName>Sen. Burr, Richard [R-NC]</fullName>
+        <firstName>Richard</firstName>
+        <lastName>Burr</lastName>
+        <party>R</party>
+        <state>NC</state>
+        <middleName>Mauze</middleName>
+        <sponsorshipDate>2007-04-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001056</bioguideId>
+        <fullName>Sen. Cornyn, John [R-TX]</fullName>
+        <firstName>John</firstName>
+        <lastName>Cornyn</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <sponsorshipDate>2007-04-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000286</bioguideId>
+        <fullName>Sen. Chambliss, Saxby [R-GA]</fullName>
+        <firstName>SAXBY</firstName>
+        <lastName>CHAMBLISS</lastName>
+        <party>R</party>
+        <state>GA</state>
+        <sponsorshipDate>2007-04-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000560</bioguideId>
+        <fullName>Sen. Coburn, Tom [R-OK]</fullName>
+        <firstName>TOM</firstName>
+        <lastName>COBURN</lastName>
+        <party>R</party>
+        <state>OK</state>
+        <sponsorshipDate>2007-04-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000355</bioguideId>
+        <fullName>Sen. McConnell, Mitch [R-KY]</fullName>
+        <firstName>Mitch</firstName>
+        <lastName>McConnell</lastName>
+        <party>R</party>
+        <state>KY</state>
+        <sponsorshipDate>2007-04-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Administrative procedure</name>
+        </item>
+        <item>
+          <name>Congress</name>
+        </item>
+        <item>
+          <name>Congressional reporting requirements</name>
+        </item>
+        <item>
+          <name>Cytology</name>
+        </item>
+        <item>
+          <name>Department of Health and Human Services</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Governmental investigations</name>
+        </item>
+        <item>
+          <name>Human embryology</name>
+        </item>
+        <item>
+          <name>Law</name>
+        </item>
+        <item>
+          <name>Medical research</name>
+        </item>
+        <item>
+          <name>Science, Technology, Communications</name>
+        </item>
+        <item>
+          <name>Standards</name>
+        </item>
+        <item>
+          <name>Tissue banks</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Health</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2007-03-29</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2007-04-06T17:38:50Z</updateDate>
+        <text><![CDATA[ <p>Hope Offered through Principled and Ethical Stem Cell Research Act or the HOPE Act - Amends the Public Health Service Act to require the Secretary of Health and Human Services to develop techniques for the isolation, derivation, production, or testing of stem cells, including pluripotent stem cells that have the flexibility of embryonic stem cells (whether or not they have an embryonic source), that may result in improved understanding of or treatments for diseases and other adverse health conditions, provided that such techniques do not involve: (1) the creation of a human embryo or embryos for research purposes; or (2) the destruction or discarding of, or risk of injury to, a human embryo of embryos other than those that are naturally dead.</p> <p>Requires the Secretary to: (1) provide guidance concerning the next steps required for additional research; (2) prioritize research with the greatest potential for near-term clinical benefits; (3) take into account techniques outlined by the President's Council on Bioethics and any other appropriate techniques and research; and (4) require assurances from grant applicants, in the case of research involving stem cells from a naturally dead embryo, that no alteration of the timing, methods, or procedures used to create, maintain, or intervene in the development of a human embryo was made solely for the purpose of deriving the stem cells.</p> <p>Directs the Secretary to enter into a contract with the Institute of Medicine to conduct a study to: (1) recommend an optimal structure for an amniotic and placental stem cell bank program; and (2) address pertinent issues to maximize the potential of such technology.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>82</versionCode>
+        <actionDate>2007-04-11</actionDate>
+        <actionDesc>Passed Senate without amendment</actionDesc>
+        <updateDate>2007-04-13T20:40:05Z</updateDate>
+        <text><![CDATA[ <p><b>(This measure has not been amended since it was introduced. The summary has been expanded because action occurred on the measure.)</b></p> <p>Hope Offered through Principled and Ethical Stem Cell Research Act or the HOPE Act - (Sec. 3) Amends the Public Health Service Act to require the Secretary of Health and Human Services to develop techniques for the isolation, derivation, production, or testing of stem cells, including pluripotent stem cells that have the flexibility of embryonic stem cells (whether or not they have an embryonic source), that may result in improved understanding of or treatments for diseases and other adverse health conditions, provided that such techniques do not involve: (1) the creation of a human embryo or embryos for research purposes; or (2) the destruction or discarding of, or risk of injury to, a human embryo of embryos other than those that are naturally dead.</p> <p>Requires the Secretary to: (1) provide guidance concerning the next steps required for additional research; (2) prioritize research with the greatest potential for near-term clinical benefits; (3) take into account techniques outlined by the President's Council on Bioethics and any other appropriate techniques and research; and (4) require assurances from grant applicants, in the case of research involving stem cells from a naturally dead embryo, that no alteration of the timing, methods, or procedures used to create, maintain, or intervene in the development of a human embryo was made solely for the purpose of deriving the stem cells.</p> <p>Sets forth reporting requirements.</p> <p>Authorizes appropriations.</p> <p>(Sec. 4) Directs the Secretary to enter into a contract with the Institute of Medicine to conduct a study to: (1) recommend an optimal structure for an amniotic and placental stem cell bank program; and (2) address pertinent issues to maximize the potential of such technology.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>HOPE Act</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>HOPE Act</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>HOPE Act</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Hope Offered through Principled and Ethical Stem Cell Research Act</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Passed Senate</titleType>
+        <title>HOPE Act</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+      <item>
+        <titleType>Short Titles as Passed Senate</titleType>
+        <title>Hope Offered through Principled and Ethical Stem Cell Research Act</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to intensify research to derive human pluripotent stem cell lines.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2007-04-11T04:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Referred in House</type>
+        <date>2007-03-30T04:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Held at Desk Senate</type>
+        <date>2007-03-29T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-110s30hds/xml/BILLS-110s30hds.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2007-04-16</actionDate>
+      <text>Referred to the House Committee on Energy and Commerce.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

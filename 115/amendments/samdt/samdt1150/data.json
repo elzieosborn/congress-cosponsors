@@ -1,0 +1,94 @@
+{
+  "actions": [
+    {
+      "acted_at": "2017-10-18",
+      "action_code": "",
+      "how": "roll",
+      "references": [],
+      "result": "fail",
+      "roll": 222,
+      "text": "Amendment SA 1150 not agreed to in Senate by Yea-Nay Vote. 47 - 51. Record Vote Number: 222.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "s"
+    },
+    {
+      "acted_at": "2017-10-18",
+      "action_code": "",
+      "references": [],
+      "text": "Amendment SA 1150 proposed by Senator Enzi for Senator Nelson to Amendment SA 1116. (consideration: CR S6518-6520, S6523; text: CR S6519) To provide additional resources to restore the $473,000,000,000 in cuts to Medicare paid for by closing special interest tax loopholes.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2017-10-18",
+      "action_code": "97000",
+      "references": [],
+      "text": "Roll call votes on amendments in Senate: Amendment SA 1150 not agreed to in Senate by Yea-Nay Vote. 47 - 51. Record Vote Number: 222.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2017-10-18",
+      "action_code": "95000",
+      "references": [],
+      "text": "Senate amendment not agreed to: Amendment SA 1150 not agreed to in Senate by Yea-Nay Vote. 47 - 51. Record Vote Number: 222.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2017-10-18",
+      "action_code": "93000",
+      "references": [
+        {
+          "reference": "CR S6518-6520, S6523",
+          "type": "consideration"
+        },
+        {
+          "reference": "CR S6519",
+          "type": "text"
+        }
+      ],
+      "text": "Senate amendment proposed (on the floor): Amendment SA 1150 proposed by Senator Enzi for Senator Nelson to Amendment SA 1116.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2017-10-18",
+      "action_code": "91000",
+      "references": [],
+      "text": "Senate amendment submitted",
+      "type": "action"
+    }
+  ],
+  "amendment_id": "samdt1150-115",
+  "amendment_type": "samdt",
+  "amends_amendment": {
+    "amendment_id": "samdt1116-115",
+    "amendment_type": "samdt",
+    "congress": 115,
+    "description": "",
+    "number": 1116,
+    "purpose": "In the nature of a substitute."
+  },
+  "amends_bill": {
+    "bill_id": "hconres71-115",
+    "bill_type": "hconres",
+    "congress": 115,
+    "number": 71
+  },
+  "amends_treaty": null,
+  "chamber": "s",
+  "congress": "115",
+  "introduced_at": "2017-10-18",
+  "number": 1150,
+  "proposed_at": "2017-10-18T04:00:00Z",
+  "purpose": "To provide additional resources to restore the $473,000,000,000 in cuts to Medicare paid for by closing special interest tax loopholes.",
+  "sponsor": {
+    "bioguide_id": "N000032",
+    "district": null,
+    "name": "Nelson, Bill",
+    "state": "FL",
+    "title": "Sen.",
+    "type": "person"
+  },
+  "status": "fail",
+  "status_at": "2017-10-18",
+  "updated_at": "2020-12-04T22:36:08Z"
+}

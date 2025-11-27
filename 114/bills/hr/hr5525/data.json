@@ -1,0 +1,239 @@
+{
+  "actions": [
+    {
+      "acted_at": "2016-06-16",
+      "action_code": "Intro-H",
+      "references": [],
+      "text": "Introduced in House",
+      "type": "action"
+    },
+    {
+      "acted_at": "2016-06-16",
+      "action_code": "H11100",
+      "committees": [
+        "HSIF"
+      ],
+      "references": [],
+      "status": "REFERRED",
+      "text": "Referred to the House Committee on Energy and Commerce.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2016-06-21T14:10:36-04:00",
+      "action_code": "H30300",
+      "references": [],
+      "text": "Mr. Scott, Austin moved to suspend the rules and pass the bill.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2016-06-21T14:11:03-04:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H3978-3983",
+          "type": "consideration"
+        },
+        {
+          "reference": "CR H3978-3979",
+          "type": "text of measure as introduced"
+        }
+      ],
+      "text": "Considered under suspension of the rules.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2016-06-21T14:11:04-04:00",
+      "action_code": "H8D000",
+      "references": [],
+      "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 5525.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2016-06-21T14:38:59-04:00",
+      "action_code": "H37220",
+      "references": [],
+      "text": "At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2016-06-21T18:30:48-04:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H4025",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered as unfinished business.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2016-06-21T18:52:11-04:00",
+      "action_code": "H37300",
+      "how": "roll",
+      "references": [],
+      "result": "fail",
+      "roll": "334",
+      "status": "PROV_KILL:SUSPENSIONFAILED",
+      "suspension": true,
+      "text": "On motion to suspend the rules and pass the bill Failed by the Yeas and Nays: (2/3 required): 207 - 143 (Roll no. 334).",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "h"
+    }
+  ],
+  "amendments": [],
+  "bill_id": "hr5525-114",
+  "bill_type": "hr",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [
+    {
+      "activity": [
+        "referral"
+      ],
+      "committee": "House Energy and Commerce",
+      "committee_id": "HSIF"
+    }
+  ],
+  "congress": "114",
+  "cosponsors": [
+    {
+      "bioguide_id": "A000372",
+      "district": "12",
+      "name": "Allen, Rick W.",
+      "original_cosponsor": false,
+      "sponsored_at": "2016-06-21",
+      "state": "GA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001290",
+      "district": "7",
+      "name": "Brat, Dave",
+      "original_cosponsor": false,
+      "sponsored_at": "2016-06-21",
+      "state": "VA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "G000552",
+      "district": "1",
+      "name": "Gohmert, Louie",
+      "original_cosponsor": false,
+      "sponsored_at": "2016-06-21",
+      "state": "TX",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001182",
+      "district": "5",
+      "name": "Mulvaney, Mick",
+      "original_cosponsor": false,
+      "sponsored_at": "2016-06-21",
+      "state": "SC",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S000250",
+      "district": "32",
+      "name": "Sessions, Pete",
+      "original_cosponsor": true,
+      "sponsored_at": "2016-06-16",
+      "state": "TX",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000815",
+      "district": "2",
+      "name": "Wenstrup, Brad R.",
+      "original_cosponsor": false,
+      "sponsored_at": "2016-06-21",
+      "state": "OH",
+      "title": "Rep.",
+      "withdrawn_at": null
+    }
+  ],
+  "enacted_as": null,
+  "history": {
+    "active": true,
+    "active_at": "2016-06-21T14:10:36-04:00",
+    "awaiting_signature": false,
+    "enacted": false,
+    "house_passage_result": "fail",
+    "house_passage_result_at": "2016-06-21T18:52:11-04:00",
+    "vetoed": false
+  },
+  "introduced_at": "2016-06-16",
+  "number": "5525",
+  "official_title": "To prohibit universal service support of commercial mobile service and commercial mobile data service through the Lifeline program.",
+  "popular_title": null,
+  "related_bills": [
+    {
+      "bill_id": "hr266-114",
+      "identified_by": "CRS",
+      "reason": "related",
+      "type": "bill"
+    },
+    {
+      "bill_id": "s1621-114",
+      "identified_by": "CRS",
+      "reason": "related",
+      "type": "bill"
+    }
+  ],
+  "short_title": "End Taxpayer Funded Cell Phones Act of 2016",
+  "sponsor": {
+    "bioguide_id": "S001189",
+    "district": "8",
+    "name": "Scott, Austin",
+    "state": "GA",
+    "title": "Rep.",
+    "type": "person"
+  },
+  "status": "PROV_KILL:SUSPENSIONFAILED",
+  "status_at": "2016-06-21T18:52:11-04:00",
+  "subjects": [
+    "Budget deficits and national debt",
+    "Science, technology, communications",
+    "Telecommunication rates and fees",
+    "Telephone and wireless communication"
+  ],
+  "subjects_top_term": "Science, technology, communications",
+  "summary": {
+    "as": "Introduced in House",
+    "asOf": "2016-06-16",
+    "date": "2016-10-13T22:03:16Z",
+    "text": "End Taxpayer Funded Cell Phones Act of 2016\n\nThis bill prohibits a provider of commercial mobile service or commercial mobile data service from receiving universal service support under the Communications Act of 1934 through the Federal Communications Commission's (FCC's) Lifeline program, which provides subsidies for discounts on monthly telephone or broadband service (e.g., Internet service on mobile phones) to qualifying low-income consumers.\n\nThe FCC must continue to collect universal service contributions from telecommunications carriers through 2017 based on mobile service support provided in 2016 despite the bill's prohibition on Lifeline universal service support for mobile services. But the amounts collected for mobile services must be deposited in the Treasury for deficit reduction instead of being distributed for universal service support."
+  },
+  "titles": [
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "End Taxpayer Funded Cell Phones Act of 2016",
+      "type": "display"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "To prohibit universal service support of commercial mobile service and commercial mobile data service through the Lifeline program.",
+      "type": "official"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "End Taxpayer Funded Cell Phones Act of 2016",
+      "type": "short"
+    }
+  ],
+  "updated_at": "2023-01-11T13:32:45Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/114/hr/BILLSTATUS-114hr5525.xml"
+}

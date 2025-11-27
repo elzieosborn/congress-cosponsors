@@ -1,0 +1,290 @@
+{
+  "actions": [
+    {
+      "acted_at": "2021-10-20",
+      "action_code": "Intro-H",
+      "references": [],
+      "text": "Introduced in House",
+      "type": "action"
+    },
+    {
+      "acted_at": "2021-10-20",
+      "action_code": "H11100",
+      "committees": [
+        "HSHM"
+      ],
+      "references": [],
+      "status": "REFERRED",
+      "text": "Referred to the House Committee on Homeland Security.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2021-10-21",
+      "action_code": "",
+      "committees": [
+        "HSHM"
+      ],
+      "references": [],
+      "text": "Referred to the Subcommittee on Oversight, Management, and Accountability.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2021-10-26",
+      "action_code": "",
+      "committees": [
+        "HSHM"
+      ],
+      "references": [],
+      "text": "Subcommittee on Oversight, Management, and Accountability Discharged.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2021-10-26",
+      "action_code": "",
+      "committees": [
+        "HSHM"
+      ],
+      "references": [],
+      "text": "Committee Consideration and Mark-up Session Held.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2021-10-26",
+      "action_code": "",
+      "committees": [
+        "HSHM"
+      ],
+      "references": [],
+      "status": "REPORTED",
+      "text": "Ordered to be Reported by Voice Vote.",
+      "type": "ordered-reported"
+    },
+    {
+      "acted_at": "2021-11-16T13:45:06-05:00",
+      "action_code": "H30300",
+      "references": [],
+      "text": "Mr. Correa moved to suspend the rules and pass the bill.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2021-11-16T13:45:25-05:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H6294-6296",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered under suspension of the rules.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2021-11-16T13:45:27-05:00",
+      "action_code": "H8D000",
+      "references": [],
+      "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 5652.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2021-11-16T13:54:33-05:00",
+      "action_code": "H37300",
+      "how": "by voice vote",
+      "references": [
+        {
+          "reference": "CR H6294-6295",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "status": "PASS_OVER:HOUSE",
+      "suspension": null,
+      "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "h"
+    },
+    {
+      "acted_at": "2021-11-16T13:54:36-05:00",
+      "action_code": "H38310",
+      "references": [],
+      "text": "Motion to reconsider laid on the table Agreed to without objection.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2021-11-18",
+      "action_code": "",
+      "committees": [
+        "SSGA"
+      ],
+      "references": [],
+      "text": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+      "type": "referral"
+    }
+  ],
+  "amendments": [],
+  "bill_id": "hr5652-117",
+  "bill_type": "hr",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [
+    {
+      "activity": [
+        "referral"
+      ],
+      "committee": "Senate Homeland Security and Governmental Affairs",
+      "committee_id": "SSGA"
+    },
+    {
+      "activity": [
+        "markup",
+        "referral"
+      ],
+      "committee": "House Homeland Security",
+      "committee_id": "HSHM"
+    },
+    {
+      "activity": [
+        "discharged",
+        "referral"
+      ],
+      "committee": "House Homeland Security",
+      "committee_id": "HSHM",
+      "subcommittee": "Subcommittee on Oversight, Investigations, and Accountability",
+      "subcommittee_id": "09"
+    }
+  ],
+  "congress": "117",
+  "cosponsors": [
+    {
+      "bioguide_id": "D000627",
+      "district": "10",
+      "name": "Demings, Val Butler",
+      "original_cosponsor": false,
+      "sponsored_at": "2021-11-03",
+      "state": "FL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "G000597",
+      "district": "2",
+      "name": "Garbarino, Andrew R.",
+      "original_cosponsor": false,
+      "sponsored_at": "2021-11-02",
+      "state": "NY",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H001077",
+      "district": "3",
+      "name": "Higgins, Clay",
+      "original_cosponsor": false,
+      "sponsored_at": "2021-11-02",
+      "state": "LA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "K000386",
+      "district": "24",
+      "name": "Katko, John",
+      "original_cosponsor": false,
+      "sponsored_at": "2021-11-02",
+      "state": "NY",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001215",
+      "district": "2",
+      "name": "Miller-Meeks, Mariannette",
+      "original_cosponsor": false,
+      "sponsored_at": "2021-11-02",
+      "state": "IA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    }
+  ],
+  "enacted_as": null,
+  "history": {
+    "active": true,
+    "active_at": "2021-10-26",
+    "awaiting_signature": false,
+    "enacted": false,
+    "house_passage_result": "pass",
+    "house_passage_result_at": "2021-11-16T13:54:33-05:00",
+    "vetoed": false
+  },
+  "introduced_at": "2021-10-20",
+  "number": "5652",
+  "official_title": "To amend the Homeland Security Act of 2002 to establish the Acquisition Review Board in the Department of Homeland Security, and for other purposes.",
+  "popular_title": null,
+  "related_bills": [],
+  "short_title": "DHS Acquisition Review Board Act of 2021",
+  "sponsor": {
+    "bioguide_id": "V000133",
+    "district": "2",
+    "name": "Van Drew, Jefferson",
+    "state": "NJ",
+    "title": "Rep.",
+    "type": "person"
+  },
+  "status": "PASS_OVER:HOUSE",
+  "status_at": "2021-11-16T13:54:33-05:00",
+  "subjects": [
+    "Advisory bodies",
+    "Congressional oversight",
+    "Department of Homeland Security",
+    "Executive agency funding and structure",
+    "Government employee pay, benefits, personnel management",
+    "Government operations and politics",
+    "Public contracts and procurement"
+  ],
+  "subjects_top_term": "Government operations and politics",
+  "summary": {
+    "as": "Passed House",
+    "asOf": "2021-11-16",
+    "date": "2021-11-26T16:01:55Z",
+    "text": "DHS Acquisition Review Board Act of 2021\n\nThis bill requires the Department of Homeland Security (DHS) to establish an Acquisition Review Board to support the Management Directorate in managing DHS acquisitions.\n\nThe bill lists the board's responsibilities, which include determining whether a proposed acquisition has met the requirements of key phases of the acquisition life cycle framework and is able to proceed to the next phase.\n\nThe chair of the board must ensure that all actions and decisions made pursuant to the board's responsibilities are documented in an acquisition decision memorandum that includes specified elements, such as the rationale for the decision."
+  },
+  "titles": [
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "DHS Acquisition Review Board Act of 2021",
+      "type": "display"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "DHS Acquisition Review Board Act of 2021",
+      "type": "short"
+    },
+    {
+      "as": "passed house",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "DHS Acquisition Review Board Act of 2021",
+      "type": "short"
+    },
+    {
+      "as": "passed house",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "DHS Acquisition Review Board Act of 2021",
+      "type": "short"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "To amend the Homeland Security Act of 2002 to establish the Acquisition Review Board in the Department of Homeland Security, and for other purposes.",
+      "type": "official"
+    }
+  ],
+  "updated_at": "2023-05-11T15:45:15Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/117/hr/BILLSTATUS-117hr5652.xml"
+}

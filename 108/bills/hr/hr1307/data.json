@@ -1,0 +1,309 @@
+{
+  "actions": [
+    {
+      "acted_at": "2003-03-18",
+      "action_code": "Intro-H",
+      "references": [],
+      "text": "Introduced in House",
+      "type": "action"
+    },
+    {
+      "acted_at": "2003-03-18",
+      "action_code": "H11100",
+      "committees": [
+        "HSWM"
+      ],
+      "references": [],
+      "status": "REFERRED",
+      "text": "Referred to the House Committee on Ways and Means.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2003-03-19T10:49:30-05:00",
+      "action_code": "H30300",
+      "references": [],
+      "text": "Mr. Thomas moved to suspend the rules and pass the bill.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2003-03-19T10:51:22-05:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H1964-1970",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered under suspension of the rules.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2003-03-19T10:51:25-05:00",
+      "action_code": "H8D000",
+      "references": [],
+      "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 1307.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2003-03-19T11:19:19-05:00",
+      "action_code": "H37220",
+      "references": [],
+      "text": "At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2003-03-20T10:40:11-05:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H2136-2137",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered as unfinished business.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2003-03-20T10:48:58-05:00",
+      "action_code": "H37300",
+      "how": "roll",
+      "references": [
+        {
+          "reference": "CR 3/19/2003 H1964-1966",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "roll": "76",
+      "status": "PASS_OVER:HOUSE",
+      "suspension": true,
+      "text": "On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 422 - 0 (Roll no. 76).",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "h"
+    },
+    {
+      "acted_at": "2003-03-20T10:48:59-05:00",
+      "action_code": "H38310",
+      "references": [],
+      "text": "Motion to reconsider laid on the table Agreed to without objection.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2003-03-20",
+      "action_code": "",
+      "references": [],
+      "text": "Received in the Senate.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2003-03-27",
+      "action_code": "",
+      "references": [
+        {
+          "reference": " CR S4472-4483, S4490-4495",
+          "type": "consideration"
+        }
+      ],
+      "text": "Measure laid before Senate by unanimous consent.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2003-03-27",
+      "action_code": "",
+      "how": "roll",
+      "references": [
+        {
+          "reference": " CR S4490-4495",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "roll": "110",
+      "status": "PASS_BACK:SENATE",
+      "text": "Passed Senate with an amendment by Yea-Nay Vote. 97 - 0. Record Vote Number: 110.",
+      "type": "vote",
+      "vote_type": "vote2",
+      "where": "s"
+    },
+    {
+      "acted_at": "2003-03-31",
+      "action_code": "",
+      "references": [],
+      "text": "Message on Senate action sent to the House.",
+      "type": "action"
+    }
+  ],
+  "amendments": [
+    {
+      "amendment_id": "samdt433-108",
+      "amendment_type": "samdt",
+      "chamber": "s",
+      "number": "433"
+    }
+  ],
+  "bill_id": "hr1307-108",
+  "bill_type": "hr",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [
+    {
+      "activity": [
+        "referral"
+      ],
+      "committee": "House Ways and Means",
+      "committee_id": "HSWM"
+    }
+  ],
+  "congress": "108",
+  "cosponsors": [],
+  "enacted_as": null,
+  "history": {
+    "active": true,
+    "active_at": "2003-03-19T10:49:30-05:00",
+    "awaiting_signature": false,
+    "enacted": false,
+    "house_passage_result": "pass",
+    "house_passage_result_at": "2003-03-20T10:48:58-05:00",
+    "senate_passage_result": "pass",
+    "senate_passage_result_at": "2003-03-27",
+    "vetoed": false
+  },
+  "introduced_at": "2003-03-18",
+  "number": "1307",
+  "official_title": "To amend the Internal Revenue Code of 1986 to provide a special rule for members of the uniformed services in determining the exclusion of gain from the sale of a principal residence and to restore the tax exempt status of death gratuity payments to members of the uniformed services, and for other purposes.",
+  "popular_title": "Military Tax Relief bill",
+  "related_bills": [
+    {
+      "bill_id": "hr878-108",
+      "identified_by": "House",
+      "reason": "related",
+      "type": "bill"
+    },
+    {
+      "bill_id": "hr1664-108",
+      "identified_by": "House",
+      "reason": "related",
+      "type": "bill"
+    },
+    {
+      "bill_id": "s351-108",
+      "identified_by": "House",
+      "reason": "related",
+      "type": "bill"
+    }
+  ],
+  "short_title": "Armed Forces Tax Fairness Act of 2003",
+  "sponsor": {
+    "bioguide_id": "T000188",
+    "district": "22",
+    "name": "Thomas, William M.",
+    "state": "CA",
+    "title": "Rep.",
+    "type": "person"
+  },
+  "status": "PASS_BACK:SENATE",
+  "status_at": "2003-03-27",
+  "subjects": [
+    "Armed Forces and National Security",
+    "Armed forces abroad",
+    "Armed forces reserves",
+    "Capital gains tax",
+    "Crime and Law Enforcement",
+    "Day care",
+    "Economics and Public Finance",
+    "Education",
+    "Education savings accounts",
+    "Families",
+    "Fringe benefits",
+    "Government trust funds",
+    "Higher education",
+    "Home ownership",
+    "Housing and Community Development",
+    "Housing finance",
+    "Housing subsidies",
+    "Income tax",
+    "Labor and Employment",
+    "Law",
+    "Limitation of actions",
+    "Military base closures",
+    "Military dependents",
+    "Military education",
+    "Military operations",
+    "Military pay",
+    "Military pensions",
+    "Military personnel",
+    "Military training",
+    "National Guard",
+    "Old age, survivors and disability insurance",
+    "Service academies",
+    "Social Welfare",
+    "Social security finance",
+    "Survivors' benefits",
+    "Tax administration",
+    "Tax credits",
+    "Tax deductions",
+    "Tax exclusion",
+    "Tax penalties",
+    "Tax refunds",
+    "Tax returns",
+    "Tax-exempt organizations",
+    "Taxation",
+    "Transportation and Public Works",
+    "Travel costs",
+    "Veterans' organizations"
+  ],
+  "subjects_top_term": "Taxation",
+  "summary": {
+    "as": "Passed House without amendment",
+    "asOf": "2003-03-20",
+    "date": "2007-05-09T19:28:10Z",
+    "text": "(This measure has not been amended since it was introduced in the House on March 18, 2003. However, because action occurred on the measure, the summary has been expanded.)Armed Forces Tax Fairness Act of 2003 - (Sec. 2) Amends the Internal Revenue Code to authorize a member of the uniformed services on \"qualified official extended duty\" (any duty in excess of 180 days while serving at a duty station which is at least 150 miles from the principal residence or while residing under Government orders in Government quarters), to extend for five years the five-year period utilized in determining full exclusion of gain from the sale of a principal residence.Includes among the uniformed services: (1) the armed forces; (2) the commissioned corps of the National Oceanic and Atmospheric Administration; and (3) the commissioned corps of the Public Health Service.Makes such provisions effective as if included in section 312 of the Taxpayer Relief Act of 1997.States that if a refund or credit resulting from such exclusion is prevented before the close of the one-year period beginning on the date of the enactment of this Act by the operation of any law or rule of law (including res judicata), such refund or credit may be allowed if claimed before the close of such period.(Sec. 3) Excludes from gross income as a qualified military benefit the amount of the death gratuity payable under chapter 75 of title 10 of the United States Code, effective with respect to deaths occurring after September 10, 2001.(Sec. 4) Exempts amounts received under the Homeowners Assistance Program from inclusion as gross income.(Sec. 5) Extends combat zone filing rules to contingency operations.(Sec. 6) Includes ancestors or lineal descendants of past or present members of the armed forces or of cadets as qualifying members of veterans' organizations for purposes of such organizations' tax-exempt status determination.(Sec. 7) Includes dependent care assistance provided under a dependent care assistance program for a member of the uniformed services by reason of such member's status or service as an income-excludable qualified military benefit.(Sec. 8) Exempts distributions from an education individual retirement account from the ten percent additional tax for non-educational use: (1) if made for an account holder at the United States Military Academy, the United States Naval Academy, the United States Air Force Academy, the United States Coast Guard Academy, or the United States Merchant Marine Academy; and (2) to the extent that the distribution does not exceed the costs of advanced education.(Sec. 9) Provides a deduction (limited to $1,500) for itemizers and non-itemizers for unreimbursed overnight travel, meals, and lodging expenses of National Guard and Reserve members who must travel more than 100 miles away from home and stay overnight as part of their official duties.(Sec. 10) Provides that amounts transferred to any trust fund under title II (Old Age, Survivors and Disability Insurance) of the Social Security Act shall be determined as if this Act had not enacted."
+  },
+  "titles": [
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Armed Forces Tax Fairness Act of 2003",
+      "type": "display"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "To amend the Internal Revenue Code of 1986 to provide a special rule for members of the uniformed services in determining the exclusion of gain from the sale of a principal residence and to restore the tax exempt status of death gratuity payments to members of the uniformed services, and for other purposes.",
+      "type": "official"
+    },
+    {
+      "as": "passed senate",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Armed Forces Tax Fairness Act of 2003",
+      "type": "short"
+    },
+    {
+      "as": "passed house",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Armed Forces Tax Fairness Act of 2003",
+      "type": "short"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Armed Forces Tax Fairness Act of 2003",
+      "type": "short"
+    },
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Military Tax Relief bill",
+      "type": "popular"
+    }
+  ],
+  "updated_at": "2023-01-15T22:33:36Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/108/hr/BILLSTATUS-108hr1307.xml"
+}

@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>5453</number>
+    <updateDate>2023-01-11T13:15:44Z</updateDate>
+    <updateDateIncludingText>2023-01-11T13:15:44Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2008-02-14</introducedDate>
+    <congress>110</congress>
+    <committees>
+      <item>
+        <systemCode>hsii00</systemCode>
+        <name>Natural Resources Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsii15</systemCode>
+            <name>Oversight and Investigations Subcommittee</name>
+            <activities>
+              <item>
+                <name>Hearings by</name>
+                <date>2008-02-28T20:01:22Z</date>
+              </item>
+              <item>
+                <name>Referred to</name>
+                <date>2008-02-19T14:47:05Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2008-02-14T15:05:35Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2008-02-28</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii15</systemCode>
+            <name>Oversight and Investigations Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Subcommittee Hearings Held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2008-02-19</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii15</systemCode>
+            <name>Oversight and Investigations Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Fisheries, Wildlife, and Oceans.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2008-02-14</actionDate>
+        <text>Referred to the House Committee on Natural Resources.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2008-02-14</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2008-02-14</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>C001036</bioguideId>
+        <fullName>Rep. Capps, Lois [D-CA-23]</fullName>
+        <firstName>LOIS</firstName>
+        <lastName>CAPPS</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>23</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>B001245</bioguideId>
+        <fullName>Del. Bordallo, Madeleine Z. [D-GU-At Large]</fullName>
+        <firstName>Madeleine</firstName>
+        <lastName>Bordallo</lastName>
+        <party>D</party>
+        <state>GU</state>
+        <middleName>Z.</middleName>
+        <district>0</district>
+        <sponsorshipDate>2008-02-14</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000097</bioguideId>
+        <fullName>Rep. Saxton, Jim [R-NJ-3]</fullName>
+        <firstName>H.</firstName>
+        <lastName>SAXTON</lastName>
+        <party>R</party>
+        <state>NJ</state>
+        <middleName>JAMES</middleName>
+        <district>3</district>
+        <sponsorshipDate>2008-02-14</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000133</bioguideId>
+        <fullName>Rep. Markey, Edward J. [D-MA-7]</fullName>
+        <firstName>Edward</firstName>
+        <lastName>Markey</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>J.</middleName>
+        <district>7</district>
+        <sponsorshipDate>2008-02-14</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000034</bioguideId>
+        <fullName>Rep. Pallone, Frank, Jr. [D-NJ-6]</fullName>
+        <firstName>FRANK</firstName>
+        <lastName>PALLONE</lastName>
+        <party>D</party>
+        <state>NJ</state>
+        <district>6</district>
+        <sponsorshipDate>2008-02-14</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>I000026</bioguideId>
+        <fullName>Rep. Inslee, Jay [D-WA-1]</fullName>
+        <firstName>JAY</firstName>
+        <lastName>INSLEE</lastName>
+        <party>D</party>
+        <state>WA</state>
+        <district>1</district>
+        <sponsorshipDate>2008-02-14</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000030</bioguideId>
+        <fullName>Rep. Farr, Sam [D-CA-17]</fullName>
+        <firstName>SAM</firstName>
+        <lastName>FARR</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>17</district>
+        <sponsorshipDate>2008-02-14</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000210</bioguideId>
+        <fullName>Rep. Delahunt, William D. [D-MA-10]</fullName>
+        <firstName>William</firstName>
+        <lastName>Delahunt</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>D.</middleName>
+        <district>10</district>
+        <sponsorshipDate>2008-02-14</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000010</bioguideId>
+        <fullName>Del. Faleomavaega, Eni F. H. [D-AS-At Large]</fullName>
+        <firstName>Eni</firstName>
+        <lastName>Faleomavaega</lastName>
+        <party>D</party>
+        <state>AS</state>
+        <middleName>F. H.</middleName>
+        <district>0</district>
+        <sponsorshipDate>2008-02-14</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001163</bioguideId>
+        <fullName>Rep. Matsui, Doris O. [D-CA-5]</fullName>
+        <firstName>Doris</firstName>
+        <lastName>Matsui</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <middleName>O.</middleName>
+        <district>5</district>
+        <sponsorshipDate>2008-02-14</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000627</bioguideId>
+        <fullName>Rep. Hinchey, Maurice D. [D-NY-22]</fullName>
+        <firstName>MAURICE</firstName>
+        <lastName>HINCHEY</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>D.</middleName>
+        <district>22</district>
+        <sponsorshipDate>2008-02-14</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Public Lands and Natural Resources</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Animals</name>
+        </item>
+        <item>
+          <name>Aquatic pests</name>
+        </item>
+        <item>
+          <name>Biological diversity</name>
+        </item>
+        <item>
+          <name>Climate change and greenhouse gases</name>
+        </item>
+        <item>
+          <name>Coastal zone</name>
+        </item>
+        <item>
+          <name>Commerce</name>
+        </item>
+        <item>
+          <name>Economics and Public Finance</name>
+        </item>
+        <item>
+          <name>Emergency Management</name>
+        </item>
+        <item>
+          <name>Environmental Protection</name>
+        </item>
+        <item>
+          <name>Environmental monitoring</name>
+        </item>
+        <item>
+          <name>Fisheries</name>
+        </item>
+        <item>
+          <name>Floods</name>
+        </item>
+        <item>
+          <name>Grants-in-aid</name>
+        </item>
+        <item>
+          <name>Great Lakes</name>
+        </item>
+        <item>
+          <name>Habitat conservation</name>
+        </item>
+        <item>
+          <name>Hurricanes</name>
+        </item>
+        <item>
+          <name>Land subsidence</name>
+        </item>
+        <item>
+          <name>Land use</name>
+        </item>
+        <item>
+          <name>Marine and coastal resources, fisheries</name>
+        </item>
+        <item>
+          <name>Marine ecology</name>
+        </item>
+        <item>
+          <name>Marine resources conservation</name>
+        </item>
+        <item>
+          <name>Non-native species</name>
+        </item>
+        <item>
+          <name>Pest control</name>
+        </item>
+        <item>
+          <name>Planning</name>
+        </item>
+        <item>
+          <name>Sea level</name>
+        </item>
+        <item>
+          <name>Sediment control</name>
+        </item>
+        <item>
+          <name>Sedimentation</name>
+        </item>
+        <item>
+          <name>Shore protection</name>
+        </item>
+        <item>
+          <name>Storms</name>
+        </item>
+        <item>
+          <name>Tourism</name>
+        </item>
+        <item>
+          <name>Tsunamis</name>
+        </item>
+        <item>
+          <name>Water Resources Development</name>
+        </item>
+        <item>
+          <name>Wildlife conservation</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Public Lands and Natural Resources</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2008-02-14</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2008-05-15T15:54:27Z</updateDate>
+        <text><![CDATA[ <p>Coastal State Climate Change Planning Act of 2008 - Amends the Coastal Zone Management Act of 1972 to establish a coastal climate change adaptation planning and response program to provide assistance to coastal states to voluntarily develop coastal climate change adaptation plans and to provide financial and technical assistance and training to enable coastal states to implement those plans through coastal states' enforceable policies.</p> <p>Authorizes, subject to the availability of appropriations, grants to coastal states for developing the plans and grants for implementation.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Coastal State Climate Change Planning Act of 2008</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Coastal State Climate Change Planning Act of 2008</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend the Coastal Zone Management Act of 1972 to authorize assistance to coastal states to develop coastal climate change adaptation plans pursuant to approved management programs approved under section 306, to minimize contributions to climate change, and for other purposes.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Coastal State Climate Change Planning Act of 2008</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2008-02-14T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-110hr5453ih/xml/BILLS-110hr5453ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2008-02-28</actionDate>
+      <text>Subcommittee Hearings Held.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>2658</number>
+    <updateDate>2022-02-03T05:25:35Z</updateDate>
+    <updateDateIncludingText>2022-02-08T17:27:15Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2005-05-26</introducedDate>
+    <congress>109</congress>
+    <committees>
+      <item>
+        <systemCode>hspw00</systemCode>
+        <name>Transportation and Infrastructure Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hspw02</systemCode>
+            <name>Water Resources and Environment Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2005-05-27T16:56:19Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2005-05-26T14:08:50Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <relatedBills>
+      <item>
+        <title>Clean Water Authority Restoration Act of 2005</title>
+        <congress>109</congress>
+        <number>1356</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2005-03-18</actionDate>
+          <text>Referred to the Subcommittee on Water Resources and Environment.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Text similarities</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2005-05-27</actionDate>
+        <committees>
+          <item>
+            <systemCode>hspw02</systemCode>
+            <name>Water Resources and Environment Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Water Resources and Environment.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2005-05-26</actionDate>
+        <text>Referred to the House Committee on Transportation and Infrastructure.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hspw00</systemCode>
+            <name>Transportation and Infrastructure Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2005-05-26</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2005-05-26</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>B000072</bioguideId>
+        <fullName>Rep. Baker, Richard H. [R-LA-6]</fullName>
+        <firstName>RICHARD</firstName>
+        <lastName>BAKER</lastName>
+        <party>R</party>
+        <state>LA</state>
+        <middleName>H.</middleName>
+        <district>6</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>B000420</bioguideId>
+        <fullName>Rep. Berry, Marion [D-AR-1]</fullName>
+        <firstName>MARION</firstName>
+        <lastName>BERRY</lastName>
+        <party>D</party>
+        <state>AR</state>
+        <district>1</district>
+        <sponsorshipDate>2005-05-26</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001235</bioguideId>
+        <fullName>Rep. Brown, Henry E., Jr. [R-SC-1]</fullName>
+        <firstName>HENRY</firstName>
+        <lastName>BROWN</lastName>
+        <party>R</party>
+        <state>SC</state>
+        <middleName>E.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2005-05-26</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>N000143</bioguideId>
+        <fullName>Rep. Northup, Anne M. [R-KY-3]</fullName>
+        <firstName>ANNE</firstName>
+        <lastName>NORTHUP</lastName>
+        <party>R</party>
+        <state>KY</state>
+        <middleName>M.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2005-05-26</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000116</bioguideId>
+        <fullName>Rep. Cannon, Chris [R-UT-3]</fullName>
+        <firstName>CHRIS</firstName>
+        <lastName>CANNON</lastName>
+        <party>R</party>
+        <state>UT</state>
+        <district>3</district>
+        <sponsorshipDate>2005-05-26</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000533</bioguideId>
+        <fullName>Rep. Duncan, John J., Jr. [R-TN-2]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>DUNCAN</lastName>
+        <party>R</party>
+        <state>TN</state>
+        <middleName>J.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2005-05-26</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000603</bioguideId>
+        <fullName>Rep. Davis, Geoff [R-KY-4]</fullName>
+        <firstName>Geoff</firstName>
+        <lastName>Davis</lastName>
+        <party>R</party>
+        <state>KY</state>
+        <district>4</district>
+        <sponsorshipDate>2005-06-07</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>A000055</bioguideId>
+        <fullName>Rep. Aderholt, Robert B. [R-AL-4]</fullName>
+        <firstName>ROBERT</firstName>
+        <lastName>ADERHOLT</lastName>
+        <party>R</party>
+        <state>AL</state>
+        <middleName>B.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2005-06-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000429</bioguideId>
+        <fullName>Rep. Doolittle, John T. [R-CA-4]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>DOOLITTLE</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <middleName>T.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2005-06-30</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000445</bioguideId>
+        <fullName>Rep. Forbes, J. Randy [R-VA-4]</fullName>
+        <firstName>J.</firstName>
+        <lastName>Forbes</lastName>
+        <party>R</party>
+        <state>VA</state>
+        <middleName>Randy</middleName>
+        <district>4</district>
+        <sponsorshipDate>2005-07-11</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>N000081</bioguideId>
+        <fullName>Rep. Ney, Robert W. [R-OH-18]</fullName>
+        <firstName>BOB</firstName>
+        <lastName>NEY</lastName>
+        <party>R</party>
+        <state>OH</state>
+        <district>18</district>
+        <sponsorshipDate>2005-07-13</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000962</bioguideId>
+        <fullName>Rep. Cubin, Barbara [R-WY-At Large]</fullName>
+        <firstName>BARBARA</firstName>
+        <lastName>CUBIN</lastName>
+        <party>R</party>
+        <state>WY</state>
+        <district>0</district>
+        <sponsorshipDate>2005-09-13</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000571</bioguideId>
+        <fullName>Rep. Rehberg, Dennis R. [R-MT-At Large]</fullName>
+        <firstName>DENNIS</firstName>
+        <lastName>REHBERG</lastName>
+        <party>R</party>
+        <state>MT</state>
+        <middleName>R.</middleName>
+        <district>0</district>
+        <sponsorshipDate>2005-11-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001158</bioguideId>
+        <fullName>Rep. Marchant, Kenny [R-TX-24]</fullName>
+        <firstName>Kenny</firstName>
+        <lastName>Marchant</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>24</district>
+        <sponsorshipDate>2006-02-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000013</bioguideId>
+        <fullName>Rep. Bachus, Spencer [R-AL-6]</fullName>
+        <firstName>SPENCER</firstName>
+        <lastName>BACHUS</lastName>
+        <party>R</party>
+        <state>AL</state>
+        <district>6</district>
+        <sponsorshipDate>2006-02-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Environmental Protection</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Administrative remedies</name>
+        </item>
+        <item>
+          <name>Army Corps of Engineers</name>
+        </item>
+        <item>
+          <name>Commerce</name>
+        </item>
+        <item>
+          <name>Department of Defense</name>
+        </item>
+        <item>
+          <name>Dredging</name>
+        </item>
+        <item>
+          <name>Environmental Protection Agency</name>
+        </item>
+        <item>
+          <name>Executive reorganization</name>
+        </item>
+        <item>
+          <name>Federal-local relations</name>
+        </item>
+        <item>
+          <name>Federal-state relations</name>
+        </item>
+        <item>
+          <name>Foreign Trade and International Finance</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Government paperwork</name>
+        </item>
+        <item>
+          <name>Injunctions</name>
+        </item>
+        <item>
+          <name>International Affairs</name>
+        </item>
+        <item>
+          <name>Interstate commerce</name>
+        </item>
+        <item>
+          <name>Judicial review</name>
+        </item>
+        <item>
+          <name>Jurisdiction</name>
+        </item>
+        <item>
+          <name>Landowners</name>
+        </item>
+        <item>
+          <name>Law</name>
+        </item>
+        <item>
+          <name>Licenses</name>
+        </item>
+        <item>
+          <name>Marine and coastal resources, fisheries</name>
+        </item>
+        <item>
+          <name>Navigation</name>
+        </item>
+        <item>
+          <name>Territorial waters</name>
+        </item>
+        <item>
+          <name>Transportation and Public Works</name>
+        </item>
+        <item>
+          <name>Waste disposal in rivers, lakes, etc.</name>
+        </item>
+        <item>
+          <name>Waste disposal in the ocean</name>
+        </item>
+        <item>
+          <name>Water Resources Development</name>
+        </item>
+        <item>
+          <name>Water pollution control</name>
+        </item>
+        <item>
+          <name>Waterways</name>
+        </item>
+        <item>
+          <name>Wetlands</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Environmental Protection</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2005-05-26</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2005-07-07T18:39:22Z</updateDate>
+        <text><![CDATA[ <p>Federal Wetlands Jurisdiction Act of 2005 - Amends the Federal Water Pollution Control Act to clarify that waters of the United States, including the territorial seas, are subject to the jurisdiction of the permitting program for the discharge of dredged or fill material (permitting program) if such waters are: (1) navigable; (2) connected to navigable waters through a continuous, naturally occurring surface water connection; or (3) wetlands adjacent to such navigable or connected waters.</p> <p>States that waters are considered connected to navigable waters for purposes of this Act if connected by perennial or intermittent streams that contribute flow to navigable waters. Excludes from the definition those waters connected by: (1) sheet flow (non-channelized water flowing over upland); (2) ephemeral waters, ground water, manmade ditches, or pipelines; or (3) a municipal separate storm sewer system or any other regulated point source.</p> <p>Excludes fastlands (areas located behind legally constituted manmade structures) from the jurisdiction of the permitting program.</p> <p>Grants sole authority to the Secretary of the Army to determine the waters subject to the jurisdiction of the permitting program.</p> <p>Sets forth procedures whereby property owners, or those with written authorization from such owners, may: (1) request that the Secretary determine jurisdiction under this Act and thereafter seek judicial review or injunctive relief; or (2) proceed under the administrative appeals process.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Federal Wetlands Jurisdiction Act of 2005</title>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Federal Wetlands Jurisdiction Act of 2005</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Federal Wetlands Jurisdiction Act of 2005</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend the Federal Water Pollution Control Act to clarify the jurisdiction of the Federal Government over waters of the United States, and for other purposes.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2005-05-26T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-109hr2658ih/xml/BILLS-109hr2658ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2005-05-27</actionDate>
+      <text>Referred to the Subcommittee on Water Resources and Environment.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

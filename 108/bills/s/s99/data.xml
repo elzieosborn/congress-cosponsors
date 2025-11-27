@@ -1,0 +1,55 @@
+<bill session="108" type="s" number="99" updated="2023-01-15T21:34:04Z">
+  <state datetime="2003-11-25">PASS_OVER:SENATE</state>
+  <status>
+    <unknown datetime="2003-11-25"/>
+  </status>
+  <introduced datetime="2003-01-07"/>
+  <titles>
+    <title type="display">A bill for the relief of Jaya Gulab Tolani and Hitesh Gulab Tolani.</title>
+    <title type="official" as="introduced">A bill for the relief of Jaya Gulab Tolani and Hitesh Gulab Tolani.</title>
+  </titles>
+  <sponsor bioguide_id="H000725"/>
+  <cosponsors>
+    <cosponsor bioguide_id="G000359" joined="2003-01-13"/>
+  </cosponsors>
+  <actions>
+    <action datetime="2003-01-07">
+      <text>Introduced in Senate</text>
+    </action>
+    <action datetime="2003-01-07" state="REFERRED">
+      <text>Read twice and referred to the Committee on the Judiciary.</text>
+    </action>
+    <action datetime="2003-11-25">
+      <text>Senate Committee on the Judiciary discharged by Unanimous Consent.</text>
+      <reference ref="CR S16061-16062" label="consideration"/>
+    </action>
+    <vote how="by Unanimous Consent" type="vote" datetime="2003-11-25" where="s" result="pass" state="PASS_OVER:SENATE">
+      <text>Passed Senate without amendment by Unanimous Consent.</text>
+      <reference ref="CR S16061" label="text as passed Senate"/>
+    </vote>
+    <action datetime="2003-12-08T09:30:48-05:00">
+      <text>Received in the House.</text>
+    </action>
+    <action datetime="2003-12-08">
+      <text>Message on Senate action sent to the House.</text>
+    </action>
+    <action datetime="2003-12-08">
+      <text>Referred to the House Committee on the Judiciary.</text>
+    </action>
+    <action datetime="2003-12-10">
+      <text>Referred to the Subcommittee on Immigration, Border Security, and Claims.</text>
+    </action>
+  </actions>
+  <committees>
+    <committee code="HSJU" name="House Judiciary" subcommittee="" activity="Referral"/>
+    <committee code="HSJU01" name="House Judiciary" subcommittee="Immigration Integrity, Security, and Enforcement" activity="Referral"/>
+    <committee code="SSJU" name="Senate Judiciary" subcommittee="" activity="Discharged, Referral"/>
+  </committees>
+  <relatedbills/>
+  <subjects>
+    <term name="Private legislation"/>
+    <term name="Immigration"/>
+  </subjects>
+  <amendments/>
+  <summary date="2006-11-28T17:35:40Z" status="Introduced in Senate">Declares Jaya Gulab Tolani and Hitesh Gulab Tolani to be considered to have been lawfully admitted to the United States for permanent residence under the Immigration and Nationality Act upon payment of the required visa fees.</summary>
+</bill>

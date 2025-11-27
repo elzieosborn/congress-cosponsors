@@ -1,0 +1,182 @@
+{
+  "actions": [
+    {
+      "acted_at": "2011-05-24",
+      "action_code": "Intro-H",
+      "references": [],
+      "text": "Introduced in House",
+      "type": "action"
+    },
+    {
+      "acted_at": "2011-05-24",
+      "action_code": "H11100",
+      "committees": [
+        "HSWM"
+      ],
+      "references": [],
+      "status": "REFERRED",
+      "text": "Referred to the House Committee on Ways and Means.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2011-05-31T16:46:17-04:00",
+      "action_code": "H30300",
+      "references": [],
+      "text": "Mr. Camp moved to suspend the rules and pass the bill.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2011-05-31T16:46:38-04:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H3765-3775",
+          "type": "consideration"
+        },
+        {
+          "reference": "CR H3765-3766",
+          "type": "text of measure as introduced"
+        }
+      ],
+      "text": "Considered under suspension of the rules.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2011-05-31T16:46:40-04:00",
+      "action_code": "H8D000",
+      "references": [],
+      "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 1954.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2011-05-31T17:46:59-04:00",
+      "action_code": "H37220",
+      "references": [],
+      "text": "At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2011-05-31T19:00:54-04:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H3783-3784",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered as unfinished business.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2011-05-31T19:10:27-04:00",
+      "action_code": "H37300",
+      "how": "roll",
+      "references": [],
+      "result": "fail",
+      "roll": "379",
+      "status": "PROV_KILL:SUSPENSIONFAILED",
+      "suspension": true,
+      "text": "On motion to suspend the rules and pass the bill Failed by the Yeas and Nays: (2/3 required): 97 - 318, 7 Present (Roll no. 379).",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "h"
+    },
+    {
+      "acted_at": "2011-05-31T19:10:28-04:00",
+      "action_code": "H38310",
+      "references": [],
+      "text": "Motion to reconsider laid on the table Agreed to without objection.",
+      "type": "action"
+    }
+  ],
+  "amendments": [],
+  "bill_id": "hr1954-112",
+  "bill_type": "hr",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [
+    {
+      "activity": [
+        "referral"
+      ],
+      "committee": "House Ways and Means",
+      "committee_id": "HSWM"
+    }
+  ],
+  "congress": "112",
+  "cosponsors": [],
+  "enacted_as": null,
+  "history": {
+    "active": true,
+    "active_at": "2011-05-31T16:46:17-04:00",
+    "awaiting_signature": false,
+    "enacted": false,
+    "house_passage_result": "fail",
+    "house_passage_result_at": "2011-05-31T19:10:27-04:00",
+    "vetoed": false
+  },
+  "introduced_at": "2011-05-24",
+  "number": "1954",
+  "official_title": "To implement the President's request to increase the statutory limit on the public debt.",
+  "popular_title": null,
+  "related_bills": [
+    {
+      "bill_id": "hr2544-112",
+      "identified_by": "CRS",
+      "reason": "related",
+      "type": "bill"
+    },
+    {
+      "bill_id": "hr2663-112",
+      "identified_by": "CRS",
+      "reason": "related",
+      "type": "bill"
+    },
+    {
+      "bill_id": "s1326-112",
+      "identified_by": "CRS",
+      "reason": "identical",
+      "type": "bill"
+    }
+  ],
+  "short_title": null,
+  "sponsor": {
+    "bioguide_id": "C000071",
+    "district": "4",
+    "name": "Camp, Dave",
+    "state": "MI",
+    "title": "Rep.",
+    "type": "person"
+  },
+  "status": "PROV_KILL:SUSPENSIONFAILED",
+  "status_at": "2011-05-31T19:10:27-04:00",
+  "subjects": [
+    "Budget deficits and national debt",
+    "Economics and public finance"
+  ],
+  "subjects_top_term": "Economics and public finance",
+  "summary": {
+    "as": "Introduced in House",
+    "asOf": "2011-05-24",
+    "date": "2011-05-31T14:13:23Z",
+    "text": "Increases the statutory limit on the public debt from $14.294 trillion to $16.7 trillion."
+  },
+  "titles": [
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "To implement the President's request to increase the statutory limit on the public debt.",
+      "type": "display"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "To implement the President's request to increase the statutory limit on the public debt.",
+      "type": "official"
+    }
+  ],
+  "updated_at": "2022-03-02T15:36:55Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/112/hr/BILLSTATUS-112hr1954.xml"
+}

@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>5676</number>
+    <updateDate>2020-02-14T19:15:07Z</updateDate>
+    <updateDateIncludingText>2020-02-14T19:15:07Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2010-07-01</introducedDate>
+    <congress>111</congress>
+    <committees>
+      <item>
+        <systemCode>hsii00</systemCode>
+        <name>Natural Resources Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsii06</systemCode>
+            <name>Energy and Mineral Resources Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2010-07-08T14:28:06Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2010-07-01T14:07:43Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hspw00</systemCode>
+        <name>Transportation and Infrastructure Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hspw02</systemCode>
+            <name>Water Resources and Environment Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2010-07-02T19:19:10Z</date>
+              </item>
+            </activities>
+          </item>
+          <item>
+            <systemCode>hspw07</systemCode>
+            <name>Coast Guard and Maritime Transportation Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2010-07-02T19:19:03Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2010-07-01T14:07:41Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hssy00</systemCode>
+        <name>Science, Space, and Technology Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2010-07-01T14:07:46Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsif00</systemCode>
+        <name>Energy and Commerce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2010-07-01T14:07:45Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsju00</systemCode>
+        <name>Judiciary Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2010-07-01T14:07:44Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hswm00</systemCode>
+        <name>Ways and Means Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2010-07-01T14:07:42Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2010-07-08</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii06</systemCode>
+            <name>Energy and Mineral Resources Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Energy and Mineral Resources.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2010-07-02</actionDate>
+        <committees>
+          <item>
+            <systemCode>hspw02</systemCode>
+            <name>Water Resources and Environment Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Water Resources and Environment.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2010-07-02</actionDate>
+        <committees>
+          <item>
+            <systemCode>hspw07</systemCode>
+            <name>Coast Guard and Maritime Transportation Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Coast Guard and Maritime Transportation.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2010-07-01</actionDate>
+        <text>Referred to House Science and Technology</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hssy00</systemCode>
+            <name>Science, Space, and Technology Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2010-07-01</actionDate>
+        <text>Referred to House Energy and Commerce</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2010-07-01</actionDate>
+        <text>Referred to House Judiciary</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2010-07-01</actionDate>
+        <text>Referred to House Natural Resources</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2010-07-01</actionDate>
+        <text>Referred to House Ways and Means</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hswm00</systemCode>
+            <name>Ways and Means Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2010-07-01</actionDate>
+        <text>Referred to the Committee on Transportation and Infrastructure, and in addition to the Committees on Ways and Means, Natural Resources, the Judiciary, Energy and Commerce, and Science and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100-A</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2010-07-01</actionDate>
+        <text>Referred to House Transportation and Infrastructure</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hspw00</systemCode>
+            <name>Transportation and Infrastructure Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2010-07-01</actionDate>
+        <text>Sponsor introductory remarks on measure. (CR H5492-5493)</text>
+        <type>IntroReferral</type>
+        <actionCode>B00100</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2010-07-01</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2010-07-01</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>J000032</bioguideId>
+        <fullName>Rep. Jackson Lee, Sheila [D-TX-18]</fullName>
+        <firstName>SHEILA</firstName>
+        <lastName>JACKSON LEE</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>18</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Energy</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Accidents</name>
+        </item>
+        <item>
+          <name>Administrative law and regulatory procedures</name>
+        </item>
+        <item>
+          <name>Civil actions and liability</name>
+        </item>
+        <item>
+          <name>Emergency medical services and trauma care</name>
+        </item>
+        <item>
+          <name>Emergency planning and evacuation</name>
+        </item>
+        <item>
+          <name>Energy research</name>
+        </item>
+        <item>
+          <name>Environmental assessment, monitoring, research</name>
+        </item>
+        <item>
+          <name>Environmental technology</name>
+        </item>
+        <item>
+          <name>Government trust funds</name>
+        </item>
+        <item>
+          <name>Gulf of Mexico</name>
+        </item>
+        <item>
+          <name>Licensing and registrations</name>
+        </item>
+        <item>
+          <name>Marine and coastal resources, fisheries</name>
+        </item>
+        <item>
+          <name>Marine and inland water transportation</name>
+        </item>
+        <item>
+          <name>Marine pollution</name>
+        </item>
+        <item>
+          <name>Oil and gas</name>
+        </item>
+        <item>
+          <name>Pollution liability</name>
+        </item>
+        <item>
+          <name>Research and development</name>
+        </item>
+        <item>
+          <name>Sales and excise taxes</name>
+        </item>
+        <item>
+          <name>Technology assessment</name>
+        </item>
+        <item>
+          <name>Transportation employees</name>
+        </item>
+        <item>
+          <name>Transportation safety and security</name>
+        </item>
+        <item>
+          <name>Water quality</name>
+        </item>
+        <item>
+          <name>Worker safety and health</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Energy</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2010-07-01</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2010-07-20T14:11:47Z</updateDate>
+        <text><![CDATA[ <p>Omnibus Right to Equitable Means of Ensuring Damages for Injuries are Efficiently Secured Act of 2010 or the REMEDIES Act - Amends the Oil Pollution Act of 1990 to: (1) increase (doubling, in most cases) the limits on the total of the liability of, and the removal costs incurred by or on behalf of, the party responsible for a vessel or facility from which oil is discharged into or upon navigable waters, adjoining shorelines, or the exclusive economic zone; and (2) require the President to pay any person to whom a responsible party is liable under such Act the amount of such liability that is not recoverable from the responsible party because of such limitations. Requires the President to pay such amounts: (1) first from the Oil Spill Liability Trust Fund up to a specified limit for any incident; and (2) then from amounts that may be received by the United States as a levy on persons in the oil industry to recover the remaining amount of such liability.</p> <p>Amends the Internal Revenue Code to: (1) increase from $2 billion to $10 billion the level of the unobligated balance in such Fund at which the Fund financing rate becomes applicable; (2) increase the per incident limit on expenditures from the Fund from $1 billion to $10 billion for cleanup of oil spills and from $500 million to $5 billion for natural resource damage assessments and claims; and (3) increase and make permanent the Fund financing rate. </p> <p> Applies the Jones Act to individuals employed on an offshore facility and authorizes such an individual or a seaman injured in the course of employment, or such person's surviving spouse, parent, child, sibling, or dependent relative, to bring an action against the employer or any person whose act or omission was a cause of the injury or death.</p> <p>Amend the Deaths on the High Seas Act to revise provisions concerning civil actions to allow for recovery by the decedent's surviving spouse, parent, child, sibling, or dependent relative of: (1) punitive damages in cases of gross negligence or willful misconduct; (2) nonpecuniary damages; and (3) compensation for the decedent's pain and suffering. Restricts recovery by noncitizens and nonresident alien workers for incidents arising during international voyages of foreign vessels.</p> <p>Amends the Federal Water Pollution Control Act (commonly known as the Clean Water Act) to require vessel and facility response plans for responding to a worst case discharge of oil or a hazardous substance to: (1) include redundancies that specify response actions that will be taken if other actions specified in the plan fail; and (2) be vetted by impartial experts.</p> <p>Amends the Outer Continental Shelf Lands Act to: (1) prohibit the Secretary of the Interior from issuing any license or permit authorizing drilling for oil and gas on the outer Continental Shelf unless the applicant has such a response plan approved for the vessel or facility that will conduct such drilling; and (2) authorize the suspension or temporary prohibition of operations under any license or permit if five or more violations of the Occupational Safety and Health Act of 1970 or other safety laws or regulations occur in such operations within one year.</p> <p>Authorizes the Secretary of Homeland Security (DHS) to require any entity that is liable for damages under the Oil Pollution Act of 1990 to establish an independent claims system for all claims in regard to the same incident.</p> <p>Requires the President to: (1) establish an emergency oil spill coordination team; (2) appoint a research and development team to review and recommend new technologies that prevent oil spills, especially deep water drilling oil spills; and (3) issue regulations that establish limitations on liability under the Oil Pollution Act of 1990 that are substantially similar to the limitations established by the Price-Anderson Act. </p> <p>Requires: (1) the oil industry to establish a $1 billion research and development fund to develop the latest technologies related to oil spill recovery, remediation, and cleanup; (2) the DHS Secretary to make extensive post-traumatic stress disorder counseling available to victims of significant oil spill disasters; and (3) the Administrator of the Environmental Protection Agency (EPA) to establish a panel of experts to evaluate the long-term environmental impacts of the oil spill in the Gulf of Mexico resulting from the explosion on and sinking of Deepwater Horizon.</p> <p>Makes this Act effective on April 15, 2010.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>REMEDIES Act</title>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>REMEDIES Act</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Omnibus Right to Equitable Means of Ensuring Damages for Injuries are Efficiently Secured Act of 2010</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>REMEDIES Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To provide equitable means for ensuring that damages for injuries are efficiently secured, and for other purposes.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2010-07-01T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-111hr5676ih/xml/BILLS-111hr5676ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2010-07-08</actionDate>
+      <text>Referred to the Subcommittee on Energy and Mineral Resources.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

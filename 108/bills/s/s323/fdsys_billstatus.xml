@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>323</number>
+    <updateDate>2023-01-15T22:03:50Z</updateDate>
+    <updateDateIncludingText>2023-01-15T22:03:50Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <originChamberCode>S</originChamberCode>
+    <type>S</type>
+    <introducedDate>2003-02-05</introducedDate>
+    <congress>108</congress>
+    <committees>
+      <item>
+        <systemCode>hsii00</systemCode>
+        <name>Natural Resources Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsii10</systemCode>
+            <name>Federal Lands Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2004-09-20T21:04:02Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2004-09-17T16:21:26Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>sseg00</systemCode>
+        <name>Energy and Natural Resources Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Reported by</name>
+            <date>2004-07-07T20:15:27Z</date>
+          </item>
+          <item>
+            <name>Markup by</name>
+            <date>2004-06-16T21:45:53Z</date>
+          </item>
+          <item>
+            <name>Referred to</name>
+            <date>2003-02-05T23:55:28Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <committeeReports>
+      <committeeReport>
+        <citation>S. Rept. 108-294</citation>
+      </committeeReport>
+    </committeeReports>
+    <actions>
+      <item>
+        <actionDate>2004-09-20</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii10</systemCode>
+            <name>Federal Lands Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on National Parks, Recreation and Public Lands.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2004-09-17</actionDate>
+        <text>Referred to the House Committee on Resources.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2004-09-17</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2004-09-17</actionDate>
+        <actionTime>10:03:17</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2004-09-15</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate with an amendment by Unanimous Consent. (consideration: CR S9336-9338; text as passed Senate: CR S9336-9338)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2004-09-15</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate with an amendment by Unanimous Consent.(consideration: CR S9336-9338; text as passed Senate: CR S9336-9338)</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2004-07-07</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 613.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2004-07-07</actionDate>
+        <committees>
+          <item>
+            <systemCode>sseg00</systemCode>
+            <name>Energy and Natural Resources Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Energy and Natural Resources. Reported by Senator Domenici with an amendment in the nature of a substitute. With written report No. 108-294.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2004-07-07</actionDate>
+        <text>Committee on Energy and Natural Resources. Reported by Senator Domenici with an amendment in the nature of a substitute. With written report No. 108-294.</text>
+        <type>Committee</type>
+        <actionCode>14000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>sseg00</systemCode>
+            <name>Energy and Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2004-06-16</actionDate>
+        <committees>
+          <item>
+            <systemCode>sseg00</systemCode>
+            <name>Energy and Natural Resources Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Energy and Natural Resources. Ordered to be reported with an amendment in the nature of a substitute favorably.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2003-02-05</actionDate>
+        <committees>
+          <item>
+            <systemCode>sseg00</systemCode>
+            <name>Energy and Natural Resources Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Energy and Natural Resources. (text of measure as introduced: CR S2012-2013)</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2003-02-05</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>L000550</bioguideId>
+        <fullName>Sen. Landrieu, Mary L. [D-LA]</fullName>
+        <firstName>MARY</firstName>
+        <lastName>LANDRIEU</lastName>
+        <party>D</party>
+        <state>LA</state>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>B000780</bioguideId>
+        <fullName>Sen. Breaux, John B. [D-LA]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>BREAUX</lastName>
+        <party>D</party>
+        <state>LA</state>
+        <middleName>BERLINGER</middleName>
+        <sponsorshipDate>2003-02-05</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <cboCostEstimates>
+      <item>
+        <pubDate>2004-06-22T04:00:00Z</pubDate>
+        <title>S. 323, Atchafalaya National Heritage Area Act</title>
+        <url>http://www.cbo.gov/publication/15757</url>
+        <description>&lt;p&gt;Cost estimate for the bill as ordered reported by the Senate Committee on Energy and Natural Resources on June 16, 2004&lt;/p&gt;</description>
+      </item>
+      <item>
+        <pubDate>2004-06-22T04:00:00Z</pubDate>
+        <title>S. 323, Atchafalaya National Heritage Area Act</title>
+        <url>https://www.cbo.gov/publication/15757</url>
+        <description>Cost estimate for the bill as ordered reported by the Senate Committee on Energy and Natural Resources on June 16, 2004</description>
+      </item>
+    </cboCostEstimates>
+    <policyArea>
+      <name>Public Lands and Natural Resources</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Arts, Culture, Religion</name>
+        </item>
+        <item>
+          <name>Commemorations</name>
+        </item>
+        <item>
+          <name>Cultural property</name>
+        </item>
+        <item>
+          <name>Economics and Public Finance</name>
+        </item>
+        <item>
+          <name>Environmental Protection</name>
+        </item>
+        <item>
+          <name>Historic sites</name>
+        </item>
+        <item>
+          <name>History</name>
+        </item>
+        <item>
+          <name>Landscape protection</name>
+        </item>
+        <item>
+          <name>Louisiana</name>
+        </item>
+        <item>
+          <name>Nature conservation</name>
+        </item>
+        <item>
+          <name>Outdoor recreation</name>
+        </item>
+        <item>
+          <name>Sports and Recreation</name>
+        </item>
+        <item>
+          <name>Sustainable development</name>
+        </item>
+        <item>
+          <name>Water Resources Development</name>
+        </item>
+        <item>
+          <name>Watersheds</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Public Lands and Natural Resources</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2003-02-05</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2006-11-28T17:35:40Z</updateDate>
+        <text><![CDATA[Atchafalaya National Heritage Area Act - Establishes the Atchafalaya National Heritage Area in Louisiana.<p>Designates the Atchafalaya Trace Commission as the local coordinating entity of such Area which shall develop and implement an Area management plan for the protection, interpretation, and enjoyment of such Area, subject to the Secretary of the Interior's approval.<p>Prohibits the use of Federal funds to acquire real property.]]></text>
+      </summary>
+      <summary>
+        <versionCode>01</versionCode>
+        <actionDate>2004-07-07</actionDate>
+        <actionDesc>Reported to Senate with amendment(s)</actionDesc>
+        <updateDate>2004-09-27T19:59:00Z</updateDate>
+        <text><![CDATA[ <p> <p> <p>Atchafalaya National Heritage Area Act - Establishes the Atchafalaya National Heritage Area in Louisiana. <p>Designates the Atchafalaya Trace Commission as the local coordinating entity of such Area which shall develop and implement an Area management plan for the protection, interpretation, and enjoyment of such Area, subject to the Secretary of the Interior's approval.</p> <p>Prohibits the use of Federal funds to acquire real property.</p> <p>Authorizes appropriations. Limits Federal cost sharing to 50 percent. Terminates the Secretary's authority to provide assistance to the Commission 15 years after the enactment of this Act.]]></text>
+      </summary>
+      <summary>
+        <versionCode>35</versionCode>
+        <actionDate>2004-09-15</actionDate>
+        <actionDesc>Passed Senate amended</actionDesc>
+        <updateDate>2004-12-09T21:55:59Z</updateDate>
+        <text><![CDATA[ <p><b>(This measure has not been amended since it was reported to the Senate on July 7, 2004. The summary of that version is repeated here.)</b></p> <p>Atchafalaya National Heritage Area Act - Establishes the Atchafalaya National Heritage Area in Louisiana. </p> <p>Designates the Atchafalaya Trace Commission as the local coordinating entity of such Area which shall develop and implement an Area management plan for the protection, interpretation, and enjoyment of such Area, subject to the Secretary of the Interior's approval.</p> <p>Prohibits the use of Federal funds to acquire real property.</p> <p>Authorizes appropriations. Limits Federal cost sharing to 50 percent. Terminates the Secretary's authority to provide assistance to the Commission 15 years after the enactment of this Act.]]></text>
+      </summary>
+    </summaries>
+    <title>Atchafalaya National Heritage Area Act</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Atchafalaya National Heritage Area Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to establish the Atchafalaya National Heritage Area, Louisiana.</title>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Atchafalaya National Heritage Area Act</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Reported to Senate</titleType>
+        <title>Atchafalaya National Heritage Area Act</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+      <item>
+        <titleType>Short Titles as Passed Senate</titleType>
+        <title>Atchafalaya National Heritage Area Act</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Referred in House</type>
+        <date>2004-09-17T04:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2004-09-15T04:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Reported to Senate</type>
+        <date>2004-07-07T04:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2003-02-05T05:00:00Z</date>
+        <formats/>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2004-09-20</actionDate>
+      <text>Referred to the Subcommittee on National Parks, Recreation and Public Lands.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

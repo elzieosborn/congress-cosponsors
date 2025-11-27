@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>1239</number>
+    <updateDate>2023-01-11T13:22:19Z</updateDate>
+    <updateDateIncludingText>2023-01-11T13:22:19Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <originChamberCode>S</originChamberCode>
+    <type>S</type>
+    <introducedDate>2011-06-21</introducedDate>
+    <congress>112</congress>
+    <committees>
+      <item>
+        <systemCode>hsba00</systemCode>
+        <name>Financial Services Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2011-09-12T20:05:32Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>ssbk00</systemCode>
+        <name>Banking, Housing, and Urban Affairs Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Discharged from</name>
+            <date>2011-09-09T16:29:46Z</date>
+          </item>
+          <item>
+            <name>Referred to</name>
+            <date>2011-06-21T18:57:36Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <relatedBills>
+      <item>
+        <title>Fallen Heroes of 9/11 Act</title>
+        <congress>112</congress>
+        <number>3421</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2011-12-23</actionDate>
+          <text>Became Public Law No: 112-76.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Fallen Heroes of 9/11 Act</title>
+        <congress>112</congress>
+        <number>2864</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2011-10-04</actionDate>
+          <text>Referred to the Subcommittee on Domestic Monetary Policy and Technology.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2011-09-12</actionDate>
+        <text>Referred to the House Committee on Financial Services.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsba00</systemCode>
+            <name>Financial Services Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2011-09-12</actionDate>
+        <actionTime>12:01:32</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2011-09-09</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2011-09-09</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate without amendment by Unanimous Consent. (text: CR S5480)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2011-09-09</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate without amendment by Unanimous Consent.(text: CR S5480)</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2011-09-09</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssbk00</systemCode>
+            <name>Banking, Housing, and Urban Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Senate Committee on Banking, Housing, and Urban Affairs discharged by Unanimous Consent. (consideration: CR S5479-5480)</text>
+        <type>Discharge</type>
+      </item>
+      <item>
+        <actionDate>2011-09-09</actionDate>
+        <text>Senate Committee on Banking, Housing, and Urban Affairs discharged by Unanimous Consent.(consideration: CR S5479-5480)</text>
+        <type>Committee</type>
+        <actionCode>14500</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>ssbk00</systemCode>
+            <name>Banking, Housing, and Urban Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2011-06-21</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssbk00</systemCode>
+            <name>Banking, Housing, and Urban Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2011-06-21</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>C001070</bioguideId>
+        <fullName>Sen. Casey, Robert P., Jr. [D-PA]</fullName>
+        <firstName>Bob</firstName>
+        <lastName>Casey</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>T000461</bioguideId>
+        <fullName>Sen. Toomey, Patrick [R-PA]</fullName>
+        <firstName>Patrick</firstName>
+        <lastName>Toomey</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <middleName>J.</middleName>
+        <sponsorshipDate>2011-06-21</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000174</bioguideId>
+        <fullName>Sen. Leahy, Patrick J. [D-VT]</fullName>
+        <firstName>Patrick</firstName>
+        <lastName>Leahy</lastName>
+        <party>D</party>
+        <state>VT</state>
+        <sponsorshipDate>2011-09-06</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000206</bioguideId>
+        <fullName>Sen. Harkin, Tom [D-IA]</fullName>
+        <firstName>THOMAS</firstName>
+        <lastName>HARKIN</lastName>
+        <party>D</party>
+        <state>IA</state>
+        <middleName>RICHARD</middleName>
+        <sponsorshipDate>2011-09-06</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001049</bioguideId>
+        <fullName>Sen. Hagan, Kay R. [D-NC]</fullName>
+        <firstName>Kay</firstName>
+        <lastName>Hagan</lastName>
+        <party>D</party>
+        <state>NC</state>
+        <middleName>R.</middleName>
+        <sponsorshipDate>2011-09-06</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000148</bioguideId>
+        <fullName>Sen. Schumer, Charles E. [D-NY]</fullName>
+        <firstName>Charles</firstName>
+        <lastName>Schumer</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>E.</middleName>
+        <sponsorshipDate>2011-09-06</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000367</bioguideId>
+        <fullName>Sen. Klobuchar, Amy [D-MN]</fullName>
+        <firstName>Amy</firstName>
+        <lastName>Klobuchar</lastName>
+        <party>D</party>
+        <state>MN</state>
+        <sponsorshipDate>2011-09-06</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>I000055</bioguideId>
+        <fullName>Sen. Isakson, Johnny [R-GA]</fullName>
+        <firstName>Johnny</firstName>
+        <lastName>Isakson</lastName>
+        <party>R</party>
+        <state>GA</state>
+        <sponsorshipDate>2011-09-06</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000555</bioguideId>
+        <fullName>Sen. Gillibrand, Kirsten E. [D-NY]</fullName>
+        <firstName>Kirsten</firstName>
+        <lastName>Gillibrand</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>E.</middleName>
+        <sponsorshipDate>2011-09-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000639</bioguideId>
+        <fullName>Sen. Menendez, Robert [D-NJ]</fullName>
+        <firstName>Robert</firstName>
+        <lastName>Menendez</lastName>
+        <party>D</party>
+        <state>NJ</state>
+        <sponsorshipDate>2011-09-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000304</bioguideId>
+        <fullName>Sen. Lieberman, Joseph I. [ID-CT]</fullName>
+        <firstName>JOSEPH</firstName>
+        <lastName>LIEBERMAN</lastName>
+        <party>ID</party>
+        <state>CT</state>
+        <middleName>I.</middleName>
+        <sponsorshipDate>2011-09-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001265</bioguideId>
+        <fullName>Sen. Begich, Mark [D-AK]</fullName>
+        <firstName>Mark</firstName>
+        <lastName>Begich</lastName>
+        <party>D</party>
+        <state>AK</state>
+        <sponsorshipDate>2011-09-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001088</bioguideId>
+        <fullName>Sen. Coons, Christopher A. [D-DE]</fullName>
+        <firstName>Christopher</firstName>
+        <lastName>Coons</lastName>
+        <party>D</party>
+        <state>DE</state>
+        <middleName>A.</middleName>
+        <sponsorshipDate>2011-09-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>I000025</bioguideId>
+        <fullName>Sen. Inouye, Daniel K. [D-HI]</fullName>
+        <firstName>DANIEL</firstName>
+        <lastName>INOUYE</lastName>
+        <party>D</party>
+        <state>HI</state>
+        <middleName>KEN</middleName>
+        <sponsorshipDate>2011-09-12</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <notes>
+      <item>
+        <text><![CDATA[For further action, see H.R.3421, which became Public Law 112-76 on 12/23/2011.]]></text>
+        <links>
+          <link>
+            <name>H.R.3421</name>
+            <url>https://www.congress.gov/bill/112th-congress/house-bill/3421</url>
+          </link>
+        </links>
+      </item>
+    </notes>
+    <policyArea>
+      <name>Crime and Law Enforcement</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Congressional tributes</name>
+        </item>
+        <item>
+          <name>Crime victims</name>
+        </item>
+        <item>
+          <name>Department of Defense</name>
+        </item>
+        <item>
+          <name>Government buildings, facilities, and property</name>
+        </item>
+        <item>
+          <name>Monuments and memorials</name>
+        </item>
+        <item>
+          <name>Museums, exhibitions, cultural centers</name>
+        </item>
+        <item>
+          <name>New York City</name>
+        </item>
+        <item>
+          <name>Pennsylvania</name>
+        </item>
+        <item>
+          <name>Terrorism</name>
+        </item>
+        <item>
+          <name>Virginia</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Crime and Law Enforcement</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2011-06-21</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2011-07-21T22:36:48Z</updateDate>
+        <text><![CDATA[ <p>Fallen Heroes of 9/11 Act - Authorizes the President to award a Fallen Heroes of 9/11 Congressional Medal to: (1) the Flight 93 National Memorial in Pennsylvania, (2) the National September 11 Memorial and Museum in New York, and (3) the Pentagon Memorial.</p> <p>Instructs the Secretary of the Treasury to strike three designs of such gold medal to honor, respectively: (1) those who lost their lives in the the attack at the World Trade Center, (2) the passengers and crew aboard United Airlines Flight 93 that was brought down in rural Pennsylvania, and (3) those who lost their lives at the Pentagon.</p> <p>Authorizes the Secretary to strike and sell bronze duplicates of such medals and to distribute any funds from such sales exceeding costs equally between the three memorial sites.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>82</versionCode>
+        <actionDate>2011-09-09</actionDate>
+        <actionDesc>Passed Senate without amendment</actionDesc>
+        <updateDate>2011-09-23T15:28:25Z</updateDate>
+        <text><![CDATA[ <p><b>(This measure has not been amended since it was introduced. The summary of that version is repeated here.)</b></p> <p>Fallen Heroes of 9/11 Act - Authorizes the President to award a Fallen Heroes of 9/11 Congressional Medal to: (1) the Flight 93 National Memorial in Pennsylvania, (2) the National September 11 Memorial and Museum in New York, and (3) the Pentagon Memorial.</p> <p>Instructs the Secretary of the Treasury to strike three designs of such gold medal to honor, respectively: (1) those who lost their lives in the the attack at the World Trade Center, (2) the passengers and crew aboard United Airlines Flight 93 that was brought down in rural Pennsylvania, and (3) those who lost their lives at the Pentagon.</p> <p>Authorizes the Secretary to strike and sell bronze duplicates of such medals and to distribute any funds from such sales exceeding costs equally between the three memorial sites.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Fallen Heroes of 9/11 Act</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Fallen Heroes of 9/11 Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to provide for a medal of appropriate design to be awarded by the President to the memorials established at the 3 sites honoring the men and women who perished as a result of the terrorist attacks on the United States on September 11, 2001.</title>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Fallen Heroes of 9/11 Act</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Passed Senate</titleType>
+        <title>Fallen Heroes of 9/11 Act</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Referred in House</type>
+        <date>2011-09-12T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-112s1239rfh/xml/BILLS-112s1239rfh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2011-09-09T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-112s1239es/xml/BILLS-112s1239es.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2011-06-21T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-112s1239is/xml/BILLS-112s1239is.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2011-09-12</actionDate>
+      <text>Referred to the House Committee on Financial Services.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

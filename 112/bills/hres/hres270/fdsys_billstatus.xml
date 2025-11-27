@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>270</number>
+    <updateDate>2019-11-15T21:06:29Z</updateDate>
+    <updateDateIncludingText>2019-11-15T21:06:29Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HRES</type>
+    <introducedDate>2011-05-23</introducedDate>
+    <congress>112</congress>
+    <cdata/>
+    <committees>
+      <item>
+        <systemCode>hsfa00</systemCode>
+        <name>Foreign Affairs Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsfa13</systemCode>
+            <name>Middle East, North Africa, and Central Asia Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2011-08-02T15:17:07Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2011-05-23T18:03:10Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2011-08-02</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsfa13</systemCode>
+            <name>Middle East, North Africa, and Central Asia Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Middle East and South Asia .</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2011-05-23</actionDate>
+        <text>Referred to the House Committee on Foreign Affairs.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsfa00</systemCode>
+            <name>Foreign Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2011-05-23</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2011-05-23</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>D000613</bioguideId>
+        <fullName>Rep. Dold, Robert J. [R-IL-10]</fullName>
+        <firstName>Robert</firstName>
+        <lastName>Dold</lastName>
+        <party>R</party>
+        <state>IL</state>
+        <middleName>J.</middleName>
+        <district>10</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>Y000063</bioguideId>
+        <fullName>Rep. Yoder, Kevin [R-KS-3]</fullName>
+        <firstName>Kevin</firstName>
+        <lastName>Yoder</lastName>
+        <party>R</party>
+        <state>KS</state>
+        <district>3</district>
+        <sponsorshipDate>2011-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000567</bioguideId>
+        <fullName>Rep. Griffin, Tim [R-AR-2]</fullName>
+        <firstName>Tim</firstName>
+        <lastName>Griffin</lastName>
+        <party>R</party>
+        <state>AR</state>
+        <district>2</district>
+        <sponsorshipDate>2011-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000458</bioguideId>
+        <fullName>Rep. Fincher, Stephen Lee [R-TN-8]</fullName>
+        <firstName>Stephen</firstName>
+        <lastName>Fincher</lastName>
+        <party>R</party>
+        <state>TN</state>
+        <middleName>Lee</middleName>
+        <district>8</district>
+        <sponsorshipDate>2011-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000604</bioguideId>
+        <fullName>Rep. Dent, Charles W. [R-PA-15]</fullName>
+        <firstName>Charles</firstName>
+        <lastName>Dent</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <middleName>W.</middleName>
+        <district>15</district>
+        <sponsorshipDate>2011-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001183</bioguideId>
+        <fullName>Rep. Schweikert, David [R-AZ-5]</fullName>
+        <firstName>David</firstName>
+        <lastName>Schweikert</lastName>
+        <party>R</party>
+        <state>AZ</state>
+        <district>5</district>
+        <sponsorshipDate>2011-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000811</bioguideId>
+        <fullName>Rep. Walsh, Joe [R-IL-8]</fullName>
+        <firstName>Joe</firstName>
+        <lastName>Walsh</lastName>
+        <party>R</party>
+        <state>IL</state>
+        <district>8</district>
+        <sponsorshipDate>2011-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001082</bioguideId>
+        <fullName>Rep. Canseco, Francisco "Quico" [R-TX-23]</fullName>
+        <firstName>Francisco</firstName>
+        <lastName>Canseco</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <middleName>Quico</middleName>
+        <district>23</district>
+        <sponsorshipDate>2011-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>J000292</bioguideId>
+        <fullName>Rep. Johnson, Bill [R-OH-6]</fullName>
+        <firstName>Bill</firstName>
+        <lastName>Johnson</lastName>
+        <party>R</party>
+        <state>OH</state>
+        <district>6</district>
+        <sponsorshipDate>2011-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000580</bioguideId>
+        <fullName>Rep. Roskam, Peter J. [R-IL-6]</fullName>
+        <firstName>Peter</firstName>
+        <lastName>Roskam</lastName>
+        <party>R</party>
+        <state>IL</state>
+        <middleName>J.</middleName>
+        <district>6</district>
+        <sponsorshipDate>2011-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001149</bioguideId>
+        <fullName>Rep. Burton, Dan [R-IN-5]</fullName>
+        <firstName>DAN</firstName>
+        <lastName>BURTON</lastName>
+        <party>R</party>
+        <state>IN</state>
+        <district>5</district>
+        <sponsorshipDate>2011-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001189</bioguideId>
+        <fullName>Rep. Scott, Austin [R-GA-8]</fullName>
+        <firstName>Austin</firstName>
+        <lastName>Scott</lastName>
+        <party>R</party>
+        <state>GA</state>
+        <district>8</district>
+        <sponsorshipDate>2011-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000585</bioguideId>
+        <fullName>Rep. Reed, Tom [R-NY-29]</fullName>
+        <firstName>Tom</firstName>
+        <lastName>Reed</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <district>29</district>
+        <sponsorshipDate>2011-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001188</bioguideId>
+        <fullName>Rep. Stutzman, Marlin A. [R-IN-3]</fullName>
+        <firstName>Marlin</firstName>
+        <lastName>Stutzman</lastName>
+        <party>R</party>
+        <state>IN</state>
+        <middleName>A.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2011-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000562</bioguideId>
+        <fullName>Rep. Gardner, Cory [R-CO-4]</fullName>
+        <firstName>Cory</firstName>
+        <lastName>Gardner</lastName>
+        <party>R</party>
+        <state>CO</state>
+        <district>4</district>
+        <sponsorshipDate>2011-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000220</bioguideId>
+        <fullName>Rep. Bass, Charles F. [R-NH-2]</fullName>
+        <firstName>CHARLES</firstName>
+        <lastName>BASS</lastName>
+        <party>R</party>
+        <state>NH</state>
+        <middleName>F.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2011-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000571</bioguideId>
+        <fullName>Rep. Lummis, Cynthia M. [R-WY-At Large]</fullName>
+        <firstName>Cynthia</firstName>
+        <lastName>Lummis</lastName>
+        <party>R</party>
+        <state>WY</state>
+        <middleName>M.</middleName>
+        <district>0</district>
+        <sponsorshipDate>2011-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001232</bioguideId>
+        <fullName>Rep. Biggert, Judy [R-IL-13]</fullName>
+        <firstName>JUDY</firstName>
+        <lastName>BIGGERT</lastName>
+        <party>R</party>
+        <state>IL</state>
+        <district>13</district>
+        <sponsorshipDate>2011-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000549</bioguideId>
+        <fullName>Rep. Gerlach, Jim [R-PA-6]</fullName>
+        <firstName>Jim</firstName>
+        <lastName>Gerlach</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <district>6</district>
+        <sponsorshipDate>2011-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000587</bioguideId>
+        <fullName>Rep. Pence, Mike [R-IN-6]</fullName>
+        <firstName>MIKE</firstName>
+        <lastName>PENCE</lastName>
+        <party>R</party>
+        <state>IN</state>
+        <district>6</district>
+        <sponsorshipDate>2011-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000563</bioguideId>
+        <fullName>Rep. Gibbs, Bob [R-OH-18]</fullName>
+        <firstName>Bob</firstName>
+        <lastName>Gibbs</lastName>
+        <party>R</party>
+        <state>OH</state>
+        <district>18</district>
+        <sponsorshipDate>2011-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000591</bioguideId>
+        <fullName>Rep. Roby, Martha [R-AL-2]</fullName>
+        <firstName>Martha</firstName>
+        <lastName>Roby</lastName>
+        <party>R</party>
+        <state>AL</state>
+        <district>2</district>
+        <sponsorshipDate>2011-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000594</bioguideId>
+        <fullName>Rep. Runyan, Jon [R-NJ-3]</fullName>
+        <firstName>Jon</firstName>
+        <lastName>Runyan</lastName>
+        <party>R</party>
+        <state>NJ</state>
+        <district>3</district>
+        <sponsorshipDate>2011-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001269</bioguideId>
+        <fullName>Rep. Barletta, Lou [R-PA-11]</fullName>
+        <firstName>Lou</firstName>
+        <lastName>Barletta</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <district>11</district>
+        <sponsorshipDate>2011-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001048</bioguideId>
+        <fullName>Rep. Hunter, Duncan D. [R-CA-52]</fullName>
+        <firstName>Duncan</firstName>
+        <lastName>Hunter</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <middleName>D.</middleName>
+        <district>52</district>
+        <sponsorshipDate>2011-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000575</bioguideId>
+        <fullName>Rep. Lankford, James [R-OK-5]</fullName>
+        <firstName>James</firstName>
+        <lastName>Lankford</lastName>
+        <party>R</party>
+        <state>OK</state>
+        <district>5</district>
+        <sponsorshipDate>2011-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000573</bioguideId>
+        <fullName>Rep. Labrador, Raul R. [R-ID-1]</fullName>
+        <firstName>Raul</firstName>
+        <lastName>Labrador</lastName>
+        <party>R</party>
+        <state>ID</state>
+        <middleName>R.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2011-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000378</bioguideId>
+        <fullName>Rep. Kinzinger, Adam [R-IL-11]</fullName>
+        <firstName>Adam</firstName>
+        <lastName>Kinzinger</lastName>
+        <party>R</party>
+        <state>IL</state>
+        <district>11</district>
+        <sponsorshipDate>2011-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000291</bioguideId>
+        <fullName>Rep. Ellmers, Renee L. [R-NC-2]</fullName>
+        <firstName>Renee</firstName>
+        <lastName>Ellmers</lastName>
+        <party>R</party>
+        <state>NC</state>
+        <middleName>L.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2011-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>Q000024</bioguideId>
+        <fullName>Rep. Quayle, Benjamin [R-AZ-3]</fullName>
+        <firstName>Benjamin</firstName>
+        <lastName>Quayle</lastName>
+        <party>R</party>
+        <state>AZ</state>
+        <district>3</district>
+        <sponsorshipDate>2011-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001053</bioguideId>
+        <fullName>Rep. Hartzler, Vicky [R-MO-4]</fullName>
+        <firstName>Vicky</firstName>
+        <lastName>Hartzler</lastName>
+        <party>R</party>
+        <state>MO</state>
+        <district>4</district>
+        <sponsorshipDate>2011-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001276</bioguideId>
+        <fullName>Rep. Buerkle, Ann Marie [R-NY-25]</fullName>
+        <firstName>Ann</firstName>
+        <lastName>Buerkle</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <middleName>Marie</middleName>
+        <district>25</district>
+        <sponsorshipDate>2011-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000615</bioguideId>
+        <fullName>Rep. Duncan, Jeff [R-SC-3]</fullName>
+        <firstName>Jeff</firstName>
+        <lastName>Duncan</lastName>
+        <party>R</party>
+        <state>SC</state>
+        <district>3</district>
+        <sponsorshipDate>2011-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000566</bioguideId>
+        <fullName>Rep. Gowdy, Trey [R-SC-4]</fullName>
+        <firstName>Trey</firstName>
+        <lastName>Gowdy</lastName>
+        <party>R</party>
+        <state>SC</state>
+        <district>4</district>
+        <sponsorshipDate>2011-05-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000583</bioguideId>
+        <fullName>Rep. Rooney, Thomas J. [R-FL-16]</fullName>
+        <firstName>Thomas</firstName>
+        <lastName>Rooney</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <middleName>J.</middleName>
+        <district>16</district>
+        <sponsorshipDate>2011-05-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000567</bioguideId>
+        <fullName>Rep. Lance, Leonard [R-NJ-7]</fullName>
+        <firstName>Leonard</firstName>
+        <lastName>Lance</lastName>
+        <party>R</party>
+        <state>NJ</state>
+        <district>7</district>
+        <sponsorshipDate>2011-05-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>N000186</bioguideId>
+        <fullName>Rep. Nunnelee, Alan [R-MS-1]</fullName>
+        <firstName>Alan</firstName>
+        <lastName>Nunnelee</lastName>
+        <party>R</party>
+        <state>MS</state>
+        <district>1</district>
+        <sponsorshipDate>2011-05-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001180</bioguideId>
+        <fullName>Rep. McKinley, David B. [R-WV-1]</fullName>
+        <firstName>David</firstName>
+        <lastName>McKinley</lastName>
+        <party>R</party>
+        <state>WV</state>
+        <middleName>B.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2011-05-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000595</bioguideId>
+        <fullName>Rep. Peters, Gary C. [D-MI-9]</fullName>
+        <firstName>Gary</firstName>
+        <lastName>Peters</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <district>9</district>
+        <sponsorshipDate>2011-05-31</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001054</bioguideId>
+        <fullName>Rep. Hayworth, Nan A. S. [R-NY-19]</fullName>
+        <firstName>Nan</firstName>
+        <lastName>Hayworth</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <middleName>A. S.</middleName>
+        <district>19</district>
+        <sponsorshipDate>2011-06-02</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000564</bioguideId>
+        <fullName>Rep. Lamborn, Doug [R-CO-5]</fullName>
+        <firstName>Doug</firstName>
+        <lastName>Lamborn</lastName>
+        <party>R</party>
+        <state>CO</state>
+        <district>5</district>
+        <sponsorshipDate>2011-06-13</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001231</bioguideId>
+        <fullName>Rep. Berkley, Shelley [D-NV-1]</fullName>
+        <firstName>SHELLEY</firstName>
+        <lastName>BERKLEY</lastName>
+        <party>D</party>
+        <state>NV</state>
+        <district>1</district>
+        <sponsorshipDate>2011-06-24</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>N000185</bioguideId>
+        <fullName>Rep. Nugent, Richard B. [R-FL-5]</fullName>
+        <firstName>Richard</firstName>
+        <lastName>Nugent</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <middleName>B.</middleName>
+        <district>5</district>
+        <sponsorshipDate>2011-07-07</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>International Affairs</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Arab-Israeli relations</name>
+        </item>
+        <item>
+          <name>Israel</name>
+        </item>
+        <item>
+          <name>Middle East</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>International Affairs</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2011-05-23</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2011-05-26T16:54:08Z</updateDate>
+        <text><![CDATA[ <p>Reaffirms the principles articulated in H. Con. Res. 460 and S. Res. 393 of the 108th Congress concerning the security of Israel and the advancement of the goal of Israel and Palestine living side by side in peace and security.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Reaffirming United States principles regarding the security of Israel and peace in the Middle East.</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Reaffirming United States principles regarding the security of Israel and peace in the Middle East.</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>Reaffirming United States principles regarding the security of Israel and peace in the Middle East.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2011-05-23T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-112hres270ih/xml/BILLS-112hres270ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2011-08-02</actionDate>
+      <text>Referred to the Subcommittee on Middle East and South Asia .</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

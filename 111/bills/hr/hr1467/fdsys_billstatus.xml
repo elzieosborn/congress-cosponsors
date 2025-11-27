@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>1467</number>
+    <updateDate>2019-11-15T21:35:21Z</updateDate>
+    <updateDateIncludingText>2019-11-15T21:35:21Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2009-03-12</introducedDate>
+    <congress>111</congress>
+    <committees>
+      <item>
+        <systemCode>hshm00</systemCode>
+        <name>Homeland Security Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Legislative interest</name>
+            <date>2010-09-22T16:38:00Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsju00</systemCode>
+        <name>Judiciary Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsju08</systemCode>
+            <name>Crime and Federal Government Surveillance Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2009-04-27T17:56:23Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2009-03-12T14:00:45Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hlig00</systemCode>
+        <name>Intelligence (Permanent Select) Committee</name>
+        <chamber>House</chamber>
+        <type>Select</type>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2009-03-12T14:00:46Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2009-04-27</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsju08</systemCode>
+            <name>Crime and Federal Government Surveillance Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2009-03-12</actionDate>
+        <text>Referred to House Intelligence (Permanent)</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hlig00</systemCode>
+            <name>Intelligence (Permanent Select) Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2009-03-12</actionDate>
+        <text>Referred to the Committee on the Judiciary, and in addition to the Committee on Intelligence (Permanent Select), for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100-A</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2009-03-12</actionDate>
+        <text>Referred to House Judiciary</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2009-03-12</actionDate>
+        <text>Sponsor introductory remarks on measure. (CR E663)</text>
+        <type>IntroReferral</type>
+        <actionCode>B00100</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2009-03-12</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2009-03-12</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>S000583</bioguideId>
+        <fullName>Rep. Smith, Lamar [R-TX-21]</fullName>
+        <firstName>LAMAR</firstName>
+        <lastName>SMITH</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>21</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>S000244</bioguideId>
+        <fullName>Rep. Sensenbrenner, F. James, Jr. [R-WI-5]</fullName>
+        <firstName>F.</firstName>
+        <lastName>SENSENBRENNER</lastName>
+        <party>R</party>
+        <state>WI</state>
+        <middleName>JAMES</middleName>
+        <district>5</district>
+        <sponsorshipDate>2009-03-12</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000589</bioguideId>
+        <fullName>Rep. Boehner, John A. [R-OH-8]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>BOEHNER</lastName>
+        <party>R</party>
+        <state>OH</state>
+        <middleName>A.</middleName>
+        <district>8</district>
+        <sponsorshipDate>2009-03-12</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000556</bioguideId>
+        <fullName>Rep. Coble, Howard [R-NC-6]</fullName>
+        <firstName>HOWARD</firstName>
+        <lastName>COBLE</lastName>
+        <party>R</party>
+        <state>NC</state>
+        <district>6</district>
+        <sponsorshipDate>2009-03-12</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000021</bioguideId>
+        <fullName>Rep. Gallegly, Elton [R-CA-24]</fullName>
+        <firstName>ELTON</firstName>
+        <lastName>GALLEGLY</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <district>24</district>
+        <sponsorshipDate>2009-03-12</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000517</bioguideId>
+        <fullName>Rep. Lungren, Daniel E. [R-CA-3]</fullName>
+        <firstName>DANIEL</firstName>
+        <lastName>LUNGREN</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <middleName>EDWARD</middleName>
+        <district>3</district>
+        <sponsorshipDate>2009-03-12</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000362</bioguideId>
+        <fullName>Rep. King, Steve [R-IA-5]</fullName>
+        <firstName>Steve</firstName>
+        <lastName>King</lastName>
+        <party>R</party>
+        <state>IA</state>
+        <district>5</district>
+        <sponsorshipDate>2009-03-12</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000448</bioguideId>
+        <fullName>Rep. Franks, Trent [R-AZ-2]</fullName>
+        <firstName>Trent</firstName>
+        <lastName>Franks</lastName>
+        <party>R</party>
+        <state>AZ</state>
+        <district>2</district>
+        <sponsorshipDate>2009-03-12</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>J000289</bioguideId>
+        <fullName>Rep. Jordan, Jim [R-OH-4]</fullName>
+        <firstName>Jim</firstName>
+        <lastName>Jordan</lastName>
+        <party>R</party>
+        <state>OH</state>
+        <district>4</district>
+        <sponsorshipDate>2009-03-12</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000583</bioguideId>
+        <fullName>Rep. Rooney, Thomas J. [R-FL-16]</fullName>
+        <firstName>Thomas</firstName>
+        <lastName>Rooney</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <middleName>J.</middleName>
+        <district>16</district>
+        <sponsorshipDate>2009-03-12</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001045</bioguideId>
+        <fullName>Rep. Harper, Gregg [R-MS-3]</fullName>
+        <firstName>Gregg</firstName>
+        <lastName>Harper</lastName>
+        <party>R</party>
+        <state>MS</state>
+        <district>3</district>
+        <sponsorshipDate>2009-03-12</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001155</bioguideId>
+        <fullName>Rep. Sullivan, John [R-OK-1]</fullName>
+        <firstName>John</firstName>
+        <lastName>Sullivan</lastName>
+        <party>R</party>
+        <state>OK</state>
+        <district>1</district>
+        <sponsorshipDate>2009-03-12</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000587</bioguideId>
+        <fullName>Rep. Pence, Mike [R-IN-6]</fullName>
+        <firstName>MIKE</firstName>
+        <lastName>PENCE</lastName>
+        <party>R</party>
+        <state>IN</state>
+        <district>6</district>
+        <sponsorshipDate>2009-03-12</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001046</bioguideId>
+        <fullName>Rep. Cantor, Eric [R-VA-7]</fullName>
+        <firstName>ERIC</firstName>
+        <lastName>CANTOR</lastName>
+        <party>R</party>
+        <state>VA</state>
+        <district>7</district>
+        <sponsorshipDate>2009-03-12</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000275</bioguideId>
+        <fullName>Rep. Shadegg, John B. [R-AZ-3]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>SHADEGG</lastName>
+        <party>R</party>
+        <state>AZ</state>
+        <district>3</district>
+        <sponsorshipDate>2009-03-12</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001048</bioguideId>
+        <fullName>Rep. Hunter, Duncan D. [R-CA-52]</fullName>
+        <firstName>Duncan</firstName>
+        <lastName>Hunter</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <middleName>D.</middleName>
+        <district>52</district>
+        <sponsorshipDate>2009-03-12</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001256</bioguideId>
+        <fullName>Rep. Bachmann, Michele [R-MN-6]</fullName>
+        <firstName>Michele</firstName>
+        <lastName>Bachmann</lastName>
+        <party>R</party>
+        <state>MN</state>
+        <district>6</district>
+        <sponsorshipDate>2009-03-12</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000453</bioguideId>
+        <fullName>Rep. Fallin, Mary [R-OK-5]</fullName>
+        <firstName>Mary</firstName>
+        <lastName>Fallin</lastName>
+        <party>R</party>
+        <state>OK</state>
+        <district>5</district>
+        <sponsorshipDate>2009-03-12</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000549</bioguideId>
+        <fullName>Rep. Gerlach, Jim [R-PA-6]</fullName>
+        <firstName>Jim</firstName>
+        <lastName>Gerlach</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <district>6</district>
+        <sponsorshipDate>2010-03-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <notes>
+      <item>
+        <text><![CDATA[For further action, see H.R.3961, which became Public Law 111-141 on 2/27/2010.]]></text>
+        <links>
+          <link>
+            <name>H.R.3961</name>
+            <url>https://www.congress.gov/bill/111th-congress/house-bill/3961</url>
+          </link>
+        </links>
+      </item>
+    </notes>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Criminal investigation, prosecution, interrogation</name>
+        </item>
+        <item>
+          <name>Intelligence activities, surveillance, classified information</name>
+        </item>
+        <item>
+          <name>Judicial procedure and administration</name>
+        </item>
+        <item>
+          <name>Specialized courts</name>
+        </item>
+        <item>
+          <name>Terrorism</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Armed Forces and National Security</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2009-03-12</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2009-03-19T16:09:26Z</updateDate>
+        <text><![CDATA[ <p>Safe and Secure America Act of 2009 - Amends the USA PATRIOT Improvement and Reauthorization Act of 2005 to extend through 2019 provisions which: (1) authorize the use of multipoint or roving wiretaps for national security and intelligence investigations; and (2) allow the Federal Bureau of Investigation (FBI) to apply to the Foreign Intelligence Surveillance Court to grant government access to tangible items (books, records, etc.) in foreign intelligence, international terrorism, and clandestine intelligence cases.</p> <p>Amends the Intelligence Reform and Terrorism Prevention Act of 2004 to extend through 2019 the inclusion of &quot;lone wolf&quot; terrorists as agents of a foreign power, for purposes of the authority to obtain intelligence on non-U.S. persons engaged in international terrorism.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Safe and Secure America Act of 2009</title>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Safe and Secure America Act of 2009</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Safe and Secure America Act of 2009</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To extend certain provisions of the USA PATRIOT Act and the Intelligence Reform and Terrorism Prevention Act of 2004 for 10 years.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2009-03-12T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-111hr1467ih/xml/BILLS-111hr1467ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2009-04-27</actionDate>
+      <text>Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

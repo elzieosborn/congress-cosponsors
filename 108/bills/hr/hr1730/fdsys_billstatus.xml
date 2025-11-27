@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>1730</number>
+    <updateDate>2023-01-15T23:18:05Z</updateDate>
+    <updateDateIncludingText>2023-01-15T23:18:05Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2003-04-10</introducedDate>
+    <congress>108</congress>
+    <committees>
+      <item>
+        <systemCode>hsif00</systemCode>
+        <name>Energy and Commerce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsif15</systemCode>
+            <name>Environment and Hazardous Materials Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2003-04-24T18:28:16Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Hearings by</name>
+            <date>2003-07-23T16:04:46Z</date>
+          </item>
+          <item>
+            <name>Referred to</name>
+            <date>2003-04-10T14:07:15Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2003-07-23</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Committee Hearings Held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2003-04-24</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif15</systemCode>
+            <name>Environment and Hazardous Materials Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Environment and Hazardous Materials.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2003-04-10</actionDate>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2003-04-10</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2003-04-10</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>G000439</bioguideId>
+        <fullName>Rep. Greenwood, James C. [R-PA-8]</fullName>
+        <firstName>JAMES</firstName>
+        <lastName>GREENWOOD</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <middleName>C.</middleName>
+        <district>8</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>D000482</bioguideId>
+        <fullName>Rep. Doyle, Michael F. [D-PA-14]</fullName>
+        <firstName>MIKE</firstName>
+        <lastName>DOYLE</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <district>14</district>
+        <sponsorshipDate>2003-04-10</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000355</bioguideId>
+        <fullName>Rep. Dingell, John D. [D-MI-15]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>DINGELL</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <middleName>D.</middleName>
+        <district>15</district>
+        <sponsorshipDate>2003-04-10</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000572</bioguideId>
+        <fullName>Rep. Rogers, Mike J. [R-MI-8]</fullName>
+        <firstName>Mike</firstName>
+        <lastName>Rogers</lastName>
+        <party>R</party>
+        <state>MI</state>
+        <district>8</district>
+        <sponsorshipDate>2003-04-10</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001004</bioguideId>
+        <fullName>Rep. Strickland, Ted [D-OH-6]</fullName>
+        <firstName>TED</firstName>
+        <lastName>STRICKLAND</lastName>
+        <party>D</party>
+        <state>OH</state>
+        <district>6</district>
+        <sponsorshipDate>2003-04-10</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000549</bioguideId>
+        <fullName>Rep. Gerlach, Jim [R-PA-6]</fullName>
+        <firstName>Jim</firstName>
+        <lastName>Gerlach</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <district>6</district>
+        <sponsorshipDate>2003-04-10</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000172</bioguideId>
+        <fullName>Rep. Kildee, Dale E. [D-MI-5]</fullName>
+        <firstName>DALE</firstName>
+        <lastName>KILDEE</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <middleName>E.</middleName>
+        <district>5</district>
+        <sponsorshipDate>2003-04-10</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001203</bioguideId>
+        <fullName>Rep. Buyer, Steve [R-IN-4]</fullName>
+        <firstName>STEPHEN</firstName>
+        <lastName>BUYER</lastName>
+        <party>R</party>
+        <state>IN</state>
+        <middleName>E.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2003-04-10</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000263</bioguideId>
+        <fullName>Rep. Levin, Sander M. [D-MI-12]</fullName>
+        <firstName>SANDER</firstName>
+        <lastName>LEVIN</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <middleName>M.</middleName>
+        <district>12</district>
+        <sponsorshipDate>2003-04-10</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000092</bioguideId>
+        <fullName>Rep. Ehlers, Vernon J. [R-MI-3]</fullName>
+        <firstName>VERNON</firstName>
+        <lastName>EHLERS</lastName>
+        <party>R</party>
+        <state>MI</state>
+        <middleName>J.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2003-04-10</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000712</bioguideId>
+        <fullName>Rep. Holden, Tim [D-PA-17]</fullName>
+        <firstName>TIM</firstName>
+        <lastName>HOLDEN</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <district>17</district>
+        <sponsorshipDate>2003-04-10</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000597</bioguideId>
+        <fullName>Rep. Smith, Nick [R-MI-7]</fullName>
+        <firstName>NICK</firstName>
+        <lastName>SMITH</lastName>
+        <party>R</party>
+        <state>MI</state>
+        <district>7</district>
+        <sponsorshipDate>2003-04-10</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000008</bioguideId>
+        <fullName>Rep. Kanjorski, Paul E. [D-PA-11]</fullName>
+        <firstName>PAUL</firstName>
+        <lastName>KANJORSKI</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <middleName>E.</middleName>
+        <district>11</district>
+        <sponsorshipDate>2003-04-10</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000071</bioguideId>
+        <fullName>Rep. Camp, Dave [R-MI-4]</fullName>
+        <firstName>DAVE</firstName>
+        <lastName>CAMP</lastName>
+        <party>R</party>
+        <state>MI</state>
+        <district>4</district>
+        <sponsorshipDate>2003-04-10</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000403</bioguideId>
+        <fullName>Rep. Bereuter, Doug [R-NE-1]</fullName>
+        <firstName>DOUGLAS</firstName>
+        <lastName>BEREUTER</lastName>
+        <party>R</party>
+        <state>NE</state>
+        <middleName>K.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2003-04-10</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001045</bioguideId>
+        <fullName>Rep. Stupak, Bart [D-MI-1]</fullName>
+        <firstName>BART</firstName>
+        <lastName>STUPAK</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <district>1</district>
+        <sponsorshipDate>2003-04-10</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001153</bioguideId>
+        <fullName>Rep. Solis, Hilda L. [D-CA-32]</fullName>
+        <firstName>HILDA</firstName>
+        <lastName>SOLIS</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <middleName>L.</middleName>
+        <district>32</district>
+        <sponsorshipDate>2003-04-10</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000666</bioguideId>
+        <fullName>Rep. Hobson, David L. [R-OH-7]</fullName>
+        <firstName>DAVID</firstName>
+        <lastName>HOBSON</lastName>
+        <party>R</party>
+        <state>OH</state>
+        <middleName>L.</middleName>
+        <district>7</district>
+        <sponsorshipDate>2003-05-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000263</bioguideId>
+        <fullName>Rep. Peterson, John E. [R-PA-5]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>PETERSON</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <middleName>E.</middleName>
+        <district>5</district>
+        <sponsorshipDate>2003-05-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000574</bioguideId>
+        <fullName>Rep. Blumenauer, Earl [D-OR-3]</fullName>
+        <firstName>EARL</firstName>
+        <lastName>BLUMENAUER</lastName>
+        <party>D</party>
+        <state>OR</state>
+        <district>3</district>
+        <sponsorshipDate>2003-06-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000074</bioguideId>
+        <fullName>Rep. Taylor, Gene [D-MS-4]</fullName>
+        <firstName>GENE</firstName>
+        <lastName>TAYLOR</lastName>
+        <party>D</party>
+        <state>MS</state>
+        <district>4</district>
+        <sponsorshipDate>2003-07-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000933</bioguideId>
+        <fullName>Rep. Moran, James P. [D-VA-8]</fullName>
+        <firstName>JAMES</firstName>
+        <lastName>MORAN</lastName>
+        <party>D</party>
+        <state>VA</state>
+        <middleName>P.</middleName>
+        <district>8</district>
+        <sponsorshipDate>2004-01-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Environmental Protection</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Agriculture and Food</name>
+        </item>
+        <item>
+          <name>Air pollution control</name>
+        </item>
+        <item>
+          <name>Aluminum</name>
+        </item>
+        <item>
+          <name>Beverage containers</name>
+        </item>
+        <item>
+          <name>Commerce</name>
+        </item>
+        <item>
+          <name>Congress</name>
+        </item>
+        <item>
+          <name>Congressional investigations</name>
+        </item>
+        <item>
+          <name>Congressional reporting requirements</name>
+        </item>
+        <item>
+          <name>Contracts</name>
+        </item>
+        <item>
+          <name>Crime and Law Enforcement</name>
+        </item>
+        <item>
+          <name>Economics and Public Finance</name>
+        </item>
+        <item>
+          <name>Environmental law enforcement</name>
+        </item>
+        <item>
+          <name>Environmental monitoring</name>
+        </item>
+        <item>
+          <name>Environmental technology</name>
+        </item>
+        <item>
+          <name>Fines (Penalties)</name>
+        </item>
+        <item>
+          <name>Gifts</name>
+        </item>
+        <item>
+          <name>Glass and glass industry</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Government paperwork</name>
+        </item>
+        <item>
+          <name>Government publicity</name>
+        </item>
+        <item>
+          <name>Groundwater</name>
+        </item>
+        <item>
+          <name>Health</name>
+        </item>
+        <item>
+          <name>Incineration</name>
+        </item>
+        <item>
+          <name>Interstate commerce</name>
+        </item>
+        <item>
+          <name>Interstate relations</name>
+        </item>
+        <item>
+          <name>Landfills</name>
+        </item>
+        <item>
+          <name>Law</name>
+        </item>
+        <item>
+          <name>Licenses</name>
+        </item>
+        <item>
+          <name>Maps</name>
+        </item>
+        <item>
+          <name>Medical wastes</name>
+        </item>
+        <item>
+          <name>Methane</name>
+        </item>
+        <item>
+          <name>Minorities</name>
+        </item>
+        <item>
+          <name>Municipal solid waste</name>
+        </item>
+        <item>
+          <name>Native Americans</name>
+        </item>
+        <item>
+          <name>Paper recycling</name>
+        </item>
+        <item>
+          <name>Plastics recycling</name>
+        </item>
+        <item>
+          <name>Pollution measurement</name>
+        </item>
+        <item>
+          <name>Potable water</name>
+        </item>
+        <item>
+          <name>Public meetings</name>
+        </item>
+        <item>
+          <name>Radioactive wastes</name>
+        </item>
+        <item>
+          <name>Recycling of waste products</name>
+        </item>
+        <item>
+          <name>Refuse and refuse disposal</name>
+        </item>
+        <item>
+          <name>Road construction</name>
+        </item>
+        <item>
+          <name>State laws</name>
+        </item>
+        <item>
+          <name>State-local relations</name>
+        </item>
+        <item>
+          <name>Steel</name>
+        </item>
+        <item>
+          <name>Subsidies</name>
+        </item>
+        <item>
+          <name>Transboundary pollution</name>
+        </item>
+        <item>
+          <name>Transportation and Public Works</name>
+        </item>
+        <item>
+          <name>Transportation of hazardous substances</name>
+        </item>
+        <item>
+          <name>Trucking</name>
+        </item>
+        <item>
+          <name>Trucks</name>
+        </item>
+        <item>
+          <name>User charges</name>
+        </item>
+        <item>
+          <name>Waste disposal sites</name>
+        </item>
+        <item>
+          <name>Water Resources Development</name>
+        </item>
+        <item>
+          <name>Water pollution control</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Environmental Protection</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2003-04-10</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2006-11-28T17:35:40Z</updateDate>
+        <text><![CDATA[Solid Waste Interstate Transportation Act of 2003 - Amends the Solid Waste Disposal Act to prohibit a landfill or incinerator (facility) from receiving out-of-State municipal solid waste (MSW) for disposal or incineration unless the waste is received pursuant to a new or existing host community agreement or an exemption from this prohibition (which may be limited by the State). Establishes conditions for exemptions.<p>Authorizes States to establish limits on the amount of out-of-State waste received annually for disposal at each facility. Allows a State to limit the amount of out-of-State MSW received annually at each facility to the amount received during 1995 if the State has enacted a comprehensive, statewide recycling program. Prohibits State limits from conflicting with permits or host community agreements that set higher (or no) limits. Sets the limitation amount for any facility that began receiving documented out-of-State waste before enactment of this Act at the amount received during 1993. Prohibits discrimination against shipments of such waste on the basis of State of origin.<p>Allows States to require that a permit issued for a new facility or an expansion include an annual limitation of not less than 20 percent on the total quantity of out-of-State MSW relative to the total waste received by the facility. Requires percentage limitations to be uniform for all facilities and not discriminate against out-of-State waste according to the State of origin.]]></text>
+      </summary>
+    </summaries>
+    <title>Solid Waste Interstate Transportation Act of 2003</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Solid Waste Interstate Transportation Act of 2003</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To impose certain limitations on the receipt of out-of-State municipal solid waste, and for other purposes.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Solid Waste Interstate Transportation Act of 2003</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2003-04-10T04:00:00Z</date>
+        <formats/>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2003-07-23</actionDate>
+      <text>Committee Hearings Held.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

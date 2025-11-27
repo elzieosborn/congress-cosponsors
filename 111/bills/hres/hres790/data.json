@@ -1,0 +1,748 @@
+{
+  "actions": [
+    {
+      "acted_at": "2009-10-01",
+      "action_code": "Intro-H",
+      "references": [],
+      "text": "Introduced in House",
+      "type": "action"
+    },
+    {
+      "acted_at": "2009-10-01",
+      "action_code": "H11100",
+      "committees": [
+        "HSGO"
+      ],
+      "references": [],
+      "status": "REFERRED",
+      "text": "Referred to the House Committee on Oversight and Government Reform.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2009-10-28T11:18:14-04:00",
+      "action_code": "H30300",
+      "references": [],
+      "text": "Mr. Lynch moved to suspend the rules and agree to the resolution, as amended.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2009-10-28T11:19:08-04:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H11992-11995",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered under suspension of the rules.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2009-10-28T11:19:09-04:00",
+      "action_code": "H8D000",
+      "references": [],
+      "text": "DEBATE - The House proceeded with forty minutes of debate on H. Res. 790.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2009-10-28T11:42:54-04:00",
+      "action_code": "H37300",
+      "how": "by voice vote",
+      "references": [
+        {
+          "reference": "CR H11992-11993",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "status": "PASSED:SIMPLERES",
+      "suspension": null,
+      "text": "On motion to suspend the rules and agree to the resolution, as amended Agreed to by voice vote.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "h"
+    },
+    {
+      "acted_at": "2009-10-28T11:42:55-04:00",
+      "action_code": "H38310",
+      "references": [],
+      "text": "Motion to reconsider laid on the table Agreed to without objection.",
+      "type": "action"
+    }
+  ],
+  "amendments": [],
+  "bill_id": "hres790-111",
+  "bill_type": "hres",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [
+    {
+      "activity": [
+        "referral"
+      ],
+      "committee": "House Oversight and Accountability",
+      "committee_id": "HSGO"
+    }
+  ],
+  "congress": "111",
+  "cosponsors": [
+    {
+      "bioguide_id": "A000014",
+      "district": "1",
+      "name": "Abercrombie, Neil",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-10-07",
+      "state": "HI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "A000362",
+      "district": "4",
+      "name": "Altmire, Jason",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-10-07",
+      "state": "PA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001229",
+      "district": "3",
+      "name": "Baird, Brian",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-10-07",
+      "state": "WA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B000420",
+      "district": "1",
+      "name": "Berry, Marion",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-10-07",
+      "state": "AR",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001254",
+      "district": "2",
+      "name": "Boren, Dan",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-10-07",
+      "state": "OK",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B000911",
+      "district": "3",
+      "name": "Brown, Corrine",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-10-01",
+      "state": "FL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001050",
+      "district": "18",
+      "name": "Cardoza, Dennis A.",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-10-01",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001060",
+      "district": "3",
+      "name": "Carnahan, Russ",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-10-07",
+      "state": "MO",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001058",
+      "district": "6",
+      "name": "Chandler, Ben",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-10-07",
+      "state": "KY",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001068",
+      "district": "9",
+      "name": "Cohen, Steve",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-10-07",
+      "state": "TN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C000754",
+      "district": "5",
+      "name": "Cooper, Jim",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-10-07",
+      "state": "TN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001059",
+      "district": "20",
+      "name": "Costa, Jim",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-10-01",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001069",
+      "district": "2",
+      "name": "Courtney, Joe",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-10-07",
+      "state": "CT",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000599",
+      "district": "4",
+      "name": "Davis, Lincoln",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-10-01",
+      "state": "TN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000598",
+      "district": "53",
+      "name": "Davis, Susan A.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-10-07",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000197",
+      "district": "1",
+      "name": "DeGette, Diana",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-10-07",
+      "state": "CO",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000327",
+      "district": "6",
+      "name": "Dicks, Norman D.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-10-07",
+      "state": "WA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000607",
+      "district": "2",
+      "name": "Donnelly, Joe",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-10-01",
+      "state": "IN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000482",
+      "district": "14",
+      "name": "Doyle, Michael F.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-10-07",
+      "state": "PA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000609",
+      "district": "1",
+      "name": "Driehaus, Steve",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-10-01",
+      "state": "OH",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000533",
+      "district": "2",
+      "name": "Duncan, John J., Jr.",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-10-01",
+      "state": "TN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "E000289",
+      "district": "8",
+      "name": "Ellsworth, Brad",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-10-01",
+      "state": "IN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "F000454",
+      "district": "14",
+      "name": "Foster, Bill",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-10-07",
+      "state": "IL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "G000309",
+      "district": "6",
+      "name": "Gordon, Bart",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-10-07",
+      "state": "TN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "G000410",
+      "district": "29",
+      "name": "Green, Gene",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-10-01",
+      "state": "TX",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H001040",
+      "district": "17",
+      "name": "Hare, Phil",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-10-01",
+      "state": "IL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H000324",
+      "district": "23",
+      "name": "Hastings, Alcee L.",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-10-01",
+      "state": "FL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H001046",
+      "district": "1",
+      "name": "Heinrich, Martin",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-10-26",
+      "state": "NM",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H001041",
+      "district": "2",
+      "name": "Heller, Dean",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-10-01",
+      "state": "NV",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H001032",
+      "district": "12",
+      "name": "Holt, Rush",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-10-01",
+      "state": "NJ",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "K000188",
+      "district": "3",
+      "name": "Kind, Ron",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-10-01",
+      "state": "WI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "L000559",
+      "district": "2",
+      "name": "Langevin, James R.",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-10-01",
+      "state": "RI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "L000565",
+      "district": "2",
+      "name": "Loebsack, David",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-10-01",
+      "state": "IA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "L000570",
+      "district": "3",
+      "name": "Lujan, Ben Ray",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-10-07",
+      "state": "NM",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001172",
+      "district": "4",
+      "name": "Markey, Betsy",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-10-07",
+      "state": "CO",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001142",
+      "district": "2",
+      "name": "Matheson, Jim",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-10-07",
+      "state": "UT",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M000404",
+      "district": "7",
+      "name": "McDermott, Jim",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-10-08",
+      "state": "WA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001161",
+      "district": "3",
+      "name": "Melancon, Charlie",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-10-07",
+      "state": "LA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M000844",
+      "district": "1",
+      "name": "Mollohan, Alan B.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-10-07",
+      "state": "WV",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001140",
+      "district": "3",
+      "name": "Moore, Dennis",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-10-07",
+      "state": "KS",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "P000593",
+      "district": "7",
+      "name": "Perlmutter, Ed",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-10-06",
+      "state": "CO",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "P000258",
+      "district": "7",
+      "name": "Peterson, Collin C.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-10-07",
+      "state": "MN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000011",
+      "district": "3",
+      "name": "Rahall, Nick J., II",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-10-07",
+      "state": "WV",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S000030",
+      "district": "47",
+      "name": "Sanchez, Loretta",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-10-01",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001162",
+      "district": "13",
+      "name": "Schwartz, Allyson Y.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-10-08",
+      "state": "PA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001157",
+      "district": "13",
+      "name": "Scott, David",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-10-07",
+      "state": "GA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001170",
+      "district": "1",
+      "name": "Shea-Porter, Carol",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-10-07",
+      "state": "NH",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001171",
+      "district": "11",
+      "name": "Shuler, Heath",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-10-07",
+      "state": "NC",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001165",
+      "district": "13",
+      "name": "Sires, Albio",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-10-07",
+      "state": "NJ",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S000672",
+      "district": "2",
+      "name": "Snyder, Vic",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-10-07",
+      "state": "AR",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S000749",
+      "district": "5",
+      "name": "Spratt, John M., Jr.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-10-26",
+      "state": "SC",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001174",
+      "district": "13",
+      "name": "Sutton, Betty",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-10-07",
+      "state": "OH",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "T000193",
+      "district": "2",
+      "name": "Thompson, Bennie G.",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-10-01",
+      "state": "MS",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "T000468",
+      "district": "3",
+      "name": "Titus, Dina",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-10-01",
+      "state": "NV",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000799",
+      "district": "1",
+      "name": "Walz, Timothy J.",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-10-01",
+      "state": "MN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000119",
+      "district": "3",
+      "name": "Wamp, Zach",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-10-01",
+      "state": "TN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000794",
+      "district": "33",
+      "name": "Watson, Diane E.",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-10-01",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "Y000062",
+      "district": "3",
+      "name": "Yarmuth, John A.",
+      "original_cosponsor": false,
+      "sponsored_at": "2009-10-08",
+      "state": "KY",
+      "title": "Rep.",
+      "withdrawn_at": null
+    }
+  ],
+  "enacted_as": null,
+  "history": {
+    "active": true,
+    "active_at": "2009-10-28T11:18:14-04:00",
+    "awaiting_signature": false,
+    "enacted": false,
+    "house_passage_result": "pass",
+    "house_passage_result_at": "2009-10-28T11:42:54-04:00",
+    "vetoed": false
+  },
+  "introduced_at": "2009-10-01",
+  "number": "790",
+  "official_title": "Supporting the goals and ideals of a national day of remembrance on October 30, 2009, for American nuclear weapons program workers and uranium miners, millers, and haulers.",
+  "popular_title": null,
+  "related_bills": [
+    {
+      "bill_id": "hres1623-111",
+      "identified_by": "CRS",
+      "reason": "related",
+      "type": "bill"
+    },
+    {
+      "bill_id": "sres151-111",
+      "identified_by": "CRS",
+      "reason": "related",
+      "type": "bill"
+    },
+    {
+      "bill_id": "sres653-111",
+      "identified_by": "CRS",
+      "reason": "related",
+      "type": "bill"
+    }
+  ],
+  "short_title": null,
+  "sponsor": {
+    "bioguide_id": "B001231",
+    "district": "1",
+    "name": "Berkley, Shelley",
+    "state": "NV",
+    "title": "Rep.",
+    "type": "person"
+  },
+  "status": "PASSED:SIMPLERES",
+  "status_at": "2009-10-28T11:42:54-04:00",
+  "subjects": [
+    "Armed forces and national security",
+    "Commemorative events and holidays",
+    "Hazardous wastes and toxic substances",
+    "Mining",
+    "Nuclear weapons",
+    "Worker safety and health"
+  ],
+  "subjects_top_term": "Armed forces and national security",
+  "summary": {
+    "as": "Passed House amended",
+    "asOf": "2009-10-28",
+    "date": "2009-12-17T15:38:35Z",
+    "text": "Supports the goals and ideals of a national day of remembrance for American nuclear weapons program workers and uranium miners, millers, and haulers."
+  },
+  "titles": [
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Supporting the goals and ideals of a national day of remembrance on October 30, 2009, for American nuclear weapons program workers and uranium miners, millers, and haulers.",
+      "type": "display"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Supporting the goals and ideals of a national day of remembrance on October 30, 2009, for American nuclear weapons program workers and uranium miners, millers, and haulers.",
+      "type": "official"
+    }
+  ],
+  "updated_at": "2023-01-11T13:17:47Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/111/hres/BILLSTATUS-111hres790.xml"
+}

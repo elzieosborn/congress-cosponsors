@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>5068</number>
+    <updateDate>2023-01-13T22:01:47Z</updateDate>
+    <updateDateIncludingText>2023-01-13T22:01:47Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2004-09-13</introducedDate>
+    <congress>108</congress>
+    <committees>
+      <item>
+        <systemCode>hshm00</systemCode>
+        <name>Homeland Security Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hshm04</systemCode>
+            <name>Cybersecurity, Science, and Research and Development Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2004-09-24T20:12:50Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2004-09-13T16:30:20Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hssy00</systemCode>
+        <name>Science, Space, and Technology Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2004-09-14T19:36:27Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2004-09-24</actionDate>
+        <committees>
+          <item>
+            <systemCode>hshm04</systemCode>
+            <name>Cybersecurity, Science, and Research and Development Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Cybersecurity, Science, and Research and Development.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2004-09-14</actionDate>
+        <text>Referred to the House Committee on Science.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hssy00</systemCode>
+            <name>Science, Space, and Technology Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2004-09-13</actionDate>
+        <text>Referred to the House Committee on Homeland Security (Select).</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hshm00</systemCode>
+            <name>Homeland Security Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2004-09-13</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2004-09-13</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>T000238</bioguideId>
+        <fullName>Rep. Thornberry, Mac [R-TX-13]</fullName>
+        <firstName>WILLIAM</firstName>
+        <lastName>THORNBERRY</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <middleName>M.</middleName>
+        <district>13</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>L000397</bioguideId>
+        <fullName>Rep. Lofgren, Zoe [D-CA-16]</fullName>
+        <firstName>ZOE</firstName>
+        <lastName>LOFGREN</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>16</district>
+        <sponsorshipDate>2004-09-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000830</bioguideId>
+        <fullName>Rep. Cox, Christopher [R-CA-48]</fullName>
+        <firstName>CHRISTOPHER</firstName>
+        <lastName>COX</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <district>48</district>
+        <sponsorshipDate>2004-09-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000071</bioguideId>
+        <fullName>Rep. Camp, Dave [R-MI-4]</fullName>
+        <firstName>DAVE</firstName>
+        <lastName>CAMP</lastName>
+        <party>R</party>
+        <state>MI</state>
+        <district>4</district>
+        <sponsorshipDate>2004-09-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000250</bioguideId>
+        <fullName>Rep. Sessions, Pete [R-TX-32]</fullName>
+        <firstName>PETE</firstName>
+        <lastName>SESSIONS</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>32</district>
+        <sponsorshipDate>2004-09-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000044</bioguideId>
+        <fullName>Rep. Sandlin, Max [D-TX-1]</fullName>
+        <firstName>MAX</firstName>
+        <lastName>SANDLIN</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>1</district>
+        <sponsorshipDate>2004-09-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000559</bioguideId>
+        <fullName>Rep. Langevin, James R. [D-RI-2]</fullName>
+        <firstName>JAMES</firstName>
+        <lastName>LANGEVIN</lastName>
+        <party>D</party>
+        <state>RI</state>
+        <middleName>R.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2004-09-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>A000014</bioguideId>
+        <fullName>Rep. Abercrombie, Neil [D-HI-1]</fullName>
+        <firstName>NEIL</firstName>
+        <lastName>ABERCROMBIE</lastName>
+        <party>D</party>
+        <state>HI</state>
+        <district>1</district>
+        <sponsorshipDate>2004-09-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000583</bioguideId>
+        <fullName>Rep. Smith, Lamar [R-TX-21]</fullName>
+        <firstName>LAMAR</firstName>
+        <lastName>SMITH</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>21</district>
+        <sponsorshipDate>2004-09-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000424</bioguideId>
+        <fullName>Rep. Turner, Jim [D-TX-2]</fullName>
+        <firstName>JIM</firstName>
+        <lastName>TURNER</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>2</district>
+        <sponsorshipDate>2004-09-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>J000032</bioguideId>
+        <fullName>Rep. Jackson-Lee, Sheila [D-TX-18]</fullName>
+        <firstName>SHEILA</firstName>
+        <lastName>JACKSON-LEE</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>18</district>
+        <sponsorshipDate>2004-09-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000113</bioguideId>
+        <fullName>Rep. Kennedy, Patrick J. [D-RI-1]</fullName>
+        <firstName>PATRICK</firstName>
+        <lastName>KENNEDY</lastName>
+        <party>D</party>
+        <state>RI</state>
+        <middleName>J.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2004-09-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000392</bioguideId>
+        <fullName>Rep. Frost, Martin [D-TX-24]</fullName>
+        <firstName>MARTIN</firstName>
+        <lastName>FROST</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>24</district>
+        <sponsorshipDate>2004-09-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>A000210</bioguideId>
+        <fullName>Rep. Andrews, Robert E. [D-NJ-1]</fullName>
+        <firstName>ROBERT</firstName>
+        <lastName>ANDREWS</lastName>
+        <party>D</party>
+        <state>NJ</state>
+        <middleName>E.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2004-09-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000316</bioguideId>
+        <fullName>Rep. McCarthy, Karen [D-MO-5]</fullName>
+        <firstName>KAREN</firstName>
+        <lastName>MCCARTHY</lastName>
+        <party>D</party>
+        <state>MO</state>
+        <district>5</district>
+        <sponsorshipDate>2004-09-29</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000043</bioguideId>
+        <fullName>Rep. Lampson, Nick [D-TX-9]</fullName>
+        <firstName>NICK</firstName>
+        <lastName>LAMPSON</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>9</district>
+        <sponsorshipDate>2004-09-29</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000152</bioguideId>
+        <fullName>Rep. Gibbons, Jim [R-NV-2]</fullName>
+        <firstName>JIM</firstName>
+        <lastName>GIBBONS</lastName>
+        <party>R</party>
+        <state>NV</state>
+        <district>2</district>
+        <sponsorshipDate>2004-09-29</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000226</bioguideId>
+        <fullName>Rep. Etheridge, Bob [D-NC-2]</fullName>
+        <firstName>BOB</firstName>
+        <lastName>ETHERIDGE</lastName>
+        <party>D</party>
+        <state>NC</state>
+        <district>2</district>
+        <sponsorshipDate>2004-09-30</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000057</bioguideId>
+        <fullName>Rep. Tauscher, Ellen O. [D-CA-10]</fullName>
+        <firstName>ELLEN</firstName>
+        <lastName>TAUSCHER</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <middleName>O.</middleName>
+        <district>10</district>
+        <sponsorshipDate>2004-11-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Crime and Law Enforcement</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Commerce</name>
+        </item>
+        <item>
+          <name>Computer crimes</name>
+        </item>
+        <item>
+          <name>Computer security measures</name>
+        </item>
+        <item>
+          <name>Department of Homeland Security</name>
+        </item>
+        <item>
+          <name>EBB Terrorism</name>
+        </item>
+        <item>
+          <name>Electronic data interchange</name>
+        </item>
+        <item>
+          <name>Electronic government information</name>
+        </item>
+        <item>
+          <name>Executive reorganization</name>
+        </item>
+        <item>
+          <name>Federal-local relations</name>
+        </item>
+        <item>
+          <name>Federal-state relations</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Government and business</name>
+        </item>
+        <item>
+          <name>Government publicity</name>
+        </item>
+        <item>
+          <name>Information technology</name>
+        </item>
+        <item>
+          <name>Infrastructure</name>
+        </item>
+        <item>
+          <name>Infrastructure (Economics)</name>
+        </item>
+        <item>
+          <name>International Affairs</name>
+        </item>
+        <item>
+          <name>International cooperation</name>
+        </item>
+        <item>
+          <name>Risk</name>
+        </item>
+        <item>
+          <name>Science, Technology, Communications</name>
+        </item>
+        <item>
+          <name>Technological innovations</name>
+        </item>
+        <item>
+          <name>Telecommunication systems</name>
+        </item>
+        <item>
+          <name>Terrorism</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Crime and Law Enforcement</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2004-09-13</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2004-12-09T21:08:33Z</updateDate>
+        <text><![CDATA[ <p>Department of Homeland Security Cybersecurity Enhancement Act of 2004 - Amends the Homeland Security Act of 2002 to establish in the Department of Homeland Security's (DHS) Directorate for Information Analysis and Infrastructure Protection a National Cybersecurity Office, headed by an Assistant Secretary for Cybersecurity, who shall assist the Secretary in promoting cybersecurity for the Nation. Grants the Assistant Secretary primary authority within DHS for all cybersecurity-related critical infrastructure programs of DHS.</p> <p>Includes among the responsibilities of the Assistant Secretary to: (1) establish and manage a national cybersecurity response system, a national cybersecurity threat and vulnerability reduction program, a national cybersecurity awareness and training program, a government cybersecurity program, and a national security and international cybersecurity cooperation program; (2) coordinate specified activities with the private sector, with other directorates and offices within DHS (including with the Chief Information Officer), and with the Under Secretary for Emergency Preparedness and Response; (3) develop processes for information sharing with the private sector; (4) consult with the Secret Service's Electronic Crimes Task Force on private sector outreach and information activities and with the Office for Domestic Preparedness to ensure that realistic cybersecurity scenarios are incorporated into tabletop and recovery exercises; and (5) consult and coordinate with other Federal agencies on cybersecurity-related programs, policies, and operations and with other relevant Federal agencies and within DHS on security of digital control systems.</p> <p>Grants the Assistant Secretary primary authority within DHS over the National Communications System.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Department of Homeland Security Cybersecurity Enhancement Act of 2004</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Department of Homeland Security Cybersecurity Enhancement Act of 2004</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend the Homeland Security Act of 2002 to enhance cybersecurity, and for other purposes.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Department of Homeland Security Cybersecurity Enhancement Act of 2004</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2004-09-13T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-108hr5068ih/xml/BILLS-108hr5068ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2004-09-24</actionDate>
+      <text>Referred to the Subcommittee on Cybersecurity, Science, and Research and Development.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

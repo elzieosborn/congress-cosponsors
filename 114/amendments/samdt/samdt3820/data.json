@@ -1,0 +1,94 @@
+{
+  "actions": [
+    {
+      "acted_at": "2016-04-26",
+      "action_code": "",
+      "how": "roll",
+      "references": [],
+      "result": "fail",
+      "roll": 63,
+      "text": "Amendment SA 3820 not agreed to in Senate by Yea-Nay Vote. 12 - 84. Record Vote Number: 63.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "s"
+    },
+    {
+      "acted_at": "2016-04-26",
+      "action_code": "",
+      "references": [],
+      "text": "Amendment SA 3820 proposed by Senator Flake to Amendment SA 3801. (consideration: CR S2429, S2431-2432; text: CR S2429) To withhold certain funds for the construction of environmental infrastructure.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2016-04-26",
+      "action_code": "97000",
+      "references": [],
+      "text": "Roll call votes on amendments in Senate: Amendment SA 3820 not agreed to in Senate by Yea-Nay Vote. 12 - 84. Record Vote Number: 63.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2016-04-26",
+      "action_code": "95000",
+      "references": [],
+      "text": "Senate amendment not agreed to: Amendment SA 3820 not agreed to in Senate by Yea-Nay Vote. 12 - 84. Record Vote Number: 63.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2016-04-26",
+      "action_code": "93000",
+      "references": [
+        {
+          "reference": "CR S2429, S2431-2432",
+          "type": "consideration"
+        },
+        {
+          "reference": "CR S2429",
+          "type": "text"
+        }
+      ],
+      "text": "Senate amendment proposed (on the floor): Amendment SA 3820 proposed by Senator Flake to Amendment SA 3801.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2016-04-20",
+      "action_code": "91000",
+      "references": [],
+      "text": "Senate amendment submitted",
+      "type": "action"
+    }
+  ],
+  "amendment_id": "samdt3820-114",
+  "amendment_type": "samdt",
+  "amends_amendment": {
+    "amendment_id": "samdt3801-114",
+    "amendment_type": "samdt",
+    "congress": 114,
+    "description": "",
+    "number": 3801,
+    "purpose": "In the nature of a substitute."
+  },
+  "amends_bill": {
+    "bill_id": "hr2028-114",
+    "bill_type": "hr",
+    "congress": 114,
+    "number": 2028
+  },
+  "amends_treaty": null,
+  "chamber": "s",
+  "congress": "114",
+  "introduced_at": "2016-04-20",
+  "number": 3820,
+  "proposed_at": "2016-04-26T04:00:00Z",
+  "purpose": "To withhold certain funds for the construction of environmental infrastructure.",
+  "sponsor": {
+    "bioguide_id": "F000444",
+    "district": null,
+    "name": "Flake, Jeff",
+    "state": "AZ",
+    "title": "Sen.",
+    "type": "person"
+  },
+  "status": "fail",
+  "status_at": "2016-04-26",
+  "updated_at": "2020-12-15T19:40:32Z"
+}

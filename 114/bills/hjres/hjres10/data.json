@@ -1,0 +1,251 @@
+{
+  "actions": [
+    {
+      "acted_at": "2015-01-07",
+      "action_code": "Intro-H",
+      "references": [],
+      "text": "Introduced in House",
+      "type": "action"
+    },
+    {
+      "acted_at": "2015-01-07",
+      "action_code": "H11100",
+      "committees": [
+        "HSHA"
+      ],
+      "references": [],
+      "status": "REFERRED",
+      "text": "Referred to the House Committee on House Administration.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2015-03-26T12:29:36-04:00",
+      "action_code": "H30200",
+      "references": [
+        {
+          "reference": "CR H2092",
+          "type": "consideration"
+        }
+      ],
+      "text": "Mr. Davis, Rodney asked unanimous consent to discharge from committee and consider.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2015-03-26",
+      "action_code": "H12300",
+      "committees": [
+        "HSHA"
+      ],
+      "references": [
+        {
+          "reference": "CR H2092",
+          "type": "consideration"
+        }
+      ],
+      "text": "Committee on House Administration discharged.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2015-03-26T12:29:58-04:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H2092",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered by unanimous consent.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2015-03-26T12:30:01-04:00",
+      "action_code": "H37100",
+      "how": "without objection",
+      "references": [
+        {
+          "reference": "CR H2092",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "status": "PASS_OVER:HOUSE",
+      "suspension": null,
+      "text": "On passage Passed without objection.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "h"
+    },
+    {
+      "acted_at": "2015-03-26T12:30:04-04:00",
+      "action_code": "H38310",
+      "references": [],
+      "text": "Motion to reconsider laid on the table Agreed to without objection.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2015-03-26",
+      "action_code": "",
+      "references": [],
+      "text": "Received in the Senate, read twice.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2015-03-27",
+      "action_code": "",
+      "how": "by Unanimous Consent",
+      "references": [
+        {
+          "reference": "CR 3/26/2015 S2088",
+          "type": "consideration"
+        }
+      ],
+      "result": "pass",
+      "status": "PASSED:BILL",
+      "text": "Passed Senate without amendment by Unanimous Consent.",
+      "type": "vote",
+      "vote_type": "vote2",
+      "where": "s"
+    },
+    {
+      "acted_at": "2015-03-27",
+      "action_code": "",
+      "references": [],
+      "text": "Message on Senate action sent to the House.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2015-04-01",
+      "action_code": "E20000",
+      "references": [],
+      "text": "Presented to President.",
+      "type": "topresident"
+    },
+    {
+      "acted_at": "2015-04-07",
+      "action_code": "E30000",
+      "references": [],
+      "status": "ENACTED:SIGNED",
+      "text": "Signed by President.",
+      "type": "signed"
+    },
+    {
+      "acted_at": "2015-04-07",
+      "action_code": "E40000",
+      "congress": "114",
+      "law": "public",
+      "number": "9",
+      "references": [],
+      "text": "Became Public Law No: 114-9.",
+      "type": "enacted"
+    }
+  ],
+  "amendments": [],
+  "bill_id": "hjres10-114",
+  "bill_type": "hjres",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [
+    {
+      "activity": [
+        "discharged",
+        "referral"
+      ],
+      "committee": "House Committee on House Administration",
+      "committee_id": "HSHA"
+    }
+  ],
+  "congress": "114",
+  "cosponsors": [
+    {
+      "bioguide_id": "B000287",
+      "district": "34",
+      "name": "Becerra, Xavier",
+      "original_cosponsor": true,
+      "sponsored_at": "2015-01-07",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001053",
+      "district": "4",
+      "name": "Cole, Tom",
+      "original_cosponsor": true,
+      "sponsored_at": "2015-01-07",
+      "state": "OK",
+      "title": "Rep.",
+      "withdrawn_at": null
+    }
+  ],
+  "enacted_as": {
+    "congress": "114",
+    "law_type": "public",
+    "number": "9"
+  },
+  "history": {
+    "active": true,
+    "active_at": "2015-03-26T12:29:36-04:00",
+    "awaiting_signature": false,
+    "enacted": true,
+    "enacted_at": "2015-04-07",
+    "house_passage_result": "pass",
+    "house_passage_result_at": "2015-03-26T12:30:01-04:00",
+    "senate_passage_result": "pass",
+    "senate_passage_result_at": "2015-03-27",
+    "vetoed": false
+  },
+  "introduced_at": "2015-01-07",
+  "number": "10",
+  "official_title": "Providing for the reappointment of David M. Rubenstein as a citizen regent of the Board of Regents of the Smithsonian Institution.",
+  "popular_title": null,
+  "related_bills": [
+    {
+      "bill_id": "sjres3-114",
+      "identified_by": "CRS",
+      "reason": "related",
+      "type": "bill"
+    }
+  ],
+  "short_title": null,
+  "sponsor": {
+    "bioguide_id": "J000174",
+    "district": "3",
+    "name": "Johnson, Sam",
+    "state": "TX",
+    "title": "Rep.",
+    "type": "person"
+  },
+  "status": "ENACTED:SIGNED",
+  "status_at": "2015-04-07",
+  "subjects": [
+    "Federal officials",
+    "Government operations and politics",
+    "Museums, exhibitions, cultural centers",
+    "Smithsonian Institution"
+  ],
+  "subjects_top_term": "Government operations and politics",
+  "summary": {
+    "as": "Public Law",
+    "asOf": "2015-04-07",
+    "date": "2015-05-13T19:18:27Z",
+    "text": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.)\n\nReappoints David M. Rubenstein as a citizen regent of the Board of Regents of the Smithsonian Institution."
+  },
+  "titles": [
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Providing for the reappointment of David M. Rubenstein as a citizen regent of the Board of Regents of the Smithsonian Institution.",
+      "type": "display"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Providing for the reappointment of David M. Rubenstein as a citizen regent of the Board of Regents of the Smithsonian Institution.",
+      "type": "official"
+    }
+  ],
+  "updated_at": "2023-04-24T20:39:39Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/114/hjres/BILLSTATUS-114hjres10.xml"
+}

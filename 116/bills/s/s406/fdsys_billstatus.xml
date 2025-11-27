@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>406</number>
+    <updateDate>2022-12-15T20:43:36Z</updateDate>
+    <updateDateIncludingText>2022-12-15T20:43:36Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <type>S</type>
+    <introducedDate>2019-02-07</introducedDate>
+    <congress>116</congress>
+    <committees>
+      <item>
+        <systemCode>hsgo00</systemCode>
+        <name>Oversight and Accountability Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Markup by</name>
+            <date>2019-07-25T14:20:22Z</date>
+          </item>
+          <item>
+            <name>Referred to</name>
+            <date>2019-05-02T17:49:00Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>ssga00</systemCode>
+        <name>Homeland Security and Governmental Affairs Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Reported by</name>
+            <date>2019-03-25T22:35:14Z</date>
+          </item>
+          <item>
+            <name>Markup by</name>
+            <date>2019-02-13T17:23:15Z</date>
+          </item>
+          <item>
+            <name>Referred to</name>
+            <date>2019-02-07T21:28:30Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <committeeReports>
+      <committeeReport>
+        <citation>S. Rept. 116-15</citation>
+      </committeeReport>
+    </committeeReports>
+    <actions>
+      <item>
+        <actionDate>2019-07-25</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsgo00</systemCode>
+            <name>Oversight and Accountability Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Committee Consideration and Mark-up Session Held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2019-05-02</actionDate>
+        <text>Referred to the House Committee on Oversight and Reform.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsgo00</systemCode>
+            <name>Oversight and Accountability Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2019-05-02</actionDate>
+        <actionTime>10:35:55</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2019-05-02</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2019-04-30</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate with an amendment by Unanimous Consent. (consideration: CR S2525-2528; text: CR S2527-2528)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2019-04-30</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate with an amendment by Unanimous Consent.(consideration: CR S2525-2528; text: CR S2527-2528)</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2019-03-25</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 46.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2019-03-25</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssga00</systemCode>
+            <name>Homeland Security and Governmental Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Homeland Security and Governmental Affairs. Reported by Senator Johnson with an amendment. With written report No. 116-15.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2019-03-25</actionDate>
+        <text>Committee on Homeland Security and Governmental Affairs. Reported by Senator Johnson with an amendment. With written report No. 116-15.</text>
+        <type>Committee</type>
+        <actionCode>14000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>ssga00</systemCode>
+            <name>Homeland Security and Governmental Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2019-02-13</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssga00</systemCode>
+            <name>Homeland Security and Governmental Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Homeland Security and Governmental Affairs. Ordered to be reported without amendment favorably.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2019-02-07</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssga00</systemCode>
+            <name>Homeland Security and Governmental Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Homeland Security and Governmental Affairs.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2019-02-07</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>P000595</bioguideId>
+        <fullName>Sen. Peters, Gary C. [D-MI]</fullName>
+        <firstName>Gary</firstName>
+        <lastName>Peters</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>H001061</bioguideId>
+        <fullName>Sen. Hoeven, John [R-ND]</fullName>
+        <firstName>John</firstName>
+        <lastName>Hoeven</lastName>
+        <party>R</party>
+        <state>ND</state>
+        <sponsorshipDate>2019-02-07</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001076</bioguideId>
+        <fullName>Sen. Hassan, Margaret Wood [D-NH]</fullName>
+        <firstName>Maggie</firstName>
+        <lastName>Hassan</lastName>
+        <party>D</party>
+        <state>NH</state>
+        <sponsorshipDate>2019-02-07</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>J000293</bioguideId>
+        <fullName>Sen. Johnson, Ron [R-WI]</fullName>
+        <firstName>Ron</firstName>
+        <lastName>Johnson</lastName>
+        <party>R</party>
+        <state>WI</state>
+        <sponsorshipDate>2019-02-07</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <cboCostEstimates>
+      <item>
+        <pubDate>2019-03-01T16:29:00Z</pubDate>
+        <title>S. 406, Federal Rotational Cyber Workforce Program Act of 2019</title>
+        <url>https://www.cbo.gov/publication/54999</url>
+        <description>As ordered reported by the Senate Committee on Homeland Security and Governmental Affairs on February 13, 2019.</description>
+      </item>
+      <item>
+        <pubDate>2019-08-07T19:44:09Z</pubDate>
+        <title>S. 406, Federal Rotational Cyber Workforce Program Act of 2019</title>
+        <url>https://www.cbo.gov/publication/55528</url>
+        <description>As ordered reported by the House Committee on Oversight and Reform on July 25, 2019</description>
+      </item>
+    </cboCostEstimates>
+    <policyArea>
+      <name>Science, Technology, Communications</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Computer security and identity theft</name>
+        </item>
+        <item>
+          <name>Computers and information technology</name>
+        </item>
+        <item>
+          <name>Congressional oversight</name>
+        </item>
+        <item>
+          <name>Executive agency funding and structure</name>
+        </item>
+        <item>
+          <name>Government employee pay, benefits, personnel management</name>
+        </item>
+        <item>
+          <name>Government studies and investigations</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Science, Technology, Communications</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2019-02-07</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2019-10-30T15:59:47Z</updateDate>
+        <text><![CDATA[ <p><b>Federal Rotational Cyber Workforce Program Act of 2019</b></p> <p>This bill permits an agency to determine whether a cyber workforce position in such agency is eligible for the rotational cyber workforce program. (That program provides for certain agency employees to detail among rotational cyber workforce positions at other agencies.)</p> <p>Additionally, the bill requires the Office of Personnel Management to issue a Federal Rotational Cyber Workforce Program operation plan that shall provide policies, processes, and procedures for detailing employees among rotational cyber workforce positions at agencies.</p> <p>The Government Accountability Office must assess the operation and effectiveness of the rotational cyber workforce program by addressing the extent to which agencies have participated in the program and the experiences of employees serving in the program. </p><br />]]></text>
+      </summary>
+      <summary>
+        <versionCode>25</versionCode>
+        <actionDate>2019-03-25</actionDate>
+        <actionDesc>Reported to Senate</actionDesc>
+        <updateDate>2019-11-07T21:04:37Z</updateDate>
+        <text><![CDATA[ <p><b>Federal Rotational Cyber Workforce Program Act of 2019</b></p> <p>This bill permits an agency to determine whether a cyber workforce position in such agency is eligible for the rotational cyber workforce program. (That program provides for certain agency employees to detail among rotational cyber workforce positions at other agencies.)</p> <p>Additionally, the bill requires the Office of Personnel Management to issue a Federal Rotational Cyber Workforce Program operation plan that shall provide policies, processes, and procedures for detailing employees among rotational cyber workforce positions at agencies.</p> <p>The Government Accountability Office must assess the operation and effectiveness of the rotational cyber workforce program by addressing the extent to which agencies have participated in the program and the experiences of employees serving in the program. </p><br />]]></text>
+      </summary>
+      <summary>
+        <versionCode>55</versionCode>
+        <actionDate>2019-04-30</actionDate>
+        <actionDesc>Passed Senate</actionDesc>
+        <updateDate>2019-11-07T21:04:32Z</updateDate>
+        <text><![CDATA[ <p><b>Federal Rotational Cyber Workforce Program Act of 2019</b></p> <p>This bill permits an agency to determine whether a cyber workforce position in such agency is eligible for the rotational cyber workforce program. (That program provides for certain agency employees to detail among rotational cyber workforce positions at other agencies.)</p> <p>Additionally, the bill requires the Office of Personnel Management to issue a Federal Rotational Cyber Workforce Program operation plan that shall provide policies, processes, and procedures for detailing employees among rotational cyber workforce positions at agencies.</p> <p>The Government Accountability Office must assess the operation and effectiveness of the rotational cyber workforce program by addressing the extent to which agencies have participated in the program and the experiences of employees serving in the program. </p><br />]]></text>
+      </summary>
+    </summaries>
+    <title>Federal Rotational Cyber Workforce Program Act of 2019</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Federal Rotational Cyber Workforce Program Act of 2019</title>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Reported to Senate</titleType>
+        <title>Federal Rotational Cyber Workforce Program Act of 2019</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Reported to Senate</billTextVersionName>
+        <billTextVersionCode>RS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <title>Federal Rotational Cyber Workforce Program Act of 2019</title>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed Senate</titleType>
+        <title>Federal Rotational Cyber Workforce Program Act of 2019</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Engrossed in Senate</billTextVersionName>
+        <billTextVersionCode>ES</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Passed Senate</titleType>
+        <title>Federal Rotational Cyber Workforce Program Act of 2019</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to establish a Federal rotational cyber workforce program for the Federal cyber workforce.</title>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Referred in House</type>
+        <date>2019-05-02T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-116s406rfh/xml/BILLS-116s406rfh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2019-04-30T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-116s406es/xml/BILLS-116s406es.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Reported to Senate</type>
+        <date>2019-03-25T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-116s406rs/xml/BILLS-116s406rs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2019-02-07T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-116s406is/xml/BILLS-116s406is.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2019-07-25</actionDate>
+      <text>Committee Consideration and Mark-up Session Held.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

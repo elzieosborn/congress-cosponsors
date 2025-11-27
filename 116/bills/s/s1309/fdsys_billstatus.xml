@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>1309</number>
+    <updateDate>2022-11-01T13:50:42Z</updateDate>
+    <updateDateIncludingText>2022-11-01T13:50:42Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <type>S</type>
+    <introducedDate>2019-05-02</introducedDate>
+    <congress>116</congress>
+    <committees>
+      <item>
+        <systemCode>hsfa00</systemCode>
+        <name>Foreign Affairs Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2019-12-23T16:52:30Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>ssfr00</systemCode>
+        <name>Foreign Relations Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Reported by</name>
+            <date>2019-07-11T14:35:38Z</date>
+          </item>
+          <item>
+            <name>Markup by</name>
+            <date>2019-06-25T18:15:36Z</date>
+          </item>
+          <item>
+            <name>Referred to</name>
+            <date>2019-05-02T19:39:14Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2019-12-23</actionDate>
+        <text>Referred to the House Committee on Foreign Affairs.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsfa00</systemCode>
+            <name>Foreign Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2019-12-23</actionDate>
+        <actionTime>11:03:05</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2019-12-23</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2019-12-19</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate with an amendment by Unanimous Consent.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2019-12-19</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate with an amendment by Unanimous Consent.</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2019-12-19</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>The committee substitute withdrawn by Unanimous Consent.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2019-12-19</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Measure laid before Senate by unanimous consent. (consideration: CR S7234-7236)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2019-07-11</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 144.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2019-07-11</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssfr00</systemCode>
+            <name>Foreign Relations Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Foreign Relations. Reported by Senator Risch with an amendment in the nature of a substitute. Without written report.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2019-07-11</actionDate>
+        <text>Committee on Foreign Relations. Reported by Senator Risch with an amendment in the nature of a substitute. Without written report.</text>
+        <type>Committee</type>
+        <actionCode>14000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>ssfr00</systemCode>
+            <name>Foreign Relations Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2019-06-25</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssfr00</systemCode>
+            <name>Foreign Relations Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Foreign Relations. Ordered to be reported with an amendment in the nature of a substitute favorably.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2019-05-02</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssfr00</systemCode>
+            <name>Foreign Relations Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Foreign Relations.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2019-05-02</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>C000141</bioguideId>
+        <fullName>Sen. Cardin, Benjamin L. [D-MD]</fullName>
+        <firstName>Ben</firstName>
+        <lastName>Cardin</lastName>
+        <party>D</party>
+        <state>MD</state>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>Y000064</bioguideId>
+        <fullName>Sen. Young, Todd [R-IN]</fullName>
+        <firstName>Todd</firstName>
+        <lastName>Young</lastName>
+        <party>R</party>
+        <state>IN</state>
+        <middleName>C.</middleName>
+        <sponsorshipDate>2019-05-02</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000174</bioguideId>
+        <fullName>Sen. Leahy, Patrick J. [D-VT]</fullName>
+        <firstName>Patrick</firstName>
+        <lastName>Leahy</lastName>
+        <party>D</party>
+        <state>VT</state>
+        <sponsorshipDate>2019-05-02</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000595</bioguideId>
+        <fullName>Sen. Rubio, Marco [R-FL]</fullName>
+        <firstName>Marco</firstName>
+        <lastName>Rubio</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <sponsorshipDate>2019-05-02</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001277</bioguideId>
+        <fullName>Sen. Blumenthal, Richard [D-CT]</fullName>
+        <firstName>Richard</firstName>
+        <lastName>Blumenthal</lastName>
+        <party>D</party>
+        <state>CT</state>
+        <sponsorshipDate>2019-05-02</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001176</bioguideId>
+        <fullName>Sen. Merkley, Jeff [D-OR]</fullName>
+        <firstName>Jeff</firstName>
+        <lastName>Merkley</lastName>
+        <party>D</party>
+        <state>OR</state>
+        <sponsorshipDate>2019-05-02</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001088</bioguideId>
+        <fullName>Sen. Coons, Christopher A. [D-DE]</fullName>
+        <firstName>Christopher</firstName>
+        <lastName>Coons</lastName>
+        <party>D</party>
+        <state>DE</state>
+        <middleName>A.</middleName>
+        <sponsorshipDate>2019-06-26</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000563</bioguideId>
+        <fullName>Sen. Durbin, Richard J. [D-IL]</fullName>
+        <firstName>Richard</firstName>
+        <lastName>Durbin</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>J.</middleName>
+        <sponsorshipDate>2019-07-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001035</bioguideId>
+        <fullName>Sen. Collins, Susan M. [R-ME]</fullName>
+        <firstName>Susan</firstName>
+        <lastName>Collins</lastName>
+        <party>R</party>
+        <state>ME</state>
+        <middleName>M.</middleName>
+        <sponsorshipDate>2019-09-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000779</bioguideId>
+        <fullName>Sen. Wyden, Ron [D-OR]</fullName>
+        <firstName>Ron</firstName>
+        <lastName>Wyden</lastName>
+        <party>D</party>
+        <state>OR</state>
+        <sponsorshipDate>2019-11-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <cboCostEstimates>
+      <item>
+        <pubDate>2019-07-26T20:24:29Z</pubDate>
+        <title>S. 1309, a bill to identify and combat corruption in countries, to establish a tiered system of countries with respect to levels of corruption by their governments and their efforts to combat such corruption, and to assess United States assistance to...</title>
+        <url>https://www.cbo.gov/publication/55492</url>
+        <description>As reported by the Senate Committee on Foreign Relations on July 11, 2019</description>
+      </item>
+    </cboCostEstimates>
+    <policyArea>
+      <name>International Affairs</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Congressional oversight</name>
+        </item>
+        <item>
+          <name>Corporate finance and management</name>
+        </item>
+        <item>
+          <name>Crime prevention</name>
+        </item>
+        <item>
+          <name>Crime victims</name>
+        </item>
+        <item>
+          <name>Criminal investigation, prosecution, interrogation</name>
+        </item>
+        <item>
+          <name>Diplomacy, foreign officials, Americans abroad</name>
+        </item>
+        <item>
+          <name>Employment discrimination and employee rights</name>
+        </item>
+        <item>
+          <name>Foreign aid and international relief</name>
+        </item>
+        <item>
+          <name>Fraud offenses and financial crimes</name>
+        </item>
+        <item>
+          <name>Government ethics and transparency, public corruption</name>
+        </item>
+        <item>
+          <name>Government information and archives</name>
+        </item>
+        <item>
+          <name>Government studies and investigations</name>
+        </item>
+        <item>
+          <name>International organizations and cooperation</name>
+        </item>
+        <item>
+          <name>Judicial procedure and administration</name>
+        </item>
+        <item>
+          <name>Public contracts and procurement</name>
+        </item>
+        <item>
+          <name>Sovereignty, recognition, national governance and status</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>International Affairs</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2019-05-02</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2019-10-29T20:26:43Z</updateDate>
+        <text><![CDATA[ <p><b>Combating Global Corruption Act of 2019</b></p> <p>This bill requires the Department of State to develop a program to combat corruption in foreign countries, in particular in countries that receive U.S. aid.</p> <p>The State Department shall publish annually a tiered list of all countries. The first tier shall contain countries that meet the bill's prescribed minimum standards for combatting corruption, while the second tier shall contain countries that do not comply but are making efforts to do so. Third-tier countries do not meet the minimum anti-corruption standards and are making little to no effort to comply.</p> <p>For a third-tier country that receives U.S. foreign aid, the State Department shall conduct corruption risk assessments for all U.S. aid programs in that country. It shall also implement various anti-corruption mechanisms in such programs, such as by requiring the disclosure of the beneficial ownership of contractors and partners involved in an aid program and requiring claw-back provisions to recover funds&nbsp;that are misappropriated by corrupt partners. For future aid programs to such countries, the State Department shall conduct its risk assessment and implement the required anti-corruption mechanisms before agreeing to provide assistance.</p> <p>The State Department shall report to Congress annually about its anti-corruption efforts and integrate anti-corruption material into its existing training courses.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>25</versionCode>
+        <actionDate>2019-07-11</actionDate>
+        <actionDesc>Reported to Senate</actionDesc>
+        <updateDate>2020-03-02T15:24:00Z</updateDate>
+        <text><![CDATA[ <p>This bill directs the Department of State to take various actions to address foreign public corruption as it relates to U.S. assistance. </p> <p>The State Department must publish annually a report on each foreign country's efforts to combat public corruption. The report shall group countries into five tiers based on the World Bank's Worldwide Governance Indicator on Control of Corruption and Worldwide Governance Indicator on Voice and Accountability. The report shall address other factors such as each country's enforcement of any laws that prohibit public corruption.</p> <p>Before obligating U.S. aid to a country in one of the two lowest tiers, the State Department shall take various actions, such as creating a corruption mitigation strategy and establishing mechanisms for investigating corruption allegations. </p> <p>The State Department shall establish an interagency task force to (1) assist in managing a whole-of-government effort to promote good governance in foreign countries and enhancing anti-public-corruption efforts, and (2) identify areas where U.S. efforts to combat public corruption can be improved.</p> <p>The State Department shall appoint an anti-corruption point of contact in each U.S. mission to a foreign country where the State Department determines that such a point of contact is necessary. That point of contact shall be responsible for coordinating a whole-of-government approach to combatting public corruption. </p> <p>The State Department and the U.S. Agency for International Development shall incorporate anti-corruption training into Foreign Service and Civil Service training.</p> <p>The bill imposes and consolidates various corruption-related reporting requirements.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>55</versionCode>
+        <actionDate>2019-12-19</actionDate>
+        <actionDesc>Passed Senate</actionDesc>
+        <updateDate>2020-03-02T15:26:21Z</updateDate>
+        <text><![CDATA[ <p>This bill requires the Department of State to develop a program to combat corruption in countries that receive U.S. aid.</p> <p>The State Department shall annually report to Congress a tiered list of all countries that receive certain U.S. foreign assistance. The first tier shall contain countries that meet minimum standards for combatting public corruption, while the second tier shall contain countries that do not comply but are making significant efforts to do so. Third-tier countries do not meet the minimum anti-corruption standards and are not making significant efforts to do so.</p> <p>For each second- and third-tier ranked country, the State Department shall (1) include a corruption risk assessment and mitigation strategy in each country's integrated country strategy, and (2) use appropriate anti-corruption mechanisms. Such mechanisms include requiring the disclosure of the beneficial ownership of contractors and partners involved in State Department programs and requiring claw-back provisions to recover misappropriated funds. </p> <p>The State Department shall designate an anti-corruption point of contact in the U.S. diplomatic post in each second- or third-tier country and where the State Department determines that such a point of contact is necessary. The point of contact shall be responsible for coordinating a whole-of-government approach to enhancing the ability of foreign countries to combat public corruption. </p>]]></text>
+      </summary>
+    </summaries>
+    <title>Combating Global Corruption Act of 2019</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Combating Global Corruption Act of 2019</title>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <title>Combating Global Corruption Act of 2019</title>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to identify and combat corruption in countries, to establish a tiered system of countries with respect to levels of corruption by their governments and their efforts to combat such corruption, and to assess United States assistance to designated countries in order to advance anti-corruption efforts in those countries and better serve United States taxpayers.</title>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+    </titles>
+    <amendments>
+      <amendment>
+        <number>1275</number>
+        <congress>116</congress>
+        <type>SAMDT</type>
+        <purpose>In the nature of a substitute.</purpose>
+        <updateDate>2021-12-29T22:02:45Z</updateDate>
+        <latestAction>
+          <actionDate>2019-12-19</actionDate>
+          <text>Amendment SA 1275 agreed to in Senate by Unanimous Consent.</text>
+          <links>
+            <link>
+              <name>SA 1275</name>
+              <url>https://www.congress.gov/amendment/116th-congress/senate-amendment/1275</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>C000141</bioguideId>
+            <fullName>Sen. Cardin, Benjamin L. [D-MD]</fullName>
+            <firstName>Ben</firstName>
+            <lastName>Cardin</lastName>
+            <party>D</party>
+            <state>MD</state>
+          </item>
+        </sponsors>
+        <proposedDate>2019-12-19T05:00:00Z</proposedDate>
+        <submittedDate>2019-12-19T05:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>116</congress>
+          <type>S</type>
+          <originChamber>Senate</originChamber>
+          <originChamberCode>S</originChamberCode>
+          <number>1309</number>
+          <title>Combating Global Corruption Act of 2019</title>
+          <updateDateIncludingText>2022-11-01T13:50:42Z</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2019-12-19</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 1275 agreed to in Senate by Unanimous Consent.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2019-12-19</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 1275 proposed by Senator McConnell for Senator Cardin. (consideration: CR S7236; text: CR S7220-7221) In the nature of a substitute.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2019-12-19</actionDate>
+              <text>Senate amendment agreed to: Amendment SA 1275 agreed to in Senate by Unanimous Consent.</text>
+              <type>Floor</type>
+              <actionCode>94000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2019-12-19</actionDate>
+              <text>Senate amendment proposed (on the floor): Amendment SA 1275 proposed by Senator McConnell for Senator Cardin.</text>
+              <type>Floor</type>
+              <actionCode>93000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2019-12-19</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+    </amendments>
+    <textVersions>
+      <item>
+        <type>Referred in House</type>
+        <date>2019-12-23T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-116s1309rfh/xml/BILLS-116s1309rfh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2019-12-19T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-116s1309es/xml/BILLS-116s1309es.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Reported to Senate</type>
+        <date>2019-07-11T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-116s1309rs/xml/BILLS-116s1309rs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2019-05-02T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-116s1309is/xml/BILLS-116s1309is.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2019-12-23</actionDate>
+      <text>Referred to the House Committee on Foreign Affairs.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

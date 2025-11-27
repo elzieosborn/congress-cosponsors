@@ -1,0 +1,351 @@
+{
+  "actions": [
+    {
+      "acted_at": "2010-04-29",
+      "action_code": "10000",
+      "references": [],
+      "text": "Introduced in Senate",
+      "type": "action"
+    },
+    {
+      "acted_at": "2010-04-29",
+      "action_code": "",
+      "how": "by Unanimous Consent",
+      "references": [
+        {
+          "reference": "CR S2982-2983",
+          "type": "consideration"
+        },
+        {
+          "reference": "CR S2982-2983",
+          "type": "text aas passed Senate"
+        },
+        {
+          "reference": "CR S2813-2814",
+          "type": "text of measure as introduced"
+        }
+      ],
+      "result": "pass",
+      "status": "PASS_OVER:SENATE",
+      "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "s"
+    },
+    {
+      "acted_at": "2010-04-30",
+      "action_code": "",
+      "references": [],
+      "text": "Message on Senate action sent to the House.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2010-05-03T10:05:59-04:00",
+      "action_code": "H14000",
+      "references": [],
+      "text": "Received in the House.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2010-05-03",
+      "action_code": "H11100",
+      "committees": [
+        "HSAG"
+      ],
+      "references": [],
+      "text": "Referred to the House Committee on Agriculture.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2010-05-11T15:16:43-04:00",
+      "action_code": "H30300",
+      "references": [],
+      "text": "Mr. Holden moved to suspend the rules and agree to the resolution.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2010-05-11T15:16:44-04:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H3292-3293",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered under suspension of the rules.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2010-05-11T15:16:45-04:00",
+      "action_code": "H8D000",
+      "bill_ids": [
+        "scres62-111"
+      ],
+      "references": [],
+      "text": "DEBATE - The House proceeded with forty minutes of debate on S. Con. Res. 62.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2010-05-11T15:22:47-04:00",
+      "action_code": "H37300",
+      "how": "by voice vote",
+      "references": [
+        {
+          "reference": "CR H3292-3293",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "status": "PASSED:CONCURRENTRES",
+      "suspension": null,
+      "text": "On motion to suspend the rules and agree to the resolution Agreed to by voice vote.",
+      "type": "vote",
+      "vote_type": "vote2",
+      "where": "h"
+    },
+    {
+      "acted_at": "2010-05-11T15:22:49-04:00",
+      "action_code": "H38310",
+      "references": [],
+      "text": "Motion to reconsider laid on the table Agreed to without objection.",
+      "type": "action"
+    }
+  ],
+  "amendments": [],
+  "bill_id": "sconres62-111",
+  "bill_type": "sconres",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [
+    {
+      "activity": [
+        "referral"
+      ],
+      "committee": "House Agriculture",
+      "committee_id": "HSAG"
+    }
+  ],
+  "congress": "111",
+  "cosponsors": [
+    {
+      "bioguide_id": "B000243",
+      "district": null,
+      "name": "Baucus, Max",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-04-29",
+      "state": "MT",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001267",
+      "district": null,
+      "name": "Bennet, Michael F.",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-04-29",
+      "state": "CO",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B000953",
+      "district": null,
+      "name": "Brownback, Sam",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-04-29",
+      "state": "KS",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001070",
+      "district": null,
+      "name": "Casey, Robert P., Jr.",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-04-29",
+      "state": "PA",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C000286",
+      "district": null,
+      "name": "Chambliss, Saxby",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-04-29",
+      "state": "GA",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C000880",
+      "district": null,
+      "name": "Crapo, Mike",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-04-29",
+      "state": "ID",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000563",
+      "district": null,
+      "name": "Durbin, Richard J.",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-04-29",
+      "state": "IL",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "G000386",
+      "district": null,
+      "name": "Grassley, Chuck",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-04-29",
+      "state": "IA",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H000206",
+      "district": null,
+      "name": "Harkin, Tom",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-04-29",
+      "state": "IA",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "J000291",
+      "district": null,
+      "name": "Johanns, Mike",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-04-29",
+      "state": "NE",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "K000305",
+      "district": null,
+      "name": "Kohl, Herb",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-04-29",
+      "state": "WI",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "L000174",
+      "district": null,
+      "name": "Leahy, Patrick J.",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-04-29",
+      "state": "VT",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001111",
+      "district": null,
+      "name": "Murray, Patty",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-04-29",
+      "state": "WA",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "P000590",
+      "district": null,
+      "name": "Pryor, Mark L.",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-04-29",
+      "state": "AR",
+      "title": "Sen.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000146",
+      "district": null,
+      "name": "Reid, Harry",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-04-29",
+      "state": "NV",
+      "title": "Sen.",
+      "withdrawn_at": null
+    }
+  ],
+  "enacted_as": null,
+  "history": {
+    "active": true,
+    "active_at": "2010-04-29",
+    "awaiting_signature": false,
+    "enacted": false,
+    "house_passage_result": "pass",
+    "house_passage_result_at": "2010-05-11T15:22:47-04:00",
+    "senate_passage_result": "pass",
+    "senate_passage_result_at": "2010-04-29",
+    "vetoed": false
+  },
+  "introduced_at": "2010-04-29",
+  "number": "62",
+  "official_title": "A concurrent resolution congratulating the outstanding professional public servants, both past and present, of the Natural Resources Conservation Service on the occasion of its 75th anniversary.",
+  "popular_title": null,
+  "related_bills": [
+    {
+      "bill_id": "hconres269-111",
+      "identified_by": "CRS",
+      "reason": "identical",
+      "type": "bill"
+    }
+  ],
+  "short_title": null,
+  "sponsor": {
+    "bioguide_id": "L000035",
+    "district": null,
+    "name": "Lincoln, Blanche L.",
+    "state": "AR",
+    "title": "Sen.",
+    "type": "person"
+  },
+  "status": "PASSED:CONCURRENTRES",
+  "status_at": "2010-05-11T15:22:47-04:00",
+  "subjects": [
+    "Agricultural conservation and pollution",
+    "Commemorative events and holidays",
+    "Congressional tributes",
+    "Department of Agriculture",
+    "Environmental protection",
+    "Land use and conservation",
+    "Soil pollution",
+    "Water use and supply"
+  ],
+  "subjects_top_term": "Environmental protection",
+  "summary": {
+    "as": "Passed House without amendment",
+    "asOf": "2010-05-11",
+    "date": "2010-05-12T18:13:07Z",
+    "text": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.)\n\nCongratulates the outstanding professionals of the National Resources Conservation Service on the occasion of its 75th anniversary.\n\nExpresses the continued commitment of Congress to the conservation of natural resources on private lands in both the national interest and as a national priority."
+  },
+  "titles": [
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "A concurrent resolution congratulating the outstanding professional public servants, both past and present, of the Natural Resources Conservation Service on the occasion of its 75th anniversary.",
+      "type": "display"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "A concurrent resolution congratulating the outstanding professional public servants, both past and present, of the Natural Resources Conservation Service on the occasion of its 75th anniversary.",
+      "type": "official"
+    }
+  ],
+  "updated_at": "2023-01-11T13:20:15Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/111/sconres/BILLSTATUS-111sconres62.xml"
+}

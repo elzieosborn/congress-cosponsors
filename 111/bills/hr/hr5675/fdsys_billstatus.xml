@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>5675</number>
+    <updateDate>2019-11-15T21:36:33Z</updateDate>
+    <updateDateIncludingText>2019-11-15T21:36:33Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2010-07-01</introducedDate>
+    <congress>111</congress>
+    <committees>
+      <item>
+        <systemCode>hshm00</systemCode>
+        <name>Homeland Security Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hshm11</systemCode>
+            <name>Border Security and Enforcement Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2010-07-14T18:12:27Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2010-07-01T14:06:48Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsii00</systemCode>
+        <name>Natural Resources Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsii22</systemCode>
+            <name>Fisheries, Wildlife, Oceans, and Insular Affairs Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2010-07-08T14:27:46Z</date>
+              </item>
+            </activities>
+          </item>
+          <item>
+            <systemCode>hsii10</systemCode>
+            <name>Federal Lands Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2010-07-08T14:27:39Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2010-07-01T14:06:50Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsag00</systemCode>
+        <name>Agriculture Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2010-07-01T14:07:40Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsju00</systemCode>
+        <name>Judiciary Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2010-07-01T14:06:49Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2010-07-14</actionDate>
+        <committees>
+          <item>
+            <systemCode>hshm11</systemCode>
+            <name>Border Security and Enforcement Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Border, Maritime, and Global Counterterrorism.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2010-07-08</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii22</systemCode>
+            <name>Fisheries, Wildlife, Oceans, and Insular Affairs Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Insular Affairs, Oceans and Wildlife.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2010-07-08</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii10</systemCode>
+            <name>Federal Lands Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on National Parks, Forests and Public Lands.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2010-07-01</actionDate>
+        <text>Referred to House Agriculture</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsag00</systemCode>
+            <name>Agriculture Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2010-07-01</actionDate>
+        <text>Referred to House Natural Resources</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2010-07-01</actionDate>
+        <text>Referred to House Judiciary</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2010-07-01</actionDate>
+        <text>Referred to the Committee on Homeland Security, and in addition to the Committees on the Judiciary, Natural Resources, and Agriculture, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100-A</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2010-07-01</actionDate>
+        <text>Referred to House Homeland Security</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hshm00</systemCode>
+            <name>Homeland Security Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2010-07-01</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2010-07-01</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>F000448</bioguideId>
+        <fullName>Rep. Franks, Trent [R-AZ-2]</fullName>
+        <firstName>Trent</firstName>
+        <lastName>Franks</lastName>
+        <party>R</party>
+        <state>AZ</state>
+        <district>2</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Emergency Management</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Arizona</name>
+        </item>
+        <item>
+          <name>Border security and unlawful immigration</name>
+        </item>
+        <item>
+          <name>California</name>
+        </item>
+        <item>
+          <name>Criminal investigation, prosecution, interrogation</name>
+        </item>
+        <item>
+          <name>Criminal procedure and sentencing</name>
+        </item>
+        <item>
+          <name>Department of Homeland Security</name>
+        </item>
+        <item>
+          <name>Federal district courts</name>
+        </item>
+        <item>
+          <name>Fraud offenses and financial crimes</name>
+        </item>
+        <item>
+          <name>Government employee pay, benefits, personnel management</name>
+        </item>
+        <item>
+          <name>Homeland security</name>
+        </item>
+        <item>
+          <name>Latin America</name>
+        </item>
+        <item>
+          <name>Law enforcement administration and funding</name>
+        </item>
+        <item>
+          <name>Law enforcement officers</name>
+        </item>
+        <item>
+          <name>Mexico</name>
+        </item>
+        <item>
+          <name>Navigation, waterways, harbors</name>
+        </item>
+        <item>
+          <name>New Mexico</name>
+        </item>
+        <item>
+          <name>Nuclear weapons</name>
+        </item>
+        <item>
+          <name>Smuggling and trafficking</name>
+        </item>
+        <item>
+          <name>Terrorism</name>
+        </item>
+        <item>
+          <name>Texas</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Emergency Management</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2010-07-01</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2010-08-11T16:11:14Z</updateDate>
+        <text><![CDATA[ <p>National Border and Homeland Security Act of 2010 - Amends the Immigration and Nationality Act to give state criminal alien assistance program (SCAAP) funding priority to: (1) northern or southern border states; or (2) state political subdivisions having one of the four largest populations of unlawfully present aliens for the preceding fiscal year.</p> <p>Amends the Illegal Immigration Reform and Immigrant Responsibility Act of 1996 to direct the Secretary of Homeland Security (DHS) (Secretary) to complete the required 700 mile southwest border fencing by December 31, 2012. </p> <p>Amends the Secure Fence Act of 2006 to direct the Secretary to achieve operational control over U.S. international land and maritime borders by December 31, 2012.</p> <p>Directs the Secretary to: (1) increase the number of full-time, active-duty Border Patrol agents; (2) increase the number of Customs and Border Protection officers at U.S. ports of entry; and (3) ensure the implementaion of the automated entry and exit control system for aliens entering the United States at ports of entry (US-Visit) by December 31, 2011.</p> <p>Prohibits the Secretary of the Interior and the Secretary of Agriculture (USDA) from impeding border security-related activities by the Secretary on U.S. public lands.</p> <p>Sets forth activities that may be taken to increase the number of Operation Streamline prosecutions by the following U.S. district courts: (1) the District of Arizona; (2) the District of New Mexico (3) the Southern District of California (4) the Southern District of Texas; and (5) the Western District of Texas.</p> <p>Increases criminal penalties for improper U.S. entry by an alien. Excludes minimum mandatory prison penalties for an alien who: (1) is under 18 years old; (2) is a parent traveling with a child under 18 years old; or (3) has a life-threatening health condition.</p> <p>Amends the Homeland Security Act of 2002 to direct the Domestic Nuclear Detection Office (of DHS), in protecting the United States from a nuclear, fissile material, or radiological attack, to consider potential smuggling routes in land border areas between ports of entry, railcars entering the United States from Canada or Mexico, and private aircraft or small vessels.</p> <p>Directs the Secretary to procure the number of next generation portable radiation detectors (PRD) and radioactive isotope identification devices (RIID) required by the Border Patrol along the southern and northern U.S. borders by July 1, 2011.</p> <p>Authorizes appropriations for port security grants.</p> <p>Directs the Secretary to develop and implement a strategic plan to detect and interdict biological and chemical weapons entering the United States.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>National Border and Homeland Security Act of 2010</title>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>National Border and Homeland Security Act of 2010</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>National Border and Homeland Security Act of 2010</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To improve border security and to increase prosecutions and penalties for illegal entry into the United States, to prevent and combat the smuggling of weapons of mass destruction into the United States, and for other purposes.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2010-07-01T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-111hr5675ih/xml/BILLS-111hr5675ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2010-07-14</actionDate>
+      <text>Referred to the Subcommittee on Border, Maritime, and Global Counterterrorism.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

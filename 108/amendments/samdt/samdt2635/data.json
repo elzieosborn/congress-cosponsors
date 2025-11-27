@@ -1,0 +1,87 @@
+{
+  "actions": [
+    {
+      "acted_at": "2004-03-01",
+      "action_code": "",
+      "how": "roll",
+      "references": [],
+      "result": "fail",
+      "roll": 23,
+      "text": "Amendment SA 2635 not agreed to in Senate by Yea-Nay Vote. 28 - 59. Record Vote Number: 23.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "s"
+    },
+    {
+      "acted_at": "2004-03-01",
+      "action_code": "",
+      "references": [],
+      "text": "Amendment SA 2635 proposed by Senator Bingaman. (consideration: CR S1922-1928; text: CR S1922) To modify the definition of reasonably foreseeable.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2004-03-01",
+      "action_code": "97000",
+      "references": [],
+      "text": "Roll call votes on amendments in Senate: Amendment SA 2635 not agreed to in Senate by Yea-Nay Vote. 28 - 59. Record Vote Number: 23.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2004-03-01",
+      "action_code": "93000",
+      "references": [
+        {
+          "reference": "CR S1922-1928",
+          "type": "consideration"
+        },
+        {
+          "reference": "CR S1922",
+          "type": "text"
+        }
+      ],
+      "text": "Senate amendment proposed (on the floor): Amendment SA 2635 proposed by Senator Bingaman.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2004-03-01",
+      "action_code": "95000",
+      "references": [],
+      "text": "Senate amendment not agreed to: Amendment SA 2635 not agreed to in Senate by Yea-Nay Vote. 28 - 59. Record Vote Number: 23.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2004-03-01",
+      "action_code": "91000",
+      "references": [],
+      "text": "Senate amendment submitted",
+      "type": "action"
+    }
+  ],
+  "amendment_id": "samdt2635-108",
+  "amendment_type": "samdt",
+  "amends_amendment": null,
+  "amends_bill": {
+    "bill_id": "s1805-108",
+    "bill_type": "s",
+    "congress": 108,
+    "number": 1805
+  },
+  "amends_treaty": null,
+  "chamber": "s",
+  "congress": "108",
+  "introduced_at": "2004-03-01",
+  "number": 2635,
+  "proposed_at": "2004-03-01T05:00:00Z",
+  "purpose": "To modify the definition of reasonably foreseeable.",
+  "sponsor": {
+    "bioguide_id": "B000468",
+    "district": null,
+    "name": "Bingaman, Jeff",
+    "state": "NM",
+    "title": "Sen.",
+    "type": "person"
+  },
+  "status": "fail",
+  "status_at": "2004-03-01",
+  "updated_at": "2021-09-29T22:19:17Z"
+}

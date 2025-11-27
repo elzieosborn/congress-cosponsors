@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>3823</number>
+    <updateDate>2023-01-11T13:17:52Z</updateDate>
+    <updateDateIncludingText>2023-01-11T13:17:52Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2009-10-15</introducedDate>
+    <congress>111</congress>
+    <committees>
+      <item>
+        <systemCode>hsif00</systemCode>
+        <name>Energy and Commerce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2009-10-16T18:44:02Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2009-10-15T14:02:41Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2009-10-16</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2009-10-15</actionDate>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2009-10-15</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2009-10-15</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>D000168</bioguideId>
+        <fullName>Rep. Deal, Nathan [R-GA-9]</fullName>
+        <firstName>NATHAN</firstName>
+        <lastName>DEAL</lastName>
+        <party>R</party>
+        <state>GA</state>
+        <district>9</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>P000373</bioguideId>
+        <fullName>Rep. Pitts, Joseph R. [R-PA-16]</fullName>
+        <firstName>JOSEPH</firstName>
+        <lastName>PITTS</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <middleName>R.</middleName>
+        <district>16</district>
+        <sponsorshipDate>2009-10-15</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000575</bioguideId>
+        <fullName>Rep. Blunt, Roy [R-MO-7]</fullName>
+        <firstName>ROY</firstName>
+        <lastName>BLUNT</lastName>
+        <party>R</party>
+        <state>MO</state>
+        <district>7</district>
+        <sponsorshipDate>2009-10-15</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000213</bioguideId>
+        <fullName>Rep. Barton, Joe [R-TX-6]</fullName>
+        <firstName>JOE</firstName>
+        <lastName>BARTON</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <middleName>L.</middleName>
+        <district>6</district>
+        <sponsorshipDate>2009-10-15</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001203</bioguideId>
+        <fullName>Rep. Buyer, Steve [R-IN-4]</fullName>
+        <firstName>STEPHEN</firstName>
+        <lastName>BUYER</lastName>
+        <party>R</party>
+        <state>IN</state>
+        <middleName>E.</middleName>
+        <district>4</district>
+        <sponsorshipDate>2009-10-15</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001228</bioguideId>
+        <fullName>Rep. Bono Mack, Mary [R-CA-45]</fullName>
+        <firstName>MARY</firstName>
+        <lastName>BONO MACK</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <district>45</district>
+        <sponsorshipDate>2009-11-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Child health</name>
+        </item>
+        <item>
+          <name>Employee benefits and pensions</name>
+        </item>
+        <item>
+          <name>Health care costs and insurance</name>
+        </item>
+        <item>
+          <name>Health care coverage and access</name>
+        </item>
+        <item>
+          <name>Medicaid</name>
+        </item>
+        <item>
+          <name>Poverty and welfare assistance</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Health</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2009-10-15</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2009-11-20T21:32:28Z</updateDate>
+        <text><![CDATA[ <p>Medicaid and SCHIP Beneficiary Choice Improvement Act of 2009 - Amends title XXI (State Children's Health Insurance Program) (SCHIP, also known as CHIP) of the Social Security Act to require an SCHIP plan to describe how it will provide for child health assistance with respect to targeted low-income children who have access to coverage under a group health plan.</p> <p>Requires the Secretary of Health and Human Services (HHS) to pay to each state with an approved SCHIP plan a certain amount for the payment of premiums for coverage under an employer-sponsored group health plan that includes coverage of targeted low-income children and benefits supplemental to such coverage. </p> <p>Revises requirements regarding the purchase of employer-sponsored insurance. Prohibits any minimum benefits requirement or any limitation on beneficiary cost-sharing.</p> <p>Declares that, if the basic coverage of such insurance does not extend to each of certain categories of basic services, the plan shall cover such services as supplemental benefits.</p> <p>Prohibits a plan from requiring a targeted low-income child to enroll in family coverage in order to obtain child health assistance. Requires an annual voluntary enrollment period for switching from one plan to another.</p> <p>Requires the offering of alternative coverage options under SCHIP. Prescribes requirements for federal financial participation for qualified alternative coverage. </p> <p>Declares that the requirements imposed under a state child health plan under this Act shall apply in the same manner to a state plan under title XIX (Medicaid), except that: (1) such requirements shall not apply to individuals whose Medicaid eligibility is based on being aged, blind, or disabled or to individuals in certain categories; and (2) the national per capita expenditures shall be determined based on a specified benchmark coverage but without regard to expenditures for such excluded individuals or for nursing facility services and other long-term care (LTC) services.</p> <p>Amends the Children's Health Insurance Program Reauthorization Act of 2009 to repeal the prohibition against the Secretary's approval of any new health opportunity account demonstration programs. <br> </p> <p>Converts the Health Opportunity Account demonstration program into a permanent program.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Medicaid and SCHIP Beneficiary Choice Improvement Act of 2009</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Medicaid and SCHIP Beneficiary Choice Improvement Act of 2009</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend titles XIX and XXI of the Social Security Act to make certain changes to the State Children's Health Insurance Program and the Medicaid Program.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Medicaid and SCHIP Beneficiary Choice Improvement Act of 2009</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2009-10-15T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-111hr3823ih/xml/BILLS-111hr3823ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2009-10-16</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

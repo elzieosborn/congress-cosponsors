@@ -1,0 +1,223 @@
+{
+  "actions": [
+    {
+      "acted_at": "2020-12-14",
+      "action_code": "10000",
+      "references": [],
+      "text": "Introduced in Senate",
+      "type": "action"
+    },
+    {
+      "acted_at": "2020-12-14",
+      "action_code": "",
+      "how": "by Unanimous Consent",
+      "references": [
+        {
+          "reference": "CR S7470-7471",
+          "type": "consideration"
+        },
+        {
+          "reference": "12/15/2020 CR S7503-7504",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "status": "PASS_OVER:SENATE",
+      "text": "Submitted in the Senate, considered, and agreed to without amendment by Unanimous Consent.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "s"
+    },
+    {
+      "acted_at": "2020-12-15",
+      "action_code": "",
+      "references": [],
+      "text": "Message on Senate action sent to the House.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2020-12-15T15:03:06-05:00",
+      "action_code": "H14000",
+      "references": [],
+      "text": "Received in the House.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2020-12-15T15:41:11-05:00",
+      "action_code": "H15000",
+      "references": [],
+      "text": "Held at the desk.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2020-12-16T15:51:12-05:00",
+      "action_code": "H30200",
+      "references": [],
+      "text": "Ms. Bass asked unanimous consent to take from the Speaker's table and consider.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2020-12-16T15:51:15-05:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H7216-7217",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered by unanimous consent.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2020-12-16T15:51:30-05:00",
+      "action_code": "H37100",
+      "how": "without objection",
+      "references": [
+        {
+          "reference": "CR H7216-7217",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "status": "PASSED:CONCURRENTRES",
+      "suspension": null,
+      "text": "On agreeing to the resolution Agreed to without objection.",
+      "type": "vote",
+      "vote_type": "vote2",
+      "where": "h"
+    },
+    {
+      "acted_at": "2020-12-16T15:51:40-05:00",
+      "action_code": "H38310",
+      "references": [],
+      "text": "Motion to reconsider laid on the table Agreed to without objection.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2020-12-17",
+      "action_code": "",
+      "references": [],
+      "text": "Message on House action received in Senate and at desk: House amendment to Senate bill.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2020-12-18",
+      "action_code": "",
+      "bill_ids": [
+        "scres52-116"
+      ],
+      "how": "by Unanimous Consent",
+      "references": [
+        {
+          "reference": "CR S7828",
+          "type": "consideration"
+        }
+      ],
+      "result": "pass",
+      "status": "PASSED:CONCURRENTRES",
+      "text": "Senate agreed to the House amendment to S.Con.Res. 52 by Unanimous Consent.",
+      "type": "vote",
+      "vote_type": "pingpong",
+      "where": "s"
+    },
+    {
+      "acted_at": "2020-12-20",
+      "action_code": "",
+      "references": [],
+      "text": "Message on Senate action sent to the House.",
+      "type": "action"
+    }
+  ],
+  "amendments": [
+    {
+      "amendment_id": "hamdt912-116",
+      "amendment_type": "hamdt",
+      "chamber": "h",
+      "number": "912"
+    }
+  ],
+  "bill_id": "sconres52-116",
+  "bill_type": "sconres",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [],
+  "congress": "116",
+  "cosponsors": [
+    {
+      "bioguide_id": "B001277",
+      "district": null,
+      "name": "Blumenthal, Richard",
+      "original_cosponsor": true,
+      "sponsored_at": "2020-12-14",
+      "state": "CT",
+      "title": "Sen.",
+      "withdrawn_at": null
+    }
+  ],
+  "enacted_as": null,
+  "history": {
+    "active": true,
+    "active_at": "2020-12-14",
+    "awaiting_signature": false,
+    "enacted": false,
+    "house_passage_result": "pass",
+    "house_passage_result_at": "2020-12-16T15:51:30-05:00",
+    "senate_passage_result": "pass",
+    "senate_passage_result_at": "2020-12-18",
+    "vetoed": false
+  },
+  "introduced_at": "2020-12-14",
+  "number": "52",
+  "official_title": "A concurrent resolution to correct the enrollment of S. 3312.",
+  "popular_title": null,
+  "related_bills": [
+    {
+      "bill_id": "s3312-116",
+      "identified_by": "CRS",
+      "reason": "related",
+      "type": "bill"
+    }
+  ],
+  "short_title": null,
+  "sponsor": {
+    "bioguide_id": "C001056",
+    "district": null,
+    "name": "Cornyn, John",
+    "state": "TX",
+    "title": "Sen.",
+    "type": "person"
+  },
+  "status": "PASSED:CONCURRENTRES",
+  "status_at": "2020-12-18",
+  "subjects": [
+    "Correctional facilities and imprisonment",
+    "Crime and law enforcement",
+    "Law enforcement administration and funding",
+    "Legislative rules and procedure"
+  ],
+  "subjects_top_term": "Crime and law enforcement",
+  "summary": {
+    "as": "Senate agreed to House amendment",
+    "asOf": "2020-12-18",
+    "date": "2022-04-29T21:19:04Z",
+    "text": "This concurrent resolution directs the Secretary of the Senate to make corrections in the enrollment of S. 3312 (Crisis Stabilization and Community Reentry Act of 2020), which authorizes the Department of Justice to award grants to provide clinical services for individuals with serious mental illness and substance use disorders who need post-release mental health services. The resolution expands the entities that are eligible for grants to include Indian tribes, units of local government, and community-based nonprofit organizations."
+  },
+  "titles": [
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "A concurrent resolution to correct the enrollment of S. 3312.",
+      "type": "display"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "A concurrent resolution to correct the enrollment of S. 3312.",
+      "type": "official"
+    }
+  ],
+  "updated_at": "2023-01-11T13:43:45Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/116/sconres/BILLSTATUS-116sconres52.xml"
+}

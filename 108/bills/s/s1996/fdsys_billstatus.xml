@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>1996</number>
+    <updateDate>2023-01-15T09:17:37Z</updateDate>
+    <updateDateIncludingText>2023-01-15T09:17:37Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <originChamberCode>S</originChamberCode>
+    <type>S</type>
+    <introducedDate>2003-12-09</introducedDate>
+    <congress>108</congress>
+    <committees>
+      <item>
+        <systemCode>hsii00</systemCode>
+        <name>Natural Resources Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsii13</systemCode>
+            <name>Water, Wildlife, and Fisheries Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2004-11-30T14:48:30Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2004-11-20T19:40:14Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>slia00</systemCode>
+        <name>Indian Affairs Committee</name>
+        <chamber>Senate</chamber>
+        <type>Other</type>
+        <activities>
+          <item>
+            <name>Reported by</name>
+            <date>2004-07-20T23:15:28Z</date>
+          </item>
+          <item>
+            <name>Markup by</name>
+            <date>2004-06-23T20:48:47Z</date>
+          </item>
+          <item>
+            <name>Hearings by</name>
+            <date>2004-06-16T20:57:24Z</date>
+          </item>
+          <item>
+            <name>Referred to</name>
+            <date>2003-12-09T21:01:44Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <committeeReports>
+      <committeeReport>
+        <citation>S. Rept. 108-311</citation>
+      </committeeReport>
+    </committeeReports>
+    <actions>
+      <item>
+        <actionDate>2004-11-30</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii13</systemCode>
+            <name>Water, Wildlife, and Fisheries Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Water and Power.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2004-11-20</actionDate>
+        <text>Referred to the House Committee on Resources.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2004-11-20</actionDate>
+        <actionTime>11:24:34</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2004-11-20</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2004-11-19</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate with an amendment by Unanimous Consent. (consideration: CR S11566-11584; text as passed Senate: CR S11578-11579; text of measure as reported in Senate: CR S11577-11578)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2004-11-19</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate with an amendment by Unanimous Consent.(consideration: CR S11566-11584; text as passed Senate: CR S11578-11579; text of measure as reported in Senate: CR S11577-11578)</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2004-07-20</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 654.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2004-07-20</actionDate>
+        <committees>
+          <item>
+            <systemCode>slia00</systemCode>
+            <name>Indian Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Indian Affairs. Reported by Senator Campbell with an amendment in the nature of a substitute. With written report No. 108-311.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2004-07-20</actionDate>
+        <text>Committee on Indian Affairs. Reported by Senator Campbell with an amendment in the nature of a substitute. With written report No. 108-311.</text>
+        <type>Committee</type>
+        <actionCode>14000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>slia00</systemCode>
+            <name>Indian Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2004-06-23</actionDate>
+        <committees>
+          <item>
+            <systemCode>slia00</systemCode>
+            <name>Indian Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Indian Affairs. Ordered to be reported with an amendment in the nature of a substitute favorably.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2004-06-16</actionDate>
+        <committees>
+          <item>
+            <systemCode>slia00</systemCode>
+            <name>Indian Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Indian Affairs. Hearings held. Hearings printed: S.Hrg. 108-625.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2003-12-09</actionDate>
+        <committees>
+          <item>
+            <systemCode>slia00</systemCode>
+            <name>Indian Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Indian Affairs. (text of measure as introduced: CR S16134-16135)</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2003-12-09</actionDate>
+        <text>Sponsor introductory remarks on measure. (CR S16134)</text>
+        <type>IntroReferral</type>
+        <actionCode>B00100</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2003-12-09</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>D000064</bioguideId>
+        <fullName>Sen. Daschle, Thomas A. [D-SD]</fullName>
+        <firstName>THOMAS</firstName>
+        <lastName>DASCHLE</lastName>
+        <party>D</party>
+        <state>SD</state>
+        <middleName>ANDREW</middleName>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>J000177</bioguideId>
+        <fullName>Sen. Johnson, Tim [D-SD]</fullName>
+        <firstName>TIM</firstName>
+        <lastName>JOHNSON</lastName>
+        <party>D</party>
+        <state>SD</state>
+        <sponsorshipDate>2004-02-12</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>I000025</bioguideId>
+        <fullName>Sen. Inouye, Daniel K. [D-HI]</fullName>
+        <firstName>DANIEL</firstName>
+        <lastName>INOUYE</lastName>
+        <party>D</party>
+        <state>HI</state>
+        <middleName>KEN</middleName>
+        <sponsorshipDate>2004-06-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000077</bioguideId>
+        <fullName>Sen. Campbell, Ben Nighthorse [R-CO]</fullName>
+        <firstName>BEN</firstName>
+        <lastName>CAMPBELL</lastName>
+        <party>R</party>
+        <state>CO</state>
+        <middleName>NIGHTHORSE</middleName>
+        <sponsorshipDate>2004-09-29</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <cboCostEstimates>
+      <item>
+        <pubDate>2004-07-08T04:00:00Z</pubDate>
+        <title>S. 1996, Oglala Sioux Tribe Angostura Irrigation Project</title>
+        <url>http://www.cbo.gov/publication/15805</url>
+        <description>&lt;p&gt;Cost estimate for the bill as ordered reported by the Senate Committee on Indian Affairs on June 23, 2004&lt;/p&gt;</description>
+      </item>
+      <item>
+        <pubDate>2004-07-08T04:00:00Z</pubDate>
+        <title>S. 1996, Oglala Sioux Tribe Angostura Irrigation Project</title>
+        <url>https://www.cbo.gov/publication/15805</url>
+        <description>Cost estimate for the bill as ordered reported by the Senate Committee on Indian Affairs on June 23, 2004</description>
+      </item>
+    </cboCostEstimates>
+    <policyArea>
+      <name>Native Americans</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Agriculture and Food</name>
+        </item>
+        <item>
+          <name>Animals</name>
+        </item>
+        <item>
+          <name>Auditing</name>
+        </item>
+        <item>
+          <name>Dams</name>
+        </item>
+        <item>
+          <name>Economics and Public Finance</name>
+        </item>
+        <item>
+          <name>Education</name>
+        </item>
+        <item>
+          <name>Elementary and secondary education</name>
+        </item>
+        <item>
+          <name>Environmental Protection</name>
+        </item>
+        <item>
+          <name>Federal aid to Indians</name>
+        </item>
+        <item>
+          <name>Finance and Financial Sector</name>
+        </item>
+        <item>
+          <name>Fishery management</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Government paperwork</name>
+        </item>
+        <item>
+          <name>Government trust funds</name>
+        </item>
+        <item>
+          <name>Health</name>
+        </item>
+        <item>
+          <name>Housing and Community Development</name>
+        </item>
+        <item>
+          <name>Indian economic development</name>
+        </item>
+        <item>
+          <name>Indian education</name>
+        </item>
+        <item>
+          <name>Indian lands</name>
+        </item>
+        <item>
+          <name>Indian medical care</name>
+        </item>
+        <item>
+          <name>Indian water rights</name>
+        </item>
+        <item>
+          <name>Infrastructure</name>
+        </item>
+        <item>
+          <name>Infrastructure (Economics)</name>
+        </item>
+        <item>
+          <name>Interest</name>
+        </item>
+        <item>
+          <name>Investment of public funds</name>
+        </item>
+        <item>
+          <name>Irrigation</name>
+        </item>
+        <item>
+          <name>Maintenance and repair</name>
+        </item>
+        <item>
+          <name>Minorities</name>
+        </item>
+        <item>
+          <name>Missouri River development</name>
+        </item>
+        <item>
+          <name>Outdoor recreation</name>
+        </item>
+        <item>
+          <name>Planning</name>
+        </item>
+        <item>
+          <name>Public Lands and Natural Resources</name>
+        </item>
+        <item>
+          <name>Reservoirs</name>
+        </item>
+        <item>
+          <name>Restoration ecology</name>
+        </item>
+        <item>
+          <name>Riparian ecology</name>
+        </item>
+        <item>
+          <name>South Dakota</name>
+        </item>
+        <item>
+          <name>Sports and Recreation</name>
+        </item>
+        <item>
+          <name>Water Resources Development</name>
+        </item>
+        <item>
+          <name>Water pollution control</name>
+        </item>
+        <item>
+          <name>Water quality</name>
+        </item>
+        <item>
+          <name>Water supply</name>
+        </item>
+        <item>
+          <name>Wildlife conservation</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Native Americans</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2003-12-09</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2004-06-07T20:10:58Z</updateDate>
+        <text><![CDATA[ <p>Oglala Sioux Tribe Angostura Irrigation Project Rehabilitation and Development Act - Authorizes the Secretary of the Interior to: (1) carry out the rehabilitation and improvement of the irrigation unit facilities at the Angostura Project; and (2) provide for the delivery of water saved through the rehabilitation and improvement of such facilities to the Pine Ridge Indian Reservation, South Dakota, and the use of that water for purposes of environmental restoration on the Reservation.</p> <p>Establishes the Oglala Sioux Tribal Development Trust Fund.</p> <p>Requires the governing body of the Tribe to prepare a plan for the use of payments to the Tribe out of the Fund.</p> <p>Prohibits a portion of any payment from being distributed to any member of the Tribe on a per capita basis.</p> <p>States that no payment made to the Tribe shall result in the reduction or denial of any service or program with respect to which, under Federal law: (1) the Tribe is otherwise entitled because of the status of the Tribe as a federally recognized Indian tribe; or (2) any individual who is a member of the Tribe is entitled because of the status of the individual as a member of the Tribe.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>01</versionCode>
+        <actionDate>2004-07-20</actionDate>
+        <actionDesc>Reported to Senate with amendment(s)</actionDesc>
+        <updateDate>2004-09-29T20:28:59Z</updateDate>
+        <text><![CDATA[ <p>Oglala Sioux Tribe Angostura Irrigation Project Modernization and Development Act - <b>Title I: Modernization </b>- Requires the Secretary of the Interior to: (1) carry out the modernization and improvement of irrigation facilities at the Angostura Unit as described in a specified report; and (2) provide for the delivery of water saved through such modernization and improvement for fish and wildlife purposes and environmental restoration on the Pine Ridge Indian Reservation, South Dakota.</p> <p><b>Title II: Development</b> - (Sec. 201) Establishes the Oglala Sioux Tribal Development Trust Fund in the Treasury. Requires the Secretary of the Treasury to make specified deposits into the Fund and payments from it to the Tribe beginning in the 11th fiscal year after enactment of this Act. </p> <p>Requires the governing body of the Tribe to prepare a development plan that provides for the manner in which the Tribe shall expend such payments to promote: (1) economic development; (2) infrastructure development; (3) the educational, health, recreational, and social welfare objectives of the Tribe and its members; or (4) any combination of these activities.</p> <p>Requires the Tribal Council to make a copy of the plan available for review and comment by members of the Tribe before it becomes final. </p> <p>Authorizes the Tribal Council to revise and update the plan on an annual basis, subject to review and comment procedures.</p> <p>States that activities of the Tribe in carrying out the plan shall be audited as part of the annual single-agency audit that the Tribe is required to prepare pursuant to a specified Office of Management and Budget circular.</p> <p>Requires a copy of the audit findings to be inserted into the Tribal Council's published minutes of proceedings.</p> <p>Prohibits distribution of any portion of any payment to the Tribe to any member on a per capita basis.</p> <p>(Sec. 202) States that no payment made to the Tribe shall result in the reduction or denial of any service or program under Federal law with respect to which: (1) the Tribe is otherwise entitled because of its status as a federally recognized Indian tribe; or (2) any individual is entitled because of his or her status as a member of the Tribe.</p> <p>(Sec. 204) States that nothing in this Act: (1) affects any rights, benefits, privileges or claims (including water rights or claims to water rights) of the Tribe, whether located on or off the Reservation, based on treaty, Executive order, agreement, Act of Congress, aboriginal title, the Winters doctrine, or otherwise; (2) validates or invalidates any assertion of the existence, nonexistence, or extinguishment of any water rights or claims to such rights held by the Tribe or any other Indian tribe or individual Indian under Federal or State law; or (3) affects any other water rights in existence on the date of enactment of this Act.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>35</versionCode>
+        <actionDate>2004-11-19</actionDate>
+        <actionDesc>Passed Senate amended</actionDesc>
+        <updateDate>2004-12-23T15:18:50Z</updateDate>
+        <text><![CDATA[ <p><b>(This measure has not been amended since it was reported to the Senate on July 20, 2004. The summary of that version is repeated here.)</b></p> <p>Oglala Sioux Tribe Angostura Irrigation Project Modernization and Development Act -<b> Title I: Modernization</b> - Requires the Secretary of the Interior to: (1) carry out the modernization and improvement of irrigation facilities at the Angostura Unit as described in a specified report; and (2) provide for the delivery of water saved through such modernization and improvement for fish and wildlife purposes and environmental restoration on the Pine Ridge Indian Reservation, South Dakota.</p> <p><b>Title II: Development</b> - (Sec. 201) Establishes the Oglala Sioux Tribal Development Trust Fund in the Treasury. Requires the Secretary of the Treasury to make specified deposits into the Fund and payments from it to the Tribe beginning in the 11th fiscal year after enactment of this Act. </p> <p>Requires the governing body of the Tribe to prepare a development plan that provides for the manner in which the Tribe shall expend such payments to promote: (1) economic development; (2) infrastructure development; (3) the educational, health, recreational, and social welfare objectives of the Tribe and its members; or (4) any combination of these activities.</p> <p>Requires the Tribal Council to make a copy of the plan available for review and comment by members of the Tribe before it becomes final. </p> <p>Authorizes the Tribal Council to revise and update the plan on an annual basis, subject to review and comment procedures.</p> <p>States that activities of the Tribe in carrying out the plan shall be audited as part of the annual single-agency audit that the Tribe is required to prepare pursuant to a specified Office of Management and Budget circular.</p> <p>Requires a copy of the audit findings to be inserted into the Tribal Council's published minutes of proceedings.</p> <p>Prohibits distribution of any portion of any payment to the Tribe to any member on a per capita basis.</p> <p>(Sec. 202) States that no payment made to the Tribe shall result in the reduction or denial of any service or program under Federal law with respect to which: (1) the Tribe is otherwise entitled because of its status as a federally recognized Indian tribe; or (2) any individual is entitled because of his or her status as a member of the Tribe.</p> <p>(Sec. 204) States that nothing in this Act: (1) affects any rights, benefits, privileges or claims (including water rights or claims to water rights) of the Tribe, whether located on or off the Reservation, based on treaty, Executive order, agreement, Act of Congress, aboriginal title, the Winters doctrine, or otherwise; (2) validates or invalidates any assertion of the existence, nonexistence, or extinguishment of any water rights or claims to such rights held by the Tribe or any other Indian tribe or individual Indian under Federal or State law; or (3) affects any other water rights in existence on the date of enactment of this Act.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Oglala Sioux Tribe Angostura Irrigation Project Modernization and Development Act</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Oglala Sioux Tribe Angostura Irrigation Project Modernization and Development Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to enhance and provide to the Oglala Sioux Tribe and Angostura Irrigation Project certain benefits of the Pick-Sloan Missouri River basin program.</title>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Oglala Sioux Tribe Angostura Irrigation Project Rehabilitation and Development Act</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Reported to Senate</titleType>
+        <title>Oglala Sioux Tribe Angostura Irrigation Project Modernization and Development Act</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+      <item>
+        <titleType>Short Titles as Passed Senate</titleType>
+        <title>Oglala Sioux Tribe Angostura Irrigation Project Modernization and Development Act</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Referred in House</type>
+        <date>2004-11-20T05:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2004-11-19T05:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Reported to Senate</type>
+        <date>2004-07-20T04:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2003-12-09T05:00:00Z</date>
+        <formats/>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2004-11-30</actionDate>
+      <text>Referred to the Subcommittee on Water and Power.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

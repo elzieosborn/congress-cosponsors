@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>1108</number>
+    <updateDate>2023-01-15T15:48:19Z</updateDate>
+    <updateDateIncludingText>2023-01-15T15:48:19Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <originChamberCode>S</originChamberCode>
+    <type>S</type>
+    <introducedDate>2003-05-22</introducedDate>
+    <congress>108</congress>
+    <committees>
+      <item>
+        <systemCode>hsii00</systemCode>
+        <name>Natural Resources Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsii10</systemCode>
+            <name>Federal Lands Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2004-04-23T19:28:51Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2004-04-20T22:34:31Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>ssju00</systemCode>
+        <name>Judiciary Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Discharged from</name>
+            <date>2004-04-07T22:56:23Z</date>
+          </item>
+          <item>
+            <name>Referred to</name>
+            <date>2003-05-22T18:31:10Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2004-04-23</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Executive Comment Requested from Interior.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2004-04-23</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii10</systemCode>
+            <name>Federal Lands Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on National Parks, Recreation and Public Lands.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2004-04-20</actionDate>
+        <text>Referred to the House Committee on Resources.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2004-04-20</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2004-04-20</actionDate>
+        <actionTime>14:04:02</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2004-04-07</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate without amendment by Unanimous Consent. (text:  CR S3950-3951)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2004-04-07</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate without amendment by Unanimous Consent.(text:  CR S3950-3951)</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2004-04-07</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Senate Committee on the Judiciary discharged by Unanimous Consent. (consideration:  CR S3950-3951)</text>
+        <type>Discharge</type>
+      </item>
+      <item>
+        <actionDate>2004-04-07</actionDate>
+        <text>Senate Committee on the Judiciary discharged by Unanimous Consent.(consideration:  CR S3950-3951)</text>
+        <type>Committee</type>
+        <actionCode>14500</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>ssju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2003-05-22</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on the Judiciary.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2003-05-22</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>C001041</bioguideId>
+        <fullName>Sen. Clinton, Hillary Rodham [D-NY]</fullName>
+        <firstName>HILLARY</firstName>
+        <lastName>CLINTON</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>R</middleName>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>W000154</bioguideId>
+        <fullName>Sen. Warner, John [R-VA]</fullName>
+        <firstName>JOHN</firstName>
+        <lastName>WARNER</lastName>
+        <party>R</party>
+        <state>VA</state>
+        <middleName>WILLIAM</middleName>
+        <sponsorshipDate>2003-05-22</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B000444</bioguideId>
+        <fullName>Sen. Biden, Joseph R., Jr. [D-DE]</fullName>
+        <firstName>JOSEPH</firstName>
+        <lastName>BIDEN</lastName>
+        <party>D</party>
+        <state>DE</state>
+        <middleName>ROBINETTE</middleName>
+        <sponsorshipDate>2003-06-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>A000360</bioguideId>
+        <fullName>Sen. Alexander, Lamar [R-TN]</fullName>
+        <firstName>Lamar</firstName>
+        <lastName>Alexander</lastName>
+        <party>R</party>
+        <state>TN</state>
+        <sponsorshipDate>2003-06-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000105</bioguideId>
+        <fullName>Sen. Kennedy, Edward M. [D-MA]</fullName>
+        <firstName>EDWARD</firstName>
+        <lastName>KENNEDY</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>MOORE</middleName>
+        <sponsorshipDate>2003-07-07</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000388</bioguideId>
+        <fullName>Sen. Dodd, Christopher J. [D-CT]</fullName>
+        <firstName>CHRISTOPHER</firstName>
+        <lastName>DODD</lastName>
+        <party>D</party>
+        <state>CT</state>
+        <middleName>JOHN</middleName>
+        <sponsorshipDate>2004-01-28</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Commemorations</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>American Revolution</name>
+        </item>
+        <item>
+          <name>Anniversaries</name>
+        </item>
+        <item>
+          <name>Arts, Culture, Religion</name>
+        </item>
+        <item>
+          <name>Books</name>
+        </item>
+        <item>
+          <name>Canada</name>
+        </item>
+        <item>
+          <name>Civics education</name>
+        </item>
+        <item>
+          <name>Electronic government information</name>
+        </item>
+        <item>
+          <name>Europe</name>
+        </item>
+        <item>
+          <name>France</name>
+        </item>
+        <item>
+          <name>Government Operations and Politics</name>
+        </item>
+        <item>
+          <name>Government publications</name>
+        </item>
+        <item>
+          <name>Historic sites</name>
+        </item>
+        <item>
+          <name>History</name>
+        </item>
+        <item>
+          <name>International Affairs</name>
+        </item>
+        <item>
+          <name>International cooperation</name>
+        </item>
+        <item>
+          <name>Maps</name>
+        </item>
+        <item>
+          <name>National parks</name>
+        </item>
+        <item>
+          <name>Netherlands</name>
+        </item>
+        <item>
+          <name>Public Lands and Natural Resources</name>
+        </item>
+        <item>
+          <name>Research</name>
+        </item>
+        <item>
+          <name>Signs and symbols</name>
+        </item>
+        <item>
+          <name>Spain</name>
+        </item>
+        <item>
+          <name>United Kingdom</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Commemorations</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2003-05-22</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2006-11-28T17:35:40Z</updateDate>
+        <text><![CDATA[225th Anniversary of the American Revolution Commemoration Act - Directs the Secretary of the Interior to establish a program to be known as the 225th Anniversary of the American Revolution Commemoration Program. Requires the Secretary to: (1) produce and distribute to the public educational materials relating to the American Revolution, such as handbooks, maps, and interpretive guides; (2) provide technical assistance to other Federal agencies, States, local governments, private entities, and the governments of the United Kingdom, France, the Netherlands, Spain, and Canada; (3) assist in the protection of resources associated with the American Revolution; (4) enhance communications, connections, and collaboration among the National Park Service (NPS) units and programs relating to the American Revolution; (5) expand the research base for interpretation of and education on the American Revolution; and (6) create and adopt an official symbol or device for the theme "Lighting Freedom's Flame: American Revolution, 225th Anniversary."<p>Requires that such Program include: (1) all NPS units and programs relevant to the American Revolution; (2) other governmental and nongovernmental sites, facilities that are documented to be directly related to the American Revolution, and educational, research, and interpretive programs relating to the American Revolution; and (3) the participation of such foreign governments.]]></text>
+      </summary>
+      <summary>
+        <versionCode>82</versionCode>
+        <actionDate>2004-04-07</actionDate>
+        <actionDesc>Passed Senate without amendment</actionDesc>
+        <updateDate>2004-07-06T18:54:21Z</updateDate>
+        <text><![CDATA[ <p><b>(This measure has not been amended since it was introduced. The summary has been expanded because action occurred on the measure.)</b></p> <p>225th Anniversary of the American Revolution Commemoration Act - Directs the Secretary of the Interior to establish a program to be known as the 225th Anniversary of the American Revolution Commemoration Program. Requires the Secretary, in carrying out such Program, to: (1) produce and distribute to the public educational materials relating to the American Revolution, such as handbooks, maps, and interpretive guides; (2) enter into appropriate cooperative agreements and memoranda of understanding to provide technical assistance as specified below to other Federal agencies, States, local governments, private entities, and the governments of the United Kingdom, France, the Netherlands, Spain, and Canada; (3) assist in the protection of resources associated with the American Revolution; (4) enhance communications, connections, and collaboration among the National Park Service (NPS) units and programs relating to the American Revolution; (5) expand the research base for interpretation of and education on the American Revolution; and (6) create and adopt an official symbol or device for the theme "Lighting Freedom's Flame: American Revolution, 225th Anniversary" and promulgate regulations for its use. </p> <p>Requires that such Program include: (1) all NPS units and programs relevant to the American Revolution; (2) other governmental and nongovernmental sites, facilities that are documented to be directly related to the American Revolution, and educational, research, and interpretive programs relating to the American Revolution; and (3) the participation of the governments of the United Kingdom, France, the Netherlands, Spain, and Canada. <p>Authorizes the Secretary to enter into cooperative agreements and memoranda of understanding to provide technical assistance to the entities specified above, and in cooperation with the Secretary of State, to the governments of the United Kingdom, France, the Netherlands, Spain, and Canada, to achieve the purposes of this Act and to ensure the effective coordination of the Federal and non-Federal components of the Program with NPS units and programs. <p>Authorizes appropriations.]]></text>
+      </summary>
+    </summaries>
+    <title>225th Anniversary of the American Revolution Commemoration Act</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>225th Anniversary of the American Revolution Commemoration Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to establish within the National Park Service the 225th Anniversary of the American Revolution Commemorative Program, and for other purposes.</title>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>225th Anniversary of the American Revolution Commemoration Act</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Passed Senate</titleType>
+        <title>225th Anniversary of the American Revolution Commemoration Act</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Referred in House</type>
+        <date>2004-04-20T04:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Committee Discharged Senate</type>
+        <date>2004-04-07T04:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2004-04-07T04:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2003-05-22T04:00:00Z</date>
+        <formats/>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2004-04-23</actionDate>
+      <text>Executive Comment Requested from Interior.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>706</number>
+    <updateDate>2023-01-13T04:50:18Z</updateDate>
+    <updateDateIncludingText>2023-01-13T04:50:18Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <originChamberCode>S</originChamberCode>
+    <type>S</type>
+    <introducedDate>2005-04-05</introducedDate>
+    <congress>109</congress>
+    <committees>
+      <item>
+        <systemCode>hspw00</systemCode>
+        <name>Transportation and Infrastructure Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hspw12</systemCode>
+            <name>Highways and Transit Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2005-07-28T15:29:54Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2005-07-28T00:39:59Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>slia00</systemCode>
+        <name>Indian Affairs Committee</name>
+        <chamber>Senate</chamber>
+        <type>Other</type>
+        <activities>
+          <item>
+            <name>Discharged from</name>
+            <date>2005-07-26T15:06:30Z</date>
+          </item>
+          <item>
+            <name>Referred to</name>
+            <date>2005-04-05T20:08:38Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <relatedBills>
+      <item>
+        <title>Prairie Island Land Conveyance Act of 2005</title>
+        <congress>109</congress>
+        <number>2186</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2005-05-06</actionDate>
+          <text>Referred to the Subcommittee on Water Resources and Environment.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Text similarities</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>To designate the State Route 1 Bridge in the State of Delaware as the "Senator William V. Roth, Jr. Bridge".</title>
+        <congress>109</congress>
+        <number>2800</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2005-06-09</actionDate>
+          <text>Referred to the Subcommittee on Highways, Transit and Pipelines.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Text similarities</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2005-07-28</actionDate>
+        <committees>
+          <item>
+            <systemCode>hspw12</systemCode>
+            <name>Highways and Transit Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Highways, Transit and Pipelines.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2005-07-27</actionDate>
+        <text>Referred to the House Committee on Transportation and Infrastructure.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hspw00</systemCode>
+            <name>Transportation and Infrastructure Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2005-07-27</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2005-07-27</actionDate>
+        <actionTime>10:33:13</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2005-07-26</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate without amendment by Unanimous Consent. (text: CR S9055-9056)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2005-07-26</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate without amendment by Unanimous Consent.(text: CR S9055-9056)</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2005-07-26</actionDate>
+        <committees>
+          <item>
+            <systemCode>slia00</systemCode>
+            <name>Indian Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Senate Committee on Indian Affairs discharged by Unanimous Consent. (consideration: CR S9055-9056)</text>
+        <type>Discharge</type>
+      </item>
+      <item>
+        <actionDate>2005-07-26</actionDate>
+        <text>Senate Committee on Indian Affairs discharged by Unanimous Consent.(consideration: CR S9055-9056)</text>
+        <type>Committee</type>
+        <actionCode>14500</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>slia00</systemCode>
+            <name>Indian Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2005-04-05</actionDate>
+        <committees>
+          <item>
+            <systemCode>slia00</systemCode>
+            <name>Indian Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Indian Affairs. (text of measure as introduced: CR S3211-3212)</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2005-04-05</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>C001057</bioguideId>
+        <fullName>Sen. Coleman, Norm [R-MN]</fullName>
+        <firstName>Norm</firstName>
+        <lastName>Coleman</lastName>
+        <party>R</party>
+        <state>MN</state>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Native Americans</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Arts, Culture, Religion</name>
+        </item>
+        <item>
+          <name>Cultural property</name>
+        </item>
+        <item>
+          <name>Dams</name>
+        </item>
+        <item>
+          <name>Easements</name>
+        </item>
+        <item>
+          <name>Indian lands</name>
+        </item>
+        <item>
+          <name>Land transfers</name>
+        </item>
+        <item>
+          <name>Law</name>
+        </item>
+        <item>
+          <name>Minnesota</name>
+        </item>
+        <item>
+          <name>Minorities</name>
+        </item>
+        <item>
+          <name>Mississippi River</name>
+        </item>
+        <item>
+          <name>Navigation</name>
+        </item>
+        <item>
+          <name>Public Lands and Natural Resources</name>
+        </item>
+        <item>
+          <name>Transportation and Public Works</name>
+        </item>
+        <item>
+          <name>Water Resources Development</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Native Americans</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2005-04-05</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2005-04-29T20:45:16Z</updateDate>
+        <text><![CDATA[ <p> Prairie Island Land Conveyance Act of 2005 - Directs the Secretary of the Army to convey all U.S. right, title, and interest in and to described land to the Secretary of the Interior, to be held in trust by the United States for the benefit of the Prairie Island Indian Community in Minnesota, and included in the Prairie Island Indian Community Reservation in Goodhue County, Minnesota. Prohibits the use of such land for: (1) human habitation; (2) construction of any structure without the written approval of the District Engineer; or (3) gaming.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>82</versionCode>
+        <actionDate>2005-07-26</actionDate>
+        <actionDesc>Passed Senate without amendment</actionDesc>
+        <updateDate>2005-10-14T19:58:16Z</updateDate>
+        <text><![CDATA[ <p><b>(This measure has not been amended since it was introduced. The summary of that version is repeated here.)</b></p><p>Prairie Island Land Conveyance Act of 2005 - Directs the Secretary of the Army to convey all U.S. right, title, and interest in and to described land to the Secretary of the Interior, to be held in trust by the United States for the benefit of the Prairie Island Indian Community in Minnesota, and included in the Prairie Island Indian Community Reservation in Goodhue County, Minnesota. Prohibits the use of such land for: (1) human habitation; (2) construction of any structure without the written approval of the District Engineer; or (3) gaming.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Prairie Island Land Conveyance Act of 2005</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Prairie Island Land Conveyance Act of 2005</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Prairie Island Land Conveyance Act of 2005</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Passed Senate</titleType>
+        <title>Prairie Island Land Conveyance Act of 2005</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to convey all right, title, and interest of the United States in and to the land described in this Act to the Secretary of the Interior for the Prairie Island Indian Community in Minnesota.</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Referred in House</type>
+        <date>2005-07-27T04:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2005-07-26T04:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2005-04-05T04:00:00Z</date>
+        <formats/>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2005-07-28</actionDate>
+      <text>Referred to the Subcommittee on Highways, Transit and Pipelines.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

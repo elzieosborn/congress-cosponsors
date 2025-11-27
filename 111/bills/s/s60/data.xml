@@ -1,0 +1,67 @@
+<bill session="111" type="s" number="60" updated="2019-11-15T21:35:19Z">
+  <state datetime="2009-01-13">PASS_OVER:SENATE</state>
+  <status>
+    <unknown datetime="2009-01-13"/>
+  </status>
+  <introduced datetime="2009-01-06"/>
+  <titles>
+    <title type="display">A bill to prohibit the sale and counterfeiting of Presidential inaugural tickets.</title>
+    <title type="official" as="introduced">A bill to prohibit the sale and counterfeiting of Presidential inaugural tickets.</title>
+  </titles>
+  <sponsor bioguide_id="F000062"/>
+  <cosponsors>
+    <cosponsor bioguide_id="B000711" joined="2009-01-06"/>
+    <cosponsor bioguide_id="S000148" joined="2009-01-06"/>
+    <cosponsor bioguide_id="S000663" joined="2009-01-06"/>
+  </cosponsors>
+  <actions>
+    <action datetime="2009-01-06">
+      <text>Introduced in Senate</text>
+    </action>
+    <action datetime="2009-01-06">
+      <text>Sponsor introductory remarks on measure.</text>
+      <reference ref="CR S64"/>
+    </action>
+    <action datetime="2009-01-06" state="REFERRED">
+      <text>Read twice and referred to the Committee on Rules and Administration.</text>
+      <reference ref="CR S64" label="text of measure as introduced"/>
+    </action>
+    <action datetime="2009-01-13">
+      <text>Senate Committee on Rules and Administration discharged by Unanimous Consent.</text>
+      <reference ref="CR S350-351" label="consideration"/>
+    </action>
+    <vote how="by Unanimous Consent" type="vote" datetime="2009-01-13" where="s" result="pass" state="PASS_OVER:SENATE">
+      <text>Passed Senate without amendment by Unanimous Consent.</text>
+      <reference ref="CR S350-351" label="text"/>
+    </vote>
+    <action datetime="2009-01-14T10:04:46-05:00">
+      <text>Received in the House.</text>
+    </action>
+    <action datetime="2009-01-14">
+      <text>Message on Senate action sent to the House.</text>
+    </action>
+    <action datetime="2009-01-14">
+      <text>Referred to the House Committee on the Judiciary.</text>
+    </action>
+    <action datetime="2009-02-09">
+      <text>Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.</text>
+    </action>
+  </actions>
+  <committees>
+    <committee code="HSJU" name="House Judiciary" subcommittee="" activity="Referral"/>
+    <committee code="HSJU08" name="House Judiciary" subcommittee="Crime and Federal Government Surveillance" activity="Referral"/>
+    <committee code="SSRA" name="Senate Rules and Administration" subcommittee="" activity="Discharged, Referral"/>
+  </committees>
+  <relatedbills>
+    <bill session="111" type="h" number="3600" relation="identical"/>
+  </relatedbills>
+  <subjects>
+    <term name="Crime and law enforcement"/>
+    <term name="Fraud offenses and financial crimes"/>
+    <term name="Presidents and presidential powers, Vice Presidents"/>
+  </subjects>
+  <amendments/>
+  <summary date="2009-01-16T15:16:55Z" status="Passed Senate without amendment">(This measure has not been amended since it was introduced. The summary of that version is repeated here.)
+
+Amends the federal criminal code to make it unlawful to knowingly and willfully sell or forge a ticket to a presidential inaugural ceremony or to use, unlawfully possess, or exhibit a forged ticket with the intent to defraud. Exempts the sale of tickets to a presidential inaugural ceremony that has already occurred or by an official presidential inaugural committee. Imposes a fine and/or prison term of up to one year for violations.</summary>
+</bill>

@@ -1,0 +1,275 @@
+{
+  "actions": [
+    {
+      "acted_at": "2025-02-04",
+      "action_code": "Intro-H",
+      "references": [],
+      "text": "Introduced in House",
+      "type": "action"
+    },
+    {
+      "acted_at": "2025-02-04",
+      "action_code": "H11100",
+      "committees": [
+        "HSVR"
+      ],
+      "references": [],
+      "status": "REFERRED",
+      "text": "Referred to the House Committee on Veterans' Affairs.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2025-03-06",
+      "action_code": "",
+      "committees": [
+        "HSVR"
+      ],
+      "references": [],
+      "text": "Referred to the Subcommittee on Disability Assistance and Memorial Affairs.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2025-04-07T17:22:02-04:00",
+      "action_code": "H30300",
+      "references": [],
+      "text": "Mr. Bost moved to suspend the rules and pass the bill.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2025-04-07T17:22:07-04:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H1439-1441: 2",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered under suspension of the rules.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2025-04-07T17:22:08-04:00",
+      "action_code": "H8D000",
+      "references": [],
+      "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 970.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2025-04-07T17:29:23-04:00",
+      "action_code": "H37300",
+      "how": "by voice vote",
+      "references": [
+        {
+          "reference": "CR H1440",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "status": "PASS_OVER:HOUSE",
+      "suspension": null,
+      "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "h"
+    },
+    {
+      "acted_at": "2025-04-07T17:29:25-04:00",
+      "action_code": "H38310",
+      "references": [],
+      "text": "Motion to reconsider laid on the table Agreed to without objection.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2025-04-08",
+      "action_code": "",
+      "committees": [
+        "SSVA"
+      ],
+      "references": [],
+      "text": "Received in the Senate and Read twice and referred to the Committee on Veterans' Affairs.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2025-11-20",
+      "action_code": "",
+      "committees": [
+        "SSVA"
+      ],
+      "references": [],
+      "text": "Senate Committee on Veterans' Affairs discharged by Unanimous Consent.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2025-11-20",
+      "action_code": "",
+      "how": "by Unanimous Consent",
+      "references": [
+        {
+          "reference": "CR S8399-8400",
+          "type": "consideration"
+        }
+      ],
+      "result": "pass",
+      "status": "PASSED:BILL",
+      "text": "Passed Senate without amendment by Unanimous Consent.",
+      "type": "vote",
+      "vote_type": "vote2",
+      "where": "s"
+    },
+    {
+      "acted_at": "2025-11-20",
+      "action_code": "",
+      "references": [],
+      "text": "Message on Senate action sent to the House.",
+      "type": "action"
+    }
+  ],
+  "amendments": [],
+  "bill_id": "hr970-119",
+  "bill_type": "hr",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [
+    {
+      "activity": [
+        "Discharged From",
+        "Referred To"
+      ],
+      "committee": "Senate Veterans' Affairs",
+      "committee_id": "SSVA"
+    },
+    {
+      "activity": [
+        "Referred To"
+      ],
+      "committee": "House Veterans' Affairs",
+      "committee_id": "HSVR"
+    },
+    {
+      "activity": [
+        "referral"
+      ],
+      "committee": "House Veterans' Affairs",
+      "committee_id": "HSVR",
+      "subcommittee": "Subcommittee on Disability Assistance and Memorial Affairs",
+      "subcommittee_id": "09"
+    }
+  ],
+  "congress": "119",
+  "cosponsors": [
+    {
+      "bioguide_id": "R000599",
+      "district": "25",
+      "name": "Ruiz, Raul",
+      "original_cosponsor": false,
+      "sponsored_at": "2025-04-21",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001224",
+      "district": "3",
+      "name": "Self, Keith",
+      "original_cosponsor": true,
+      "sponsored_at": "2025-02-04",
+      "state": "TX",
+      "title": "Rep.",
+      "withdrawn_at": null
+    }
+  ],
+  "enacted_as": null,
+  "history": {
+    "active": true,
+    "active_at": "2025-04-07T17:22:02-04:00",
+    "awaiting_signature": false,
+    "enacted": false,
+    "house_passage_result": "pass",
+    "house_passage_result_at": "2025-04-07T17:29:23-04:00",
+    "senate_passage_result": "pass",
+    "senate_passage_result_at": "2025-11-20",
+    "vetoed": false
+  },
+  "introduced_at": "2025-02-04",
+  "number": "970",
+  "official_title": "To amend title 38, United States Code, to require the Secretary of Veterans Affairs to periodically review the automatic maximum coverage under the Servicemembers' Group Life Insurance program and the Veterans' Group Life Insurance program, and for other purposes.",
+  "popular_title": null,
+  "related_bills": [
+    {
+      "bill_id": "s385-119",
+      "identified_by": "CRS",
+      "reason": "identical",
+      "type": "bill"
+    }
+  ],
+  "short_title": "Fairness for Servicemembers and their Families Act of 2025",
+  "sponsor": {
+    "bioguide_id": "S001159",
+    "district": "10",
+    "name": "Strickland, Marilyn",
+    "state": "WA",
+    "title": "Rep.",
+    "type": "person"
+  },
+  "status": "PASSED:BILL",
+  "status_at": "2025-11-20",
+  "subjects": [
+    "Armed forces and national security",
+    "Government studies and investigations",
+    "Life, casualty, property insurance",
+    "Veterans' pensions and compensation"
+  ],
+  "subjects_top_term": "Armed forces and national security",
+  "summary": {
+    "as": "Introduced in House",
+    "asOf": "2025-02-04",
+    "date": "2025-04-07T14:50:06Z",
+    "text": "Fairness for Servicemembers and their Families Act of 2025\n\nThis bill requires the Department of Veterans Affairs (VA) to periodically review and report on the maximum coverage available under the\u00a0Servicemembers' Group Life Insurance and Veterans' Group Life Insurance programs. Specifically, the VA must review such coverage amount every five years, taking into account the average percentage by which the Consumer Price Index for All Urban Consumers (CPI-U) increased in the five fiscal years preceding the review."
+  },
+  "titles": [
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Fairness for Servicemembers and their Families Act of 2025",
+      "type": "short"
+    },
+    {
+      "as": "passed house",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Fairness for Servicemembers and their Families Act of 2025",
+      "type": "short"
+    },
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Fairness for Servicemembers and their Families Act of 2025",
+      "type": "short"
+    },
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Fairness for Servicemembers and their Families Act of 2025",
+      "type": "short"
+    },
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Fairness for Servicemembers and their Families Act of 2025",
+      "type": "display"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "To amend title 38, United States Code, to require the Secretary of Veterans Affairs to periodically review the automatic maximum coverage under the Servicemembers' Group Life Insurance program and the Veterans' Group Life Insurance program, and for other purposes.",
+      "type": "official"
+    }
+  ],
+  "updated_at": "2025-11-24T15:56:30Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr970.xml"
+}

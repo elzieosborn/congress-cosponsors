@@ -1,0 +1,87 @@
+{
+  "actions": [
+    {
+      "acted_at": "2006-09-28",
+      "action_code": "",
+      "how": "roll",
+      "references": [],
+      "result": "fail",
+      "roll": 258,
+      "text": "Amendment SA 5088 not agreed to in Senate by Yea-Nay Vote. 46 - 53. Record Vote Number: 258.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "s"
+    },
+    {
+      "acted_at": "2006-09-28",
+      "action_code": "",
+      "references": [],
+      "text": "Amendment SA 5088 proposed by Senator Kennedy. (consideration: CR S10378-10385, S10390-10396, S10398; text: CR S10378) To provide for the protection of United States persons in the implementation of treaty obligations.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2006-09-28",
+      "action_code": "93000",
+      "references": [
+        {
+          "reference": "CR S10378-10385, S10390-10396, S10398",
+          "type": "consideration"
+        },
+        {
+          "reference": "CR S10378",
+          "type": "text"
+        }
+      ],
+      "text": "Senate amendment proposed (on the floor): Amendment SA 5088 proposed by Senator Kennedy.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2006-09-28",
+      "action_code": "97000",
+      "references": [],
+      "text": "Roll call votes on amendments in Senate: Amendment SA 5088 not agreed to in Senate by Yea-Nay Vote. 46 - 53. Record Vote Number: 258.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2006-09-28",
+      "action_code": "95000",
+      "references": [],
+      "text": "Senate amendment not agreed to: Amendment SA 5088 not agreed to in Senate by Yea-Nay Vote. 46 - 53. Record Vote Number: 258.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2006-09-27",
+      "action_code": "91000",
+      "references": [],
+      "text": "Senate amendment submitted",
+      "type": "action"
+    }
+  ],
+  "amendment_id": "samdt5088-109",
+  "amendment_type": "samdt",
+  "amends_amendment": null,
+  "amends_bill": {
+    "bill_id": "s3930-109",
+    "bill_type": "s",
+    "congress": 109,
+    "number": 3930
+  },
+  "amends_treaty": null,
+  "chamber": "s",
+  "congress": "109",
+  "introduced_at": "2006-09-27",
+  "number": 5088,
+  "proposed_at": "2006-09-28T04:00:00Z",
+  "purpose": "To provide for the protection of United States persons in the implementation of treaty obligations.",
+  "sponsor": {
+    "bioguide_id": "K000105",
+    "district": null,
+    "name": "Kennedy, Edward M.",
+    "state": "MA",
+    "title": "Sen.",
+    "type": "person"
+  },
+  "status": "fail",
+  "status_at": "2006-09-28",
+  "updated_at": "2022-02-08T17:28:18Z"
+}

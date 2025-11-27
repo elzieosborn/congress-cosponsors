@@ -1,0 +1,158 @@
+{
+  "actions": [
+    {
+      "acted_at": "2015-10-01",
+      "action_code": "Intro-H",
+      "references": [],
+      "text": "Introduced in House",
+      "type": "action"
+    },
+    {
+      "acted_at": "2015-10-01T13:43:10-04:00",
+      "action_code": "H30200",
+      "references": [],
+      "text": "Mr. Thornberry asked unanimous consent to consider as introduced.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2015-10-01T13:43:12-04:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H6779",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered by unanimous consent.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2015-10-01T13:43:35-04:00",
+      "action_code": "H37100",
+      "how": "without objection",
+      "references": [
+        {
+          "reference": "CR H6779",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "status": "PASS_OVER:HOUSE",
+      "suspension": null,
+      "text": "On agreeing to the resolution Agreed to without objection.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "h"
+    },
+    {
+      "acted_at": "2015-10-01T13:43:37-04:00",
+      "action_code": "H38310",
+      "references": [],
+      "text": "Motion to reconsider laid on the table Agreed to without objection.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2015-10-01",
+      "action_code": "",
+      "references": [],
+      "text": "Received in the Senate.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2015-10-07",
+      "action_code": "",
+      "how": "by Unanimous Consent",
+      "references": [
+        {
+          "reference": "CR S7225",
+          "type": "consideration"
+        }
+      ],
+      "result": "pass",
+      "status": "PASSED:CONCURRENTRES",
+      "text": "Resolution agreed to in Senate without amendment by Unanimous Consent.",
+      "type": "vote",
+      "vote_type": "vote2",
+      "where": "s"
+    },
+    {
+      "acted_at": "2015-10-08",
+      "action_code": "",
+      "references": [],
+      "text": "Message on Senate action sent to the House.",
+      "type": "action"
+    }
+  ],
+  "amendments": [],
+  "bill_id": "hconres81-114",
+  "bill_type": "hconres",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [],
+  "congress": "114",
+  "cosponsors": [],
+  "enacted_as": null,
+  "history": {
+    "active": true,
+    "active_at": "2015-10-01T13:43:10-04:00",
+    "awaiting_signature": false,
+    "enacted": false,
+    "house_passage_result": "pass",
+    "house_passage_result_at": "2015-10-01T13:43:35-04:00",
+    "senate_passage_result": "pass",
+    "senate_passage_result_at": "2015-10-07",
+    "vetoed": false
+  },
+  "introduced_at": "2015-10-01",
+  "number": "81",
+  "official_title": "Providing for corrections to the enrollment of the bill H.R. 1735.",
+  "popular_title": null,
+  "related_bills": [
+    {
+      "bill_id": "hr1735-114",
+      "identified_by": "CRS",
+      "reason": "related",
+      "type": "bill"
+    }
+  ],
+  "short_title": null,
+  "sponsor": {
+    "bioguide_id": "T000238",
+    "district": "13",
+    "name": "Thornberry, Mac",
+    "state": "TX",
+    "title": "Rep.",
+    "type": "person"
+  },
+  "status": "PASSED:CONCURRENTRES",
+  "status_at": "2015-10-07",
+  "subjects": [
+    "Congress",
+    "Defense spending"
+  ],
+  "subjects_top_term": "Congress",
+  "summary": {
+    "as": "Passed Senate without amendment",
+    "asOf": "2015-10-07",
+    "date": "2015-10-13T12:56:52Z",
+    "text": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.)\n\nDirects the Clerk of the House of Representatives to correct the enrollment of H.R. 1735 (National Defense Authorization Act for Fiscal Year 2016) to change references to section numbers in section 1301 (Specification of Cooperative Threat Reduction Funds) of the bill.\n\nChanges references in section 1301(b) to a funding table and authorizations of appropriations that specify funding for the Department of Defense Cooperative Threat Reduction Program that is available for obligation for FY2016-FY2018."
+  },
+  "titles": [
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Providing for corrections to the enrollment of the bill H.R. 1735.",
+      "type": "display"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Providing for corrections to the enrollment of the bill H.R. 1735.",
+      "type": "official"
+    }
+  ],
+  "updated_at": "2023-01-11T13:29:43Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/114/hconres/BILLSTATUS-114hconres81.xml"
+}

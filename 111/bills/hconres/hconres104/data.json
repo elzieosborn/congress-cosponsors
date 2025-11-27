@@ -1,0 +1,358 @@
+{
+  "actions": [
+    {
+      "acted_at": "2009-04-22",
+      "action_code": "Intro-H",
+      "references": [],
+      "text": "Introduced in House",
+      "type": "action"
+    },
+    {
+      "acted_at": "2009-04-22",
+      "action_code": "H11100",
+      "committees": [
+        "HSJU"
+      ],
+      "references": [],
+      "status": "REFERRED",
+      "text": "Referred to the House Committee on the Judiciary.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2009-04-28T14:45:56-04:00",
+      "action_code": "H30300",
+      "references": [],
+      "text": "Mr. Scott (VA) moved to suspend the rules and agree to the resolution.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2009-04-28T14:45:57-04:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H4871-4873",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered under suspension of the rules.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2009-04-28T14:45:58-04:00",
+      "action_code": "H8D000",
+      "bill_ids": [
+        "hcres104-111"
+      ],
+      "references": [],
+      "text": "DEBATE - The House proceeded with forty minutes of debate on H. Con. Res. 104.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2009-04-28T14:52:20-04:00",
+      "action_code": "H37300",
+      "how": "by voice vote",
+      "references": [
+        {
+          "reference": "CR H4871",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "status": "PASS_OVER:HOUSE",
+      "suspension": null,
+      "text": "On motion to suspend the rules and agree to the resolution Agreed to by voice vote.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "h"
+    },
+    {
+      "acted_at": "2009-04-28T14:52:21-04:00",
+      "action_code": "H38310",
+      "references": [],
+      "text": "Motion to reconsider laid on the table Agreed to without objection.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2009-04-29",
+      "action_code": "",
+      "committees": [
+        "SSJU"
+      ],
+      "references": [],
+      "text": "Received in the Senate and referred to the Committee on the Judiciary.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2009-04-30",
+      "action_code": "",
+      "committees": [
+        "SSJU"
+      ],
+      "references": [
+        {
+          "reference": "CR S4995",
+          "type": "consideration"
+        }
+      ],
+      "text": "Senate Committee on the Judiciary discharged by Unanimous Consent.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2009-04-30",
+      "action_code": "",
+      "how": "by Unanimous Consent",
+      "references": [],
+      "result": "pass",
+      "status": "PASSED:CONCURRENTRES",
+      "text": "Resolution agreed to in Senate without amendment and with a preamble by Unanimous Consent.",
+      "type": "vote",
+      "vote_type": "vote2",
+      "where": "s"
+    },
+    {
+      "acted_at": "2009-05-01",
+      "action_code": "",
+      "references": [],
+      "text": "Message on Senate action sent to the House.",
+      "type": "action"
+    }
+  ],
+  "amendments": [],
+  "bill_id": "hconres104-111",
+  "bill_type": "hconres",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [
+    {
+      "activity": [
+        "discharged",
+        "referral"
+      ],
+      "committee": "Senate Judiciary",
+      "committee_id": "SSJU"
+    },
+    {
+      "activity": [
+        "referral"
+      ],
+      "committee": "House Judiciary",
+      "committee_id": "HSJU"
+    }
+  ],
+  "congress": "111",
+  "cosponsors": [
+    {
+      "bioguide_id": "B001245",
+      "district": "0",
+      "name": "Bordallo, Madeleine Z.",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-04-22",
+      "state": "GU",
+      "title": "Del.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001059",
+      "district": "20",
+      "name": "Costa, Jim",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-04-22",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C000984",
+      "district": "7",
+      "name": "Cummings, Elijah E.",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-04-22",
+      "state": "MD",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "E000290",
+      "district": "4",
+      "name": "Edwards, Donna F.",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-04-22",
+      "state": "MD",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H001037",
+      "district": "0",
+      "name": "Herseth Sandlin, Stephanie",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-04-22",
+      "state": "SD",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "K000113",
+      "district": "1",
+      "name": "Kennedy, Patrick J.",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-04-22",
+      "state": "RI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "K000188",
+      "district": "3",
+      "name": "Kind, Ron",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-04-22",
+      "state": "WI",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001143",
+      "district": "4",
+      "name": "McCollum, Betty",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-04-22",
+      "state": "MN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M000312",
+      "district": "3",
+      "name": "McGovern, James P.",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-04-22",
+      "state": "MA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "P000592",
+      "district": "2",
+      "name": "Poe, Ted",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-04-22",
+      "state": "TX",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S000030",
+      "district": "47",
+      "name": "Sanchez, Loretta",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-04-22",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001169",
+      "district": "7",
+      "name": "Sestak, Joe",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-04-22",
+      "state": "PA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000797",
+      "district": "20",
+      "name": "Wasserman Schultz, Debbie",
+      "original_cosponsor": true,
+      "sponsored_at": "2009-04-22",
+      "state": "FL",
+      "title": "Rep.",
+      "withdrawn_at": null
+    }
+  ],
+  "enacted_as": null,
+  "history": {
+    "active": true,
+    "active_at": "2009-04-28T14:45:56-04:00",
+    "awaiting_signature": false,
+    "enacted": false,
+    "house_passage_result": "pass",
+    "house_passage_result_at": "2009-04-28T14:52:20-04:00",
+    "senate_passage_result": "pass",
+    "senate_passage_result_at": "2009-04-30",
+    "vetoed": false
+  },
+  "introduced_at": "2009-04-22",
+  "number": "104",
+  "official_title": "Supporting the goals and ideals of National Sexual Assault Awareness and Prevention Month.",
+  "popular_title": null,
+  "related_bills": [
+    {
+      "bill_id": "sconres22-111",
+      "identified_by": "CRS",
+      "reason": "related",
+      "type": "bill"
+    },
+    {
+      "bill_id": "sres501-111",
+      "identified_by": "CRS",
+      "reason": "related",
+      "type": "bill"
+    },
+    {
+      "bill_id": "hres1259-111",
+      "identified_by": "CRS",
+      "reason": "identical",
+      "type": "bill"
+    }
+  ],
+  "short_title": null,
+  "sponsor": {
+    "bioguide_id": "B001230",
+    "district": "2",
+    "name": "Baldwin, Tammy",
+    "state": "WI",
+    "title": "Rep.",
+    "type": "person"
+  },
+  "status": "PASSED:CONCURRENTRES",
+  "status_at": "2009-04-30",
+  "subjects": [
+    "Commemorative events and holidays",
+    "Congressional tributes",
+    "Crime and law enforcement",
+    "Crime prevention",
+    "Crimes against women",
+    "Criminal investigation, prosecution, interrogation",
+    "Health personnel",
+    "Law enforcement officers",
+    "Sex offenses"
+  ],
+  "subjects_top_term": "Crime and law enforcement",
+  "summary": {
+    "as": "Passed Senate without amendment",
+    "asOf": "2009-04-30",
+    "date": "2009-05-14T18:57:46Z",
+    "text": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.)\n\nExpresses support for the goals and ideals of National Sexual Assault Awareness and Prevention Month.\n\nCalls for recognition of: (1) national and community organizations and private sector supporters for their work in promoting awareness about sexual assault, providing information and treatment to its survivors, and increasing the number of successful prosecutions of its perpetrators; and (2) public safety, law enforcement, and health professionals for their hard work and innovative strategies to increase the percentage of sexual assault cases that result in the prosecution and incarceration of the offenders.\n\nUrges national and community organizations, private businesses, colleges and universities, and the media to promote, through such Month, awareness of sexual violence and strategies to decrease the incidence of sexual assault."
+  },
+  "titles": [
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Supporting the goals and ideals of National Sexual Assault Awareness and Prevention Month.",
+      "type": "display"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Supporting the goals and ideals of National Sexual Assault Awareness and Prevention Month.",
+      "type": "official"
+    }
+  ],
+  "updated_at": "2023-01-11T13:19:38Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/111/hconres/BILLSTATUS-111hconres104.xml"
+}

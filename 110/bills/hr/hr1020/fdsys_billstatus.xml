@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>1020</number>
+    <updateDate>2023-01-11T20:03:09Z</updateDate>
+    <updateDateIncludingText>2023-01-11T20:03:09Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2007-02-13</introducedDate>
+    <congress>110</congress>
+    <committees>
+      <item>
+        <systemCode>hshm00</systemCode>
+        <name>Homeland Security Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hshm12</systemCode>
+            <name>Emergency Management and Technology Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2007-02-23T16:43:37Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2007-02-13T14:04:30Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2007-02-23</actionDate>
+        <committees>
+          <item>
+            <systemCode>hshm12</systemCode>
+            <name>Emergency Management and Technology Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Emergency Communications, Preparedness, and Response.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2007-02-13</actionDate>
+        <text>Referred to the House Committee on Homeland Security.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hshm00</systemCode>
+            <name>Homeland Security Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2007-02-13</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2007-02-13</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>F000440</bioguideId>
+        <fullName>Rep. Fossella, Vito [R-NY-13]</fullName>
+        <firstName>VITO</firstName>
+        <lastName>FOSSELLA</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <district>13</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>R000569</bioguideId>
+        <fullName>Rep. Reynolds, Thomas M. [R-NY-26]</fullName>
+        <firstName>THOMAS</firstName>
+        <lastName>REYNOLDS</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <middleName>M.</middleName>
+        <district>26</district>
+        <sponsorshipDate>2007-02-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001038</bioguideId>
+        <fullName>Rep. Crowley, Joseph [D-NY-7]</fullName>
+        <firstName>JOSEPH</firstName>
+        <lastName>CROWLEY</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <district>7</district>
+        <sponsorshipDate>2007-02-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Emergency Management</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Crime and Law Enforcement</name>
+        </item>
+        <item>
+          <name>Economics and Public Finance</name>
+        </item>
+        <item>
+          <name>Equipment and supplies</name>
+        </item>
+        <item>
+          <name>Federal aid to law enforcement</name>
+        </item>
+        <item>
+          <name>Fire fighters</name>
+        </item>
+        <item>
+          <name>Grants-in-aid</name>
+        </item>
+        <item>
+          <name>Health</name>
+        </item>
+        <item>
+          <name>Labor and Employment</name>
+        </item>
+        <item>
+          <name>Paramedical personnel</name>
+        </item>
+        <item>
+          <name>Police</name>
+        </item>
+        <item>
+          <name>Police training</name>
+        </item>
+        <item>
+          <name>Risk</name>
+        </item>
+        <item>
+          <name>Terrorism</name>
+        </item>
+        <item>
+          <name>Urban affairs</name>
+        </item>
+        <item>
+          <name>Urban areas</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Emergency Management</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2007-02-13</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2007-03-12T19:07:27Z</updateDate>
+        <text><![CDATA[ <p>Urban Area Security Initiative Grant Enhancement and Authorization Act of 2007 - Authorizes the Secretary of the Department of Homeland Security (DHS) to carry out an Urban Areas Security Initiative Grants Program, under which the Secretary may make grants: (1) to purchase equipment, conduct exercises, and provide training and technical assistance to state and local first responders and for facilities to provide training or assistance to responders; and (2) to provide reimbursement for specified expenses if 100 or more personnel in the relevant jurisdiction are dedicated exclusively to counterterrorism and intelligence activities.</p> <p>Directs the Secretary to make such grants: (1) generally in accordance with the procedures, terms, and conditions under which grants were made under the program in FY2005; and (2) based solely on a quantitative assessment of the risk of a terrorist attack on high-threat, high-density urban areas that considers the threat of a terrorist attack to particular assets and the vulnerability of particular assets to, and the consequences of, such an attack.</p> <p>Directs the Secretary, upon finding any problem in a grant application, to notify the applicant and provide an opportunity to correct it before making a grant. Makes: (1) fund allocations and grant approvals by the Secretary subject to modification by the President; and (2) provisions of the USA PATRIOT Act regarding the state and local domestic preparedness support grant program inapplicable.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Urban Area Security Initiative Grant Enhancement and Authorization Act of 2007</title>
+    <titles>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To authorize the Urban Areas Security Initiative Grants Program of the Department of Homeland Security, and for other purposes.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Urban Area Security Initiative Grant Enhancement and Authorization Act of 2007</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Urban Area Security Initiative Grant Enhancement and Authorization Act of 2007</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2007-02-13T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-110hr1020ih/xml/BILLS-110hr1020ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2007-02-23</actionDate>
+      <text>Referred to the Subcommittee on Emergency Communications, Preparedness, and Response.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

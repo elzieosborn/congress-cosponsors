@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>1558</number>
+    <updateDate>2023-01-13T04:49:36Z</updateDate>
+    <updateDateIncludingText>2023-01-13T04:49:36Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <originChamberCode>S</originChamberCode>
+    <type>S</type>
+    <introducedDate>2005-07-29</introducedDate>
+    <congress>109</congress>
+    <committees>
+      <item>
+        <systemCode>hsju00</systemCode>
+        <name>Judiciary Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsju03</systemCode>
+            <name>Courts, Intellectual Property, and the Internet Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2006-02-06T17:40:21Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2005-11-15T00:15:48Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>ssga00</systemCode>
+        <name>Homeland Security and Governmental Affairs Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Discharged from</name>
+            <date>2005-11-11T01:10:11Z</date>
+          </item>
+          <item>
+            <name>Referred to</name>
+            <date>2005-07-29T18:27:08Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2006-02-06</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsju03</systemCode>
+            <name>Courts, Intellectual Property, and the Internet Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Courts, the Internet, and Intellectual Property.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2005-11-14</actionDate>
+        <text>Referred to the House Committee on the Judiciary.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2005-11-14</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2005-11-14</actionDate>
+        <actionTime>18:02:04</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2005-11-10</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate with an amendment and an amendment to the Title by Unanimous Consent. (text: CR S12712)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2005-11-10</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate with an amendment and an amendment to the Title by Unanimous Consent.(text: CR S12712)</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2005-11-10</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Measure laid before Senate by unanimous consent. (consideration: CR S12711-12712)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2005-11-10</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssga00</systemCode>
+            <name>Homeland Security and Governmental Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Senate Committee on Homeland Security and Governmental Affairs discharged by Unanimous Consent.</text>
+        <type>Discharge</type>
+      </item>
+      <item>
+        <actionDate>2005-11-10</actionDate>
+        <text>Senate Committee on Homeland Security and Governmental Affairs discharged by Unanimous Consent.</text>
+        <type>Committee</type>
+        <actionCode>14500</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>ssga00</systemCode>
+            <name>Homeland Security and Governmental Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2005-07-29</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssga00</systemCode>
+            <name>Homeland Security and Governmental Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Homeland Security and Governmental Affairs.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2005-07-29</actionDate>
+        <text>Sponsor introductory remarks on measure. (CR S9475-9476)</text>
+        <type>IntroReferral</type>
+        <actionCode>B00100</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2005-07-29</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>C001035</bioguideId>
+        <fullName>Sen. Collins, Susan M. [R-ME]</fullName>
+        <firstName>Susan</firstName>
+        <lastName>Collins</lastName>
+        <party>R</party>
+        <state>ME</state>
+        <middleName>M.</middleName>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>L000304</bioguideId>
+        <fullName>Sen. Lieberman, Joseph I. [D-CT]</fullName>
+        <firstName>JOSEPH</firstName>
+        <lastName>LIEBERMAN</lastName>
+        <party>D</party>
+        <state>CT</state>
+        <middleName>I.</middleName>
+        <sponsorshipDate>2005-07-29</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>V000126</bioguideId>
+        <fullName>Sen. Voinovich, George V. [R-OH]</fullName>
+        <firstName>GEORGE</firstName>
+        <lastName>VOINOVICH</lastName>
+        <party>R</party>
+        <state>OH</state>
+        <middleName>V.</middleName>
+        <sponsorshipDate>2005-09-06</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>A000069</bioguideId>
+        <fullName>Sen. Akaka, Daniel K. [D-HI]</fullName>
+        <firstName>DANIEL</firstName>
+        <lastName>AKAKA</lastName>
+        <party>D</party>
+        <state>HI</state>
+        <middleName>KOHIKINA</middleName>
+        <sponsorshipDate>2005-09-06</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Government Operations and Politics</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Civil Rights and Liberties, Minority Issues</name>
+        </item>
+        <item>
+          <name>Families</name>
+        </item>
+        <item>
+          <name>Federal officials</name>
+        </item>
+        <item>
+          <name>Finance and Financial Sector</name>
+        </item>
+        <item>
+          <name>Financial disclosure</name>
+        </item>
+        <item>
+          <name>Government ethics</name>
+        </item>
+        <item>
+          <name>Judges</name>
+        </item>
+        <item>
+          <name>Judicial officers</name>
+        </item>
+        <item>
+          <name>Law</name>
+        </item>
+        <item>
+          <name>Protection of officials</name>
+        </item>
+        <item>
+          <name>Right of privacy</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Government Operations and Politics</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2005-07-29</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2005-10-11T21:40:25Z</updateDate>
+        <text><![CDATA[ <p>Amends the Ethics in Government Act of 1978 to: (1) exempt family members of judicial officers and employees (currently, only officers and employees are exempt) from publicly filing reports disclosing certain personal and sensitive information upon a finding that publication of such information could endanger such officers, employees, or their families; (2) allow a report to be redacted to the extent necessary to protect such individuals; and (3) extend the authority to redact until December 31, 2010.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>35</versionCode>
+        <actionDate>2005-11-10</actionDate>
+        <actionDesc>Passed Senate amended</actionDesc>
+        <updateDate>2006-01-06T16:25:40Z</updateDate>
+        <text><![CDATA[ <p>Amends the Ethics in Government Act of 1978 to: (1) exempt family members of judicial officers and employees (currently, only officers and employees are exempt) from publicly filing reports disclosing certain personal and sensitive information upon a finding that publication of such information could endanger such officers, employees, or their families; (2) allow a report to be redacted to the extent necessary to protect such individuals; and (3) extend the authority to redact until December 31, 2009. </p>]]></text>
+      </summary>
+    </summaries>
+    <title>An act to amend the Ethics in Government Act of 1978 to protect family members of filers from disclosing sensitive information in a public filing and to extend for 4 years the authority to redact financial disclosure statements of judicial employees and judicial officers.</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>An act to amend the Ethics in Government Act of 1978 to protect family members of filers from disclosing sensitive information in a public filing and to extend for 4 years the authority to redact financial disclosure statements of judicial employees and judicial officers.</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to amend the Ethics in Government Act of 1978 to protect family members of filers from disclosing sensitive information in a public filing and extend the public filing requirement for 5 years.</title>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Titles as Amended by Senate</titleType>
+        <title>An act to amend the Ethics in Government Act of 1978 to protect family members of filers from disclosing sensitive information in a public filing and to extend for 4 years the authority to redact financial disclosure statements of judicial employees and judicial officers.</title>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+    </titles>
+    <amendments>
+      <amendment>
+        <number>2522</number>
+        <congress>109</congress>
+        <type>SAMDT</type>
+        <purpose>To amend the title of the bill.</purpose>
+        <updateDate>2022-02-03T05:28:42Z</updateDate>
+        <latestAction>
+          <actionDate>2005-11-10</actionDate>
+          <text>Amendment SA 2522 agreed to in Senate by Unanimous Consent.</text>
+          <links>
+            <link>
+              <name>SA 2522</name>
+              <url>https://www.congress.gov/amendment/109th-congress/senate-amendment/2522</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>L000174</bioguideId>
+            <fullName>Sen. Leahy, Patrick J. [D-VT]</fullName>
+            <firstName>Patrick</firstName>
+            <lastName>Leahy</lastName>
+            <party>D</party>
+            <state>VT</state>
+          </item>
+        </sponsors>
+        <proposedDate>2005-11-10T05:00:00Z</proposedDate>
+        <submittedDate>2005-11-10T05:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>109</congress>
+          <type>S</type>
+          <originChamber>Senate</originChamber>
+          <originChamberCode>S</originChamberCode>
+          <number>1558</number>
+          <title>An act to amend the Ethics in Government Act of 1978 to protect family members of filers from disclosing sensitive information in a public filing and to extend for 4 years the authority to redact financial disclosure statements of judicial employees and judicial officers.</title>
+          <updateDateIncludingText>2023-01-13T04:49:36Z</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2005-11-10</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 2522 agreed to in Senate by Unanimous Consent.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2005-11-10</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 2522 proposed by Senator Frist for Senator Leahy. (consideration: CR S12712; text: CR S12712) To amend the title of the bill.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2005-11-10</actionDate>
+              <text>Senate amendment agreed to: Amendment SA 2522 agreed to in Senate by Unanimous Consent.</text>
+              <type>Floor</type>
+              <actionCode>94000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2005-11-10</actionDate>
+              <text>Senate amendment proposed (on the floor): Amendment SA 2522 proposed by Senator Frist for Senator Leahy.(consideration: CR S12712; text: CR S12712)</text>
+              <type>Floor</type>
+              <actionCode>93000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2005-11-10</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>2521</number>
+        <congress>109</congress>
+        <type>SAMDT</type>
+        <purpose>To provide a complete substitute.</purpose>
+        <updateDate>2022-02-03T05:28:42Z</updateDate>
+        <latestAction>
+          <actionDate>2005-11-10</actionDate>
+          <text>Amendment SA 2521 agreed to in Senate by Unanimous Consent.</text>
+          <links>
+            <link>
+              <name>SA 2521</name>
+              <url>https://www.congress.gov/amendment/109th-congress/senate-amendment/2521</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>L000174</bioguideId>
+            <fullName>Sen. Leahy, Patrick J. [D-VT]</fullName>
+            <firstName>Patrick</firstName>
+            <lastName>Leahy</lastName>
+            <party>D</party>
+            <state>VT</state>
+          </item>
+        </sponsors>
+        <proposedDate>2005-11-10T05:00:00Z</proposedDate>
+        <submittedDate>2005-11-10T05:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>109</congress>
+          <type>S</type>
+          <originChamber>Senate</originChamber>
+          <originChamberCode>S</originChamberCode>
+          <number>1558</number>
+          <title>An act to amend the Ethics in Government Act of 1978 to protect family members of filers from disclosing sensitive information in a public filing and to extend for 4 years the authority to redact financial disclosure statements of judicial employees and judicial officers.</title>
+          <updateDateIncludingText>2023-01-13T04:49:36Z</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2005-11-10</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 2521 agreed to in Senate by Unanimous Consent.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2005-11-10</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 2521 proposed by Senator Frist for Senator Leahy. (consideration: CR S12712; text: CR S12712) To provide a complete substitute.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2005-11-10</actionDate>
+              <text>Senate amendment agreed to: Amendment SA 2521 agreed to in Senate by Unanimous Consent.</text>
+              <type>Floor</type>
+              <actionCode>94000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2005-11-10</actionDate>
+              <text>Senate amendment proposed (on the floor): Amendment SA 2521 proposed by Senator Frist for Senator Leahy.(consideration: CR S12712; text: CR S12712)</text>
+              <type>Floor</type>
+              <actionCode>93000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2005-11-10</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+    </amendments>
+    <textVersions>
+      <item>
+        <type>Referred in House</type>
+        <date>2005-11-14T05:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2005-11-10T05:00:00Z</date>
+        <formats/>
+      </item>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2005-07-29T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-109s1558is/xml/BILLS-109s1558is.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2006-02-06</actionDate>
+      <text>Referred to the Subcommittee on Courts, the Internet, and Intellectual Property.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

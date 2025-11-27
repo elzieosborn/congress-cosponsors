@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>5240</number>
+    <updateDate>2023-01-11T13:20:13Z</updateDate>
+    <updateDateIncludingText>2023-01-11T13:20:13Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2010-05-06</introducedDate>
+    <congress>111</congress>
+    <committees>
+      <item>
+        <systemCode>hsed00</systemCode>
+        <name>Education and the Workforce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsed13</systemCode>
+            <name>Higher Education and Workforce Development Subcomittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2010-05-27T14:10:03Z</date>
+              </item>
+            </activities>
+          </item>
+          <item>
+            <systemCode>hsed14</systemCode>
+            <name>Early Childhood, Elementary, and Secondary Education Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2010-05-27T14:03:18Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2010-05-06T14:00:46Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hspw00</systemCode>
+        <name>Transportation and Infrastructure Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hspw13</systemCode>
+            <name>Economic Development, Public Buildings, and Emergency Management Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2010-05-07T13:59:57Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2010-05-06T14:00:48Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsif00</systemCode>
+        <name>Energy and Commerce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred to</name>
+            <date>2010-05-06T14:00:47Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <relatedBills>
+      <item>
+        <title>Child Safety, Care, and Education Continuity Act of 2010</title>
+        <congress>111</congress>
+        <number>2898</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2009-12-17</actionDate>
+          <text>Read twice and referred to the Committee on Health, Education, Labor, and Pensions.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2010-05-27</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsed13</systemCode>
+            <name>Higher Education and Workforce Development Subcomittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Higher Education, Lifelong Learning, and Competitiveness.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2010-05-27</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsed14</systemCode>
+            <name>Early Childhood, Elementary, and Secondary Education Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2010-05-07</actionDate>
+        <committees>
+          <item>
+            <systemCode>hspw13</systemCode>
+            <name>Economic Development, Public Buildings, and Emergency Management Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Economic Development, Public Buildings and Emergency Management.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2010-05-06</actionDate>
+        <text>Referred to House Transportation and Infrastructure</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hspw00</systemCode>
+            <name>Transportation and Infrastructure Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2010-05-06</actionDate>
+        <text>Referred to House Energy and Commerce</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2010-05-06</actionDate>
+        <text>Referred to the Committee on Education and Labor, and in addition to the Committees on Energy and Commerce, and Transportation and Infrastructure, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100-A</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2010-05-06</actionDate>
+        <text>Referred to House Education and Labor</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsed00</systemCode>
+            <name>Education and the Workforce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2010-05-06</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2010-05-06</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>B000911</bioguideId>
+        <fullName>Rep. Brown, Corrine [D-FL-3]</fullName>
+        <firstName>CORRINE</firstName>
+        <lastName>BROWN</lastName>
+        <party>D</party>
+        <state>FL</state>
+        <district>3</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>P000149</bioguideId>
+        <fullName>Rep. Payne, Donald M. [D-NJ-10]</fullName>
+        <firstName>DONALD</firstName>
+        <lastName>PAYNE</lastName>
+        <party>D</party>
+        <state>NJ</state>
+        <middleName>M.</middleName>
+        <district>10</district>
+        <sponsorshipDate>2010-07-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000455</bioguideId>
+        <fullName>Rep. Fudge, Marcia L. [D-OH-11]</fullName>
+        <firstName>Marcia</firstName>
+        <lastName>Fudge</lastName>
+        <party>D</party>
+        <state>OH</state>
+        <middleName>L.</middleName>
+        <district>11</district>
+        <sponsorshipDate>2010-07-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000462</bioguideId>
+        <fullName>Rep. Rothman, Steven R. [D-NJ-9]</fullName>
+        <firstName>STEVEN</firstName>
+        <lastName>ROTHMAN</lastName>
+        <party>D</party>
+        <state>NJ</state>
+        <middleName>R.</middleName>
+        <district>9</district>
+        <sponsorshipDate>2010-07-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000380</bioguideId>
+        <fullName>Del. Christensen, Donna M. [D-VI-At Large]</fullName>
+        <firstName>DONNA</firstName>
+        <lastName>CHRISTENSEN</lastName>
+        <party>D</party>
+        <state>VI</state>
+        <middleName>M.</middleName>
+        <district>0</district>
+        <sponsorshipDate>2010-07-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001080</bioguideId>
+        <fullName>Rep. Chu, Judy [D-CA-32]</fullName>
+        <firstName>Judy</firstName>
+        <lastName>Chu</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>32</district>
+        <sponsorshipDate>2010-07-28</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001049</bioguideId>
+        <fullName>Rep. Clay, Wm. Lacy [D-MO-1]</fullName>
+        <firstName>WM.</firstName>
+        <lastName>CLAY</lastName>
+        <party>D</party>
+        <state>MO</state>
+        <middleName>LACY</middleName>
+        <district>1</district>
+        <sponsorshipDate>2010-07-28</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Emergency Management</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Child care and development</name>
+        </item>
+        <item>
+          <name>Child health</name>
+        </item>
+        <item>
+          <name>Disaster relief and insurance</name>
+        </item>
+        <item>
+          <name>Education of the disadvantaged</name>
+        </item>
+        <item>
+          <name>Education programs funding</name>
+        </item>
+        <item>
+          <name>Educational facilities and institutions</name>
+        </item>
+        <item>
+          <name>Elementary and secondary education</name>
+        </item>
+        <item>
+          <name>Emergency planning and evacuation</name>
+        </item>
+        <item>
+          <name>Government information and archives</name>
+        </item>
+        <item>
+          <name>Health care costs and insurance</name>
+        </item>
+        <item>
+          <name>Health care coverage and access</name>
+        </item>
+        <item>
+          <name>Higher education</name>
+        </item>
+        <item>
+          <name>Intergovernmental relations</name>
+        </item>
+        <item>
+          <name>Medicaid</name>
+        </item>
+        <item>
+          <name>Minority education</name>
+        </item>
+        <item>
+          <name>Natural disasters</name>
+        </item>
+        <item>
+          <name>Poverty and welfare assistance</name>
+        </item>
+        <item>
+          <name>Preschool education</name>
+        </item>
+        <item>
+          <name>Special education</name>
+        </item>
+        <item>
+          <name>State and local government operations</name>
+        </item>
+        <item>
+          <name>Student aid and college costs</name>
+        </item>
+        <item>
+          <name>Teaching, teachers, curricula</name>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Emergency Management</name>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2010-05-06</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2010-05-11T15:50:52Z</updateDate>
+        <text><![CDATA[ <p>Child Safety, Care, and Education Continuity Act of 2010 - Authorizes the Secretary of Education to award grants to states and, through them, subgrants to local educational agencies (LEAs) and nonpublic schools for assistance in restarting school operations in major disaster areas.</p> <p>Protects LEAs from cuts in school improvement funds under the Elementary and Secondary Education Act of 1965 for the fiscal year following the fiscal year in which a major disaster occurs within their service area.</p> <p>Allows LEAs in states to which teachers and paraprofessionals relocate after a major disaster to consider such teachers and paraprofessionals to have met certain federal teaching standards if the state from which they came considered them to have met such standards.</p> <p>Authorizes the Secretary to waive or modify certain requirements relating to maintenance of effort, supplementary use of funds, and matching funds in providing educational assistance to entities affected by a major disaster.</p> <p>Directs the Secretary to provide temporary emergency impact aid to states and, through them, LEAs and Native American schools for the education of students displaced by a major disaster.</p> <p>Authorizes the Secretary to: (1) waive or modify requirements applicable to federal student aid programs under title IV of the Higher Education Act of 1965 (HEA) that are unreasonable due to the effects of a major disaster; (2) approve Teacher Quality Partnership Grants program modifications that assist states, LEAs, and institutions of higher education (IHEs) recruit and retain faculty for schools in major disaster areas; (3) modify, at the request of an affected institution or other grantee located in a major disaster area, required and allowable uses of funds under the HEA's TRIO, GEAR-UP, Strengthening Institutions, and Strengthening Historically Black Colleges and Universities programs, and any other competitive grant program; and (4) allow financial aid administrators to adjust the expected contribution of students and parents affected by a major disaster.</p> <p>Directs the Secretary to make special efforts to notify students and their parents who qualify for means-tested federal benefit programs of their potential eligibility for a maximum Pell Grant, provided such students attend an IHE affected by a major disaster.</p> <p>Authorizes the Secretary to enter into agreements to extend certain deadlines under the Individuals with Disabilities Education Act regarding the provision of special education and related services, including early intervention services, to individuals adversely affected by a major disaster.</p> <p>Directs the Secretary of Health and Human Services (HHS) to provide training and technical assistance, guidance, and resources to Head Start agencies located in a major disaster area or receiving a significant number of children from such an area. Authorizes the waiver of cost-sharing requirements for such agencies and documentation requirements for Head Start participants affected by a major disaster.</p> <p>Authorizes the Secretary of HHS to: (1) waive the application of specified provisions of the Child Care and Development Block Grant Act of 1990 to states affected by a major disaster or serving a significant number of individuals adversely affected by a major disaster; and (2) assist states in providing training, technical assistance, and guidance to child care providers who are serving such individuals. Requires each state that receives funds under such Act to develop a disaster plan.</p> <p>Requires the Administrator of the Federal Emergency Management Agency (FEMA) to encourage state and local governments to address child care services and facilities in their response and recovery plans, exercises, and training.</p> <p>Directs the Secretary of HHS to provide disaster guidance to states under titles XIX (Medicaid) and XXI (Children's Health Insurance Program [CHIP, formerly known as SCHIP]) of the Social Security Act regarding the requirement that states provide medical assistance to individuals who are residents of the state but are absent.</p> <p>Requires each state to provide disaster guidance to Medicaid and CHIP providers to ensure that low-income children displaced from their home state by a major disaster have continued access to health care services.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Child Safety, Care, and Education Continuity Act of 2010</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Child Safety, Care, and Education Continuity Act of 2010</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To provide for child safety, care, and education continuity in the event of a presidentially declared disaster.</title>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Child Safety, Care, and Education Continuity Act of 2010</title>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2010-05-06T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-111hr5240ih/xml/BILLS-111hr5240ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2010-05-27</actionDate>
+      <text>Referred to the Subcommittee on Higher Education, Lifelong Learning, and Competitiveness.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

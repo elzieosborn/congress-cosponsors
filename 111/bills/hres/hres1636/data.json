@@ -1,0 +1,449 @@
+{
+  "actions": [
+    {
+      "acted_at": "2010-09-16",
+      "action_code": "Intro-H",
+      "references": [],
+      "text": "Introduced in House",
+      "type": "action"
+    },
+    {
+      "acted_at": "2010-09-16",
+      "action_code": "H11100",
+      "committees": [
+        "HSII"
+      ],
+      "references": [],
+      "status": "REFERRED",
+      "text": "Referred to the House Committee on Natural Resources.",
+      "type": "referral"
+    },
+    {
+      "acted_at": "2010-09-28T12:47:00-04:00",
+      "action_code": "H30300",
+      "references": [],
+      "text": "Mrs. Napolitano moved to suspend the rules and agree to the resolution.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2010-09-28T12:47:15-04:00",
+      "action_code": "H30000",
+      "references": [
+        {
+          "reference": "CR H7007-7008",
+          "type": "consideration"
+        }
+      ],
+      "text": "Considered under suspension of the rules.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2010-09-28T12:47:30-04:00",
+      "action_code": "H8D000",
+      "references": [],
+      "text": "DEBATE - The House proceeded with forty minutes of debate on H. Res. 1636.",
+      "type": "action"
+    },
+    {
+      "acted_at": "2010-09-28T12:50:43-04:00",
+      "action_code": "H37300",
+      "how": "by voice vote",
+      "references": [
+        {
+          "reference": "CR H7007",
+          "type": "text"
+        }
+      ],
+      "result": "pass",
+      "status": "PASSED:SIMPLERES",
+      "suspension": null,
+      "text": "On motion to suspend the rules and agree to the resolution Agreed to by voice vote.",
+      "type": "vote",
+      "vote_type": "vote",
+      "where": "h"
+    },
+    {
+      "acted_at": "2010-09-28T12:50:45-04:00",
+      "action_code": "H38310",
+      "references": [],
+      "text": "Motion to reconsider laid on the table Agreed to without objection.",
+      "type": "action"
+    }
+  ],
+  "amendments": [],
+  "bill_id": "hres1636-111",
+  "bill_type": "hres",
+  "by_request": false,
+  "committee_reports": [],
+  "committees": [
+    {
+      "activity": [
+        "referral"
+      ],
+      "committee": "House Natural Resources",
+      "committee_id": "HSII"
+    }
+  ],
+  "congress": "111",
+  "cosponsors": [
+    {
+      "bioguide_id": "B001234",
+      "district": "43",
+      "name": "Baca, Joe",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-09-16",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001231",
+      "district": "1",
+      "name": "Berkley, Shelley",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-09-16",
+      "state": "NV",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "B001228",
+      "district": "45",
+      "name": "Bono Mack, Mary",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-09-22",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C000059",
+      "district": "44",
+      "name": "Calvert, Ken",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-09-16",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001036",
+      "district": "23",
+      "name": "Capps, Lois",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-09-23",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001080",
+      "district": "32",
+      "name": "Chu, Judy",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-09-16",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "C001059",
+      "district": "20",
+      "name": "Costa, Jim",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-09-16",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000492",
+      "district": "26",
+      "name": "Dreier, David",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-09-16",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "D000533",
+      "district": "2",
+      "name": "Duncan, John J., Jr.",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-09-16",
+      "state": "TN",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "F000030",
+      "district": "17",
+      "name": "Farr, Sam",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-09-16",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "F000448",
+      "district": "2",
+      "name": "Franks, Trent",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-09-16",
+      "state": "AZ",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "G000021",
+      "district": "24",
+      "name": "Gallegly, Elton",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-09-28",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "G000559",
+      "district": "10",
+      "name": "Garamendi, John",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-09-16",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "G000551",
+      "district": "7",
+      "name": "Grijalva, Ra\u00c3\u00bal M.",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-09-16",
+      "state": "AZ",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H000213",
+      "district": "36",
+      "name": "Harman, Jane",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-09-23",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H001041",
+      "district": "2",
+      "name": "Heller, Dean",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-09-16",
+      "state": "NV",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "H001034",
+      "district": "15",
+      "name": "Honda, Michael M.",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-09-16",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "L000551",
+      "district": "9",
+      "name": "Lee, Barbara",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-09-16",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001163",
+      "district": "5",
+      "name": "Matsui, Doris O.",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-09-16",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001177",
+      "district": "4",
+      "name": "McClintock, Tom",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-09-22",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M001139",
+      "district": "42",
+      "name": "Miller, Gary G.",
+      "original_cosponsor": false,
+      "sponsored_at": "2010-09-23",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "M000725",
+      "district": "7",
+      "name": "Miller, George",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-09-16",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000581",
+      "district": "37",
+      "name": "Richardson, Laura",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-09-16",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "R000486",
+      "district": "34",
+      "name": "Roybal-Allard, Lucille",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-09-16",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S001150",
+      "district": "29",
+      "name": "Schiff, Adam B.",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-09-16",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S000275",
+      "district": "3",
+      "name": "Shadegg, John B.",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-09-16",
+      "state": "AZ",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "S000344",
+      "district": "27",
+      "name": "Sherman, Brad",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-09-16",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "T000468",
+      "district": "3",
+      "name": "Titus, Dina",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-09-16",
+      "state": "NV",
+      "title": "Rep.",
+      "withdrawn_at": null
+    },
+    {
+      "bioguide_id": "W000794",
+      "district": "33",
+      "name": "Watson, Diane E.",
+      "original_cosponsor": true,
+      "sponsored_at": "2010-09-16",
+      "state": "CA",
+      "title": "Rep.",
+      "withdrawn_at": null
+    }
+  ],
+  "enacted_as": null,
+  "history": {
+    "active": true,
+    "active_at": "2010-09-28T12:47:00-04:00",
+    "awaiting_signature": false,
+    "enacted": false,
+    "house_passage_result": "pass",
+    "house_passage_result_at": "2010-09-28T12:50:43-04:00",
+    "vetoed": false
+  },
+  "introduced_at": "2010-09-16",
+  "number": "1636",
+  "official_title": "Celebrating the 75th anniversary of the Hoover Dam.",
+  "popular_title": null,
+  "related_bills": [
+    {
+      "bill_id": "sres657-111",
+      "identified_by": "CRS",
+      "reason": "related",
+      "type": "bill"
+    }
+  ],
+  "short_title": null,
+  "sponsor": {
+    "bioguide_id": "N000179",
+    "district": "38",
+    "name": "Napolitano, Grace F.",
+    "state": "CA",
+    "title": "Rep.",
+    "type": "person"
+  },
+  "status": "PASSED:SIMPLERES",
+  "status_at": "2010-09-28T12:50:43-04:00",
+  "subjects": [
+    "Arizona",
+    "California",
+    "Commemorative events and holidays",
+    "Congressional tributes",
+    "Dams and canals",
+    "Economic development",
+    "Nevada",
+    "U.S. history",
+    "Water resources development"
+  ],
+  "subjects_top_term": "Water resources development",
+  "summary": {
+    "as": "Passed House without amendment",
+    "asOf": "2010-09-28",
+    "date": "2010-10-07T14:18:15Z",
+    "text": "(This measure has not been amended since it was introduced. The summary has been expanded because action occurred on the measure.) \n\nCelebrates the 75th anniversary of the dedication of the Hoover Dam.\n\nRecognizes the benefits of the construction of that dam to the agricultural, industrial, and urban development of the Southwestern United States."
+  },
+  "titles": [
+    {
+      "as": null,
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Celebrating the 75th anniversary of the Hoover Dam.",
+      "type": "display"
+    },
+    {
+      "as": "introduced",
+      "is_for_portion": false,
+      "textVersionCode": null,
+      "title": "Celebrating the 75th anniversary of the Hoover Dam.",
+      "type": "official"
+    }
+  ],
+  "updated_at": "2023-01-11T13:21:27Z",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/111/hres/BILLSTATUS-111hres1636.xml"
+}
