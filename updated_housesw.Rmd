@@ -1,0 +1,88 @@
+---
+title: "updated_housesw.Rmd"
+author: "lizzie tucker and Prof. Wendy Tam"
+last updated: "2025-12-04"
+output: html_document
+---
+
+```{r setup, include=TRUE}
+# Load required packages
+library(sna)
+library(igraph)
+```
+
+```{r}
+## read in the data
+
+# vectors with 151307 lines, first and last left blank
+sponsors <- scan("sponsors.vec", what=integer(), quiet=TRUE)
+years <- scan("years.vec", what=integer(), quiet=TRUE)
+numchamber <- scan("chamber.vec", what=integer(), quiet=TRUE)
+cosponsors_raw <- readLines("cosponsors.vec")
+
+# remove the first blank line from cosponsors; note that sponsors, years, and chamber all implicitly drop this line
+cosponsors_raw <- cosponsors_raw[-1]
+
+# cleaning the cosponsor vector to convert "NA" to empty list to best align with original data processing
+cosponsors_raw[cosponsors_raw == "NA"] <- ""
+
+# remove trailing blank line ONLY if too long
+if (length(cosponsors_raw) > length(sponsors)) {
+    cosponsors_raw <- cosponsors_raw[1:length(sponsors)]
+}
+
+cosponsors <- cosponsors_raw
+
+# verifying length of vectors--all must be the same
+length(sponsors); length(years); length(chamber); length(cosponsors)
+if(!(length(sponsors)==length(years) &&
+length(years)==length(chamber) &&
+length(chamber)==length(cosponsors))) {
+stop("ERROR: sponsors/years/chamber/cosponsors are not the same length.")
+}
+```
+
+```{r}
+# separate bills into house and senate (H=2, S=1 in numchamber)
+# house is length 98414
+
+hs <- sponsors[numchamber==2]
+hcs <- cosponsors[numchamber==2]
+hyears <- years[numchamber==2]
+
+```
+
+```{r}
+## create cosponsorship ties
+## output is
+##    sponsor cosponsor
+## adapted the older edges function to be a bit faster
+edges <- function(spons, cospons) {
+  out <- list()
+  k <- 1
+  for (i in seq_along(spons)) {
+    # cosponsors for bill i
+    line <- cospons[i]
+    if (is.na(line) || line == "") next
+    ids <- unlist(strsplit(line, " "))
+    ids <- ids[ids != ""]
+    ids <- as.numeric(ids)
+    ids <- ids[!is.na(ids)]
+    # create edges
+    for (c in ids) {
+      out[[k]] <- c(spons[i], c)
+      k <- k + 1
+    }
+  }
+  do.call(rbind, out)
+}
+
+```
+
+```{r}
+## next adapting the adj matrix, but need to create the updated ICPSR id list
+## first--can do this by running code in new database--will make a scalable
+## script
+
+```
+

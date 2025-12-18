@@ -80,6 +80,269 @@ function Build-ThomasMapFromYaml {
   return $map
 }
 
+
+# ---------------------------
+# Extra lookups for ICPSR -> (name/birthyear/gender) + party-at-date
+# ---------------------------
+
+function Format-Name {
+  param(
+    [string]$Last,
+    [string]$First,
+    [string]$Middle
+  )
+
+  if ($null -eq $Last)  { $Last = "" }  else { $Last = $Last.Trim() }
+  if ($null -eq $First) { $First = "" } else { $First = $First.Trim() }
+  if ($null -eq $Middle) { $Middle = "" } else { $Middle = $Middle.Trim() }
+
+  if ($Last -eq "") { return "NA" }
+
+  $fi = ""
+  if ($First -ne "") { $fi = ("{0}." -f $First.Substring(0,1).ToUpper()) }
+
+  $mi = ""
+  if ($Middle -ne "") { $mi = ("{0}." -f $Middle.Substring(0,1).ToUpper()) }
+
+  $parts = @()
+  if ($fi -ne "") { $parts += $fi }
+  if ($mi -ne "") { $parts += $mi }
+
+  if ($parts.Count -gt 0) {
+    return ("{0}, {1}" -f $Last.ToUpper(), ($parts -join " ")).Trim()
+  }
+
+  return ($Last.ToUpper()).Trim()
+}
+
+
+function Try-ParseDate([string]$s) {
+  if ([string]::IsNullOrWhiteSpace($s)) { return $null }
+  $s = $s.Trim()
+  try {
+    return [datetime]::ParseExact($s, 'yyyy-MM-dd', [System.Globalization.CultureInfo]::InvariantCulture)
+  } catch {
+    return $null
+  }
+}
+
+function Abbrev-Party {
+  param([string]$Party)
+
+  if ([string]::IsNullOrWhiteSpace($Party)) { return "NA" }
+
+  $p = $Party.Trim()
+
+  switch -Regex ($p.ToLower()) {
+    '^democrat'    { return 'D' }
+    '^republican'  { return 'R' }
+    '^independent' { return 'I' }
+    '^libertarian' { return 'L' }
+    '^green'       { return 'G' }
+    default {
+      # If it's already short (e.g., "D", "R", "I"), just normalize case
+      if ($p.Length -le 3) { return $p.ToUpper() }
+      # Otherwise, fall back to first letter (keeps file compact)
+      return $p.Substring(0,1).ToUpper()
+    }
+  }
+}
+
+
+function Build-IcpsrProfilesFromYaml {
+  param([string[]]$YamlPaths)
+
+  # Map icpsr -> profile:
+  #   name_display, birthyear, gender, terms(list of {type,start,end,party})
+  $profiles = @{}
+
+  $icpsr = $null
+  $first = $null
+  $middle = $null
+  $last = $null
+  $birthday = $null
+  $gender = $null
+  $terms = New-Object System.Collections.Generic.List[object]
+
+  $inTerms = $false
+  $curTerm = $null
+
+  function CommitTerm {
+    if ($curTerm) {
+      $terms.Add($curTerm)
+      $curTerm = $null
+    }
+  }
+
+  function CommitPerson {
+    CommitTerm
+    if ($icpsr) {
+      $birthyear = "NA"
+      if ($birthday -and $birthday.Length -ge 4) { $birthyear = $birthday.Substring(0,4) }
+      $disp = Format-Name -Last $last -First $first -Middle $middle
+      $g = "NA"
+      if ($gender) { $g = [string]$gender }
+
+      $profiles[[string]$icpsr] = [pscustomobject]@{
+        icpsr        = [string]$icpsr
+        name_display = $disp
+        birthyear    = $birthyear
+        gender       = $g
+        terms        = $terms.ToArray()
+      }
+    }
+
+    $icpsr = $null
+    $first = $null
+    $middle = $null
+    $last = $null
+    $birthday = $null
+    $gender = $null
+    $terms = New-Object System.Collections.Generic.List[object]
+    $inTerms = $false
+    $curTerm = $null
+  }
+
+  foreach ($YamlPath in $YamlPaths) {
+    foreach ($line in Get-Content -LiteralPath $YamlPath) {
+
+      # New top-level person entry
+      if ($line -match '^\-\s+id:\s*$') {
+        CommitPerson
+        continue
+      }
+
+      # Key fields
+      if ($line -match '^\s+icpsr:\s*["'']?([0-9]+)["'']?\s*$') {
+        $icpsr = $Matches[1]
+        continue
+      }
+      if ($line -match '^\s+first:\s*["'']?(.+?)["'']?\s*$') {
+        $first = $Matches[1]
+        continue
+      }
+      if ($line -match '^\s+middle:\s*["'']?(.+?)["'']?\s*$') {
+        $middle = $Matches[1]
+        continue
+      }
+      if ($line -match '^\s+last:\s*["'']?(.+?)["'']?\s*$') {
+        $last = $Matches[1]
+        continue
+      }
+      if ($line -match '^\s+birthday:\s*["'']?([0-9]{4}\-[0-9]{2}\-[0-9]{2})["'']?\s*$') {
+        $birthday = $Matches[1]
+        continue
+      }
+      if ($line -match '^\s+gender:\s*([A-Za-z])\s*$') {
+        $gender = $Matches[1]
+        continue
+      }
+
+      # Terms parsing
+      if ($line -match '^\s+terms:\s*$') {
+        $inTerms = $true
+        continue
+      }
+
+      if ($inTerms -and ($line -match '^\s*-\s+type:\s*([A-Za-z]+)\s*$')) {
+        CommitTerm
+        $curTerm = [pscustomobject]@{
+          type  = $Matches[1]
+          start = $null
+          end   = $null
+          party = $null
+        }
+        continue
+      }
+
+      if ($inTerms -and $curTerm) {
+        if ($line -match '^\s+start:\s*["'']?([0-9]{4}\-[0-9]{2}\-[0-9]{2})["'']?\s*$') {
+          $curTerm.start = $Matches[1]
+          continue
+        }
+        if ($line -match '^\s+end:\s*["'']?([0-9]{4}\-[0-9]{2}\-[0-9]{2})["'']?\s*$') {
+          $curTerm.end = $Matches[1]
+          continue
+        }
+        if ($line -match '^\s+party:\s*["'']?(.+?)["'']?\s*$') {
+          $curTerm.party = $Matches[1]
+          continue
+        }
+      }
+    }
+
+    # flush the last entry of each file
+    CommitPerson
+  }
+
+  return $profiles
+}
+
+function Get-PartyAtDate {
+  param(
+    [string]$Icpsr,
+    [string]$BillDate,
+    [int]$Chamber,
+    $profiles
+  )
+
+  if ([string]::IsNullOrWhiteSpace($Icpsr) -or $Icpsr -eq "NA") { return "NA" }
+  if (-not $profiles.ContainsKey($Icpsr)) { return "NA" }
+
+  $dt = Try-ParseDate $BillDate
+  if (-not $dt) {
+    # Fall back to year -> midyear (more likely to match correct term than Jan 1)
+    if ($BillDate -match '^[0-9]{4}$') { $dt = [datetime]::Parse("$BillDate-07-01") }
+    else { return "NA" }
+  }
+
+  $wantType = "rep"
+  if ($Chamber -eq 1) { $wantType = "sen" }
+  $terms = $profiles[$Icpsr].terms
+  if ($null -eq $terms) { return "NA" }
+
+  function InTerm($term) {
+    $s = Try-ParseDate $term.start
+    $e = Try-ParseDate $term.end
+    if (-not $s) { return $false }
+    if (-not $e) { return ($dt -ge $s) }
+    return ($dt -ge $s -and $dt -le $e)
+  }
+
+  # Prefer term that matches chamber type
+  foreach ($t in $terms) {
+    if ($t.type -eq $wantType -and (InTerm $t)) {
+      if ($t.party) { return (Abbrev-Party ([string]$t.party)) } else { return "NA" }
+    }
+  }
+
+  # Fallback: any term that contains date
+  foreach ($t in $terms) {
+    if (InTerm $t) {
+      if ($t.party) { return (Abbrev-Party ([string]$t.party)) } else { return "NA" }
+    }
+  }
+
+  # Year-only fallback (very robust)
+  $y = $dt.Year
+  foreach ($t in $terms) {
+    $s = Try-ParseDate $t.start
+    $e = Try-ParseDate $t.end
+    if (-not $s) { continue }
+
+    $sy = $s.Year
+    $ey = 9999
+    if ($e) { $ey = $e.Year }
+
+    if ($y -ge $sy -and $y -le $ey) {
+      if ($t.party) { return (Abbrev-Party ([string]$t.party)) } else { return "NA" }
+    }
+  }
+
+  return "NA"
+}
+
+
 function MapThomas([string]$id, $map) {
   # Generic "map an ID (thomas or bioguide) -> ICPSR"
   if ([string]::IsNullOrWhiteSpace($id)) { return $null }
@@ -121,6 +384,11 @@ foreach ($k in $cur.Keys) { $map[$k] = $cur[$k] }
 
 Write-Host ("Loaded {0} legislator IDs -> ICPSR mappings (thomas + bioguide)" -f $map.Count)
 
+
+# Build ICPSR -> (name/birthyear/gender/terms) profiles once (current + historical)
+$profiles = Build-IcpsrProfilesFromYaml -YamlPaths @($curYaml, $histYaml)
+Write-Host ("Loaded {0} ICPSR profiles (name/birthyear/gender + terms)" -f $profiles.Count)
+
 # Global outputs at $Base
 $sponsorsPath   = Join-Path $Base "sponsors.vec"
 $cosponsorsPath = Join-Path $Base "cosponsors.vec"
@@ -132,6 +400,18 @@ $chamberPath    = Join-Path $Base "chamber.vec"
 "" | Set-Content -Encoding ASCII $yearsPath
 "" | Set-Content -Encoding ASCII $chamberPath
 
+
+# New vectors (party-at-time-of-bill, aligned 1:1 with sponsors.vec / cosponsors.vec)
+$sponsorPartyPath   = Join-Path $Base "sponsor_party.vec"
+$cosponsorPartyPath = Join-Path $Base "cosponsors_party.vec"
+
+"" | Set-Content -Encoding ASCII $sponsorPartyPath
+"" | Set-Content -Encoding ASCII $cosponsorPartyPath
+
+# Track which ICPSR IDs actually appear in the sponsor/cosponsor vectors (split by chamber)
+$HouseIds  = New-Object System.Collections.Generic.HashSet[string]
+$SenateIds = New-Object System.Collections.Generic.HashSet[string]
+
 function Ensure-CongressCsv {
   param([string]$CongFolder, $map)
 
@@ -140,7 +420,18 @@ function Ensure-CongressCsv {
   if (!(Test-Path -LiteralPath $billsDir)) { throw "No bills dir: $billsDir" }
 
   $csvPath = Join-Path $CongFolder ("sponsors_by_icpsr_id_{0}.csv" -f $folderName)
-  if ((-not (Test-Path -LiteralPath $csvPath)) -or $RebuildCsv) {
+  $forceRebuild = $false
+  if ((Test-Path -LiteralPath $csvPath) -and (-not $RebuildCsv)) {
+    try {
+      $first = (Get-Content -LiteralPath $csvPath -TotalCount 1)
+      if ($first -and ($first -notmatch '(^|,)bill_date(,|$)')) {
+        # Older CSVs don't have bill_date; rebuild so we can compute party-at-time-of-bill vectors
+        $forceRebuild = $true
+      }
+    } catch { }
+  }
+
+  if ((-not (Test-Path -LiteralPath $csvPath)) -or $RebuildCsv -or $forceRebuild) {
     $rows  = New-Object System.Collections.Generic.List[object]
     $files = Get-ChildItem -LiteralPath $billsDir -Recurse -Filter *.json | Sort-Object FullName
     $total = $files.Count
@@ -162,6 +453,14 @@ function Ensure-CongressCsv {
       elseif ($j.status_at)     { $year = ([string]$j.status_at).Substring(0,4) }
       elseif ($j.congress)      { $year = [string](1787 + 2*([int]$j.congress - 1)) }
       if (-not $year) { $year = "NA" }
+
+      $billDate = $null
+      if     ($j.introduced_at) { $billDate = [string]$j.introduced_at }
+      elseif ($j.status_at)     { $billDate = [string]$j.status_at }
+      elseif ($year -ne "NA")   { $billDate = ("{0}-07-01" -f $year) }  # midyear fallback
+      if (-not $billDate) { $billDate = "NA" }
+
+
 
       $ch = BillChamber $j.bill_type
 
@@ -210,6 +509,7 @@ function Ensure-CongressCsv {
         bill_id           = $billId
         sponsor_icpsr     = $s_icpsr
         cosponsors_icpsr  = $cosLine
+        bill_date         = $billDate
         year              = $year
         chamber           = $ch
       }
@@ -241,6 +541,14 @@ foreach ($folder in $congressFolders) {
   $count = $rows.Count
   $totalBillsAll += $count
 
+  # Buffers for this congress for file output purposes
+  $bufSponsors   = New-Object System.Collections.Generic.List[string]
+  $bufCosponsors = New-Object System.Collections.Generic.List[string]
+  $bufYears      = New-Object System.Collections.Generic.List[string]
+  $bufChamber    = New-Object System.Collections.Generic.List[string]
+  $bufSP         = New-Object System.Collections.Generic.List[string]
+  $bufCP         = New-Object System.Collections.Generic.List[string]
+
   $i = 0
   foreach ($r in $rows) {
     $i++
@@ -252,37 +560,115 @@ foreach ($folder in $congressFolders) {
 
     $s = $r.sponsor_icpsr
     if ([string]::IsNullOrWhiteSpace($s)) { $s = "NA" }
-    Add-Content -Path $sponsorsPath -Value ($s.ToString()) -Encoding ASCII
+    $bufSponsors.Add([string]$s)
 
     $cs = $r.cosponsors_icpsr
     if ([string]::IsNullOrWhiteSpace($cs)) { $cs = "NA" }
     $cs = ($cs -replace ",", " ")
     $cs = ($cs -replace "\s+", " ").Trim()
     if ($cs -eq "") { $cs = "NA" }
-    Add-Content -Path $cosponsorsPath -Value ($cs.ToString()) -Encoding ASCII
+    $bufCosponsors.Add([string]$cs)
 
     $yr = $r.year
     if ([string]::IsNullOrWhiteSpace($yr)) { $yr = "NA" }
-    Add-Content -Path $yearsPath -Value ($yr.ToString()) -Encoding ASCII
+    $bufYears.Add([string]$yr)
 
     $ch = $r.chamber
     if ([string]::IsNullOrWhiteSpace($ch)) { $ch = "2" }
-    Add-Content -Path $chamberPath -Value ($ch.ToString()) -Encoding ASCII
+
+    # Collect ICPSR IDs that actually appear (split by bill chamber)
+    if ($s -ne "NA") {
+      if ($ch.ToString() -eq "1") { $SenateIds.Add($s.ToString()) | Out-Null } else { $HouseIds.Add($s.ToString()) | Out-Null }
+    }
+    if ($cs -ne "NA") {
+      foreach ($cid in ($cs.ToString().Split(" ", [System.StringSplitOptions]::RemoveEmptyEntries))) {
+        if ($cid -ne "NA") {
+          if ($ch.ToString() -eq "1") { $SenateIds.Add($cid) | Out-Null } else { $HouseIds.Add($cid) | Out-Null }
+        }
+      }
+    }
+
+    # Party-at-time-of-bill vectors (aligned line-for-line with sponsors.vec / cosponsors.vec)
+    $bd = $null
+    if ($r.PSObject.Properties.Name -contains "bill_date") { $bd = $r.bill_date }
+    if ([string]::IsNullOrWhiteSpace($bd) -or $bd -eq "") { $bd = $yr }  # fallback
+
+    $sp = Get-PartyAtDate -Icpsr $s -BillDate $bd -Chamber ([int]$ch) -profiles $profiles
+    $bufSP.Add([string]$sp)
+
+
+    $cpLine = "NA"
+    if ($cs -ne "NA") {
+      $cp = @()
+      foreach ($cid in ($cs.ToString().Split(" ", [System.StringSplitOptions]::RemoveEmptyEntries))) {
+        $cp += (Get-PartyAtDate -Icpsr $cid -BillDate $bd -Chamber ([int]$ch) -profiles $profiles)
+      }
+      if ($cp.Count -gt 0) { $cpLine = ($cp -join " ") }
+    }
+    $bufCP.Add([string]$cpLine)
+
+    $bufChamber.Add([string]$ch)
   }
 
+  # Flush buffers once per congress to stop file locking
+  Add-Content -LiteralPath $sponsorsPath       -Value $bufSponsors.ToArray()   -Encoding ASCII
+  Add-Content -LiteralPath $cosponsorsPath     -Value $bufCosponsors.ToArray() -Encoding ASCII
+  Add-Content -LiteralPath $yearsPath          -Value $bufYears.ToArray()      -Encoding ASCII
+  Add-Content -LiteralPath $chamberPath        -Value $bufChamber.ToArray()    -Encoding ASCII
+  Add-Content -LiteralPath $sponsorPartyPath   -Value $bufSP.ToArray()         -Encoding ASCII
+  Add-Content -LiteralPath $cosponsorPartyPath -Value $bufCP.ToArray()         -Encoding ASCII
   Write-Progress -Activity ("Appending {0}..." -f $folderName) -Completed
 }
+
+
+# Build quick-reference cheat sheets for ICPSR IDs that appear in the vectors
+$houseCheatPath  = Join-Path $Base "icpsr_house_cheatsheet.csv"
+$senateCheatPath = Join-Path $Base "icpsr_senate_cheatsheet.csv"
+
+function Write-CheatSheet {
+  param($ids, [string]$outPath)
+
+  $rows = New-Object System.Collections.Generic.List[object]
+  foreach ($id in ($ids | Sort-Object)) {
+    if ($profiles.ContainsKey([string]$id)) {
+      $p = $profiles[[string]$id]
+      $rows.Add([pscustomobject]@{
+        icpsr      = [string]$id
+        name       = $p.name_display
+        birthyear  = $p.birthyear
+        gender     = $p.gender
+      })
+    }
+    else {
+      $rows.Add([pscustomobject]@{
+        icpsr      = [string]$id
+        name       = "NA"
+        birthyear  = "NA"
+        gender     = "NA"
+      })
+    }
+  }
+  $rows | Export-Csv -Path $outPath -NoTypeInformation -Encoding UTF8
+}
+
+Write-CheatSheet -ids $HouseIds  -outPath $houseCheatPath
+Write-CheatSheet -ids $SenateIds -outPath $senateCheatPath
+
+Write-Host ("Wrote cheat sheets:`n  {0}`n  {1}" -f $houseCheatPath, $senateCheatPath)
+
 
 # Final sanity check
 $cntS  = (Get-Content -LiteralPath $sponsorsPath   -ReadCount 0).Count
 $cntCS = (Get-Content -LiteralPath $cosponsorsPath -ReadCount 0).Count
 $cntY  = (Get-Content -LiteralPath $yearsPath      -ReadCount 0).Count
 $cntC  = (Get-Content -LiteralPath $chamberPath    -ReadCount 0).Count
+$cntSP = (Get-Content -LiteralPath $sponsorPartyPath   -ReadCount 0).Count
+$cntCP = (Get-Content -LiteralPath $cosponsorPartyPath -ReadCount 0).Count
 
-Write-Host ("OK: Global vectors written to:`n  {0}`n  {1}`n  {2}`n  {3}" -f $sponsorsPath,$cosponsorsPath,$yearsPath,$chamberPath)
-Write-Host ("Line counts - sponsors:{0} cosponsors:{1} years:{2} chamber:{3}" -f $cntS,$cntCS,$cntY,$cntC)
+Write-Host ("OK: Global vectors written to:`n  {0}`n  {1}`n  {2}`n  {3}`n  {4}`n  {5}" -f $sponsorsPath,$cosponsorsPath,$yearsPath,$chamberPath,$sponsorPartyPath,$cosponsorPartyPath)
+Write-Host ("Line counts - sponsors:{0} cosponsors:{1} years:{2} chamber:{3} sponsor_party:{4} cosponsors_party:{5}" -f $cntS,$cntCS,$cntY,$cntC,$cntSP,$cntCP)
 Write-Host ("Total bills appended: {0}" -f $totalBillsAll)
 
-if (($cntS -ne $cntCS) -or ($cntS -ne $cntY) -or ($cntS -ne $cntC)) {
-  Write-Warning "Line counts differ - the Rmd expects all four files to have identical line counts."
+if (($cntS -ne $cntCS) -or ($cntS -ne $cntY) -or ($cntS -ne $cntC) -or ($cntS -ne $cntSP) -or ($cntS -ne $cntCP)) {
+  Write-Warning "Line counts differ - the Rmd expects all vector files to have identical line counts."
 }
