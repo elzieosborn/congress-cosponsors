@@ -1,4 +1,11 @@
-Congressional Data Vector Building 108-118th Congresses
+Congressional Data Vector Building 108-118th Congresses: party_icpsr_sheets branch
+
+In addition to the below, which all happens on the main branch, this branch creates ICPSR cheatsheets for all
+congresspeople appearing in the sponsor and cosponsor vectors for the house and senate. These cheatsheets
+include that congressperson's ICPSR id, name in LASTNAME, FIRSTINITIAL. MIDDLEINITIAL. format, birthyear, and
+gender. This also creates sponsor_party.vec and cosponsors_party.vec, which map 1:1 to the sponsor and cosponsors
+vectors once those vectors have their first line trimmed. This identifies the party of that congressperson at the
+time of that bill's introduction encoded as D, R, or I for democrat, republican, and independent.
 
 This generates chamber, cosponsors, sponsors, and years vectors for every bill within Congress from the 108th to the 118th Congresses. It builds off of the data collected within the commonly-relied-upon congress GitHub, seen here: https://github.com/unitedstates/congress/wiki/bills. This is where all underlying bill data came from.
 

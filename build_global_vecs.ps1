@@ -1,6 +1,6 @@
 # build_global_vecs.ps1
 # Lizzie Tucker
-# Last Updated: November 27, 2025
+# Last Updated: December 19, 2025
 # Builds the chamber, cosponsors, sponsors, and years vectors for all bills from the 108th to the 118th congress
 # Uses the existing sponsors_by_icpsr_id_CONGRESSNUMBER.csv if one exists, if not, builds one.
 #
