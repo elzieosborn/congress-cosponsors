@@ -1,0 +1,5 @@
+The significance encodings included in this dataset were provided by Alan Wiseman, Co-Director from the Center for Effective Lawmaking. They were used to create the Center for Effective Lawmaking's Legislative Effectiveness Scores, which are well-respected in the field of congressional study. Within the Legislative Effectivenes Scores, all HR's and S's from the 93rd Congress through the 118th Congress are encoded as either commemorative (C), substantive (S), or substantive and significant (SS) in increasing order of significance. As a note, all HRs and Ss that are not listed in the spreadsheets provided were encoded as substantive (S) in the original LES calculations, and work done with this data can safely use this assumption.
+
+Any work with this data will be found in the updated_housesw.Rmd and updated_senatesw.Rmd respectively to keep the bills executable clean and keep everything scalable. Please see these files for examples of processing these spreadsheets.
+
+For more information surrounding how bills were encoded, please see https://thelawmakers.org/methodology. Special thanks to Prof. Wiseman for providing me with this data.

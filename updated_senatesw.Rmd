@@ -1,0 +1,124 @@
+---
+title: "updated_senatesw.Rmd"
+author: "lizzie tucker and Prof. Wendy Tam"
+last updated: "2025-12-26"
+output: html_document
+---
+
+```{r setup, include=TRUE}
+# Load required packages
+library(sna)
+library(igraph)
+```
+
+```{r}
+## Calculates Congressional Productivity Percentages for Each Congress 108-118
+## Total bill count variables from the dataset
+total_S_108 = 3035
+total_S_109 = 4122
+total_S_110 = 3741
+total_S_111 = 4059
+total_S_112 = 3716
+total_S_113 = 3020
+total_S_114 = 3548
+total_S_115 = 3805
+total_S_116 = 5086
+total_S_117 = 5357
+total_S_118 = 5649
+
+# (will take count of entries in that column on spreadsheet)
+total_commemorative_108 = b
+total_commemorative_109 = b
+total_commemorative_110 = b
+total_commemorative_111 = b
+total_commemorative_112 = b
+total_commemorative_113 = b
+total_commemorative_114 = b
+total_commemorative_115 = b
+total_commemorative_116 = b
+total_commemorative_117 = b
+total_commemorative_118 = b
+
+total_subsig_108 = b
+total_subsig_109 = b
+total_subsig_110 = b
+total_subsig_111 = b
+total_subsig_112 = b
+total_subsig_113 = b
+total_subsig_114 = b
+total_subsig_115 = b
+total_subsig_116 = b
+total_subsig_117 = b
+total_subsig_118 = b
+
+total_substantive_108 = total_S_108 - (total_subsig_108 + total_commemorative_108)
+total_substantive_109 = total_S_109 - (total_subsig_109 + total_commemorative_109)
+total_substantive_110 = total_S_110 - (total_subsig_110 + total_commemorative_110)
+total_substantive_111 = total_S_111 - (total_subsig_111 + total_commemorative_111)
+total_substantive_112 = total_S_112 - (total_subsig_112 + total_commemorative_112)
+total_substantive_113 = total_S_113 - (total_subsig_113 + total_commemorative_113)
+total_substantive_114 = total_S_114 - (total_subsig_114 + total_commemorative_114)
+total_substantive_115 = total_S_115 - (total_subsig_115 + total_commemorative_115)
+total_substantive_116 = total_S_116 - (total_subsig_116 + total_commemorative_116)
+total_substantive_117 = total_S_117 - (total_subsig_117 + total_commemorative_117)
+total_substantive_118 = total_S_118 - (total_subsig_118 + total_commemorative_118)
+
+# Productivity Measures for Each Congress
+
+# 108th
+percentage_com_108 = total_commemorative_108 / total_S_108
+percentage_substantive_108 = total_substantive_108 / total_S_108
+percentage_subisg_108 = total_subsig_108 / total_S_108
+
+# 109th
+percentage_com_109 = total_commemorative_109 / total_S_109
+percentage_substantive_109 = total_substantive_109 / total_S_109
+percentage_subisg_109 = total_subsig_109 / total_S_109
+
+# 110th
+percentage_com_110 = total_commemorative_110 / total_S_110
+percentage_substantive_110 = total_substantive_110 / total_S_110
+percentage_subisg_110 = total_subsig_110 / total_S_110
+
+# 111th
+percentage_com_111 = total_commemorative_111 / total_S_111
+percentage_substantive_111 = total_substantive_111 / total_S_111
+percentage_subisg_111 = total_subsig_111 / total_S_111
+
+# 112th
+percentage_com_112 = total_commemorative_112 / total_S_112
+percentage_substantive_112 = total_substantive_112 / total_S_112
+percentage_subisg_112 = total_subsig_112 / total_S_112
+
+# 113th
+percentage_com_113 = total_commemorative_113 / total_S_113
+percentage_substantive_113 = total_substantive_113 / total_S_113
+percentage_subisg_113 = total_subsig_113 / total_S_113
+
+# 114th
+percentage_com_114 = total_commemorative_114 / total_S_114
+percentage_substantive_114 = total_substantive_114 / total_S_114
+percentage_subisg_114 = total_subsig_114 / total_S_114
+
+# 115th
+percentage_com_115 = total_commemorative_115 / total_S_115
+percentage_substantive_115 = total_substantive_115 / total_S_115
+percentage_subisg_115 = total_subsig_115 / total_S_115
+
+# 116th
+percentage_com_116 = total_commemorative_116 / total_S_116
+percentage_substantive_116 = total_substantive_116 / total_S_116
+percentage_subisg_116 = total_subsig_116 / total_S_116
+
+# 117th
+percentage_com_117 = total_commemorative_117 / total_S_117
+percentage_substantive_117 = total_substantive_117 / total_S_117
+percentage_subisg_117 = total_subsig_117 / total_S_117
+
+# 118th
+percentage_com_118 = total_commemorative_118 / total_S_118
+percentage_substantive_118 = total_substantive_118 / total_S_118
+percentage_subisg_118 = total_subsig_118 / total_S_118
+
+
+```
