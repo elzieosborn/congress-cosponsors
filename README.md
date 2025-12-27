@@ -1,4 +1,6 @@
-Congressional Data Vector Building 108-118th Congresses: party_icpsr_sheets branch
+Congressional Data Vector Building 108-118th Congresses: data_significance branch
+
+In addition to the below, which all happens on the party_icpsr_sheets branch, this branch includes the bill significance data as well as all R.md work to process that data.
 
 In addition to the below, which all happens on the main branch, this branch creates ICPSR cheatsheets for all
 congresspeople appearing in the sponsor and cosponsor vectors for the house and senate. These cheatsheets
