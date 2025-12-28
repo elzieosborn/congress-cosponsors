@@ -6,6 +6,8 @@ output: html_document
 ---
 
 ```{r setup, include=TRUE}
+# Change working directory to wherever your clone is
+setwd("C:/Users/lizzi/congress/data")
 # Load required packages
 library(sna)
 library(igraph)
@@ -83,118 +85,108 @@ edges <- function(spons, cospons) {
 ## next adapting the adj matrix, but need to create the updated ICPSR id list
 ## first--can do this by running code in new database--will make a scalable
 ## script
-
+1 + 1
 ```
 
 ```{r}
-## Calculates Congressional Productivity Percentages for Each Congress 108-118
-## Total bill count variables from the dataset
-total_HRs_108 = 5431
-total_HRs_109 = 6436
-total_HRs_110 = 7340
-total_HRs_111 = 6570
-total_HRs_112 = 6729
-total_HRs_113 = 5893
-total_HRs_114 = 6536
-total_HRs_115 = 7401
-total_HRs_116 = 9067
-total_HRs_117 = 9709
-total_HRs_118 = 10564
+## Calculates House Productivity Percentages for Each Congress 108-118
+library(readxl)
+library(stringr)
 
-# (will take count of entries in that column on spreadsheet)
-total_commemorative_108 = b
-total_commemorative_109 = b
-total_commemorative_110 = b
-total_commemorative_111 = b
-total_commemorative_112 = b
-total_commemorative_113 = b
-total_commemorative_114 = b
-total_commemorative_115 = b
-total_commemorative_116 = b
-total_commemorative_117 = b
-total_commemorative_118 = b
+# Constants pulled from data folders
+congresses <- 108:118
 
-total_subsig_108 = b
-total_subsig_109 = b
-total_subsig_110 = b
-total_subsig_111 = b
-total_subsig_112 = b
-total_subsig_113 = b
-total_subsig_114 = b
-total_subsig_115 = b
-total_subsig_116 = b
-total_subsig_117 = b
-total_subsig_118 = b
+total_HRs <- c(
+  `108` = 5431,
+  `109` = 6436,
+  `110` = 7340,
+  `111` = 6570,
+  `112` = 6729,
+  `113` = 5893,
+  `114` = 6536,
+  `115` = 7401,
+  `116` = 9067,
+  `117` = 9709,
+  `118` = 10564
+)
 
-total_substantive_108 = total_HRs_108 - (total_subsig_108 + total_commemorative_108)
-total_substantive_109 = total_HRs_109 - (total_subsig_109 + total_commemorative_109)
-total_substantive_110 = total_HRs_110 - (total_subsig_110 + total_commemorative_110)
-total_substantive_111 = total_HRs_111 - (total_subsig_111 + total_commemorative_111)
-total_substantive_112 = total_HRs_112 - (total_subsig_112 + total_commemorative_112)
-total_substantive_113 = total_HRs_113 - (total_subsig_113 + total_commemorative_113)
-total_substantive_114 = total_HRs_114 - (total_subsig_114 + total_commemorative_114)
-total_substantive_115 = total_HRs_115 - (total_subsig_115 + total_commemorative_115)
-total_substantive_116 = total_HRs_116 - (total_subsig_116 + total_commemorative_116)
-total_substantive_117 = total_HRs_117 - (total_subsig_117 + total_commemorative_117)
-total_substantive_118 = total_HRs_118 - (total_subsig_118 + total_commemorative_118)
+# helper: Counts non-empty entries in each congress column 
+count_entries_by_congress <- function(path, congresses = 108:118) {
+  df <- read_excel(path)
 
-# Productivity Measures for Each Congress
+  vapply(congresses, function(cg) {
+    col <- as.character(cg)
+    if (!col %in% names(df)) return(0L)
 
-# 108th
-percentage_com_108 = total_commemorative_108 / total_HRs_108
-percentage_substantive_108 = total_substantive_108 / total_HRs_108
-percentage_subisg_108 = total_subsig_108 / total_HRs_108
+    x <- as.character(df[[col]])
+    sum(!is.na(x) & str_trim(x) != "")
+  }, integer(1))
+}
 
-# 109th
-percentage_com_109 = total_commemorative_109 / total_HRs_109
-percentage_substantive_109 = total_substantive_109 / total_HRs_109
-percentage_subisg_109 = total_subsig_109 / total_HRs_109
+# Pulls counts from House spreadsheets
+total_commemorative <- count_entries_by_congress(
+  "significance_encodings/CListHouse.xlsx",
+  congresses
+)
 
-# 110th
-percentage_com_110 = total_commemorative_110 / total_HRs_110
-percentage_substantive_110 = total_substantive_110 / total_HRs_110
-percentage_subisg_110 = total_subsig_110 / total_HRs_110
+total_subsig <- count_entries_by_congress(
+  "significance_encodings/SSListHouse.xlsx",
+  congresses
+)
 
-# 111th
-percentage_com_111 = total_commemorative_111 / total_HRs_111
-percentage_substantive_111 = total_substantive_111 / total_HRs_111
-percentage_subisg_111 = total_subsig_111 / total_HRs_111
+# Calculates percentages and substantive total
+total_substantive <- total_HRs - (total_subsig + total_commemorative)
 
-# 112th
-percentage_com_112 = total_commemorative_112 / total_HRs_112
-percentage_substantive_112 = total_substantive_112 / total_HRs_112
-percentage_subisg_112 = total_subsig_112 / total_HRs_112
+percentage_com         <- total_commemorative / total_HRs
+percentage_subsig      <- total_subsig / total_HRs
+percentage_substantive <- total_substantive / total_HRs
 
-# 113th
-percentage_com_113 = total_commemorative_113 / total_HRs_113
-percentage_substantive_113 = total_substantive_113 / total_HRs_113
-percentage_subisg_113 = total_subsig_113 / total_HRs_113
-
-# 114th
-percentage_com_114 = total_commemorative_114 / total_HRs_114
-percentage_substantive_114 = total_substantive_114 / total_HRs_114
-percentage_subisg_114 = total_subsig_114 / total_HRs_114
-
-# 115th
-percentage_com_115 = total_commemorative_115 / total_HRs_115
-percentage_substantive_115 = total_substantive_115 / total_HRs_115
-percentage_subisg_115 = total_subsig_115 / total_HRs_115
-
-# 116th
-percentage_com_116 = total_commemorative_116 / total_HRs_116
-percentage_substantive_116 = total_substantive_116 / total_HRs_116
-percentage_subisg_116 = total_subsig_116 / total_HRs_116
-
-# 117th
-percentage_com_117 = total_commemorative_117 / total_HRs_117
-percentage_substantive_117 = total_substantive_117 / total_HRs_117
-percentage_subisg_117 = total_subsig_117 / total_HRs_117
-
-# 118th
-percentage_com_118 = total_commemorative_118 / total_HRs_118
-percentage_substantive_118 = total_substantive_118 / total_HRs_118
-percentage_subisg_118 = total_subsig_118 / total_HRs_118
-
-
+# Example single variable use
+# total_commemorative["108"]
+# total_subsig["115"]
+# percentage_substantive["118"]
 ```
 
+```{r}
+library(ggplot2)
+library(tidyr)
+library(scales)
+
+# Build plotting dataframe from existing variables
+plot_df <- data.frame(
+  congress = congresses,
+  commemorative = percentage_com,
+  subsignificant = percentage_subsig,
+  substantive = percentage_substantive
+)
+
+# Reshape for ggplot
+plot_long <- pivot_longer(
+  plot_df,
+  cols = -congress,
+  names_to = "category",
+  values_to = "percentage"
+)
+
+# Labels
+plot_long$category <- factor(
+  plot_long$category,
+  levels = c("substantive", "subsignificant", "commemorative"),
+  labels = c("Substantive", "Substantive and Significant", "Commemorative")
+)
+
+# Plot
+ggplot(plot_long, aes(x = congress, y = percentage, color = category)) +
+  geom_line(linewidth = 1.2) +
+  geom_point(size = 2) +
+  scale_x_continuous(breaks = congresses) +
+  scale_y_continuous(labels = percent_format()) +
+  labs(
+    title = "House Productivity by Congress (108–118)",
+    x = "Congress",
+    y = "Share of Bills",
+    color = "Bill Type"
+  ) +
+  theme_minimal(base_size = 13)
+
+```
