@@ -16,42 +16,65 @@ library(igraph)
 ```{r}
 ## read in the data
 
-# vectors with 151307 lines, first and last left blank
-sponsors <- scan("sponsors.vec", what=integer(), quiet=TRUE)
-years <- scan("years.vec", what=integer(), quiet=TRUE)
-numchamber <- scan("chamber.vec", what=integer(), quiet=TRUE)
+# core vectors
+sponsors   <- scan("sponsors.vec", what = integer(), quiet = TRUE)
+years      <- scan("years.vec", what = integer(), quiet = TRUE)
+numchamber <- scan("chamber.vec", what = integer(), quiet = TRUE)
+
+# cosponsor vector
 cosponsors_raw <- readLines("cosponsors.vec")
+cosponsors_raw <- cosponsors_raw[-1]               # drop first blank line
+cosponsors_raw[cosponsors_raw == "NA"] <- ""       # normalize NA -> empty
 
-# remove the first blank line from cosponsors; note that sponsors, years, and chamber all implicitly drop this line
-cosponsors_raw <- cosponsors_raw[-1]
-
-# cleaning the cosponsor vector to convert "NA" to empty list to best align with original data processing
-cosponsors_raw[cosponsors_raw == "NA"] <- ""
-
-# remove trailing blank line ONLY if too long
 if (length(cosponsors_raw) > length(sponsors)) {
-    cosponsors_raw <- cosponsors_raw[1:length(sponsors)]
+  cosponsors_raw <- cosponsors_raw[1:length(sponsors)]
 }
-
 cosponsors <- cosponsors_raw
 
-# verifying length of vectors--all must be the same
-length(sponsors); length(years); length(chamber); length(cosponsors)
-if(!(length(sponsors)==length(years) &&
-length(years)==length(chamber) &&
-length(chamber)==length(cosponsors))) {
-stop("ERROR: sponsors/years/chamber/cosponsors are not the same length.")
+sponsor_party   <- readLines("sponsor_party.vec")
+cosponsors_party <- readLines("cosponsors_party.vec")
+
+# cheatsheet for ICPSR -> name
+icpsr_house <- read.csv("ICPSR_house_cheatsheet.csv", stringsAsFactors = FALSE)
+
+# standardizing cheatsheet columns
+names(icpsr_house) <- tolower(names(icpsr_house))
+icpsr_house$icpsr <- as.integer(icpsr_house$icpsr)
+icpsr_house$name  <- trimws(icpsr_house$name)
+
+icpsr_to_name <- setNames(icpsr_house$name, as.character(icpsr_house$icpsr))
+
+# length checks (everything that should align with bills)
+lens <- c(
+  sponsors = length(sponsors),
+  years = length(years),
+  numchamber = length(numchamber),
+  cosponsors = length(cosponsors),
+  sponsor_party = length(sponsor_party),
+  cosponsors_party = length(cosponsors_party)
+)
+print(lens)
+
+if (!(lens["sponsors"] == lens["years"] &&
+      lens["years"] == lens["numchamber"] &&
+      lens["numchamber"] == lens["cosponsors"] &&
+      lens["cosponsors"] == lens["sponsor_party"] &&
+      lens["sponsor_party"] == lens["cosponsors_party"])) {
+  stop("ERROR: One or more vectors are not the same length. See printed lengths above.")
 }
 ```
 
 ```{r}
+## AFTER THIS ONLY HOUSE BILLS EXIST IN THIS FILE
 # separate bills into house and senate (H=2, S=1 in numchamber)
 # house is length 98414
 
-hs <- sponsors[numchamber==2]
-hcs <- cosponsors[numchamber==2]
-hyears <- years[numchamber==2]
-
+house_idx <- which(numchamber == 2)
+hs            <- sponsors[house_idx]
+hcs           <- cosponsors[house_idx]
+hyears        <- years[house_idx]
+hs_party      <- sponsor_party[house_idx]
+hcs_party     <- cosponsors_party[house_idx]
 ```
 
 ```{r}
@@ -148,6 +171,7 @@ percentage_substantive <- total_substantive / total_HRs
 ```
 
 ```{r}
+## Graph creation for productivity over time
 library(ggplot2)
 library(tidyr)
 library(scales)

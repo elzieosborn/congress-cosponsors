@@ -12,6 +12,71 @@ library(igraph)
 ```
 
 ```{r}
+## read in the data
+
+# core vectors
+sponsors   <- scan("sponsors.vec", what = integer(), quiet = TRUE)
+years      <- scan("years.vec", what = integer(), quiet = TRUE)
+numchamber <- scan("chamber.vec", what = integer(), quiet = TRUE)
+
+# cosponsor vector
+cosponsors_raw <- readLines("cosponsors.vec")
+cosponsors_raw <- cosponsors_raw[-1]               # drop first blank line
+cosponsors_raw[cosponsors_raw == "NA"] <- ""       # normalize NA -> empty
+
+if (length(cosponsors_raw) > length(sponsors)) {
+  cosponsors_raw <- cosponsors_raw[1:length(sponsors)]
+}
+cosponsors <- cosponsors_raw
+
+sponsor_party   <- readLines("sponsor_party.vec")
+cosponsors_party <- readLines("cosponsors_party.vec")
+
+# cheatsheet for ICPSR -> name
+icpsr_house <- read.csv("ICPSR_senate_cheatsheet.csv", stringsAsFactors = FALSE)
+
+# standardizing cheatsheet columns
+names(icpsr_house) <- tolower(names(icpsr_house))
+icpsr_house$icpsr <- as.integer(icpsr_house$icpsr)
+icpsr_house$name  <- trimws(icpsr_house$name)
+
+icpsr_to_name <- setNames(icpsr_house$name, as.character(icpsr_house$icpsr))
+
+# length checks (everything that should align with bills)
+lens <- c(
+  sponsors = length(sponsors),
+  years = length(years),
+  numchamber = length(numchamber),
+  cosponsors = length(cosponsors),
+  sponsor_party = length(sponsor_party),
+  cosponsors_party = length(cosponsors_party)
+)
+print(lens)
+
+if (!(lens["sponsors"] == lens["years"] &&
+      lens["years"] == lens["numchamber"] &&
+      lens["numchamber"] == lens["cosponsors"] &&
+      lens["cosponsors"] == lens["sponsor_party"] &&
+      lens["sponsor_party"] == lens["cosponsors_party"])) {
+  stop("ERROR: One or more vectors are not the same length. See printed lengths above.")
+}
+```
+
+```{r}
+## AFTER THIS ONLY SENATE BILLS EXIST IN THIS FILE
+# separate bills into house and senate (H=2, S=1 in numchamber)
+# house is length 52891
+
+senate_idx <- which(numchamber == 1)
+ss            <- sponsors[senate_idx]
+scs           <- cosponsors[senate_idx]
+syears        <- years[senate_idx]
+ss_party      <- sponsor_party[senate_idx]
+scs_party     <- cosponsors_party[senate_idx]
+
+```
+
+```{r}
 ## Calculates Senate Productivity Percentages for Each Congress 108-118
 library(readxl)
 library(stringr)
