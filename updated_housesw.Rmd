@@ -1,7 +1,7 @@
 ---
 title: "updated_housesw.Rmd"
 author: "lizzie tucker and Prof. Wendy Tam"
-last updated: "2025-12-26"
+last updated: "2025-12-30"
 output: html_document
 ---
 
@@ -65,6 +65,60 @@ if (!(lens["sponsors"] == lens["years"] &&
 ```
 
 ```{r}
+## Used this to build the bill_congress.vec, but still run this even if you have that because it sets up important variables for graphing and bipartisanship calculations.
+## Builds global mapping: bill index to congress number (108–118)
+## Uses per-Congress sponsors_by_icpsr_id_XXX.csv as ground truth for bill ordering/counts
+congresses <- 108:118
+
+# count bills in each congress from per-congress subfolders
+bill_counts <- vapply(congresses, function(cg) {
+  path <- file.path(as.character(cg), paste0("sponsors_by_icpsr_id_", cg, ".csv"))
+  if (!file.exists(path)) stop("Missing file: ", path)
+  nrow(read.csv(path, stringsAsFactors = FALSE))
+}, integer(1))
+
+bill_counts
+sum(bill_counts)
+
+# compute start/end global indices for each congress
+start_idx <- cumsum(c(1, head(bill_counts, -1)))
+end_idx   <- cumsum(bill_counts)
+
+congress_ranges <- data.frame(
+  congress = congresses,
+  start = start_idx,
+  end = end_idx,
+  n_bills = bill_counts
+)
+
+print(congress_ranges)
+
+# build bill to congress mapping for ALL bills in vectors
+bill_congress <- rep(NA_integer_, length(sponsors))
+for (k in seq_along(congresses)) {
+  bill_congress[start_idx[k]:end_idx[k]] <- congresses[k]
+}
+
+stopifnot(length(bill_congress) == length(sponsors))
+stopifnot(all(!is.na(bill_congress)))
+
+# convenience: function to get indices for a given congress (global indices)
+indices_for_congress <- function(cg) {
+  which(bill_congress == cg)
+}
+
+# example use for later:
+# idx_118 <- indices_for_congress(118)
+# idx_house_118 <- idx_118[numchamber[idx_118] == 2]
+```
+
+```{r}
+## Save bill_congress.vec IF NOT already saved. Makes the data more scalable. 
+## Don't have to do this if it is already saved.
+writeLines(as.character(bill_congress), "bill_congress.vec")
+```
+
+```{r}
 ## AFTER THIS ONLY HOUSE BILLS EXIST IN THIS FILE
 # separate bills into house and senate (H=2, S=1 in numchamber)
 # house is length 98414
@@ -75,6 +129,7 @@ hcs           <- cosponsors[house_idx]
 hyears        <- years[house_idx]
 hs_party      <- sponsor_party[house_idx]
 hcs_party     <- cosponsors_party[house_idx]
+hcongress <- bill_congress[house_idx]
 ```
 
 ```{r}
