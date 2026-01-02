@@ -131,6 +131,73 @@ scongress <- bill_congress[senate_idx]
 ```
 
 ```{r}
+## Bipartisan cosponsorship score
+## Takes about 15 seconds to run
+
+# splits a party line into tokens
+split_party_tokens <- function(line) {
+  if (is.na(line)) return(character(0))
+  line <- trimws(line)
+  if (line == "" || toupper(line) == "NA") return(character(0))
+  toks <- unlist(strsplit(line, "\\s+"))
+  toks <- toks[toks != ""]
+  toupper(toks)
+}
+
+# normalizes sponsor party (single token)
+norm_party <- function(p) {
+  if (is.na(p)) return(NA_character_)
+  p <- toupper(trimws(p))
+  if (p == "" || p == "NA") return(NA_character_)
+  p
+}
+
+# compute bill-level bipartisanship score
+# score_i = (# cosponsors with party != sponsor party) / (# cosponsors with known party)
+
+# pre-split cosponsor party lines once
+cosponsor_party_list <- lapply(scs_party, split_party_tokens)
+
+bill_score <- mapply(function(sp, cp) {
+  sp <- norm_party(sp)
+  if (is.na(sp)) return(NA_real_)
+
+  if (length(cp) == 0) return(NA_real_)
+  cp <- cp[cp %in% c("D", "R", "I")]
+  if (length(cp) == 0) return(NA_real_)
+
+  mean(cp != sp)
+}, ss_party, cosponsor_party_list)
+
+# summarize by Congress
+congresses_here <- sort(unique(scongress))
+
+bipartisan_by_congress <- data.frame(
+  congress = congresses_here,
+  n_bills = as.integer(table(scongress)[as.character(congresses_here)]),
+  n_scored_bills = NA_integer_,
+  mean_bill_bipartisan_share = NA_real_,
+  median_bill_bipartisan_share = NA_real_
+)
+
+for (k in seq_along(congresses_here)) {
+  cg <- congresses_here[k]
+  idx <- which(scongress == cg)
+
+  scores <- bill_score[idx]
+  scores <- scores[!is.na(scores)]
+
+  bipartisan_by_congress$n_scored_bills[k] <- length(scores)
+  bipartisan_by_congress$mean_bill_bipartisan_share[k] <-
+    if (length(scores) == 0) NA_real_ else mean(scores)
+  bipartisan_by_congress$median_bill_bipartisan_share[k] <-
+    if (length(scores) == 0) NA_real_ else median(scores)
+}
+
+bipartisan_by_congress
+```
+
+```{r}
 ## Calculates Senate Productivity Percentages for Each Congress 108-118
 library(readxl)
 library(stringr)

@@ -133,6 +133,72 @@ hcongress <- bill_congress[house_idx]
 ```
 
 ```{r}
+## Bipartisan cosponsorship score (bill-level, averaged within each Congress)
+## takes about 15 seconds to run
+
+# splits a party line into tokens
+split_party_tokens <- function(line) {
+  if (is.na(line)) return(character(0))
+  line <- trimws(line)
+  if (line == "" || toupper(line) == "NA") return(character(0))
+  toks <- unlist(strsplit(line, "\\s+"))
+  toks <- toks[toks != ""]
+  toupper(toks)
+}
+
+# normalize sponsor party (single token)
+norm_party <- function(p) {
+  if (is.na(p)) return(NA_character_)
+  p <- toupper(trimws(p))
+  if (p == "" || p == "NA") return(NA_character_)
+  p
+}
+
+# compute bill-level bipartisanship score:
+# score_i = (# cosponsors with party != sponsor party) / (# cosponsors with known party)
+bill_score <- rep(NA_real_, length(hs))
+
+for (i in seq_along(hs)) {
+  sp <- norm_party(hs_party[i])
+  if (is.na(sp)) next
+
+  cp <- split_party_tokens(hcs_party[i])
+  if (length(cp) == 0) next
+
+  # keep only known party tokens (D/R/I)
+  cp <- cp[cp %in% c("D", "R", "I")]
+  if (length(cp) == 0) next
+
+  bill_score[i] <- mean(cp != sp)
+}
+
+# summarize by congress
+congresses_here <- sort(unique(hcongress))
+
+bipartisan_by_congress <- data.frame(
+  congress = congresses_here,
+  n_bills = as.integer(table(hcongress)[as.character(congresses_here)]),
+  n_scored_bills = NA_integer_,
+  mean_bill_bipartisan_share = NA_real_,
+  median_bill_bipartisan_share = NA_real_
+)
+
+for (k in seq_along(congresses_here)) {
+  cg <- congresses_here[k]
+  idx <- which(hcongress == cg)
+
+  scores <- bill_score[idx]
+  scores <- scores[!is.na(scores)]
+
+  bipartisan_by_congress$n_scored_bills[k] <- length(scores)
+  bipartisan_by_congress$mean_bill_bipartisan_share[k] <- if (length(scores) == 0) NA_real_ else mean(scores)
+  bipartisan_by_congress$median_bill_bipartisan_share[k] <- if (length(scores) == 0) NA_real_ else median(scores)
+}
+
+bipartisan_by_congress
+```
+
+```{r}
 ## create cosponsorship ties
 ## output is
 ##    sponsor cosponsor
