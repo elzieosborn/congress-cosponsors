@@ -1,0 +1,1 @@
+The yamls in this folder are from https://github.com/unitedstates/congress-legislators. They are up-to-date as of December 15th. Please continue to download the most recent yamls from this site, as the ICPSR ids for legislators are still updating for the 117th and 118th congresses, and keeping these sheets up to date will improve the quality of this code.

@@ -1,20 +1,24 @@
 ---
 title: "updated_housesw.Rmd"
 author: "lizzie tucker and Prof. Wendy Tam"
-last updated: "2025-12-30"
+last updated: "2026-01-11"
 output: html_document
 ---
 
 ```{r setup, include=TRUE}
-# Change working directory to wherever your clone is
+# Change working directory to wherever your clone is, drop yours in here
 setwd("C:/Users/lizzi/congress/data")
-# Load required packages
+# Loads required packages
 library(sna)
 library(igraph)
+library(dplyr)
+library(tidyr)
+library(readxl)
+library(stringr)
 ```
 
 ```{r}
-## read in the data
+## reads in the data
 
 # core vectors
 sponsors   <- scan("sponsors.vec", what = integer(), quiet = TRUE)
@@ -111,11 +115,64 @@ indices_for_congress <- function(cg) {
 # idx_118 <- indices_for_congress(118)
 # idx_house_118 <- idx_118[numchamber[idx_118] == 2]
 ```
+```{r}
+## Builds bill_id and bill_type vectors that align with the sponsor, bill_year, etc. vectors (bill per line ordering). Use this later for the productivity calculations since those are bill_id identified. Concatenates per-congress sponsors_by_icpsr_id_XXX.csv files.
+# Ideally I would have done this in the Powershell initial build, but I don't want to rerun that entire thing right now for time's sake, so a suggestion for future work would be to make building these a part of the build_global_vecs.ps1 instead
+
+congresses <- 108:118
+
+build_bill_id_vecs <- function(congresses) {
+  bill_ids  <- character(0)
+  bill_type <- character(0)
+
+  for (cg in congresses) {
+    path <- file.path(as.character(cg), paste0("sponsors_by_icpsr_id_", cg, ".csv"))
+    if (!file.exists(path)) stop("Missing file: ", path)
+
+    df <- read.csv(path, stringsAsFactors = FALSE)
+
+    if (!("bill_id" %in% names(df))) {
+      stop("CSV ", path, " does not contain a bill_id column")
+    }
+
+    # bill_id should look like "hr10549-118"
+    ids <- as.character(df$bill_id)
+    ids[is.na(ids) | trimws(ids) == ""] <- "NA"
+
+    # derive bill_type from bill_id prefix (hr, s, hjres, etc)
+    bt <- tolower(gsub("^([a-z]+).*", "\\1", ids))
+    bt[ids == "NA"] <- "NA"
+
+    bill_ids  <- c(bill_ids, ids)
+    bill_type <- c(bill_type, bt)
+  }
+
+  list(bill_id = bill_ids, bill_type = bill_type)
+}
+
+tmp <- build_bill_id_vecs(congresses)
+bill_id_vec   <- tmp$bill_id
+bill_type_vec <- tmp$bill_type
+
+# sanity: MUST match global vector length
+if (length(bill_id_vec) != length(sponsors)) {
+  stop(
+    "Mismatch: combined CSV bill_id_vec has ", length(bill_id_vec),
+    " rows but sponsors.vec has ", length(sponsors),
+    ". That means the CSVs you're stacking are not the exact ones used to build sponsors.vec (or order differs)."
+  )
+}
+
+cat("Built bill_id_vec and bill_type_vec with", length(bill_id_vec), "rows\n")
+```
 
 ```{r}
 ## Save bill_congress.vec IF NOT already saved. Makes the data more scalable. 
+## Same with the bill_id.vec and bill_type.vec
 ## Don't have to do this if it is already saved.
 writeLines(as.character(bill_congress), "bill_congress.vec")
+writeLines(bill_id_vec, "bill_id.vec")
+writeLines(bill_type_vec, "bill_type.vec")
 ```
 
 ```{r}
@@ -130,6 +187,8 @@ hyears        <- years[house_idx]
 hs_party      <- sponsor_party[house_idx]
 hcs_party     <- cosponsors_party[house_idx]
 hcongress <- bill_congress[house_idx]
+hbills <-bill_id_vec[house_idx]
+hbtype <-bill_type_vec[house_idx]
 ```
 
 ```{r}
@@ -199,6 +258,90 @@ bipartisan_by_congress
 ```
 
 ```{r}
+## Normalizes bill IDs so significance_encoding bill ids match the icpsr_id_CONGRESSNUMBER CSV bill_id format (and any downloadable data from congress) ("hr10549-118")
+# I use this later in the file during the significance data processing to create the proper dataframe asssigning cateogories for productivity to each bill listed in those corresponding spreadsheets. 
+
+normalize_bill_id <- function(x, default_congress = NA_integer_) {
+  x <- tolower(str_trim(as.character(x)))
+
+  # drop empties
+  x[x == "" | is.na(x)] <- NA_character_
+
+  # remove spaces and dots if they're there
+  x <- gsub("[[:space:]\\.]", "", x)
+
+  # extract bill type + number
+  x <- gsub("^h\\.r\\.", "hr", x)
+  x <- gsub("^s\\.res\\.", "sres", x)
+  x <- gsub("^h\\.res\\.", "hres", x)
+  x <- gsub("^h\\.j\\.res\\.", "hjres", x)
+  x <- gsub("^s\\.j\\.res\\.", "sjres", x)
+  x <- gsub("^h\\.con\\.res\\.", "hconres", x)
+  x <- gsub("^s\\.con\\.res\\.", "sconres", x)
+
+  # normalize to "hr10549" format
+  x <- gsub("[-_]", "", x)
+
+  # if already like "hr10549-118", keep it
+  already <- grepl("^[a-z]+[0-9]+\\-[0-9]{3}$", x)
+  out <- x
+  out[already] <- x[already]
+
+  # if like "hr10549" with no -118, append congress
+  no_cong <- grepl("^[a-z]+[0-9]+$", x)
+  if (!is.na(default_congress)) {
+    out[no_cong] <- paste0(x[no_cong], "-", default_congress)
+  } else {
+    out[no_cong] <- NA_character_  # we need congress tho
+  }
+
+  out
+}
+
+## Reads SS and Commemorative sheets into (congress, bill_id) pairs
+read_bill_sheet <- function(path, category_label, congresses = 108:118) {
+  df <- read_excel(path)
+
+  # removing any extra columns, helpful if extra data put in the sheets
+  keep_cols <- intersect(names(df), as.character(congresses))
+  if (length(keep_cols) == 0) stop("No congress-number columns found in ", path)
+
+  out <- list()
+  k <- 1
+
+  for (cg in congresses) {
+    col <- as.character(cg)
+    if (!col %in% keep_cols) next
+
+    bills <- df[[col]]
+    bills <- bills[!is.na(bills) & str_trim(as.character(bills)) != ""]
+
+    if (length(bills) == 0) next
+
+    out[[k]] <- data.frame(
+      congress = cg,
+      bill_id = normalize_bill_id(bills, default_congress = cg),
+      category = category_label,
+      stringsAsFactors = FALSE
+    )
+    k <- k + 1
+  }
+
+  res <- do.call(rbind, out)
+  res <- res[!is.na(res$bill_id), ]
+  res
+}
+
+ss_bills_house <- read_bill_sheet("significance_encodings/SSListHouse.xlsx", "SS", congresses)
+c_bills_house  <- read_bill_sheet("significance_encodings/CListHouse.xlsx",  "C",  congresses)
+
+# preview checks to make sure it's working
+cat("SS bills loaded:", nrow(ss_bills_house), "\n")
+cat("C bills loaded:", nrow(c_bills_house), "\n")
+head(ss_bills_house)
+```
+
+```{r}
 ## create cosponsorship ties
 ## output is
 ##    sponsor cosponsor
@@ -226,17 +369,214 @@ edges <- function(spons, cospons) {
 ```
 
 ```{r}
-## next adapting the adj matrix, but need to create the updated ICPSR id list
-## first--can do this by running code in new database--will make a scalable
-## script
-1 + 1
+## Network graph builder: one Congress is one igraph object, builds a directed graph for prestige and uses the undirected graph for all other measurements
+## Uses hs/hcs/hcongress (already House-only) and the above edges() chunk
+
+library(igraph)
+
+getgraphs_congress <- function(cg) {
+  idx <- which(hcongress == cg)
+
+  # temp vars with house spon and cospons
+  temphs  <- hs[idx]
+  temphcs <- hcs[idx]
+
+  # dropping NA sponsors
+  ok <- !is.na(temphs)
+  temphs  <- temphs[ok]
+  temphcs <- temphcs[ok]
+
+  # building sponsor-cosponsor edge list (sponsor -> cosponsor)
+  e <- edges(temphs, temphcs)
+  if (is.null(e) || nrow(e) == 0) {
+    return(list(
+      undir = make_empty_graph(),
+      dir   = make_empty_graph()
+    ))
+  }
+
+  edf <- data.frame(from = e[,1], to = e[,2])
+
+  # directed graph: sponsor -> cosponsor (used this to do prestige bc online it said prestige had to be directed)
+  g_dir <- graph_from_data_frame(edf, directed = TRUE)
+
+  # undirected graph: ignore direction (small-world + standard centrality/betweenness here)
+  g_undir <- graph_from_data_frame(edf, directed = FALSE)
+
+  # remove multi-edges + self-loops (mirrors your old simplify behavior)
+  g_dir   <- simplify(g_dir, remove.multiple = TRUE, remove.loops = TRUE)
+  g_undir <- simplify(g_undir, remove.multiple = TRUE, remove.loops = TRUE)
+
+  list(undir = g_undir, dir = g_dir)
+}
 ```
 
 ```{r}
-## Calculates House Productivity Percentages for Each Congress 108-118
-library(readxl)
-library(stringr)
+## computes average path length on the giant component (biggest part of the 
+## graph) for disconnected graphs, found most of this on Github
 
+avg_path_giant <- function(g) {
+  if (vcount(g) < 2 || ecount(g) == 0) return(NA_real_)
+
+  comps <- components(g)
+  giant_nodes <- which(comps$membership == which.max(comps$csize))
+  giant <- induced_subgraph(g, giant_nodes)
+
+  if (vcount(giant) < 2 || ecount(giant) == 0) return(NA_real_)
+
+  mean_distance(giant, directed = FALSE)
+}
+```
+
+```{r}
+## network stats (mirrors old code's getstats)
+## cc = clustering, pl = average path, dens = density, Q = small-world quotient
+
+
+getstats_igraph <- function(g_undir, g_dir) {
+
+  # node/edge counts (use undirected for base size)
+  n <- vcount(g_undir)
+  m <- ecount(g_undir)
+  cc   <- transitivity(g_undir, type = "global")
+  dens <- edge_density(g_undir, loops = FALSE)
+  k    <- mean(degree(g_undir))
+  pl   <- avg_path_giant(g_undir)
+
+  rcc <- k / n
+  rpl <- if (k <= 1) NA_real_ else (log(n) / log(k))
+
+  Q <- if (is.na(cc) || is.na(rcc) || is.na(pl) || is.na(rpl) || rcc == 0 || rpl == 0) {
+    NA_real_
+  } else {
+    (cc / rcc) / (pl / rpl)
+  }
+
+  ## centrality undirected
+  # normalized degree centrality = degree / (n-1)
+  deg <- degree(g_undir)
+  deg_norm <- if (n > 1) deg / (n - 1) else rep(NA_real_, n)
+
+  degree_centrality_mean   <- mean(deg_norm, na.rm = TRUE)
+  degree_centrality_median <- median(deg_norm, na.rm = TRUE)
+
+  ## betweenness--undirected
+  btw <- betweenness(g_undir, directed = FALSE, normalized = TRUE)
+
+  betweenness_mean   <- mean(btw, na.rm = TRUE)
+  betweenness_median <- median(btw, na.rm = TRUE)
+
+  ## prestige--directed
+  # prestige as normalized indegree on directed sponsor -> cosponsor graph
+  # prestige here is measuring how active a cosponsor is/how many times they choose to cosponsor essentially
+  # this mirrors the logic of the original code
+  n_dir <- vcount(g_dir)
+  m_dir <- ecount(g_dir)
+
+  if (n_dir < 2 || m_dir == 0) {
+    prestige_indegree_mean   <- NA_real_
+    prestige_indegree_median <- NA_real_
+    pagerank_mean            <- NA_real_
+    pagerank_median          <- NA_real_
+  } else {
+    indeg <- degree(g_dir, mode = "in")
+    indeg_norm <- if (n_dir > 1) indeg / (n_dir - 1) else rep(NA_real_, n_dir)
+
+    prestige_indegree_mean   <- mean(indeg_norm, na.rm = TRUE)
+    prestige_indegree_median <- median(indeg_norm, na.rm = TRUE)
+
+    pr <- page_rank(g_dir, directed = TRUE)$vector
+    pagerank_mean   <- mean(pr, na.rm = TRUE)
+    pagerank_median <- median(pr, na.rm = TRUE)
+  }
+
+  c(
+    cc = cc, rcc = rcc, pl = pl, rpl = rpl, dens = dens, Q = Q,
+    degree_centrality_mean = degree_centrality_mean,
+    degree_centrality_median = degree_centrality_median,
+    betweenness_mean = betweenness_mean,
+    betweenness_median = betweenness_median,
+    prestige_indegree_mean = prestige_indegree_mean,
+    prestige_indegree_median = prestige_indegree_median,
+    pagerank_mean = pagerank_mean,
+    pagerank_median = pagerank_median
+  )
+}
+```
+
+```{r}
+## Runs stats for each Congress and stores the table
+## The reason that the node and edges numbers for the 117th and 118th congress seem low is because they ARE. Due to this Rmd being based in ICPSR id, we are missing some congresspeople and their corresponding cosponsorships within the node list for both of these congresses because the legislator yamls have not been updated with these congresspeople's bioguide to ICPSR id mapping yet (mostly because some of these congresspeople don't have their ICPSR assigned yet). This dataset uses the gold standard set for congresspeople, but this will be a limitation for the 117th and 118th congesses until the datasets here update (within 2 years) https://github.com/unitedstates/congress-legislators. 
+## Additionally, I looked into the slightly lower number of cosponsorship ties for the 112th—114th congresses and it looks to align with the actual number of cosponsorships that happened on bills from these years. I looked up why this could be since this would have been starting in 2011 and ending in 2017, which is a large range, and based on what I could find this does align with party polarization data. In this, it says that bipartisan support on bills as a whole hit an all time low in 2011 with it dropping to 21% (the first dip) with it only stabilizing in 2017 slightly to 24%. This does align with the data and what we see, as with the 115th congress starting in 2017, we start to see this cosponsorship number rise.
+
+congress_list <- sort(unique(hcongress))
+
+netstats_by_congress <- data.frame(
+  congress = congress_list,
+
+  # small-world & density
+  cc = NA_real_, rcc = NA_real_,
+  pl = NA_real_, rpl = NA_real_,
+  dens = NA_real_, Q = NA_real_,
+
+  # centrality & betweenness both undirected
+  degree_centrality_mean = NA_real_,
+  degree_centrality_median = NA_real_,
+  betweenness_mean = NA_real_,
+  betweenness_median = NA_real_,
+
+  # prestige--directed
+  prestige_indegree_mean = NA_real_,
+  prestige_indegree_median = NA_real_,
+  pagerank_mean = NA_real_,
+  pagerank_median = NA_real_,
+
+  # sizes per graph
+  n_nodes = NA_integer_, n_edges = NA_integer_,
+  n_nodes_dir = NA_integer_, n_edges_dir = NA_integer_,
+
+  # giant component info
+  giant_nodes = NA_integer_, giant_edges = NA_integer_
+)
+
+for (i in seq_along(congress_list)) {
+  cg <- congress_list[i]
+  cat("Computing network stats for Congress", cg, "\n")
+
+  gs <- getgraphs_congress(cg)
+  g_undir <- gs$undir
+  g_dir   <- gs$dir
+
+  # sizes
+  netstats_by_congress$n_nodes[i] <- vcount(g_undir)
+  netstats_by_congress$n_edges[i] <- ecount(g_undir)
+
+  netstats_by_congress$n_nodes_dir[i] <- vcount(g_dir)
+  netstats_by_congress$n_edges_dir[i] <- ecount(g_dir)
+
+  # record giant size
+  if (vcount(g_undir) > 0 && ecount(g_undir) > 0) {
+    comps <- components(g_undir)
+    giant_idx <- which(comps$membership == which.max(comps$csize))
+    giant <- induced_subgraph(g_undir, giant_idx)
+    netstats_by_congress$giant_nodes[i] <- vcount(giant)
+    netstats_by_congress$giant_edges[i] <- ecount(giant)
+  }
+
+  # compute stats
+  s <- getstats_igraph(g_undir, g_dir)
+
+  # write into the correct columns by name
+  netstats_by_congress[i, names(s)] <- s
+}
+
+netstats_by_congress
+```
+
+
+```{r}
+## Calculates House Productivity Percentages for Each Congress 108-118 as a WHOLE, see code below for calculations that assign each bill its specific productivity level based on Legislative Effectiveness Score (LES) classifications
+# Please see the note in the last data chunk  of this file for why these numbers should be taken with a grain of salt--but the constants below are correct even if some of the data.json files within the bill folders are missing
 # Constants pulled from data folders
 congresses <- 108:118
 
@@ -254,7 +594,7 @@ total_HRs <- c(
   `118` = 10564
 )
 
-# helper: Counts non-empty entries in each congress column 
+# counts non-empty entries in each congress column 
 count_entries_by_congress <- function(path, congresses = 108:118) {
   df <- read_excel(path)
 
@@ -267,7 +607,7 @@ count_entries_by_congress <- function(path, congresses = 108:118) {
   }, integer(1))
 }
 
-# Pulls counts from House spreadsheets
+# pulls counts from House spreadsheets
 total_commemorative <- count_entries_by_congress(
   "significance_encodings/CListHouse.xlsx",
   congresses
@@ -278,26 +618,26 @@ total_subsig <- count_entries_by_congress(
   congresses
 )
 
-# Calculates percentages and substantive total
+# calculates percentages and substantive total
 total_substantive <- total_HRs - (total_subsig + total_commemorative)
 
 percentage_com         <- total_commemorative / total_HRs
 percentage_subsig      <- total_subsig / total_HRs
 percentage_substantive <- total_substantive / total_HRs
 
-# Example single variable use
+# ex single variable use
 # total_commemorative["108"]
 # total_subsig["115"]
 # percentage_substantive["118"]
 ```
 
 ```{r}
-## Graph creation for productivity over time
+## graph creation for productivity over time
 library(ggplot2)
 library(tidyr)
 library(scales)
 
-# Build plotting dataframe from existing variables
+# builds plotting dataframe from existing variables
 plot_df <- data.frame(
   congress = congresses,
   commemorative = percentage_com,
@@ -305,7 +645,7 @@ plot_df <- data.frame(
   substantive = percentage_substantive
 )
 
-# Reshape for ggplot
+# reshapes for ggplot
 plot_long <- pivot_longer(
   plot_df,
   cols = -congress,
@@ -313,14 +653,14 @@ plot_long <- pivot_longer(
   values_to = "percentage"
 )
 
-# Labels
+# labels
 plot_long$category <- factor(
   plot_long$category,
   levels = c("substantive", "subsignificant", "commemorative"),
   labels = c("Substantive", "Substantive and Significant", "Commemorative")
 )
 
-# Plot
+# plot
 ggplot(plot_long, aes(x = congress, y = percentage, color = category)) +
   geom_line(linewidth = 1.2) +
   geom_point(size = 2) +
@@ -334,4 +674,291 @@ ggplot(plot_long, aes(x = congress, y = percentage, color = category)) +
   ) +
   theme_minimal(base_size = 13)
 
+```
+
+```{r}
+## computing bipartisanship score on a subset of House rows
+
+compute_bill_score_subset <- function(row_idx) {
+  scores <- rep(NA_real_, length(row_idx))
+
+  for (j in seq_along(row_idx)) {
+    i <- row_idx[j]
+
+    sp <- norm_party(hs_party[i])
+    if (is.na(sp)) next
+
+    cp <- split_party_tokens(hcs_party[i])
+    if (length(cp) == 0) next
+
+    cp <- cp[cp %in% c("D","R","I")]
+    if (length(cp) == 0) next
+
+    scores[j] <- mean(cp != sp)
+  }
+
+  scores
+}
+
+summarize_scores <- function(scores) {
+  scores <- scores[!is.na(scores)]
+  c(
+    n_scored_bills = length(scores),
+    mean_bill_bipartisan_share = if (length(scores) == 0) NA_real_ else mean(scores),
+    median_bill_bipartisan_share = if (length(scores) == 0) NA_real_ else median(scores)
+  )
+}
+```
+
+```{r}
+## bipartisanship calculations by productivity category
+## NOTE: This code is RIGHT and does calculate the bipartisanship score per productivity category for each congress, but I found an issue with my underlying data that causes discrepancies between the number of bills listed on a sheet and the number of bills matched within my dataset within the scores for congressess 109 (), 110, 111, 114, and 118, but for 114 and 118 the bipartisanship scores are correct for substantive and significant bills, just not for substantive or commemorative. Take these scores with a grain of salt, and the way to fix them will be to go to this repo: https://github.com/unitedstates/congress/wiki/bills and redownload the bills to try and see if the ones that aren't in the repo were just corrupted on the first download. If I had more time, I would do this.
+
+# gers hr number from hbills like "hr10549-118" to "10549"
+extract_hr_number <- function(bill_id) {
+  x <- tolower(trimws(as.character(bill_id)))
+  x[x == "" | is.na(x)] <- NA_character_
+
+  # drop congress suffix like "-118"
+  x <- sub("\\-[0-9]{3}$", "", x)
+
+  # drop "hr" prefix
+  x <- sub("^hr", "", x)
+
+  # keep digits only
+  x <- gsub("[^0-9]", "", x)
+
+  x[x == ""] <- NA_character_
+  x
+}
+
+# normalizes spreadsheet cells for spaces and sci notation, this is only needed if you're messing with the spreadsheets but I put it in here for good practice and to rule out this being the issue for why we're missing some of the bills listed
+normalize_sheet_number <- function(v) {
+  # if readxl gave us numeric, format() avoids scientific notation
+  if (is.numeric(v)) {
+    v <- format(v, scientific = FALSE, trim = TRUE)
+  } else {
+    v <- as.character(v)
+  }
+
+  v <- trimws(v)
+  v[v == "" | is.na(v)] <- NA_character_
+
+  # remove commas and trailing .0
+  v <- gsub(",", "", v)
+  v <- gsub("\\.0+$", "", v)
+
+  # keep only digits
+  v <- gsub("[^0-9]", "", v)
+
+  v[v == "" | is.na(v)] <- NA_character_
+  v
+}
+
+# reads house CSVs per congress into (congress, hr_num) pairs as raw numbers ("10549")
+read_house_sheet_numbers <- function(path, category_label, congresses = 108:118) {
+  df <- readxl::read_excel(path)
+
+  keep_cols <- intersect(names(df), as.character(congresses))
+  if (length(keep_cols) == 0) stop("No congress-number columns found in ", path)
+
+  out <- list()
+  k <- 1
+
+  for (cg in congresses) {
+    col <- as.character(cg)
+    if (!col %in% keep_cols) next
+
+    vals <- df[[col]]
+    vals <- vals[!is.na(vals) & stringr::str_trim(as.character(vals)) != ""]
+    if (length(vals) == 0) next
+
+    nums <- normalize_sheet_number(vals)
+    nums <- nums[!is.na(nums)]
+    if (length(nums) == 0) next
+
+    out[[k]] <- data.frame(
+      congress = cg,
+      hr_num = nums,
+      category = category_label,
+      stringsAsFactors = FALSE
+    )
+    k <- k + 1
+  }
+
+  do.call(rbind, out)
+}
+
+congresses <- 108:118
+
+# builds per-congress sets of raw HR numbers from spreadsheets
+ss_nums <- read_house_sheet_numbers("significance_encodings/SSListHouse.xlsx", "SS", congresses)
+c_nums  <- read_house_sheet_numbers("significance_encodings/CListHouse.xlsx",  "C",  congresses)
+
+ss_set_by_congress <- split(ss_nums$hr_num, ss_nums$congress)
+c_set_by_congress  <- split(c_nums$hr_num,  c_nums$congress)
+
+# summarizer--mirrors the logic in the earlier bipartisanship scores but I put it here too for readibility
+summarize_scores <- function(scores) {
+  scores <- scores[!is.na(scores)]
+  c(
+    n_scored_bills = length(scores),
+    mean_bill_bipartisan_share = if (length(scores) == 0) NA_real_ else mean(scores),
+    median_bill_bipartisan_share = if (length(scores) == 0) NA_real_ else median(scores)
+  )
+}
+
+# computes scores for a congress:
+# - uses the house-only vectors already built (hs/hcs/hcongress/hbills/hbtype)
+# - restricts them to HR only (hbtype == "hr")
+# - then matches the productivity level bills listed with the bill entries from hbills by raw HR number within congress
+compute_one_congress_hrnum <- function(cg) {
+  # house rows for this congress
+  idx_cg <- which(hcongress == cg)
+
+  # restricts to HR rows inside this congress
+  idx_hr <- idx_cg[hbtype[idx_cg] == "hr"]
+
+  # extracts raw HR numbers for those rows
+  hr_nums <- extract_hr_number(hbills[idx_hr])
+
+  ss <- ss_set_by_congress[[as.character(cg)]]; if (is.null(ss)) ss <- character(0)
+  cc <- c_set_by_congress[[as.character(cg)]];  if (is.null(cc)) cc <- character(0)
+
+  # drops duplicates in the spreadsheet lists (cleaner diagnostics)
+  ss <- unique(ss)
+  cc <- unique(cc)
+
+  idx_SS  <- idx_hr[!is.na(hr_nums) & (hr_nums %in% ss)]
+  idx_C   <- idx_hr[!is.na(hr_nums) & (hr_nums %in% cc)]
+  idx_SUB <- setdiff(idx_hr, union(idx_SS, idx_C))
+
+  cat(
+    "Congress", cg,
+    "| HR rows:", length(idx_hr),
+    "| SS listed:", length(ss), "matched:", length(idx_SS),
+    "| C listed:", length(cc),  "matched:", length(idx_C), "\n"
+  )
+
+  sSS <- summarize_scores(bill_score[idx_SS])
+  sC  <- summarize_scores(bill_score[idx_C])
+  sS  <- summarize_scores(bill_score[idx_SUB])
+
+  data.frame(
+    congress = cg,
+    category = c("Substantive & Significant", "Commemorative", "Substantive"),
+    n_bills_in_category = c(length(idx_SS), length(idx_C), length(idx_SUB)),
+    n_scored_bills = c(sSS["n_scored_bills"], sC["n_scored_bills"], sS["n_scored_bills"]),
+    mean_bill_bipartisan_share = c(sSS["mean_bill_bipartisan_share"], sC["mean_bill_bipartisan_share"], sS["mean_bill_bipartisan_share"]),
+    median_bill_bipartisan_share = c(sSS["median_bill_bipartisan_share"], sC["median_bill_bipartisan_share"], sS["median_bill_bipartisan_share"]),
+    stringsAsFactors = FALSE
+  )
+}
+
+# runs the above for all congresses and binds the results
+house_bipartisan_by_productivity_hrnum <- dplyr::bind_rows(
+  lapply(congresses, compute_one_congress_hrnum)
+)
+
+house_bipartisan_by_productivity_hrnum
+```
+
+```{r}
+## No need to run this, but it was a big part of my investigation into an error I was getting with the bipartisanship scores for each productivity category. TLDR: The code I wrote is right, but there are issues with the underlying data I have.
+## Why are SS/C listed numbers not matching the actual number of entries in the spreadsheets?
+# Figured it out, it's because the ones getting dropped simply don't have data.json files within the central database, for example, hr2194 IS listed on the Substantive and Significant list for 111, but it doesn't have a data.json file in the database, meaning it doesn't "exist" within this data. This indicates an issue in either the central bills repo or more likely the bills download from the repo--listed here for convenience: https://github.com/unitedstates/congress/wiki/bills. If I had more time to check over this, I would re-download all the bills from this repo to see if this is a download corruption issue or if those bills are truly missing from the repo itself--which I doubt. This is not good, but luckily doesn't mean that the code in this file is wrong, just some of the underlying data. This means that with all the necessary data, the above code is right. 
+
+# To fix this if you've just hopped onto the project: Since I put the exact data I used into the repo that you got this file from for cloning, anyone who would need to add the new bills would just follow the directions linked in the repo below, and that should fill in the spots that were originally corrupted. They would, from there, just need to run the original powershell processor again (the build_global_vecs.ps1) then run the Rmd, but then everything SHOULD be fine and dandy.
+
+# extracts the congress suffix from hbills like "hr123-111" to 111
+extract_congress_from_billid <- function(bill_id) {
+  x <- tolower(trimws(as.character(bill_id)))
+  x[x == "" | is.na(x)] <- NA_character_
+  out <- suppressWarnings(as.integer(sub("^.*\\-([0-9]{3})$", "\\1", x)))
+  out
+}
+
+# extracts the numeric part from ANY house bill id (hr/hres/hjres/hconres/etc)
+extract_house_number_anytype <- function(bill_id) {
+  x <- tolower(trimws(as.character(bill_id)))
+  x[x == "" | is.na(x)] <- NA_character_
+  x <- sub("\\-[0-9]{3}$", "", x)     # drop -111
+  x <- sub("^[a-z]+", "", x)         # drop prefix letters (hr, hres, etc)
+  x <- gsub("[^0-9]", "", x)         # keep digits
+  x[x == ""] <- NA_character_
+  x
+}
+
+# precomputes per-row bill number for ALL house bills (not just hr)
+hb_num_any <- extract_house_number_anytype(hbills)
+
+# function to debugs a congress
+debug_one_congress <- function(cg, show_n = 25) {
+  idx_cg <- which(hcongress == cg)
+
+  # HR rows + their numbers
+  idx_hr <- idx_cg[hbtype[idx_cg] == "hr"]
+  hr_nums_in_data <- extract_hr_number(hbills[idx_hr])
+  hr_nums_in_data <- unique(hr_nums_in_data[!is.na(hr_nums_in_data)])
+
+  # sheet sets
+  ss <- ss_set_by_congress[[as.character(cg)]]; if (is.null(ss)) ss <- character(0)
+  cc <- c_set_by_congress[[as.character(cg)]];  if (is.null(cc)) cc <- character(0)
+  ss <- unique(ss); cc <- unique(cc)
+
+  # missing: listed on sheet but not present as HR in our data
+  miss_ss <- setdiff(ss, hr_nums_in_data)
+  miss_c  <- setdiff(cc, hr_nums_in_data)
+
+  cat("\n============================\n")
+  cat("Congress", cg, "\n")
+  cat("HR nums in data:", length(hr_nums_in_data), "\n")
+  cat("SS listed:", length(ss), "missing from HR data:", length(miss_ss), "\n")
+  cat("C  listed:", length(cc), "missing from HR data:", length(miss_c), "\n")
+
+  # classifying missing numbers: do they exist in our dataset under a different bill type???????/
+  classify_missing <- function(miss_vec) {
+    if (length(miss_vec) == 0) return(data.frame())
+    # find any rows in this congress whose numeric part matches, regardless of bill type
+    hits <- lapply(miss_vec, function(n) {
+      rows <- idx_cg[!is.na(hb_num_any[idx_cg]) & hb_num_any[idx_cg] == n]
+      if (length(rows) == 0) {
+        data.frame(num = n, present_any_type = FALSE, types_found = NA_character_, example_bill_id = NA_character_)
+      } else {
+        types <- unique(hbtype[rows])
+        ex_id <- hbills[rows[1]]
+        data.frame(num = n, present_any_type = TRUE, types_found = paste(sort(types), collapse = ","), example_bill_id = ex_id)
+      }
+    })
+    do.call(rbind, hits)
+  }
+
+  ss_class <- classify_missing(miss_ss)
+  c_class  <- classify_missing(miss_c)
+
+  # prints a sample
+  if (nrow(ss_class) > 0) {
+    cat("\nSS missing sample:\n")
+    print(head(ss_class, show_n))
+    cat("\nSS missing counts by 'present_any_type' and 'types_found':\n")
+    print(table(ss_class$present_any_type, ss_class$types_found, useNA = "ifany"))
+  }
+
+  if (nrow(c_class) > 0) {
+    cat("\nC missing sample:\n")
+    print(head(c_class, show_n))
+    cat("\nC missing counts by 'present_any_type' and 'types_found':\n")
+    print(table(c_class$present_any_type, c_class$types_found, useNA = "ifany"))
+  }
+
+  invisible(list(miss_ss = miss_ss, miss_c = miss_c, ss_class = ss_class, c_class = c_class))
+}
+
+# running it for the congresses where I saw drops
+dbg111 <- debug_one_congress(111)
+dbg109 <- debug_one_congress(109)
+dbg110 <- debug_one_congress(110)
+dbg114 <- debug_one_congress(114)
+dbg115 <- debug_one_congress(115)
+dbg118 <- debug_one_congress(118)
 ```
