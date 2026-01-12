@@ -3,6 +3,8 @@ Lizzie Tucker under the guidance of Prof. Wendy Tam
 Vanderbilt University
 Last Updated January 11, 2026
 
+The purpose of this REPO as a whole is to serve as a cosponsorship-centered data repository, making specifically sponsor and cosponsorship data a bit more accessible and easy to work with.
+
 This generates chamber, cosponsors, sponsors, and years vectors for every bill within Congress from the 108th to the 118th Congresses. It builds off of the data collected within the commonly-relied-upon congress GitHub, seen here: https://github.com/unitedstates/congress/wiki/bills. This is where all underlying bill data came from.
 
 ROADMAP FOR INTERACTING WITH THIS REPO:
